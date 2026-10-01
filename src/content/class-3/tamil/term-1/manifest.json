@@ -1,0 +1,18 @@
+{
+  "classLevel": 3,
+  "subject": "Tamil",
+  "term": "Term I",
+  "language": "ta-IN",
+  "activityCount": 144,
+  "version": "1.0.0",
+  "sourceVersion": "Stage 2 Revised",
+  "generatedDate": "2026-10-01T08:24:05.323Z",
+  "supportedCategories": [
+    "picture-recognition",
+    "word-completion",
+    "arrange-word",
+    "spelling-choice",
+    "context-choice",
+    "meaning-match"
+  ]
+}

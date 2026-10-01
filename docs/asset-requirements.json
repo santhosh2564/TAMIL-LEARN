@@ -1,0 +1,359 @@
+[
+  {
+    "activityId": "Q001",
+    "assetId": "class3-tamil-picture-q001",
+    "targetWord": "முயல்",
+    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Animal: முயல்",
+    "distractors": [
+      "மயில்",
+      "மான்",
+      "நாய்"
+    ],
+    "suggestedAlt": "முயல்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q001.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q001.webp",
+    "notes": "Meaning recognition + word retrieval"
+  },
+  {
+    "activityId": "Q003",
+    "assetId": "class3-tamil-picture-q003",
+    "targetWord": "பழம்",
+    "prompt": "இந்தப் படத்தில் உள்ள பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: பழம்",
+    "distractors": [
+      "பலம்",
+      "பழன்",
+      "பலம"
+    ],
+    "suggestedAlt": "பழம்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q003.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q003.webp",
+    "notes": "Meaning recognition + spelling"
+  },
+  {
+    "activityId": "Q005",
+    "assetId": "class3-tamil-picture-q005",
+    "targetWord": "நாய்",
+    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Animal: நாய்",
+    "distractors": [
+      "நாள்",
+      "நாண்",
+      "நான்"
+    ],
+    "suggestedAlt": "நாய்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q005.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q005.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q009",
+    "assetId": "class3-tamil-picture-q009",
+    "targetWord": "கடல்",
+    "prompt": "இந்தப் படத்தில் உள்ள பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: கடல்",
+    "distractors": [
+      "கடன்",
+      "கலம்",
+      "கதை"
+    ],
+    "suggestedAlt": "கடல்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q009.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q009.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q014",
+    "assetId": "class3-tamil-picture-q014",
+    "targetWord": "வண்ணங்கள்",
+    "prompt": "படத்தில் காணப்படும் பல்வேறு நிறங்களைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Concept: வண்ணங்கள்",
+    "distractors": [
+      "வனங்கள்",
+      "வண்ணகள்",
+      "வண்ணம்"
+    ],
+    "suggestedAlt": "வண்ணங்கள்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q014.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q014.webp",
+    "notes": "Meaning recognition + plural form"
+  },
+  {
+    "activityId": "Q026",
+    "assetId": "class3-tamil-picture-q026",
+    "targetWord": "குரங்கு",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Animal: குரங்கு",
+    "distractors": [
+      "குறங்கு",
+      "குறங்கி",
+      "குருவி"
+    ],
+    "suggestedAlt": "குரங்கு",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q026.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q026.webp",
+    "notes": "Meaning recognition + retrieval"
+  },
+  {
+    "activityId": "Q034",
+    "assetId": "class3-tamil-picture-q034",
+    "targetWord": "கடை",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Place/Location: கடை",
+    "distractors": [
+      "கதை",
+      "கடைல்",
+      "காடை"
+    ],
+    "suggestedAlt": "கடை",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q034.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q034.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q038",
+    "assetId": "class3-tamil-picture-q038",
+    "targetWord": "கல்",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: கல்",
+    "distractors": [
+      "கள்",
+      "கல",
+      "கால்"
+    ],
+    "suggestedAlt": "கல்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q038.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q038.webp",
+    "notes": "Meaning recognition; repeated word gets different task from U-007"
+  },
+  {
+    "activityId": "Q043",
+    "assetId": "class3-tamil-picture-q043",
+    "targetWord": "காசு",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: காசு",
+    "distractors": [
+      "காசல்",
+      "காடு",
+      "கால்"
+    ],
+    "suggestedAlt": "காசு",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q043.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q043.webp",
+    "notes": "Concrete object/meaning recognition"
+  },
+  {
+    "activityId": "Q055",
+    "assetId": "class3-tamil-picture-q055",
+    "targetWord": "செடி",
+    "prompt": "படத்தில் காணப்படும் தாவரத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Plant/Flora: செடி",
+    "distractors": [
+      "செதி",
+      "சேடி",
+      "செடு"
+    ],
+    "suggestedAlt": "செடி",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q055.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q055.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q066",
+    "assetId": "class3-tamil-picture-q066",
+    "targetWord": "தாத்தா",
+    "prompt": "படத்தில் காணப்படும் உறவினரின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Family member: தாத்தா",
+    "distractors": [
+      "தம்பி",
+      "தந்தை",
+      "அண்ணன்"
+    ],
+    "suggestedAlt": "தாத்தா",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q066.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q066.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q071",
+    "assetId": "class3-tamil-picture-q071",
+    "targetWord": "தெரு",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Place/Location: தெரு",
+    "distractors": [
+      "தேரு",
+      "தெரி",
+      "தெரம்"
+    ],
+    "suggestedAlt": "தெரு",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q071.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q071.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q079",
+    "assetId": "class3-tamil-picture-q079",
+    "targetWord": "நிலா",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: நிலா",
+    "distractors": [
+      "நிலை",
+      "நிலம்",
+      "நிலவு"
+    ],
+    "suggestedAlt": "நிலா",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q079.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q079.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q091",
+    "assetId": "class3-tamil-picture-q091",
+    "targetWord": "பம்பரம்",
+    "prompt": "இந்த விளையாட்டுப் பொருளைச் சுழற்றி விளையாடுவர். இதன் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Toy/Game: பம்பரம்",
+    "distractors": [
+      "பம்பறம்",
+      "பம்பரன்",
+      "பம்பாரம்"
+    ],
+    "suggestedAlt": "பம்பரம்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q091.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q091.webp",
+    "notes": "Repeated word gets spelling task"
+  },
+  {
+    "activityId": "Q101",
+    "assetId": "class3-tamil-picture-q101",
+    "targetWord": "பெட்டி",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: பெட்டி",
+    "distractors": [
+      "பெட்டை",
+      "பெட்டு",
+      "பேட்டி"
+    ],
+    "suggestedAlt": "பெட்டி",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q101.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q101.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q104",
+    "assetId": "class3-tamil-picture-q104",
+    "targetWord": "பை",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Object/Thing: பை",
+    "distractors": [
+      "பாய்",
+      "பனை",
+      "பல்"
+    ],
+    "suggestedAlt": "பை",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q104.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q104.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q123",
+    "assetId": "class3-tamil-picture-q123",
+    "targetWord": "ராஜா",
+    "prompt": "படத்தில் காணப்படும் அரசரைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Person/Role: ராஜா",
+    "distractors": [
+      "ராஜம்",
+      "ராசா",
+      "ராஜி"
+    ],
+    "suggestedAlt": "ராஜா",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q123.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q123.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q128",
+    "assetId": "class3-tamil-picture-q128",
+    "targetWord": "வயல்",
+    "prompt": "படத்தில் காணப்படும் விவசாய நிலத்தைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Agricultural concept: வயல்",
+    "distractors": [
+      "வயள்",
+      "வயன்",
+      "வாயல்"
+    ],
+    "suggestedAlt": "வயல்",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q128.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q128.webp",
+    "notes": "Meaning recognition"
+  },
+  {
+    "activityId": "Q133",
+    "assetId": "class3-tamil-picture-q133",
+    "targetWord": "வழி",
+    "prompt": "ஊருக்குச் செல்லும் ______ எது?",
+    "conceptSummary": "Concept: வழி",
+    "distractors": [
+      "வலி",
+      "வளி",
+      "வாலை"
+    ],
+    "suggestedAlt": "வழி",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q133.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q133.webp",
+    "notes": "Meaning recognition with controlled context"
+  },
+  {
+    "activityId": "Q138",
+    "assetId": "class3-tamil-picture-q138",
+    "targetWord": "விலங்கு",
+    "prompt": "படத்தில் காணப்படும் உயிரினத்தைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Living creature (general): விலங்கு",
+    "distractors": [
+      "விலங்கை",
+      "விளங்கு",
+      "விலங்கம்"
+    ],
+    "suggestedAlt": "விலங்கு",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q138.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q138.webp",
+    "notes": "Category/meaning recognition"
+  },
+  {
+    "activityId": "Q140",
+    "assetId": "class3-tamil-picture-q140",
+    "targetWord": "வீடு",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "conceptSummary": "Place/Location: வீடு",
+    "distractors": [
+      "வீதி",
+      "வீண்",
+      "வீடம்"
+    ],
+    "suggestedAlt": "வீடு",
+    "suggestedFilename": "public/assets/class-3/tamil/term-1/images/class3-tamil-picture-q140.webp",
+    "status": "resolved",
+    "source": "/assets/class-3/tamil/term-1/images/class3-tamil-picture-q140.webp",
+    "notes": "Meaning recognition"
+  }
+]

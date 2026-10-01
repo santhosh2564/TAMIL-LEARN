@@ -1,0 +1,5756 @@
+[
+  {
+    "id": "Q001",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "முயல்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "முயல்"
+      },
+      {
+        "id": "B",
+        "label": "மயில்"
+      },
+      {
+        "id": "C",
+        "label": "மான்"
+      },
+      {
+        "id": "D",
+        "label": "நாய்"
+      }
+    ],
+    "correctAnswer": "முயல்",
+    "learningObjective": "Meaning recognition + word retrieval",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q001",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q002",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "குதி",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "கு + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "தி"
+      },
+      {
+        "id": "B",
+        "label": "தீ"
+      },
+      {
+        "id": "C",
+        "label": "டி"
+      },
+      {
+        "id": "D",
+        "label": "து"
+      }
+    ],
+    "units": [
+      "தி",
+      "தீ",
+      "டி",
+      "து"
+    ],
+    "correctAnswer": "தி",
+    "learningObjective": "Correct letter-unit completion",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q002",
+      "originalActivity": "Drag & Drop Missing Unit"
+    }
+  },
+  {
+    "id": "Q003",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பழம்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "இந்தப் படத்தில் உள்ள பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பழம்"
+      },
+      {
+        "id": "B",
+        "label": "பலம்"
+      },
+      {
+        "id": "C",
+        "label": "பழன்"
+      },
+      {
+        "id": "D",
+        "label": "பலம"
+      }
+    ],
+    "correctAnswer": "பழம்",
+    "learningObjective": "Meaning recognition + spelling",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q003",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q004",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "படம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ப"
+      },
+      {
+        "id": "B",
+        "label": "ட"
+      },
+      {
+        "id": "C",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "ப",
+      "ட",
+      "ம்"
+    ],
+    "correctAnswer": "படம்",
+    "learningObjective": "Letter-order construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q004",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q005",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "நாய்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நாய்"
+      },
+      {
+        "id": "B",
+        "label": "நாள்"
+      },
+      {
+        "id": "C",
+        "label": "நாண்"
+      },
+      {
+        "id": "D",
+        "label": "நான்"
+      }
+    ],
+    "correctAnswer": "நாய்",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q005",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q006",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மான்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மான்"
+      },
+      {
+        "id": "B",
+        "label": "மாண்"
+      },
+      {
+        "id": "C",
+        "label": "மான"
+      },
+      {
+        "id": "D",
+        "label": "மண்"
+      }
+    ],
+    "correctAnswer": "மான்",
+    "learningObjective": "ஆ/அ and final form discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q006",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q007",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "க"
+      },
+      {
+        "id": "B",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "க",
+      "ல்"
+    ],
+    "correctAnswer": "கல்",
+    "learningObjective": "Correct sequence and final pulli form",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q007",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q008",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மலர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ம"
+      },
+      {
+        "id": "B",
+        "label": "ல"
+      },
+      {
+        "id": "C",
+        "label": "ர்"
+      }
+    ],
+    "units": [
+      "ம",
+      "ல",
+      "ர்"
+    ],
+    "correctAnswer": "மலர்",
+    "learningObjective": "Letter-order construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q008",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q009",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கடல்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "இந்தப் படத்தில் உள்ள பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கடல்"
+      },
+      {
+        "id": "B",
+        "label": "கடன்"
+      },
+      {
+        "id": "C",
+        "label": "கலம்"
+      },
+      {
+        "id": "D",
+        "label": "கதை"
+      }
+    ],
+    "correctAnswer": "கடல்",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q009",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q010",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பள்ளி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பள்ளி"
+      },
+      {
+        "id": "B",
+        "label": "பல்லி"
+      },
+      {
+        "id": "C",
+        "label": "பள்ளம்"
+      },
+      {
+        "id": "D",
+        "label": "நூலகம்"
+      }
+    ],
+    "correctAnswer": "பள்ளி",
+    "learningObjective": "ள்ளி spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q010",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q011",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மணி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கோவிலில் காலை நேரத்தில் ______ ஒலித்தது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மணி"
+      },
+      {
+        "id": "B",
+        "label": "மனி"
+      },
+      {
+        "id": "C",
+        "label": "மாணி"
+      },
+      {
+        "id": "D",
+        "label": "மானி"
+      }
+    ],
+    "correctAnswer": "மணி",
+    "learningObjective": "Contextual retrieval + spelling",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q011",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q012",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "புலி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "புலி"
+      },
+      {
+        "id": "B",
+        "label": "புளி"
+      },
+      {
+        "id": "C",
+        "label": "புலம்"
+      },
+      {
+        "id": "D",
+        "label": "புலன்"
+      }
+    ],
+    "correctAnswer": "புலி",
+    "learningObjective": "லி/ளி discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q012",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q013",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "எலி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "எலி"
+      },
+      {
+        "id": "B",
+        "label": "எளி"
+      },
+      {
+        "id": "C",
+        "label": "எழில்"
+      },
+      {
+        "id": "D",
+        "label": "எரி"
+      }
+    ],
+    "correctAnswer": "எலி",
+    "learningObjective": "ல/ள discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q013",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q014",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "வண்ணங்கள்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பல்வேறு நிறங்களைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வண்ணங்கள்"
+      },
+      {
+        "id": "B",
+        "label": "வனங்கள்"
+      },
+      {
+        "id": "C",
+        "label": "வண்ணகள்"
+      },
+      {
+        "id": "D",
+        "label": "வண்ணம்"
+      }
+    ],
+    "correctAnswer": "வண்ணங்கள்",
+    "learningObjective": "Meaning recognition + plural form",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q014",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q015",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கிழங்கு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கி"
+      },
+      {
+        "id": "B",
+        "label": "ழ"
+      },
+      {
+        "id": "C",
+        "label": "ங்"
+      },
+      {
+        "id": "D",
+        "label": "கு"
+      }
+    ],
+    "units": [
+      "கி",
+      "ழ",
+      "ங்",
+      "கு"
+    ],
+    "correctAnswer": "கிழங்கு",
+    "learningObjective": "Spelling sequence + ழ distinction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q015",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q016",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "ஊஞ்சல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விளையாட்டுப் பொருளின் பெயரை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ஊ"
+      },
+      {
+        "id": "B",
+        "label": "ஞ்"
+      },
+      {
+        "id": "C",
+        "label": "ச"
+      },
+      {
+        "id": "D",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "ஊ",
+      "ஞ்",
+      "ச",
+      "ல்"
+    ],
+    "correctAnswer": "ஊஞ்சல்",
+    "learningObjective": "Visual cue + spelling construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q016",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q017",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பம்பரம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைத்து விளையாட்டுப் பொருளின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ப"
+      },
+      {
+        "id": "B",
+        "label": "பம்"
+      },
+      {
+        "id": "C",
+        "label": "ரம்"
+      }
+    ],
+    "units": [
+      "ப",
+      "பம்",
+      "ரம்"
+    ],
+    "correctAnswer": "பம்பரம்",
+    "learningObjective": "ம்பர spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q017",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q018",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வண்டி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வன்டி"
+      },
+      {
+        "id": "B",
+        "label": "வண்டீ"
+      },
+      {
+        "id": "C",
+        "label": "வண்டி"
+      },
+      {
+        "id": "D",
+        "label": "வன்டீ"
+      }
+    ],
+    "correctAnswer": "வண்டி",
+    "learningObjective": "ண்/ன்-type orthographic discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q018",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q019",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "நண்பர்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "என்னுடன் விளையாடும் குழந்தை என் ______.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நன்பர்"
+      },
+      {
+        "id": "B",
+        "label": "நண்பர்"
+      },
+      {
+        "id": "C",
+        "label": "நண்பற்"
+      },
+      {
+        "id": "D",
+        "label": "நன்பற்"
+      }
+    ],
+    "correctAnswer": "நண்பர்",
+    "learningObjective": "ண்பர் spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q019",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q020",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கதைகள்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "கதை + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "கள்"
+      },
+      {
+        "id": "B",
+        "label": "கல்"
+      },
+      {
+        "id": "C",
+        "label": "கண்"
+      },
+      {
+        "id": "D",
+        "label": "கன்"
+      }
+    ],
+    "units": [
+      "கள்",
+      "கல்",
+      "கண்",
+      "கன்"
+    ],
+    "correctAnswer": "கள்",
+    "learningObjective": "கள் ending discrimination",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q020",
+      "originalActivity": "Drag & Drop Missing Ending"
+    }
+  },
+  {
+    "id": "Q021",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தண்ணீர்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தண்ணீர்"
+      },
+      {
+        "id": "B",
+        "label": "தணீர்"
+      },
+      {
+        "id": "C",
+        "label": "தன்னீர்"
+      },
+      {
+        "id": "D",
+        "label": "தண்ணி"
+      }
+    ],
+    "correctAnswer": "தண்ணீர்",
+    "learningObjective": "ண்ணீர் sequence",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q021",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q022",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தக்காளி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைத்து பழத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "த"
+      },
+      {
+        "id": "B",
+        "label": "க்"
+      },
+      {
+        "id": "C",
+        "label": "கா"
+      },
+      {
+        "id": "D",
+        "label": "ளி"
+      }
+    ],
+    "units": [
+      "த",
+      "க்",
+      "கா",
+      "ளி"
+    ],
+    "correctAnswer": "தக்காளி",
+    "learningObjective": "க்கா spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q022",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q023",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "எலுமிச்சை",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைத்து பழத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "எலு"
+      },
+      {
+        "id": "B",
+        "label": "மி"
+      },
+      {
+        "id": "C",
+        "label": "ச்சை"
+      }
+    ],
+    "units": [
+      "எலு",
+      "மி",
+      "ச்சை"
+    ],
+    "correctAnswer": "எலுமிச்சை",
+    "learningObjective": "Multi-unit spelling sequence",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q023",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q024",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பட்டம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "காற்றில் பறக்கவிடும் பொருளை ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பட்டம்"
+      },
+      {
+        "id": "B",
+        "label": "படம்"
+      },
+      {
+        "id": "C",
+        "label": "பட்டான்"
+      },
+      {
+        "id": "D",
+        "label": "பட்டு"
+      }
+    ],
+    "correctAnswer": "பட்டம்",
+    "learningObjective": "ட்டம் spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q024",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q025",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வானொலி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வான்"
+      },
+      {
+        "id": "B",
+        "label": "ஒலி"
+      }
+    ],
+    "units": [
+      "வான்",
+      "ஒலி"
+    ],
+    "correctAnswer": "வானொலி",
+    "learningObjective": "Word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q025",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q026",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "குரங்கு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "குரங்கு"
+      },
+      {
+        "id": "B",
+        "label": "குறங்கு"
+      },
+      {
+        "id": "C",
+        "label": "குறங்கி"
+      },
+      {
+        "id": "D",
+        "label": "குருவி"
+      }
+    ],
+    "correctAnswer": "குரங்கு",
+    "learningObjective": "Meaning recognition + retrieval",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q026",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q027",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "ஒட்டகச்சிவிங்கி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ஒட்ட"
+      },
+      {
+        "id": "B",
+        "label": "க"
+      },
+      {
+        "id": "C",
+        "label": "ச்சி"
+      },
+      {
+        "id": "D",
+        "label": "விங்"
+      },
+      {
+        "id": "E",
+        "label": "கி"
+      }
+    ],
+    "units": [
+      "ஒட்ட",
+      "க",
+      "ச்சி",
+      "விங்",
+      "கி"
+    ],
+    "correctAnswer": "ஒட்டகச்சிவிங்கி",
+    "learningObjective": "Long-word sequencing + retention",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q027",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q028",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "தொலைபேசி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Telephone” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தொலை"
+      },
+      {
+        "id": "B",
+        "label": "பேசி"
+      }
+    ],
+    "units": [
+      "தொலை",
+      "பேசி"
+    ],
+    "correctAnswer": "தொலைபேசி",
+    "learningObjective": "Concept → retrieval → spelling",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q028",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q029",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "மருத்துவமனை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மருத்துவமனை"
+      },
+      {
+        "id": "B",
+        "label": "மருத்துவர்"
+      },
+      {
+        "id": "C",
+        "label": "மருத்துவமணி"
+      },
+      {
+        "id": "D",
+        "label": "மருத்துவம்"
+      }
+    ],
+    "correctAnswer": "மருத்துவமனை",
+    "learningObjective": "Long-word spelling sequence",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q029",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q030",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "அவசர ஊர்தி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "அவசரநிலையில் நோயாளியை மருத்துவமனைக்கு அழைத்துச் செல்லும் வாகனம் ______.",
+    "options": [
+      {
+        "id": "A",
+        "label": "அவசர ஊர்தி"
+      },
+      {
+        "id": "B",
+        "label": "அவசர ஊர்வலம்"
+      },
+      {
+        "id": "C",
+        "label": "அவசர ஊராட்சி"
+      },
+      {
+        "id": "D",
+        "label": "அவசர ஊர்வண்டி"
+      }
+    ],
+    "correctAnswer": "அவசர ஊர்தி",
+    "learningObjective": "Meaning in realistic context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q030",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q031",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "ஒற்றுமை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Unity” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ஒற்றுமை"
+      },
+      {
+        "id": "B",
+        "label": "ஒற்றுமி"
+      },
+      {
+        "id": "C",
+        "label": "ஒற்றுமல்"
+      },
+      {
+        "id": "D",
+        "label": "ஒற்றுமன்"
+      }
+    ],
+    "correctAnswer": "ஒற்றுமை",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q031",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q032",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "ஒலி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ஒலி"
+      },
+      {
+        "id": "B",
+        "label": "ஒளி"
+      },
+      {
+        "id": "C",
+        "label": "ஒல"
+      },
+      {
+        "id": "D",
+        "label": "ஒலீ"
+      }
+    ],
+    "correctAnswer": "ஒலி",
+    "learningObjective": "ஒலி/ஒளி discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q032",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q033",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கடல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Ocean” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "க"
+      },
+      {
+        "id": "B",
+        "label": "ட"
+      },
+      {
+        "id": "C",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "க",
+      "ட",
+      "ல்"
+    ],
+    "correctAnswer": "கடல்",
+    "learningObjective": "Avoid repeated picture task; retrieval + construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q033",
+      "originalActivity": "English Meaning → Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q034",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கடை",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கடை"
+      },
+      {
+        "id": "B",
+        "label": "கதை"
+      },
+      {
+        "id": "C",
+        "label": "கடைல்"
+      },
+      {
+        "id": "D",
+        "label": "காடை"
+      }
+    ],
+    "correctAnswer": "கடை",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q034",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q035",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கண்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கண்"
+      },
+      {
+        "id": "B",
+        "label": "கன்"
+      },
+      {
+        "id": "C",
+        "label": "கண்ண்"
+      },
+      {
+        "id": "D",
+        "label": "கான்"
+      }
+    ],
+    "correctAnswer": "கண்",
+    "learningObjective": "ண்/ன்/ந் visual discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q035",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q036",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கதை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "க + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "தை"
+      },
+      {
+        "id": "B",
+        "label": "த"
+      },
+      {
+        "id": "C",
+        "label": "தா"
+      },
+      {
+        "id": "D",
+        "label": "தி"
+      }
+    ],
+    "units": [
+      "தை",
+      "த",
+      "தா",
+      "தி"
+    ],
+    "correctAnswer": "தை",
+    "learningObjective": "Missing letter completion",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q036",
+      "originalActivity": "Drag & Drop Missing Unit"
+    }
+  },
+  {
+    "id": "Q037",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கதைகள்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "கதை + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "கள்"
+      },
+      {
+        "id": "B",
+        "label": "கல்"
+      },
+      {
+        "id": "C",
+        "label": "கண்"
+      },
+      {
+        "id": "D",
+        "label": "கன்"
+      }
+    ],
+    "units": [
+      "கள்",
+      "கல்",
+      "கண்",
+      "கன்"
+    ],
+    "correctAnswer": "கள்",
+    "learningObjective": "கள் ending + spelling discrimination",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q037",
+      "originalActivity": "Drag & Drop Missing Ending"
+    }
+  },
+  {
+    "id": "Q038",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கல்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கல்"
+      },
+      {
+        "id": "B",
+        "label": "கள்"
+      },
+      {
+        "id": "C",
+        "label": "கல"
+      },
+      {
+        "id": "D",
+        "label": "கால்"
+      }
+    ],
+    "correctAnswer": "கல்",
+    "learningObjective": "Meaning recognition; repeated word gets different task from U-007",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q038",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q039",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கல்வி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பள்ளியில் மாணவர்கள் பெறும் அறிவையும் கற்றலையும் ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கல்வி"
+      },
+      {
+        "id": "B",
+        "label": "கலவி"
+      },
+      {
+        "id": "C",
+        "label": "கள்வி"
+      },
+      {
+        "id": "D",
+        "label": "கல்வீ"
+      }
+    ],
+    "correctAnswer": "கல்வி",
+    "learningObjective": "Abstract vocabulary in school context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q039",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q040",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கழுதை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கழுதை"
+      },
+      {
+        "id": "B",
+        "label": "களுதை"
+      },
+      {
+        "id": "C",
+        "label": "கழுதய்"
+      },
+      {
+        "id": "D",
+        "label": "குதிரை"
+      }
+    ],
+    "correctAnswer": "கழுதை",
+    "learningObjective": "ழ spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q040",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q041",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "கவி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Poem” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கவி"
+      },
+      {
+        "id": "B",
+        "label": "கவை"
+      },
+      {
+        "id": "C",
+        "label": "கவீ"
+      },
+      {
+        "id": "D",
+        "label": "கவ"
+      }
+    ],
+    "correctAnswer": "கவி",
+    "learningObjective": "Meaning → vocabulary retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q041",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q042",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "கவிஞர்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கவிதை எழுதுபவரை ______ என்று அழைப்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கவிஞர்"
+      },
+      {
+        "id": "B",
+        "label": "கவி"
+      },
+      {
+        "id": "C",
+        "label": "ஆசிரியர்"
+      },
+      {
+        "id": "D",
+        "label": "எழுத்து"
+      }
+    ],
+    "correctAnswer": "கவிஞர்",
+    "learningObjective": "Meaning + person/role identification",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q042",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q043",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "காசு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "காசு"
+      },
+      {
+        "id": "B",
+        "label": "காசல்"
+      },
+      {
+        "id": "C",
+        "label": "காடு"
+      },
+      {
+        "id": "D",
+        "label": "கால்"
+      }
+    ],
+    "correctAnswer": "காசு",
+    "learningObjective": "Concrete object/meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q043",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q044",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "காலை",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "நான் ______ நேரத்தில் பள்ளிக்குச் செல்கிறேன்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "காலை"
+      },
+      {
+        "id": "B",
+        "label": "மாலை"
+      },
+      {
+        "id": "C",
+        "label": "இரவு"
+      },
+      {
+        "id": "D",
+        "label": "காலைல்"
+      }
+    ],
+    "correctAnswer": "காலை",
+    "learningObjective": "Contextual meaning",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q044",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q045",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கிழங்கு",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கிழங்கு"
+      },
+      {
+        "id": "B",
+        "label": "கிலங்கு"
+      },
+      {
+        "id": "C",
+        "label": "கிளங்கு"
+      },
+      {
+        "id": "D",
+        "label": "கிழக்கு"
+      }
+    ],
+    "correctAnswer": "கிழங்கு",
+    "learningObjective": "Repeated word gets spelling-focused task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q045",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q046",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "குணம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Character / Quality” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "குணம்"
+      },
+      {
+        "id": "B",
+        "label": "கனம்"
+      },
+      {
+        "id": "C",
+        "label": "குணன்"
+      },
+      {
+        "id": "D",
+        "label": "குனம்"
+      }
+    ],
+    "correctAnswer": "குணம்",
+    "learningObjective": "Abstract meaning retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q046",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q047",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "குதி",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "“Jump” என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கவும்: கு + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "தி"
+      },
+      {
+        "id": "B",
+        "label": "தீ"
+      },
+      {
+        "id": "C",
+        "label": "டி"
+      },
+      {
+        "id": "D",
+        "label": "து"
+      }
+    ],
+    "units": [
+      "தி",
+      "தீ",
+      "டி",
+      "து"
+    ],
+    "correctAnswer": "தி",
+    "learningObjective": "Repeated word gets completion task",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q047",
+      "originalActivity": "English Meaning + Missing Unit"
+    }
+  },
+  {
+    "id": "Q048",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "குப்பை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "குப்பை"
+      },
+      {
+        "id": "B",
+        "label": "குபை"
+      },
+      {
+        "id": "C",
+        "label": "குப்பய்"
+      },
+      {
+        "id": "D",
+        "label": "கும்பை"
+      }
+    ],
+    "correctAnswer": "குப்பை",
+    "learningObjective": "Meaning + spelling",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q048",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q049",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "குரங்கு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கு"
+      },
+      {
+        "id": "B",
+        "label": "ர"
+      },
+      {
+        "id": "C",
+        "label": "ங்"
+      },
+      {
+        "id": "D",
+        "label": "கு"
+      }
+    ],
+    "units": [
+      "கு",
+      "ர",
+      "ங்",
+      "கு"
+    ],
+    "correctAnswer": "குரங்கு",
+    "learningObjective": "Picture cue + word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q049",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q050",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கூட்டம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பூங்காவில் ஒரு பெரிய ______ இருந்தது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "கூட்டம்"
+      },
+      {
+        "id": "B",
+        "label": "கூட்டல்"
+      },
+      {
+        "id": "C",
+        "label": "கூடை"
+      },
+      {
+        "id": "D",
+        "label": "கூட்டி"
+      }
+    ],
+    "correctAnswer": "கூட்டம்",
+    "learningObjective": "Meaning in sentence",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q050",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q051",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "சக்கரம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ச"
+      },
+      {
+        "id": "B",
+        "label": "க்"
+      },
+      {
+        "id": "C",
+        "label": "க"
+      },
+      {
+        "id": "D",
+        "label": "ர"
+      },
+      {
+        "id": "E",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "ச",
+      "க்",
+      "க",
+      "ர",
+      "ம்"
+    ],
+    "correctAnswer": "சக்கரம்",
+    "learningObjective": "Longer concrete word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q051",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q052",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "சாணம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "சாணம்"
+      },
+      {
+        "id": "B",
+        "label": "சானம்"
+      },
+      {
+        "id": "C",
+        "label": "சனம்"
+      },
+      {
+        "id": "D",
+        "label": "சாணன்"
+      }
+    ],
+    "correctAnswer": "சாணம்",
+    "learningObjective": "ண/ன spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q052",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q053",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "சான்றோர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "பொருளுக்கேற்ற தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "சான்"
+      },
+      {
+        "id": "B",
+        "label": "றோ"
+      },
+      {
+        "id": "C",
+        "label": "ர்"
+      }
+    ],
+    "units": [
+      "சான்",
+      "றோ",
+      "ர்"
+    ],
+    "correctAnswer": "சான்றோர்",
+    "learningObjective": "Less familiar vocabulary retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q053",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q054",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "சுற்றுச்சூழல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Environment” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "சு"
+      },
+      {
+        "id": "B",
+        "label": "ற்"
+      },
+      {
+        "id": "C",
+        "label": "று"
+      },
+      {
+        "id": "D",
+        "label": "ச்"
+      },
+      {
+        "id": "E",
+        "label": "சூ"
+      },
+      {
+        "id": "F",
+        "label": "ழ"
+      },
+      {
+        "id": "G",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "சு",
+      "ற்",
+      "று",
+      "ச்",
+      "சூ",
+      "ழ",
+      "ல்"
+    ],
+    "correctAnswer": "சுற்றுச்சூழல்",
+    "learningObjective": "Long abstract word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q054",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q055",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "செடி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் தாவரத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "செடி"
+      },
+      {
+        "id": "B",
+        "label": "செதி"
+      },
+      {
+        "id": "C",
+        "label": "சேடி"
+      },
+      {
+        "id": "D",
+        "label": "செடு"
+      }
+    ],
+    "correctAnswer": "செடி",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q055",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q056",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "செம்மொழி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Classical language” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "செம்மொழி"
+      },
+      {
+        "id": "B",
+        "label": "செம்மொலி"
+      },
+      {
+        "id": "C",
+        "label": "செம்மொழல்"
+      },
+      {
+        "id": "D",
+        "label": "செம்மொழன்"
+      }
+    ],
+    "correctAnswer": "செம்மொழி",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q056",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q057",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "செய்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "செ + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "ய்"
+      },
+      {
+        "id": "B",
+        "label": "யி"
+      },
+      {
+        "id": "C",
+        "label": "யா"
+      },
+      {
+        "id": "D",
+        "label": "யு"
+      }
+    ],
+    "units": [
+      "ய்",
+      "யி",
+      "யா",
+      "யு"
+    ],
+    "correctAnswer": "ய்",
+    "learningObjective": "Verb-form spelling",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q057",
+      "originalActivity": "Drag & Drop Missing Unit"
+    }
+  },
+  {
+    "id": "Q058",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "செய்தி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "அம்மா இன்று ஒரு முக்கியமான ______ சொன்னார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "செய்தி"
+      },
+      {
+        "id": "B",
+        "label": "சேய்தி"
+      },
+      {
+        "id": "C",
+        "label": "செய்த"
+      },
+      {
+        "id": "D",
+        "label": "செய்"
+      }
+    ],
+    "correctAnswer": "செய்தி",
+    "learningObjective": "Meaning + spelling in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q058",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q059",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "செல்வம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Wealth” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "செல்வம்"
+      },
+      {
+        "id": "B",
+        "label": "செல்வன்"
+      },
+      {
+        "id": "C",
+        "label": "செல்வி"
+      },
+      {
+        "id": "D",
+        "label": "செல்வாம்"
+      }
+    ],
+    "correctAnswer": "செல்வம்",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q059",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q060",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தகுதி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "ஒரு வேலையைச் செய்யத் தேவையான திறனை ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தகுதி"
+      },
+      {
+        "id": "B",
+        "label": "தயக்கம்"
+      },
+      {
+        "id": "C",
+        "label": "திறமை"
+      },
+      {
+        "id": "D",
+        "label": "முயற்சி"
+      }
+    ],
+    "correctAnswer": "தகுதி",
+    "learningObjective": "Contextual meaning + spelling",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q060",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q061",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தக்காளி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "த"
+      },
+      {
+        "id": "B",
+        "label": "க்"
+      },
+      {
+        "id": "C",
+        "label": "கா"
+      },
+      {
+        "id": "D",
+        "label": "ளி"
+      }
+    ],
+    "units": [
+      "த",
+      "க்",
+      "கா",
+      "ளி"
+    ],
+    "correctAnswer": "தக்காளி",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q061",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q062",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "தண்டோரா",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "ஊரில் ஒரு முக்கியமான செய்தியை அனைவருக்கும் தெரிவிக்க ______ அடிக்கப்பட்டது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தண்டோரா"
+      },
+      {
+        "id": "B",
+        "label": "தண்டோரம்"
+      },
+      {
+        "id": "C",
+        "label": "தண்டனை"
+      },
+      {
+        "id": "D",
+        "label": "தண்ணீர்"
+      }
+    ],
+    "correctAnswer": "தண்டோரா",
+    "learningObjective": "Contextual retrieval of less common word",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q062",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q063",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தண்ணீர்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தண்ணீர்"
+      },
+      {
+        "id": "B",
+        "label": "தணீர்"
+      },
+      {
+        "id": "C",
+        "label": "தன்னீர்"
+      },
+      {
+        "id": "D",
+        "label": "தண்ணிர்"
+      }
+    ],
+    "correctAnswer": "தண்ணீர்",
+    "learningObjective": "Repeated word gets spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q063",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q064",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "தன்னம்பிக்கை",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Self-confidence” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "த"
+      },
+      {
+        "id": "B",
+        "label": "ன்"
+      },
+      {
+        "id": "C",
+        "label": "ன"
+      },
+      {
+        "id": "D",
+        "label": "ம்"
+      },
+      {
+        "id": "E",
+        "label": "பி"
+      },
+      {
+        "id": "F",
+        "label": "க்"
+      },
+      {
+        "id": "G",
+        "label": "கை"
+      }
+    ],
+    "units": [
+      "த",
+      "ன்",
+      "ன",
+      "ம்",
+      "பி",
+      "க்",
+      "கை"
+    ],
+    "correctAnswer": "தன்னம்பிக்கை",
+    "learningObjective": "Abstract long-word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q064",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q065",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தயக்கம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "புதிய நண்பர்களிடம் பேச அவனுக்கு ______ இருந்தது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தயக்கம்"
+      },
+      {
+        "id": "B",
+        "label": "தயவு"
+      },
+      {
+        "id": "C",
+        "label": "பயம்"
+      },
+      {
+        "id": "D",
+        "label": "குழப்பம்"
+      }
+    ],
+    "correctAnswer": "தயக்கம்",
+    "learningObjective": "Meaning in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q065",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q066",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "தாத்தா",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் உறவினரின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தாத்தா"
+      },
+      {
+        "id": "B",
+        "label": "தம்பி"
+      },
+      {
+        "id": "C",
+        "label": "தந்தை"
+      },
+      {
+        "id": "D",
+        "label": "அண்ணன்"
+      }
+    ],
+    "correctAnswer": "தாத்தா",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q066",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q067",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "திகைப்பு",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Confusion / bewilderment” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "திகைப்பு"
+      },
+      {
+        "id": "B",
+        "label": "திகை"
+      },
+      {
+        "id": "C",
+        "label": "திகழ்ப்பு"
+      },
+      {
+        "id": "D",
+        "label": "தயக்கம்"
+      }
+    ],
+    "correctAnswer": "திகைப்பு",
+    "learningObjective": "Emotion vocabulary retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q067",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q068",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "திமிங்கலம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் கடல்வாழ் உயிரினத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தி"
+      },
+      {
+        "id": "B",
+        "label": "மி"
+      },
+      {
+        "id": "C",
+        "label": "ங்"
+      },
+      {
+        "id": "D",
+        "label": "க"
+      },
+      {
+        "id": "E",
+        "label": "லம்"
+      }
+    ],
+    "units": [
+      "தி",
+      "மி",
+      "ங்",
+      "க",
+      "லம்"
+    ],
+    "correctAnswer": "திமிங்கலம்",
+    "learningObjective": "Long animal word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q068",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q069",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "திறமை",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "ஒரு வேலையை நன்றாகச் செய்யும் திறனை ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "திறமை"
+      },
+      {
+        "id": "B",
+        "label": "தயக்கம்"
+      },
+      {
+        "id": "C",
+        "label": "தகுதி"
+      },
+      {
+        "id": "D",
+        "label": "முயற்சி"
+      }
+    ],
+    "correctAnswer": "திறமை",
+    "learningObjective": "Abstract quality in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q069",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q070",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "தீது",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தீது"
+      },
+      {
+        "id": "B",
+        "label": "திது"
+      },
+      {
+        "id": "C",
+        "label": "தீத"
+      },
+      {
+        "id": "D",
+        "label": "தீத்து"
+      }
+    ],
+    "correctAnswer": "தீது",
+    "learningObjective": "தீ/தி distinction",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q070",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q071",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "தெரு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தெரு"
+      },
+      {
+        "id": "B",
+        "label": "தேரு"
+      },
+      {
+        "id": "C",
+        "label": "தெரி"
+      },
+      {
+        "id": "D",
+        "label": "தெரம்"
+      }
+    ],
+    "correctAnswer": "தெரு",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q071",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q072",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "தொலைபேசி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தொலைபேசி"
+      },
+      {
+        "id": "B",
+        "label": "தொலைபேசு"
+      },
+      {
+        "id": "C",
+        "label": "தொலைப்பேசி"
+      },
+      {
+        "id": "D",
+        "label": "தொலைபேசீ"
+      }
+    ],
+    "correctAnswer": "தொலைபேசி",
+    "learningObjective": "Repeated word gets spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q072",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q073",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "தோன்றுகின்ற",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கிழக்கில் ______ சூரியனைப் பார்த்து குழந்தைகள் மகிழ்ந்தனர்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தோன்றுகின்ற"
+      },
+      {
+        "id": "B",
+        "label": "தோன்றியது"
+      },
+      {
+        "id": "C",
+        "label": "தோன்றுகிற"
+      },
+      {
+        "id": "D",
+        "label": "தோன்றுக"
+      }
+    ],
+    "correctAnswer": "தோன்றுகின்ற",
+    "learningObjective": "Verb-form/context retrieval",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q073",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q074",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "நண்பர்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "என் ______ எனக்கு பிறந்தநாள் பரிசு கொடுத்தார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நண்பர்"
+      },
+      {
+        "id": "B",
+        "label": "நன்பர்"
+      },
+      {
+        "id": "C",
+        "label": "நண்பற்"
+      },
+      {
+        "id": "D",
+        "label": "நன்பற்"
+      }
+    ],
+    "correctAnswer": "நண்பர்",
+    "learningObjective": "Repeated word gets context task",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q074",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q075",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "நன்று",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நன்று"
+      },
+      {
+        "id": "B",
+        "label": "நனறு"
+      },
+      {
+        "id": "C",
+        "label": "நன்ற"
+      },
+      {
+        "id": "D",
+        "label": "நண்டு"
+      }
+    ],
+    "correctAnswer": "நன்று",
+    "learningObjective": "ன்ற spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q075",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q076",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "நம்பிக்கை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Confidence / hope” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நம்பிக்கை"
+      },
+      {
+        "id": "B",
+        "label": "நம்பிகை"
+      },
+      {
+        "id": "C",
+        "label": "நம்பிக்கி"
+      },
+      {
+        "id": "D",
+        "label": "நம்பிக்கம்"
+      }
+    ],
+    "correctAnswer": "நம்பிக்கை",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q076",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q077",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "நாய்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நா"
+      },
+      {
+        "id": "B",
+        "label": "ய்"
+      }
+    ],
+    "units": [
+      "நா",
+      "ய்"
+    ],
+    "correctAnswer": "நாய்",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q077",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q078",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "நாளிதழ்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Newspaper” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நாள்"
+      },
+      {
+        "id": "B",
+        "label": "இதழ்"
+      }
+    ],
+    "units": [
+      "நாள்",
+      "இதழ்"
+    ],
+    "correctAnswer": "நாளிதழ்",
+    "learningObjective": "Meaning + long-word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q078",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q079",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "நிலா",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நிலா"
+      },
+      {
+        "id": "B",
+        "label": "நிலை"
+      },
+      {
+        "id": "C",
+        "label": "நிலம்"
+      },
+      {
+        "id": "D",
+        "label": "நிலவு"
+      }
+    ],
+    "correctAnswer": "நிலா",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q079",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q080",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "நூலகம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நூ"
+      },
+      {
+        "id": "B",
+        "label": "ல"
+      },
+      {
+        "id": "C",
+        "label": "க"
+      },
+      {
+        "id": "D",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "நூ",
+      "ல",
+      "க",
+      "ம்"
+    ],
+    "correctAnswer": "நூலகம்",
+    "learningObjective": "Place-name spelling construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q080",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q081",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "நூல்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படிக்கப் பயன்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நூல்"
+      },
+      {
+        "id": "B",
+        "label": "நூள்"
+      },
+      {
+        "id": "C",
+        "label": "நுல்"
+      },
+      {
+        "id": "D",
+        "label": "நூல"
+      }
+    ],
+    "correctAnswer": "நூல்",
+    "learningObjective": "ல் ending discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q081",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q082",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "நெகிழி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நெ"
+      },
+      {
+        "id": "B",
+        "label": "கி"
+      },
+      {
+        "id": "C",
+        "label": "ழி"
+      }
+    ],
+    "units": [
+      "நெ",
+      "கி",
+      "ழி"
+    ],
+    "correctAnswer": "நெகிழி",
+    "learningObjective": "ழி spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q082",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q083",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "நெல்மணி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நெ"
+      },
+      {
+        "id": "B",
+        "label": "ல்"
+      },
+      {
+        "id": "C",
+        "label": "ம"
+      },
+      {
+        "id": "D",
+        "label": "ணி"
+      }
+    ],
+    "units": [
+      "நெ",
+      "ல்",
+      "ம",
+      "ணி"
+    ],
+    "correctAnswer": "நெல்மணி",
+    "learningObjective": "Compound/long-word sequencing",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q083",
+      "originalActivity": "Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q084",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "நேர்மை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Honesty” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "நேர்மை"
+      },
+      {
+        "id": "B",
+        "label": "நேர்ம"
+      },
+      {
+        "id": "C",
+        "label": "நேர்மைல்"
+      },
+      {
+        "id": "D",
+        "label": "நேர்மைன்"
+      }
+    ],
+    "correctAnswer": "நேர்மை",
+    "learningObjective": "Abstract value retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q084",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q085",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "படம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "படம்"
+      },
+      {
+        "id": "B",
+        "label": "பாடம்"
+      },
+      {
+        "id": "C",
+        "label": "படை"
+      },
+      {
+        "id": "D",
+        "label": "படன்"
+      }
+    ],
+    "correctAnswer": "படம்",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q085",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
+    "id": "Q086",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "படி",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "புத்தகத்தைப் ______. ப + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "டி"
+      },
+      {
+        "id": "B",
+        "label": "தி"
+      },
+      {
+        "id": "C",
+        "label": "டு"
+      },
+      {
+        "id": "D",
+        "label": "டா"
+      }
+    ],
+    "units": [
+      "டி",
+      "தி",
+      "டு",
+      "டா"
+    ],
+    "correctAnswer": "டி",
+    "learningObjective": "Verb spelling completion",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q086",
+      "originalActivity": "Drag & Drop Missing Unit"
+    }
+  },
+  {
+    "id": "Q087",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "படை",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "நாட்டைக் காக்க ஒரு பெரிய ______ அமைக்கப்பட்டது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "படை"
+      },
+      {
+        "id": "B",
+        "label": "படி"
+      },
+      {
+        "id": "C",
+        "label": "படைப்பு"
+      },
+      {
+        "id": "D",
+        "label": "படகு"
+      }
+    ],
+    "correctAnswer": "படை",
+    "learningObjective": "Meaning discrimination in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q087",
+      "originalActivity": "Context → Select/Drag"
+    }
+  },
+  {
+    "id": "Q088",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "படைத்தளபதி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Army commander” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ப"
+      },
+      {
+        "id": "B",
+        "label": "டை"
+      },
+      {
+        "id": "C",
+        "label": "த்"
+      },
+      {
+        "id": "D",
+        "label": "த"
+      },
+      {
+        "id": "E",
+        "label": "ள"
+      },
+      {
+        "id": "F",
+        "label": "ப"
+      },
+      {
+        "id": "G",
+        "label": "தி"
+      }
+    ],
+    "units": [
+      "ப",
+      "டை",
+      "த்",
+      "த",
+      "ள",
+      "ப",
+      "தி"
+    ],
+    "correctAnswer": "படைத்தளபதி",
+    "learningObjective": "Long compound word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q088",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q089",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பட்டம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விளையாட்டுப் பொருளின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ப"
+      },
+      {
+        "id": "B",
+        "label": "ட்"
+      },
+      {
+        "id": "C",
+        "label": "ட"
+      },
+      {
+        "id": "D",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "ப",
+      "ட்",
+      "ட",
+      "ம்"
+    ],
+    "correctAnswer": "பட்டம்",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q089",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q090",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "பதற்றம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Anxiety / nervousness” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பதற்றம்"
+      },
+      {
+        "id": "B",
+        "label": "பதரம்"
+      },
+      {
+        "id": "C",
+        "label": "பதட்டம்"
+      },
+      {
+        "id": "D",
+        "label": "பதற்றன்"
+      }
+    ],
+    "correctAnswer": "பதற்றம்",
+    "learningObjective": "Abstract emotion retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q090",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q091",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பம்பரம்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "இந்த விளையாட்டுப் பொருளைச் சுழற்றி விளையாடுவர். இதன் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பம்பரம்"
+      },
+      {
+        "id": "B",
+        "label": "பம்பறம்"
+      },
+      {
+        "id": "C",
+        "label": "பம்பரன்"
+      },
+      {
+        "id": "D",
+        "label": "பம்பாரம்"
+      }
+    ],
+    "correctAnswer": "பம்பரம்",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q091",
+      "originalActivity": "Picture → Context/Select"
+    }
+  },
+  {
+    "id": "Q092",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பயணம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "நாங்கள் பேருந்தில் நீண்ட ______ சென்றோம்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பயணம்"
+      },
+      {
+        "id": "B",
+        "label": "பயனம்"
+      },
+      {
+        "id": "C",
+        "label": "பயிற்சி"
+      },
+      {
+        "id": "D",
+        "label": "பயனர்"
+      }
+    ],
+    "correctAnswer": "பயணம்",
+    "learningObjective": "Meaning in travel context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q092",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q093",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பள்ளி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ப"
+      },
+      {
+        "id": "B",
+        "label": "ள்"
+      },
+      {
+        "id": "C",
+        "label": "ளி"
+      }
+    ],
+    "units": [
+      "ப",
+      "ள்",
+      "ளி"
+    ],
+    "correctAnswer": "பள்ளி",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q093",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q094",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பழம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பழத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பழம்"
+      },
+      {
+        "id": "B",
+        "label": "பலம்"
+      },
+      {
+        "id": "C",
+        "label": "பளம்"
+      },
+      {
+        "id": "D",
+        "label": "பழன்"
+      }
+    ],
+    "correctAnswer": "பழம்",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q094",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q095",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பாட்டு",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பாட்டி குழந்தையைத் தூங்க வைக்க இனிமையான ______ பாடினார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பாட்டு"
+      },
+      {
+        "id": "B",
+        "label": "பாடம்"
+      },
+      {
+        "id": "C",
+        "label": "பாடு"
+      },
+      {
+        "id": "D",
+        "label": "பாடி"
+      }
+    ],
+    "correctAnswer": "பாட்டு",
+    "learningObjective": "Meaning in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q095",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q096",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பாராட்டு",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பரிசு பெற்ற மாணவிக்கு ஆசிரியர் ______ தெரிவித்தார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பாராட்டு"
+      },
+      {
+        "id": "B",
+        "label": "பரிசு"
+      },
+      {
+        "id": "C",
+        "label": "முயற்சி"
+      },
+      {
+        "id": "D",
+        "label": "பாரம்"
+      }
+    ],
+    "correctAnswer": "பாராட்டு",
+    "learningObjective": "Meaning + contextual use",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q096",
+      "originalActivity": "Context → Select/Drag"
+    }
+  },
+  {
+    "id": "Q097",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "புதிர்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Riddle” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "புதிர்"
+      },
+      {
+        "id": "B",
+        "label": "புதர்"
+      },
+      {
+        "id": "C",
+        "label": "புதிய"
+      },
+      {
+        "id": "D",
+        "label": "புதை"
+      }
+    ],
+    "correctAnswer": "புதிர்",
+    "learningObjective": "Meaning retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q097",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q098",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "புத்தகம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பு"
+      },
+      {
+        "id": "B",
+        "label": "த்"
+      },
+      {
+        "id": "C",
+        "label": "த"
+      },
+      {
+        "id": "D",
+        "label": "க"
+      },
+      {
+        "id": "E",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "பு",
+      "த்",
+      "த",
+      "க",
+      "ம்"
+    ],
+    "correctAnswer": "புத்தகம்",
+    "learningObjective": "Concrete word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q098",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q099",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "புலி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "புலி"
+      },
+      {
+        "id": "B",
+        "label": "புளி"
+      },
+      {
+        "id": "C",
+        "label": "புலன்"
+      },
+      {
+        "id": "D",
+        "label": "புலம்"
+      }
+    ],
+    "correctAnswer": "புலி",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q099",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q100",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பூதம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கதையில் பயமுறுத்தும் ______ பற்றி குழந்தைகள் கேட்டனர்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பூதம்"
+      },
+      {
+        "id": "B",
+        "label": "பூதல்"
+      },
+      {
+        "id": "C",
+        "label": "பூமி"
+      },
+      {
+        "id": "D",
+        "label": "பூச்சி"
+      }
+    ],
+    "correctAnswer": "பூதம்",
+    "learningObjective": "Meaning in story context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q100",
+      "originalActivity": "Context → Select/Drag"
+    }
+  },
+  {
+    "id": "Q101",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பெட்டி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பெட்டி"
+      },
+      {
+        "id": "B",
+        "label": "பெட்டை"
+      },
+      {
+        "id": "C",
+        "label": "பெட்டு"
+      },
+      {
+        "id": "D",
+        "label": "பேட்டி"
+      }
+    ],
+    "correctAnswer": "பெட்டி",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q101",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q102",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "பெரியவர்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "சாலையைக் கடக்கும்போது ஒரு ______ எனக்கு உதவி செய்தார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பெரியவர்"
+      },
+      {
+        "id": "B",
+        "label": "பெரியவன்"
+      },
+      {
+        "id": "C",
+        "label": "பெரியது"
+      },
+      {
+        "id": "D",
+        "label": "பெரியவள்"
+      }
+    ],
+    "correctAnswer": "பெரியவர்",
+    "learningObjective": "Meaning in social context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q102",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q103",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "பேருந்து",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் வாகனத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பே"
+      },
+      {
+        "id": "B",
+        "label": "ரு"
+      },
+      {
+        "id": "C",
+        "label": "ந்"
+      },
+      {
+        "id": "D",
+        "label": "து"
+      }
+    ],
+    "units": [
+      "பே",
+      "ரு",
+      "ந்",
+      "து"
+    ],
+    "correctAnswer": "பேருந்து",
+    "learningObjective": "Long word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q103",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q104",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பை",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பை"
+      },
+      {
+        "id": "B",
+        "label": "பாய்"
+      },
+      {
+        "id": "C",
+        "label": "பனை"
+      },
+      {
+        "id": "D",
+        "label": "பல்"
+      }
+    ],
+    "correctAnswer": "பை",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q104",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q105",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "பொய்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "உண்மைக்கு மாறாகச் சொல்வதை ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "பொய்"
+      },
+      {
+        "id": "B",
+        "label": "போய்"
+      },
+      {
+        "id": "C",
+        "label": "பொயி"
+      },
+      {
+        "id": "D",
+        "label": "பொய்ய்"
+      }
+    ],
+    "correctAnswer": "பொய்",
+    "learningObjective": "Meaning + spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q105",
+      "originalActivity": "Context → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q106",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "போட்டி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "ஓட்டப் ______யில் மாணவர்கள் ஆர்வமாகப் பங்கேற்றனர்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "போட்டி"
+      },
+      {
+        "id": "B",
+        "label": "போற்றி"
+      },
+      {
+        "id": "C",
+        "label": "போட்டான்"
+      },
+      {
+        "id": "D",
+        "label": "போதை"
+      }
+    ],
+    "correctAnswer": "போட்டி",
+    "learningObjective": "Meaning in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q106",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q107",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மகிழ்ச்சி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Happiness” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மகிழ்ச்சி"
+      },
+      {
+        "id": "B",
+        "label": "மகிழ்ந்த"
+      },
+      {
+        "id": "C",
+        "label": "மகிழன்"
+      },
+      {
+        "id": "D",
+        "label": "மகிழ்ச்சல்"
+      }
+    ],
+    "correctAnswer": "மகிழ்ச்சி",
+    "learningObjective": "Emotion vocabulary retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q107",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q108",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மணல்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மணல்"
+      },
+      {
+        "id": "B",
+        "label": "மனல்"
+      },
+      {
+        "id": "C",
+        "label": "மணள்"
+      },
+      {
+        "id": "D",
+        "label": "மனள்"
+      }
+    ],
+    "correctAnswer": "மணல்",
+    "learningObjective": "ண/ன discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q108",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q109",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மணி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Bell” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மணி"
+      },
+      {
+        "id": "B",
+        "label": "மனி"
+      },
+      {
+        "id": "C",
+        "label": "மாணி"
+      },
+      {
+        "id": "D",
+        "label": "மானி"
+      }
+    ],
+    "correctAnswer": "மணி",
+    "learningObjective": "Repeated word gets retrieval task",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q109",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q110",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மண்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "படத்தில் காணப்படுவது: ம + [____]",
+    "options": [
+      {
+        "id": "A",
+        "label": "ண்"
+      },
+      {
+        "id": "B",
+        "label": "ன்"
+      },
+      {
+        "id": "C",
+        "label": "ண"
+      },
+      {
+        "id": "D",
+        "label": "ந்"
+      }
+    ],
+    "units": [
+      "ண்",
+      "ன்",
+      "ண",
+      "ந்"
+    ],
+    "correctAnswer": "ண்",
+    "learningObjective": "ண் ending discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q110",
+      "originalActivity": "Picture → Missing Unit"
+    }
+  },
+  {
+    "id": "Q111",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மன்னர்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பழங்காலத்தில் நாட்டை ஆட்சி செய்தவரை ______ என்று அழைத்தனர்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மன்னர்"
+      },
+      {
+        "id": "B",
+        "label": "அமைச்சர்"
+      },
+      {
+        "id": "C",
+        "label": "வீரர்"
+      },
+      {
+        "id": "D",
+        "label": "ஆசிரியர்"
+      }
+    ],
+    "correctAnswer": "மன்னர்",
+    "learningObjective": "Meaning in historical context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q111",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q112",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மரியாதை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Respect” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மரியாதை"
+      },
+      {
+        "id": "B",
+        "label": "மரியாதம்"
+      },
+      {
+        "id": "C",
+        "label": "மரியாதன்"
+      },
+      {
+        "id": "D",
+        "label": "மரியாதைல்"
+      }
+    ],
+    "correctAnswer": "மரியாதை",
+    "learningObjective": "Abstract value retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q112",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q113",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "மருத்துவமனை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மருத்துவமனை"
+      },
+      {
+        "id": "B",
+        "label": "மருத்துவமணி"
+      },
+      {
+        "id": "C",
+        "label": "மருத்துமனை"
+      },
+      {
+        "id": "D",
+        "label": "மருத்துவமனைல்"
+      }
+    ],
+    "correctAnswer": "மருத்துவமனை",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q113",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q114",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மலர்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Flower” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மலர்"
+      },
+      {
+        "id": "B",
+        "label": "மலன்"
+      },
+      {
+        "id": "C",
+        "label": "மளர்"
+      },
+      {
+        "id": "D",
+        "label": "மலற்"
+      }
+    ],
+    "correctAnswer": "மலர்",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q114",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q115",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மாசு",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Pollution” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மாசு"
+      },
+      {
+        "id": "B",
+        "label": "மாசம்"
+      },
+      {
+        "id": "C",
+        "label": "மாசல்"
+      },
+      {
+        "id": "D",
+        "label": "மாசன்"
+      }
+    ],
+    "correctAnswer": "மாசு",
+    "learningObjective": "Abstract/environment concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q115",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q116",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மான்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Deer” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மான்"
+      },
+      {
+        "id": "B",
+        "label": "மாண்"
+      },
+      {
+        "id": "C",
+        "label": "மான"
+      },
+      {
+        "id": "D",
+        "label": "மண்"
+      }
+    ],
+    "correctAnswer": "மான்",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q116",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q117",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மாற்றம்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பழைய முறையைப் புதிய முறையாக மாற்றுவதை ______ என்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மாற்றம்"
+      },
+      {
+        "id": "B",
+        "label": "மாறுபாடு"
+      },
+      {
+        "id": "C",
+        "label": "முயற்சி"
+      },
+      {
+        "id": "D",
+        "label": "வளர்ச்சி"
+      }
+    ],
+    "correctAnswer": "மாற்றம்",
+    "learningObjective": "Meaning in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q117",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q118",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "முதலாளி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "தொழிலாளர்களுக்கு வேலை வழங்கும் நிறுவனத்தின் உரிமையாளரை ______ என்று அழைப்பார்கள்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "முதலாளி"
+      },
+      {
+        "id": "B",
+        "label": "தொழிலாளி"
+      },
+      {
+        "id": "C",
+        "label": "ஆசிரியர்"
+      },
+      {
+        "id": "D",
+        "label": "மருத்துவர்"
+      }
+    ],
+    "correctAnswer": "முதலாளி",
+    "learningObjective": "Role vocabulary in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q118",
+      "originalActivity": "Context → Select/Drag"
+    }
+  },
+  {
+    "id": "Q119",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "முயற்சி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Effort” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "முயற்சி"
+      },
+      {
+        "id": "B",
+        "label": "முயற்சல்"
+      },
+      {
+        "id": "C",
+        "label": "முயற்சன்"
+      },
+      {
+        "id": "D",
+        "label": "முயற்சை"
+      }
+    ],
+    "correctAnswer": "முயற்சி",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q119",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q120",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "முயல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மு"
+      },
+      {
+        "id": "B",
+        "label": "ய"
+      },
+      {
+        "id": "C",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "மு",
+      "ய",
+      "ல்"
+    ],
+    "correctAnswer": "முயல்",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q120",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q121",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "மூளை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் உடல் உறுப்பின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மூளை"
+      },
+      {
+        "id": "B",
+        "label": "மூலை"
+      },
+      {
+        "id": "C",
+        "label": "மூளி"
+      },
+      {
+        "id": "D",
+        "label": "மூளைல்"
+      }
+    ],
+    "correctAnswer": "மூளை",
+    "learningObjective": "Meaning + spelling",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q121",
+      "originalActivity": "Picture → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q122",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "மொழி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Language” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "மொழி"
+      },
+      {
+        "id": "B",
+        "label": "மொலி"
+      },
+      {
+        "id": "C",
+        "label": "மொழல்"
+      },
+      {
+        "id": "D",
+        "label": "மொழன்"
+      }
+    ],
+    "correctAnswer": "மொழி",
+    "learningObjective": "Concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q122",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q123",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "ராஜா",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் அரசரைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ராஜா"
+      },
+      {
+        "id": "B",
+        "label": "ராஜம்"
+      },
+      {
+        "id": "C",
+        "label": "ராசா"
+      },
+      {
+        "id": "D",
+        "label": "ராஜி"
+      }
+    ],
+    "correctAnswer": "ராஜா",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q123",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q124",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "வஞ்சகம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Deceit” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வ"
+      },
+      {
+        "id": "B",
+        "label": "ஞ்"
+      },
+      {
+        "id": "C",
+        "label": "ச"
+      },
+      {
+        "id": "D",
+        "label": "க"
+      },
+      {
+        "id": "E",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "வ",
+      "ஞ்",
+      "ச",
+      "க",
+      "ம்"
+    ],
+    "correctAnswer": "வஞ்சகம்",
+    "learningObjective": "Abstract moral concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q124",
+      "originalActivity": "English Meaning → Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q125",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வண்டி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் வாகனத்தின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வ"
+      },
+      {
+        "id": "B",
+        "label": "ண்"
+      },
+      {
+        "id": "C",
+        "label": "டி"
+      }
+    ],
+    "units": [
+      "வ",
+      "ண்",
+      "டி"
+    ],
+    "correctAnswer": "வண்டி",
+    "learningObjective": "Repeated word gets construction task",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q125",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q126",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "வண்ணங்கள்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் பல்வேறு நிறங்களைக் குறிக்கும் சொல்லை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வ"
+      },
+      {
+        "id": "B",
+        "label": "ண்"
+      },
+      {
+        "id": "C",
+        "label": "ண"
+      },
+      {
+        "id": "D",
+        "label": "ங்"
+      },
+      {
+        "id": "E",
+        "label": "கள்"
+      }
+    ],
+    "units": [
+      "வ",
+      "ண்",
+      "ண",
+      "ங்",
+      "கள்"
+    ],
+    "correctAnswer": "வண்ணங்கள்",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q126",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q127",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "வன்சொல்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Harsh words” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வன்சொல்"
+      },
+      {
+        "id": "B",
+        "label": "வன்சோல்"
+      },
+      {
+        "id": "C",
+        "label": "வன்சொள்"
+      },
+      {
+        "id": "D",
+        "label": "வன்சொன்"
+      }
+    ],
+    "correctAnswer": "வன்சொல்",
+    "learningObjective": "Abstract language concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q127",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q128",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "வயல்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் விவசாய நிலத்தைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வயல்"
+      },
+      {
+        "id": "B",
+        "label": "வயள்"
+      },
+      {
+        "id": "C",
+        "label": "வயன்"
+      },
+      {
+        "id": "D",
+        "label": "வாயல்"
+      }
+    ],
+    "correctAnswer": "வயல்",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q128",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q129",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "வயல்வெளிகள்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் வயல்வெளிகளைக் குறிக்கும் சொல்லை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வ"
+      },
+      {
+        "id": "B",
+        "label": "ய"
+      },
+      {
+        "id": "C",
+        "label": "ல்"
+      },
+      {
+        "id": "D",
+        "label": "வெ"
+      },
+      {
+        "id": "E",
+        "label": "ளி"
+      },
+      {
+        "id": "F",
+        "label": "கள்"
+      }
+    ],
+    "units": [
+      "வ",
+      "ய",
+      "ல்",
+      "வெ",
+      "ளி",
+      "கள்"
+    ],
+    "correctAnswer": "வயல்வெளிகள்",
+    "learningObjective": "Long plural word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q129",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q130",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வரவு",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கணக்குப் புத்தகத்தில் கடையில் கிடைத்த பணம் ______ என்று பதிவு செய்யப்பட்டது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வரவு"
+      },
+      {
+        "id": "B",
+        "label": "செலவு"
+      },
+      {
+        "id": "C",
+        "label": "வருத்தம்"
+      },
+      {
+        "id": "D",
+        "label": "வரிசை"
+      }
+    ],
+    "correctAnswer": "வரவு",
+    "learningObjective": "Meaning in financial/context sentence",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q130",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q131",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வருத்தம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Sadness” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வருத்தம்"
+      },
+      {
+        "id": "B",
+        "label": "வரவேற்பு"
+      },
+      {
+        "id": "C",
+        "label": "வரவு"
+      },
+      {
+        "id": "D",
+        "label": "வருத்தன்"
+      }
+    ],
+    "correctAnswer": "வருத்தம்",
+    "learningObjective": "Emotion vocabulary retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q131",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q132",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வலி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "கீழே விழுந்ததால் அவனுடைய காலில் ______ ஏற்பட்டது.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வலி"
+      },
+      {
+        "id": "B",
+        "label": "வழி"
+      },
+      {
+        "id": "C",
+        "label": "வளை"
+      },
+      {
+        "id": "D",
+        "label": "வாலி"
+      }
+    ],
+    "correctAnswer": "வலி",
+    "learningObjective": "Meaning + spelling; source-sensitive word",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q132",
+      "originalActivity": "Context → Correct Spelling"
+    }
+  },
+  {
+    "id": "Q133",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "வழி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "ஊருக்குச் செல்லும் ______ எது?",
+    "options": [
+      {
+        "id": "A",
+        "label": "வழி"
+      },
+      {
+        "id": "B",
+        "label": "வலி"
+      },
+      {
+        "id": "C",
+        "label": "வளி"
+      },
+      {
+        "id": "D",
+        "label": "வாலை"
+      }
+    ],
+    "correctAnswer": "வழி",
+    "learningObjective": "Meaning recognition with controlled context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q133",
+      "originalActivity": "Picture → Context/Select"
+    }
+  },
+  {
+    "id": "Q134",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வானவில்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் இயற்கைக் காட்சியின் பெயரை உருவாக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வா"
+      },
+      {
+        "id": "B",
+        "label": "ன"
+      },
+      {
+        "id": "C",
+        "label": "வி"
+      },
+      {
+        "id": "D",
+        "label": "ல்"
+      }
+    ],
+    "units": [
+      "வா",
+      "ன",
+      "வி",
+      "ல்"
+    ],
+    "correctAnswer": "வானவில்",
+    "learningObjective": "Visual cue + word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q134",
+      "originalActivity": "Picture → Arrange"
+    }
+  },
+  {
+    "id": "Q135",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வானொலி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Radio” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வா"
+      },
+      {
+        "id": "B",
+        "label": "னொ"
+      },
+      {
+        "id": "C",
+        "label": "லி"
+      }
+    ],
+    "units": [
+      "வா",
+      "னொ",
+      "லி"
+    ],
+    "correctAnswer": "வானொலி",
+    "learningObjective": "Repeated word gets spelling task",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q135",
+      "originalActivity": "English Meaning → Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q136",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "விடுமுறை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Holiday” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "விடுமுறை"
+      },
+      {
+        "id": "B",
+        "label": "விடுமாறை"
+      },
+      {
+        "id": "C",
+        "label": "விடுமுரி"
+      },
+      {
+        "id": "D",
+        "label": "விடுமுரண்"
+      }
+    ],
+    "correctAnswer": "விடுமுறை",
+    "learningObjective": "Meaning retrieval + long word",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q136",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q137",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "விடை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "வி + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "டை"
+      },
+      {
+        "id": "B",
+        "label": "டைல்"
+      },
+      {
+        "id": "C",
+        "label": "தை"
+      },
+      {
+        "id": "D",
+        "label": "டி"
+      }
+    ],
+    "units": [
+      "டை",
+      "டைல்",
+      "தை",
+      "டி"
+    ],
+    "correctAnswer": "டை",
+    "learningObjective": "Spelling completion",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q137",
+      "originalActivity": "Drag & Drop Missing Unit"
+    }
+  },
+  {
+    "id": "Q138",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "விலங்கு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் உயிரினத்தைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "விலங்கு"
+      },
+      {
+        "id": "B",
+        "label": "விலங்கை"
+      },
+      {
+        "id": "C",
+        "label": "விளங்கு"
+      },
+      {
+        "id": "D",
+        "label": "விலங்கம்"
+      }
+    ],
+    "correctAnswer": "விலங்கு",
+    "learningObjective": "Category/meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q138",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q139",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "விழிப்புணர்வு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Awareness” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வி"
+      },
+      {
+        "id": "B",
+        "label": "ழி"
+      },
+      {
+        "id": "C",
+        "label": "ப்"
+      },
+      {
+        "id": "D",
+        "label": "பு"
+      },
+      {
+        "id": "E",
+        "label": "ண"
+      },
+      {
+        "id": "F",
+        "label": "ர்"
+      },
+      {
+        "id": "G",
+        "label": "வு"
+      }
+    ],
+    "units": [
+      "வி",
+      "ழி",
+      "ப்",
+      "பு",
+      "ண",
+      "ர்",
+      "வு"
+    ],
+    "correctAnswer": "விழிப்புணர்வு",
+    "learningObjective": "Long abstract word construction",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q139",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    }
+  },
+  {
+    "id": "Q140",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 1,
+    "targetWord": "வீடு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வீடு"
+      },
+      {
+        "id": "B",
+        "label": "வீதி"
+      },
+      {
+        "id": "C",
+        "label": "வீண்"
+      },
+      {
+        "id": "D",
+        "label": "வீடம்"
+      }
+    ],
+    "correctAnswer": "வீடு",
+    "learningObjective": "Meaning recognition",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q140",
+      "originalActivity": "Picture → Select"
+    }
+  },
+  {
+    "id": "Q141",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வெகுமதி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "போட்டியில் வெற்றி பெற்ற மாணவருக்கு ஆசிரியர் ______ வழங்கினார்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வெகுமதி"
+      },
+      {
+        "id": "B",
+        "label": "வெற்றி"
+      },
+      {
+        "id": "C",
+        "label": "வேண்டுதல்"
+      },
+      {
+        "id": "D",
+        "label": "விளையாட்டு"
+      }
+    ],
+    "correctAnswer": "வெகுமதி",
+    "learningObjective": "Meaning in context",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q141",
+      "originalActivity": "Context → Drag Word"
+    }
+  },
+  {
+    "id": "Q142",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வெற்றி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Success” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வெற்றி"
+      },
+      {
+        "id": "B",
+        "label": "வெற்றிலை"
+      },
+      {
+        "id": "C",
+        "label": "வெறி"
+      },
+      {
+        "id": "D",
+        "label": "வெற்றம்"
+      }
+    ],
+    "correctAnswer": "வெற்றி",
+    "learningObjective": "Abstract concept retrieval",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q142",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  },
+  {
+    "id": "Q143",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 3,
+    "targetWord": "வேண்டுகின்ற",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Requesting” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்க, எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வேண்"
+      },
+      {
+        "id": "B",
+        "label": "டு"
+      },
+      {
+        "id": "C",
+        "label": "கி"
+      },
+      {
+        "id": "D",
+        "label": "ன்"
+      },
+      {
+        "id": "E",
+        "label": "ற"
+      }
+    ],
+    "units": [
+      "வேண்",
+      "டு",
+      "கி",
+      "ன்",
+      "ற"
+    ],
+    "correctAnswer": "வேண்டுகின்ற",
+    "learningObjective": "Verb-form/context retrieval",
+    "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q143",
+      "originalActivity": "English Meaning → Arrange Tamil Units"
+    }
+  },
+  {
+    "id": "Q144",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "வேலை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Work” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "வேலை"
+      },
+      {
+        "id": "B",
+        "label": "வேளை"
+      },
+      {
+        "id": "C",
+        "label": "வேலி"
+      },
+      {
+        "id": "D",
+        "label": "வேல்"
+      }
+    ],
+    "correctAnswer": "வேலை",
+    "learningObjective": "Meaning retrieval + spelling",
+    "interactionDetail": "Show English meaning; child retrieves/selects or constructs Tamil word.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q144",
+      "originalActivity": "English Meaning → Tamil Word"
+    }
+  }
+]
