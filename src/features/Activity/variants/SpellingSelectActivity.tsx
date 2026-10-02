@@ -1,54 +1,52 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
-import { shuffleOptions } from '../../../utils/shuffle';
+import { AssetResolver, AssetReference } from '../../../engine/assets';
 import { 
   ActivityCard, 
   ActivityPrompt, 
   ActivityOptionGrid, 
   ActivityOption, 
   ActivitySubmitArea,
-  ActivityFeedback 
+  ActivityAsset,
+  ActivityFeedback,
+  useSelectableRetry
 } from '../components';
 
 export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string>) {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const {
+    shuffledOptions,
+    selectedId,
+    submitted,
+    isCorrect,
+    showRetry,
+    locked,
+    handleSelect,
+    handleCheck,
+    handleRetry,
+    handleNext,
+  } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
-  useEffect(() => {
-    setSelectedId(null);
-  }, [activity.id]);
+  const resolver = useMemo(() => new AssetResolver(), []);
+  const assetRef = useMemo<AssetReference>(() => ({
+    id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
+    type: 'image'
+  }), [activity.id]);
 
-  const shuffledOptions = useMemo(() => {
-    return shuffleOptions(activity.options || []);
-  }, [activity.id, activity.options]);
-
-  const handleSelect = (id: string) => {
-    if (state.status === 'completed') return;
-    setSelectedId(id);
-  };
-
-  const handleCheck = () => {
-    if (selectedId) {
-      onSubmit(selectedId);
-    }
-  };
-
-  const handleNext = () => {
-    if (onNext) onNext();
-  };
-
-  const options = activity.options || [];
-  
-  const isCompleted = state.status === 'completed';
-  const selectedOption = options.find(o => o.id === selectedId);
-  const isCorrect = isCompleted ? (selectedOption?.label === activity.correctAnswer) : undefined;
+  const hasImage = useMemo(() => {
+    return resolver.resolve(assetRef).status === 'resolved';
+  }, [assetRef, resolver]);
 
   return (
     <ActivityCard>
       <div className="mb-4 text-center">
         <ActivityPrompt prompt={activity.prompt} />
-        {/* Spelling activities might not have images, but they heavily rely on the prompt or target word context.
-            For many spelling-choice activities, the user needs to pick the correct spelling from options. */}
       </div>
+
+      {hasImage && (
+        <div className="mb-6">
+          <ActivityAsset assetRef={assetRef} />
+        </div>
+      )}
       
       <ActivityOptionGrid>
         {shuffledOptions.map((opt) => (
@@ -57,7 +55,7 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
             id={opt.id}
             label={opt.label}
             selected={selectedId === opt.id}
-            disabled={isCompleted}
+            disabled={locked}
             onSelect={handleSelect}
           />
         ))}
@@ -65,10 +63,12 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
       
       <ActivitySubmitArea 
         status={state.status}
-        canCheck={selectedId !== null}
+        canCheck={selectedId !== null && !submitted}
         onCheck={handleCheck}
         onNext={handleNext}
-        feedback={<ActivityFeedback status={state.status} correct={isCorrect} />}
+        onRetry={handleRetry}
+        showRetry={showRetry}
+        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
       />
     </ActivityCard>
   );

@@ -25,8 +25,8 @@ function run() {
   activities.forEach(activity => {
     stats.checked++;
     
-    // Determine if activity needs an asset (currently only picture-recognition)
-    if (activity.category === 'picture-recognition') {
+    // Determine if activity needs an asset (picture-recognition or explicitly mapped picture activity like Q013)
+    if (activity.category === 'picture-recognition' || activity.id === 'Q013') {
       stats.requiringImages++;
       const ref: AssetReference = {
         id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
@@ -37,7 +37,15 @@ function run() {
       
       const resolution = resolver.resolve(ref);
       
-      if (resolution.status === 'resolved') stats.resolved++;
+      if (resolution.status === 'resolved') {
+        const fullPath = path.resolve('public', resolution.asset.path.replace(/^\//, ''));
+        if (!fs.existsSync(fullPath)) {
+          console.error(`Missing file on disk for asset ${ref.id}: ${fullPath}`);
+          stats.invalid++;
+        } else {
+          stats.resolved++;
+        }
+      }
       if (resolution.status === 'missing') stats.missing++;
       if (resolution.status === 'invalid') stats.invalid++;
     }

@@ -1,46 +1,27 @@
-import { useState, useEffect, useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
-import { shuffleOptions } from '../../../utils/shuffle';
 import { 
   ActivityCard, 
   ActivityPrompt, 
   ActivityOptionGrid, 
   ActivityOption, 
   ActivitySubmitArea,
-  ActivityFeedback 
+  ActivityFeedback,
+  useSelectableRetry
 } from '../components';
 
 export function MeaningMatchActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string>) {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-
-  useEffect(() => {
-    setSelectedId(null);
-  }, [activity.id]);
-
-  const shuffledOptions = useMemo(() => {
-    return shuffleOptions(activity.options || []);
-  }, [activity.id, activity.options]);
-
-  const handleSelect = (id: string) => {
-    if (state.status === 'completed') return;
-    setSelectedId(id);
-  };
-
-  const handleCheck = () => {
-    if (selectedId) {
-      onSubmit(selectedId);
-    }
-  };
-
-  const handleNext = () => {
-    if (onNext) onNext();
-  };
-
-  const options = activity.options || [];
-  
-  const isCompleted = state.status === 'completed';
-  const selectedOption = options.find(o => o.id === selectedId);
-  const isCorrect = isCompleted ? (selectedOption?.label === activity.correctAnswer) : undefined;
+  const {
+    shuffledOptions,
+    selectedId,
+    submitted,
+    isCorrect,
+    showRetry,
+    locked,
+    handleSelect,
+    handleCheck,
+    handleRetry,
+    handleNext,
+  } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
   return (
     <ActivityCard>
@@ -55,7 +36,7 @@ export function MeaningMatchActivity({ activity, state, onSubmit, onNext }: Acti
             id={opt.id}
             label={opt.label}
             selected={selectedId === opt.id}
-            disabled={isCompleted}
+            disabled={locked}
             onSelect={handleSelect}
           />
         ))}
@@ -63,10 +44,12 @@ export function MeaningMatchActivity({ activity, state, onSubmit, onNext }: Acti
       
       <ActivitySubmitArea 
         status={state.status}
-        canCheck={selectedId !== null}
+        canCheck={selectedId !== null && !submitted}
         onCheck={handleCheck}
         onNext={handleNext}
-        feedback={<ActivityFeedback status={state.status} correct={isCorrect} />}
+        onRetry={handleRetry}
+        showRetry={showRetry}
+        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
       />
     </ActivityCard>
   );

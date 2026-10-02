@@ -8,3 +8,4 @@ export * from './ActivityAsset';
 export * from './ContextSentence';
 export * from './ArrangeToken';
 export * from './WordCompletionDisplay';
+export * from './useSelectableRetry';

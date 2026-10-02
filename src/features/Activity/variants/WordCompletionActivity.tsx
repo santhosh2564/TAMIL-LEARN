@@ -1,46 +1,30 @@
-import { useState, useEffect, useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
-import { shuffleOptions } from '../../../utils/shuffle';
 import { 
   ActivityCard, 
   ActivityOptionGrid, 
   ActivityOption, 
   ActivitySubmitArea,
   ActivityFeedback,
-  WordCompletionDisplay
+  WordCompletionDisplay,
+  useSelectableRetry
 } from '../components';
 
 export function WordCompletionActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string>) {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const {
+    options,
+    shuffledOptions,
+    selectedId,
+    submitted,
+    isCorrect,
+    showRetry,
+    locked,
+    handleSelect,
+    handleCheck,
+    handleRetry,
+    handleNext,
+  } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
-  useEffect(() => {
-    setSelectedId(null);
-  }, [activity.id]);
-
-  const shuffledOptions = useMemo(() => {
-    return shuffleOptions(activity.options || []);
-  }, [activity.id, activity.options]);
-
-  const handleSelect = (id: string) => {
-    if (state.status === 'completed') return;
-    setSelectedId(id);
-  };
-
-  const handleCheck = () => {
-    if (selectedId) {
-      onSubmit(selectedId);
-    }
-  };
-
-  const handleNext = () => {
-    if (onNext) onNext();
-  };
-
-  const options = activity.options || [];
-  
-  const isCompleted = state.status === 'completed';
   const selectedOption = options.find(o => o.id === selectedId);
-  const isCorrect = isCompleted ? (selectedOption?.label === activity.correctAnswer) : undefined;
 
   // Normalize prompt to strip any unbracketed fill-blanks from context sentences
   const normalizedPrompt = activity.prompt.replace(/(?<!\[)_{2,}\.?\s*/g, '');
@@ -64,7 +48,7 @@ export function WordCompletionActivity({ activity, state, onSubmit, onNext }: Ac
             id={opt.id}
             label={opt.label}
             selected={selectedId === opt.id}
-            disabled={isCompleted}
+            disabled={locked}
             onSelect={handleSelect}
           />
         ))}
@@ -72,10 +56,12 @@ export function WordCompletionActivity({ activity, state, onSubmit, onNext }: Ac
       
       <ActivitySubmitArea 
         status={state.status}
-        canCheck={selectedId !== null}
+        canCheck={selectedId !== null && !submitted}
         onCheck={handleCheck}
         onNext={handleNext}
-        feedback={<ActivityFeedback status={state.status} correct={isCorrect} />}
+        onRetry={handleRetry}
+        showRetry={showRetry}
+        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
       />
     </ActivityCard>
   );

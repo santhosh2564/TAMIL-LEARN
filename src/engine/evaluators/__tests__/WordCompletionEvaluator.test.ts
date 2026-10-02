@@ -25,6 +25,8 @@ describe('WordCompletionEvaluator', () => {
   it('evaluates incorrect answer', () => {
     const result = evaluator.evaluate(mockActivity, 'B');
     expect(result.correct).toBe(false);
+    // Wrong answers must NOT complete: the learner retries the same activity.
+    expect(result.completed).toBe(false);
   });
 
   it('handles invalid input id gracefully', () => {

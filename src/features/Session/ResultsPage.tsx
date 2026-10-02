@@ -2,7 +2,8 @@ import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { CheckCircle2, XCircle, RotateCcw } from 'lucide-react';
-import { ActivitySession } from '../../engine/types';
+import { ActivitySession, SessionSize } from '../../engine/types';
+import { serializeSessionSize } from '../../engine';
 import { Activity } from '../../types';
 
 interface SessionState {
@@ -12,7 +13,7 @@ interface SessionState {
     classId: string;
     subjectId: string;
     category: string | null;
-    size: number;
+    size: SessionSize;
     level: number | undefined;
   };
 }
@@ -41,7 +42,7 @@ export function ResultsPage() {
   const modeName = config.category ? 'வகைப் பயிற்சி' : 'கலப்பு பயிற்சி';
 
   const handleRetry = () => {
-    let url = `/session/${config.classId}/${config.subjectId}/play?size=${config.size}`;
+    let url = `/session/${config.classId}/${config.subjectId}/play?size=${serializeSessionSize(config.size)}`;
     if (config.category) url += `&category=${config.category}`;
     if (config.level) url += `&level=${config.level}`;
     navigate(url, { replace: true });

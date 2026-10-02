@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useNavigate, useSearchParams, useParams, useBlocker } from 'react-router-dom';
-import { SessionService, SessionActivitySelector, ActivitySession, ActivityRuntimeState, CoreActivityEngine, ActivityRenderer, activityRegistry } from '../../engine';
+import { SessionService, SessionActivitySelector, ActivitySession, ActivityRuntimeState, CoreActivityEngine, ActivityRenderer, activityRegistry, parseSessionSize } from '../../engine';
 import { SessionConfig } from '../../engine/types';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { ErrorState } from '../../components/ui/ErrorState';
@@ -18,14 +18,13 @@ export function SessionPage() {
   const sizeStr = searchParams.get('size');
   
   const level = levelStr ? Number(levelStr) : undefined;
-  const sizeValue = sizeStr ? Number(sizeStr) : 10;
   const config: SessionConfig = useMemo(() => ({
     classId: classId || '3',
     subjectId: subjectId || 'tamil',
     category,
     level,
-    size: sizeValue === 9999 ? { mode: 'all' } : { mode: 'fixed', count: sizeValue }
-  }), [classId, subjectId, category, level, sizeValue]);
+    size: parseSessionSize(sizeStr)
+  }), [classId, subjectId, category, level, sizeStr]);
 
   const [session, setSession] = useState<ActivitySession | null>(null);
   const [activities, setActivities] = useState<Record<string, Activity>>({});
@@ -33,8 +32,9 @@ export function SessionPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
-  // We don't want to block if they are deliberately navigating to results
+  // We don't want to block if they are deliberately navigating to results or exiting
   const [isNavigatingToResults, setIsNavigatingToResults] = useState(false);
+  const [isExiting, setIsExiting] = useState(false);
 
   const sessionService = useMemo(() => new SessionService(), []);
   const engine = useMemo(() => new CoreActivityEngine(), []);
@@ -44,17 +44,23 @@ export function SessionPage() {
   );
 
   // Block navigation if session is active and not completed yet
-  useBlocker(({ nextLocation }) => {
-    if (isNavigatingToResults || !session || session.status === 'completed') {
+  const blocker = useBlocker(({ nextLocation }) => {
+    if (isNavigatingToResults || isExiting || !session || session.status === 'completed') {
       return false;
     }
-    // Only warn if they made meaningful progress (e.g. at least on the first activity)
-    // Actually, any active session shouldn't be lost accidentally
-    if (nextLocation.pathname !== window.location.pathname) {
-      return !window.confirm("பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.");
-    }
-    return false;
+    return nextLocation.pathname !== window.location.pathname;
   });
+
+  useEffect(() => {
+    if (blocker.state === 'blocked') {
+      const confirmed = window.confirm("பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.");
+      if (confirmed) {
+        blocker.proceed();
+      } else {
+        blocker.reset();
+      }
+    }
+  }, [blocker]);
 
   useEffect(() => {
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
@@ -206,6 +212,10 @@ export function SessionPage() {
   
   if (!session || !currentActivityState) return null;
 
+  if (session.status === 'completed' || isNavigatingToResults) {
+    return <Page hideHeader><LoadingState message="முடிவுகள் தயாராகின்றன..." /></Page>;
+  }
+
   const currentActivityId = sessionService.getCurrentActivityId(session);
   if (!currentActivityId) {
     // Session state lost or corrupted
@@ -220,7 +230,10 @@ export function SessionPage() {
   const progressPercent = (session.currentIndex / session.activityIds.length) * 100;
 
   const handleExit = () => {
-    navigate(-1);
+    if (window.confirm("பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.")) {
+      setIsExiting(true);
+      navigate(`/classes/${classId || '3'}/subjects/${subjectId || 'tamil'}`);
+    }
   };
 
   return (

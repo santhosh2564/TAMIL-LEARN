@@ -61,4 +61,58 @@ describe('ArrangeWordActivity', () => {
     // In our test, they are just found by text. So order clicked is 'கி', then 'ழ'.
     expect(handleSubmit).toHaveBeenCalledWith(expect.arrayContaining(['A', 'B']));
   });
+
+  it('wrong arrangement shows retry (not continue); retry keeps tokens editable; fixed order submits correct', async () => {
+    const user = userEvent.setup();
+    const handleSubmit = vi.fn();
+    const handleNext = vi.fn();
+
+    // Two-token activity whose correct answer is the A-then-B join
+    const retryActivity = {
+      ...mockActivity,
+      correctAnswer: 'கிழ',
+    } as Activity;
+
+    render(<ArrangeWordActivity activity={retryActivity} state={mockState} onSubmit={handleSubmit} onNext={handleNext} />);
+
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Select கி' })).toBeInTheDocument());
+
+    // --- Wrong arrangement: B then A ---
+    await user.click(screen.getByRole('button', { name: 'Select ழ' }));
+    await user.click(screen.getByRole('button', { name: 'Select கி' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+
+    expect(handleSubmit).toHaveBeenCalledTimes(1);
+    expect(handleSubmit).toHaveBeenCalledWith(['B', 'A']);
+    expect(screen.getByText('தவறான விடை')).toBeInTheDocument();
+
+    // ── Separate-button contract ─────────────────────────────────────────
+    const checkBtn = screen.getByRole('button', { name: 'விடையைச் சரிபார்' });
+    expect(checkBtn).toBeInTheDocument();
+    expect(checkBtn).toBeDisabled();
+    expect(screen.getByRole('button', { name: 'மீண்டும் முயற்சி செய்' })).toBeInTheDocument();
+    // ────────────────────────────────────────────────────────────────────
+
+    expect(screen.queryByText('தொடர்க')).not.toBeInTheDocument();
+    expect(handleNext).not.toHaveBeenCalled();
+    // Tokens locked while wrong feedback is shown
+    expect(screen.queryByRole('button', { name: 'Remove கி' })).not.toBeInTheDocument();
+
+    // --- Retry: same activity, arrangement preserved, editable again ---
+    await user.click(screen.getByRole('button', { name: 'மீண்டும் முயற்சி செய்' }));
+    expect(screen.queryByText('தவறான விடை')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Remove கி' })).toBeInTheDocument();
+
+    // Fix the order: remove both, re-add A then B
+    await user.click(screen.getByRole('button', { name: 'Remove கி' }));
+    await user.click(screen.getByRole('button', { name: 'Remove ழ' }));
+    await user.click(screen.getByRole('button', { name: 'Select கி' }));
+    await user.click(screen.getByRole('button', { name: 'Select ழ' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+
+    expect(handleSubmit).toHaveBeenCalledTimes(2);
+    expect(handleSubmit).toHaveBeenLastCalledWith(['A', 'B']);
+    expect(screen.getByText('சரியான விடை!')).toBeInTheDocument();
+    expect(handleNext).not.toHaveBeenCalled();
+  });
 });

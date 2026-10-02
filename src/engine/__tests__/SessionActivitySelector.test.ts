@@ -41,6 +41,22 @@ describe('SessionActivitySelector', () => {
     expect(ids.size).toBe(5);
   });
 
+  it('selects exactly 10 activities when mode is fixed with count 10', async () => {
+    mockRepo.getActivities.mockResolvedValue(mockActivities);
+
+    const config: SessionConfig = {
+      classId: '3',
+      subjectId: 'tamil',
+      category: null,
+      size: { mode: 'fixed', count: 10 }
+    };
+
+    const selected = await selector.selectActivities(config);
+    expect(selected.length).toBe(10);
+    const ids = new Set(selected.map(a => a.id));
+    expect(ids.size).toBe(10);
+  });
+
   it('returns all available activities when mode is all', async () => {
     mockRepo.getActivities.mockResolvedValue(mockActivities);
     

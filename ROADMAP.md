@@ -12,9 +12,11 @@
 - [x] **Phase 10:** Content / assets architecture
 - [x] **Phase 11:** Local progress & persistence
 - [x] **Phase 12:** Real Educational Asset Population & Image Integration
-- [x] **Phase 13A:** Tamil UI Localization, Option Shuffling & Word Completion Normalization
-- [ ] **Phase 13B / Phase 14:** Audio / Tamil Speech Architecture (TTS & Audio Assets)
-- [ ] **Phase 15+:** Backend / Auth / Teacher / School Features
+- [x] **Phase 13A:** Core Tamil Learning UX Corrections (Retry Flow, Tamil UI, Option Shuffling & Word Completion Normalization)
+- [x] **Phase 13B:** Session Size Architecture Cleanup (Semantic SessionSize model, size=all URL representation, backward compatibility parser)
+- [x] **Phase 14:** Comprehensive Browser QA & Viewport Hardening across 6 Activity Families
+- [x] **Phase 15 / 15B:** Production UX Polish, Wrong-Answer Retry Flow Verification & Hardening
+- [ ] **Phase 16+:** Backend / Auth / Teacher / School Features
 
 ---
 

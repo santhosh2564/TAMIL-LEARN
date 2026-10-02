@@ -5,4 +5,5 @@ export * from './SessionService';
 export * from './ActivityRenderer';
 export * from './placeholder';
 export * from './SessionActivitySelector';
+export * from './sessionSize';
 export * from './assets';

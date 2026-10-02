@@ -6,9 +6,13 @@ interface ActivityFeedbackProps {
 }
 
 export function ActivityFeedback({ status, correct }: ActivityFeedbackProps) {
-  if (status !== 'completed' || correct === undefined) {
+  // Render whenever correctness is known — including the wrong-answer retry
+  // state, where the engine keeps the activity 'active' (not 'completed').
+  // Callers pass correct={undefined} until a submission has been evaluated.
+  if (correct === undefined) {
     return null;
   }
+  void status;
 
   return (
     <div

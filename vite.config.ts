@@ -14,9 +14,15 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    watch: {
+      ignored: ['**/*.zip', '**/temp_*/**', '**/Issue-ss/**'],
+    },
+  },
   test: {
     environment: 'jsdom',
     setupFiles: ['./vitest.setup.ts'],
-    globals: true
+    globals: true,
+    include: ['src/**/*.{test,spec}.{ts,tsx}']
   }
 });

@@ -27,7 +27,8 @@ describe('ArrangeWordEvaluator', () => {
   it('evaluates incorrect sequence', () => {
     const result = evaluator.evaluate(mockActivity, ['B', 'A', 'C', 'D']);
     expect(result.correct).toBe(false);
-    expect(result.completed).toBe(true);
+    // Wrong answers must NOT complete: the learner retries the same activity.
+    expect(result.completed).toBe(false);
   });
 
   it('handles empty sequence', () => {

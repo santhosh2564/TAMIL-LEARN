@@ -66,4 +66,75 @@ describe('PictureSelectActivity', () => {
     const continueBtn = screen.getByText('தொடர்க');
     expect(continueBtn).toBeInTheDocument();
   });
+
+  it('wrong answer shows retry (not continue); retry restores the same activity; correct submits again', async () => {
+    const user = userEvent.setup();
+    const handleSubmit = vi.fn();
+    const handleNext = vi.fn();
+
+    const { container } = render(
+      <PictureSelectActivity activity={mockActivity} state={mockState} onSubmit={handleSubmit} onNext={handleNext} />
+    );
+    const orderBefore = [...container.querySelectorAll('button[aria-pressed]')].map(b => b.textContent);
+
+    // --- Wrong submission ---
+    await user.click(screen.getByRole('button', { name: 'மயில்' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+
+    expect(handleSubmit).toHaveBeenCalledTimes(1);
+    expect(handleSubmit).toHaveBeenCalledWith('B');
+    expect(screen.getByText('தவறான விடை')).toBeInTheDocument();
+
+    // ── Separate-button contract ─────────────────────────────────────────
+    const checkBtn = screen.getByRole('button', { name: 'விடையைச் சரிபார்' });
+    expect(checkBtn).toBeInTheDocument();
+    expect(checkBtn).toBeDisabled();
+    expect(screen.getByRole('button', { name: 'மீண்டும் முயற்சி செய்' })).toBeInTheDocument();
+    // ────────────────────────────────────────────────────────────────────
+
+    // Must NOT advance: no continue, no next call
+    expect(screen.queryByText('தொடர்க')).not.toBeInTheDocument();
+    expect(handleNext).not.toHaveBeenCalled();
+    // Correct answer is NOT revealed: correct option locked like the rest, not marked selected
+    expect(screen.getByRole('button', { name: 'முயல்' })).toBeDisabled();
+    expect(screen.getByRole('button', { name: 'முயல்' })).toHaveAttribute('aria-pressed', 'false');
+
+    // --- Retry: same activity, interactive again, order unchanged ---
+    await user.click(screen.getByRole('button', { name: 'மீண்டும் முயற்சி செய்' }));
+    expect(screen.getByText('Find the animal')).toBeInTheDocument();
+    expect(screen.queryByText('தவறான விடை')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'முயல்' })).toBeEnabled();
+    const orderAfter = [...container.querySelectorAll('button[aria-pressed]')].map(b => b.textContent);
+    expect(orderAfter).toEqual(orderBefore);
+
+    // --- Correct submission after retry ---
+    await user.click(screen.getByRole('button', { name: 'முயல்' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+
+    expect(handleSubmit).toHaveBeenCalledTimes(2);
+    expect(handleSubmit).toHaveBeenCalledWith('A');
+    expect(screen.getByText('சரியான விடை!')).toBeInTheDocument();
+    // Still no premature advance at component level (engine marks completed in SessionPage)
+    expect(handleNext).not.toHaveBeenCalled();
+  });
+
+  it('supports multiple retries: wrong → retry → wrong → retry → correct', async () => {
+    const user = userEvent.setup();
+    const handleSubmit = vi.fn();
+
+    render(<PictureSelectActivity activity={mockActivity} state={mockState} onSubmit={handleSubmit} />);
+
+    for (let i = 0; i < 2; i++) {
+      await user.click(screen.getByRole('button', { name: 'மயில்' }));
+      await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+      expect(screen.getByText('தவறான விடை')).toBeInTheDocument();
+      await user.click(screen.getByRole('button', { name: 'மீண்டும் முயற்சி செய்' }));
+      expect(screen.queryByText('தவறான விடை')).not.toBeInTheDocument();
+    }
+
+    await user.click(screen.getByRole('button', { name: 'முயல்' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+    expect(handleSubmit).toHaveBeenCalledTimes(3);
+    expect(screen.getByText('சரியான விடை!')).toBeInTheDocument();
+  });
 });

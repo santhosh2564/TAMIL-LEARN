@@ -6,6 +6,7 @@ import { ErrorState } from '../../components/ui/ErrorState';
 import { LocalContentRepository } from '../../repositories/implementations/LocalContentRepository';
 import { useNavigate, useSearchParams, useParams } from 'react-router-dom';
 import { ActivityCategory } from '../../types';
+import { SessionSize, serializeSessionSize } from '../../engine';
 
 export function SessionSetupPage() {
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
@@ -17,7 +18,7 @@ export function SessionSetupPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const [size, setSize] = useState<number>(10);
+  const [sizeOption, setSizeOption] = useState<number | 'all'>(10);
   const [level, setLevel] = useState<number | 'all'>('all');
 
   useEffect(() => {
@@ -42,7 +43,8 @@ export function SessionSetupPage() {
   }, [classId, subjectId, category, level]);
 
   const handleStart = () => {
-    let url = `/session/${classId}/${subjectId}/play?size=${size}`;
+    const sessionSize: SessionSize = sizeOption === 'all' ? { mode: 'all' } : { mode: 'fixed', count: sizeOption };
+    let url = `/session/${classId}/${subjectId}/play?size=${serializeSessionSize(sessionSize)}`;
     if (category) url += `&category=${category}`;
     if (level !== 'all') url += `&level=${level}`;
     navigate(url);
@@ -96,11 +98,11 @@ export function SessionSetupPage() {
                 <button
                   key={opt}
                   className={`px-6 py-3 rounded-2xl font-bold transition-all ${
-                    size === opt || (opt === 'all' && size === 9999)
+                    sizeOption === opt
                       ? 'bg-primary-500 text-white shadow-button'
                       : 'bg-surface text-text hover:bg-surface-highlight'
                   }`}
-                  onClick={() => setSize(opt === 'all' ? 9999 : opt as number)}
+                  onClick={() => setSizeOption(opt as number | 'all')}
                 >
                   {opt === 'all' ? 'அனைத்தும்' : opt}
                 </button>

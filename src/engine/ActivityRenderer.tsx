@@ -31,9 +31,9 @@ export function ActivityRenderer({ activity, state, onSubmit, onNext }: Activity
         <div className="w-16 h-16 bg-error/10 text-error rounded-full flex items-center justify-center">
           <AlertCircle size={32} />
         </div>
-        <h2 className="text-2xl font-bold font-display">Activity Not Available</h2>
-        <p className="text-text-muted">This learning activity cannot be rendered.</p>
-        <Button onClick={() => navigate(-1)} variant="secondary">Go Back</Button>
+        <h2 className="text-2xl font-bold font-display">செயல் கிடைக்கவில்லை</h2>
+        <p className="text-text-muted">இந்தக் கற்றல் செயல்பாடு கிடைக்கவில்லை.</p>
+        <Button onClick={() => navigate(-1)} variant="secondary">பின்செல்</Button>
       </div>
     );
   }

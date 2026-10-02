@@ -14,6 +14,7 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [availableIds, setAvailableIds] = useState<string[]>([]);
   const [shuffled, setShuffled] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const options = activity.options || [];
 
@@ -22,24 +23,35 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
     setSelectedIds([]);
     setAvailableIds(shuffleArray(activity.options?.map(o => o.id) || []));
     setShuffled(true);
+    setSubmitted(false);
   }, [activity.id, activity.options]);
 
   const isCompleted = state.status === 'completed';
 
+  // Evaluation correctness for UI feedback, known once submitted.
+  // The engine evaluation in SessionPage stays authoritative for completion.
+  const formedWord = selectedIds.map(id => options.find(o => o.id === id)?.label || '').join('');
+  const isCorrect = submitted ? formedWord === activity.correctAnswer : undefined;
+
+  // Wrong submission: show retry, lock tokens until the learner retries.
+  // Retry keeps the current arrangement so the child can reorder and try again.
+  const showRetry = submitted && isCorrect === false && !isCompleted;
+  const locked = isCompleted || showRetry;
+
   const handleSelect = (id: string) => {
-    if (isCompleted) return;
+    if (locked) return;
     setAvailableIds(prev => prev.filter(i => i !== id));
     setSelectedIds(prev => [...prev, id]);
   };
 
   const handleRemove = (id: string) => {
-    if (isCompleted) return;
+    if (locked) return;
     setSelectedIds(prev => prev.filter(i => i !== id));
     setAvailableIds(prev => [...prev, id]); // Add back to end of available pool
   };
 
   const handleMoveLeft = (id: string) => {
-    if (isCompleted) return;
+    if (locked) return;
     setSelectedIds(prev => {
       const idx = prev.indexOf(id);
       if (idx <= 0) return prev;
@@ -50,7 +62,7 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   };
 
   const handleMoveRight = (id: string) => {
-    if (isCompleted) return;
+    if (locked) return;
     setSelectedIds(prev => {
       const idx = prev.indexOf(id);
       if (idx === -1 || idx === prev.length - 1) return prev;
@@ -64,7 +76,15 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
     // Only allow submission if all tokens are used?
     // Let's allow submission anytime there is at least one token, or let them submit empty.
     // The prompt says "Check Answer evaluates the current sequence".
-    onSubmit(selectedIds);
+    if (!submitted && !isCompleted) {
+      setSubmitted(true);
+      onSubmit(selectedIds);
+    }
+  };
+
+  const handleRetry = () => {
+    // Same activity becomes interactive again; arrangement is preserved.
+    setSubmitted(false);
   };
 
   const handleNext = () => {
@@ -72,13 +92,6 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   };
 
   if (!shuffled) return null; // Wait for initial shuffle
-
-  // Evaluation correctness calculation for UI feedback
-  let isCorrect: boolean | undefined = undefined;
-  if (isCompleted) {
-    const formedWord = selectedIds.map(id => options.find(o => o.id === id)?.label || '').join('');
-    isCorrect = formedWord === activity.correctAnswer;
-  }
 
   return (
     <ActivityCard className="max-w-4xl">
@@ -102,7 +115,7 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
               id={id}
               label={opt.label}
               status="selected"
-              disabled={isCompleted}
+              disabled={locked}
               isFirst={idx === 0}
               isLast={idx === selectedIds.length - 1}
               onRemove={handleRemove}
@@ -124,7 +137,7 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
               id={id}
               label={opt.label}
               status="available"
-              disabled={isCompleted}
+              disabled={locked}
               onSelect={handleSelect}
             />
           );
@@ -133,10 +146,12 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
       
       <ActivitySubmitArea 
         status={state.status}
-        canCheck={selectedIds.length > 0} // Must select at least 1 token to check
+        canCheck={selectedIds.length > 0 && !submitted} // Must select at least 1 token to check
         onCheck={handleCheck}
         onNext={handleNext}
-        feedback={<ActivityFeedback status={state.status} correct={isCorrect} />}
+        onRetry={handleRetry}
+        showRetry={showRetry}
+        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
       />
     </ActivityCard>
   );

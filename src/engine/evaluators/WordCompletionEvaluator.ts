@@ -16,7 +16,7 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
         attempts: 1,
         feedback: {
           type: 'error',
-          message: 'Invalid selection.'
+          message: 'தேர்வு செல்லுபடியாகவில்லை'
         }
       };
     }
@@ -26,7 +26,9 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
 
     return {
       correct: isCorrect,
-      completed: true,
+      // Only complete on a correct answer. A wrong answer keeps the activity
+      // active so the learner can retry the SAME activity (see retry flow).
+      completed: isCorrect,
       attempts: 1,
       feedback: {
         type: isCorrect ? 'success' : 'error'

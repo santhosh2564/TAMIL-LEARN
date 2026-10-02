@@ -26,7 +26,8 @@ describe('PictureRecognitionEvaluator', () => {
   it('evaluates incorrect answer', () => {
     const result = evaluator.evaluate(mockActivity, 'B');
     expect(result.correct).toBe(false);
-    expect(result.completed).toBe(true);
+    // Wrong answers must NOT complete: the learner retries the same activity.
+    expect(result.completed).toBe(false);
     expect(result.feedback?.type).toBe('error');
   });
 
@@ -35,7 +36,7 @@ describe('PictureRecognitionEvaluator', () => {
     expect(result.correct).toBe(false);
     expect(result.completed).toBe(false);
     expect(result.feedback?.type).toBe('error');
-    expect(result.feedback?.message).toContain('Invalid');
+    expect(result.feedback?.message).toBe('தேர்வு செல்லுபடியாகவில்லை');
   });
 
   it('throws if no options are present', () => {
