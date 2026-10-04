@@ -3,24 +3,48 @@ import { ActivityEvaluation, ActivityEvaluator } from '../types';
 
 export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
   evaluate(activity: Activity, inputIds: string[]): ActivityEvaluation {
-    if (!activity.options || activity.options.length === 0) {
-      throw new Error('Arrange word activity has no options');
+    const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
+
+    const options = (activity.options && activity.options.length > 0)
+      ? activity.options
+      : (activity.units?.map((u, i) => ({ id: String.fromCharCode(65 + i), label: u })) || []);
+
+    if (options.length === 0) {
+      return {
+        correct: false,
+        completed: false,
+        attempts: 1,
+        feedback: {
+          type: 'error',
+          message: isEnglish ? 'Activity tokens are not available' : 'சொல் அலகுகள் கிடைக்கவில்லை'
+        }
+      };
+    }
+
+    if (!Array.isArray(inputIds)) {
+      return {
+        correct: false,
+        completed: false,
+        attempts: 1,
+        feedback: {
+          type: 'error',
+          message: isEnglish ? 'Invalid token selection' : 'செல்லுபடியாகாத தேர்வு'
+        }
+      };
     }
 
     // Map the selected option IDs back to their labels
     const selectedLabels = inputIds.map(id => {
-      const opt = activity.options!.find(o => o.id === id);
+      const opt = options.find(o => o.id === id);
       return opt ? opt.label : '';
     });
 
-    // Check if the joined labels match the correct answer exactly.
-    // This avoids unsafe Tamil grapheme splitting since the JSON options
-    // already provide the correct atomic units, and the correctAnswer provides
-    // the canonical joined string.
+    // Check if the joined labels match the correct answer
     const formedWord = selectedLabels.join('');
+    const target = Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : (activity.correctAnswer || '');
     
-    // In arrange-word, correctAnswer is typically the full string (e.g. "கிழங்கு")
-    const isCorrect = formedWord === activity.correctAnswer;
+    // Exact match (case-insensitive for Latin alphabets, no effect on Tamil)
+    const isCorrect = formedWord.trim().toLowerCase() === target.trim().toLowerCase();
 
     return {
       correct: isCorrect,
@@ -29,7 +53,10 @@ export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
       completed: isCorrect,
       attempts: 1,
       feedback: {
-        type: isCorrect ? 'success' : 'error'
+        type: isCorrect ? 'success' : 'error',
+        message: isCorrect
+          ? (isEnglish ? 'Correct!' : 'சரியான விடை!')
+          : (isEnglish ? 'Not quite. Try again.' : 'தவறான விடை')
       }
     };
   }

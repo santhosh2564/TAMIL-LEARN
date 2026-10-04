@@ -3,9 +3,11 @@ import { ActivityProgress, CategoryProgress, ProgressSnapshot, ProgressSummary, 
 import { ProgressRepository } from './ProgressRepository';
 
 // ============================================================================
-// STABLE NAMESPACED STORAGE KEY
+// STABLE NAMESPACED STORAGE KEYS
 // ============================================================================
-export const STORAGE_KEY = 'sa.learning.progress.v1';
+export const DEFAULT_TAMIL_STORAGE_KEY = 'sa.learning.progress.v1';
+export const ENGLISH_STORAGE_KEY = 'sa.learning.progress.english.v1';
+export const STORAGE_KEY = DEFAULT_TAMIL_STORAGE_KEY;
 
 // ============================================================================
 // LOCAL PROGRESS REPOSITORY
@@ -13,13 +15,19 @@ export const STORAGE_KEY = 'sa.learning.progress.v1';
 // ============================================================================
 
 export class LocalProgressRepository implements ProgressRepository {
+  private storageKey: string;
+
+  constructor(storageKey: string = DEFAULT_TAMIL_STORAGE_KEY) {
+    this.storageKey = storageKey;
+  }
+
   // ---------------------------------------------------------------------------
   // PRIVATE: Snapshot I/O
   // ---------------------------------------------------------------------------
 
   private readSnapshot(): ProgressSnapshot {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(this.storageKey);
       if (!raw) return this.emptySnapshot();
 
       const parsed: unknown = JSON.parse(raw);
@@ -37,7 +45,7 @@ export class LocalProgressRepository implements ProgressRepository {
   private writeSnapshot(snapshot: ProgressSnapshot): void {
     try {
       snapshot.updatedAt = new Date().toISOString();
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      localStorage.setItem(this.storageKey, JSON.stringify(snapshot));
     } catch {
       // Storage unavailable or quota exceeded — continue silently
       // Persistence is an enhancement, not a crash condition
@@ -83,6 +91,10 @@ export class LocalProgressRepository implements ProgressRepository {
         // Retain ever-correct state: once correct, always show correct
         correct: existing.correct || incoming.correct,
         completed: existing.completed || incoming.completed,
+        firstAttemptCorrect: existing.firstAttemptCorrect !== undefined
+          ? existing.firstAttemptCorrect
+          : incoming.firstAttemptCorrect,
+        finalCorrect: incoming.finalCorrect ?? incoming.correct,
         lastCompletedAt: incoming.lastCompletedAt,
         lastAttemptedAt: incoming.lastAttemptedAt,
       };
@@ -139,7 +151,7 @@ export class LocalProgressRepository implements ProgressRepository {
 
   async clearProgress(): Promise<void> {
     try {
-      localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(this.storageKey);
     } catch {
       // Ignore storage errors on clear
     }

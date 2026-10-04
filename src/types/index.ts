@@ -32,7 +32,8 @@ export type ActivityVariant =
   | 'missing-unit'
   | 'arrange'
   | 'fill-blank'
-  | 'translate-select';
+  | 'translate-select'
+  | 'word-entry';
 
 export interface ContentAsset {
   type: 'image' | 'audio';
@@ -51,7 +52,12 @@ export interface Activity {
   subject: string;
   language: string;
   term?: string;
+  module?: number;
+  day?: number;
+  role?: 'new' | 'review';
+  reviewSourceModule?: number;
   level: number;
+  sourceDifficulty?: string;
   targetWord?: string;
   category: ActivityCategory;
   variant: ActivityVariant;
@@ -59,6 +65,7 @@ export interface Activity {
   instruction?: string;
   options?: ActivityOption[];
   units?: string[];
+  template?: string;
   correctAnswer: string | string[];
   image?: ContentAsset;
   audio?: ContentAsset;
@@ -66,8 +73,12 @@ export interface Activity {
   interactionDetail?: string;
   source: {
     workbook: string;
-    questionId: string;
+    questionId?: string;
+    ewId?: string;
+    activityCode?: string;
     originalActivity?: string;
+    hasSourceAnomaly?: boolean;
+    anomalyNote?: string;
   };
   metadata?: Record<string, unknown>;
 }
@@ -105,7 +116,7 @@ export interface ContentValidationResult {
 export interface ContentManifest {
   classLevel: number;
   subject: string;
-  term: string;
+  term?: string;
   language: string;
   activityCount: number;
   version: string;
@@ -114,10 +125,63 @@ export interface ContentManifest {
   supportedCategories: ActivityCategory[];
 }
 
+export interface EnglishDayAllocation {
+  day: number;
+  newCount: number;
+  reviewCount: number;
+  totalCount: number;
+}
+
+export interface EnglishDifficultyBreakdown {
+  easy: number;
+  medium: number;
+  hard: number;
+  mixed: number;
+  unclassified: number;
+}
+
+export interface EnglishModuleManifest {
+  classLevel: 3;
+  subject: 'English';
+  module: number;
+  title: string;
+  newWordCount: number;
+  reviewWordCount: number;
+  totalActivities: number;
+  days: EnglishDayAllocation[];
+  difficultyBreakdown: EnglishDifficultyBreakdown;
+  supportedCategories: ActivityCategory[];
+  version: string;
+}
+
+export interface EnglishCurriculumManifest {
+  classLevel: 3;
+  subject: 'English';
+  language: 'en-IN';
+  totalUniqueWords: number;
+  totalReviewInstances: number;
+  totalActivities: number;
+  moduleCount: number;
+  modules: {
+    module: number;
+    title: string;
+    newWordCount: number;
+    reviewWordCount: number;
+    totalActivities: number;
+  }[];
+  difficultyBreakdown: EnglishDifficultyBreakdown;
+  version: string;
+  sourceVersion: string;
+  generatedDate: string;
+}
+
 export interface ActivityQuery {
   classLevel?: number;
   subject?: string;
   term?: string;
+  module?: number;
+  day?: number;
+  role?: 'new' | 'review';
   category?: ActivityCategory;
   variant?: ActivityVariant;
   level?: number;

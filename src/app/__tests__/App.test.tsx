@@ -14,7 +14,7 @@ describe('App Router Integration', () => {
     }).not.toThrow();
 
     // Verify main landmark or brand header renders
-    expect(await screen.findByText(/Tamil Learning/i)).toBeInTheDocument();
-    expect(screen.getByText("Let's Learn Tamil")).toBeInTheDocument();
+    expect(await screen.findByText(/Kids Learning/i)).toBeInTheDocument();
+    expect(screen.getByText("Learn. Play. Grow.")).toBeInTheDocument();
   });
 });

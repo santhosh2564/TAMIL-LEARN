@@ -5,7 +5,8 @@ import {
   MeaningMatchEvaluator,
   ContextChoiceEvaluator,
   ArrangeWordEvaluator,
-  WordCompletionEvaluator
+  WordCompletionEvaluator,
+  WordEntryEvaluator
 } from '../../engine/evaluators';
 import { 
   PictureSelectActivity, 
@@ -13,7 +14,8 @@ import {
   MeaningMatchActivity,
   ContextChoiceActivity,
   ArrangeWordActivity,
-  WordCompletionActivity
+  WordCompletionActivity,
+  WordEntryActivity
 } from './variants';
 
 export function registerCoreActivities() {
@@ -25,7 +27,15 @@ export function registerCoreActivities() {
     evaluator: new PictureRecognitionEvaluator(),
   });
 
-  // 2. Spelling Choice -> Select
+  // 2. Picture Recognition -> Word Entry (English E01 and E12 write)
+  activityRegistry.register({
+    category: 'picture-recognition',
+    variant: 'word-entry',
+    component: WordEntryActivity,
+    evaluator: new WordEntryEvaluator(),
+  });
+
+  // 3. Spelling Choice -> Select (English E08)
   activityRegistry.register({
     category: 'spelling-choice',
     variant: 'select',
@@ -33,7 +43,7 @@ export function registerCoreActivities() {
     evaluator: new SpellingChoiceEvaluator(),
   });
 
-  // 3. Meaning Match -> Translate Select
+  // 4. Meaning Match -> Translate Select (Tamil)
   activityRegistry.register({
     category: 'meaning-match',
     variant: 'translate-select',
@@ -41,7 +51,15 @@ export function registerCoreActivities() {
     evaluator: new MeaningMatchEvaluator(),
   });
 
-  // 4. Context Choice -> Fill Blank
+  // 5. Meaning Match -> Word Entry (English E09)
+  activityRegistry.register({
+    category: 'meaning-match',
+    variant: 'word-entry',
+    component: WordEntryActivity,
+    evaluator: new WordEntryEvaluator(),
+  });
+
+  // 6. Context Choice -> Fill Blank
   activityRegistry.register({
     category: 'context-choice',
     variant: 'fill-blank',
@@ -49,7 +67,7 @@ export function registerCoreActivities() {
     evaluator: new ContextChoiceEvaluator(),
   });
 
-  // 5. Arrange Word -> Arrange
+  // 7. Arrange Word -> Arrange (English E04, E06, E07)
   activityRegistry.register({
     category: 'arrange-word',
     variant: 'arrange',
@@ -57,7 +75,7 @@ export function registerCoreActivities() {
     evaluator: new ArrangeWordEvaluator(),
   });
 
-  // 6. Word Completion -> Missing Unit
+  // 8. Word Completion -> Missing Unit (English E05, E11)
   activityRegistry.register({
     category: 'word-completion',
     variant: 'missing-unit',

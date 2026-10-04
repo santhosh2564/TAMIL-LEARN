@@ -27,14 +27,26 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
   } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
   const resolver = useMemo(() => new AssetResolver(), []);
-  const assetRef = useMemo<AssetReference>(() => ({
-    id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
-    type: 'image'
-  }), [activity.id]);
+  const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
+
+  const assetRef = useMemo<AssetReference | null>(() => {
+    if (isEnglish) {
+      const isPictureRequired = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '');
+      if (!isPictureRequired) return null;
+      const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
+      return { id: `eng-${wordKey}`, type: 'image' };
+    }
+    return {
+      id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
+      type: 'image'
+    };
+  }, [activity, isEnglish]);
 
   const hasImage = useMemo(() => {
+    if (!assetRef) return false;
+    if (isEnglish) return true; // Show image or graceful fallback
     return resolver.resolve(assetRef).status === 'resolved';
-  }, [assetRef, resolver]);
+  }, [assetRef, resolver, isEnglish]);
 
   return (
     <ActivityCard>
@@ -42,9 +54,9 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
         <ActivityPrompt prompt={activity.prompt} />
       </div>
 
-      {hasImage && (
+      {hasImage && assetRef && (
         <div className="mb-6">
-          <ActivityAsset assetRef={assetRef} />
+          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
         </div>
       )}
       
@@ -68,7 +80,17 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
         onNext={handleNext}
         onRetry={handleRetry}
         showRetry={showRetry}
-        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
+        checkLabel={isEnglish ? 'Check Answer' : 'விடையைச் சரிபார்'}
+        continueLabel={isEnglish ? 'Continue' : 'தொடர்க'}
+        retryLabel={isEnglish ? 'Try Again' : 'மீண்டும் முயற்சி செய்'}
+        feedback={
+          <ActivityFeedback 
+            status={state.status} 
+            correct={submitted ? isCorrect : undefined} 
+            successMessage={isEnglish ? 'Correct!' : 'சரியான விடை!'}
+            errorMessage={isEnglish ? 'Not quite. Try again.' : 'தவறான விடை'}
+          />
+        }
       />
     </ActivityCard>
   );

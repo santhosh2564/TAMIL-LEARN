@@ -22,6 +22,10 @@ export interface ActivityProgress {
   correct: boolean;
   /** Total number of attempts (increments on each submit) */
   attempts: number;
+  /** True if the learner succeeded on their very first attempt (no retries) */
+  firstAttemptCorrect?: boolean;
+  /** True if the final attempt was correct */
+  finalCorrect?: boolean;
   /** ISO timestamp of the last time this activity was completed */
   lastCompletedAt: string;
   /** ISO timestamp of the last time an attempt was made */

@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useMemo } from 'react';
+import { useEffect, useState, useCallback, useMemo, useRef } from 'react';
 import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useNavigate, useSearchParams, useParams, useBlocker } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { SessionConfig } from '../../engine/types';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { ErrorState } from '../../components/ui/ErrorState';
 import { Activity, ActivityCategory } from '../../types';
-import { ProgressService, LocalProgressRepository } from '../../progress';
+import { ProgressService, LocalProgressRepository, EnglishProgressService, DEFAULT_TAMIL_STORAGE_KEY } from '../../progress';
 
 export function SessionPage() {
   const navigate = useNavigate();
@@ -16,15 +16,24 @@ export function SessionPage() {
   const category = searchParams.get('category') as ActivityCategory | null;
   const levelStr = searchParams.get('level');
   const sizeStr = searchParams.get('size');
+  const moduleStr = searchParams.get('module');
+  const dayStr = searchParams.get('day');
   
   const level = levelStr ? Number(levelStr) : undefined;
+  const moduleNum = moduleStr ? Number(moduleStr) : undefined;
+  const dayNum = dayStr ? Number(dayStr) : undefined;
+
+  const isEnglish = (subjectId || '').toLowerCase() === 'english';
+
   const config: SessionConfig = useMemo(() => ({
     classId: classId || '3',
     subjectId: subjectId || 'tamil',
     category,
     level,
+    module: moduleNum,
+    day: dayNum,
     size: parseSessionSize(sizeStr)
-  }), [classId, subjectId, category, level, sizeStr]);
+  }), [classId, subjectId, category, level, moduleNum, dayNum, sizeStr]);
 
   const [session, setSession] = useState<ActivitySession | null>(null);
   const [activities, setActivities] = useState<Record<string, Activity>>({});
@@ -35,17 +44,22 @@ export function SessionPage() {
   // We don't want to block if they are deliberately navigating to results or exiting
   const [isNavigatingToResults, setIsNavigatingToResults] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
+  const isExitingRef = useRef(false);
 
   const sessionService = useMemo(() => new SessionService(), []);
   const engine = useMemo(() => new CoreActivityEngine(), []);
-  const progressService = useMemo(
-    () => new ProgressService(new LocalProgressRepository()),
+  const tamilProgressService = useMemo(
+    () => new ProgressService(new LocalProgressRepository(DEFAULT_TAMIL_STORAGE_KEY)),
+    []
+  );
+  const englishProgressService = useMemo(
+    () => new EnglishProgressService(),
     []
   );
 
   // Block navigation if session is active and not completed yet
   const blocker = useBlocker(({ nextLocation }) => {
-    if (isNavigatingToResults || isExiting || !session || session.status === 'completed') {
+    if (isNavigatingToResults || isExiting || isExitingRef.current || !session || session.status === 'completed') {
       return false;
     }
     return nextLocation.pathname !== window.location.pathname;
@@ -53,14 +67,18 @@ export function SessionPage() {
 
   useEffect(() => {
     if (blocker.state === 'blocked') {
-      const confirmed = window.confirm("பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.");
+      const confirmed = window.confirm(
+        isEnglish
+          ? "Are you sure you want to exit the session? Your progress will not be saved."
+          : "பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது."
+      );
       if (confirmed) {
         blocker.proceed();
       } else {
         blocker.reset();
       }
     }
-  }, [blocker]);
+  }, [blocker, isEnglish]);
 
   useEffect(() => {
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
@@ -81,7 +99,11 @@ export function SessionPage() {
         const selectedActivities = await selector.selectActivities(config);
 
         if (selectedActivities.length === 0) {
-          setError('இந்தப் பயிற்சிக்கான செயல்கள் எதுவும் கிடைக்கவில்லை.');
+          setError(
+            isEnglish
+              ? 'No activities available for this session.'
+              : 'இந்தப் பயிற்சிக்கான செயல்கள் எதுவும் கிடைக்கவில்லை.'
+          );
           setIsLoading(false);
           return;
         }
@@ -105,14 +127,18 @@ export function SessionPage() {
 
         setIsLoading(false);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'பயிற்சியைத் தொடங்க முடியவில்லை');
+        setError(
+          err instanceof Error
+            ? err.message
+            : (isEnglish ? 'Unable to start session' : 'பயிற்சியைத் தொடங்க முடியவில்லை')
+        );
         setIsLoading(false);
       }
     }
 
     initSession();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [category, levelStr, sizeStr]); // Re-run only if core query params change
+  }, [category, levelStr, sizeStr, moduleStr, dayStr]);
 
   const handleSubmit = useCallback((input: unknown) => {
     if (!session || !currentActivityState) return;
@@ -155,15 +181,21 @@ export function SessionPage() {
         const updatedSession = sessionService.completeActivity(session, activityResult);
         setSession(updatedSession);
 
-        // Persist to local storage via ProgressService — no component touches localStorage
-        progressService.recordCompletion(activityResult, activity.category).catch(() => {
-          // Storage failures are non-fatal: session continues normally
-        });
+        // Persist to isolated local storage namespace via ProgressService
+        if (isEnglish) {
+          englishProgressService.recordActivityCompletion(activityResult, activity).catch(() => {
+            // Storage failures are non-fatal: session continues normally
+          });
+        } else {
+          tamilProgressService.recordCompletion(activityResult, activity.category).catch(() => {
+            // Storage failures are non-fatal: session continues normally
+          });
+        }
       }
     } catch (err) {
       console.error(err);
     }
-  }, [session, currentActivityState, activities, engine, sessionService, progressService]);
+  }, [session, currentActivityState, activities, engine, sessionService, isEnglish, englishProgressService, tamilProgressService]);
 
   const handleNext = useCallback(() => {
     if (!session) return;
@@ -213,7 +245,7 @@ export function SessionPage() {
   if (!session || !currentActivityState) return null;
 
   if (session.status === 'completed' || isNavigatingToResults) {
-    return <Page hideHeader><LoadingState message="முடிவுகள் தயாராகின்றன..." /></Page>;
+    return <Page hideHeader><LoadingState message={isEnglish ? "Preparing results..." : "முடிவுகள் தயாராகின்றன..."} /></Page>;
   }
 
   const currentActivityId = sessionService.getCurrentActivityId(session);
@@ -221,7 +253,16 @@ export function SessionPage() {
     // Session state lost or corrupted
     return (
       <Page hideHeader>
-        <ErrorState message="உங்கள் பயிற்சி தற்போது கிடைக்கவில்லை." onRetry={() => navigate(`/classes/${classId}/subjects/${subjectId}`)} />
+        <ErrorState
+          message={isEnglish ? "Your session is currently unavailable." : "உங்கள் பயிற்சி தற்போது கிடைக்கவில்லை."}
+          onRetry={() => {
+            if (isEnglish && config.module) {
+              navigate(`/classes/${classId || '3'}/subjects/english/modules/${config.module}`);
+            } else {
+              navigate(`/classes/${classId}/subjects/${subjectId}`);
+            }
+          }}
+        />
       </Page>
     );
   }
@@ -230,9 +271,17 @@ export function SessionPage() {
   const progressPercent = (session.currentIndex / session.activityIds.length) * 100;
 
   const handleExit = () => {
-    if (window.confirm("பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.")) {
+    const confirmMsg = isEnglish
+      ? "Are you sure you want to exit the session? Your progress will not be saved."
+      : "பயிற்சியிலிருந்து வெளியேறவா? உங்கள் முன்னேற்றம் சேமிக்கப்படாது.";
+    if (window.confirm(confirmMsg)) {
+      isExitingRef.current = true;
       setIsExiting(true);
-      navigate(`/classes/${classId || '3'}/subjects/${subjectId || 'tamil'}`);
+      if (isEnglish && config.module) {
+        navigate(`/classes/${classId || '3'}/subjects/english/modules/${config.module}`);
+      } else {
+        navigate(`/classes/${classId || '3'}/subjects/${subjectId || 'tamil'}`);
+      }
     }
   };
 
@@ -241,7 +290,7 @@ export function SessionPage() {
       <div className="min-h-screen flex flex-col max-w-4xl mx-auto w-full px-4 py-6">
         {/* Session Header */}
         <header className="flex items-center justify-between mb-8">
-          <Button variant="secondary" onClick={handleExit}>வெளியேறு</Button>
+          <Button variant="secondary" onClick={handleExit}>{isEnglish ? 'Exit' : 'வெளியேறு'}</Button>
           <div className="flex-1 mx-8 h-4 bg-surface-raised rounded-full overflow-hidden" role="progressbar" aria-valuenow={progressPercent} aria-valuemin={0} aria-valuemax={100}>
             <div 
               className="h-full bg-primary-500 rounded-full transition-all duration-300"
@@ -249,7 +298,9 @@ export function SessionPage() {
             />
           </div>
           <span className="font-bold text-text-muted" aria-live="polite">
-            செயல் {session.currentIndex + 1} / {session.activityIds.length}
+            {isEnglish
+              ? `Activity ${session.currentIndex + 1} / ${session.activityIds.length}`
+              : `செயல் ${session.currentIndex + 1} / ${session.activityIds.length}`}
           </span>
         </header>
 

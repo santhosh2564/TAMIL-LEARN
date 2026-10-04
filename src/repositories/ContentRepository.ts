@@ -1,10 +1,21 @@
-import { Activity, ContentManifest, ActivityQuery } from '../types';
+import { Activity, ContentManifest, ActivityQuery, EnglishCurriculumManifest, EnglishModuleManifest } from '../types';
 
 export interface ContentRepository {
   /**
    * Retrieves the manifest for the content package, detailing versions and supported categories.
    */
   getManifest(): Promise<ContentManifest>;
+
+  /**
+   * Retrieves the curriculum manifest for English Class 3.
+   */
+  getEnglishCurriculumManifest(): Promise<EnglishCurriculumManifest>;
+
+  /**
+   * Retrieves the module manifest for a specific English module.
+   * Returns null if moduleNumber is invalid.
+   */
+  getEnglishModuleManifest(moduleNumber: number): Promise<EnglishModuleManifest | null>;
 
   /**
    * Retrieves activities optionally matching a query.

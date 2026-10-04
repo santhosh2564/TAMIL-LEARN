@@ -1,0 +1,55 @@
+{
+  "classLevel": 3,
+  "subject": "English",
+  "module": 3,
+  "title": "Module 3 - Structural Patterns & Blends",
+  "newWordCount": 120,
+  "reviewWordCount": 40,
+  "totalActivities": 160,
+  "days": [
+    {
+      "day": 1,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 2,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 3,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 4,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 5,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    }
+  ],
+  "difficultyBreakdown": {
+    "easy": 31,
+    "medium": 50,
+    "hard": 30,
+    "mixed": 6,
+    "unclassified": 3
+  },
+  "supportedCategories": [
+    "spelling-choice",
+    "word-completion",
+    "arrange-word",
+    "picture-recognition"
+  ],
+  "version": "1.0.0"
+}

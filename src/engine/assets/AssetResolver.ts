@@ -1,13 +1,21 @@
 import { AssetReference, AssetResolutionState, AssetManifest } from './types';
 import class3TamilTerm1Assets from '../../content/class-3/tamil/term-1/assets.json';
+import class3EnglishAssets from '../../content/class-3/english/asset-manifest.json';
 
-// In a real app this could be dynamically loaded based on the subject/term
-const getManifestForAsset = (): AssetManifest => {
-  // We only have one manifest right now
-  return class3TamilTerm1Assets as AssetManifest;
+const getDefaultManifest = (): AssetManifest => {
+  return {
+    ...(class3TamilTerm1Assets as AssetManifest),
+    ...(class3EnglishAssets as AssetManifest)
+  };
 };
 
 export class AssetResolver {
+  private customManifest?: AssetManifest;
+
+  constructor(customManifest?: AssetManifest) {
+    this.customManifest = customManifest;
+  }
+
   resolve(ref: AssetReference): AssetResolutionState {
     if (!ref || !ref.id || typeof ref.id !== 'string') {
       return { status: 'invalid', id: ref?.id || 'unknown', reason: 'Invalid asset ID format' };
@@ -18,7 +26,7 @@ export class AssetResolver {
       return { status: 'invalid', id: ref.id, reason: 'Unsafe characters in asset ID' };
     }
 
-    const manifest = getManifestForAsset();
+    const manifest = this.customManifest || getDefaultManifest();
     const entry = manifest[ref.id];
 
     if (!entry) {

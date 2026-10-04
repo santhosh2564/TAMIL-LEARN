@@ -1,0 +1,77 @@
+{
+  "classLevel": 3,
+  "subject": "English",
+  "language": "en-IN",
+  "totalUniqueWords": 958,
+  "totalReviewInstances": 280,
+  "totalActivities": 1238,
+  "moduleCount": 8,
+  "modules": [
+    {
+      "module": 1,
+      "title": "Module 1 - Foundation & Recognition",
+      "newWordCount": 120,
+      "reviewWordCount": 0,
+      "totalActivities": 120
+    },
+    {
+      "module": 2,
+      "title": "Module 2 - Phonemic Building & Core Vocabulary",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 3,
+      "title": "Module 3 - Structural Patterns & Blends",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 4,
+      "title": "Module 4 - Word Construction & Syllables",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 5,
+      "title": "Module 5 - Context & Extended Vocabulary",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 6,
+      "title": "Module 6 - Advanced Construction & Compounds",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 7,
+      "title": "Module 7 - Lexical Consolidation",
+      "newWordCount": 120,
+      "reviewWordCount": 40,
+      "totalActivities": 160
+    },
+    {
+      "module": 8,
+      "title": "Module 8 - Curriculum Mastery",
+      "newWordCount": 118,
+      "reviewWordCount": 40,
+      "totalActivities": 158
+    }
+  ],
+  "difficultyBreakdown": {
+    "easy": 225,
+    "medium": 278,
+    "hard": 273,
+    "mixed": 64,
+    "unclassified": 118
+  },
+  "version": "1.0.0",
+  "sourceVersion": "Class 3 English Modules 1-8 Consolidated Verified Master",
+  "generatedDate": "2026-10-04T08:42:36.158Z"
+}

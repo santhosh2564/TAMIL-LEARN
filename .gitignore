@@ -3,3 +3,9 @@ dist/
 *.tsbuildinfo
 .env*
 !.env.example
+test-results/
+*.zip
+*.xlsx
+ENGLISH-IMAGES-*/
+Issue-ss/
+reenglishspellingfilesdetails/

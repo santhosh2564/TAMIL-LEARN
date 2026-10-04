@@ -1,0 +1,55 @@
+{
+  "classLevel": 3,
+  "subject": "English",
+  "module": 1,
+  "title": "Module 1 - Foundation & Recognition",
+  "newWordCount": 120,
+  "reviewWordCount": 0,
+  "totalActivities": 120,
+  "days": [
+    {
+      "day": 1,
+      "newCount": 24,
+      "reviewCount": 0,
+      "totalCount": 24
+    },
+    {
+      "day": 2,
+      "newCount": 24,
+      "reviewCount": 0,
+      "totalCount": 24
+    },
+    {
+      "day": 3,
+      "newCount": 24,
+      "reviewCount": 0,
+      "totalCount": 24
+    },
+    {
+      "day": 4,
+      "newCount": 24,
+      "reviewCount": 0,
+      "totalCount": 24
+    },
+    {
+      "day": 5,
+      "newCount": 24,
+      "reviewCount": 0,
+      "totalCount": 24
+    }
+  ],
+  "difficultyBreakdown": {
+    "easy": 70,
+    "medium": 40,
+    "hard": 10,
+    "mixed": 0,
+    "unclassified": 0
+  },
+  "supportedCategories": [
+    "spelling-choice",
+    "picture-recognition",
+    "word-completion",
+    "arrange-word"
+  ],
+  "version": "1.0.0"
+}

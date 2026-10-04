@@ -107,4 +107,6 @@ export interface SessionConfig {
   category: ActivityCategory | null;
   level?: number;
   size: SessionSize;
+  module?: number;
+  day?: number;
 }

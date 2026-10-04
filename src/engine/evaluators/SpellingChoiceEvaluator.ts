@@ -3,6 +3,8 @@ import { ActivityEvaluation, ActivityEvaluator } from '../types';
 
 export class SpellingChoiceEvaluator implements ActivityEvaluator<string> {
   evaluate(activity: Activity, inputId: string): ActivityEvaluation {
+    const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
+
     if (!activity.options || activity.options.length === 0) {
       throw new Error('Spelling choice activity has no options');
     }
@@ -16,23 +18,23 @@ export class SpellingChoiceEvaluator implements ActivityEvaluator<string> {
         attempts: 1,
         feedback: {
           type: 'error',
-          message: 'தேர்வு செல்லுபடியாகவில்லை'
+          message: isEnglish ? 'Please select an option' : 'தேர்வு செல்லுபடியாகவில்லை'
         }
       };
     }
 
-    // Tamil text must be handled safely. 
-    // Basic equality check is sufficient as both originate from the normalized JSON strings.
-    const isCorrect = selectedOption.label === activity.correctAnswer;
+    const targetAns = Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : (activity.correctAnswer || '');
+    const isCorrect = selectedOption.label.trim().toLowerCase() === targetAns.trim().toLowerCase();
 
     return {
       correct: isCorrect,
-      // Only complete on a correct answer. A wrong answer keeps the activity
-      // active so the learner can retry the SAME activity (see retry flow).
       completed: isCorrect,
       attempts: 1,
       feedback: {
-        type: isCorrect ? 'success' : 'error'
+        type: isCorrect ? 'success' : 'error',
+        message: isCorrect
+          ? (isEnglish ? 'Correct!' : 'சரியான விடை!')
+          : (isEnglish ? 'Not quite. Try again.' : 'தவறான விடை')
       }
     };
   }

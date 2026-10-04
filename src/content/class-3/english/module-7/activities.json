@@ -1,0 +1,7202 @@
+[
+  {
+    "id": "ENG-M7-EW374",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "happy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The child is ______ because she got a gift. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "y"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "p",
+      "y",
+      "h",
+      "a",
+      "p"
+    ],
+    "correctAnswer": "happy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW374",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW409",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "hungry",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "I feel ______ because I have not eaten. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "g",
+      "r",
+      "u",
+      "n",
+      "h",
+      "y"
+    ],
+    "correctAnswer": "hungry",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW409",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW823",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "tasty",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The food is very ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "y",
+      "t",
+      "a",
+      "s",
+      "t"
+    ],
+    "correctAnswer": "tasty",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW823",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW055",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "better",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "This book is ______ than the old one. Complete the word:",
+    "template": "b e t _ e r",
+    "correctAnswer": "better",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW055",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW067",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "blue",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The sky is ______. Complete the word:",
+    "template": "b l _ e",
+    "correctAnswer": "blue",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW067",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW069",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "boat",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ______ is on the water. Complete the word:",
+    "template": "b o _ t",
+    "correctAnswer": "boat",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW069",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW070",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "boil",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the water. Complete the word:",
+    "template": "b o _ l",
+    "correctAnswer": "boil",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW070",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW073",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "book",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I read a ______. Complete the word:",
+    "template": "b o _ k",
+    "correctAnswer": "book",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW073",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW127",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "cave",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The bear lives in a ______. Complete the word:",
+    "template": "c a v _",
+    "correctAnswer": "cave",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW127",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW148",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "clean",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Keep your hands ______. Complete the word:",
+    "template": "c l _ a n",
+    "correctAnswer": "clean",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW148",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW153",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "cloud",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Look at the picture. Complete the word:",
+    "template": "c l _ u d",
+    "correctAnswer": "cloud",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW153",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW159",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "coin",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a ______ to buy things. Complete the word:",
+    "template": "c o _ n",
+    "correctAnswer": "coin",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW159",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW363",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "grow",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Plants ______ from seeds. Complete the word:",
+    "template": "g r _ w",
+    "correctAnswer": "grow",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW363",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW476",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "listen",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ carefully to the teacher. Complete the word:",
+    "template": "l i s t _ n",
+    "correctAnswer": "listen",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW476",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW481",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "look",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "______ at the picture carefully. Complete the word:",
+    "template": "l o _ k",
+    "correctAnswer": "look",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW481",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW505",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "mike",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word. A microphone is sometimes called a _ in everyday speech.",
+    "template": "m i _ e",
+    "correctAnswer": "mike",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW505",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW518",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "move",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the chair to the side. Complete the word:",
+    "template": "m o _ e",
+    "correctAnswer": "move",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW518",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW084",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "breakfast",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We eat this meal in the morning. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      },
+      {
+        "id": "E",
+        "label": "b"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      },
+      {
+        "id": "H",
+        "label": "a"
+      },
+      {
+        "id": "I",
+        "label": "k"
+      }
+    ],
+    "units": [
+      "f",
+      "a",
+      "s",
+      "t",
+      "b",
+      "r",
+      "e",
+      "a",
+      "k"
+    ],
+    "correctAnswer": "breakfast",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW084",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW094",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "brother",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "What do you call your elder or younger male sibling? Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "h"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "t",
+      "b",
+      "r",
+      "h",
+      "o",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "brother",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW094",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW114",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cannot",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "I ______ swim because I am too young. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "n",
+      "c",
+      "o",
+      "t",
+      "a",
+      "n",
+      "n",
+      "o"
+    ],
+    "correctAnswer": "cannot",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW114",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "8 letter tokens provided for 6-letter word \"cannot\" (extra n, o)"
+    }
+  },
+  {
+    "id": "ENG-M7-EW133",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "chased",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The dog ran after the cat. It ______ the cat. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "s",
+      "c",
+      "h",
+      "a",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "chased",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW133",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW136",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cherry",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "c"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "r",
+      "e",
+      "c",
+      "y",
+      "h",
+      "r"
+    ],
+    "correctAnswer": "cherry",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW136",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW166",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cooker",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use this kitchen appliance to cook food. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "k"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "r",
+      "c",
+      "o",
+      "k",
+      "e",
+      "o"
+    ],
+    "correctAnswer": "cooker",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW166",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW178",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "crawling",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The baby is ______ on the floor. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "w"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "i",
+      "c",
+      "r",
+      "a",
+      "w",
+      "l",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "crawling",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW178",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW187",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "crushed",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The empty box was ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "h"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "u"
+      },
+      {
+        "id": "G",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "h",
+      "c",
+      "r",
+      "e",
+      "d",
+      "u",
+      "s"
+    ],
+    "correctAnswer": "crushed",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW187",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW189",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "crying",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The baby is ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "i",
+      "c",
+      "r",
+      "y",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "crying",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW189",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW196",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "curtain",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use this to cover a window. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "c"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "i"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "r",
+      "t",
+      "c",
+      "a",
+      "u",
+      "i",
+      "n"
+    ],
+    "correctAnswer": "curtain",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW196",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW227",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "diving",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The boy is ______ into the water. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "v"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "g",
+      "d",
+      "i",
+      "v",
+      "i",
+      "n"
+    ],
+    "correctAnswer": "diving",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW227",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW264",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "excited",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi was ______ about the school trip. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "x"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "c"
+      }
+    ],
+    "units": [
+      "t",
+      "e",
+      "x",
+      "d",
+      "i",
+      "e",
+      "c"
+    ],
+    "correctAnswer": "excited",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW264",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW271",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "fancy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The dress looks ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "f"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "c"
+      }
+    ],
+    "units": [
+      "n",
+      "f",
+      "y",
+      "a",
+      "c"
+    ],
+    "correctAnswer": "fancy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW271",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW279",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "feelings",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Happiness, sadness and anger are ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "f"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "i",
+      "f",
+      "s",
+      "e",
+      "g",
+      "l",
+      "n",
+      "e"
+    ],
+    "correctAnswer": "feelings",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW279",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW307",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "flying",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The bird is ______ in the sky. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "f"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      }
+    ],
+    "units": [
+      "y",
+      "f",
+      "i",
+      "n",
+      "g",
+      "l"
+    ],
+    "correctAnswer": "flying",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW307",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW311",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "followed",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The little boy ______ his mother home. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "w"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "f"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      },
+      {
+        "id": "H",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "w",
+      "o",
+      "l",
+      "f",
+      "d",
+      "l",
+      "e",
+      "o"
+    ],
+    "correctAnswer": "followed",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW311",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW333",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "gently",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Please hold the glass ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "y"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "t",
+      "g",
+      "e",
+      "l",
+      "y",
+      "n"
+    ],
+    "correctAnswer": "gently",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW333",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW358",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "grinder",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a ______ to grind food. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "d",
+      "g",
+      "r",
+      "i",
+      "n",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "grinder",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW358",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW369",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "hammer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a ______ to hit nails. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "h"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "m",
+      "h",
+      "a",
+      "e",
+      "r",
+      "m"
+    ],
+    "correctAnswer": "hammer",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW369",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW382",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "healthy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Eating fruits and vegetables helps us stay ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "h"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "h"
+      },
+      {
+        "id": "G",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "h",
+      "e",
+      "a",
+      "l",
+      "t",
+      "h",
+      "y"
+    ],
+    "correctAnswer": "healthy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW382",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW484",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "louder",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The drum became ______ when the boy hit it harder. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "r",
+      "l",
+      "o",
+      "u",
+      "d",
+      "e"
+    ],
+    "correctAnswer": "louder",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW484",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW533",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "naughty",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The child was ______ and did not follow the rules. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "n"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "h"
+      },
+      {
+        "id": "G",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "t",
+      "n",
+      "a",
+      "u",
+      "g",
+      "h",
+      "y"
+    ],
+    "correctAnswer": "naughty",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW533",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW594",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "playing",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children are ______ in the park. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "y",
+      "p",
+      "l",
+      "a",
+      "i",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "playing",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW594",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW600",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "pointing",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi is ______ at the picture. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "i"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "i",
+      "p",
+      "o",
+      "n",
+      "t",
+      "i",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "pointing",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW600",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW616",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "prepared",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi was ______ for the school activity. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "p"
+      },
+      {
+        "id": "G",
+        "label": "r"
+      },
+      {
+        "id": "H",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "p",
+      "a",
+      "r",
+      "e",
+      "d",
+      "p",
+      "r",
+      "e"
+    ],
+    "correctAnswer": "prepared",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW616",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW656",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "roasting",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The vegetables are ______ in the oven. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "a"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      },
+      {
+        "id": "H",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "t",
+      "r",
+      "o",
+      "i",
+      "n",
+      "a",
+      "g",
+      "s"
+    ],
+    "correctAnswer": "roasting",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW656",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW698",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "shakers",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children used the ______ to make music. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "a"
+      },
+      {
+        "id": "G",
+        "label": "k"
+      }
+    ],
+    "units": [
+      "s",
+      "e",
+      "r",
+      "s",
+      "h",
+      "a",
+      "k"
+    ],
+    "correctAnswer": "shakers",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW698",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW701",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "sharpener",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use this to make a pencil sharp. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "a"
+      },
+      {
+        "id": "G",
+        "label": "h"
+      },
+      {
+        "id": "H",
+        "label": "e"
+      },
+      {
+        "id": "I",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "p",
+      "e",
+      "n",
+      "s",
+      "r",
+      "a",
+      "h",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "sharpener",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW701",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW727",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "singing",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children are ______ a song. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "i"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "g",
+      "i",
+      "s",
+      "n",
+      "n",
+      "i",
+      "g"
+    ],
+    "correctAnswer": "singing",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW727",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW736",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "slimy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The wet frog felt ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "m"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      }
+    ],
+    "units": [
+      "y",
+      "s",
+      "m",
+      "i",
+      "l"
+    ],
+    "correctAnswer": "slimy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW736",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW762",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "speaker",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ makes sound louder. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "k"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "e",
+      "k",
+      "s",
+      "p",
+      "e",
+      "r",
+      "a"
+    ],
+    "correctAnswer": "speaker",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW762",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW803",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "supper",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We had ______ in the evening. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "p",
+      "s",
+      "u",
+      "p",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "supper",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW803",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW804",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "surprised",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi was ______ when he received the gift. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "u"
+      },
+      {
+        "id": "H",
+        "label": "d"
+      },
+      {
+        "id": "I",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "r",
+      "p",
+      "s",
+      "e",
+      "i",
+      "s",
+      "u",
+      "d",
+      "r"
+    ],
+    "correctAnswer": "surprised",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW804",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW805",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "surrounded",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The house was ______ by trees. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "u"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "d"
+      },
+      {
+        "id": "I",
+        "label": "e"
+      },
+      {
+        "id": "J",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "r",
+      "s",
+      "u",
+      "r",
+      "o",
+      "u",
+      "n",
+      "d",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "surrounded",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW805",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW808",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "sweater",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We wear a ______ to keep warm. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "w"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "t"
+      },
+      {
+        "id": "G",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "e",
+      "s",
+      "w",
+      "e",
+      "a",
+      "t",
+      "r"
+    ],
+    "correctAnswer": "sweater",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW808",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW812",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "swimming",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children are ______ in the pool. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "w"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      },
+      {
+        "id": "G",
+        "label": "m"
+      },
+      {
+        "id": "H",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "g",
+      "m",
+      "i",
+      "s",
+      "w",
+      "n",
+      "m",
+      "i"
+    ],
+    "correctAnswer": "swimming",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW812",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW867",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "touching",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children are ______ the soft cloth. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "h"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "t"
+      },
+      {
+        "id": "G",
+        "label": "u"
+      },
+      {
+        "id": "H",
+        "label": "c"
+      }
+    ],
+    "units": [
+      "g",
+      "h",
+      "i",
+      "n",
+      "o",
+      "t",
+      "u",
+      "c"
+    ],
+    "correctAnswer": "touching",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW867",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW912",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "walking",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "w"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "g"
+      },
+      {
+        "id": "G",
+        "label": "l"
+      }
+    ],
+    "units": [
+      "k",
+      "w",
+      "i",
+      "n",
+      "a",
+      "g",
+      "l"
+    ],
+    "correctAnswer": "walking",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW912",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW913",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "warned",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The teacher ______ the children not to run on the wet floor. Arrange the letters to spell the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "w"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "n",
+      "e",
+      "d",
+      "w",
+      "a",
+      "r",
+      "n"
+    ],
+    "correctAnswer": "warned",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW913",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "7 letter tokens provided for 6-letter word \"warned\" (extra n)"
+    }
+  },
+  {
+    "id": "ENG-M7-EW941",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "wonders",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "w"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "s",
+      "w",
+      "n",
+      "e",
+      "d",
+      "r",
+      "o"
+    ],
+    "correctAnswer": "wonders",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW941",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW943",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "wooden",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "w"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "o"
+      },
+      {
+        "id": "G",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "d",
+      "w",
+      "o",
+      "e",
+      "n",
+      "o",
+      "d"
+    ],
+    "correctAnswer": "wooden",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW943",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "7 letter tokens provided for 6-letter word \"wooden\" (extra d)"
+    }
+  },
+  {
+    "id": "ENG-M7-EW946",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "worried",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "w"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "r",
+      "w",
+      "o",
+      "e",
+      "d",
+      "r",
+      "i"
+    ],
+    "correctAnswer": "worried",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW946",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW147",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "clay",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We can make pots and toys from ______. Complete the word:",
+    "template": "c l _ y",
+    "correctAnswer": "clay",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW147",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW155",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "clove",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "This is a small spice used in cooking. Complete the word:",
+    "template": "c l _ v e",
+    "correctAnswer": "clove",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW155",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW158",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "coil",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Look at the picture. Complete the word:",
+    "template": "c o _ l",
+    "correctAnswer": "coil",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW158",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW246",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "duke",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A ______ is a title used for a man of high rank. Complete the word:",
+    "template": "d u _ e",
+    "correctAnswer": "duke",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW246",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW247",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "dune",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A ______ is a hill of sand. Complete the word:",
+    "template": "d u _ e",
+    "correctAnswer": "dune",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW247",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW261",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "escape",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The bird can ______ from the cage. Complete the word:",
+    "template": "e s c a _ e",
+    "correctAnswer": "escape",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW261",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW276",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "favourite",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "This is my ______ book. Complete the word:",
+    "template": "f a v o u r i _ e",
+    "correctAnswer": "favourite",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW276",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW310",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "foil",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We can wrap food in ______. Complete the word:",
+    "template": "f o _ l",
+    "correctAnswer": "foil",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW310",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW407",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "huge",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The elephant is ______. Complete the word:",
+    "template": "h u _ e",
+    "correctAnswer": "huge",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW407",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW430",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "join",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the two lines. Complete the word:",
+    "template": "j o _ n",
+    "correctAnswer": "join",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW430",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW431",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "joint",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Your elbow is a ______ between two bones. Complete the word:",
+    "template": "j o _ n t",
+    "correctAnswer": "joint",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW431",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW457",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "leave",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "It is time to ______ school. Complete the word:",
+    "template": "l e _ v e",
+    "correctAnswer": "leave",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW457",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW530",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "name",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Write your ______ at the top of the page. Complete the word:",
+    "template": "n a _ e",
+    "correctAnswer": "name",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW530",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW541",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "never",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I ______ forget my school bag. Complete the word:",
+    "template": "n e _ e r",
+    "correctAnswer": "never",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW541",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW559",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "over",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The bird flew ______ the tree. Complete the word:",
+    "template": "o _ e r",
+    "correctAnswer": "over",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW559",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW563",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "pack",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the books into your ______. Complete the word:",
+    "template": "p a _ k",
+    "correctAnswer": "pack",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW563",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW599",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "point",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put a ______ at the end of the sentence. Complete the word:",
+    "template": "p o _ n t",
+    "correctAnswer": "point",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW599",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW614",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "practice",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "You need regular ______ to improve your spelling. Complete the word:",
+    "template": "p r a c t _ c e",
+    "correctAnswer": "practice",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW614",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW615",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "practise",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Every day, we ______ our spelling words to remember them. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "practise"
+      },
+      {
+        "id": "B",
+        "label": "practize"
+      },
+      {
+        "id": "C",
+        "label": "practese"
+      }
+    ],
+    "correctAnswer": "practise",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW615",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW684",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "scissors",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "scissors"
+      },
+      {
+        "id": "B",
+        "label": "scisors"
+      },
+      {
+        "id": "C",
+        "label": "scizzors"
+      }
+    ],
+    "correctAnswer": "scissors",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW684",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW846",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "thrown",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The ball was ______ into the basket. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "thrown"
+      },
+      {
+        "id": "B",
+        "label": "thron"
+      },
+      {
+        "id": "C",
+        "label": "throwen"
+      }
+    ],
+    "correctAnswer": "thrown",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW846",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW930",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "whoosh",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word for the sound made by something moving quickly through the air.",
+    "options": [
+      {
+        "id": "A",
+        "label": "whoosh"
+      },
+      {
+        "id": "B",
+        "label": "woosh"
+      },
+      {
+        "id": "C",
+        "label": "whooshh"
+      }
+    ],
+    "correctAnswer": "whoosh",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW930",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW087",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "breezy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The day is cool and windy. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "z"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "z",
+      "b",
+      "y",
+      "r",
+      "e",
+      "e"
+    ],
+    "correctAnswer": "breezy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW087",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW104",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "buried",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The treasure was hidden under the ground. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "r",
+      "b",
+      "u",
+      "i",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "buried",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW104",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW183",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "crossing",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a road ______ to cross the street. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "c"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "o"
+      },
+      {
+        "id": "H",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "s",
+      "i",
+      "n",
+      "c",
+      "g",
+      "r",
+      "o",
+      "s"
+    ],
+    "correctAnswer": "crossing",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW183",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW185",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "crumpled",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The paper was ______ into a ball. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "p"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      },
+      {
+        "id": "H",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "m",
+      "c",
+      "r",
+      "u",
+      "p",
+      "l",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "crumpled",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW185",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW265",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "excitedly",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children jumped ______ when they heard the news. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e d"
+      },
+      {
+        "id": "B",
+        "label": "l y"
+      },
+      {
+        "id": "C",
+        "label": "x c i t e"
+      }
+    ],
+    "units": [
+      "e d",
+      "l y",
+      "x c i t e"
+    ],
+    "correctAnswer": "excitedly",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW265",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "Multi-letter syllable chunks (\"e d | l y | x c i t e\") provided under E06 Arrange Letters"
+    }
+  },
+  {
+    "id": "ENG-M7-EW336",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "giggled",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children ______ when they heard the joke. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      },
+      {
+        "id": "F",
+        "label": "g"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "l",
+      "g",
+      "e",
+      "i",
+      "d",
+      "g",
+      "g"
+    ],
+    "correctAnswer": "giggled",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW336",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW364",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "grumbles",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The boy ______ when he does not get what he wants. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "b"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "m"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      },
+      {
+        "id": "H",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "b",
+      "g",
+      "r",
+      "u",
+      "m",
+      "l",
+      "e",
+      "s"
+    ],
+    "correctAnswer": "grumbles",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW364",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW410",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "hunter",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ looks for wild animals. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "h"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "t",
+      "h",
+      "u",
+      "n",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "hunter",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW410",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW441",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "kettle",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a ______ to boil water. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "k"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "t",
+      "k",
+      "e",
+      "l",
+      "t",
+      "e"
+    ],
+    "correctAnswer": "kettle",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW441",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW465",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "lever",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ is a bar used to help lift something. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "v",
+      "e",
+      "l",
+      "r",
+      "e"
+    ],
+    "correctAnswer": "lever",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW465",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW504",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "mighty",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to make the word that means very strong or powerful.",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "g"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "y",
+      "m",
+      "i",
+      "g",
+      "h",
+      "t"
+    ],
+    "correctAnswer": "mighty",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW504",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW508",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "mixer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to make the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "x"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "x",
+      "m",
+      "e",
+      "r",
+      "i"
+    ],
+    "correctAnswer": "mixer",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW508",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW574",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "peeler",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a ______ to remove the skin from some vegetables. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "e",
+      "l",
+      "e",
+      "r",
+      "p"
+    ],
+    "correctAnswer": "peeler",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW574",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "Only 5 letter tokens provided for 6-letter word \"peeler\" (missing e)"
+    }
+  },
+  {
+    "id": "ENG-M7-EW583",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "pillar",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A tall upright structure that supports a building is a ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "l",
+      "p",
+      "i",
+      "l",
+      "a",
+      "r"
+    ],
+    "correctAnswer": "pillar",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW583",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW620",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "pulley",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ is a wheel used with a rope to lift things. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "u"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "p",
+      "u",
+      "l",
+      "l",
+      "e",
+      "y"
+    ],
+    "correctAnswer": "pulley",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW620",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW626",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "puzzled",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi could not solve the puzzle. He looked ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "u"
+      },
+      {
+        "id": "C",
+        "label": "z"
+      },
+      {
+        "id": "D",
+        "label": "z"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "p",
+      "u",
+      "z",
+      "z",
+      "l",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "puzzled",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW626",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW686",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "screamed",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The child ______ when he saw the spider. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "c"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      },
+      {
+        "id": "H",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "e",
+      "d",
+      "s",
+      "c",
+      "r",
+      "e",
+      "a",
+      "m"
+    ],
+    "correctAnswer": "screamed",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW686",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW789",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "strainer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We use a ______ to separate liquid from solid food. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "i"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "r",
+      "a",
+      "s",
+      "t",
+      "r",
+      "i",
+      "n",
+      "e"
+    ],
+    "correctAnswer": "strainer",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW789",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW884",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "tumbler",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We drink water from a ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "m"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "r",
+      "b",
+      "m",
+      "t",
+      "u",
+      "l",
+      "e"
+    ],
+    "correctAnswer": "tumbler",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW884",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW885",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "tummy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The child has a pain in the ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "m",
+      "t",
+      "u",
+      "y",
+      "m"
+    ],
+    "correctAnswer": "tummy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW885",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW893",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "uneasy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi felt ______ before his first stage performance. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "y",
+      "e",
+      "n",
+      "a",
+      "u",
+      "s"
+    ],
+    "correctAnswer": "uneasy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW893",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW894",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "unhappy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The child looked ______ after losing the game. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "y"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "a"
+      },
+      {
+        "id": "G",
+        "label": "p"
+      },
+      {
+        "id": "H",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "p",
+      "y",
+      "u",
+      "n",
+      "h",
+      "a",
+      "p",
+      "p"
+    ],
+    "correctAnswer": "unhappy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW894",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "8 letter tokens provided for 7-letter word \"unhappy\" (extra p, slash-delimited)"
+    }
+  },
+  {
+    "id": "ENG-M7-EW896",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "unscrews",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the lid carefully. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "w"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "c"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "u"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "w",
+      "s",
+      "c",
+      "r",
+      "e",
+      "u",
+      "n",
+      "s"
+    ],
+    "correctAnswer": "unscrews",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW896",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW900",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "valley",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A river may flow through a ______ between hills. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "v"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "y",
+      "l",
+      "a",
+      "v",
+      "l",
+      "e"
+    ],
+    "correctAnswer": "valley",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW900",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW010",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "angel",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a n _ e l",
+    "correctAnswer": "angel",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW010",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW036",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "bank",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b a _ k",
+    "correctAnswer": "bank",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW036",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW075",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "boring",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The long wait was ______. Complete the word:",
+    "template": "b o r _ n g",
+    "correctAnswer": "boring",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW075",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW177",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "crank",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Turn the ______ to move the machine. Complete the word:",
+    "template": "c r _ n k",
+    "correctAnswer": "crank",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW177",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW182",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "cross",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a road ______ to get safely to the other side. Complete the word:",
+    "template": "c r _ s s",
+    "correctAnswer": "cross",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW182",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW186",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "crush",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Do not ______ the paper. Complete the word:",
+    "template": "c r _ s h",
+    "correctAnswer": "crush",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW186",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW204",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "dark",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "It is ______ outside at night. Complete the word:",
+    "template": "d a r _",
+    "correctAnswer": "dark",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW204",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW222",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "dig",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a spade to ______ the soil. Complete the word:",
+    "template": "d _ g",
+    "correctAnswer": "dig",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW222",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW233",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "dove",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ______ is a gentle bird. Complete the word:",
+    "template": "d o _ e",
+    "correctAnswer": "dove",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW233",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW238",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "drill",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a ______ to make holes. Complete the word:",
+    "template": "d r _ l l",
+    "correctAnswer": "drill",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW238",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW277",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "fear",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The child felt ______ when he saw the dark room. Complete the word:",
+    "template": "f e _ r",
+    "correctAnswer": "fear",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW277",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW301",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "float",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The boat can ______ on the water. Complete the word:",
+    "template": "f l _ a t",
+    "correctAnswer": "float",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW301",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW362",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "grove",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A small group of trees is called a ______. Complete the word:",
+    "template": "g r o _ e",
+    "correctAnswer": "grove",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW362",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW412",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "husk",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The dry outer covering of some grains is called a ______. Complete the word:",
+    "template": "h u _ k",
+    "correctAnswer": "husk",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW412",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-EW449",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "lake",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ducks are swimming in the ______. Complete the word:",
+    "template": "l a _ e",
+    "correctAnswer": "lake",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW449",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW011",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "angry",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "angry"
+      },
+      {
+        "id": "B",
+        "label": "engri"
+      },
+      {
+        "id": "C",
+        "label": "angrie"
+      }
+    ],
+    "correctAnswer": "angry",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW011",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW021",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ask",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ask"
+      },
+      {
+        "id": "B",
+        "label": "aske"
+      },
+      {
+        "id": "C",
+        "label": "aks"
+      }
+    ],
+    "correctAnswer": "ask",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW021",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW030",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bad",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bad"
+      },
+      {
+        "id": "B",
+        "label": "bed"
+      },
+      {
+        "id": "C",
+        "label": "baad"
+      }
+    ],
+    "correctAnswer": "bad",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW030",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW031",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "badge",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "badge"
+      },
+      {
+        "id": "B",
+        "label": "baj"
+      },
+      {
+        "id": "C",
+        "label": "badg"
+      }
+    ],
+    "correctAnswer": "badge",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW031",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW052",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "belt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "belt"
+      },
+      {
+        "id": "B",
+        "label": "beld"
+      },
+      {
+        "id": "C",
+        "label": "bellt"
+      }
+    ],
+    "correctAnswer": "belt",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW052",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW058",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "big",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "big"
+      },
+      {
+        "id": "B",
+        "label": "beg"
+      },
+      {
+        "id": "C",
+        "label": "bigg"
+      }
+    ],
+    "correctAnswer": "big",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW058",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW064",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bleat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A goat or sheep makes this sound. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bleat"
+      },
+      {
+        "id": "B",
+        "label": "bleet"
+      },
+      {
+        "id": "C",
+        "label": "bliet"
+      }
+    ],
+    "correctAnswer": "bleat",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW064",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW004",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "aeroplane",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      },
+      {
+        "id": "H",
+        "label": "n"
+      },
+      {
+        "id": "I",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "p",
+      "a",
+      "e",
+      "r",
+      "o",
+      "l",
+      "a",
+      "n",
+      "e"
+    ],
+    "correctAnswer": "aeroplane",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW004",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW063",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "blanket",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "You use this to cover yourself when you sleep. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "k"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "l",
+      "a",
+      "b",
+      "n",
+      "k",
+      "e",
+      "t"
+    ],
+    "correctAnswer": "blanket",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW063",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW262",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "evening",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The sun goes down in the ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "v"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "i"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "g",
+      "e",
+      "v",
+      "e",
+      "n",
+      "i",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "evening",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW262",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "8 letter tokens provided for 7-letter word \"evening\" (extra g)"
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW305",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fluffy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The kitten has soft, ______ fur. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "y"
+      },
+      {
+        "id": "C",
+        "label": "f"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "f"
+      }
+    ],
+    "units": [
+      "f",
+      "y",
+      "f",
+      "l",
+      "u",
+      "f"
+    ],
+    "correctAnswer": "fluffy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW305",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW399",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "honey",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Bees make ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "h"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "n",
+      "h",
+      "y",
+      "o",
+      "e"
+    ],
+    "correctAnswer": "honey",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW399",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW464",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "letter",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi wrote a ______ to his friend. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "t",
+      "e",
+      "l",
+      "r",
+      "e",
+      "t"
+    ],
+    "correctAnswer": "letter",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW464",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW477",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "little",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The baby has a ______ toy. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "t",
+      "l",
+      "i",
+      "t",
+      "l",
+      "e"
+    ],
+    "correctAnswer": "little",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW477",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW007",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "almond",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "almond"
+      },
+      {
+        "id": "B",
+        "label": "almand"
+      },
+      {
+        "id": "C",
+        "label": "almound"
+      }
+    ],
+    "correctAnswer": "almond",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW007",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW027",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "axe",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "axe"
+      },
+      {
+        "id": "B",
+        "label": "ax"
+      },
+      {
+        "id": "C",
+        "label": "aex"
+      }
+    ],
+    "correctAnswer": "axe",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW027",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW042",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beach",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beach"
+      },
+      {
+        "id": "B",
+        "label": "beech"
+      },
+      {
+        "id": "C",
+        "label": "bech"
+      }
+    ],
+    "correctAnswer": "beach",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW042",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW045",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beat"
+      },
+      {
+        "id": "B",
+        "label": "beet"
+      },
+      {
+        "id": "C",
+        "label": "beatt"
+      }
+    ],
+    "correctAnswer": "beat",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW045",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW054",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "best",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "best"
+      },
+      {
+        "id": "B",
+        "label": "besst"
+      },
+      {
+        "id": "C",
+        "label": "bezt"
+      }
+    ],
+    "correctAnswer": "best",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW054",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW065",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "blew",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The wind ______ strongly yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "blew"
+      },
+      {
+        "id": "B",
+        "label": "bloo"
+      },
+      {
+        "id": "C",
+        "label": "bluw"
+      }
+    ],
+    "correctAnswer": "blew",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW065",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW071",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "bolt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bolt"
+      },
+      {
+        "id": "B",
+        "label": "boult"
+      },
+      {
+        "id": "C",
+        "label": "bolte"
+      }
+    ],
+    "correctAnswer": "bolt",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW071",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW175",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "crack",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "There is a ______ in the wall. Complete the word:",
+    "template": "c r _ c k",
+    "correctAnswer": "crack",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW175",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW208",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "deep",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The well is very ______. Complete the word:",
+    "template": "d e _ p",
+    "correctAnswer": "deep",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW208",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW239",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "drink",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "template": "d r _ n k",
+    "correctAnswer": "drink",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW239",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW016",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anything",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "You can choose ______ you like.",
+    "template": "a n y t h _ n g",
+    "correctAnswer": "anything",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW016",
+      "activityCode": "E11",
+      "originalActivity": "E11 – Context → Complete Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW013",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anjaraipetti",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "B",
+        "label": "anjaraipetty"
+      },
+      {
+        "id": "C",
+        "label": "anjaraipeti"
+      }
+    ],
+    "correctAnswer": "anjaraipetti",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW013",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW020",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "ash gourd",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ash gourd"
+      },
+      {
+        "id": "B",
+        "label": "ash guard"
+      },
+      {
+        "id": "C",
+        "label": "ash gourde"
+      }
+    ],
+    "correctAnswer": "ash gourd",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW020",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW025",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "aval",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "aval",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW025",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW206",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "day",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "day"
+      },
+      {
+        "id": "B",
+        "label": "dey"
+      },
+      {
+        "id": "C",
+        "label": "dai"
+      }
+    ],
+    "correctAnswer": "day",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW206",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW215",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "desert",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "desert"
+      },
+      {
+        "id": "B",
+        "label": "desart"
+      },
+      {
+        "id": "C",
+        "label": "dessart"
+      }
+    ],
+    "correctAnswer": "desert",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW215",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW284",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "fibre",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fibre"
+      },
+      {
+        "id": "B",
+        "label": "fibar"
+      },
+      {
+        "id": "C",
+        "label": "fibree"
+      }
+    ],
+    "correctAnswer": "fibre",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW284",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW343",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "go",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "It is time to ______ home. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "go"
+      },
+      {
+        "id": "B",
+        "label": "goe"
+      },
+      {
+        "id": "C",
+        "label": "gou"
+      }
+    ],
+    "correctAnswer": "go",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW343",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW423",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "iron",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use an ______ to remove wrinkles from clothes. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "iron"
+      },
+      {
+        "id": "B",
+        "label": "iren"
+      },
+      {
+        "id": "C",
+        "label": "iorn"
+      }
+    ],
+    "correctAnswer": "iron",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW423",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW424",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "island",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A piece of land surrounded by water is an ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "island"
+      },
+      {
+        "id": "B",
+        "label": "iland"
+      },
+      {
+        "id": "C",
+        "label": "islend"
+      }
+    ],
+    "correctAnswer": "island",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW424",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW683",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "school",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "school"
+      },
+      {
+        "id": "B",
+        "label": "schoal"
+      },
+      {
+        "id": "C",
+        "label": "scholl"
+      }
+    ],
+    "correctAnswer": "school",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW683",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW039",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 6,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "basket",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "k",
+      "a",
+      "b",
+      "e",
+      "t",
+      "s"
+    ],
+    "correctAnswer": "basket",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW039",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW197",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 6,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "curvy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A road with many bends can be ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "v",
+      "c",
+      "u",
+      "r",
+      "y"
+    ],
+    "correctAnswer": "curvy",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW197",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW223",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 6,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "dinner",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We eat this meal in the evening. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "n",
+      "d",
+      "i",
+      "e",
+      "n",
+      "r"
+    ],
+    "correctAnswer": "dinner",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW223",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW298",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 6,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fixed",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the broken toy. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "f"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "x"
+      }
+    ],
+    "units": [
+      "d",
+      "f",
+      "e",
+      "i",
+      "x"
+    ],
+    "correctAnswer": "fixed",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW298",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M7-REV-EW373",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 7,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 6,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hanging",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to make the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "n"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "h"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "g",
+      "n",
+      "a",
+      "i",
+      "n",
+      "h",
+      "g"
+    ],
+    "correctAnswer": "hanging",
+    "source": {
+      "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW373",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  }
+]

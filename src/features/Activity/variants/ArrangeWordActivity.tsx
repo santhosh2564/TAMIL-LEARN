@@ -5,7 +5,8 @@ import {
   ActivityPrompt, 
   ActivitySubmitArea,
   ActivityFeedback,
-  ArrangeToken
+  ArrangeToken,
+  ActivityAsset
 } from '../components';
 
 import { shuffleArray } from '../../../utils/shuffle';
@@ -15,6 +16,10 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   const [availableIds, setAvailableIds] = useState<string[]>([]);
   const [shuffled, setShuffled] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+
+  const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
+  const hasImage = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '');
+  const assetId = activity.image?.source || (activity.targetWord ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : null);
 
   const options = activity.options || [];
 
@@ -98,12 +103,18 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
       <div className="mb-4 text-center w-full">
         <ActivityPrompt prompt={activity.prompt} />
       </div>
+
+      {hasImage && assetId && (
+        <div className="mb-6 w-full flex justify-center">
+          <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+        </div>
+      )}
       
       {/* Answer Area */}
       <div className="w-full min-h-[100px] p-6 mb-4 bg-surface rounded-2xl border-4 border-dashed border-primary-200 flex flex-wrap gap-3 items-center justify-center">
         {selectedIds.length === 0 && (
           <span className="text-text-muted font-bold opacity-50 select-none">
-            இங்கே கட்டங்களை நகர்த்தவும்...
+            {isEnglish ? 'Tap or move tiles here...' : 'இங்கே கட்டங்களை நகர்த்தவும்...'}
           </span>
         )}
         {selectedIds.map((id, idx) => {
@@ -151,7 +162,17 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
         onNext={handleNext}
         onRetry={handleRetry}
         showRetry={showRetry}
-        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
+        checkLabel={isEnglish ? 'Check Answer' : 'விடையைச் சரிபார்'}
+        continueLabel={isEnglish ? 'Continue' : 'தொடர்க'}
+        retryLabel={isEnglish ? 'Try Again' : 'மீண்டும் முயற்சி செய்'}
+        feedback={
+          <ActivityFeedback 
+            status={state.status} 
+            correct={submitted ? isCorrect : undefined} 
+            successMessage={isEnglish ? 'Correct!' : 'சரியான விடை!'}
+            errorMessage={isEnglish ? 'Not quite. Try again.' : 'தவறான விடை'}
+          />
+        }
       />
     </ActivityCard>
   );

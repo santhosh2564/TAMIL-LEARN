@@ -1,0 +1,4642 @@
+[
+  {
+    "id": "ENG-M5-EW950",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "yam",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of the vegetable.",
+    "correctAnswer": "yam",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW950",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW496",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mat",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a mat",
+    "correctAnswer": "mat",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW496",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW510",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mom",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a mother",
+    "correctAnswer": "mom",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW510",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW513",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mop",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a mop",
+    "correctAnswer": "mop",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW513",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW521",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mud",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of mud",
+    "correctAnswer": "mud",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW521",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW522",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mug",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a mug",
+    "correctAnswer": "mug",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW522",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW531",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "nap",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a child taking a nap",
+    "correctAnswer": "nap",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW531",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW540",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "net",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a net",
+    "correctAnswer": "net",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW540",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW549",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "nut",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a nut",
+    "correctAnswer": "nut",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW549",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW560",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "owl",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of an owl",
+    "correctAnswer": "owl",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW560",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW561",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ox",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of an ox",
+    "correctAnswer": "ox",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW561",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW567",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pan",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a cooking pan",
+    "correctAnswer": "pan",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW567",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW572",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pea",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a pea",
+    "correctAnswer": "pea",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW572",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW575",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pen",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a pen",
+    "correctAnswer": "pen",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW575",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW582",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pig",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a pig",
+    "correctAnswer": "pig",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW582",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW586",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pin",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a pin",
+    "correctAnswer": "pin",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW586",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW611",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pot",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a pot.",
+    "correctAnswer": "pot",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW611",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW622",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pup",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a young dog.",
+    "correctAnswer": "pup",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW622",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW635",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "rat",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a rat.",
+    "correctAnswer": "rat",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW635",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW641",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "red",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture showing the colour red.",
+    "correctAnswer": "red",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW641",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW668",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "sad",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture showing a child with a sad facial expression.",
+    "correctAnswer": "sad",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW668",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW702",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "she",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the word that tells about the girl.",
+    "template": "she",
+    "correctAnswer": "she",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW702",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW730",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "sit",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word for what the child is doing.",
+    "template": "Picture clearly showing a child sitting on a chair, with the seated position prominently visible.",
+    "correctAnswer": "sit",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW730",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW799",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "sun",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture clearly showing the sun in the sky.",
+    "correctAnswer": "sun",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW799",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW819",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "tap",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a water tap.",
+    "correctAnswer": "tap",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW819",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW853",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "tin",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of a metal tin/container.",
+    "correctAnswer": "tin",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW853",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW866",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "top",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture clearly showing the top part of an object.",
+    "correctAnswer": "top",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW866",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW870",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "toy",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture clearly showing a child's toy.",
+    "correctAnswer": "toy",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW870",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW883",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "tub",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture clearly showing a small tub/container.",
+    "correctAnswer": "tub",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW883",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW901",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "van",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the correct word.",
+    "template": "van / fan / can",
+    "correctAnswer": "van",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW901",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW920",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "web",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the correct word.",
+    "template": "web / wet / wig",
+    "correctAnswer": "web",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW920",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW931",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "win",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the correct word.",
+    "template": "win / run / sit",
+    "correctAnswer": "win",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW931",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW955",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "yum",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the word that shows that the food tastes good.",
+    "template": "yum / yawn / jump",
+    "correctAnswer": "yum",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW955",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW958",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "zoo",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Choose the correct word.",
+    "template": "zoo / zero / zoom",
+    "correctAnswer": "zoo",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW958",
+      "activityCode": "E01",
+      "originalActivity": "E01 Picture → Identify Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW288",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fill",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the bottle with water. Complete the word:",
+    "template": "f i _ l",
+    "correctAnswer": "fill",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW288",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW297",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fix",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Can you ______ the broken toy? Complete the word:",
+    "template": "f _ x",
+    "correctAnswer": "fix",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW297",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW300",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "flick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The lizard can ______ its tail. Complete the word:",
+    "template": "f l _ c k",
+    "correctAnswer": "flick",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW300",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW317",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fresh",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We like to eat ______ fruit. Complete the word:",
+    "template": "f r e _ h",
+    "correctAnswer": "fresh",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW317",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW340",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "glass",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We drink water from a ______. Complete the word:",
+    "template": "g l _ s s",
+    "correctAnswer": "glass",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW340",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW342",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "glue",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use ______ to stick paper together. Complete the word:",
+    "template": "g l _ e",
+    "correctAnswer": "glue",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW342",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW351",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "grape",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Look at the picture. Complete the word:",
+    "template": "g r a _ e",
+    "correctAnswer": "grape",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW351",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW352",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "grass",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ______ is green. Complete the word:",
+    "template": "g r a _ s",
+    "correctAnswer": "grass",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW352",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW365",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "grunt",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A pig can ______. Complete the word:",
+    "template": "g r _ n t",
+    "correctAnswer": "grunt",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW365",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW381",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "heads",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Look at the picture. Complete the word:",
+    "template": "h | e | a | _ | s",
+    "correctAnswer": "heads",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW381",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW395",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hive",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Bees live in a ______. Complete the word:",
+    "template": "h i _ e",
+    "correctAnswer": "hive",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW395",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW396",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hole",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The rabbit went into a ______. Complete the word:",
+    "template": "h o l _",
+    "correctAnswer": "hole",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW396",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW445",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "kite",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The children are flying a ______. Complete the word:",
+    "template": "k i _ e",
+    "correctAnswer": "kite",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW445",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW471",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "like",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I ______ to read storybooks. Complete the word:",
+    "template": "l i _ e",
+    "correctAnswer": "like",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW471",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW502",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "mend",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word. To repair something that is broken, you can _ it.",
+    "template": "m e _ d",
+    "correctAnswer": "mend",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW502",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW548",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "nurse",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ______ helps sick people in a hospital. Complete the word:",
+    "template": "n u r _ e",
+    "correctAnswer": "nurse",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW548",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW591",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "plate",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the food on the ______. Complete the word:",
+    "template": "p l _ t e",
+    "correctAnswer": "plate",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW591",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW619",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "pull",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "______ the door gently. Complete the word:",
+    "template": "p u _ l",
+    "correctAnswer": "pull",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW619",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW627",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "quick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The rabbit is very ______. Complete the word:",
+    "template": "q u _ c k",
+    "correctAnswer": "quick",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW627",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW673",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "same",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Both pencils are the ______ size. Complete the word:",
+    "template": "s a _ e",
+    "correctAnswer": "same",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW673",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW697",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "shake",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the bottle before you open it. Complete the word:",
+    "template": "s h a _ e",
+    "correctAnswer": "shake",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW697",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW716",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "shore",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We walked along the ______ of the sea. Complete the word:",
+    "template": "s h _ r e",
+    "correctAnswer": "shore",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW716",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW723",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "sick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I stayed home because I was ______. Complete the word:",
+    "template": "s i _ k",
+    "correctAnswer": "sick",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW723",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW739",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "smell",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We can ______ the flowers. Complete the word:",
+    "template": "s m _ l l",
+    "correctAnswer": "smell",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW739",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW740",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "smile",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We ______ when we are happy. Complete the word:",
+    "template": "s m i _ e",
+    "correctAnswer": "smile",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW740",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW770",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stack",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the books in a ______. Complete the word:",
+    "template": "s t a _ k",
+    "correctAnswer": "stack",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW770",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW771",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stage",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The children stood on the ______ to perform. Complete the word:",
+    "template": "s t a _ e",
+    "correctAnswer": "stage",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW771",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW775",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "start",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We will ______ the game now. Complete the word:",
+    "template": "s t a _ t",
+    "correctAnswer": "start",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW775",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW778",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Pick up the ______ from the ground. Complete the word:",
+    "template": "s t _ c k",
+    "correctAnswer": "stick",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW778",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW782",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stool",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Sit on the ______. Complete the word:",
+    "template": "s t _ o l",
+    "correctAnswer": "stool",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW782",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW785",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "storm",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "There was a strong ______ with heavy rain. Complete the word:",
+    "template": "s t _ r m",
+    "correctAnswer": "storm",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW785",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW790",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stream",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A small flowing body of water is called a ______. Complete the word:",
+    "template": "s t r _ a m",
+    "correctAnswer": "stream",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW790",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW793",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "strong",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The elephant is very ______. Complete the word:",
+    "template": "s t r _ n g",
+    "correctAnswer": "strong",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW793",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW814",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "table",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the books on the ______. Complete the word:",
+    "template": "t a b _ e",
+    "correctAnswer": "table",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW814",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW835",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "there",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the book over ______. Complete the word:",
+    "template": "t h e _ e",
+    "correctAnswer": "there",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW835",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW848",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A clock makes a ______ sound. Complete the word:",
+    "template": "t i _ k",
+    "correctAnswer": "tick",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW848",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW871",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "trace",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We can ______ a shape by drawing over its lines. Complete the word:",
+    "template": "t r a _ e",
+    "correctAnswer": "trace",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW871",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW921",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "week",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "There are seven days in a ______. Complete the word: w _ e k",
+    "template": "w | _ | e | k",
+    "correctAnswer": "week",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW921",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW929",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "white",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Snow is often ______ in colour. Complete the word: w h i _ e",
+    "template": "w | h | i | _ | e",
+    "correctAnswer": "white",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW929",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW191",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "cumin",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a spice used in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "min"
+      },
+      {
+        "id": "B",
+        "label": "cu"
+      }
+    ],
+    "units": [
+      "min",
+      "cu"
+    ],
+    "correctAnswer": "cumin",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW191",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW387",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hello",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We say this when we greet someone. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "lo"
+      },
+      {
+        "id": "B",
+        "label": "hel"
+      }
+    ],
+    "units": [
+      "lo",
+      "hel"
+    ],
+    "correctAnswer": "hello",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW387",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW388",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "helmet",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We wear this to protect our head. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "met"
+      },
+      {
+        "id": "B",
+        "label": "hel"
+      }
+    ],
+    "units": [
+      "met",
+      "hel"
+    ],
+    "correctAnswer": "helmet",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW388",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW526",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "music",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We hear songs and sounds as ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "sic"
+      },
+      {
+        "id": "B",
+        "label": "mu"
+      }
+    ],
+    "units": [
+      "sic",
+      "mu"
+    ],
+    "correctAnswer": "music",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW526",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW555",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "onion",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a vegetable with layers and a strong smell. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ion"
+      },
+      {
+        "id": "B",
+        "label": "on"
+      }
+    ],
+    "units": [
+      "ion",
+      "on"
+    ],
+    "correctAnswer": "onion",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW555",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW612",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "potato",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a vegetable that grows underground. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "to"
+      },
+      {
+        "id": "B",
+        "label": "po"
+      },
+      {
+        "id": "C",
+        "label": "ta"
+      }
+    ],
+    "units": [
+      "to",
+      "po",
+      "ta"
+    ],
+    "correctAnswer": "potato",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW612",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW639",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "recipe",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A set of instructions for preparing food is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ipe"
+      },
+      {
+        "id": "B",
+        "label": "rec"
+      }
+    ],
+    "units": [
+      "ipe",
+      "rec"
+    ],
+    "correctAnswer": "recipe",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW639",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW667",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "rupee",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is an Indian money unit. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "pe"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "ru"
+      }
+    ],
+    "units": [
+      "pe",
+      "e",
+      "ru"
+    ],
+    "correctAnswer": "rupee",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW667",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW671",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "salad",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "la"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "sa"
+      }
+    ],
+    "units": [
+      "la",
+      "d",
+      "sa"
+    ],
+    "correctAnswer": "salad",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW671",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW763",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "spider",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This small animal has eight legs. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "der"
+      },
+      {
+        "id": "B",
+        "label": "spi"
+      }
+    ],
+    "units": [
+      "der",
+      "spi"
+    ],
+    "correctAnswer": "spider",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW763",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW816",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tailor",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who makes or repairs clothes is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "lor"
+      },
+      {
+        "id": "B",
+        "label": "tai"
+      }
+    ],
+    "units": [
+      "lor",
+      "tai"
+    ],
+    "correctAnswer": "tailor",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW816",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW176",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "cradle",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. A baby sleeps in this small bed. Choose the correct word and write it:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cradle"
+      },
+      {
+        "id": "B",
+        "label": "cradel"
+      },
+      {
+        "id": "C",
+        "label": "cradell"
+      }
+    ],
+    "correctAnswer": "cradle",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW176",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write/Choose",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW232",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "dosa",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture of dosa",
+    "correctAnswer": "dosa",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW232",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW557",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "orange",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "orange"
+      },
+      {
+        "id": "B",
+        "label": "orenge"
+      },
+      {
+        "id": "C",
+        "label": "oringe"
+      }
+    ],
+    "correctAnswer": "orange",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW557",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW683",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "school",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "school"
+      },
+      {
+        "id": "B",
+        "label": "schoal"
+      },
+      {
+        "id": "C",
+        "label": "scholl"
+      }
+    ],
+    "correctAnswer": "school",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW683",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW926",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "wheat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Farmers grow ______ to make flour. Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "wheat"
+      },
+      {
+        "id": "B",
+        "label": "weet"
+      },
+      {
+        "id": "C",
+        "label": "wheet"
+      }
+    ],
+    "correctAnswer": "wheat",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW926",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW029",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "back",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b a _ k",
+    "correctAnswer": "back",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW029",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW304",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "flowers",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. These are colourful parts of plants. Write the word.",
+    "template": "Picture of flowers",
+    "correctAnswer": "flowers",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW304",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW356",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "green gram",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of this food grain.",
+    "template": "Picture of green gram",
+    "correctAnswer": "green gram",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW356",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW419",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "insects",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word for these small creatures.",
+    "template": "Picture showing several insects",
+    "correctAnswer": "insects",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW419",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW426",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "jaggery",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of this sweet food.",
+    "template": "Picture of jaggery",
+    "correctAnswer": "jaggery",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW426",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW439",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "jute",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of this natural fibre.",
+    "template": "Picture of jute",
+    "correctAnswer": "jute",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW439",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW573",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "peanuts",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "peanuts"
+      },
+      {
+        "id": "B",
+        "label": "peanutes"
+      },
+      {
+        "id": "C",
+        "label": "peanats"
+      }
+    ],
+    "correctAnswer": "peanuts",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW573",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW642",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "reefs",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "reefs"
+      },
+      {
+        "id": "B",
+        "label": "reffs"
+      },
+      {
+        "id": "C",
+        "label": "reefes"
+      }
+    ],
+    "correctAnswer": "reefs",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW642",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW670",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "saffron",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "saffron"
+      },
+      {
+        "id": "B",
+        "label": "safron"
+      },
+      {
+        "id": "C",
+        "label": "saffronn"
+      }
+    ],
+    "correctAnswer": "saffron",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW670",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW674",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "samosa",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "samosa"
+      },
+      {
+        "id": "B",
+        "label": "samosae"
+      },
+      {
+        "id": "C",
+        "label": "samasa"
+      }
+    ],
+    "correctAnswer": "samosa",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW674",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW690",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "seasons",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "seasons"
+      },
+      {
+        "id": "B",
+        "label": "seasens"
+      },
+      {
+        "id": "C",
+        "label": "seasonss"
+      }
+    ],
+    "correctAnswer": "seasons",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW690",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW721",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "shovel",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "shovel"
+      },
+      {
+        "id": "B",
+        "label": "shovle"
+      },
+      {
+        "id": "C",
+        "label": "shovell"
+      }
+    ],
+    "correctAnswer": "shovel",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW721",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW744",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "snake gourd",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "snake gourd"
+      },
+      {
+        "id": "B",
+        "label": "snake gard"
+      },
+      {
+        "id": "C",
+        "label": "snak gourd"
+      }
+    ],
+    "correctAnswer": "snake gourd",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW744",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW817",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "talents",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "talents"
+      },
+      {
+        "id": "B",
+        "label": "talants"
+      },
+      {
+        "id": "C",
+        "label": "talentss"
+      }
+    ],
+    "correctAnswer": "talents",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW817",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW818",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "tamarind",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "tamarind"
+      },
+      {
+        "id": "B",
+        "label": "tamarindd"
+      },
+      {
+        "id": "C",
+        "label": "tamarent"
+      }
+    ],
+    "correctAnswer": "tamarind",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW818",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW827",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "tears",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "tears"
+      },
+      {
+        "id": "B",
+        "label": "teers"
+      },
+      {
+        "id": "C",
+        "label": "tearss"
+      }
+    ],
+    "correctAnswer": "tears",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW827",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW832",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "tender coconut",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "tender coconut"
+      },
+      {
+        "id": "B",
+        "label": "tender cocunut"
+      },
+      {
+        "id": "C",
+        "label": "tender coconat"
+      }
+    ],
+    "correctAnswer": "tender coconut",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW832",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW120",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "carry",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ your school bag. Complete the word:",
+    "template": "c a r r _",
+    "correctAnswer": "carry",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW120",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW126",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cattle",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Cows and bulls are called ______. Complete the word:",
+    "template": "c a t _ l e",
+    "correctAnswer": "cattle",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW126",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW134",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cheek",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "She has a smile on her ______. Complete the word:",
+    "template": "c h _ e k",
+    "correctAnswer": "cheek",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW134",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW137",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "chest",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "He kept the toy in a ______. Complete the word:",
+    "template": "c h _ s t",
+    "correctAnswer": "chest",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW137",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW037",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "barfi",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "barfi",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW037",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW696",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "shadow",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "shadow"
+      },
+      {
+        "id": "B",
+        "label": "shaddow"
+      },
+      {
+        "id": "C",
+        "label": "shadaw"
+      }
+    ],
+    "correctAnswer": "shadow",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW696",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW705",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "shells",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "shells"
+      },
+      {
+        "id": "B",
+        "label": "shels"
+      },
+      {
+        "id": "C",
+        "label": "shelles"
+      }
+    ],
+    "correctAnswer": "shells",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW705",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW957",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "zebra",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of the animal.",
+    "correctAnswer": "zebra",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW957",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW206",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "day",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "day"
+      },
+      {
+        "id": "B",
+        "label": "dey"
+      },
+      {
+        "id": "C",
+        "label": "dai"
+      }
+    ],
+    "correctAnswer": "day",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW206",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW215",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "desert",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "desert"
+      },
+      {
+        "id": "B",
+        "label": "desart"
+      },
+      {
+        "id": "C",
+        "label": "dessart"
+      }
+    ],
+    "correctAnswer": "desert",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW215",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW284",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "fibre",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fibre"
+      },
+      {
+        "id": "B",
+        "label": "fibar"
+      },
+      {
+        "id": "C",
+        "label": "fibree"
+      }
+    ],
+    "correctAnswer": "fibre",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW284",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW343",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "go",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "It is time to ______ home. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "go"
+      },
+      {
+        "id": "B",
+        "label": "goe"
+      },
+      {
+        "id": "C",
+        "label": "gou"
+      }
+    ],
+    "correctAnswer": "go",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW343",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW423",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "iron",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use an ______ to remove wrinkles from clothes. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "iron"
+      },
+      {
+        "id": "B",
+        "label": "iren"
+      },
+      {
+        "id": "C",
+        "label": "iorn"
+      }
+    ],
+    "correctAnswer": "iron",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW423",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-EW424",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "island",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A piece of land surrounded by water is an ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "island"
+      },
+      {
+        "id": "B",
+        "label": "iland"
+      },
+      {
+        "id": "C",
+        "label": "islend"
+      }
+    ],
+    "correctAnswer": "island",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW424",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW028",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "baby",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "baby",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW028",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW074",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "boondhi",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "boondhi"
+      },
+      {
+        "id": "B",
+        "label": "boonthi"
+      },
+      {
+        "id": "C",
+        "label": "boondhee"
+      }
+    ],
+    "correctAnswer": "boondhi",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW074",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW201",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "dal",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. This food is made from lentils. Write the word.",
+    "template": "Picture of dal",
+    "correctAnswer": "dal",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW201",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW335",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ghee",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. This is a yellow food used in cooking. Write the word.",
+    "template": "Picture of ghee",
+    "correctAnswer": "ghee",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW335",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW414",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "idli",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the name of this food.",
+    "template": "Picture of idli",
+    "correctAnswer": "idli",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW414",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture → Write Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW587",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "pinky",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "pinky"
+      },
+      {
+        "id": "B",
+        "label": "pinkey"
+      },
+      {
+        "id": "C",
+        "label": "pinkee"
+      }
+    ],
+    "correctAnswer": "pinky",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW587",
+      "activityCode": "E12",
+      "originalActivity": "E12 Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW011",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "angry",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "angry"
+      },
+      {
+        "id": "B",
+        "label": "engri"
+      },
+      {
+        "id": "C",
+        "label": "angrie"
+      }
+    ],
+    "correctAnswer": "angry",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW011",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW021",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ask",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ask"
+      },
+      {
+        "id": "B",
+        "label": "aske"
+      },
+      {
+        "id": "C",
+        "label": "aks"
+      }
+    ],
+    "correctAnswer": "ask",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW021",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW030",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bad",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bad"
+      },
+      {
+        "id": "B",
+        "label": "bed"
+      },
+      {
+        "id": "C",
+        "label": "baad"
+      }
+    ],
+    "correctAnswer": "bad",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW030",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW031",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "badge",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "badge"
+      },
+      {
+        "id": "B",
+        "label": "baj"
+      },
+      {
+        "id": "C",
+        "label": "badg"
+      }
+    ],
+    "correctAnswer": "badge",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW031",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW001",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "about",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The programme is ______ to start.",
+    "template": "a b _ u t",
+    "correctAnswer": "about",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW001",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW008",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "alphabet",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a l p h a _ e t",
+    "correctAnswer": "alphabet",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW008",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW049",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bee",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b _ e",
+    "correctAnswer": "bee",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW049",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW059",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bin",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the paper in the ______. Complete the word:",
+    "template": "b _ n",
+    "correctAnswer": "bin",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW059",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW091",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bring",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ your book to class. Complete the word:",
+    "template": "b r _ n g",
+    "correctAnswer": "bring",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW091",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW124",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "catch",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Try to ______ the ball. Complete the word:",
+    "template": "c a t _ h",
+    "correctAnswer": "catch",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW124",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW168",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "coop",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Chickens can stay in a ______. Complete the word:",
+    "template": "c o _ p",
+    "correctAnswer": "coop",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW168",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW188",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "cry",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The baby may ______ when hungry. Complete the word:",
+    "template": "c r _",
+    "correctAnswer": "cry",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW188",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW190",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cube",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A dice is shaped like a ______. Complete the word:",
+    "template": "c u b _",
+    "correctAnswer": "cube",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW190",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW202",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "dance",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The children like to ______ to music. Complete the word:",
+    "template": "d a n _ e",
+    "correctAnswer": "dance",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW202",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW007",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "almond",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "almond"
+      },
+      {
+        "id": "B",
+        "label": "almand"
+      },
+      {
+        "id": "C",
+        "label": "almound"
+      }
+    ],
+    "correctAnswer": "almond",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW007",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW027",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "axe",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "axe"
+      },
+      {
+        "id": "B",
+        "label": "ax"
+      },
+      {
+        "id": "C",
+        "label": "aex"
+      }
+    ],
+    "correctAnswer": "axe",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW027",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW042",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beach",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beach"
+      },
+      {
+        "id": "B",
+        "label": "beech"
+      },
+      {
+        "id": "C",
+        "label": "bech"
+      }
+    ],
+    "correctAnswer": "beach",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW042",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW045",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beat"
+      },
+      {
+        "id": "B",
+        "label": "beet"
+      },
+      {
+        "id": "C",
+        "label": "beatt"
+      }
+    ],
+    "correctAnswer": "beat",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW045",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW054",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "best",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "best"
+      },
+      {
+        "id": "B",
+        "label": "besst"
+      },
+      {
+        "id": "C",
+        "label": "bezt"
+      }
+    ],
+    "correctAnswer": "best",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW054",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW065",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "blew",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The wind ______ strongly yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "blew"
+      },
+      {
+        "id": "B",
+        "label": "bloo"
+      },
+      {
+        "id": "C",
+        "label": "bluw"
+      }
+    ],
+    "correctAnswer": "blew",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW065",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW071",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "bolt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bolt"
+      },
+      {
+        "id": "B",
+        "label": "boult"
+      },
+      {
+        "id": "C",
+        "label": "bolte"
+      }
+    ],
+    "correctAnswer": "bolt",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW071",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW076",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "both",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "There are two children. ______ are smiling. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "both"
+      },
+      {
+        "id": "B",
+        "label": "bouth"
+      },
+      {
+        "id": "C",
+        "label": "bothe"
+      }
+    ],
+    "correctAnswer": "both",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW076",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW078",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bow",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bow"
+      },
+      {
+        "id": "B",
+        "label": "bau"
+      },
+      {
+        "id": "C",
+        "label": "boe"
+      }
+    ],
+    "correctAnswer": "bow",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW078",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW079",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bowl",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bowl"
+      },
+      {
+        "id": "B",
+        "label": "boul"
+      },
+      {
+        "id": "C",
+        "label": "boal"
+      }
+    ],
+    "correctAnswer": "bowl",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW079",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW016",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anything",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "You can choose ______ you like.",
+    "template": "a n y t h _ n g",
+    "correctAnswer": "anything",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW016",
+      "activityCode": "E11",
+      "originalActivity": "E11 – Context → Complete Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW013",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anjaraipetti",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "B",
+        "label": "anjaraipetty"
+      },
+      {
+        "id": "C",
+        "label": "anjaraipeti"
+      }
+    ],
+    "correctAnswer": "anjaraipetti",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW013",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW020",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "ash gourd",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ash gourd"
+      },
+      {
+        "id": "B",
+        "label": "ash guard"
+      },
+      {
+        "id": "C",
+        "label": "ash gourde"
+      }
+    ],
+    "correctAnswer": "ash gourd",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW020",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW025",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "aval",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "aval",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW025",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW053",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bengal gram",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bengal gram"
+      },
+      {
+        "id": "B",
+        "label": "bengal grem"
+      },
+      {
+        "id": "C",
+        "label": "bengal grum"
+      }
+    ],
+    "correctAnswer": "bengal gram",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW053",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW062",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "black gram",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "black gram"
+      },
+      {
+        "id": "B",
+        "label": "black grem"
+      },
+      {
+        "id": "C",
+        "label": "black grum"
+      }
+    ],
+    "correctAnswer": "black gram",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW062",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW092",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "brinjal",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. This vegetable is commonly used in curries. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "brinjal"
+      },
+      {
+        "id": "B",
+        "label": "brinjel"
+      },
+      {
+        "id": "C",
+        "label": "brenjal"
+      }
+    ],
+    "correctAnswer": "brinjal",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW092",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW121",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cashew",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cashew"
+      },
+      {
+        "id": "B",
+        "label": "casheu"
+      },
+      {
+        "id": "C",
+        "label": "cashaw"
+      }
+    ],
+    "correctAnswer": "cashew",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW121",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW195",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "curry leaves",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
+    "options": [
+      {
+        "id": "A",
+        "label": "curry leaves"
+      },
+      {
+        "id": "B",
+        "label": "curry leavs"
+      },
+      {
+        "id": "C",
+        "label": "curry leevs"
+      }
+    ],
+    "correctAnswer": "curry leaves",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW195",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write/Choose",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M5-REV-EW213",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 5,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "derry",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "Picture"
+      },
+      {
+        "id": "B",
+        "label": "context from source"
+      }
+    ],
+    "correctAnswer": "derry",
+    "source": {
+      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW213",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  }
+]

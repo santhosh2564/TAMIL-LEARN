@@ -9,22 +9,11 @@ interface ActivitySubmitAreaProps {
   feedback?: ReactNode;
   onRetry?: () => void;
   showRetry?: boolean;
+  checkLabel?: string;
+  continueLabel?: string;
+  retryLabel?: string;
 }
 
-/**
- * Primary action area rendered below every activity variant.
- *
- * Layout (top → bottom):
- *   1. Primary action — always visible:
- *        • "விடையைச் சரிபார்"  while the activity is active (disabled when
- *          canCheck is false, e.g. no selection or already submitted)
- *        • "தொடர்க"             once the engine marks the activity completed
- *   2. Feedback banner — rendered by the caller via the `feedback` prop;
- *      appears after the first submission.
- *   3. Retry button — "மீண்டும் முயற்சி செய்" — only shown when
- *      `showRetry` is true (wrong answer, not yet completed).  This is a
- *      SEPARATE control; it does NOT replace or relabel விடையைச் சரிபார்.
- */
 export function ActivitySubmitArea({
   onCheck,
   onNext,
@@ -33,6 +22,9 @@ export function ActivitySubmitArea({
   feedback,
   onRetry,
   showRetry,
+  checkLabel = 'விடையைச் சரிபார்',
+  continueLabel = 'தொடர்க',
+  retryLabel = 'மீண்டும் முயற்சி செய்',
 }: ActivitySubmitAreaProps) {
   const isCompleted = status === 'completed';
 
@@ -42,7 +34,7 @@ export function ActivitySubmitArea({
       <div className="w-full flex justify-end">
         {isCompleted ? (
           <Button onClick={onNext} className="w-full sm:w-auto">
-            தொடர்க
+            {continueLabel}
           </Button>
         ) : (
           <Button
@@ -50,7 +42,7 @@ export function ActivitySubmitArea({
             disabled={!canCheck}
             className="w-full sm:w-auto"
           >
-            விடையைச் சரிபார்
+            {checkLabel}
           </Button>
         )}
       </div>
@@ -58,21 +50,17 @@ export function ActivitySubmitArea({
       {/* ── Feedback banner (correct / wrong) ───────────────────────────── */}
       {feedback}
 
-      {/* ── Separate retry control — only after a wrong submission ───────
-           Rendered BELOW feedback so the visual order is:
-             [விடையைச் சரிபார்]
-             தவறான விடை
-             [மீண்டும் முயற்சி செய்]                                       */}
+      {/* ── Separate retry control — only after a wrong submission ─────── */}
       {showRetry && onRetry && (
         <div className="w-full flex justify-end">
           <Button
             onClick={onRetry}
             variant="secondary"
             autoFocus
-            aria-label="மீண்டும் முயற்சி செய்"
+            aria-label={retryLabel}
             className="w-full sm:w-auto"
           >
-            மீண்டும் முயற்சி செய்
+            {retryLabel}
           </Button>
         </div>
       )}

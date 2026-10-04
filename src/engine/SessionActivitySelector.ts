@@ -23,11 +23,14 @@ export class SessionActivitySelector {
    * Fetches, filters, shuffles, and sizes the activities based on the config.
    */
   async selectActivities(config: SessionConfig): Promise<Activity[]> {
+    const isEnglish = config.subjectId === 'english' || config.subjectId === 'English';
     const loadedActivities = await this.repository.getActivities({
       classLevel: Number(config.classId),
-      subject: config.subjectId === 'tamil' ? 'Tamil' : config.subjectId,
+      subject: config.subjectId === 'tamil' ? 'Tamil' : (isEnglish ? 'English' : config.subjectId),
       category: config.category || undefined,
       level: config.level,
+      module: config.module,
+      day: config.day,
     });
 
     if (loadedActivities.length === 0) {

@@ -21,9 +21,9 @@ export function Header() {
             className="flex items-center gap-2 hover:opacity-80 transition-opacity outline-none focus-visible:ring-4 ring-primary-500 rounded-lg p-1"
           >
             <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center text-white font-bold text-xl">
-              T
+              L
             </div>
-            <span className="font-display font-bold text-xl hidden sm:block">Tamil Learning</span>
+            <span className="font-display font-bold text-xl hidden sm:block">Kids Learning</span>
           </button>
         </div>
 

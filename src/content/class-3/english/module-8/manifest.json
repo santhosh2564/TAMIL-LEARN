@@ -1,0 +1,55 @@
+{
+  "classLevel": 3,
+  "subject": "English",
+  "module": 8,
+  "title": "Module 8 - Curriculum Mastery",
+  "newWordCount": 118,
+  "reviewWordCount": 40,
+  "totalActivities": 158,
+  "days": [
+    {
+      "day": 1,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 2,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 3,
+      "newCount": 24,
+      "reviewCount": 8,
+      "totalCount": 32
+    },
+    {
+      "day": 4,
+      "newCount": 23,
+      "reviewCount": 8,
+      "totalCount": 31
+    },
+    {
+      "day": 5,
+      "newCount": 23,
+      "reviewCount": 8,
+      "totalCount": 31
+    }
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 0,
+    "hard": 63,
+    "mixed": 23,
+    "unclassified": 32
+  },
+  "supportedCategories": [
+    "word-completion",
+    "picture-recognition",
+    "arrange-word",
+    "spelling-choice"
+  ],
+  "version": "1.0.0"
+}

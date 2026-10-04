@@ -24,11 +24,18 @@ export function PictureSelectActivity({ activity, state, onSubmit, onNext }: Act
     handleNext,
   } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
+  const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
+  const assetId = isEnglish
+    ? (activity.image?.source || `eng-${activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase()}`)
+    : `class3-tamil-picture-${activity.id.toLowerCase()}`;
+
   return (
     <ActivityCard>
       <ActivityPrompt prompt={activity.prompt} />
       
-      <ActivityAsset assetRef={{ id: `class3-tamil-picture-${activity.id.toLowerCase()}`, type: 'image' }} />
+      <div className="mb-6">
+        <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+      </div>
       
       <ActivityOptionGrid>
         {shuffledOptions.map((opt) => (
@@ -50,7 +57,17 @@ export function PictureSelectActivity({ activity, state, onSubmit, onNext }: Act
         onNext={handleNext}
         onRetry={handleRetry}
         showRetry={showRetry}
-        feedback={<ActivityFeedback status={state.status} correct={submitted ? isCorrect : undefined} />}
+        checkLabel={isEnglish ? 'Check Answer' : 'விடையைச் சரிபார்'}
+        continueLabel={isEnglish ? 'Continue' : 'தொடர்க'}
+        retryLabel={isEnglish ? 'Try Again' : 'மீண்டும் முயற்சி செய்'}
+        feedback={
+          <ActivityFeedback 
+            status={state.status} 
+            correct={submitted ? isCorrect : undefined} 
+            successMessage={isEnglish ? 'Correct!' : 'சரியான விடை!'}
+            errorMessage={isEnglish ? 'Not quite. Try again.' : 'தவறான விடை'}
+          />
+        }
       />
     </ActivityCard>
   );

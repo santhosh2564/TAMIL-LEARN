@@ -10,10 +10,10 @@ export function HomePage() {
       <div className="max-w-2xl space-y-12 py-12">
         <div className="space-y-6">
           <h1 className="text-5xl md:text-7xl font-display text-primary-600 font-extrabold drop-shadow-sm">
-            தமிழ் கற்போம்!
+            Learn. Play. Grow.
           </h1>
-          <h2 className="text-3xl md:text-4xl font-display text-text font-bold">
-            Let's Learn Tamil
+          <h2 className="text-2xl md:text-3xl font-display text-text font-bold">
+            Explore தமிழ் and English through playful activities.
           </h2>
         </div>
 
@@ -21,7 +21,7 @@ export function HomePage() {
           <Button 
             size="large" 
             variant="primary"
-            onClick={() => navigate('/classes/3/subjects/tamil')}
+            onClick={() => navigate('/classes')}
             className="w-full sm:w-auto text-2xl font-bold px-12 py-6 rounded-full shadow-lg"
           >
             Start Learning

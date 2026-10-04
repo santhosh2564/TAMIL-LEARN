@@ -14,7 +14,10 @@
     "content:check": "npm run content:import && npm run content:validate",
     "content:runtime-check": "vitest run src/features/Activity/__tests__/runtime-compatibility.test.tsx",
     "content:assets-check": "tsx scripts/validate-assets.ts",
-    "content:assets-extract": "tsx scripts/extract-asset-requirements.ts"
+    "content:assets-extract": "tsx scripts/extract-asset-requirements.ts",
+    "content:english-import": "tsx scripts/import-english.ts",
+    "content:english-validate": "tsx scripts/validate-english.ts",
+    "content:english-check": "npm run content:english-validate"
   },
   "dependencies": {
     "clsx": "^2.1.1",

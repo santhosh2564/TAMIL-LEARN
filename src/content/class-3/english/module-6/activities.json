@@ -1,0 +1,6679 @@
+[
+  {
+    "id": "ENG-M6-EW851",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tiger",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This large wild animal has black stripes. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ger"
+      },
+      {
+        "id": "B",
+        "label": "ti"
+      }
+    ],
+    "units": [
+      "ger",
+      "ti"
+    ],
+    "correctAnswer": "tiger",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW851",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW895",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "uniform",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Children wear a school ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "form"
+      },
+      {
+        "id": "B",
+        "label": "uni"
+      }
+    ],
+    "units": [
+      "form",
+      "uni"
+    ],
+    "correctAnswer": "uniform",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW895",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW907",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "violin",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the parts to make the word for a musical instrument played with a bow.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lin"
+      },
+      {
+        "id": "B",
+        "label": "vio"
+      }
+    ],
+    "units": [
+      "lin",
+      "vio"
+    ],
+    "correctAnswer": "violin",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW907",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW933",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "window",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the parts to make the word for an opening in a wall that lets in light and air.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dow"
+      },
+      {
+        "id": "B",
+        "label": "win"
+      }
+    ],
+    "units": [
+      "dow",
+      "win"
+    ],
+    "correctAnswer": "window",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW933",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW936",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "winter",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the parts to make the word for the coldest season of the year.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ter"
+      },
+      {
+        "id": "B",
+        "label": "win"
+      }
+    ],
+    "units": [
+      "ter",
+      "win"
+    ],
+    "correctAnswer": "winter",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW936",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW295",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fisherman",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ catches fish. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "man"
+      },
+      {
+        "id": "B",
+        "label": "fisher"
+      }
+    ],
+    "units": [
+      "man",
+      "fisher"
+    ],
+    "correctAnswer": "fisherman",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW295",
+      "activityCode": "E07",
+      "originalActivity": "E07 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW603",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "policeman",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who works to keep people safe and enforce the law is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "man"
+      },
+      {
+        "id": "B",
+        "label": "po"
+      },
+      {
+        "id": "C",
+        "label": "lice"
+      }
+    ],
+    "units": [
+      "man",
+      "po",
+      "lice"
+    ],
+    "correctAnswer": "policeman",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW603",
+      "activityCode": "E07",
+      "originalActivity": "E07 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW197",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "curvy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A road with many bends can be ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "v",
+      "c",
+      "u",
+      "r",
+      "y"
+    ],
+    "correctAnswer": "curvy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW197",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW298",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fixed",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the broken toy. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "f"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "x"
+      }
+    ],
+    "units": [
+      "d",
+      "f",
+      "e",
+      "i",
+      "x"
+    ],
+    "correctAnswer": "fixed",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW298",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW373",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hanging",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the letters to make the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "n"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "h"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "g",
+      "n",
+      "a",
+      "i",
+      "n",
+      "h",
+      "g"
+    ],
+    "correctAnswer": "hanging",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW373",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW386",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "heavy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The big box is very ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "v",
+      "e",
+      "h",
+      "y",
+      "a"
+    ],
+    "correctAnswer": "heavy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW386",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW437",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "jumps",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The boy ______ over the puddle. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "j"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "s",
+      "j",
+      "p",
+      "u",
+      "m"
+    ],
+    "correctAnswer": "jumps",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW437",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW455",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "lazy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The boy is ______ and does not want to work. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "z"
+      }
+    ],
+    "units": [
+      "y",
+      "l",
+      "a",
+      "z"
+    ],
+    "correctAnswer": "lazy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW455",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW472",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "liked",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the story yesterday. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "k",
+      "e",
+      "d",
+      "l",
+      "i"
+    ],
+    "correctAnswer": "liked",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW472",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW485",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "loved",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children ______ the puppet show. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "v"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "l"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "d",
+      "v",
+      "o",
+      "l",
+      "e"
+    ],
+    "correctAnswer": "loved",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW485",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW486",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "lovely",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The garden looks ______ in spring. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "v"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      }
+    ],
+    "units": [
+      "y",
+      "l",
+      "o",
+      "v",
+      "e",
+      "l"
+    ],
+    "correctAnswer": "lovely",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW486",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW519",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "moved",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the chair yesterday. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "v",
+      "m",
+      "o",
+      "e",
+      "d"
+    ],
+    "correctAnswer": "moved",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW519",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW556",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "opens",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The shop ______ at nine o'clock. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "p",
+      "o",
+      "e",
+      "n",
+      "s"
+    ],
+    "correctAnswer": "opens",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW556",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW576",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "pepper",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This spice can make food taste hot. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "p",
+      "e",
+      "p",
+      "e",
+      "r"
+    ],
+    "correctAnswer": "pepper",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW576",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "Only 5 letter tokens provided for 6-letter word \"pepper\" (missing p)"
+    }
+  },
+  {
+    "id": "ENG-M6-EW580",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "picnic",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We had a ______ in the park. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "c"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "c"
+      }
+    ],
+    "units": [
+      "c",
+      "p",
+      "n",
+      "i",
+      "i",
+      "c"
+    ],
+    "correctAnswer": "picnic",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW580",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW618",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "puddle",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "After the rain, there was a small ______ on the road. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "u"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "p",
+      "u",
+      "d",
+      "d",
+      "l",
+      "e"
+    ],
+    "correctAnswer": "puddle",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW618",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW633",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "rainy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "It is a ______ day when rain is falling. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "r",
+      "a",
+      "i",
+      "n",
+      "y"
+    ],
+    "correctAnswer": "rainy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW633",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW638",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "really",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The children were ______ happy to see the rainbow. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      }
+    ],
+    "units": [
+      "l",
+      "r",
+      "y",
+      "e",
+      "a",
+      "l"
+    ],
+    "correctAnswer": "really",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW638",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW676",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "sandy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The beach is ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "y",
+      "s",
+      "a",
+      "d",
+      "n"
+    ],
+    "correctAnswer": "sandy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW676",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW681",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "scared",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The little child was ______ when he heard the loud noise. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "c"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "d",
+      "s",
+      "c",
+      "a",
+      "r",
+      "e"
+    ],
+    "correctAnswer": "scared",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW681",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW712",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "shocked",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi was ______ when he heard the surprising news. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "c"
+      },
+      {
+        "id": "G",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "k",
+      "e",
+      "d",
+      "s",
+      "h",
+      "c",
+      "o"
+    ],
+    "correctAnswer": "shocked",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW712",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW726",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "singer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who sings is a ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "g"
+      }
+    ],
+    "units": [
+      "r",
+      "s",
+      "i",
+      "e",
+      "n",
+      "g"
+    ],
+    "correctAnswer": "singer",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW726",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW745",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "snaps",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The boy ______ his fingers to make a sound. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "p",
+      "s",
+      "n",
+      "a",
+      "s"
+    ],
+    "correctAnswer": "snaps",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW745",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW748",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "snowy",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "It was a ______ day in the mountains. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      },
+      {
+        "id": "E",
+        "label": "w"
+      }
+    ],
+    "units": [
+      "y",
+      "s",
+      "n",
+      "o",
+      "w"
+    ],
+    "correctAnswer": "snowy",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW748",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW784",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "stops",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The bus _______ there for a few minutes before continuing its journey. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "s",
+      "p",
+      "o",
+      "s",
+      "t"
+    ],
+    "correctAnswer": "stops",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW784",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW791",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "striped",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The tiger has a ______ body. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "t"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "i"
+      },
+      {
+        "id": "F",
+        "label": "p"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "d",
+      "s",
+      "t",
+      "r",
+      "i",
+      "p",
+      "e"
+    ],
+    "correctAnswer": "striped",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW791",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW798",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "summer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "It is very hot in ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "m"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "r",
+      "m",
+      "s",
+      "u",
+      "m",
+      "e"
+    ],
+    "correctAnswer": "summer",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW798",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW802",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "sunny",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "It is a ______ day today. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "s"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "y",
+      "s",
+      "n",
+      "u",
+      "n"
+    ],
+    "correctAnswer": "sunny",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW802",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW821",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "taps",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Ravi ______ the drum with his fingers. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "s",
+      "t",
+      "p",
+      "a"
+    ],
+    "correctAnswer": "taps",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW821",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW826",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "teacher",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who teaches children is a ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "t"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "c"
+      },
+      {
+        "id": "F",
+        "label": "h"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "r",
+      "e",
+      "t",
+      "a",
+      "c",
+      "h",
+      "e"
+    ],
+    "correctAnswer": "teacher",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW826",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW839",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "thirsty",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "After playing in the sun, the child felt ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "y",
+      "t",
+      "h",
+      "i",
+      "r",
+      "s",
+      "t"
+    ],
+    "correctAnswer": "thirsty",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW839",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW854",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tiny",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The ant is very ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "y",
+      "t",
+      "i",
+      "n"
+    ],
+    "correctAnswer": "tiny",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW854",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW855",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tired",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "After running, Ravi felt ______. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "d",
+      "t",
+      "i",
+      "r",
+      "e"
+    ],
+    "correctAnswer": "tired",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW855",
+      "activityCode": "E06",
+      "originalActivity": "E06 Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW228",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "doctor",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who treats sick people is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tor"
+      },
+      {
+        "id": "B",
+        "label": "doc"
+      }
+    ],
+    "units": [
+      "tor",
+      "doc"
+    ],
+    "correctAnswer": "doctor",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW228",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW495",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "market",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We go to this place to buy fruits, vegetables and other things. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ket"
+      },
+      {
+        "id": "B",
+        "label": "mar"
+      }
+    ],
+    "units": [
+      "ket",
+      "mar"
+    ],
+    "correctAnswer": "market",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW495",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW507",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "mirror",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the word parts to make the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ror"
+      },
+      {
+        "id": "B",
+        "label": "mir"
+      }
+    ],
+    "units": [
+      "ror",
+      "mir"
+    ],
+    "correctAnswer": "mirror",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW507",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW923",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "welcome",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the parts to spell the word we say when we greet someone kindly.",
+    "options": [
+      {
+        "id": "A",
+        "label": "co"
+      },
+      {
+        "id": "B",
+        "label": "me"
+      },
+      {
+        "id": "C",
+        "label": "wel"
+      }
+    ],
+    "units": [
+      "co",
+      "me",
+      "wel"
+    ],
+    "correctAnswer": "welcome",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW923",
+      "activityCode": "E07",
+      "originalActivity": "E07 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW039",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "basket",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "k",
+      "a",
+      "b",
+      "e",
+      "t",
+      "s"
+    ],
+    "correctAnswer": "basket",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW039",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW223",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "dinner",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We eat this meal in the evening. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "n"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "n",
+      "d",
+      "i",
+      "e",
+      "n",
+      "r"
+    ],
+    "correctAnswer": "dinner",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW223",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW009",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "ambulance",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This vehicle takes sick or injured people to a hospital.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lance"
+      },
+      {
+        "id": "B",
+        "label": "am"
+      },
+      {
+        "id": "C",
+        "label": "bu"
+      }
+    ],
+    "units": [
+      "lance",
+      "am",
+      "bu"
+    ],
+    "correctAnswer": "ambulance",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW009",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW022",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "astronaut",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who travels into space.",
+    "options": [
+      {
+        "id": "A",
+        "label": "naut"
+      },
+      {
+        "id": "B",
+        "label": "as"
+      },
+      {
+        "id": "C",
+        "label": "tro"
+      }
+    ],
+    "units": [
+      "naut",
+      "as",
+      "tro"
+    ],
+    "correctAnswer": "astronaut",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW022",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW023",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "audience",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "These are people watching a show.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ence"
+      },
+      {
+        "id": "B",
+        "label": "audi"
+      }
+    ],
+    "units": [
+      "ence",
+      "audi"
+    ],
+    "correctAnswer": "audience",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW023",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW046",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "beautiful",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The rainbow looks ______ in the sky.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ful"
+      },
+      {
+        "id": "B",
+        "label": "beau"
+      },
+      {
+        "id": "C",
+        "label": "ti"
+      }
+    ],
+    "units": [
+      "ful",
+      "beau",
+      "ti"
+    ],
+    "correctAnswer": "beautiful",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW046",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW117",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cardamom",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "mom"
+      },
+      {
+        "id": "B",
+        "label": "car"
+      },
+      {
+        "id": "C",
+        "label": "da"
+      }
+    ],
+    "units": [
+      "mom",
+      "car",
+      "da"
+    ],
+    "correctAnswer": "cardamom",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW117",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW118",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "carpenter",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a person who makes or repairs things from wood. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ter"
+      },
+      {
+        "id": "B",
+        "label": "car"
+      },
+      {
+        "id": "C",
+        "label": "pen"
+      }
+    ],
+    "units": [
+      "ter",
+      "car",
+      "pen"
+    ],
+    "correctAnswer": "carpenter",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW118",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW125",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "caterpillar",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a long, soft-bodied insect that later becomes a butterfly or moth. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "pil"
+      },
+      {
+        "id": "B",
+        "label": "cat"
+      },
+      {
+        "id": "C",
+        "label": "er"
+      },
+      {
+        "id": "D",
+        "label": "lar"
+      }
+    ],
+    "units": [
+      "pil",
+      "cat",
+      "er",
+      "lar"
+    ],
+    "correctAnswer": "caterpillar",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW125",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW141",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cinnamon",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a spice used in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "mon"
+      },
+      {
+        "id": "B",
+        "label": "cin"
+      },
+      {
+        "id": "C",
+        "label": "na"
+      }
+    ],
+    "units": [
+      "mon",
+      "cin",
+      "na"
+    ],
+    "correctAnswer": "cinnamon",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW141",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW150",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "clinic",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a place where people go to see a doctor. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "nic"
+      },
+      {
+        "id": "B",
+        "label": "cli"
+      }
+    ],
+    "units": [
+      "nic",
+      "cli"
+    ],
+    "correctAnswer": "clinic",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW150",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW165",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "contest",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ is a competition. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "test"
+      },
+      {
+        "id": "B",
+        "label": "con"
+      }
+    ],
+    "units": [
+      "test",
+      "con"
+    ],
+    "correctAnswer": "contest",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW165",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW170",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "coriander",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a herb used in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "der"
+      },
+      {
+        "id": "B",
+        "label": "co"
+      },
+      {
+        "id": "C",
+        "label": "an"
+      },
+      {
+        "id": "D",
+        "label": "ri"
+      }
+    ],
+    "units": [
+      "der",
+      "co",
+      "an",
+      "ri"
+    ],
+    "correctAnswer": "coriander",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW170",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW181",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "crocodile",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a large animal that lives in or near water. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "dile"
+      },
+      {
+        "id": "B",
+        "label": "cro"
+      },
+      {
+        "id": "C",
+        "label": "co"
+      }
+    ],
+    "units": [
+      "dile",
+      "cro",
+      "co"
+    ],
+    "correctAnswer": "crocodile",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW181",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW207",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "decorate",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We ______ the classroom for a celebration. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ate"
+      },
+      {
+        "id": "B",
+        "label": "dec"
+      },
+      {
+        "id": "C",
+        "label": "or"
+      }
+    ],
+    "units": [
+      "ate",
+      "dec",
+      "or"
+    ],
+    "correctAnswer": "decorate",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW207",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW210",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "delicious",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The food tastes very ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cious"
+      },
+      {
+        "id": "B",
+        "label": "de"
+      },
+      {
+        "id": "C",
+        "label": "li"
+      }
+    ],
+    "units": [
+      "cious",
+      "de",
+      "li"
+    ],
+    "correctAnswer": "delicious",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW210",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW211",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "demonstrate",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "To ______ means to show how something is done. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "strate"
+      },
+      {
+        "id": "B",
+        "label": "de"
+      },
+      {
+        "id": "C",
+        "label": "mon"
+      }
+    ],
+    "units": [
+      "strate",
+      "de",
+      "mon"
+    ],
+    "correctAnswer": "demonstrate",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW211",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW214",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "describe",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "To ______ means to tell what someone or something is like. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "scribe"
+      },
+      {
+        "id": "B",
+        "label": "de"
+      }
+    ],
+    "units": [
+      "scribe",
+      "de"
+    ],
+    "correctAnswer": "describe",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW214",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW221",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "different",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The two pictures are not the same. They are ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ent"
+      },
+      {
+        "id": "B",
+        "label": "dif"
+      },
+      {
+        "id": "C",
+        "label": "fer"
+      }
+    ],
+    "units": [
+      "ent",
+      "dif",
+      "fer"
+    ],
+    "correctAnswer": "different",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW221",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW230",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "dolphin",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This animal lives in water and is very intelligent. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "phin"
+      },
+      {
+        "id": "B",
+        "label": "dol"
+      }
+    ],
+    "units": [
+      "phin",
+      "dol"
+    ],
+    "correctAnswer": "dolphin",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW230",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW235",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "dragon",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a large imaginary animal that can breathe fire in stories. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "gon"
+      },
+      {
+        "id": "B",
+        "label": "dra"
+      }
+    ],
+    "units": [
+      "gon",
+      "dra"
+    ],
+    "correctAnswer": "dragon",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW235",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW249",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "dwelling",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A place where someone lives is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ing"
+      },
+      {
+        "id": "B",
+        "label": "dwell + picture of a home"
+      }
+    ],
+    "units": [
+      "ing",
+      "dwell + picture of a home"
+    ],
+    "correctAnswer": "dwelling",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW249",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts + Picture Context",
+      "hasSourceAnomaly": true,
+      "anomalyNote": "Options string includes literal text \"+ picture of a home\""
+    }
+  },
+  {
+    "id": "ENG-M6-EW254",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "elephant",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a large animal with a long trunk. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "phant"
+      },
+      {
+        "id": "B",
+        "label": "ele"
+      }
+    ],
+    "units": [
+      "phant",
+      "ele"
+    ],
+    "correctAnswer": "elephant",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW254",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW257",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "engineer",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "An ______ designs or builds machines and structures. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "neer"
+      },
+      {
+        "id": "B",
+        "label": "en"
+      },
+      {
+        "id": "C",
+        "label": "gi"
+      }
+    ],
+    "units": [
+      "neer",
+      "en",
+      "gi"
+    ],
+    "correctAnswer": "engineer",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW257",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW259",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "entire",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The ______ class joined the activity. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tire"
+      },
+      {
+        "id": "B",
+        "label": "en"
+      }
+    ],
+    "units": [
+      "tire",
+      "en"
+    ],
+    "correctAnswer": "entire",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW259",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW266",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "exercise",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We do ______ to keep our body healthy. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cise"
+      },
+      {
+        "id": "B",
+        "label": "ex"
+      },
+      {
+        "id": "C",
+        "label": "er"
+      }
+    ],
+    "units": [
+      "cise",
+      "ex",
+      "er"
+    ],
+    "correctAnswer": "exercise",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW266",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW281",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "fenugreek",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This plant is used as a spice in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "reek"
+      },
+      {
+        "id": "C",
+        "label": "fenu"
+      }
+    ],
+    "units": [
+      "g",
+      "reek",
+      "fenu"
+    ],
+    "correctAnswer": "fenugreek",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW281",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW282",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "festival",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "People celebrate a ______ with special activities. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "val"
+      },
+      {
+        "id": "B",
+        "label": "fes"
+      },
+      {
+        "id": "C",
+        "label": "ti"
+      }
+    ],
+    "units": [
+      "val",
+      "fes",
+      "ti"
+    ],
+    "correctAnswer": "festival",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW282",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW338",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "giraffe",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This animal has a very long neck. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "raffe"
+      },
+      {
+        "id": "B",
+        "label": "gi"
+      }
+    ],
+    "units": [
+      "raffe",
+      "gi"
+    ],
+    "correctAnswer": "giraffe",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW338",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW359",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "grocery",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A shop or place where food and household items are sold is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cery"
+      },
+      {
+        "id": "B",
+        "label": "gro"
+      }
+    ],
+    "units": [
+      "cery",
+      "gro"
+    ],
+    "correctAnswer": "grocery",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW359",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW371",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "handkerchief",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a small cloth used for wiping the nose or face. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "kerchief"
+      },
+      {
+        "id": "B",
+        "label": "hand"
+      }
+    ],
+    "units": [
+      "kerchief",
+      "hand"
+    ],
+    "correctAnswer": "handkerchief",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW371",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW375",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "harvest",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Farmers collect crops during the ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "vest"
+      },
+      {
+        "id": "B",
+        "label": "har"
+      }
+    ],
+    "units": [
+      "vest",
+      "har"
+    ],
+    "correctAnswer": "harvest",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW375",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW397",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "holiday",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We have no school during a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "day"
+      },
+      {
+        "id": "B",
+        "label": "holi"
+      }
+    ],
+    "units": [
+      "day",
+      "holi"
+    ],
+    "correctAnswer": "holiday",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW397",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW405",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "hospital",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Sick people may go to this place to see a doctor. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "pi"
+      },
+      {
+        "id": "B",
+        "label": "hos"
+      },
+      {
+        "id": "C",
+        "label": "tal"
+      }
+    ],
+    "units": [
+      "pi",
+      "hos",
+      "tal"
+    ],
+    "correctAnswer": "hospital",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW405",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW417",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "inclusion",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Including everyone in an activity is called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "in"
+      },
+      {
+        "id": "B",
+        "label": "clu"
+      },
+      {
+        "id": "C",
+        "label": "sion"
+      }
+    ],
+    "units": [
+      "in",
+      "clu",
+      "sion"
+    ],
+    "correctAnswer": "inclusion",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW417",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW418",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "injection",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A medicine given with a needle is called an ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "in"
+      },
+      {
+        "id": "B",
+        "label": "jec"
+      },
+      {
+        "id": "C",
+        "label": "tion"
+      }
+    ],
+    "units": [
+      "in",
+      "jec",
+      "tion"
+    ],
+    "correctAnswer": "injection",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW418",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW420",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "instruction",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A direction that tells you what to do is an ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "in"
+      },
+      {
+        "id": "B",
+        "label": "struc"
+      },
+      {
+        "id": "C",
+        "label": "tion"
+      }
+    ],
+    "units": [
+      "in",
+      "struc",
+      "tion"
+    ],
+    "correctAnswer": "instruction",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW420",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW421",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "instructions",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Before you start the activity, read the teacher's ______ carefully. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "in"
+      },
+      {
+        "id": "B",
+        "label": "struc"
+      },
+      {
+        "id": "C",
+        "label": "tions"
+      }
+    ],
+    "units": [
+      "in",
+      "struc",
+      "tions"
+    ],
+    "correctAnswer": "instructions",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW421",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW422",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "interesting",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The book was so ______ that I wanted to read it again. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "in"
+      },
+      {
+        "id": "B",
+        "label": "ter"
+      },
+      {
+        "id": "C",
+        "label": "est"
+      },
+      {
+        "id": "D",
+        "label": "ing"
+      }
+    ],
+    "units": [
+      "in",
+      "ter",
+      "est",
+      "ing"
+    ],
+    "correctAnswer": "interesting",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW422",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW444",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "kitchen",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We cook food in this room. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "chen"
+      },
+      {
+        "id": "B",
+        "label": "kit"
+      }
+    ],
+    "units": [
+      "chen",
+      "kit"
+    ],
+    "correctAnswer": "kitchen",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW444",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW470",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "lightning",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A bright flash seen in the sky during a storm is called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ning"
+      },
+      {
+        "id": "B",
+        "label": "light"
+      }
+    ],
+    "units": [
+      "ning",
+      "light"
+    ],
+    "correctAnswer": "lightning",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW470",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW491",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "magician",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who performs magic tricks is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cian"
+      },
+      {
+        "id": "B",
+        "label": "ma"
+      },
+      {
+        "id": "C",
+        "label": "gi"
+      }
+    ],
+    "units": [
+      "cian",
+      "ma",
+      "gi"
+    ],
+    "correctAnswer": "magician",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW491",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW500",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "medicine",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is something used to help a sick person get better. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cine"
+      },
+      {
+        "id": "B",
+        "label": "med"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "cine",
+      "med",
+      "i"
+    ],
+    "correctAnswer": "medicine",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW500",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW503",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "merchant",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Arrange the word parts to make the word for a person who buys and sells things.",
+    "options": [
+      {
+        "id": "A",
+        "label": "chant"
+      },
+      {
+        "id": "B",
+        "label": "mer"
+      }
+    ],
+    "units": [
+      "chant",
+      "mer"
+    ],
+    "correctAnswer": "merchant",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW503",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW515",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "mosquito",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a small flying insect that can bite people. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "to"
+      },
+      {
+        "id": "B",
+        "label": "mos"
+      },
+      {
+        "id": "C",
+        "label": "qui"
+      }
+    ],
+    "units": [
+      "to",
+      "mos",
+      "qui"
+    ],
+    "correctAnswer": "mosquito",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW515",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW527",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "mustard",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a yellow spice or sauce used with food. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tard"
+      },
+      {
+        "id": "B",
+        "label": "mus"
+      }
+    ],
+    "units": [
+      "tard",
+      "mus"
+    ],
+    "correctAnswer": "mustard",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW527",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW535",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "nectar",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Bees collect sweet liquid from flowers called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tar"
+      },
+      {
+        "id": "B",
+        "label": "nec"
+      }
+    ],
+    "units": [
+      "tar",
+      "nec"
+    ],
+    "correctAnswer": "nectar",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW535",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW550",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "nutritious",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Food that helps our body grow and stay healthy is ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tri"
+      },
+      {
+        "id": "B",
+        "label": "tious"
+      },
+      {
+        "id": "C",
+        "label": "nu"
+      }
+    ],
+    "units": [
+      "tri",
+      "tious",
+      "nu"
+    ],
+    "correctAnswer": "nutritious",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW550",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW562",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "oyster",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a shellfish that lives in water. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ter"
+      },
+      {
+        "id": "B",
+        "label": "oys"
+      }
+    ],
+    "units": [
+      "ter",
+      "oys"
+    ],
+    "correctAnswer": "oyster",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW562",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW577",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "perfect",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Something without any mistakes can be described as ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fe"
+      },
+      {
+        "id": "B",
+        "label": "ct"
+      },
+      {
+        "id": "C",
+        "label": "per"
+      }
+    ],
+    "units": [
+      "fe",
+      "ct",
+      "per"
+    ],
+    "correctAnswer": "perfect",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW577",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW578",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "permission",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "When someone says you may do something, you have ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "sion"
+      },
+      {
+        "id": "B",
+        "label": "per"
+      },
+      {
+        "id": "C",
+        "label": "mis"
+      }
+    ],
+    "units": [
+      "sion",
+      "per",
+      "mis"
+    ],
+    "correctAnswer": "permission",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW578",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW579",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "person",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A human being can be called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "son"
+      },
+      {
+        "id": "B",
+        "label": "per"
+      }
+    ],
+    "units": [
+      "son",
+      "per"
+    ],
+    "correctAnswer": "person",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW579",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW003",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "adventure",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This means an exciting journey or experience.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ture"
+      },
+      {
+        "id": "B",
+        "label": "ad"
+      },
+      {
+        "id": "C",
+        "label": "ven"
+      }
+    ],
+    "units": [
+      "ture",
+      "ad",
+      "ven"
+    ],
+    "correctAnswer": "adventure",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW003",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW101",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "bumblebee",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a flying insect that makes honey. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bee"
+      },
+      {
+        "id": "B",
+        "label": "bum"
+      },
+      {
+        "id": "C",
+        "label": "ble"
+      }
+    ],
+    "units": [
+      "bee",
+      "bum",
+      "ble"
+    ],
+    "correctAnswer": "bumblebee",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW101",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW113",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "camel",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This animal has a hump and can live in hot, dry places. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "mel"
+      },
+      {
+        "id": "B",
+        "label": "ca"
+      }
+    ],
+    "units": [
+      "mel",
+      "ca"
+    ],
+    "correctAnswer": "camel",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW113",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW131",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "chameleon",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This animal can change the colour of its skin. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "me"
+      },
+      {
+        "id": "B",
+        "label": "cha"
+      },
+      {
+        "id": "C",
+        "label": "le"
+      },
+      {
+        "id": "D",
+        "label": "on"
+      }
+    ],
+    "units": [
+      "me",
+      "cha",
+      "le",
+      "on"
+    ],
+    "correctAnswer": "chameleon",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW131",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW163",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "conductor",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This person leads a group of musicians. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tor"
+      },
+      {
+        "id": "B",
+        "label": "con"
+      },
+      {
+        "id": "C",
+        "label": "duc"
+      }
+    ],
+    "units": [
+      "tor",
+      "con",
+      "duc"
+    ],
+    "correctAnswer": "conductor",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW163",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW225",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "direction",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The way to go somewhere is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tion"
+      },
+      {
+        "id": "B",
+        "label": "di"
+      },
+      {
+        "id": "C",
+        "label": "rec"
+      }
+    ],
+    "units": [
+      "tion",
+      "di",
+      "rec"
+    ],
+    "correctAnswer": "direction",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW225",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW253",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "electric",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This word describes something that works using electricity. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tric"
+      },
+      {
+        "id": "B",
+        "label": "elec"
+      }
+    ],
+    "units": [
+      "tric",
+      "elec"
+    ],
+    "correctAnswer": "electric",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW253",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW260",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "environment",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The world around us is called the ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ment"
+      },
+      {
+        "id": "B",
+        "label": "envi"
+      },
+      {
+        "id": "C",
+        "label": "ron"
+      }
+    ],
+    "units": [
+      "ment",
+      "envi",
+      "ron"
+    ],
+    "correctAnswer": "environment",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW260",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW269",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "factory",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A ______ is a place where things are made. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tory"
+      },
+      {
+        "id": "B",
+        "label": "fac"
+      }
+    ],
+    "units": [
+      "tory",
+      "fac"
+    ],
+    "correctAnswer": "factory",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW269",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW326",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "garbage",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Things that we throw away are called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bage"
+      },
+      {
+        "id": "B",
+        "label": "gar"
+      }
+    ],
+    "units": [
+      "bage",
+      "gar"
+    ],
+    "correctAnswer": "garbage",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW326",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW339",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "glacier",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A large, slow-moving mass of ice is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cier"
+      },
+      {
+        "id": "B",
+        "label": "gla"
+      }
+    ],
+    "units": [
+      "cier",
+      "gla"
+    ],
+    "correctAnswer": "glacier",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW339",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW416",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "imagination",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The ability to form pictures or ideas in your mind is called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "mag"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "na"
+      },
+      {
+        "id": "E",
+        "label": "tion"
+      }
+    ],
+    "units": [
+      "i",
+      "mag",
+      "i",
+      "na",
+      "tion"
+    ],
+    "correctAnswer": "imagination",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW416",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW454",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "laundry",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Clothes that need washing are called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "laun"
+      },
+      {
+        "id": "B",
+        "label": "dry"
+      }
+    ],
+    "units": [
+      "laun",
+      "dry"
+    ],
+    "correctAnswer": "laundry",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW454",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW466",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "library",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We go to this place to read and borrow books. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "brar"
+      },
+      {
+        "id": "B",
+        "label": "li"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "brar",
+      "li",
+      "y"
+    ],
+    "correctAnswer": "library",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW466",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW489",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "machine",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a device that does a job using moving parts. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "chine"
+      },
+      {
+        "id": "B",
+        "label": "ma"
+      }
+    ],
+    "units": [
+      "chine",
+      "ma"
+    ],
+    "correctAnswer": "machine",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW489",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW490",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "magic",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The ______ show had colourful lights and surprising tricks. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ic"
+      },
+      {
+        "id": "B",
+        "label": "mag"
+      }
+    ],
+    "units": [
+      "ic",
+      "mag"
+    ],
+    "correctAnswer": "magic",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW490",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW516",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "mountain",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A very high natural landform is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tain"
+      },
+      {
+        "id": "B",
+        "label": "moun"
+      }
+    ],
+    "units": [
+      "tain",
+      "moun"
+    ],
+    "correctAnswer": "mountain",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW516",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW523",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "multimeter",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a tool used to measure electrical quantities. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "meter"
+      },
+      {
+        "id": "B",
+        "label": "multi"
+      }
+    ],
+    "units": [
+      "meter",
+      "multi"
+    ],
+    "correctAnswer": "multimeter",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW523",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW525",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "museum",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We visit this place to see old objects and interesting displays. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "seum"
+      },
+      {
+        "id": "B",
+        "label": "mu"
+      }
+    ],
+    "units": [
+      "seum",
+      "mu"
+    ],
+    "correctAnswer": "museum",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW525",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW532",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "nature",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Plants, animals, trees and the world around us are part of ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ture"
+      },
+      {
+        "id": "B",
+        "label": "na"
+      }
+    ],
+    "units": [
+      "ture",
+      "na"
+    ],
+    "correctAnswer": "nature",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW532",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW536",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "needle",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a thin, sharp tool used for sewing. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "dle"
+      },
+      {
+        "id": "B",
+        "label": "nee"
+      }
+    ],
+    "units": [
+      "dle",
+      "nee"
+    ],
+    "correctAnswer": "needle",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW536",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW538",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "neighbour",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who lives near your home is your ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bour"
+      },
+      {
+        "id": "B",
+        "label": "neigh"
+      }
+    ],
+    "units": [
+      "bour",
+      "neigh"
+    ],
+    "correctAnswer": "neighbour",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW538",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW551",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "oasis",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A green place with water in a desert is called an ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "sis"
+      },
+      {
+        "id": "B",
+        "label": "oa"
+      }
+    ],
+    "units": [
+      "sis",
+      "oa"
+    ],
+    "correctAnswer": "oasis",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW551",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW553",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "office",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A room where people work is called an ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fice"
+      },
+      {
+        "id": "B",
+        "label": "of"
+      }
+    ],
+    "units": [
+      "fice",
+      "of"
+    ],
+    "correctAnswer": "office",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW553",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW566",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "palace",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A large and beautiful home where a king or queen may live is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "la"
+      },
+      {
+        "id": "B",
+        "label": "ce"
+      },
+      {
+        "id": "C",
+        "label": "pa"
+      }
+    ],
+    "units": [
+      "la",
+      "ce",
+      "pa"
+    ],
+    "correctAnswer": "palace",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW566",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-EW570",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "pavement",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "People walk on the ______ beside the road. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ment"
+      },
+      {
+        "id": "B",
+        "label": "pave"
+      }
+    ],
+    "units": [
+      "ment",
+      "pave"
+    ],
+    "correctAnswer": "pavement",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW570",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW034",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "banana",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "na"
+      },
+      {
+        "id": "B",
+        "label": "ba"
+      },
+      {
+        "id": "C",
+        "label": "na"
+      }
+    ],
+    "units": [
+      "na",
+      "ba",
+      "na"
+    ],
+    "correctAnswer": "banana",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW034",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW057",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bicycle",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cle"
+      },
+      {
+        "id": "B",
+        "label": "bi"
+      },
+      {
+        "id": "C",
+        "label": "cy"
+      }
+    ],
+    "units": [
+      "cle",
+      "bi",
+      "cy"
+    ],
+    "correctAnswer": "bicycle",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW057",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW162",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "concert",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "People sing and play music at a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cert"
+      },
+      {
+        "id": "B",
+        "label": "con"
+      }
+    ],
+    "units": [
+      "cert",
+      "con"
+    ],
+    "correctAnswer": "concert",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW162",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW313",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "forest",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A large area covered with many trees is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "est"
+      },
+      {
+        "id": "B",
+        "label": "for"
+      }
+    ],
+    "units": [
+      "est",
+      "for"
+    ],
+    "correctAnswer": "forest",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW313",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW327",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "garden",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A place where flowers and plants are grown is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "den"
+      },
+      {
+        "id": "B",
+        "label": "gar"
+      }
+    ],
+    "units": [
+      "den",
+      "gar"
+    ],
+    "correctAnswer": "garden",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW327",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW328",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "garlic",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a strong-smelling bulb used in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "lic"
+      },
+      {
+        "id": "B",
+        "label": "gar"
+      }
+    ],
+    "units": [
+      "lic",
+      "gar"
+    ],
+    "correctAnswer": "garlic",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW328",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW440",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "kennel",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A place where a dog is kept is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "nel"
+      },
+      {
+        "id": "B",
+        "label": "ken"
+      }
+    ],
+    "units": [
+      "nel",
+      "ken"
+    ],
+    "correctAnswer": "kennel",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW440",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW002",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "achieve",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "v"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "c"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "e",
+      "v",
+      "a",
+      "i",
+      "h",
+      "c",
+      "e"
+    ],
+    "correctAnswer": "achieve",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW002",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW005",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "agriculture",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This means farming.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ture"
+      },
+      {
+        "id": "B",
+        "label": "agri"
+      },
+      {
+        "id": "C",
+        "label": "cul"
+      }
+    ],
+    "units": [
+      "ture",
+      "agri",
+      "cul"
+    ],
+    "correctAnswer": "agriculture",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW005",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW041",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "baton",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A small stick used by a person leading a musical group.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ton"
+      },
+      {
+        "id": "B",
+        "label": "ba"
+      }
+    ],
+    "units": [
+      "ton",
+      "ba"
+    ],
+    "correctAnswer": "baton",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW041",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW179",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "creature",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This means a living animal. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tu"
+      },
+      {
+        "id": "B",
+        "label": "crea"
+      },
+      {
+        "id": "C",
+        "label": "re"
+      }
+    ],
+    "units": [
+      "tu",
+      "crea",
+      "re"
+    ],
+    "correctAnswer": "creature",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW179",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW255",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "encourage",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "To ______ someone means to give them confidence or support. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "age"
+      },
+      {
+        "id": "B",
+        "label": "en"
+      },
+      {
+        "id": "C",
+        "label": "cour"
+      }
+    ],
+    "units": [
+      "age",
+      "en",
+      "cour"
+    ],
+    "correctAnswer": "encourage",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW255",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW393",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hippo",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This large animal lives near water. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "po"
+      },
+      {
+        "id": "B",
+        "label": "hip"
+      }
+    ],
+    "units": [
+      "po",
+      "hip"
+    ],
+    "correctAnswer": "hippo",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW393",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW415",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "imaginary",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Something that exists only in your imagination is ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "mag"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "nar"
+      },
+      {
+        "id": "E",
+        "label": "y"
+      }
+    ],
+    "units": [
+      "i",
+      "mag",
+      "i",
+      "nar",
+      "y"
+    ],
+    "correctAnswer": "imaginary",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW415",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW514",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "morning",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "The part of the day when the sun rises is called ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ing"
+      },
+      {
+        "id": "B",
+        "label": "mor"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "ing",
+      "mor",
+      "n"
+    ],
+    "correctAnswer": "morning",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW514",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW585",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "pilot",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A person who flies an aeroplane is a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "lot"
+      },
+      {
+        "id": "B",
+        "label": "pi"
+      }
+    ],
+    "units": [
+      "lot",
+      "pi"
+    ],
+    "correctAnswer": "pilot",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW585",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW026",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "away",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a w _ y",
+    "correctAnswer": "away",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW026",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW050",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "behind",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b e h _ n d",
+    "correctAnswer": "behind",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW050",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW061",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "black",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The cat is ______. Complete the word:",
+    "template": "b l _ c k",
+    "correctAnswer": "black",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW061",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW088",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "brick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The wall is made of ______. Complete the word:",
+    "template": "b r _ c k",
+    "correctAnswer": "brick",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW088",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW093",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "broom",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a ______ to sweep the floor. Complete the word:",
+    "template": "b r _ o m",
+    "correctAnswer": "broom",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW093",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW096",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "brush",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I use a ______ to clean my teeth. Complete the word:",
+    "template": "b r _ s h",
+    "correctAnswer": "brush",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW096",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW110",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "buzz",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A bee can ______ around a flower. Complete the word:",
+    "template": "b u _ z",
+    "correctAnswer": "buzz",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW110",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW144",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 3,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "claps",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "She ______ her hands after the song. Complete the word:",
+    "template": "c l a _ s",
+    "correctAnswer": "claps",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW144",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW175",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "crack",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "There is a ______ in the wall. Complete the word:",
+    "template": "c r _ c k",
+    "correctAnswer": "crack",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW175",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW208",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "deep",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The well is very ______. Complete the word:",
+    "template": "d e _ p",
+    "correctAnswer": "deep",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW208",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW239",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "drink",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "template": "d r _ n k",
+    "correctAnswer": "drink",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW239",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW016",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anything",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "You can choose ______ you like.",
+    "template": "a n y t h _ n g",
+    "correctAnswer": "anything",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW016",
+      "activityCode": "E11",
+      "originalActivity": "E11 – Context → Complete Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW013",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "anjaraipetti",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "B",
+        "label": "anjaraipetty"
+      },
+      {
+        "id": "C",
+        "label": "anjaraipeti"
+      }
+    ],
+    "correctAnswer": "anjaraipetti",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW013",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW020",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "ash gourd",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ash gourd"
+      },
+      {
+        "id": "B",
+        "label": "ash guard"
+      },
+      {
+        "id": "C",
+        "label": "ash gourde"
+      }
+    ],
+    "correctAnswer": "ash gourd",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW020",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW025",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "aval",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "aval",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW025",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW053",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 4,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bengal gram",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bengal gram"
+      },
+      {
+        "id": "B",
+        "label": "bengal grem"
+      },
+      {
+        "id": "C",
+        "label": "bengal grum"
+      }
+    ],
+    "correctAnswer": "bengal gram",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW053",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture Write → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW191",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "cumin",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a spice used in cooking. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "min"
+      },
+      {
+        "id": "B",
+        "label": "cu"
+      }
+    ],
+    "units": [
+      "min",
+      "cu"
+    ],
+    "correctAnswer": "cumin",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW191",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW387",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hello",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We say this when we greet someone. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "lo"
+      },
+      {
+        "id": "B",
+        "label": "hel"
+      }
+    ],
+    "units": [
+      "lo",
+      "hel"
+    ],
+    "correctAnswer": "hello",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW387",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW388",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "helmet",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We wear this to protect our head. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "met"
+      },
+      {
+        "id": "B",
+        "label": "hel"
+      }
+    ],
+    "units": [
+      "met",
+      "hel"
+    ],
+    "correctAnswer": "helmet",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW388",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Word Parts",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW526",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "music",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "We hear songs and sounds as ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "sic"
+      },
+      {
+        "id": "B",
+        "label": "mu"
+      }
+    ],
+    "units": [
+      "sic",
+      "mu"
+    ],
+    "correctAnswer": "music",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW526",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW555",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "onion",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a vegetable with layers and a strong smell. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ion"
+      },
+      {
+        "id": "B",
+        "label": "on"
+      }
+    ],
+    "units": [
+      "ion",
+      "on"
+    ],
+    "correctAnswer": "onion",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW555",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW612",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "potato",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is a vegetable that grows underground. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "to"
+      },
+      {
+        "id": "B",
+        "label": "po"
+      },
+      {
+        "id": "C",
+        "label": "ta"
+      }
+    ],
+    "units": [
+      "to",
+      "po",
+      "ta"
+    ],
+    "correctAnswer": "potato",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW612",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW639",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "recipe",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A set of instructions for preparing food is called a ______. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ipe"
+      },
+      {
+        "id": "B",
+        "label": "rec"
+      }
+    ],
+    "units": [
+      "ipe",
+      "rec"
+    ],
+    "correctAnswer": "recipe",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW639",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M6-REV-EW667",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 6,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 5,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "rupee",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This is an Indian money unit. Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "pe"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "ru"
+      }
+    ],
+    "units": [
+      "pe",
+      "e",
+      "ru"
+    ],
+    "correctAnswer": "rupee",
+    "source": {
+      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW667",
+      "activityCode": "E04",
+      "originalActivity": "E04 Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  }
+]

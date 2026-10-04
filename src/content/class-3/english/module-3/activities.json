@@ -1,0 +1,5591 @@
+[
+  {
+    "id": "ENG-M3-EW078",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bow",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bow"
+      },
+      {
+        "id": "B",
+        "label": "bau"
+      },
+      {
+        "id": "C",
+        "label": "boe"
+      }
+    ],
+    "correctAnswer": "bow",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW078",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW109",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "buy",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "I want to ______ a new pencil. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "buy"
+      },
+      {
+        "id": "B",
+        "label": "by"
+      },
+      {
+        "id": "C",
+        "label": "buye"
+      }
+    ],
+    "correctAnswer": "buy",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW109",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW198",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "cut",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Use scissors to ______ the paper. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cut"
+      },
+      {
+        "id": "B",
+        "label": "kat"
+      },
+      {
+        "id": "C",
+        "label": "cute"
+      }
+    ],
+    "correctAnswer": "cut",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW198",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW219",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "did",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Yesterday, Ravi ______ his homework. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "did"
+      },
+      {
+        "id": "B",
+        "label": "ded"
+      },
+      {
+        "id": "C",
+        "label": "dide"
+      }
+    ],
+    "correctAnswer": "did",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW219",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Context → Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW256",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "end",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The story has come to an ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "end"
+      },
+      {
+        "id": "B",
+        "label": "and"
+      },
+      {
+        "id": "C",
+        "label": "ende"
+      }
+    ],
+    "correctAnswer": "end",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW256",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW267",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "eye",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "eye"
+      },
+      {
+        "id": "B",
+        "label": "ie"
+      },
+      {
+        "id": "C",
+        "label": "eya"
+      }
+    ],
+    "correctAnswer": "eye",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW267",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW275",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "fat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The cat is ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fat"
+      },
+      {
+        "id": "B",
+        "label": "fet"
+      },
+      {
+        "id": "C",
+        "label": "fatt"
+      }
+    ],
+    "correctAnswer": "fat",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW275",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW296",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "fit",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "These shoes ______ me well. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fit"
+      },
+      {
+        "id": "B",
+        "label": "fet"
+      },
+      {
+        "id": "C",
+        "label": "fitt"
+      }
+    ],
+    "correctAnswer": "fit",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW296",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW334",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "get",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Please ______ your book from the bag. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "get"
+      },
+      {
+        "id": "B",
+        "label": "git"
+      },
+      {
+        "id": "C",
+        "label": "geet"
+      }
+    ],
+    "correctAnswer": "get",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW334",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW347",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "got",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ a new book yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "got"
+      },
+      {
+        "id": "B",
+        "label": "gat"
+      },
+      {
+        "id": "C",
+        "label": "gott"
+      }
+    ],
+    "correctAnswer": "got",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW347",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW367",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "had",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Yesterday, Ravi ______ a cold. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "had"
+      },
+      {
+        "id": "B",
+        "label": "hed"
+      },
+      {
+        "id": "C",
+        "label": "haad"
+      }
+    ],
+    "correctAnswer": "had",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW367",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW376",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "has",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "He ______ a red bag. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "has"
+      },
+      {
+        "id": "B",
+        "label": "hes"
+      },
+      {
+        "id": "C",
+        "label": "hass"
+      }
+    ],
+    "correctAnswer": "has",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW376",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW394",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "hit",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Do not ______ the ball too hard. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "hit"
+      },
+      {
+        "id": "B",
+        "label": "het"
+      },
+      {
+        "id": "C",
+        "label": "hitt"
+      }
+    ],
+    "correctAnswer": "hit",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW394",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW406",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "hot",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The tea is very ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "hot"
+      },
+      {
+        "id": "B",
+        "label": "het"
+      },
+      {
+        "id": "C",
+        "label": "hott"
+      }
+    ],
+    "correctAnswer": "hot",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW406",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW425",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "it",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The dog is small. ______ is very cute. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "it"
+      },
+      {
+        "id": "B",
+        "label": "et"
+      },
+      {
+        "id": "C",
+        "label": "itt"
+      }
+    ],
+    "correctAnswer": "it",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW425",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW463",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "let",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Please ______ me help you. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "let"
+      },
+      {
+        "id": "B",
+        "label": "latt"
+      },
+      {
+        "id": "C",
+        "label": "lett"
+      }
+    ],
+    "correctAnswer": "let",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW463",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW501",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "men",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "More than one man are called ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "men"
+      },
+      {
+        "id": "B",
+        "label": "mens"
+      },
+      {
+        "id": "C",
+        "label": "mann"
+      }
+    ],
+    "correctAnswer": "men",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW501",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW528",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "my",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "This is ______ book. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "my"
+      },
+      {
+        "id": "B",
+        "label": "mi"
+      },
+      {
+        "id": "C",
+        "label": "mye"
+      }
+    ],
+    "correctAnswer": "my",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW528",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW542",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "new",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi has a ______ pencil. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "new"
+      },
+      {
+        "id": "B",
+        "label": "noo"
+      },
+      {
+        "id": "C",
+        "label": "nue"
+      }
+    ],
+    "correctAnswer": "new",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW542",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW625",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "put",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "put"
+      },
+      {
+        "id": "B",
+        "label": "poot"
+      },
+      {
+        "id": "C",
+        "label": "puth"
+      }
+    ],
+    "correctAnswer": "put",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW625",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW663",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "row",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "row"
+      },
+      {
+        "id": "B",
+        "label": "ro"
+      },
+      {
+        "id": "C",
+        "label": "rouw"
+      }
+    ],
+    "correctAnswer": "row",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW663",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW664",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "roy",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "This is a boy's name. Choose the correct spelling.",
+    "options": [
+      {
+        "id": "A",
+        "label": "Roy"
+      },
+      {
+        "id": "B",
+        "label": "roi"
+      },
+      {
+        "id": "C",
+        "label": "roye"
+      }
+    ],
+    "correctAnswer": "Roy",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW664",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW666",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "run",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "run"
+      },
+      {
+        "id": "B",
+        "label": "rann"
+      },
+      {
+        "id": "C",
+        "label": "ronn"
+      }
+    ],
+    "correctAnswer": "run",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW666",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW678",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "saw",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "saw"
+      },
+      {
+        "id": "B",
+        "label": "sawe"
+      },
+      {
+        "id": "C",
+        "label": "saww"
+      }
+    ],
+    "correctAnswer": "saw",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW678",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW679",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "say",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "say"
+      },
+      {
+        "id": "B",
+        "label": "sey"
+      },
+      {
+        "id": "C",
+        "label": "saay"
+      }
+    ],
+    "correctAnswer": "say",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW679",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW760",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "soy",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "soy"
+      },
+      {
+        "id": "B",
+        "label": "soi"
+      },
+      {
+        "id": "C",
+        "label": "soye"
+      }
+    ],
+    "correctAnswer": "soy",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW760",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW889",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "two",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "I have ______ pencils. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "two"
+      },
+      {
+        "id": "B",
+        "label": "too"
+      },
+      {
+        "id": "C",
+        "label": "tow"
+      }
+    ],
+    "correctAnswer": "two",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW889",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW898",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "up",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Please stand ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "up"
+      },
+      {
+        "id": "B",
+        "label": "upp"
+      },
+      {
+        "id": "C",
+        "label": "uup"
+      }
+    ],
+    "correctAnswer": "up",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW898",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW322",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "fry",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We can ______ an egg in a pan. Complete the word:",
+    "template": "f r _",
+    "correctAnswer": "fry",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW322",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW520",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "mow",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We ______ the grass to keep it short. Complete the word:",
+    "template": "m _ w",
+    "correctAnswer": "mow",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW520",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW749",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "soak",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Leave the clothes in water to ______ them. Complete the word:",
+    "template": "s o _ k",
+    "correctAnswer": "soak",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW749",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW076",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "both",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "There are two children. ______ are smiling. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "both"
+      },
+      {
+        "id": "B",
+        "label": "bouth"
+      },
+      {
+        "id": "C",
+        "label": "bothe"
+      }
+    ],
+    "correctAnswer": "both",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW076",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW079",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bowl",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bowl"
+      },
+      {
+        "id": "B",
+        "label": "boul"
+      },
+      {
+        "id": "C",
+        "label": "boal"
+      }
+    ],
+    "correctAnswer": "bowl",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW079",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW082",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bray",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A donkey makes this loud sound. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bray"
+      },
+      {
+        "id": "B",
+        "label": "brae"
+      },
+      {
+        "id": "C",
+        "label": "brey"
+      }
+    ],
+    "correctAnswer": "bray",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW082",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW099",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "build",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "build"
+      },
+      {
+        "id": "B",
+        "label": "bild"
+      },
+      {
+        "id": "C",
+        "label": "builde"
+      }
+    ],
+    "correctAnswer": "build",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW099",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW130",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "chalk",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use this to write on a blackboard. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "chalk"
+      },
+      {
+        "id": "B",
+        "label": "chauk"
+      },
+      {
+        "id": "C",
+        "label": "chaulk"
+      }
+    ],
+    "correctAnswer": "chalk",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW130",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW135",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "chef",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A person who cooks food professionally. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "chef"
+      },
+      {
+        "id": "B",
+        "label": "shef"
+      },
+      {
+        "id": "C",
+        "label": "cheff"
+      }
+    ],
+    "correctAnswer": "chef",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW135",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW142",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "city",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A large town where many people live is called a ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "city"
+      },
+      {
+        "id": "B",
+        "label": "sity"
+      },
+      {
+        "id": "C",
+        "label": "citee"
+      }
+    ],
+    "correctAnswer": "city",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW142",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW146",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "claws",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A cat uses these sharp parts of its feet to catch things. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "claws"
+      },
+      {
+        "id": "B",
+        "label": "clows"
+      },
+      {
+        "id": "C",
+        "label": "clawse"
+      }
+    ],
+    "correctAnswer": "claws",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW146",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW280",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "feet",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We walk using our ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "feet"
+      },
+      {
+        "id": "B",
+        "label": "feets"
+      },
+      {
+        "id": "C",
+        "label": "feat"
+      }
+    ],
+    "correctAnswer": "feet",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW280",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW285",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "field",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "field"
+      },
+      {
+        "id": "B",
+        "label": "feild"
+      },
+      {
+        "id": "C",
+        "label": "feeld"
+      }
+    ],
+    "correctAnswer": "field",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW285",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW286",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "fifth",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Five comes before ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "fifth"
+      },
+      {
+        "id": "B",
+        "label": "fiveth"
+      },
+      {
+        "id": "C",
+        "label": "fifeth"
+      }
+    ],
+    "correctAnswer": "fifth",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW286",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW293",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "first",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "I came ______ in the race. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "first"
+      },
+      {
+        "id": "B",
+        "label": "furst"
+      },
+      {
+        "id": "C",
+        "label": "frist"
+      }
+    ],
+    "correctAnswer": "first",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW293",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW315",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "found",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ his missing pencil yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "found"
+      },
+      {
+        "id": "B",
+        "label": "fownd"
+      },
+      {
+        "id": "C",
+        "label": "fund"
+      }
+    ],
+    "correctAnswer": "found",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW315",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW331",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "gave",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ me a pencil yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "gave"
+      },
+      {
+        "id": "B",
+        "label": "gaev"
+      },
+      {
+        "id": "C",
+        "label": "gaved"
+      }
+    ],
+    "correctAnswer": "gave",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW331",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW345",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "good",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "This is a ______ book. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "good"
+      },
+      {
+        "id": "B",
+        "label": "gud"
+      },
+      {
+        "id": "C",
+        "label": "goode"
+      }
+    ],
+    "correctAnswer": "good",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW345",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW354",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "great",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We had a ______ time at the park. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "great"
+      },
+      {
+        "id": "B",
+        "label": "grate"
+      },
+      {
+        "id": "C",
+        "label": "grete"
+      }
+    ],
+    "correctAnswer": "great",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW354",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW357",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "grey",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "grey"
+      },
+      {
+        "id": "B",
+        "label": "greay"
+      },
+      {
+        "id": "C",
+        "label": "greyy"
+      }
+    ],
+    "correctAnswer": "grey",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW357",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW383",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hear",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use our ears to ______ sounds. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "hear"
+      },
+      {
+        "id": "B",
+        "label": "heer"
+      },
+      {
+        "id": "C",
+        "label": "heare"
+      }
+    ],
+    "correctAnswer": "hear",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW383",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW384",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "heard",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ a loud sound yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "heard"
+      },
+      {
+        "id": "B",
+        "label": "heared"
+      },
+      {
+        "id": "C",
+        "label": "hurd"
+      }
+    ],
+    "correctAnswer": "heard",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW384",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW400",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hoof",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A horse has a hard foot called a ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "hoof"
+      },
+      {
+        "id": "B",
+        "label": "huff"
+      },
+      {
+        "id": "C",
+        "label": "hooff"
+      }
+    ],
+    "correctAnswer": "hoof",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW400",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW411",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "hurt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi fell down and ______ his leg. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "hurt"
+      },
+      {
+        "id": "B",
+        "label": "hert"
+      },
+      {
+        "id": "C",
+        "label": "hurtt"
+      }
+    ],
+    "correctAnswer": "hurt",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW411",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW447",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "knife",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use a ______ to cut food. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "knife"
+      },
+      {
+        "id": "B",
+        "label": "nife"
+      },
+      {
+        "id": "C",
+        "label": "knief"
+      }
+    ],
+    "correctAnswer": "knife",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW447",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW453",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "laugh",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We ______ when something is funny. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "laugh"
+      },
+      {
+        "id": "B",
+        "label": "laff"
+      },
+      {
+        "id": "C",
+        "label": "lough"
+      }
+    ],
+    "correctAnswer": "laugh",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW453",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW459",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "left",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ his bag at school yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "left"
+      },
+      {
+        "id": "B",
+        "label": "leeft"
+      },
+      {
+        "id": "C",
+        "label": "lefft"
+      }
+    ],
+    "correctAnswer": "left",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW459",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW469",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "light",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Please turn on the ______ because the room is dark. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "light"
+      },
+      {
+        "id": "B",
+        "label": "lite"
+      },
+      {
+        "id": "C",
+        "label": "liight"
+      }
+    ],
+    "correctAnswer": "light",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW469",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW537",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "neigh",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A horse can make this sound. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "neigh"
+      },
+      {
+        "id": "B",
+        "label": "nay"
+      },
+      {
+        "id": "C",
+        "label": "neig"
+      }
+    ],
+    "correctAnswer": "neigh",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW537",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW543",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "night",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We can see stars in the sky at ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "night"
+      },
+      {
+        "id": "B",
+        "label": "nite"
+      },
+      {
+        "id": "C",
+        "label": "niight"
+      }
+    ],
+    "correctAnswer": "night",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW543",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW650",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "right",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "right"
+      },
+      {
+        "id": "B",
+        "label": "rite"
+      },
+      {
+        "id": "C",
+        "label": "rihgt"
+      }
+    ],
+    "correctAnswer": "right",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW650",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW717",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "short",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "short"
+      },
+      {
+        "id": "B",
+        "label": "shourt"
+      },
+      {
+        "id": "C",
+        "label": "shart"
+      }
+    ],
+    "correctAnswer": "short",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW717",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW753",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "soft",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The pillow feels ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "soft"
+      },
+      {
+        "id": "B",
+        "label": "sofft"
+      },
+      {
+        "id": "C",
+        "label": "softe"
+      }
+    ],
+    "correctAnswer": "soft",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW753",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW810",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "swift",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "swift"
+      },
+      {
+        "id": "B",
+        "label": "swifft"
+      },
+      {
+        "id": "C",
+        "label": "swiftt"
+      }
+    ],
+    "correctAnswer": "swift",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW810",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW825",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "teach",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Teachers ______ children new things. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "teach"
+      },
+      {
+        "id": "B",
+        "label": "teech"
+      },
+      {
+        "id": "C",
+        "label": "teatch"
+      }
+    ],
+    "correctAnswer": "teach",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW825",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW828",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "teeth",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use these to bite and chew food. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "teeth"
+      },
+      {
+        "id": "B",
+        "label": "teath"
+      },
+      {
+        "id": "C",
+        "label": "teethe"
+      }
+    ],
+    "correctAnswer": "teeth",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW828",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW836",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "thin",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The opposite of thick is ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "thin"
+      },
+      {
+        "id": "B",
+        "label": "thinn"
+      },
+      {
+        "id": "C",
+        "label": "then"
+      }
+    ],
+    "correctAnswer": "thin",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW836",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW838",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "third",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Rani came in ______ place. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "third"
+      },
+      {
+        "id": "B",
+        "label": "therd"
+      },
+      {
+        "id": "C",
+        "label": "thirdd"
+      }
+    ],
+    "correctAnswer": "third",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW838",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW840",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "this",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "______ is my book. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "this"
+      },
+      {
+        "id": "B",
+        "label": "thiz"
+      },
+      {
+        "id": "C",
+        "label": "thies"
+      }
+    ],
+    "correctAnswer": "this",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW840",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW845",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "throw",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Please ______ the ball to me. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "throw"
+      },
+      {
+        "id": "B",
+        "label": "throu"
+      },
+      {
+        "id": "C",
+        "label": "throe"
+      }
+    ],
+    "correctAnswer": "throw",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW845",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW852",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "tight",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "This shirt is not loose. It is ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "tight"
+      },
+      {
+        "id": "B",
+        "label": "tite"
+      },
+      {
+        "id": "C",
+        "label": "tighht"
+      }
+    ],
+    "correctAnswer": "tight",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW852",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW911",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "walk",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "walk"
+      },
+      {
+        "id": "B",
+        "label": "wok"
+      },
+      {
+        "id": "C",
+        "label": "waalk"
+      }
+    ],
+    "correctAnswer": "walk",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW911",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW922",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "weigh",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "weigh"
+      },
+      {
+        "id": "B",
+        "label": "waigh"
+      },
+      {
+        "id": "C",
+        "label": "wegh"
+      }
+    ],
+    "correctAnswer": "weigh",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW922",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW948",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "write",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "write"
+      },
+      {
+        "id": "B",
+        "label": "rite"
+      },
+      {
+        "id": "C",
+        "label": "wright"
+      }
+    ],
+    "correctAnswer": "write",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW948",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW949",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "wrong",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "wrong"
+      },
+      {
+        "id": "B",
+        "label": "rong"
+      },
+      {
+        "id": "C",
+        "label": "wrung"
+      }
+    ],
+    "correctAnswer": "wrong",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW949",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW954",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "yours",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "yours"
+      },
+      {
+        "id": "B",
+        "label": "youres"
+      },
+      {
+        "id": "C",
+        "label": "yors"
+      }
+    ],
+    "correctAnswer": "yours",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW954",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW026",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "away",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a w _ y",
+    "correctAnswer": "away",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW026",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW061",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "black",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The cat is ______. Complete the word:",
+    "template": "b l _ c k",
+    "correctAnswer": "black",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW061",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW096",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "brush",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I use a ______ to clean my teeth. Complete the word:",
+    "template": "b r _ s h",
+    "correctAnswer": "brush",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW096",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW110",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "buzz",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A bee can ______ around a flower. Complete the word:",
+    "template": "b u _ z",
+    "correctAnswer": "buzz",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW110",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW144",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "claps",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "She ______ her hands after the song. Complete the word:",
+    "template": "c l a _ s",
+    "correctAnswer": "claps",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW144",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW167",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "cool",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The water feels ______. Complete the word:",
+    "template": "c _ o l",
+    "correctAnswer": "cool",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW167",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW173",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "count",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Can you ______ the apples? Complete the word:",
+    "template": "c o _ n t",
+    "correctAnswer": "count",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW173",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW065",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "blew",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The wind ______ strongly yesterday. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "blew"
+      },
+      {
+        "id": "B",
+        "label": "bloo"
+      },
+      {
+        "id": "C",
+        "label": "bluw"
+      }
+    ],
+    "correctAnswer": "blew",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW065",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW089",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bridge",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bridge"
+      },
+      {
+        "id": "B",
+        "label": "brij"
+      },
+      {
+        "id": "C",
+        "label": "bridg"
+      }
+    ],
+    "correctAnswer": "bridge",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW089",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW103",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bureau",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "This is a piece of furniture with drawers used for keeping things. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bureau"
+      },
+      {
+        "id": "B",
+        "label": "bureu"
+      },
+      {
+        "id": "C",
+        "label": "bureao"
+      }
+    ],
+    "correctAnswer": "bureau",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW103",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW122",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "castle",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "castle"
+      },
+      {
+        "id": "B",
+        "label": "castel"
+      },
+      {
+        "id": "C",
+        "label": "casttle"
+      }
+    ],
+    "correctAnswer": "castle",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW122",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW140",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "children",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "More than one child are called ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "children"
+      },
+      {
+        "id": "B",
+        "label": "childrens"
+      },
+      {
+        "id": "C",
+        "label": "childrin"
+      }
+    ],
+    "correctAnswer": "children",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW140",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW180",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "crew",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A group of people who work together on a ship or aircraft is called a ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "crew"
+      },
+      {
+        "id": "B",
+        "label": "crue"
+      },
+      {
+        "id": "C",
+        "label": "croo"
+      }
+    ],
+    "correctAnswer": "crew",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW180",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW193",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "cupboard",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We keep plates, cups or other things in this piece of furniture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cupboard"
+      },
+      {
+        "id": "B",
+        "label": "cubboard"
+      },
+      {
+        "id": "C",
+        "label": "cupboarde"
+      }
+    ],
+    "correctAnswer": "cupboard",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW193",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW200",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "dairy",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "dairy"
+      },
+      {
+        "id": "B",
+        "label": "daery"
+      },
+      {
+        "id": "C",
+        "label": "dairee"
+      }
+    ],
+    "correctAnswer": "dairy",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW200",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW237",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "drew",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Yesterday, Ravi ______ a picture of a tree. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "drew"
+      },
+      {
+        "id": "B",
+        "label": "droo"
+      },
+      {
+        "id": "C",
+        "label": "druw"
+      }
+    ],
+    "correctAnswer": "drew",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW237",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Context → Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW258",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "enough",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We have ______ food for everyone. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "enough"
+      },
+      {
+        "id": "B",
+        "label": "enouf"
+      },
+      {
+        "id": "C",
+        "label": "enogh"
+      }
+    ],
+    "correctAnswer": "enough",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW258",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW346",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "goose",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "goose"
+      },
+      {
+        "id": "B",
+        "label": "gose"
+      },
+      {
+        "id": "C",
+        "label": "goosse"
+      }
+    ],
+    "correctAnswer": "goose",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW346",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW385",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "heart",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Your ______ beats inside your chest. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "heart"
+      },
+      {
+        "id": "B",
+        "label": "hart"
+      },
+      {
+        "id": "C",
+        "label": "heert"
+      }
+    ],
+    "correctAnswer": "heart",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW385",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW433",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "judge",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A person who decides cases in a court is a ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "judge"
+      },
+      {
+        "id": "B",
+        "label": "juj"
+      },
+      {
+        "id": "C",
+        "label": "judje"
+      }
+    ],
+    "correctAnswer": "judge",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW433",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW446",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "knee",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Your leg bends at the ______. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "knee"
+      },
+      {
+        "id": "B",
+        "label": "nee"
+      },
+      {
+        "id": "C",
+        "label": "kne"
+      }
+    ],
+    "correctAnswer": "knee",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW446",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW597",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "plough",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A farmer uses this tool to prepare the soil. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "plough"
+      },
+      {
+        "id": "B",
+        "label": "plogh"
+      },
+      {
+        "id": "C",
+        "label": "plaugh"
+      }
+    ],
+    "correctAnswer": "plough",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW597",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW634",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "ran",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Yesterday, Ravi ______ to school. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ran"
+      },
+      {
+        "id": "B",
+        "label": "rane"
+      },
+      {
+        "id": "C",
+        "label": "rann"
+      }
+    ],
+    "correctAnswer": "ran",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW634",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW636",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "read",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "read"
+      },
+      {
+        "id": "B",
+        "label": "reed"
+      },
+      {
+        "id": "C",
+        "label": "reade"
+      }
+    ],
+    "correctAnswer": "read",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW636",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW713",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "shook",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Yesterday, the tree ______ in the strong wind. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "shook"
+      },
+      {
+        "id": "B",
+        "label": "shuke"
+      },
+      {
+        "id": "C",
+        "label": "shooke"
+      }
+    ],
+    "correctAnswer": "shook",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW713",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW719",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "should",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "You ______ wash your hands before eating. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "should"
+      },
+      {
+        "id": "B",
+        "label": "shuld"
+      },
+      {
+        "id": "C",
+        "label": "shoud"
+      }
+    ],
+    "correctAnswer": "should",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW719",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW788",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "straight",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The road is not curved. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "straight"
+      },
+      {
+        "id": "B",
+        "label": "strait"
+      },
+      {
+        "id": "C",
+        "label": "straigt"
+      }
+    ],
+    "correctAnswer": "straight",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW788",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW795",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "such",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "It was ______ a beautiful day. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "such"
+      },
+      {
+        "id": "B",
+        "label": "sach"
+      },
+      {
+        "id": "C",
+        "label": "suuch"
+      }
+    ],
+    "correctAnswer": "such",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW795",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW842",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "thread",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use this to sew clothes. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "thread"
+      },
+      {
+        "id": "B",
+        "label": "thred"
+      },
+      {
+        "id": "C",
+        "label": "threadd"
+      }
+    ],
+    "correctAnswer": "thread",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW842",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW843",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "threw",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Ravi ______ the ball to his friend. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "threw"
+      },
+      {
+        "id": "B",
+        "label": "throu"
+      },
+      {
+        "id": "C",
+        "label": "throo"
+      }
+    ],
+    "correctAnswer": "threw",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW843",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW844",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "through",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "The train went ______ the tunnel. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "through"
+      },
+      {
+        "id": "B",
+        "label": "throo"
+      },
+      {
+        "id": "C",
+        "label": "thruogh"
+      }
+    ],
+    "correctAnswer": "through",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW844",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW864",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "too",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "I want ______ to play. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "too"
+      },
+      {
+        "id": "B",
+        "label": "to"
+      },
+      {
+        "id": "C",
+        "label": "tou"
+      }
+    ],
+    "correctAnswer": "too",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW864",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW928",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "whistle",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word for an object that makes a sharp sound when blown.",
+    "options": [
+      {
+        "id": "A",
+        "label": "whistle"
+      },
+      {
+        "id": "B",
+        "label": "whistel"
+      },
+      {
+        "id": "C",
+        "label": "wistle"
+      }
+    ],
+    "correctAnswer": "whistle",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW928",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW944",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "woollen",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correctly spelled word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "woollen"
+      },
+      {
+        "id": "B",
+        "label": "woolen"
+      },
+      {
+        "id": "C",
+        "label": "wullen"
+      }
+    ],
+    "correctAnswer": "woollen",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW944",
+      "activityCode": "E08",
+      "originalActivity": "E08 Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW050",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "behind",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b e h _ n d",
+    "correctAnswer": "behind",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW050",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW088",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "brick",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The wall is made of ______. Complete the word:",
+    "template": "b r _ c k",
+    "correctAnswer": "brick",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW088",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW093",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "broom",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We use a ______ to sweep the floor. Complete the word:",
+    "template": "b r _ o m",
+    "correctAnswer": "broom",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW093",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW007",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "almond",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "almond"
+      },
+      {
+        "id": "B",
+        "label": "almand"
+      },
+      {
+        "id": "C",
+        "label": "almound"
+      }
+    ],
+    "correctAnswer": "almond",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW007",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW027",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "axe",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "axe"
+      },
+      {
+        "id": "B",
+        "label": "ax"
+      },
+      {
+        "id": "C",
+        "label": "aex"
+      }
+    ],
+    "correctAnswer": "axe",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW027",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW042",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beach",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beach"
+      },
+      {
+        "id": "B",
+        "label": "beech"
+      },
+      {
+        "id": "C",
+        "label": "bech"
+      }
+    ],
+    "correctAnswer": "beach",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW042",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW045",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "beat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "beat"
+      },
+      {
+        "id": "B",
+        "label": "beet"
+      },
+      {
+        "id": "C",
+        "label": "beatt"
+      }
+    ],
+    "correctAnswer": "beat",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW045",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW054",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "best",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "best"
+      },
+      {
+        "id": "B",
+        "label": "besst"
+      },
+      {
+        "id": "C",
+        "label": "bezt"
+      }
+    ],
+    "correctAnswer": "best",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW054",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW071",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Unclassified",
+    "targetWord": "bolt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bolt"
+      },
+      {
+        "id": "B",
+        "label": "boult"
+      },
+      {
+        "id": "C",
+        "label": "bolte"
+      }
+    ],
+    "correctAnswer": "bolt",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW071",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW129",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "chair",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "chair"
+      },
+      {
+        "id": "B",
+        "label": "chare"
+      },
+      {
+        "id": "C",
+        "label": "chaer"
+      }
+    ],
+    "correctAnswer": "chair",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW129",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW149",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "climb",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "We use our hands and feet to ______ a tree. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "climb"
+      },
+      {
+        "id": "B",
+        "label": "clim"
+      },
+      {
+        "id": "C",
+        "label": "clime"
+      }
+    ],
+    "correctAnswer": "climb",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW149",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-EW152",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "new",
+    "level": 2,
+    "sourceDifficulty": "Mixed",
+    "targetWord": "cloth",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cloth"
+      },
+      {
+        "id": "B",
+        "label": "clothe"
+      },
+      {
+        "id": "C",
+        "label": "clouth"
+      }
+    ],
+    "correctAnswer": "cloth",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW152",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW002",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "achieve",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "v"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "c"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "e",
+      "v",
+      "a",
+      "i",
+      "h",
+      "c",
+      "e"
+    ],
+    "correctAnswer": "achieve",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW002",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW011",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "angry",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "angry"
+      },
+      {
+        "id": "B",
+        "label": "engri"
+      },
+      {
+        "id": "C",
+        "label": "angrie"
+      }
+    ],
+    "correctAnswer": "angry",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW011",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW014",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "another",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Ravi has one pencil. He wants one more. He needs ______ pencil.",
+    "template": "a n o t h _ r",
+    "correctAnswer": "another",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW014",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW017",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "apple",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "apple",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW017",
+      "activityCode": "E01",
+      "originalActivity": "E01 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW018",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "around",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a r _ u n d",
+    "correctAnswer": "around",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW018",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW021",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ask",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "ask"
+      },
+      {
+        "id": "B",
+        "label": "aske"
+      },
+      {
+        "id": "C",
+        "label": "aks"
+      }
+    ],
+    "correctAnswer": "ask",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW021",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW028",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "baby",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "correctAnswer": "baby",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW028",
+      "activityCode": "E12",
+      "originalActivity": "E12 – Picture → Write",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW030",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 1,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bad",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bad"
+      },
+      {
+        "id": "B",
+        "label": "bed"
+      },
+      {
+        "id": "C",
+        "label": "baad"
+      }
+    ],
+    "correctAnswer": "bad",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW030",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW031",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "badge",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "badge"
+      },
+      {
+        "id": "B",
+        "label": "baj"
+      },
+      {
+        "id": "C",
+        "label": "badg"
+      }
+    ],
+    "correctAnswer": "badge",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW031",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW033",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "ball",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b _ l l",
+    "correctAnswer": "ball",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW033",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW034",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "banana",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "na"
+      },
+      {
+        "id": "B",
+        "label": "ba"
+      },
+      {
+        "id": "C",
+        "label": "na"
+      }
+    ],
+    "units": [
+      "na",
+      "ba",
+      "na"
+    ],
+    "correctAnswer": "banana",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW034",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW035",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bandage",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "You put this on a small cut or wound.",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "g"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "n"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "d",
+      "a",
+      "b",
+      "g",
+      "e",
+      "n",
+      "a"
+    ],
+    "correctAnswer": "bandage",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW035",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW047",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "because",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "I stayed at home ______ I was sick.",
+    "template": "b e c a u _ e",
+    "correctAnswer": "because",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW047",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW051",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bell",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b e _ l",
+    "correctAnswer": "bell",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW051",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW052",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "belt",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "belt"
+      },
+      {
+        "id": "B",
+        "label": "beld"
+      },
+      {
+        "id": "C",
+        "label": "bellt"
+      }
+    ],
+    "correctAnswer": "belt",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW052",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW056",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 2,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "between",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ball is ______ the two boxes. Complete the word:",
+    "template": "b e t w _ e n",
+    "correctAnswer": "between",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW056",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW057",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "bicycle",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the word parts in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "cle"
+      },
+      {
+        "id": "B",
+        "label": "bi"
+      },
+      {
+        "id": "C",
+        "label": "cy"
+      }
+    ],
+    "units": [
+      "cle",
+      "bi",
+      "cy"
+    ],
+    "correctAnswer": "bicycle",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW057",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW058",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "big",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "Look at the picture. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "big"
+      },
+      {
+        "id": "B",
+        "label": "beg"
+      },
+      {
+        "id": "C",
+        "label": "bigg"
+      }
+    ],
+    "correctAnswer": "big",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW058",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW060",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bird",
+    "category": "picture-recognition",
+    "variant": "word-entry",
+    "prompt": "Look at the picture. Write the word.",
+    "template": "Picture",
+    "correctAnswer": "bird",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW060",
+      "activityCode": "E01",
+      "originalActivity": "E01 – Picture Identify → Word",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW064",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 1,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bleat",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "A goat or sheep makes this sound. Choose the correct spelling:",
+    "options": [
+      {
+        "id": "A",
+        "label": "bleat"
+      },
+      {
+        "id": "B",
+        "label": "bleet"
+      },
+      {
+        "id": "C",
+        "label": "bliet"
+      }
+    ],
+    "correctAnswer": "bleat",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW064",
+      "activityCode": "E08",
+      "originalActivity": "E08 – Correct Spelling",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW049",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bee",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "b _ e",
+    "correctAnswer": "bee",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW049",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW059",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "bin",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Put the paper in the ______. Complete the word:",
+    "template": "b _ n",
+    "correctAnswer": "bin",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW059",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW188",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "cry",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The baby may ______ when hungry. Complete the word:",
+    "template": "c r _",
+    "correctAnswer": "cry",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW188",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW220",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 3,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "die",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "One small cube used in a board game is called a ______. Complete the word:",
+    "template": "d _ e",
+    "correctAnswer": "die",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW220",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW224",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "dip",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ the biscuit in the milk. Complete the word:",
+    "template": "d _ p",
+    "correctAnswer": "dip",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW224",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW244",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "dry",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The clothes are not wet. They are ______. Complete the word:",
+    "template": "d r _",
+    "correctAnswer": "dry",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW244",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW251",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "eat",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "We ______ an apple every day. Complete the word:",
+    "template": "e | _ | t",
+    "correctAnswer": "eat",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW251",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW252",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "egg",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "A hen lays an ______. Complete the word:",
+    "template": "e | g | _",
+    "correctAnswer": "egg",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW252",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW306",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "fly",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Birds can ______ in the sky. Complete the word:",
+    "template": "f l _",
+    "correctAnswer": "fly",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW306",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW323",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "fun",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Look at the picture. Complete the word:",
+    "template": "f | _ | n",
+    "correctAnswer": "fun",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW323",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW001",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "about",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The programme is ______ to start.",
+    "template": "a b _ u t",
+    "correctAnswer": "about",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW001",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW004",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 4,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "aeroplane",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      },
+      {
+        "id": "H",
+        "label": "n"
+      },
+      {
+        "id": "I",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "p",
+      "a",
+      "e",
+      "r",
+      "o",
+      "l",
+      "a",
+      "n",
+      "e"
+    ],
+    "correctAnswer": "aeroplane",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW004",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW041",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "baton",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "A small stick used by a person leading a musical group.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ton"
+      },
+      {
+        "id": "B",
+        "label": "ba"
+      }
+    ],
+    "units": [
+      "ton",
+      "ba"
+    ],
+    "correctAnswer": "baton",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW041",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW091",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "bring",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Please ______ your book to class. Complete the word:",
+    "template": "b r _ n g",
+    "correctAnswer": "bring",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW091",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW124",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "catch",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Try to ______ the ball. Complete the word:",
+    "template": "c a t _ h",
+    "correctAnswer": "catch",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW124",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW168",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "coop",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Chickens can stay in a ______. Complete the word:",
+    "template": "c o _ p",
+    "correctAnswer": "coop",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW168",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW202",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 2,
+    "sourceDifficulty": "Medium",
+    "targetWord": "dance",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The children like to ______ to music. Complete the word:",
+    "template": "d a n _ e",
+    "correctAnswer": "dance",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW202",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW005",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "agriculture",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "This means farming.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ture"
+      },
+      {
+        "id": "B",
+        "label": "agri"
+      },
+      {
+        "id": "C",
+        "label": "cul"
+      }
+    ],
+    "units": [
+      "ture",
+      "agri",
+      "cul"
+    ],
+    "correctAnswer": "agriculture",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW005",
+      "activityCode": "E04",
+      "originalActivity": "E04 – Arrange Syllables",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW008",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "alphabet",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "Complete the word:",
+    "template": "a l p h a _ e t",
+    "correctAnswer": "alphabet",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW008",
+      "activityCode": "E05",
+      "originalActivity": "E05 – Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M3-REV-EW063",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 3,
+    "day": 5,
+    "role": "review",
+    "reviewSourceModule": 2,
+    "level": 3,
+    "sourceDifficulty": "Hard",
+    "targetWord": "blanket",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "You use this to cover yourself when you sleep. Put the letters in the correct order:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "k"
+      },
+      {
+        "id": "F",
+        "label": "e"
+      },
+      {
+        "id": "G",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "l",
+      "a",
+      "b",
+      "n",
+      "k",
+      "e",
+      "t"
+    ],
+    "correctAnswer": "blanket",
+    "source": {
+      "workbook": "English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "ewId": "EW063",
+      "activityCode": "E06",
+      "originalActivity": "E06 – Arrange Letters",
+      "hasSourceAnomaly": false
+    }
+  }
+]
