@@ -18,8 +18,11 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   const [submitted, setSubmitted] = useState(false);
 
   const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
-  const hasImage = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '');
-  const assetId = activity.image?.source || (activity.targetWord ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : null);
+  const isTamilPicturePrompt = /படத்தில் காணப்படும்/.test(activity.prompt || '');
+  const hasImage = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '') || isTamilPicturePrompt;
+  const assetId = activity.image?.source
+    || (isTamilPicturePrompt ? `class3-tamil-picture-${activity.id.toLowerCase()}` : null)
+    || (activity.targetWord ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : null);
 
   const options = activity.options || [];
 

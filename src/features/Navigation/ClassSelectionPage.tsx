@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 export function ClassSelectionPage() {
   const navigate = useNavigate();
-  const classes = [1, 2, 3, 4, 5];
+  const classes = [3];
 
   return (
     <Page>
@@ -16,10 +16,10 @@ export function ClassSelectionPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 pt-8">
           {classes.map(level => (
-            <ClassCard 
-              key={level} 
-              level={level} 
-              isAvailable={level === 3}
+            <ClassCard
+              key={level}
+              level={level}
+              isAvailable
               onClick={(l) => navigate(`/classes/${l}/subjects`)}
             />
           ))}

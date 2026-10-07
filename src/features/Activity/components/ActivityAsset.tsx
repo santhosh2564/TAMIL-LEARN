@@ -10,6 +10,7 @@ interface ActivityAssetProps {
 
 export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
   const [resolution, setResolution] = useState<AssetResolutionState | null>(null);
+  const [loadFailed, setLoadFailed] = useState(false);
   const resolver = useMemo(() => new AssetResolver(), []);
   const isEnglish = language === 'english' || assetRef.id.startsWith('eng-') || assetRef.id.startsWith('english-');
 
@@ -17,6 +18,7 @@ export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
     // For local resolution this is synchronous, but we keep standard async-compatible lifecycle
     const state = resolver.resolve(assetRef);
     setResolution(state);
+    setLoadFailed(false);
   }, [assetRef, resolver]);
 
   if (!resolution) {
@@ -27,17 +29,18 @@ export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
     );
   }
 
-  if (resolution.status === 'resolved') {
+  if (resolution.status === 'resolved' && !loadFailed) {
     const { asset } = resolution;
     if (asset.type === 'image') {
       const altText = alt || asset.alt || (isEnglish ? 'Activity illustration' : 'செயல்பாட்டுப் படம்');
       return (
         <div className="w-full aspect-video max-w-sm mx-auto bg-white rounded-2xl border-2 border-surface-raised overflow-hidden relative shadow-sm">
-          <img 
-            src={asset.path} 
-            alt={altText} 
+          <img
+            src={asset.path}
+            alt={altText}
             className="w-full h-full object-contain"
             data-testid="activity-asset-image"
+            onError={() => setLoadFailed(true)}
           />
         </div>
       );
@@ -69,7 +72,7 @@ export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
     );
   }
 
-  if (resolution.status === 'invalid') {
+  if (resolution.status === 'invalid' || loadFailed) {
     return (
       <div 
         className="w-full aspect-video max-w-sm mx-auto bg-error/10 rounded-2xl border-2 border-dashed border-error/30 flex flex-col items-center justify-center p-6 text-error"

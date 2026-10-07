@@ -7,9 +7,9 @@ import { registerCoreActivities } from '../registerActivities';
 describe('Runtime Compatibility Check', () => {
   const repository = new LocalContentRepository();
 
-  it('contains exactly 144 activities', async () => {
+  it('contains exactly 142 activities', async () => {
     const allActivities = await repository.getActivities();
-    expect(allActivities.length).toBe(144);
+    expect(allActivities.length).toBe(142);
   });
 
   it('ensures all activities resolve in the registry and render without crashing', async () => {
@@ -69,7 +69,7 @@ describe('Runtime Compatibility Check', () => {
       }
     }
 
-    expect(resolvedCount).toBe(144);
+    expect(resolvedCount).toBe(142);
 
     // Log stats for manual verification against content-analysis
     console.log('Category Stats:', categoryStats);
@@ -77,12 +77,12 @@ describe('Runtime Compatibility Check', () => {
     console.log('Level Stats:', levelStats);
 
     // Verify accurate counts based on actual runtime results
-    expect(categoryStats['picture-recognition']).toBe(21);
-    expect(categoryStats['spelling-choice']).toBe(26);
+    expect(categoryStats['picture-recognition']).toBe(22);
+    expect(categoryStats['spelling-choice']).toBe(19);
     expect(categoryStats['meaning-match']).toBe(23);
     expect(categoryStats['context-choice']).toBe(27);
     expect(categoryStats['arrange-word']).toBe(38);
-    expect(categoryStats['word-completion']).toBe(9);
+    expect(categoryStats['word-completion']).toBe(13);
   });
 
   it('ensures unique IDs', async () => {

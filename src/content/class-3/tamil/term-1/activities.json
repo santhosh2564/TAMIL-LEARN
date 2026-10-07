@@ -353,34 +353,40 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "பள்ளி",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "குழந்தைகள் படிக்கும் இடத்தைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: பள் + [blank]",
     "options": [
       {
         "id": "A",
-        "label": "பள்ளி"
+        "label": "ளி"
       },
       {
         "id": "B",
-        "label": "பல்லி"
+        "label": "லி"
       },
       {
         "id": "C",
-        "label": "பள்ளம்"
+        "label": "ழி"
       },
       {
         "id": "D",
-        "label": "நூலகம்"
+        "label": "னி"
       }
     ],
-    "correctAnswer": "பள்ளி",
+    "units": [
+      "ளி",
+      "லி",
+      "ழி",
+      "னி"
+    ],
+    "correctAnswer": "ளி",
     "learningObjective": "ள்ளி spelling discrimination",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q010",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Missing Letter"
     }
   },
   {
@@ -429,34 +435,40 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "புலி",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "காட்டில் வாழும் ஒரு விலங்கைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: பு + [blank]",
     "options": [
       {
         "id": "A",
-        "label": "புலி"
+        "label": "லி"
       },
       {
         "id": "B",
-        "label": "புளி"
+        "label": "ளி"
       },
       {
         "id": "C",
-        "label": "புலம்"
+        "label": "ழி"
       },
       {
         "id": "D",
-        "label": "புலன்"
+        "label": "ரி"
       }
     ],
-    "correctAnswer": "புலி",
+    "units": [
+      "லி",
+      "ளி",
+      "ழி",
+      "ரி"
+    ],
+    "correctAnswer": "லி",
     "learningObjective": "லி/ளி discrimination",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q012",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Missing Letter"
     }
   },
   {
@@ -467,9 +479,9 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "எலி",
-    "category": "spelling-choice",
+    "category": "picture-recognition",
     "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -490,11 +502,11 @@
     ],
     "correctAnswer": "எலி",
     "learningObjective": "ல/ள discrimination",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q013",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Picture → Select"
     }
   },
   {
@@ -1104,34 +1116,40 @@
     "term": "Term I",
     "level": 3,
     "targetWord": "மருத்துவமனை",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "நோயாளிகளுக்கு சிகிச்சை அளிக்கும் இடத்தைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: மருத்துவம + [blank]",
     "options": [
       {
         "id": "A",
-        "label": "மருத்துவமனை"
+        "label": "னை"
       },
       {
         "id": "B",
-        "label": "மருத்துவர்"
+        "label": "ணை"
       },
       {
         "id": "C",
-        "label": "மருத்துவமணி"
+        "label": "நை"
       },
       {
         "id": "D",
-        "label": "மருத்துவம்"
+        "label": "லை"
       }
     ],
-    "correctAnswer": "மருத்துவமனை",
+    "units": [
+      "னை",
+      "ணை",
+      "நை",
+      "லை"
+    ],
+    "correctAnswer": "னை",
     "learningObjective": "Long-word spelling sequence",
-    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q029",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Missing Letter"
     }
   },
   {
@@ -1408,50 +1426,6 @@
     }
   },
   {
-    "id": "Q037",
-    "classLevel": 3,
-    "subject": "Tamil",
-    "language": "ta-IN",
-    "term": "Term I",
-    "level": 2,
-    "targetWord": "கதைகள்",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "கதை + [blank]",
-    "options": [
-      {
-        "id": "A",
-        "label": "கள்"
-      },
-      {
-        "id": "B",
-        "label": "கல்"
-      },
-      {
-        "id": "C",
-        "label": "கண்"
-      },
-      {
-        "id": "D",
-        "label": "கன்"
-      }
-    ],
-    "units": [
-      "கள்",
-      "கல்",
-      "கண்",
-      "கன்"
-    ],
-    "correctAnswer": "கள்",
-    "learningObjective": "கள் ending + spelling discrimination",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
-    "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
-      "questionId": "Q037",
-      "originalActivity": "Drag & Drop Missing Ending"
-    }
-  },
-  {
     "id": "Q038",
     "classLevel": 3,
     "subject": "Tamil",
@@ -1725,34 +1699,40 @@
     "term": "Term I",
     "level": 2,
     "targetWord": "கிழங்கு",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "மண்ணுக்குள் வளரும் உணவுப் பொருளைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: கி + [blank]",
     "options": [
       {
         "id": "A",
-        "label": "கிழங்கு"
+        "label": "ழங்கு"
       },
       {
         "id": "B",
-        "label": "கிலங்கு"
+        "label": "லங்கு"
       },
       {
         "id": "C",
-        "label": "கிளங்கு"
+        "label": "ளங்கு"
       },
       {
         "id": "D",
-        "label": "கிழக்கு"
+        "label": "ரங்கு"
       }
     ],
-    "correctAnswer": "கிழங்கு",
+    "units": [
+      "ழங்கு",
+      "லங்கு",
+      "ளங்கு",
+      "ரங்கு"
+    ],
+    "correctAnswer": "ழங்கு",
     "learningObjective": "Repeated word gets spelling-focused task",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q045",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Missing Letter"
     }
   },
   {
@@ -2054,7 +2034,7 @@
     "targetWord": "சான்றோர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பொருளுக்கேற்ற தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "prompt": "“Virtuous / wise people” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -2456,44 +2436,6 @@
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q062",
       "originalActivity": "Context → Drag Word"
-    }
-  },
-  {
-    "id": "Q063",
-    "classLevel": 3,
-    "subject": "Tamil",
-    "language": "ta-IN",
-    "term": "Term I",
-    "level": 2,
-    "targetWord": "தண்ணீர்",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
-    "options": [
-      {
-        "id": "A",
-        "label": "தண்ணீர்"
-      },
-      {
-        "id": "B",
-        "label": "தணீர்"
-      },
-      {
-        "id": "C",
-        "label": "தன்னீர்"
-      },
-      {
-        "id": "D",
-        "label": "தண்ணிர்"
-      }
-    ],
-    "correctAnswer": "தண்ணீர்",
-    "learningObjective": "Repeated word gets spelling discrimination",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
-    "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
-      "questionId": "Q063",
-      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -3100,7 +3042,7 @@
     "targetWord": "நிலா",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -3116,14 +3058,14 @@
       },
       {
         "id": "D",
-        "label": "நிலவு"
+        "label": "நிளவு"
       }
     ],
     "correctAnswer": "நிலா",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q079",
       "originalActivity": "Picture → Select"
     }
@@ -3339,34 +3281,40 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "படம்",
-    "category": "spelling-choice",
-    "variant": "select",
-    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "வரைந்து பார்க்கும் ஒன்றைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: ப + [blank]",
     "options": [
       {
         "id": "A",
-        "label": "படம்"
+        "label": "டம்"
       },
       {
         "id": "B",
-        "label": "பாடம்"
+        "label": "ணம்"
       },
       {
         "id": "C",
-        "label": "படை"
+        "label": "தம்"
       },
       {
         "id": "D",
-        "label": "படன்"
+        "label": "லம்"
       }
     ],
-    "correctAnswer": "படம்",
+    "units": [
+      "டம்",
+      "ணம்",
+      "தம்",
+      "லம்"
+    ],
+    "correctAnswer": "டம்",
     "learningObjective": "Repeated word gets spelling task",
-    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
     "source": {
-      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
       "questionId": "Q085",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Missing Letter"
     }
   },
   {
@@ -4470,7 +4418,7 @@
       },
       {
         "id": "B",
-        "label": "மருத்துவமணி"
+        "label": "மருந்தகம்"
       },
       {
         "id": "C",
