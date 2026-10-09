@@ -70,11 +70,16 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
   const withNormalizedBlanks = activity.prompt.replace(/\[_+\]/g, '[blank]');
   // Normalize prompt to strip any unbracketed fill-blanks from context sentences
   const normalizedPrompt = withNormalizedBlanks.replace(/_{2,}\.?\s*/g, '');
+  const hasPromptBlank = normalizedPrompt.includes('[blank]');
 
   let displayPrompt = normalizedPrompt;
-  if (selectedId && selectedOption) {
+  if (selectedId && selectedOption && hasPromptBlank) {
     displayPrompt = normalizedPrompt.replace(/\[blank\]/g, selectedOption.label);
   }
+
+  const templateDisplay = activity.template
+    ? (selectedOption ? activity.template.replace('_', selectedOption.label) : activity.template)
+    : null;
 
   return (
     <ActivityCard>
@@ -84,9 +89,25 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
         </div>
       )}
 
-      <div className="mb-8 text-center w-full">
-        <WordCompletionDisplay prompt={displayPrompt} />
-      </div>
+      {hasPromptBlank ? (
+        <div className="mb-8 text-center w-full">
+          <WordCompletionDisplay prompt={displayPrompt} />
+        </div>
+      ) : (
+        <div className="mb-6 text-center w-full">
+          <ActivityPrompt prompt={activity.prompt} />
+        </div>
+      )}
+
+      {!hasPromptBlank && templateDisplay && !/^picture/i.test(templateDisplay.trim()) && (
+        <div className="mb-8 text-center">
+          <div className="inline-block px-8 py-3 bg-surface-raised rounded-2xl border-2 border-primary-200 shadow-sm">
+            <span className="font-mono text-3xl md:text-4xl font-bold tracking-widest text-primary-600 select-none">
+              {templateDisplay}
+            </span>
+          </div>
+        </div>
+      )}
       
       <ActivityOptionGrid>
         {shuffledOptions.map((opt) => (

@@ -174,6 +174,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "This book is ______ than the old one. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "t"
+      },
+      {
+        "id": "D",
+        "label": "b"
+      }
+    ],
+    "units": [
+      "m",
+      "r",
+      "t",
+      "b"
+    ],
     "template": "b e t _ e r",
     "correctAnswer": "better",
     "source": {
@@ -198,6 +222,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The sky is ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "e",
+      "u"
+    ],
     "template": "b l _ e",
     "correctAnswer": "blue",
     "source": {
@@ -222,6 +270,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The ______ is on the water. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "e",
+      "u"
+    ],
     "template": "b o _ t",
     "correctAnswer": "boat",
     "source": {
@@ -246,6 +318,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ the water. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "b o _ l",
     "correctAnswer": "boil",
     "source": {
@@ -270,6 +366,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "I read a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "o",
+      "a"
+    ],
     "template": "b o _ k",
     "correctAnswer": "book",
     "source": {
@@ -294,6 +414,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The bear lives in a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "e",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "c a v _",
     "correctAnswer": "cave",
     "source": {
@@ -318,6 +462,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Keep your hands ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "i",
+      "e"
+    ],
     "template": "c l _ a n",
     "correctAnswer": "clean",
     "source": {
@@ -342,6 +510,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Look at the picture. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "o",
+      "a",
+      "u"
+    ],
     "template": "c l _ u d",
     "correctAnswer": "cloud",
     "source": {
@@ -366,6 +558,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a ______ to buy things. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "c o _ n",
     "correctAnswer": "coin",
     "source": {
@@ -390,6 +606,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Plants ______ from seeds. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "o",
+      "a"
+    ],
     "template": "g r _ w",
     "correctAnswer": "grow",
     "source": {
@@ -414,6 +654,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ carefully to the teacher. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "a",
+      "u"
+    ],
     "template": "l i s t _ n",
     "correctAnswer": "listen",
     "source": {
@@ -438,6 +702,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "______ at the picture carefully. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "u",
+      "i",
+      "e",
+      "o"
+    ],
     "template": "l o _ k",
     "correctAnswer": "look",
     "source": {
@@ -462,6 +750,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word. A microphone is sometimes called a _ in everyday speech.",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "w"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "k",
+      "r",
+      "w",
+      "d"
+    ],
     "template": "m i _ e",
     "correctAnswer": "mike",
     "source": {
@@ -486,6 +798,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ the chair to the side. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "v"
+      },
+      {
+        "id": "D",
+        "label": "w"
+      }
+    ],
+    "units": [
+      "m",
+      "r",
+      "v",
+      "w"
+    ],
     "template": "m o _ e",
     "correctAnswer": "move",
     "source": {
@@ -3137,6 +3473,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We can make pots and toys from ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "a",
+      "e"
+    ],
     "template": "c l _ y",
     "correctAnswer": "clay",
     "source": {
@@ -3161,6 +3521,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "This is a small spice used in cooking. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "u",
+      "i",
+      "e",
+      "o"
+    ],
     "template": "c l _ v e",
     "correctAnswer": "clove",
     "source": {
@@ -3185,6 +3569,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Look at the picture. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "o",
+      "e",
+      "i",
+      "a"
+    ],
     "template": "c o _ l",
     "correctAnswer": "coil",
     "source": {
@@ -3209,6 +3617,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A ______ is a title used for a man of high rank. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "r"
+      },
+      {
+        "id": "B",
+        "label": "w"
+      },
+      {
+        "id": "C",
+        "label": "k"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "r",
+      "w",
+      "k",
+      "d"
+    ],
     "template": "d u _ e",
     "correctAnswer": "duke",
     "source": {
@@ -3233,6 +3665,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A ______ is a hill of sand. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "f"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "s",
+      "b",
+      "f",
+      "n"
+    ],
     "template": "d u _ e",
     "correctAnswer": "dune",
     "source": {
@@ -3257,6 +3713,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The bird can ______ from the cage. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "s"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "f"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "s",
+      "b",
+      "f",
+      "p"
+    ],
     "template": "e s c a _ e",
     "correctAnswer": "escape",
     "source": {
@@ -3281,6 +3761,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "This is my ______ book. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "h"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
+        "id": "D",
+        "label": "t"
+      }
+    ],
+    "units": [
+      "h",
+      "m",
+      "r",
+      "t"
+    ],
     "template": "f a v o u r i _ e",
     "correctAnswer": "favourite",
     "source": {
@@ -3305,6 +3809,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We can wrap food in ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "f o _ l",
     "correctAnswer": "foil",
     "source": {
@@ -3329,6 +3857,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The elephant is ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "f",
+      "g",
+      "l",
+      "p"
+    ],
     "template": "h u _ e",
     "correctAnswer": "huge",
     "source": {
@@ -3353,6 +3905,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ the two lines. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "j o _ n",
     "correctAnswer": "join",
     "source": {
@@ -3377,6 +3953,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Your elbow is a ______ between two bones. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "j o _ n t",
     "correctAnswer": "joint",
     "source": {
@@ -3401,6 +4001,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "It is time to ______ school. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "a"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "a",
+      "e",
+      "u",
+      "o"
+    ],
     "template": "l e _ v e",
     "correctAnswer": "leave",
     "source": {
@@ -3425,6 +4049,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Write your ______ at the top of the page. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "m"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "f"
+      },
+      {
+        "id": "D",
+        "label": "k"
+      }
+    ],
+    "units": [
+      "m",
+      "b",
+      "f",
+      "k"
+    ],
     "template": "n a _ e",
     "correctAnswer": "name",
     "source": {
@@ -3449,6 +4097,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "I ______ forget my school bag. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "v",
+      "g",
+      "l",
+      "p"
+    ],
     "template": "n e _ e r",
     "correctAnswer": "never",
     "source": {
@@ -3473,6 +4145,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The bird flew ______ the tree. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "t"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "g"
+      },
+      {
+        "id": "D",
+        "label": "v"
+      }
+    ],
+    "units": [
+      "t",
+      "c",
+      "g",
+      "v"
+    ],
     "template": "o _ e r",
     "correctAnswer": "over",
     "source": {
@@ -3497,6 +4193,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Put the books into your ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "c"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "h"
+      }
+    ],
+    "units": [
+      "c",
+      "t",
+      "d",
+      "h"
+    ],
     "template": "p a _ k",
     "correctAnswer": "pack",
     "source": {
@@ -3521,6 +4241,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Put a ______ at the end of the sentence. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "p o _ n t",
     "correctAnswer": "point",
     "source": {
@@ -3545,6 +4289,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "You need regular ______ to improve your spelling. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "p r a c t _ c e",
     "correctAnswer": "practice",
     "source": {
@@ -5138,6 +5906,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "k",
+      "g",
+      "n",
+      "s"
+    ],
     "template": "a n _ e l",
     "correctAnswer": "angel",
     "source": {
@@ -5162,6 +5954,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "n"
+      },
+      {
+        "id": "C",
+        "label": "k"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "f",
+      "n",
+      "k",
+      "p"
+    ],
     "template": "b a _ k",
     "correctAnswer": "bank",
     "source": {
@@ -5186,6 +6002,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The long wait was ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "b o r _ n g",
     "correctAnswer": "boring",
     "source": {
@@ -5210,6 +6050,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Turn the ______ to move the machine. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "i",
+      "a"
+    ],
     "template": "c r _ n k",
     "correctAnswer": "crank",
     "source": {
@@ -5234,6 +6098,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a road ______ to get safely to the other side. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "o",
+      "a",
+      "u"
+    ],
     "template": "c r _ s s",
     "correctAnswer": "cross",
     "source": {
@@ -5258,6 +6146,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Do not ______ the paper. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "u"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "e",
+      "u",
+      "a",
+      "o"
+    ],
     "template": "c r _ s h",
     "correctAnswer": "crush",
     "source": {
@@ -5282,6 +6194,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "It is ______ outside at night. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "k"
+      },
+      {
+        "id": "B",
+        "label": "r"
+      },
+      {
+        "id": "C",
+        "label": "w"
+      },
+      {
+        "id": "D",
+        "label": "d"
+      }
+    ],
+    "units": [
+      "k",
+      "r",
+      "w",
+      "d"
+    ],
     "template": "d a r _",
     "correctAnswer": "dark",
     "source": {
@@ -5306,6 +6242,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a spade to ______ the soil. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "d _ g",
     "correctAnswer": "dig",
     "source": {
@@ -5330,6 +6290,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The ______ is a gentle bird. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "v"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "v",
+      "d",
+      "h",
+      "m"
+    ],
     "template": "d o _ e",
     "correctAnswer": "dove",
     "source": {
@@ -5354,6 +6338,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a ______ to make holes. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "d r _ l l",
     "correctAnswer": "drill",
     "source": {
@@ -5378,6 +6386,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The child felt ______ when he saw the dark room. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "a"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "a",
+      "e",
+      "u",
+      "o"
+    ],
     "template": "f e _ r",
     "correctAnswer": "fear",
     "source": {
@@ -5402,6 +6434,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The boat can ______ on the water. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "o",
+      "a"
+    ],
     "template": "f l _ a t",
     "correctAnswer": "float",
     "source": {
@@ -5426,6 +6482,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A small group of trees is called a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "h"
+      },
+      {
+        "id": "B",
+        "label": "v"
+      },
+      {
+        "id": "C",
+        "label": "m"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "h",
+      "v",
+      "m",
+      "r"
+    ],
     "template": "g r o _ e",
     "correctAnswer": "grove",
     "source": {
@@ -5450,6 +6530,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The dry outer covering of some grains is called a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "c"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      }
+    ],
+    "units": [
+      "c",
+      "g",
+      "l",
+      "s"
+    ],
     "template": "h u _ k",
     "correctAnswer": "husk",
     "source": {
@@ -5474,6 +6578,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The ducks are swimming in the ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "k"
+      }
+    ],
+    "units": [
+      "f",
+      "l",
+      "p",
+      "k"
+    ],
     "template": "l a _ e",
     "correctAnswer": "lake",
     "source": {
@@ -6463,6 +7591,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "There is a ______ in the wall. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "i",
+      "a"
+    ],
     "template": "c r _ c k",
     "correctAnswer": "crack",
     "source": {
@@ -6488,6 +7640,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The well is very ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "e",
+      "a"
+    ],
     "template": "d e _ p",
     "correctAnswer": "deep",
     "source": {
@@ -6513,6 +7689,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "d r _ n k",
     "correctAnswer": "drink",
     "source": {
@@ -6538,6 +7738,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "You can choose ______ you like.",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "a n y t h _ n g",
     "correctAnswer": "anything",
     "source": {
@@ -6639,6 +7863,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "crossing"
+      },
+      {
+        "id": "B",
+        "label": "lever"
+      },
+      {
+        "id": "C",
+        "label": "screamed"
+      },
+      {
+        "id": "D",
+        "label": "aval"
+      }
+    ],
     "correctAnswer": "aval",
     "source": {
       "workbook": "English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx",

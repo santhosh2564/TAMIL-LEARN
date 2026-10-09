@@ -364,14 +364,20 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
       />
     );
 
-    const input = container.querySelector('input')!;
-    expect(input).toBeDefined();
-
-    // Type wrong answer
-    fireEvent.change(input, { target: { value: 'incorrectword' } });
-    const checkBtn = screen.getByRole('button', { name: /Check Answer|சரிபார்க்கவும்/i });
-    fireEvent.click(checkBtn);
-    expect(submittedVal).toBe('incorrectword');
+    const input = container.querySelector('input');
+    if (input) {
+      fireEvent.change(input, { target: { value: 'incorrectword' } });
+      const checkBtn = screen.getByRole('button', { name: /Check Answer|சரிபார்க்கவும்/i });
+      fireEvent.click(checkBtn);
+      expect(submittedVal).toBe('incorrectword');
+    } else {
+      const wrongOpt = e01Act.options?.find(o => o.label.toLowerCase() !== getAnswerString(e01Act.correctAnswer).toLowerCase());
+      const optBtn = screen.getByRole('button', { name: wrongOpt?.label || '' });
+      fireEvent.click(optBtn);
+      const checkBtn = screen.getByRole('button', { name: /Check Answer|சரிபார்க்கவும்/i });
+      fireEvent.click(checkBtn);
+      expect(submittedVal).toBe(wrongOpt?.id);
+    }
 
     // Simulate evaluator returning incorrect -> status becomes active with attempts: 1
     rerender(

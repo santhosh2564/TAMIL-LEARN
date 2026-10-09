@@ -201,6 +201,80 @@ function parseOptionsOrUnits(
   return { template: trimmed };
 }
 
+const VOWELS = ['a', 'e', 'i', 'o', 'u'];
+const CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w'];
+
+function extractMissingLetter(template?: string, targetWord?: string, answer?: string): string {
+  const cleanedTemplate = (template || '').replace(/[|\s]/g, '');
+  const cleanedTarget = (targetWord || answer || '').replace(/\s+/g, '');
+  let missing = '';
+  for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
+    if (cleanedTemplate[i] === '_') {
+      missing += cleanedTarget[i];
+    }
+  }
+  return missing.toLowerCase() || (answer || '').toLowerCase();
+}
+
+function generateLetterDistractors(letter: string, seedStr: string): string[] {
+  const isVowel = VOWELS.includes(letter);
+  const pool = isVowel ? VOWELS.filter(v => v !== letter) : CONSONANTS.filter(c => c !== letter);
+  let hash = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
+  }
+  const picked: string[] = [];
+  for (let i = 0; i < pool.length && picked.length < 3; i++) {
+    const idx = (hash + i * 3) % pool.length;
+    const candidate = pool[idx];
+    if (!picked.includes(candidate)) {
+      picked.push(candidate);
+    }
+  }
+  let i = 0;
+  while (picked.length < 3 && i < pool.length) {
+    if (!picked.includes(pool[i])) picked.push(pool[i]);
+    i++;
+  }
+  return picked;
+}
+
+function generateWordDistractors(targetWord: string, pool: string[], seedStr: string): string[] {
+  const filtered = pool.filter(w => w.toLowerCase() !== targetWord.toLowerCase());
+  let hash = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
+  }
+  const picked: string[] = [];
+  for (let i = 0; i < filtered.length && picked.length < 3; i++) {
+    const idx = (hash + i * 7) % filtered.length;
+    const candidate = filtered[idx];
+    if (!picked.includes(candidate)) {
+      picked.push(candidate);
+    }
+  }
+  let i = 0;
+  while (picked.length < 3 && i < filtered.length) {
+    if (!picked.includes(filtered[i])) picked.push(filtered[i]);
+    i++;
+  }
+  return picked;
+}
+
+function createActivityOptions(correctLabel: string, distractors: string[], seedStr: string): ActivityOption[] {
+  let hash = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
+  }
+  const pos = hash % 4;
+  const labels = [...distractors];
+  labels.splice(pos, 0, correctLabel);
+  return labels.map((label, idx) => ({
+    id: String.fromCharCode(65 + idx),
+    label
+  }));
+}
+
 const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; alt: string }> = {
   'fruit': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Fruit — பழம்' },
   'bag': { tamilAssetId: 'class3-tamil-picture-q104', path: '/assets/class-3/tamil/term-1/images/Q104_Pai.jpg', alt: 'Bag — பை' },
@@ -298,18 +372,29 @@ export interface IngestedEnglishContent {
 export function importEnglishContent(): IngestedEnglishContent {
   console.log('Starting Class 3 English content ingestion...');
 
-  // Step 1: Pre-scan to map each EW ID to its origin module
+  // Step 1: Pre-scan to map each EW ID to its origin module and build module vocabulary pools
   const wordOriginModuleMap = new Map<string, number>();
+  const moduleWordMap = new Map<number, string[]>();
+  const allEnglishWords: string[] = [];
 
   MODULE_CONFIGS.forEach(cfg => {
     const filePath = path.join(ENG_SOURCE_DIR, cfg.filename);
     const rows = readSheet(filePath, cfg.newWordsSheet);
+    const wordsInMod: string[] = [];
     rows.forEach(r => {
       const id = String(r['ID'] || r['EW ID'] || '').trim();
+      const word = String(r['Target Word'] || '').trim().toLowerCase();
       if (id) {
         wordOriginModuleMap.set(id, cfg.module);
       }
+      if (word && !wordsInMod.includes(word)) {
+        wordsInMod.push(word);
+        if (!allEnglishWords.includes(word)) {
+          allEnglishWords.push(word);
+        }
+      }
     });
+    moduleWordMap.set(cfg.module, wordsInMod);
   });
 
   console.log(`Pre-scanned ${wordOriginModuleMap.size} unique new words across 8 modules.`);
@@ -389,6 +474,22 @@ export function importEnglishContent(): IngestedEnglishContent {
       const runtimeId = `ENG-M${cfg.module}-${ewId}`;
       const isAnomaly = ewId in SOURCE_ANOMALIES;
 
+      let options = parsed.options;
+      let units = parsed.units;
+
+      if (!options || options.length === 0) {
+        if (category === 'word-completion') {
+          const missing = extractMissingLetter(parsed.template, targetWord, correctAnswer);
+          const distractors = generateLetterDistractors(missing, runtimeId);
+          options = createActivityOptions(missing, distractors, runtimeId);
+          units = options.map(o => o.label);
+        } else if (category === 'picture-recognition' || category === 'meaning-match') {
+          const modPool = moduleWordMap.get(cfg.module) || allEnglishWords;
+          const distractors = generateWordDistractors(targetWord, modPool.length >= 4 ? modPool : allEnglishWords, runtimeId);
+          options = createActivityOptions(targetWord, distractors, runtimeId);
+        }
+      }
+
       const activity: Activity = {
         id: runtimeId,
         classLevel: 3,
@@ -403,8 +504,8 @@ export function importEnglishContent(): IngestedEnglishContent {
         category,
         variant,
         prompt,
-        options: parsed.options,
-        units: parsed.units,
+        options,
+        units,
         template: parsed.template,
         correctAnswer,
         source: {
@@ -461,6 +562,22 @@ export function importEnglishContent(): IngestedEnglishContent {
       const originModule = wordOriginModuleMap.get(ewId);
       const isAnomaly = ewId in SOURCE_ANOMALIES;
 
+      let options = parsed.options;
+      let units = parsed.units;
+
+      if (!options || options.length === 0) {
+        if (category === 'word-completion') {
+          const missing = extractMissingLetter(parsed.template, targetWord, correctAnswer);
+          const distractors = generateLetterDistractors(missing, runtimeId);
+          options = createActivityOptions(missing, distractors, runtimeId);
+          units = options.map(o => o.label);
+        } else if (category === 'picture-recognition' || category === 'meaning-match') {
+          const modPool = moduleWordMap.get(cfg.module) || allEnglishWords;
+          const distractors = generateWordDistractors(targetWord, modPool.length >= 4 ? modPool : allEnglishWords, runtimeId);
+          options = createActivityOptions(targetWord, distractors, runtimeId);
+        }
+      }
+
       const activity: Activity = {
         id: runtimeId,
         classLevel: 3,
@@ -476,8 +593,8 @@ export function importEnglishContent(): IngestedEnglishContent {
         category,
         variant,
         prompt,
-        options: parsed.options,
-        units: parsed.units,
+        options,
+        units,
         template: parsed.template,
         correctAnswer,
         source: {

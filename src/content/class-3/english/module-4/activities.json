@@ -13,6 +13,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "This means drawing, painting or making something beautiful.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jar"
+      },
+      {
+        "id": "B",
+        "label": "lip"
+      },
+      {
+        "id": "C",
+        "label": "desk"
+      },
+      {
+        "id": "D",
+        "label": "art"
+      }
+    ],
     "template": "_ _ _",
     "correctAnswer": "art",
     "source": {
@@ -37,6 +55,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "This is a short word for a car.",
+    "options": [
+      {
+        "id": "A",
+        "label": "skin"
+      },
+      {
+        "id": "B",
+        "label": "auto"
+      },
+      {
+        "id": "C",
+        "label": "flower"
+      },
+      {
+        "id": "D",
+        "label": "mango"
+      }
+    ],
     "template": "_ _ _ _",
     "correctAnswer": "auto",
     "source": {
@@ -61,6 +97,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "This means a feeling of great happiness. Write the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "auto"
+      },
+      {
+        "id": "B",
+        "label": "boy"
+      },
+      {
+        "id": "C",
+        "label": "joy"
+      },
+      {
+        "id": "D",
+        "label": "cow"
+      }
+    ],
     "template": "______",
     "correctAnswer": "joy",
     "source": {
@@ -85,6 +139,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "This is the flesh of an animal that people may eat as food. Write the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "saree"
+      },
+      {
+        "id": "B",
+        "label": "towel"
+      },
+      {
+        "id": "C",
+        "label": "few"
+      },
+      {
+        "id": "D",
+        "label": "meat"
+      }
+    ],
     "template": "______",
     "correctAnswer": "meat",
     "source": {
@@ -109,6 +181,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "he"
+      },
+      {
+        "id": "B",
+        "label": "kid"
+      },
+      {
+        "id": "C",
+        "label": "barn"
+      },
+      {
+        "id": "D",
+        "label": "ant"
+      }
+    ],
     "correctAnswer": "ant",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -132,6 +222,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "violet"
+      },
+      {
+        "id": "B",
+        "label": "hat"
+      },
+      {
+        "id": "C",
+        "label": "bag"
+      },
+      {
+        "id": "D",
+        "label": "anything"
+      }
+    ],
     "correctAnswer": "bag",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -155,6 +263,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "finger"
+      },
+      {
+        "id": "B",
+        "label": "auto"
+      },
+      {
+        "id": "C",
+        "label": "boy"
+      },
+      {
+        "id": "D",
+        "label": "bat"
+      }
+    ],
     "correctAnswer": "bat",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -178,6 +304,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "joy"
+      },
+      {
+        "id": "B",
+        "label": "bun"
+      },
+      {
+        "id": "C",
+        "label": "cup"
+      },
+      {
+        "id": "D",
+        "label": "bed"
+      }
+    ],
     "correctAnswer": "bed",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -201,6 +345,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "seat"
+      },
+      {
+        "id": "B",
+        "label": "bat"
+      },
+      {
+        "id": "C",
+        "label": "cop"
+      },
+      {
+        "id": "D",
+        "label": "box"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "box",
     "source": {
@@ -225,6 +387,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "boy"
+      },
+      {
+        "id": "B",
+        "label": "art"
+      },
+      {
+        "id": "C",
+        "label": "bed"
+      },
+      {
+        "id": "D",
+        "label": "cot"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "boy",
     "source": {
@@ -249,6 +429,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "art"
+      },
+      {
+        "id": "B",
+        "label": "bed"
+      },
+      {
+        "id": "C",
+        "label": "bun"
+      },
+      {
+        "id": "D",
+        "label": "cot"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "bun",
     "source": {
@@ -273,6 +471,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "meat"
+      },
+      {
+        "id": "B",
+        "label": "bus"
+      },
+      {
+        "id": "C",
+        "label": "bun"
+      },
+      {
+        "id": "D",
+        "label": "dad"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "bus",
     "source": {
@@ -297,6 +513,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "leg"
+      },
+      {
+        "id": "B",
+        "label": "car"
+      },
+      {
+        "id": "C",
+        "label": "corn"
+      },
+      {
+        "id": "D",
+        "label": "horn"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "car",
     "source": {
@@ -321,6 +555,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "gaur"
+      },
+      {
+        "id": "B",
+        "label": "cat"
+      },
+      {
+        "id": "C",
+        "label": "mixie"
+      },
+      {
+        "id": "D",
+        "label": "shorts"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "cat",
     "source": {
@@ -345,6 +597,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "rabbit"
+      },
+      {
+        "id": "B",
+        "label": "tomato"
+      },
+      {
+        "id": "C",
+        "label": "drink"
+      },
+      {
+        "id": "D",
+        "label": "cop"
+      }
+    ],
     "correctAnswer": "cop",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -368,6 +638,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "anything"
+      },
+      {
+        "id": "B",
+        "label": "ash gourd"
+      },
+      {
+        "id": "C",
+        "label": "feathers"
+      },
+      {
+        "id": "D",
+        "label": "cot"
+      }
+    ],
     "correctAnswer": "cot",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -391,6 +679,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "scarf"
+      },
+      {
+        "id": "B",
+        "label": "cow"
+      },
+      {
+        "id": "C",
+        "label": "black gram"
+      },
+      {
+        "id": "D",
+        "label": "fingers"
+      }
+    ],
     "correctAnswer": "cow",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -414,6 +720,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bean"
+      },
+      {
+        "id": "B",
+        "label": "cup"
+      },
+      {
+        "id": "C",
+        "label": "gun"
+      },
+      {
+        "id": "D",
+        "label": "skin"
+      }
+    ],
     "correctAnswer": "cup",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -437,6 +761,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is your male parent. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dad"
+      },
+      {
+        "id": "B",
+        "label": "gun"
+      },
+      {
+        "id": "C",
+        "label": "skin"
+      },
+      {
+        "id": "D",
+        "label": "flower"
+      }
+    ],
     "correctAnswer": "dad",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -460,6 +802,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "beak"
+      },
+      {
+        "id": "B",
+        "label": "fur"
+      },
+      {
+        "id": "C",
+        "label": "den"
+      },
+      {
+        "id": "D",
+        "label": "sink"
+      }
+    ],
     "template": "Picture of an animal den",
     "correctAnswer": "den",
     "source": {
@@ -484,6 +844,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dog"
+      },
+      {
+        "id": "B",
+        "label": "socks"
+      },
+      {
+        "id": "C",
+        "label": "wings"
+      },
+      {
+        "id": "D",
+        "label": "jump"
+      }
+    ],
     "template": "Picture of a dog",
     "correctAnswer": "dog",
     "source": {
@@ -508,6 +886,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ear"
+      },
+      {
+        "id": "B",
+        "label": "desk"
+      },
+      {
+        "id": "C",
+        "label": "leaf"
+      },
+      {
+        "id": "D",
+        "label": "tool"
+      }
+    ],
     "template": "Picture of an ear",
     "correctAnswer": "ear",
     "source": {
@@ -532,6 +928,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ash gourd"
+      },
+      {
+        "id": "B",
+        "label": "feathers"
+      },
+      {
+        "id": "C",
+        "label": "fan"
+      },
+      {
+        "id": "D",
+        "label": "art"
+      }
+    ],
     "template": "Picture of a fan",
     "correctAnswer": "fan",
     "source": {
@@ -556,6 +970,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "fig"
+      },
+      {
+        "id": "B",
+        "label": "ham"
+      },
+      {
+        "id": "C",
+        "label": "jug"
+      },
+      {
+        "id": "D",
+        "label": "map"
+      }
+    ],
     "template": "Picture of a fig",
     "correctAnswer": "fig",
     "source": {
@@ -580,6 +1012,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ship"
+      },
+      {
+        "id": "B",
+        "label": "aval"
+      },
+      {
+        "id": "C",
+        "label": "legs"
+      },
+      {
+        "id": "D",
+        "label": "fox"
+      }
+    ],
     "template": "Picture of a fox",
     "correctAnswer": "fox",
     "source": {
@@ -604,6 +1054,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ham"
+      },
+      {
+        "id": "B",
+        "label": "hat"
+      },
+      {
+        "id": "C",
+        "label": "anything"
+      },
+      {
+        "id": "D",
+        "label": "ash gourd"
+      }
+    ],
     "template": "Picture of ham",
     "correctAnswer": "ham",
     "source": {
@@ -628,6 +1096,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Choose the word for the male person.",
+    "options": [
+      {
+        "id": "A",
+        "label": "he"
+      },
+      {
+        "id": "B",
+        "label": "ant"
+      },
+      {
+        "id": "C",
+        "label": "bus"
+      },
+      {
+        "id": "D",
+        "label": "dad"
+      }
+    ],
     "template": "Picture of a boy/man",
     "correctAnswer": "he",
     "source": {
@@ -652,6 +1138,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "tool"
+      },
+      {
+        "id": "B",
+        "label": "hen"
+      },
+      {
+        "id": "C",
+        "label": "ginger"
+      },
+      {
+        "id": "D",
+        "label": "paws"
+      }
+    ],
     "template": "Picture of a hen",
     "correctAnswer": "hen",
     "source": {
@@ -676,6 +1180,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the action word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "hop"
+      },
+      {
+        "id": "B",
+        "label": "he"
+      },
+      {
+        "id": "C",
+        "label": "kit"
+      },
+      {
+        "id": "D",
+        "label": "beak"
+      }
+    ],
     "template": "Picture of a child hopping",
     "correctAnswer": "hop",
     "source": {
@@ -700,6 +1222,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jam"
+      },
+      {
+        "id": "B",
+        "label": "nest"
+      },
+      {
+        "id": "C",
+        "label": "snack"
+      },
+      {
+        "id": "D",
+        "label": "cashew"
+      }
+    ],
     "template": "Picture of a jar of jam",
     "correctAnswer": "jam",
     "source": {
@@ -724,6 +1264,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cereals"
+      },
+      {
+        "id": "B",
+        "label": "jar"
+      },
+      {
+        "id": "C",
+        "label": "toe"
+      },
+      {
+        "id": "D",
+        "label": "curry leaves"
+      }
+    ],
     "template": "Picture of a jar",
     "correctAnswer": "jar",
     "source": {
@@ -748,6 +1306,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dew"
+      },
+      {
+        "id": "B",
+        "label": "wood"
+      },
+      {
+        "id": "C",
+        "label": "jet"
+      },
+      {
+        "id": "D",
+        "label": "derry"
+      }
+    ],
     "template": "Picture of a jet",
     "correctAnswer": "jet",
     "source": {
@@ -772,6 +1348,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jug"
+      },
+      {
+        "id": "B",
+        "label": "meat"
+      },
+      {
+        "id": "C",
+        "label": "bun"
+      },
+      {
+        "id": "D",
+        "label": "cup"
+      }
+    ],
     "template": "Picture of a jug",
     "correctAnswer": "jug",
     "source": {
@@ -796,6 +1390,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jug"
+      },
+      {
+        "id": "B",
+        "label": "kid"
+      },
+      {
+        "id": "C",
+        "label": "barn"
+      },
+      {
+        "id": "D",
+        "label": "fork"
+      }
+    ],
     "template": "Picture of a young goat",
     "correctAnswer": "kid",
     "source": {
@@ -820,6 +1432,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "kid"
+      },
+      {
+        "id": "B",
+        "label": "beak"
+      },
+      {
+        "id": "C",
+        "label": "kit"
+      },
+      {
+        "id": "D",
+        "label": "fur"
+      }
+    ],
     "template": "Picture of a kit/set of tools",
     "correctAnswer": "kit",
     "source": {
@@ -844,6 +1474,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lap"
+      },
+      {
+        "id": "B",
+        "label": "gaur"
+      },
+      {
+        "id": "C",
+        "label": "mixie"
+      },
+      {
+        "id": "D",
+        "label": "shorts"
+      }
+    ],
     "template": "Picture of a child sitting with a book on their lap",
     "correctAnswer": "lap",
     "source": {
@@ -868,6 +1516,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jump"
+      },
+      {
+        "id": "B",
+        "label": "leg"
+      },
+      {
+        "id": "C",
+        "label": "animals"
+      },
+      {
+        "id": "D",
+        "label": "bengal gram"
+      }
+    ],
     "template": "Picture showing a leg",
     "correctAnswer": "leg",
     "source": {
@@ -892,6 +1558,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lip"
+      },
+      {
+        "id": "B",
+        "label": "box"
+      },
+      {
+        "id": "C",
+        "label": "cot"
+      },
+      {
+        "id": "D",
+        "label": "fan"
+      }
+    ],
     "template": "Picture showing a lip",
     "correctAnswer": "lip",
     "source": {
@@ -916,6 +1600,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "man"
+      },
+      {
+        "id": "B",
+        "label": "lemon"
+      },
+      {
+        "id": "C",
+        "label": "saree"
+      },
+      {
+        "id": "D",
+        "label": "towel"
+      }
+    ],
     "template": "Picture of a man",
     "correctAnswer": "man",
     "source": {
@@ -940,6 +1642,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "mixie"
+      },
+      {
+        "id": "B",
+        "label": "shorts"
+      },
+      {
+        "id": "C",
+        "label": "map"
+      },
+      {
+        "id": "D",
+        "label": "violet"
+      }
+    ],
     "template": "Picture of a map",
     "correctAnswer": "map",
     "source": {
@@ -964,6 +1684,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is a building where farm animals are kept. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "barn"
+      },
+      {
+        "id": "B",
+        "label": "cap"
+      },
+      {
+        "id": "C",
+        "label": "meal"
+      },
+      {
+        "id": "D",
+        "label": "anjaraipetti"
+      }
+    ],
     "correctAnswer": "barn",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -987,6 +1725,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "gem"
+      },
+      {
+        "id": "B",
+        "label": "ant"
+      },
+      {
+        "id": "C",
+        "label": "beak"
+      },
+      {
+        "id": "D",
+        "label": "bus"
+      }
+    ],
     "correctAnswer": "beak",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -1010,6 +1766,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "rest"
+      },
+      {
+        "id": "B",
+        "label": "bag"
+      },
+      {
+        "id": "C",
+        "label": "car"
+      },
+      {
+        "id": "D",
+        "label": "bean"
+      }
+    ],
     "correctAnswer": "bean",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -1033,6 +1807,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "meal"
+      },
+      {
+        "id": "B",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "C",
+        "label": "corn"
+      },
+      {
+        "id": "D",
+        "label": "dhoti"
+      }
+    ],
     "correctAnswer": "corn",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -1056,6 +1848,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "drum"
+      },
+      {
+        "id": "B",
+        "label": "lift"
+      },
+      {
+        "id": "C",
+        "label": "desk"
+      },
+      {
+        "id": "D",
+        "label": "town"
+      }
+    ],
     "template": "Picture of a desk",
     "correctAnswer": "desk",
     "source": {
@@ -1080,6 +1890,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cop"
+      },
+      {
+        "id": "B",
+        "label": "ear"
+      },
+      {
+        "id": "C",
+        "label": "hop"
+      },
+      {
+        "id": "D",
+        "label": "drum"
+      }
+    ],
     "template": "Picture of a drum",
     "correctAnswer": "drum",
     "source": {
@@ -1104,6 +1932,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. These help a fish move through water. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "horn"
+      },
+      {
+        "id": "B",
+        "label": "fins"
+      },
+      {
+        "id": "C",
+        "label": "sofa"
+      },
+      {
+        "id": "D",
+        "label": "gaur"
+      }
+    ],
     "template": "Picture of fish fins",
     "correctAnswer": "fins",
     "source": {
@@ -1128,6 +1974,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lift"
+      },
+      {
+        "id": "B",
+        "label": "fork"
+      },
+      {
+        "id": "C",
+        "label": "town"
+      },
+      {
+        "id": "D",
+        "label": "hands"
+      }
+    ],
     "template": "Picture of a fork",
     "correctAnswer": "fork",
     "source": {
@@ -1152,6 +2016,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This soft covering keeps some animals warm. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "fur"
+      },
+      {
+        "id": "B",
+        "label": "towel"
+      },
+      {
+        "id": "C",
+        "label": "few"
+      },
+      {
+        "id": "D",
+        "label": "dew"
+      }
+    ],
     "template": "Picture of animal fur",
     "correctAnswer": "fur",
     "source": {
@@ -1176,6 +2058,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "few"
+      },
+      {
+        "id": "B",
+        "label": "dew"
+      },
+      {
+        "id": "C",
+        "label": "gun"
+      },
+      {
+        "id": "D",
+        "label": "wood"
+      }
+    ],
     "template": "Picture of a gun",
     "correctAnswer": "gun",
     "source": {
@@ -1200,6 +2100,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "hop"
+      },
+      {
+        "id": "B",
+        "label": "lap"
+      },
+      {
+        "id": "C",
+        "label": "horn"
+      },
+      {
+        "id": "D",
+        "label": "bean"
+      }
+    ],
     "template": "Picture of a horn",
     "correctAnswer": "horn",
     "source": {
@@ -1224,6 +2142,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "leaf"
+      },
+      {
+        "id": "B",
+        "label": "legs"
+      },
+      {
+        "id": "C",
+        "label": "rabbit"
+      },
+      {
+        "id": "D",
+        "label": "tomato"
+      }
+    ],
     "template": "Picture of a leaf",
     "correctAnswer": "leaf",
     "source": {
@@ -1248,6 +2184,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the action word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "scarf"
+      },
+      {
+        "id": "B",
+        "label": "lift"
+      },
+      {
+        "id": "C",
+        "label": "black gram"
+      },
+      {
+        "id": "D",
+        "label": "fingers"
+      }
+    ],
     "template": "Picture of a child lifting a box",
     "correctAnswer": "lift",
     "source": {
@@ -1272,6 +2226,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "thank you"
+      },
+      {
+        "id": "B",
+        "label": "ring"
+      },
+      {
+        "id": "C",
+        "label": "deep"
+      },
+      {
+        "id": "D",
+        "label": "nest"
+      }
+    ],
     "template": "Picture of a ring.",
     "correctAnswer": "ring",
     "source": {
@@ -1296,6 +2268,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "brinjal"
+      },
+      {
+        "id": "B",
+        "label": "lemon"
+      },
+      {
+        "id": "C",
+        "label": "saree"
+      },
+      {
+        "id": "D",
+        "label": "ship"
+      }
+    ],
     "template": "Picture of a ship.",
     "correctAnswer": "ship",
     "source": {
@@ -1320,6 +2310,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "sink"
+      },
+      {
+        "id": "B",
+        "label": "meat"
+      },
+      {
+        "id": "C",
+        "label": "bun"
+      },
+      {
+        "id": "D",
+        "label": "cup"
+      }
+    ],
     "template": "Picture of a kitchen sink.",
     "correctAnswer": "sink",
     "source": {
@@ -1344,6 +2352,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word for the part covering the person's hand or arm.",
+    "options": [
+      {
+        "id": "A",
+        "label": "skin"
+      },
+      {
+        "id": "B",
+        "label": "hen"
+      },
+      {
+        "id": "C",
+        "label": "kit"
+      },
+      {
+        "id": "D",
+        "label": "beak"
+      }
+    ],
     "template": "Picture clearly showing a close-up of visible skin on a hand or arm, with the skin itself clearly emphasized.",
     "correctAnswer": "skin",
     "source": {
@@ -1368,6 +2394,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cap"
+      },
+      {
+        "id": "B",
+        "label": "meal"
+      },
+      {
+        "id": "C",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "D",
+        "label": "sofa"
+      }
+    ],
     "template": "Picture of a sofa.",
     "correctAnswer": "sofa",
     "source": {
@@ -1392,6 +2436,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cop"
+      },
+      {
+        "id": "B",
+        "label": "ear"
+      },
+      {
+        "id": "C",
+        "label": "tool"
+      },
+      {
+        "id": "D",
+        "label": "hop"
+      }
+    ],
     "template": "Picture clearly showing a hand tool used for simple work.",
     "correctAnswer": "tool",
     "source": {
@@ -1416,6 +2478,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dad"
+      },
+      {
+        "id": "B",
+        "label": "ham"
+      },
+      {
+        "id": "C",
+        "label": "town"
+      },
+      {
+        "id": "D",
+        "label": "jug"
+      }
+    ],
     "template": "Picture showing a small town with houses, roads and buildings.",
     "correctAnswer": "town",
     "source": {
@@ -1440,6 +2520,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Choose the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "fur"
+      },
+      {
+        "id": "B",
+        "label": "wing"
+      },
+      {
+        "id": "C",
+        "label": "sink"
+      },
+      {
+        "id": "D",
+        "label": "flower"
+      }
+    ],
     "template": "wing / ring / king",
     "correctAnswer": "wing",
     "source": {
@@ -1464,6 +2562,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "skin"
+      },
+      {
+        "id": "B",
+        "label": "gaur"
+      },
+      {
+        "id": "C",
+        "label": "aval"
+      },
+      {
+        "id": "D",
+        "label": "mixie"
+      }
+    ],
     "correctAnswer": "aval",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -1524,6 +2640,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is the colourful part of a plant. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "den"
+      },
+      {
+        "id": "B",
+        "label": "flower"
+      },
+      {
+        "id": "C",
+        "label": "he"
+      },
+      {
+        "id": "D",
+        "label": "kid"
+      }
+    ],
     "template": "Picture of a flower",
     "correctAnswer": "flower",
     "source": {
@@ -1548,6 +2682,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is a large wild animal found in forests. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "curry leaves"
+      },
+      {
+        "id": "B",
+        "label": "gem"
+      },
+      {
+        "id": "C",
+        "label": "ant"
+      },
+      {
+        "id": "D",
+        "label": "gaur"
+      }
+    ],
     "template": "Picture of a gaur",
     "correctAnswer": "gaur",
     "source": {
@@ -1572,6 +2724,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is a root used as a spice in cooking. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "gem"
+      },
+      {
+        "id": "B",
+        "label": "ant"
+      },
+      {
+        "id": "C",
+        "label": "ginger"
+      },
+      {
+        "id": "D",
+        "label": "bus"
+      }
+    ],
     "template": "Picture of ginger",
     "correctAnswer": "ginger",
     "source": {
@@ -1596,6 +2766,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word for these body parts.",
+    "options": [
+      {
+        "id": "A",
+        "label": "gem"
+      },
+      {
+        "id": "B",
+        "label": "hands"
+      },
+      {
+        "id": "C",
+        "label": "ant"
+      },
+      {
+        "id": "D",
+        "label": "bus"
+      }
+    ],
     "template": "Picture of hands",
     "correctAnswer": "hands",
     "source": {
@@ -1620,6 +2808,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the name of these sweets.",
+    "options": [
+      {
+        "id": "A",
+        "label": "man"
+      },
+      {
+        "id": "B",
+        "label": "drum"
+      },
+      {
+        "id": "C",
+        "label": "lift"
+      },
+      {
+        "id": "D",
+        "label": "laddus"
+      }
+    ],
     "template": "Picture of laddus",
     "correctAnswer": "laddus",
     "source": {
@@ -1644,6 +2850,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word for these body parts.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lunch"
+      },
+      {
+        "id": "B",
+        "label": "scarf"
+      },
+      {
+        "id": "C",
+        "label": "legs"
+      },
+      {
+        "id": "D",
+        "label": "black gram"
+      }
+    ],
     "template": "Picture showing two legs",
     "correctAnswer": "legs",
     "source": {
@@ -1668,6 +2892,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the name of this fruit.",
+    "options": [
+      {
+        "id": "A",
+        "label": "nest"
+      },
+      {
+        "id": "B",
+        "label": "snack"
+      },
+      {
+        "id": "C",
+        "label": "cashew"
+      },
+      {
+        "id": "D",
+        "label": "lemon"
+      }
+    ],
     "template": "Picture of a lemon",
     "correctAnswer": "lemon",
     "source": {
@@ -1692,6 +2934,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the name of this fruit.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lemon"
+      },
+      {
+        "id": "B",
+        "label": "mango"
+      },
+      {
+        "id": "C",
+        "label": "seeds"
+      },
+      {
+        "id": "D",
+        "label": "veena"
+      }
+    ],
     "template": "Picture of a mango",
     "correctAnswer": "mango",
     "source": {
@@ -2193,6 +3453,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the name of the musical instrument.",
+    "options": [
+      {
+        "id": "A",
+        "label": "paws"
+      },
+      {
+        "id": "B",
+        "label": "socks"
+      },
+      {
+        "id": "C",
+        "label": "veena"
+      },
+      {
+        "id": "D",
+        "label": "crack"
+      }
+    ],
     "correctAnswer": "veena",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -2216,6 +3494,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the name of the colour.",
+    "options": [
+      {
+        "id": "A",
+        "label": "saree"
+      },
+      {
+        "id": "B",
+        "label": "towel"
+      },
+      {
+        "id": "C",
+        "label": "violet"
+      },
+      {
+        "id": "D",
+        "label": "cap"
+      }
+    ],
     "correctAnswer": "violet",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -2239,6 +3535,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word for the parts birds use to fly.",
+    "options": [
+      {
+        "id": "A",
+        "label": "gun"
+      },
+      {
+        "id": "B",
+        "label": "skin"
+      },
+      {
+        "id": "C",
+        "label": "wings"
+      },
+      {
+        "id": "D",
+        "label": "flower"
+      }
+    ],
     "correctAnswer": "wings",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -2262,6 +3576,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "There is a ______ in the wall. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "a",
+      "e"
+    ],
     "template": "c r _ c k",
     "correctAnswer": "crack",
     "source": {
@@ -2286,6 +3624,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The well is very ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "a",
+      "u"
+    ],
     "template": "d e _ p",
     "correctAnswer": "deep",
     "source": {
@@ -2310,6 +3672,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "d r _ n k",
     "correctAnswer": "drink",
     "source": {
@@ -2334,6 +3720,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "Not many means ______. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "few"
+      },
+      {
+        "id": "B",
+        "label": "dog"
+      },
+      {
+        "id": "C",
+        "label": "hen"
+      },
+      {
+        "id": "D",
+        "label": "kit"
+      }
+    ],
     "template": "Meaning clue",
     "correctAnswer": "few",
     "source": {
@@ -2358,6 +3762,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cap"
+      },
+      {
+        "id": "B",
+        "label": "kit"
+      },
+      {
+        "id": "C",
+        "label": "beak"
+      },
+      {
+        "id": "D",
+        "label": "fur"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "cap",
     "source": {
@@ -2382,6 +3804,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "joy"
+      },
+      {
+        "id": "B",
+        "label": "boy"
+      },
+      {
+        "id": "C",
+        "label": "hat"
+      },
+      {
+        "id": "D",
+        "label": "cow"
+      }
+    ],
     "template": "Picture of a hat",
     "correctAnswer": "hat",
     "source": {
@@ -2406,6 +3846,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the action word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bag"
+      },
+      {
+        "id": "B",
+        "label": "car"
+      },
+      {
+        "id": "C",
+        "label": "jump"
+      },
+      {
+        "id": "D",
+        "label": "den"
+      }
+    ],
     "template": "Picture of a child jumping",
     "correctAnswer": "jump",
     "source": {
@@ -2430,6 +3888,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word for this meal.",
+    "options": [
+      {
+        "id": "A",
+        "label": "corn"
+      },
+      {
+        "id": "B",
+        "label": "horn"
+      },
+      {
+        "id": "C",
+        "label": "sofa"
+      },
+      {
+        "id": "D",
+        "label": "lunch"
+      }
+    ],
     "template": "Picture of a lunch meal",
     "correctAnswer": "lunch",
     "source": {
@@ -2454,6 +3930,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "cup"
+      },
+      {
+        "id": "B",
+        "label": "fox"
+      },
+      {
+        "id": "C",
+        "label": "nest"
+      },
+      {
+        "id": "D",
+        "label": "jet"
+      }
+    ],
     "template": "Picture of a bird's nest",
     "correctAnswer": "nest",
     "source": {
@@ -2478,6 +3972,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "These are grains such as rice, wheat and oats that we eat as food. Write the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "legs"
+      },
+      {
+        "id": "B",
+        "label": "rabbit"
+      },
+      {
+        "id": "C",
+        "label": "cereals"
+      },
+      {
+        "id": "D",
+        "label": "tomato"
+      }
+    ],
     "template": "__________________",
     "correctAnswer": "cereals",
     "source": {
@@ -2502,6 +4014,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "Tiny drops of water found on grass in the morning are called ______. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "drum"
+      },
+      {
+        "id": "B",
+        "label": "lift"
+      },
+      {
+        "id": "C",
+        "label": "town"
+      },
+      {
+        "id": "D",
+        "label": "dew"
+      }
+    ],
     "template": "Meaning/context",
     "correctAnswer": "dew",
     "source": {
@@ -2526,6 +4056,24 @@
     "category": "meaning-match",
     "variant": "word-entry",
     "prompt": "This means food eaten at a particular time, such as breakfast or lunch. Write the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "puppy"
+      },
+      {
+        "id": "B",
+        "label": "thank you"
+      },
+      {
+        "id": "C",
+        "label": "meal"
+      },
+      {
+        "id": "D",
+        "label": "deep"
+      }
+    ],
     "template": "______",
     "correctAnswer": "meal",
     "source": {
@@ -2550,6 +4098,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "You can choose ______ you like.",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "a n y t h _ n g",
     "correctAnswer": "anything",
     "source": {
@@ -2574,6 +4146,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "animals"
+      },
+      {
+        "id": "B",
+        "label": "fan"
+      },
+      {
+        "id": "C",
+        "label": "jam"
+      },
+      {
+        "id": "D",
+        "label": "leg"
+      }
+    ],
     "correctAnswer": "animals",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -2597,6 +4187,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "sink"
+      },
+      {
+        "id": "B",
+        "label": "brinjal"
+      },
+      {
+        "id": "C",
+        "label": "lemon"
+      },
+      {
+        "id": "D",
+        "label": "scarf"
+      }
+    ],
     "template": "Picture of a scarf.",
     "correctAnswer": "scarf",
     "source": {
@@ -2621,6 +4229,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "tool"
+      },
+      {
+        "id": "B",
+        "label": "ginger"
+      },
+      {
+        "id": "C",
+        "label": "paws"
+      },
+      {
+        "id": "D",
+        "label": "snack"
+      }
+    ],
     "template": "Picture clearly showing a child eating a small snack.",
     "correctAnswer": "snack",
     "source": {
@@ -2645,6 +4271,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ash gourd"
+      },
+      {
+        "id": "B",
+        "label": "feathers"
+      },
+      {
+        "id": "C",
+        "label": "toe"
+      },
+      {
+        "id": "D",
+        "label": "art"
+      }
+    ],
     "template": "Picture clearly showing a toe on a foot.",
     "correctAnswer": "toe",
     "source": {
@@ -2669,6 +4313,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Choose the correct word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "seeds"
+      },
+      {
+        "id": "B",
+        "label": "veena"
+      },
+      {
+        "id": "C",
+        "label": "wood"
+      },
+      {
+        "id": "D",
+        "label": "cap"
+      }
+    ],
     "template": "wood / wool / food",
     "correctAnswer": "wood",
     "source": {
@@ -2948,6 +4610,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "dhoti"
+      },
+      {
+        "id": "B",
+        "label": "fins"
+      },
+      {
+        "id": "C",
+        "label": "ring"
+      },
+      {
+        "id": "D",
+        "label": "wing"
+      }
+    ],
     "template": "Picture of a dhoti",
     "correctAnswer": "dhoti",
     "source": {
@@ -2972,6 +4652,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. These cover a bird's body. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "finger"
+      },
+      {
+        "id": "B",
+        "label": "auto"
+      },
+      {
+        "id": "C",
+        "label": "feathers"
+      },
+      {
+        "id": "D",
+        "label": "box"
+      }
+    ],
     "template": "Picture of bird feathers",
     "correctAnswer": "feathers",
     "source": {
@@ -2996,6 +4694,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is one part of your hand. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "he"
+      },
+      {
+        "id": "B",
+        "label": "kid"
+      },
+      {
+        "id": "C",
+        "label": "finger"
+      },
+      {
+        "id": "D",
+        "label": "barn"
+      }
+    ],
     "template": "Picture of a finger",
     "correctAnswer": "finger",
     "source": {
@@ -3020,6 +4736,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. These are parts of your hand. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "fingers"
+      },
+      {
+        "id": "B",
+        "label": "fur"
+      },
+      {
+        "id": "C",
+        "label": "sink"
+      },
+      {
+        "id": "D",
+        "label": "brinjal"
+      }
+    ],
     "template": "Picture of fingers",
     "correctAnswer": "fingers",
     "source": {
@@ -3044,6 +4778,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "man"
+      },
+      {
+        "id": "B",
+        "label": "drum"
+      },
+      {
+        "id": "C",
+        "label": "bug"
+      },
+      {
+        "id": "D",
+        "label": "lift"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "bug",
     "source": {
@@ -3068,6 +4820,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "derry"
+      },
+      {
+        "id": "B",
+        "label": "gem"
+      },
+      {
+        "id": "C",
+        "label": "seat"
+      },
+      {
+        "id": "D",
+        "label": "bat"
+      }
+    ],
     "template": "Picture of a gem",
     "correctAnswer": "gem",
     "source": {
@@ -3092,6 +4862,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "ship"
+      },
+      {
+        "id": "B",
+        "label": "aval"
+      },
+      {
+        "id": "C",
+        "label": "legs"
+      },
+      {
+        "id": "D",
+        "label": "rest"
+      }
+    ],
     "template": "Picture showing a child sitting quietly after playing.",
     "correctAnswer": "rest",
     "source": {
@@ -3116,6 +4904,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "violet"
+      },
+      {
+        "id": "B",
+        "label": "seat"
+      },
+      {
+        "id": "C",
+        "label": "hat"
+      },
+      {
+        "id": "D",
+        "label": "anything"
+      }
+    ],
     "template": "Picture of a seat.",
     "correctAnswer": "seat",
     "source": {
@@ -3141,6 +4947,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "lap"
+      },
+      {
+        "id": "B",
+        "label": "bean"
+      },
+      {
+        "id": "C",
+        "label": "gun"
+      },
+      {
+        "id": "D",
+        "label": "apple"
+      }
+    ],
     "correctAnswer": "apple",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -3165,6 +4989,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "flower"
+      },
+      {
+        "id": "B",
+        "label": "mango"
+      },
+      {
+        "id": "C",
+        "label": "seeds"
+      },
+      {
+        "id": "D",
+        "label": "bird"
+      }
+    ],
     "template": "Picture",
     "correctAnswer": "bird",
     "source": {
@@ -3190,6 +5032,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bun"
+      },
+      {
+        "id": "B",
+        "label": "cup"
+      },
+      {
+        "id": "C",
+        "label": "crow"
+      },
+      {
+        "id": "D",
+        "label": "fox"
+      }
+    ],
     "correctAnswer": "crow",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -3214,6 +5074,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "beak"
+      },
+      {
+        "id": "B",
+        "label": "curd"
+      },
+      {
+        "id": "C",
+        "label": "fur"
+      },
+      {
+        "id": "D",
+        "label": "sink"
+      }
+    ],
     "correctAnswer": "curd",
     "source": {
       "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
@@ -3238,6 +5116,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "laddus"
+      },
+      {
+        "id": "B",
+        "label": "puppy"
+      },
+      {
+        "id": "C",
+        "label": "thank you"
+      },
+      {
+        "id": "D",
+        "label": "dish"
+      }
+    ],
     "template": "Picture of a dish",
     "correctAnswer": "dish",
     "source": {
@@ -3263,6 +5159,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "jump"
+      },
+      {
+        "id": "B",
+        "label": "door"
+      },
+      {
+        "id": "C",
+        "label": "animals"
+      },
+      {
+        "id": "D",
+        "label": "bengal gram"
+      }
+    ],
     "template": "Picture of a door",
     "correctAnswer": "door",
     "source": {
@@ -3288,6 +5202,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "duck"
+      },
+      {
+        "id": "B",
+        "label": "box"
+      },
+      {
+        "id": "C",
+        "label": "cot"
+      },
+      {
+        "id": "D",
+        "label": "fan"
+      }
+    ],
     "template": "Picture of a duck",
     "correctAnswer": "duck",
     "source": {
@@ -3313,6 +5245,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "meal"
+      },
+      {
+        "id": "B",
+        "label": "anjaraipetti"
+      },
+      {
+        "id": "C",
+        "label": "farm"
+      },
+      {
+        "id": "D",
+        "label": "dhoti"
+      }
+    ],
     "template": "Picture of a farm",
     "correctAnswer": "farm",
     "source": {
@@ -3338,6 +5288,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "bean"
+      },
+      {
+        "id": "B",
+        "label": "gun"
+      },
+      {
+        "id": "C",
+        "label": "fish"
+      },
+      {
+        "id": "D",
+        "label": "skin"
+      }
+    ],
     "template": "Picture of a fish",
     "correctAnswer": "fish",
     "source": {
@@ -3363,6 +5331,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. This is a young horse. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "foal"
+      },
+      {
+        "id": "B",
+        "label": "box"
+      },
+      {
+        "id": "C",
+        "label": "cot"
+      },
+      {
+        "id": "D",
+        "label": "fan"
+      }
+    ],
     "template": "Picture of a foal",
     "correctAnswer": "foal",
     "source": {
@@ -3388,6 +5374,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "frock"
+      },
+      {
+        "id": "B",
+        "label": "barn"
+      },
+      {
+        "id": "C",
+        "label": "fork"
+      },
+      {
+        "id": "D",
+        "label": "ship"
+      }
+    ],
     "template": "Picture of a frock",
     "correctAnswer": "frock",
     "source": {
@@ -3413,6 +5417,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "flower"
+      },
+      {
+        "id": "B",
+        "label": "mango"
+      },
+      {
+        "id": "C",
+        "label": "seeds"
+      },
+      {
+        "id": "D",
+        "label": "fruit"
+      }
+    ],
     "template": "Picture of fruit",
     "correctAnswer": "fruit",
     "source": {
@@ -3438,6 +5460,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "goat"
+      },
+      {
+        "id": "B",
+        "label": "box"
+      },
+      {
+        "id": "C",
+        "label": "cot"
+      },
+      {
+        "id": "D",
+        "label": "fan"
+      }
+    ],
     "template": "Picture of a goat",
     "correctAnswer": "goat",
     "source": {
@@ -3463,6 +5503,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The programme is ______ to start.",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "o",
+      "a"
+    ],
     "template": "a b _ u t",
     "correctAnswer": "about",
     "source": {
@@ -3488,6 +5552,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "d"
+      },
+      {
+        "id": "B",
+        "label": "b"
+      },
+      {
+        "id": "C",
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "m"
+      }
+    ],
+    "units": [
+      "d",
+      "b",
+      "h",
+      "m"
+    ],
     "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
     "source": {
@@ -3513,6 +5601,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "e",
+      "a"
+    ],
     "template": "b _ e",
     "correctAnswer": "bee",
     "source": {
@@ -3538,6 +5650,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Put the paper in the ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "b _ n",
     "correctAnswer": "bin",
     "source": {
@@ -3563,6 +5699,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ your book to class. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "b r _ n g",
     "correctAnswer": "bring",
     "source": {
@@ -3588,6 +5748,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Try to ______ the ball. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "c"
+      },
+      {
+        "id": "B",
+        "label": "t"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "h"
+      }
+    ],
+    "units": [
+      "c",
+      "t",
+      "d",
+      "h"
+    ],
     "template": "c a t _ h",
     "correctAnswer": "catch",
     "source": {
@@ -3613,6 +5797,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Chickens can stay in a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "o",
+      "a",
+      "u",
+      "i"
+    ],
     "template": "c o _ p",
     "correctAnswer": "coop",
     "source": {
@@ -3638,6 +5846,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The baby may ______ when hungry. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "w"
+      },
+      {
+        "id": "B",
+        "label": "d"
+      },
+      {
+        "id": "C",
+        "label": "y"
+      },
+      {
+        "id": "D",
+        "label": "h"
+      }
+    ],
+    "units": [
+      "w",
+      "d",
+      "y",
+      "h"
+    ],
     "template": "c r _",
     "correctAnswer": "cry",
     "source": {
@@ -3663,6 +5895,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A dice is shaped like a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "a",
+      "u"
+    ],
     "template": "c u b _",
     "correctAnswer": "cube",
     "source": {
@@ -3688,6 +5944,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The children like to ______ to music. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "w"
+      },
+      {
+        "id": "B",
+        "label": "c"
+      },
+      {
+        "id": "C",
+        "label": "f"
+      },
+      {
+        "id": "D",
+        "label": "k"
+      }
+    ],
+    "units": [
+      "w",
+      "c",
+      "f",
+      "k"
+    ],
     "template": "d a n _ e",
     "correctAnswer": "dance",
     "source": {
@@ -3713,6 +5993,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "One small cube used in a board game is called a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "d _ e",
     "correctAnswer": "die",
     "source": {
@@ -3738,6 +6042,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Please ______ the biscuit in the milk. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "d _ p",
     "correctAnswer": "dip",
     "source": {
@@ -3763,6 +6091,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We ______ a car on the road. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "k"
+      },
+      {
+        "id": "C",
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "v"
+      }
+    ],
+    "units": [
+      "f",
+      "k",
+      "n",
+      "v"
+    ],
     "template": "d r i _ e",
     "correctAnswer": "drive",
     "source": {
@@ -3788,6 +6140,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "e",
+      "u"
+    ],
     "template": "a w _ y",
     "correctAnswer": "away",
     "source": {
@@ -3813,6 +6189,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "b e h _ n d",
     "correctAnswer": "behind",
     "source": {
@@ -3838,6 +6238,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The cat is ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "a"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "a",
+      "e",
+      "u",
+      "o"
+    ],
     "template": "b l _ c k",
     "correctAnswer": "black",
     "source": {
@@ -3863,6 +6287,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The wall is made of ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
     "template": "b r _ c k",
     "correctAnswer": "brick",
     "source": {
@@ -3888,6 +6336,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a ______ to sweep the floor. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "u",
+      "i",
+      "e",
+      "o"
+    ],
     "template": "b r _ o m",
     "correctAnswer": "broom",
     "source": {
@@ -3913,6 +6385,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "I use a ______ to clean my teeth. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "u",
+      "a"
+    ],
     "template": "b r _ s h",
     "correctAnswer": "brush",
     "source": {
@@ -3938,6 +6434,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A bee can ______ around a flower. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "w"
+      },
+      {
+        "id": "B",
+        "label": "z"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "h"
+      }
+    ],
+    "units": [
+      "w",
+      "z",
+      "d",
+      "h"
+    ],
     "template": "b u _ z",
     "correctAnswer": "buzz",
     "source": {
@@ -3963,6 +6483,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "She ______ her hands after the song. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "g"
+      },
+      {
+        "id": "B",
+        "label": "l"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      }
+    ],
+    "units": [
+      "g",
+      "l",
+      "p",
+      "r"
+    ],
     "template": "c l a _ s",
     "correctAnswer": "claps",
     "source": {
@@ -3988,6 +6532,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The water feels ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "u",
+      "i",
+      "e",
+      "o"
+    ],
     "template": "c _ o l",
     "correctAnswer": "cool",
     "source": {
@@ -4013,6 +6581,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Can you ______ the apples? Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "u",
+      "a"
+    ],
     "template": "c o _ n t",
     "correctAnswer": "count",
     "source": {
@@ -4038,6 +6630,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We can ______ an egg in a pan. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "y"
+      },
+      {
+        "id": "B",
+        "label": "g"
+      },
+      {
+        "id": "C",
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      }
+    ],
+    "units": [
+      "y",
+      "g",
+      "l",
+      "p"
+    ],
     "template": "f r _",
     "correctAnswer": "fry",
     "source": {
@@ -4063,6 +6679,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We ______ the grass to keep it short. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "o",
+      "a",
+      "u",
+      "i"
+    ],
     "template": "m _ w",
     "correctAnswer": "mow",
     "source": {
@@ -4088,6 +6728,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Leave the clothes in water to ______ them. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "e",
+      "u"
+    ],
     "template": "s o _ k",
     "correctAnswer": "soak",
     "source": {

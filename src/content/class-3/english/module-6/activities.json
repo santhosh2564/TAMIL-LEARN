@@ -5939,6 +5939,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "i",
+      "a"
+    ],
     "template": "a w _ y",
     "correctAnswer": "away",
     "source": {
@@ -5964,6 +5988,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      }
+    ],
+    "units": [
+      "o",
+      "e",
+      "i",
+      "a"
+    ],
     "template": "b e h _ n d",
     "correctAnswer": "behind",
     "source": {
@@ -5989,6 +6037,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The cat is ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "a",
+      "e"
+    ],
     "template": "b l _ c k",
     "correctAnswer": "black",
     "source": {
@@ -6014,6 +6086,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The wall is made of ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "b r _ c k",
     "correctAnswer": "brick",
     "source": {
@@ -6039,6 +6135,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We use a ______ to sweep the floor. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "e"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "e",
+      "o",
+      "a",
+      "u"
+    ],
     "template": "b r _ o m",
     "correctAnswer": "broom",
     "source": {
@@ -6064,6 +6184,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "I use a ______ to clean my teeth. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "a",
+      "o",
+      "i"
+    ],
     "template": "b r _ s h",
     "correctAnswer": "brush",
     "source": {
@@ -6089,6 +6233,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "A bee can ______ around a flower. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "l"
+      },
+      {
+        "id": "B",
+        "label": "p"
+      },
+      {
+        "id": "C",
+        "label": "t"
+      },
+      {
+        "id": "D",
+        "label": "z"
+      }
+    ],
+    "units": [
+      "l",
+      "p",
+      "t",
+      "z"
+    ],
     "template": "b u _ z",
     "correctAnswer": "buzz",
     "source": {
@@ -6114,6 +6282,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "She ______ her hands after the song. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "p"
+      },
+      {
+        "id": "B",
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "b"
+      }
+    ],
+    "units": [
+      "p",
+      "m",
+      "s",
+      "b"
+    ],
     "template": "c l a _ s",
     "correctAnswer": "claps",
     "source": {
@@ -6139,6 +6331,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "There is a ______ in the wall. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "o"
+      },
+      {
+        "id": "B",
+        "label": "i"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      }
+    ],
+    "units": [
+      "o",
+      "i",
+      "a",
+      "e"
+    ],
     "template": "c r _ c k",
     "correctAnswer": "crack",
     "source": {
@@ -6164,6 +6380,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "The well is very ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "u"
+      }
+    ],
+    "units": [
+      "i",
+      "e",
+      "a",
+      "u"
+    ],
     "template": "d e _ p",
     "correctAnswer": "deep",
     "source": {
@@ -6189,6 +6429,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "u"
+      },
+      {
+        "id": "B",
+        "label": "o"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "i"
+      }
+    ],
+    "units": [
+      "u",
+      "o",
+      "e",
+      "i"
+    ],
     "template": "d r _ n k",
     "correctAnswer": "drink",
     "source": {
@@ -6214,6 +6478,30 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "You can choose ______ you like.",
+    "options": [
+      {
+        "id": "A",
+        "label": "i"
+      },
+      {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      }
+    ],
+    "units": [
+      "i",
+      "a",
+      "u",
+      "o"
+    ],
     "template": "a n y t h _ n g",
     "correctAnswer": "anything",
     "source": {
@@ -6315,6 +6603,24 @@
     "category": "picture-recognition",
     "variant": "word-entry",
     "prompt": "Look at the picture. Write the word.",
+    "options": [
+      {
+        "id": "A",
+        "label": "basket"
+      },
+      {
+        "id": "B",
+        "label": "carpenter"
+      },
+      {
+        "id": "C",
+        "label": "aval"
+      },
+      {
+        "id": "D",
+        "label": "decorate"
+      }
+    ],
     "correctAnswer": "aval",
     "source": {
       "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",

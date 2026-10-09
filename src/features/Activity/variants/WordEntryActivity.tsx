@@ -3,12 +3,120 @@ import { ActivityComponentProps } from '../../../engine';
 import {
   ActivityCard,
   ActivityPrompt,
+  ActivityOptionGrid,
+  ActivityOption,
   ActivitySubmitArea,
   ActivityFeedback,
-  ActivityAsset
+  ActivityAsset,
+  useSelectableRetry
 } from '../components';
 
-export function WordEntryActivity({
+export function WordEntryActivity(props: ActivityComponentProps<string>) {
+  const hasOptions = props.activity.options && props.activity.options.length > 0;
+  if (hasOptions) {
+    return <WordEntryOptionsMode {...props} />;
+  }
+  return <WordEntryInputMode {...props} />;
+}
+
+function WordEntryOptionsMode({
+  activity,
+  state,
+  onSubmit,
+  onNext
+}: ActivityComponentProps<string>) {
+  const {
+    shuffledOptions,
+    selectedId,
+    submitted,
+    isCorrect,
+    showRetry,
+    locked,
+    handleSelect,
+    handleCheck,
+    handleRetry,
+    handleNext,
+  } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
+
+  const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
+
+  const hasImage =
+    activity.category === 'picture-recognition' ||
+    Boolean(activity.image) ||
+    /picture|look at the picture/i.test(activity.prompt || '');
+
+  const semanticKey = activity.targetWord
+    ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}`
+    : (activity.source?.ewId ? `eng-${activity.source.ewId.toLowerCase()}` : 'unknown');
+
+  const assetId = activity.image?.source || semanticKey;
+
+  return (
+    <ActivityCard className="max-w-xl mx-auto">
+      {/* Visual stimulus if activity is picture-based */}
+      {hasImage && (
+        <div className="mb-6 w-full flex justify-center">
+          <ActivityAsset
+            assetRef={{ id: assetId, type: 'image' }}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+          />
+        </div>
+      )}
+
+      {/* Clue or child-facing instruction */}
+      <div className="mb-6 text-center w-full">
+        <ActivityPrompt prompt={activity.prompt} />
+      </div>
+
+      {/* Optional word length / template display hint */}
+      {activity.template && !hasImage && !/^picture/i.test(activity.template.trim()) && (
+        <div className="mb-4 text-center">
+          <span className="font-mono text-2xl tracking-widest text-text-muted select-none">
+            {activity.template}
+          </span>
+        </div>
+      )}
+
+      {/* Touch-friendly multiple-choice options */}
+      <ActivityOptionGrid>
+        {shuffledOptions.map((opt) => (
+          <ActivityOption
+            key={opt.id}
+            id={opt.id}
+            label={opt.label}
+            selected={selectedId === opt.id}
+            disabled={locked}
+            onSelect={handleSelect}
+          />
+        ))}
+      </ActivityOptionGrid>
+
+      {/* Submit / Retry action area */}
+      <ActivitySubmitArea
+        status={state.status}
+        canCheck={selectedId !== null && !submitted}
+        onCheck={handleCheck}
+        onNext={handleNext}
+        onRetry={handleRetry}
+        showRetry={showRetry}
+        checkLabel={isEnglish ? 'Check Answer' : 'விடையைச் சரிபார்'}
+        continueLabel={isEnglish ? 'Continue' : 'தொடர்க'}
+        retryLabel={isEnglish ? 'Try Again' : 'மீண்டும் முயற்சி செய்'}
+        feedback={
+          <ActivityFeedback
+            status={state.status}
+            correct={submitted ? isCorrect : undefined}
+            successMessage={isEnglish ? 'Correct!' : 'சரியான விடை!'}
+            errorMessage={isEnglish ? 'Not quite. Try again.' : 'தவறான விடை'}
+          />
+        }
+      />
+    </ActivityCard>
+  );
+}
+
+function WordEntryInputMode({
   activity,
   state,
   onSubmit,
@@ -92,7 +200,7 @@ export function WordEntryActivity({
         <ActivityPrompt prompt={activity.prompt} />
       </div>
 
-      {/* Optional word length / template display hint (only for non-picture letter templates) */}
+      {/* Optional word length / template display hint */}
       {activity.template && !hasImage && !/^picture/i.test(activity.template.trim()) && (
         <div className="mb-4 text-center">
           <span className="font-mono text-2xl tracking-widest text-text-muted select-none">

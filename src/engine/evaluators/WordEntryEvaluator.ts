@@ -37,8 +37,19 @@ export class WordEntryEvaluator implements ActivityEvaluator<string> {
         : (activity.correctAnswer || activity.targetWord || '')
     ).trim();
 
+    // If options are provided, input might be an option ID (e.g. 'A') or direct option label
+    let actualInput = trimmedInput;
+    if (activity.options && activity.options.length > 0) {
+      const matchedOpt = activity.options.find(
+        o => o.id.toLowerCase() === trimmedInput.toLowerCase() || o.label.trim().toLowerCase() === trimmedInput.toLowerCase()
+      );
+      if (matchedOpt) {
+        actualInput = matchedOpt.label.trim();
+      }
+    }
+
     // Strict case-insensitive matching — no fuzzy, no partial matching
-    const isCorrect = trimmedInput.toLowerCase() === expected.toLowerCase();
+    const isCorrect = actualInput.toLowerCase() === expected.toLowerCase();
 
     return {
       correct: isCorrect,

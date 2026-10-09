@@ -41,8 +41,30 @@ export function useSelectableRetry({ activity, status, onSubmit, onNext }: UseSe
   }, [activity.id, activity.options]);
 
   const selectedOption = options.find(o => o.id === selectedId);
+
+  const targetAns = (
+    Array.isArray(activity.correctAnswer)
+      ? activity.correctAnswer[0]
+      : (activity.correctAnswer || activity.targetWord || '')
+  ).trim().toLowerCase();
+
+  const targetWord = (activity.targetWord || targetAns).trim().toLowerCase();
+  let expectedUnit = targetAns;
+  if (activity.category === 'word-completion' && activity.template && targetWord) {
+    const cleanedTemplate = activity.template.replace(/[|\s]/g, '');
+    const cleanedTarget = targetWord.replace(/\s+/g, '');
+    let missing = '';
+    for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
+      if (cleanedTemplate[i] === '_') {
+        missing += cleanedTarget[i];
+      }
+    }
+    if (missing) expectedUnit = missing;
+  }
+
+  const selectedLabel = selectedOption?.label.trim().toLowerCase();
   const isCorrect = submitted && selectedId
-    ? selectedOption?.label === activity.correctAnswer
+    ? (selectedLabel === targetAns || selectedLabel === expectedUnit)
     : undefined;
 
   const isCompleted = status === 'completed';
