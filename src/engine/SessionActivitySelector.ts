@@ -37,6 +37,13 @@ export class SessionActivitySelector {
       return [];
     }
 
+    if (config.activityId) {
+      const match = loadedActivities.find(a => a.id.toLowerCase() === config.activityId?.toLowerCase());
+      if (match) {
+        return [match];
+      }
+    }
+
     // Shuffle valid activities (creates a new array)
     const shuffled = this.shuffle(loadedActivities);
 

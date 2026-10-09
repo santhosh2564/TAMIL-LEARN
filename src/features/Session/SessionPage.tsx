@@ -19,6 +19,7 @@ export function SessionPage() {
   const sizeStr = searchParams.get('size');
   const moduleStr = searchParams.get('module');
   const dayStr = searchParams.get('day');
+  const activityId = searchParams.get('activityId') || undefined;
   
   const level = levelStr ? Number(levelStr) : undefined;
   const moduleNum = moduleStr ? Number(moduleStr) : undefined;
@@ -33,8 +34,9 @@ export function SessionPage() {
     level,
     module: moduleNum,
     day: dayNum,
-    size: parseSessionSize(sizeStr)
-  }), [classId, subjectId, category, level, moduleNum, dayNum, sizeStr]);
+    size: parseSessionSize(sizeStr),
+    activityId
+  }), [classId, subjectId, category, level, moduleNum, dayNum, sizeStr, activityId]);
 
   const [session, setSession] = useState<ActivitySession | null>(null);
   const [activities, setActivities] = useState<Record<string, Activity>>({});

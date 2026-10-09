@@ -109,4 +109,5 @@ export interface SessionConfig {
   size: SessionSize;
   module?: number;
   day?: number;
+  activityId?: string;
 }
