@@ -1,4 +1,10 @@
 {
+  "eng-apple": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
+    "alt": "Apple — ஆப்பிள்"
+  },
   "eng-fruit": {
     "type": "image",
     "source": "local",
@@ -154,12 +160,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pond.jpg",
     "alt": "pond — English vocabulary image"
-  },
-  "eng-apple": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-apple.jpg",
-    "alt": "apple — English vocabulary image"
   },
   "eng-frock": {
     "type": "image",

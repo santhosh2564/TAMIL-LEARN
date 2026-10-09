@@ -276,6 +276,7 @@ function createActivityOptions(correctLabel: string, distractors: string[], seed
 }
 
 const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; alt: string }> = {
+  'apple': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Apple — ஆப்பிள்' },
   'fruit': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Fruit — பழம்' },
   'bag': { tamilAssetId: 'class3-tamil-picture-q104', path: '/assets/class-3/tamil/term-1/images/Q104_Pai.jpg', alt: 'Bag — பை' },
   'box': { tamilAssetId: 'class3-tamil-picture-q101', path: '/assets/class-3/tamil/term-1/images/Q101_Petti.jpg', alt: 'Box — பெட்டி' },

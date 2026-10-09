@@ -243,8 +243,9 @@
     "classification": "REQUIRED",
     "status": "mapped",
     "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-apple.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-apple.jpg"
+    "proposedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
+    "reusedFromTamilAssetId": "class3-tamil-picture-q003",
+    "resolvedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg"
   },
   {
     "activityId": "ENG-M1-EW319",
@@ -1204,8 +1205,9 @@
     "classification": "REQUIRED",
     "status": "mapped",
     "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-apple.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-apple.jpg"
+    "proposedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
+    "reusedFromTamilAssetId": "class3-tamil-picture-q003",
+    "resolvedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg"
   },
   {
     "activityId": "ENG-M3-REV-EW028",
@@ -2690,8 +2692,9 @@
     "classification": "REQUIRED",
     "status": "mapped",
     "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-apple.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-apple.jpg"
+    "proposedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
+    "reusedFromTamilAssetId": "class3-tamil-picture-q003",
+    "resolvedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg"
   },
   {
     "activityId": "ENG-M4-REV-EW060",
