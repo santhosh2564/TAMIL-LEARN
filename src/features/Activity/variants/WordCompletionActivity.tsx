@@ -1,5 +1,6 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
+import { AssetResolver, AssetReference } from '../../../engine/assets';
 import { 
   ActivityCard, 
   ActivityOptionGrid, 
@@ -8,7 +9,7 @@ import {
   ActivityFeedback, 
   WordCompletionDisplay, 
   ActivityPrompt,
-  ActivityAsset,
+  ActivityAsset, 
   useSelectableRetry 
 } from '../components';
 
@@ -40,18 +41,49 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
     handleNext,
   } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
+  const resolver = useMemo(() => new AssetResolver(), []);
   const selectedOption = options.find(o => o.id === selectedId);
 
+  const assetRef = useMemo<AssetReference | null>(() => {
+    if (activity.image?.source) {
+      return { id: activity.image.source, type: 'image' };
+    }
+    if (isEnglish) {
+      const isPictureRequired = Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+      if (!isPictureRequired) return null;
+      const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
+      return { id: `eng-${wordKey}`, type: 'image' };
+    }
+    return {
+      id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
+      type: 'image'
+    };
+  }, [activity, isEnglish]);
+
+  const hasImage = useMemo(() => {
+    if (!assetRef) return false;
+    if (isEnglish) return Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+    return resolver.resolve(assetRef).status === 'resolved';
+  }, [assetRef, resolver, isEnglish]);
+
+  // Normalize bracketed blanks like [____] or [blank] to [blank]
+  const withNormalizedBlanks = activity.prompt.replace(/\[_+\]/g, '[blank]');
   // Normalize prompt to strip any unbracketed fill-blanks from context sentences
-  const normalizedPrompt = activity.prompt.replace(/(?<!\[)_{2,}\.?\s*/g, '');
+  const normalizedPrompt = withNormalizedBlanks.replace(/_{2,}\.?\s*/g, '');
 
   let displayPrompt = normalizedPrompt;
   if (selectedId && selectedOption) {
-    displayPrompt = normalizedPrompt.replace(/\[(?:blank|_{2,})\]/g, selectedOption.label);
+    displayPrompt = normalizedPrompt.replace(/\[blank\]/g, selectedOption.label);
   }
 
   return (
     <ActivityCard>
+      {hasImage && assetRef && (
+        <div className="mb-6">
+          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+        </div>
+      )}
+
       <div className="mb-8 text-center w-full">
         <WordCompletionDisplay prompt={displayPrompt} />
       </div>
@@ -146,8 +178,28 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
   };
 
   const canCheck = inputValue.trim().length > 0 && !submitted && !isCompleted;
-  const hasImage = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '');
-  const assetId = activity.image?.source || (activity.targetWord ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : null);
+  const resolver = useMemo(() => new AssetResolver(), []);
+  const inputAssetRef = useMemo<AssetReference | null>(() => {
+    if (activity.image?.source) {
+      return { id: activity.image.source, type: 'image' };
+    }
+    if (isEnglish) {
+      const isPictureRequired = Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+      if (!isPictureRequired) return null;
+      const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
+      return { id: `eng-${wordKey}`, type: 'image' };
+    }
+    return {
+      id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
+      type: 'image'
+    };
+  }, [activity, isEnglish]);
+
+  const hasImage = useMemo(() => {
+    if (!inputAssetRef) return false;
+    if (isEnglish) return Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+    return resolver.resolve(inputAssetRef).status === 'resolved';
+  }, [inputAssetRef, resolver, isEnglish]);
 
   return (
     <ActivityCard className="max-w-xl mx-auto">
@@ -157,9 +209,9 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
       </div>
 
       {/* Visual stimulus if picture is required */}
-      {hasImage && assetId && (
+      {hasImage && inputAssetRef && (
         <div className="mb-6 w-full flex justify-center">
-          <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language="english" alt={activity.template || undefined} />
+          <ActivityAsset assetRef={inputAssetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
         </div>
       )}
 

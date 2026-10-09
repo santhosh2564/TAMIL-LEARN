@@ -1240,29 +1240,29 @@
     "language": "ta-IN",
     "term": "Term I",
     "level": 1,
-    "targetWord": "ஒலி",
+    "targetWord": "ஒளி",
     "category": "spelling-choice",
     "variant": "select",
     "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "ஒலி"
-      },
-      {
-        "id": "B",
         "label": "ஒளி"
       },
       {
+        "id": "B",
+        "label": "ஒளீ"
+      },
+      {
         "id": "C",
-        "label": "ஒல"
+        "label": "ஔ"
       },
       {
         "id": "D",
-        "label": "ஒலீ"
+        "label": "ஓளி"
       }
     ],
-    "correctAnswer": "ஒலி",
+    "correctAnswer": "ஒளி",
     "learningObjective": "ஒலி/ஒளி discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
@@ -2911,15 +2911,15 @@
       },
       {
         "id": "B",
-        "label": "நனறு"
+        "label": "னன்று"
       },
       {
         "id": "C",
-        "label": "நன்ற"
+        "label": "நண்று"
       },
       {
         "id": "D",
-        "label": "நண்டு"
+        "label": "நன்றூ"
       }
     ],
     "correctAnswer": "நன்று",

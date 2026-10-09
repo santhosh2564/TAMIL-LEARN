@@ -117,4 +117,28 @@ describe('WordCompletionActivity', () => {
     expect(screen.queryByText(/புத்தகத்தைப் டி/)).not.toBeInTheDocument();
     expect(screen.queryByText(/____/)).not.toBeInTheDocument();
   });
+
+  it('renders image asset for picture-based word completion activity like Q110 (மண்)', () => {
+    const q110Activity = {
+      id: 'Q110',
+      category: 'word-completion',
+      variant: 'missing-unit',
+      prompt: 'படத்தில் காணப்படுவது: ம + [____]',
+      targetWord: 'மண்',
+      correctAnswer: 'ண்',
+      options: [
+        { id: 'A', label: 'ண்' },
+        { id: 'B', label: 'ன்' },
+        { id: 'C', label: 'ண' },
+        { id: 'D', label: 'ந்' },
+      ],
+    } as Activity;
+
+    render(<WordCompletionActivity activity={q110Activity} state={mockState} onSubmit={vi.fn()} />);
+
+    expect(screen.getByTestId('activity-asset-image')).toBeInTheDocument();
+    const image = screen.getByTestId('activity-asset-image') as HTMLImageElement;
+    expect(screen.getByText('படத்தில் காணப்படுவது:')).toBeInTheDocument();
+    expect(screen.getByText('ம +')).toBeInTheDocument();
+  });
 });
