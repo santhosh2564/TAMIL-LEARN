@@ -100,7 +100,7 @@ export class LocalContentRepository implements ContentRepository {
       if (query?.module !== undefined && a.module !== query.module) return false;
       if (query?.day !== undefined && a.day !== query.day) return false;
       if (query?.role !== undefined && a.role !== query.role) return false;
-      if (query?.category !== undefined && a.category !== query.category) return false;
+      if (query?.category !== undefined && a.category?.trim().replace(/\s+/g, '-') !== query.category.trim().replace(/\s+/g, '-')) return false;
       if (query?.variant !== undefined && a.variant !== query.variant) return false;
       if (query?.level !== undefined && a.level !== query.level) return false;
       return true;

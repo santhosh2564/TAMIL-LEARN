@@ -10,6 +10,7 @@ import {
 } from '../components';
 
 import { shuffleArray } from '../../../utils/shuffle';
+import { matchesTamilOrTarget } from '../../../utils/tamil';
 
 export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string[]>) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
@@ -39,7 +40,7 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
   // Evaluation correctness for UI feedback, known once submitted.
   // The engine evaluation in SessionPage stays authoritative for completion.
   const formedWord = selectedIds.map(id => options.find(o => o.id === id)?.label || '').join('');
-  const isCorrect = submitted ? formedWord === activity.correctAnswer : undefined;
+  const isCorrect = submitted ? matchesTamilOrTarget(formedWord, activity.correctAnswer) : undefined;
 
   // Wrong submission: show retry, lock tokens until the learner retries.
   // Retry keeps the current arrangement so the child can reorder and try again.

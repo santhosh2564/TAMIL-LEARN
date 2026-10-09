@@ -35,11 +35,29 @@
     "path": "/assets/class-3/tamil/term-1/images/Q014_Vannangal.jpg",
     "alt": "வண்ணங்கள் — Colours"
   },
+  "class3-tamil-picture-q016": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q016_Oonjal.jpg",
+    "alt": "ஊஞ்சல் — Swing"
+  },
+  "class3-tamil-picture-q017": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q017_Pambaram.jpg",
+    "alt": "பம்பரம் — Spinning top"
+  },
   "class3-tamil-picture-q026": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q026_Kurangu.jpg",
     "alt": "குரங்கு — Monkey"
+  },
+  "class3-tamil-picture-q027": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q027_Ottagachivinki.jpg",
+    "alt": "ஒட்டகச்சிவிங்கி — Giraffe"
   },
   "class3-tamil-picture-q034": {
     "type": "image",
@@ -53,11 +71,29 @@
     "path": "/assets/class-3/tamil/term-1/images/Q038_Kal.jpg",
     "alt": "கல் — Stone"
   },
+  "class3-tamil-picture-q040": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q040_Kazhutai.jpg",
+    "alt": "கழுதை — Donkey"
+  },
   "class3-tamil-picture-q043": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q043_Kaasu.jpg",
     "alt": "காசு — Coin"
+  },
+  "class3-tamil-picture-q048": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q048_Kuppai.jpg",
+    "alt": "குப்பை — Garbage"
+  },
+  "class3-tamil-picture-q049": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q049_Kurangu.jpg",
+    "alt": "குரங்கு — Monkey"
   },
   "class3-tamil-picture-q055": {
     "type": "image",
@@ -71,11 +107,23 @@
     "path": "/assets/class-3/tamil/term-1/images/Q066_Thaatha.jpg",
     "alt": "தாத்தா — Grandfather"
   },
+  "class3-tamil-picture-q068": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q068_Thimingalam.jpg",
+    "alt": "திமிங்கலம் — Whale"
+  },
   "class3-tamil-picture-q071": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q071_Theru.jpg",
     "alt": "தெரு — Street"
+  },
+  "class3-tamil-picture-q077": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q077_Naai.jpg",
+    "alt": "நாய் — Dog"
   },
   "class3-tamil-picture-q079": {
     "type": "image",
@@ -83,11 +131,47 @@
     "path": "/assets/class-3/tamil/term-1/images/Q079_Nila.jpg",
     "alt": "நிலா — Moon"
   },
+  "class3-tamil-picture-q080": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q080_Noolagam.jpg",
+    "alt": "நூலகம் — Library"
+  },
+  "class3-tamil-picture-q089": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q089_Pattam.jpg",
+    "alt": "பட்டம் — Kite"
+  },
   "class3-tamil-picture-q091": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q091_Pambaram.jpg",
     "alt": "பம்பரம் — Spinning top"
+  },
+  "class3-tamil-picture-q093": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q093_Palli.jpg",
+    "alt": "பள்ளி — School"
+  },
+  "class3-tamil-picture-q094": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q094_Pazham.jpg",
+    "alt": "பழம் — Fruit"
+  },
+  "class3-tamil-picture-q098": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q098_Puthagam.jpg",
+    "alt": "புத்தகம் — Book"
+  },
+  "class3-tamil-picture-q099": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q099_Puli.jpg",
+    "alt": "புலி — Tiger"
   },
   "class3-tamil-picture-q101": {
     "type": "image",
@@ -95,11 +179,47 @@
     "path": "/assets/class-3/tamil/term-1/images/Q101_Petti.jpg",
     "alt": "பெட்டி — Box"
   },
+  "class3-tamil-picture-q103": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q103_Perunthu.jpg",
+    "alt": "பேருந்து — Bus"
+  },
   "class3-tamil-picture-q104": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q104_Pai.jpg",
     "alt": "பை — Bag"
+  },
+  "class3-tamil-picture-q108": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q108_Manal.jpg",
+    "alt": "மணல் — Sand"
+  },
+  "class3-tamil-picture-q110": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q110_Mann.jpg",
+    "alt": "மண் — Soil"
+  },
+  "class3-tamil-picture-q113": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q113_Maruthuvamanai.jpg",
+    "alt": "மருத்துவமனை — Hospital"
+  },
+  "class3-tamil-picture-q120": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q120_Muyal.jpg",
+    "alt": "முயல் — Rabbit"
+  },
+  "class3-tamil-picture-q121": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q121_Moolai.jpg",
+    "alt": "மூளை — Brain"
   },
   "class3-tamil-picture-q123": {
     "type": "image",
@@ -107,17 +227,41 @@
     "path": "/assets/class-3/tamil/term-1/images/Q123_Raja.jpg",
     "alt": "ராஜா — King"
   },
+  "class3-tamil-picture-q125": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q125_Vandi.jpg",
+    "alt": "வண்டி — Cart"
+  },
+  "class3-tamil-picture-q126": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q126_Vannangal.jpg",
+    "alt": "வண்ணங்கள் — Colours"
+  },
   "class3-tamil-picture-q128": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q128_Vayal.jpg",
     "alt": "வயல் — Paddy field"
   },
+  "class3-tamil-picture-q129": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q129_Vayalveligal.jpg",
+    "alt": "வயல்வெளிகள் — Fields"
+  },
   "class3-tamil-picture-q133": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q133_Vazhi.jpg",
     "alt": "வழி — Path"
+  },
+  "class3-tamil-picture-q134": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q134_Vaanavil.jpg",
+    "alt": "வானவில் — Rainbow"
   },
   "class3-tamil-picture-q138": {
     "type": "image",

@@ -11,7 +11,8 @@ import { SessionSize, serializeSessionSize } from '../../engine';
 export function SessionSetupPage() {
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
   const [searchParams] = useSearchParams();
-  const category = searchParams.get('category') as ActivityCategory | null;
+  const rawCategory = searchParams.get('category');
+  const category = rawCategory ? (rawCategory.trim().replace(/\s+/g, '-') as ActivityCategory) : null;
   const navigate = useNavigate();
 
   const [availableCount, setAvailableCount] = useState<number | null>(null);

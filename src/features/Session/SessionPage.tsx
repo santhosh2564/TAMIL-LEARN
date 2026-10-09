@@ -13,7 +13,8 @@ export function SessionPage() {
   const navigate = useNavigate();
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
   const [searchParams] = useSearchParams();
-  const category = searchParams.get('category') as ActivityCategory | null;
+  const rawCategory = searchParams.get('category');
+  const category = rawCategory ? (rawCategory.trim().replace(/\s+/g, '-') as ActivityCategory) : null;
   const levelStr = searchParams.get('level');
   const sizeStr = searchParams.get('size');
   const moduleStr = searchParams.get('module');

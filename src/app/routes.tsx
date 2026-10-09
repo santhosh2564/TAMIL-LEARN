@@ -1,8 +1,7 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 
 // Features
 import { HomePage } from '../features/Home/HomePage';
-import { ClassSelectionPage } from '../features/Navigation/ClassSelectionPage';
 import { SubjectSelectionPage } from '../features/Navigation/SubjectSelectionPage';
 import { LearningAreaPage } from '../features/Navigation/LearningAreaPage';
 import { EnglishLearningAreaPage } from '../features/Navigation/EnglishLearningAreaPage';
@@ -23,7 +22,11 @@ export const router = createBrowserRouter([
       },
       {
         path: 'classes',
-        element: <ClassSelectionPage />,
+        element: <Navigate to="/classes/3/subjects" replace />,
+      },
+      {
+        path: 'subjects',
+        element: <Navigate to="/classes/3/subjects" replace />,
       },
       {
         path: 'classes/:classId/subjects',

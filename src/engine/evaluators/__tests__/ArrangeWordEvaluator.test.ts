@@ -61,4 +61,44 @@ describe('ArrangeWordEvaluator', () => {
     const result2 = evaluator.evaluate(duplicateActivity, ['4', '2', '3']);
     expect(result2.correct).toBe(true);
   });
+
+  it('correctly evaluates compound Tamil words using sandhi (e.g. Q078 நாள் + இதழ் -> நாளிதழ்)', () => {
+    const q078Activity = {
+      id: 'Q078',
+      category: 'arrange-word',
+      variant: 'arrange',
+      correctAnswer: 'நாளிதழ்',
+      options: [
+        { id: 'A', label: 'நாள்' },
+        { id: 'B', label: 'இதழ்' }
+      ]
+    } as Activity;
+
+    // Arranging நாள் (A) then இதழ் (B) should be correct
+    const result = evaluator.evaluate(q078Activity, ['A', 'B']);
+    expect(result.correct).toBe(true);
+    expect(result.completed).toBe(true);
+
+    // Arranging in reverse (இதழ் then நாள்) should be incorrect
+    const wrongResult = evaluator.evaluate(q078Activity, ['B', 'A']);
+    expect(wrongResult.correct).toBe(false);
+    expect(wrongResult.completed).toBe(false);
+  });
+
+  it('evaluates correctly when correctAnswer is an array of acceptable spellings', () => {
+    const arrayActivity = {
+      id: 'Q078',
+      category: 'arrange-word',
+      variant: 'arrange',
+      correctAnswer: ['நாளிதழ்', 'நாள்இதழ்'],
+      options: [
+        { id: 'A', label: 'நாள்' },
+        { id: 'B', label: 'இதழ்' }
+      ]
+    } as Activity;
+
+    const result = evaluator.evaluate(arrayActivity, ['A', 'B']);
+    expect(result.correct).toBe(true);
+    expect(result.completed).toBe(true);
+  });
 });

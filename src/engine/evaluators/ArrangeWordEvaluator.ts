@@ -1,5 +1,6 @@
 import { Activity } from '../../types';
 import { ActivityEvaluation, ActivityEvaluator } from '../types';
+import { matchesTamilOrTarget } from '../../utils/tamil';
 
 export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
   evaluate(activity: Activity, inputIds: string[]): ActivityEvaluation {
@@ -39,12 +40,9 @@ export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
       return opt ? opt.label : '';
     });
 
-    // Check if the joined labels match the correct answer
+    // Check if the joined labels match the correct answer (supports exact, array targets, and Tamil sandhi)
     const formedWord = selectedLabels.join('');
-    const target = Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : (activity.correctAnswer || '');
-    
-    // Exact match (case-insensitive for Latin alphabets, no effect on Tamil)
-    const isCorrect = formedWord.trim().toLowerCase() === target.trim().toLowerCase();
+    const isCorrect = matchesTamilOrTarget(formedWord, activity.correctAnswer);
 
     return {
       correct: isCorrect,

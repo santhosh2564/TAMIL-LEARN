@@ -115,4 +115,33 @@ describe('ArrangeWordActivity', () => {
     expect(screen.getByText('சரியான விடை!')).toBeInTheDocument();
     expect(handleNext).not.toHaveBeenCalled();
   });
+
+  it('evaluates Q078 compound tiles நாள் + இதழ் as correct with success feedback', async () => {
+    const user = userEvent.setup();
+    const handleSubmit = vi.fn();
+
+    const q078Activity = {
+      id: 'Q078',
+      category: 'arrange-word',
+      variant: 'arrange',
+      prompt: '“Newspaper” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.',
+      correctAnswer: 'நாளிதழ்',
+      options: [
+        { id: 'A', label: 'நாள்' },
+        { id: 'B', label: 'இதழ்' }
+      ]
+    } as Activity;
+
+    render(<ArrangeWordActivity activity={q078Activity} state={mockState} onSubmit={handleSubmit} />);
+
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Select நாள்' })).toBeInTheDocument());
+
+    await user.click(screen.getByRole('button', { name: 'Select நாள்' }));
+    await user.click(screen.getByRole('button', { name: 'Select இதழ்' }));
+    await user.click(screen.getByRole('button', { name: 'விடையைச் சரிபார்' }));
+
+    expect(handleSubmit).toHaveBeenCalledWith(['A', 'B']);
+    expect(screen.getByText('சரியான விடை!')).toBeInTheDocument();
+    expect(screen.queryByText('தவறான விடை')).not.toBeInTheDocument();
+  });
 });

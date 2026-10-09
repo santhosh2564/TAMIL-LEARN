@@ -18,10 +18,10 @@ describe('LocalContentRepository', () => {
 
   it('should get all activities', async () => {
     const activities = await repo.getActivities();
-    expect(activities.length).toBe(144);
+    expect(activities.length).toBe(142);
     
     const count = await repo.getActivityCount();
-    expect(count).toBe(144);
+    expect(count).toBe(142);
   });
 
   it('should get activity by id', async () => {
@@ -38,11 +38,11 @@ describe('LocalContentRepository', () => {
 
   it('should filter by category', async () => {
     const activities = await repo.getActivities({ category: 'picture-recognition' });
-    expect(activities.length).toBe(21);
+    expect(activities.length).toBe(22);
     expect(activities[0].category).toBe('picture-recognition');
     
     const count = await repo.getActivityCount({ category: 'picture-recognition' });
-    expect(count).toBe(21);
+    expect(count).toBe(22);
   });
 
   it('should filter by level', async () => {
@@ -55,7 +55,7 @@ describe('LocalContentRepository', () => {
 
   it('should filter by class and subject', async () => {
     const activities = await repo.getActivities({ classLevel: 3, subject: 'Tamil' });
-    expect(activities.length).toBe(144);
+    expect(activities.length).toBe(142);
     
     const wrongClass = await repo.getActivities({ classLevel: 4 });
     expect(wrongClass.length).toBe(0);

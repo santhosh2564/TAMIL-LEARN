@@ -18,13 +18,8 @@ test.describe('Phase 15B / Retry Flow Browser Verification', () => {
     await page.goto('http://localhost:5173/');
     await expect(page.locator('text=தமிழ் கற்போம்!')).toBeVisible();
 
-    // Classes
-    await page.click('text=Choose Class');
-    await expect(page).toHaveURL(/.*\/classes/);
-    await expect(page.locator('text=வகுப்பு 3')).toBeVisible();
-
-    // Subjects
-    await page.click('text=வகுப்பு 3');
+    // Subjects (via Start Learning)
+    await page.click('text=Start Learning');
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects/);
 
     // Tamil

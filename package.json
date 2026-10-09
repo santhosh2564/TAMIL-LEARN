@@ -20,6 +20,7 @@
     "content:english-check": "npm run content:english-validate"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.447.0",
     "react": "^18.3.1",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@eslint/js": "^9.11.1",
     "@playwright/test": "^1.63.0",
+    "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.7",

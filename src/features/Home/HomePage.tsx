@@ -21,19 +21,10 @@ export function HomePage() {
           <Button 
             size="large" 
             variant="primary"
-            onClick={() => navigate('/classes')}
+            onClick={() => navigate('/classes/3/subjects')}
             className="w-full sm:w-auto text-2xl font-bold px-12 py-6 rounded-full shadow-lg"
           >
             Start Learning
-          </Button>
-          
-          <Button 
-            size="large" 
-            variant="secondary"
-            onClick={() => navigate('/classes')}
-            className="w-full sm:w-auto text-xl font-bold px-8 py-5 rounded-full"
-          >
-            Choose Class
           </Button>
         </div>
       </div>

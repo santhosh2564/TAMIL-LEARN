@@ -967,16 +967,21 @@
     "options": [
       {
         "id": "A",
-        "label": "வான்"
+        "label": "வா"
       },
       {
         "id": "B",
-        "label": "ஒலி"
+        "label": "னொ"
+      },
+      {
+        "id": "C",
+        "label": "லி"
       }
     ],
     "units": [
-      "வான்",
-      "ஒலி"
+      "வா",
+      "னொ",
+      "லி"
     ],
     "correctAnswer": "வானொலி",
     "learningObjective": "Word construction",
@@ -3023,7 +3028,10 @@
       "நாள்",
       "இதழ்"
     ],
-    "correctAnswer": "நாளிதழ்",
+    "correctAnswer": [
+      "நாளிதழ்",
+      "நாள்இதழ்"
+    ],
     "learningObjective": "Meaning + long-word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
     "source": {

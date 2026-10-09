@@ -4,17 +4,11 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
   test('Complete Flow: Home -> Classes -> Class 3 -> English -> Module 1 -> Day 1 -> Practice -> Exit', async ({ page }) => {
     // 1. Home
     await page.goto('http://localhost:5173/');
-    const chooseClassBtn = page.getByRole('button', { name: /Choose Class/i });
-    await expect(chooseClassBtn).toBeVisible();
-    await chooseClassBtn.click();
+    const startLearningBtn = page.getByRole('button', { name: /Start Learning/i });
+    await expect(startLearningBtn).toBeVisible();
+    await startLearningBtn.click();
 
-    // 2. Classes
-    await expect(page).toHaveURL(/.*\/classes/);
-    const class3Card = page.getByText('வகுப்பு 3');
-    await expect(class3Card).toBeVisible();
-    await class3Card.click();
-
-    // 3. Subjects
+    // 2. Subjects (Direct - no class selection step)
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects/);
     const tamilCard = page.getByText('Tamil').first();
     const englishCard = page.getByText('English').first();
