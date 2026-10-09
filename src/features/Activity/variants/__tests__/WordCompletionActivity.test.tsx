@@ -138,6 +138,7 @@ describe('WordCompletionActivity', () => {
 
     expect(screen.getByTestId('activity-asset-image')).toBeInTheDocument();
     const image = screen.getByTestId('activity-asset-image') as HTMLImageElement;
+    expect(image.getAttribute('src')).toContain('/assets/class-3/tamil/term-1/images/Q110_Mann.jpg');
     expect(screen.getByText('படத்தில் காணப்படுவது:')).toBeInTheDocument();
     expect(screen.getByText('ம +')).toBeInTheDocument();
   });
