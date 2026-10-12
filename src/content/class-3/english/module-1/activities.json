@@ -29,7 +29,7 @@
     ],
     "correctAnswer": "ask",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW021",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -66,7 +66,7 @@
     ],
     "correctAnswer": "bad",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW030",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -103,7 +103,7 @@
     ],
     "correctAnswer": "big",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW058",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -121,31 +121,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. This food is made from lentils. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. This food is made from lentils. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "dates"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "bucket"
+        "label": "A"
       },
       {
         "id": "C",
-        "label": "ground"
-      },
-      {
-        "id": "D",
-        "label": "dal"
+        "label": "D"
       }
     ],
-    "template": "Picture of dal",
+    "units": [
+      "L",
+      "A",
+      "D"
+    ],
     "correctAnswer": "dal",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW201",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -163,31 +163,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bird",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "rock"
+        "label": "B"
       },
       {
         "id": "B",
-        "label": "tail"
+        "label": "I"
       },
       {
         "id": "C",
-        "label": "bird"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "rhino"
+        "label": "R"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "B",
+      "I",
+      "D",
+      "R"
+    ],
     "correctAnswer": "bird",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW060",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -205,30 +210,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "crow",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "boondhi"
+        "label": "W"
       },
       {
         "id": "B",
-        "label": "crow"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "driver"
+        "label": "R"
       },
       {
         "id": "D",
-        "label": "sunday"
+        "label": "C"
       }
+    ],
+    "units": [
+      "W",
+      "O",
+      "R",
+      "C"
     ],
     "correctAnswer": "crow",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW184",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -246,30 +257,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "curd",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "curd"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "neck"
+        "label": "U"
       },
       {
         "id": "C",
-        "label": "ball"
+        "label": "C"
       },
       {
         "id": "D",
-        "label": "salt"
+        "label": "R"
       }
+    ],
+    "units": [
+      "D",
+      "U",
+      "C",
+      "R"
     ],
     "correctAnswer": "curd",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW194",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -287,31 +304,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dish",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "blow"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "foam"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "dish"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "concert"
+        "label": "I"
       }
     ],
-    "template": "Picture of a dish",
+    "units": [
+      "D",
+      "S",
+      "H",
+      "I"
+    ],
     "correctAnswer": "dish",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW226",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -329,31 +351,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "door",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "door"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "fast"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "achieve"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "bright"
+        "label": "O"
       }
     ],
-    "template": "Picture of a door",
+    "units": [
+      "O",
+      "R",
+      "D",
+      "O"
+    ],
     "correctAnswer": "door",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW231",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -371,31 +398,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "duck",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "colour"
+        "label": "K"
       },
       {
         "id": "B",
-        "label": "screen"
+        "label": "C"
       },
       {
         "id": "C",
-        "label": "bird"
+        "label": "U"
       },
       {
         "id": "D",
-        "label": "duck"
+        "label": "D"
       }
     ],
-    "template": "Picture of a duck",
+    "units": [
+      "K",
+      "C",
+      "U",
+      "D"
+    ],
     "correctAnswer": "duck",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW245",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -413,31 +445,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "farm",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "wind"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "farm"
+        "label": "F"
       },
       {
         "id": "C",
-        "label": "breeze"
+        "label": "R"
       },
       {
         "id": "D",
-        "label": "kennel"
+        "label": "M"
       }
     ],
-    "template": "Picture of a farm",
+    "units": [
+      "A",
+      "F",
+      "R",
+      "M"
+    ],
     "correctAnswer": "farm",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW272",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -455,31 +492,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "fish",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "bone"
+        "label": "F"
       },
       {
         "id": "B",
-        "label": "fish"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "snow"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "wish"
+        "label": "H"
       }
     ],
-    "template": "Picture of a fish",
+    "units": [
+      "F",
+      "S",
+      "I",
+      "H"
+    ],
     "correctAnswer": "fish",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW294",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -497,31 +539,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "foal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. This is a young horse. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. This is a young horse. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "screen"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "bird"
+        "label": "F"
       },
       {
         "id": "C",
-        "label": "fish"
+        "label": "O"
       },
       {
         "id": "D",
-        "label": "foal"
+        "label": "A"
       }
     ],
-    "template": "Picture of a foal",
+    "units": [
+      "L",
+      "F",
+      "O",
+      "A"
+    ],
     "correctAnswer": "foal",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW308",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -539,31 +586,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "goat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "stable"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "crow"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "foal"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "goat"
+        "label": "G"
       }
     ],
-    "template": "Picture of a goat",
+    "units": [
+      "O",
+      "T",
+      "A",
+      "G"
+    ],
     "correctAnswer": "goat",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW344",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -581,31 +633,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "hand",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "hand"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "breeze"
+        "label": "N"
       },
       {
         "id": "C",
-        "label": "kennel"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "mouth"
+        "label": "A"
       }
     ],
-    "template": "Picture of a hand",
+    "units": [
+      "D",
+      "N",
+      "H",
+      "A"
+    ],
     "correctAnswer": "hand",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW370",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -623,31 +680,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lamp",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "lamp"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "swim"
+        "label": "P"
       },
       {
         "id": "C",
-        "label": "match"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "clap"
+        "label": "M"
       }
     ],
-    "template": "Picture of a lamp",
+    "units": [
+      "L",
+      "P",
+      "A",
+      "M"
+    ],
     "correctAnswer": "lamp",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW451",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -665,31 +727,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lion",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "lion"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "clock"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "thought"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "friend"
+        "label": "N"
       }
     ],
-    "template": "Picture of a lion",
+    "units": [
+      "L",
+      "O",
+      "I",
+      "N"
+    ],
     "correctAnswer": "lion",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW473",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -707,31 +774,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "neck",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "boondhi"
+        "label": "C"
       },
       {
         "id": "B",
-        "label": "driver"
+        "label": "K"
       },
       {
         "id": "C",
-        "label": "neck"
+        "label": "N"
       },
       {
         "id": "D",
-        "label": "sunday"
+        "label": "E"
       }
     ],
-    "template": "Picture showing a neck",
+    "units": [
+      "C",
+      "K",
+      "N",
+      "E"
+    ],
     "correctAnswer": "neck",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW534",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -749,31 +821,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pole",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "neck"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "bell"
+        "label": "E"
       },
       {
         "id": "C",
-        "label": "seed"
+        "label": "L"
       },
       {
         "id": "D",
-        "label": "pole"
+        "label": "P"
       }
     ],
-    "template": "Picture of a pole",
+    "units": [
+      "O",
+      "E",
+      "L",
+      "P"
+    ],
     "correctAnswer": "pole",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW601",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -791,31 +868,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pond",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "frock"
+        "label": "N"
       },
       {
         "id": "B",
-        "label": "cake"
+        "label": "P"
       },
       {
         "id": "C",
-        "label": "pond"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "star"
+        "label": "O"
       }
     ],
-    "template": "Picture of a pond",
+    "units": [
+      "N",
+      "P",
+      "D",
+      "O"
+    ],
     "correctAnswer": "pond",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW604",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -833,30 +915,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "apple",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "ask"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "dish"
+        "label": "E"
       },
       {
         "id": "C",
-        "label": "apple"
+        "label": "P"
       },
       {
         "id": "D",
-        "label": "hand"
+        "label": "L"
+      },
+      {
+        "id": "E",
+        "label": "P"
       }
+    ],
+    "units": [
+      "A",
+      "E",
+      "P",
+      "L",
+      "P"
     ],
     "correctAnswer": "apple",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW017",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -874,31 +967,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "frock",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "rock"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "tail"
+        "label": "C"
       },
       {
         "id": "C",
-        "label": "rhino"
+        "label": "F"
       },
       {
         "id": "D",
-        "label": "frock"
+        "label": "K"
+      },
+      {
+        "id": "E",
+        "label": "R"
       }
     ],
-    "template": "Picture of a frock",
+    "units": [
+      "O",
+      "C",
+      "F",
+      "K",
+      "R"
+    ],
     "correctAnswer": "frock",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW319",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -916,31 +1019,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "fruit",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "cone"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "help"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "fruit"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "bread"
+        "label": "F"
+      },
+      {
+        "id": "E",
+        "label": "U"
       }
     ],
-    "template": "Picture of fruit",
+    "units": [
+      "T",
+      "R",
+      "I",
+      "F",
+      "U"
+    ],
     "correctAnswer": "fruit",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW321",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -958,31 +1071,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "juice",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "ghee"
+        "label": "E"
       },
       {
         "id": "B",
-        "label": "bandage"
+        "label": "I"
       },
       {
         "id": "C",
-        "label": "juice"
+        "label": "J"
       },
       {
         "id": "D",
-        "label": "dancer"
+        "label": "U"
+      },
+      {
+        "id": "E",
+        "label": "C"
       }
     ],
-    "template": "Picture of a glass of juice",
+    "units": [
+      "E",
+      "I",
+      "J",
+      "U",
+      "C"
+    ],
     "correctAnswer": "juice",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW435",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1030,7 +1153,7 @@
     "template": "b _ l l",
     "correctAnswer": "ball",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW033",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -1078,7 +1201,7 @@
     "template": "b e _ l",
     "correctAnswer": "bell",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW051",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -1126,7 +1249,7 @@
     "template": "b o _ e",
     "correctAnswer": "bone",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW072",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -1174,7 +1297,7 @@
     "template": "b u _ l",
     "correctAnswer": "bull",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW100",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -1222,7 +1345,7 @@
     "template": "c a k _",
     "correctAnswer": "cake",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW111",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -1240,31 +1363,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "rice",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "rock"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "tail"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "rice"
+        "label": "E"
       },
       {
         "id": "D",
-        "label": "rhino"
+        "label": "C"
       }
     ],
-    "template": "Picture of rice.",
+    "units": [
+      "I",
+      "R",
+      "E",
+      "C"
+    ],
     "correctAnswer": "rice",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW648",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1282,31 +1410,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "rock",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "rock"
+        "label": "C"
       },
       {
         "id": "B",
-        "label": "help"
+        "label": "K"
       },
       {
         "id": "C",
-        "label": "bread"
+        "label": "O"
       },
       {
         "id": "D",
-        "label": "deer"
+        "label": "R"
       }
     ],
-    "template": "Picture of a rock.",
+    "units": [
+      "C",
+      "K",
+      "O",
+      "R"
+    ],
     "correctAnswer": "rock",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW657",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1324,31 +1457,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "salt",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "screen"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "salt"
+        "label": "L"
       },
       {
         "id": "C",
-        "label": "bird"
+        "label": "T"
       },
       {
         "id": "D",
-        "label": "fish"
+        "label": "S"
       }
     ],
-    "template": "Picture of salt.",
+    "units": [
+      "A",
+      "L",
+      "T",
+      "S"
+    ],
     "correctAnswer": "salt",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW672",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1366,31 +1504,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "seed",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "seed"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "hill"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "brown"
+        "label": "E"
       },
       {
         "id": "D",
-        "label": "fast"
+        "label": "E"
       }
     ],
-    "template": "Picture of a seed.",
+    "units": [
+      "D",
+      "S",
+      "E",
+      "E"
+    ],
     "correctAnswer": "seed",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW693",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1408,31 +1551,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "snow",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "tent"
+        "label": "N"
       },
       {
         "id": "B",
-        "label": "sheep"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "snow"
+        "label": "W"
       },
       {
         "id": "D",
-        "label": "coat"
+        "label": "O"
       }
     ],
-    "template": "Picture of snow falling.",
+    "units": [
+      "N",
+      "S",
+      "W",
+      "O"
+    ],
     "correctAnswer": "snow",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW747",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1450,31 +1598,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "soap",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "bicycle"
+        "label": "P"
       },
       {
         "id": "B",
-        "label": "banana"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "soap"
+        "label": "S"
       },
       {
         "id": "D",
-        "label": "head"
+        "label": "A"
       }
     ],
-    "template": "Picture of a bar of soap.",
+    "units": [
+      "P",
+      "O",
+      "S",
+      "A"
+    ],
     "correctAnswer": "soap",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW750",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1492,31 +1645,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "star",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "dish"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "hand"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "frock"
+        "label": "S"
       },
       {
         "id": "D",
-        "label": "star"
+        "label": "A"
       }
     ],
-    "template": "Picture clearly showing a star in the night sky.",
+    "units": [
+      "T",
+      "R",
+      "S",
+      "A"
+    ],
     "correctAnswer": "star",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW773",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1534,31 +1692,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "swim",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "swim"
+        "label": "W"
       },
       {
         "id": "B",
-        "label": "bread"
+        "label": "M"
       },
       {
         "id": "C",
-        "label": "deer"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "wind"
+        "label": "S"
       }
     ],
-    "template": "Picture of a child swimming in water.",
+    "units": [
+      "W",
+      "M",
+      "I",
+      "S"
+    ],
     "correctAnswer": "swim",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW811",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1576,31 +1739,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tail",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture.Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "tail"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "jungle"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "list"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "between"
+        "label": "L"
       }
     ],
-    "template": "Picture clearly showing the tail of an animal.",
+    "units": [
+      "I",
+      "T",
+      "A",
+      "L"
+    ],
     "correctAnswer": "tail",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW815",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1618,31 +1786,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tent",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "tent"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "fish"
+        "label": "N"
       },
       {
         "id": "C",
-        "label": "pole"
+        "label": "T"
       },
       {
         "id": "D",
-        "label": "bell"
+        "label": "E"
       }
     ],
-    "template": "Picture of a camping tent.",
+    "units": [
+      "T",
+      "N",
+      "T",
+      "E"
+    ],
     "correctAnswer": "tent",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW833",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1660,31 +1833,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "toad",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "lamb"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "toad"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "because"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "carrot"
+        "label": "D"
       }
     ],
-    "template": "Picture clearly showing a toad.",
+    "units": [
+      "O",
+      "T",
+      "A",
+      "D"
+    ],
     "correctAnswer": "toad",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW856",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1726,7 +1904,7 @@
     "template": "wish / wash / fish",
     "correctAnswer": "wish",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW938",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1768,7 +1946,7 @@
     "template": "worm / warm / word",
     "correctAnswer": "worm",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW945",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1805,7 +1983,7 @@
     ],
     "correctAnswer": "angry",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW011",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -1823,31 +2001,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "match",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "truck"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "down"
+        "label": "A"
       },
       {
         "id": "C",
-        "label": "match"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "hill"
+        "label": "M"
+      },
+      {
+        "id": "E",
+        "label": "C"
       }
     ],
-    "template": "Picture of a matchstick",
+    "units": [
+      "T",
+      "A",
+      "H",
+      "M",
+      "C"
+    ],
     "correctAnswer": "match",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW497",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1865,31 +2053,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "rhino",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "cake"
+        "label": "R"
       },
       {
         "id": "B",
-        "label": "rhino"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "star"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "angry"
+        "label": "N"
+      },
+      {
+        "id": "E",
+        "label": "I"
       }
     ],
-    "template": "Picture of a rhinoceros.",
+    "units": [
+      "R",
+      "O",
+      "H",
+      "N",
+      "I"
+    ],
     "correctAnswer": "rhino",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW647",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1907,31 +2105,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "sheep",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "rice"
+        "label": "H"
       },
       {
         "id": "B",
-        "label": "swim"
+        "label": "E"
       },
       {
         "id": "C",
-        "label": "match"
+        "label": "P"
       },
       {
         "id": "D",
-        "label": "sheep"
+        "label": "E"
+      },
+      {
+        "id": "E",
+        "label": "S"
       }
     ],
-    "template": "Picture of a sheep.",
+    "units": [
+      "H",
+      "E",
+      "P",
+      "E",
+      "S"
+    ],
     "correctAnswer": "sheep",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW704",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1949,31 +2157,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "skirt",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "bad"
+        "label": "R"
       },
       {
         "id": "B",
-        "label": "door"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "skirt"
+        "label": "K"
       },
       {
         "id": "D",
-        "label": "lamp"
+        "label": "S"
+      },
+      {
+        "id": "E",
+        "label": "I"
       }
     ],
-    "template": "Picture of a skirt.",
+    "units": [
+      "R",
+      "T",
+      "K",
+      "S",
+      "I"
+    ],
     "correctAnswer": "skirt",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW732",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1991,31 +2209,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "truck",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "truck"
+        "label": "C"
       },
       {
         "id": "B",
-        "label": "rhino"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "coat"
+        "label": "T"
       },
       {
         "id": "D",
-        "label": "glow"
+        "label": "U"
+      },
+      {
+        "id": "E",
+        "label": "K"
       }
     ],
-    "template": "Picture clearly showing a truck.",
+    "units": [
+      "C",
+      "R",
+      "T",
+      "U",
+      "K"
+    ],
     "correctAnswer": "truck",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW880",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2052,7 +2280,7 @@
     ],
     "correctAnswer": "belt",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW052",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2089,7 +2317,7 @@
     ],
     "correctAnswer": "blow",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW066",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2137,7 +2365,7 @@
     "template": "c _ a p",
     "correctAnswer": "clap",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW143",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2185,7 +2413,7 @@
     "template": "c o _ l",
     "correctAnswer": "coal",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW156",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2233,7 +2461,7 @@
     "template": "c o _ t",
     "correctAnswer": "coat",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW157",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2281,7 +2509,7 @@
     "template": "c o n _",
     "correctAnswer": "cone",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW164",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2329,7 +2557,7 @@
     "template": "d _ w n",
     "correctAnswer": "down",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW234",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2377,7 +2605,7 @@
     "template": "f l _ w",
     "correctAnswer": "flow",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW302",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2425,7 +2653,7 @@
     "template": "f o _ m",
     "correctAnswer": "foam",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW309",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2473,7 +2701,7 @@
     "template": "f o _ d",
     "correctAnswer": "food",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW312",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2521,7 +2749,7 @@
     "template": "g a _ e",
     "correctAnswer": "gate",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW329",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2569,7 +2797,7 @@
     "template": "g l _ w",
     "correctAnswer": "glow",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW341",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2617,7 +2845,7 @@
     "template": "h e _ p",
     "correctAnswer": "help",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW389",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2665,7 +2893,7 @@
     "template": "h _ l l",
     "correctAnswer": "hill",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW392",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2707,7 +2935,7 @@
     ],
     "correctAnswer": "bicycle",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW057",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2744,7 +2972,7 @@
     ],
     "correctAnswer": "concert",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW162",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2781,7 +3009,7 @@
     ],
     "correctAnswer": "badge",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW031",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2818,7 +3046,7 @@
     ],
     "correctAnswer": "bleat",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW064",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2855,7 +3083,7 @@
     ],
     "correctAnswer": "board",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW068",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2892,7 +3120,7 @@
     ],
     "correctAnswer": "bread",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW083",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2929,7 +3157,7 @@
     ],
     "correctAnswer": "brown",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW095",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -2971,7 +3199,7 @@
     ],
     "correctAnswer": "banana",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW034",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -3008,7 +3236,7 @@
     ],
     "correctAnswer": "forest",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW313",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3026,31 +3254,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "jungle",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for this place with many trees and wild animals.",
     "options": [
       {
         "id": "A",
-        "label": "clock"
+        "label": "E"
       },
       {
         "id": "B",
-        "label": "jungle"
+        "label": "N"
       },
       {
         "id": "C",
-        "label": "thought"
+        "label": "G"
       },
       {
         "id": "D",
-        "label": "friend"
+        "label": "U"
+      },
+      {
+        "id": "E",
+        "label": "L"
+      },
+      {
+        "id": "F",
+        "label": "J"
       }
     ],
-    "template": "Picture of a jungle",
+    "units": [
+      "E",
+      "N",
+      "G",
+      "U",
+      "L",
+      "J"
+    ],
     "correctAnswer": "jungle",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW438",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -3087,7 +3330,7 @@
     ],
     "correctAnswer": "calf",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW112",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -3124,7 +3367,7 @@
     ],
     "correctAnswer": "cold",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW160",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -3161,7 +3404,7 @@
     ],
     "correctAnswer": "deer",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW209",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -3198,7 +3441,7 @@
     ],
     "correctAnswer": "fast",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW274",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3235,7 +3478,7 @@
     ],
     "correctAnswer": "head",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW380",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3272,7 +3515,7 @@
     ],
     "correctAnswer": "lamb",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW450",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3309,7 +3552,7 @@
     ],
     "correctAnswer": "list",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW475",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3346,7 +3589,7 @@
     ],
     "correctAnswer": "told",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW861",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3383,7 +3626,7 @@
     ],
     "correctAnswer": "went",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW924",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3420,7 +3663,7 @@
     ],
     "correctAnswer": "wind",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW932",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3482,7 +3725,7 @@
     ],
     "correctAnswer": "achieve",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW002",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -3530,7 +3773,7 @@
     "template": "a n o t h _ r",
     "correctAnswer": "another",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW014",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3578,7 +3821,7 @@
     "template": "b e c a u _ e",
     "correctAnswer": "because",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW047",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3626,7 +3869,7 @@
     "template": "b e t w _ e n",
     "correctAnswer": "between",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW056",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3674,7 +3917,7 @@
     "template": "a r _ u n d",
     "correctAnswer": "around",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW018",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3722,7 +3965,7 @@
     "template": "b o t _ l e",
     "correctAnswer": "bottle",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW077",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3770,7 +4013,7 @@
     "template": "b r e _ z e",
     "correctAnswer": "breeze",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW086",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3818,7 +4061,7 @@
     "template": "b r _ g h t",
     "correctAnswer": "bright",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW090",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3866,7 +4109,7 @@
     "template": "b u t _ e r",
     "correctAnswer": "butter",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW106",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3914,7 +4157,7 @@
     "template": "c a r _ o t",
     "correctAnswer": "carrot",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW119",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3962,7 +4205,7 @@
     "template": "c h a n _ e",
     "correctAnswer": "change",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW132",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3999,7 +4242,7 @@
     ],
     "correctAnswer": "garden",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW327",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4036,7 +4279,7 @@
     ],
     "correctAnswer": "garlic",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW328",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4073,7 +4316,7 @@
     ],
     "correctAnswer": "kennel",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW440",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4091,30 +4334,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "baby",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the word.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
-        "label": "seed"
+        "label": "B"
       },
       {
         "id": "B",
-        "label": "toad"
+        "label": "B"
       },
       {
         "id": "C",
-        "label": "baby"
+        "label": "Y"
       },
       {
         "id": "D",
-        "label": "skirt"
+        "label": "A"
       }
+    ],
+    "units": [
+      "B",
+      "B",
+      "Y",
+      "A"
     ],
     "correctAnswer": "baby",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW028",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4132,31 +4381,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ghee",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a yellow food used in cooking. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "bottle"
+        "label": "H"
       },
       {
         "id": "B",
-        "label": "ghee"
+        "label": "G"
       },
       {
         "id": "C",
-        "label": "garlic"
+        "label": "E"
       },
       {
         "id": "D",
-        "label": "mouth"
+        "label": "E"
       }
     ],
-    "template": "Picture of ghee",
+    "units": [
+      "H",
+      "G",
+      "E",
+      "E"
+    ],
     "correctAnswer": "ghee",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW335",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4198,7 +4452,7 @@
     "template": "Picture of idli",
     "correctAnswer": "idli",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW414",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4246,7 +4500,7 @@
     "template": "c h _ c k",
     "correctAnswer": "chick",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW138",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4294,7 +4548,7 @@
     "template": "c l _ c k",
     "correctAnswer": "clock",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW151",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4342,7 +4596,7 @@
     "template": "d a t _ s",
     "correctAnswer": "dates",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW205",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4360,31 +4614,41 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mouth",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sheep"
+        "label": "H"
       },
       {
         "id": "B",
-        "label": "coat"
+        "label": "M"
       },
       {
         "id": "C",
-        "label": "glow"
+        "label": "U"
       },
       {
         "id": "D",
-        "label": "mouth"
+        "label": "O"
+      },
+      {
+        "id": "E",
+        "label": "T"
       }
     ],
-    "template": "Picture of a mouth",
+    "units": [
+      "H",
+      "M",
+      "U",
+      "O",
+      "T"
+    ],
     "correctAnswer": "mouth",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW517",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4421,7 +4685,7 @@
     ],
     "correctAnswer": "pinky",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW587",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4483,7 +4747,7 @@
     ],
     "correctAnswer": "bandage",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW035",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -4520,7 +4784,7 @@
     ],
     "correctAnswer": "boondhi",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW074",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -4557,7 +4821,7 @@
     ],
     "correctAnswer": "breathe",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW085",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -4594,7 +4858,7 @@
     ],
     "correctAnswer": "thought",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW841",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -4651,7 +4915,7 @@
     ],
     "correctAnswer": "bucket",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW097",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -4708,7 +4972,7 @@
     ],
     "correctAnswer": "cloudy",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW154",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -4745,7 +5009,7 @@
     ],
     "correctAnswer": "colour",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW161",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -4802,7 +5066,7 @@
     ],
     "correctAnswer": "dancer",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW203",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -4859,7 +5123,7 @@
     ],
     "correctAnswer": "driver",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW241",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -4916,7 +5180,7 @@
     ],
     "correctAnswer": "farmer",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW273",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4953,7 +5217,7 @@
     ],
     "correctAnswer": "friend",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW318",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5001,7 +5265,7 @@
     "template": "g r _ u n d",
     "correctAnswer": "ground",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW360",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5038,7 +5302,7 @@
     ],
     "correctAnswer": "leaves",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW458",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5086,7 +5350,7 @@
     "template": "s c r _ e n",
     "correctAnswer": "screen",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW687",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5134,7 +5398,7 @@
     "template": "s t a b _ e",
     "correctAnswer": "stable",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW769",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5171,7 +5435,7 @@
     ],
     "correctAnswer": "Sunday",
     "source": {
-      "workbook": "English_Module_1_120_Word_Implementation_Plan.xlsx",
+      "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW800",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",

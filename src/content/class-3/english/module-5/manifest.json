@@ -46,10 +46,10 @@
     "unclassified": 10
   },
   "supportedCategories": [
+    "arrange-word",
     "picture-recognition",
     "word-completion",
-    "arrange-word",
     "spelling-choice"
   ],
-  "version": "1.0.0"
+  "version": "2.0.0"
 }

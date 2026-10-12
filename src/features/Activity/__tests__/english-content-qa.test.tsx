@@ -174,7 +174,7 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
 
   // --- SECTION 3: STRICT E01 / E12 WORD-ENTRY CONTRACT ---
   it('verifies strict word-entry contract: exact match, case-insensitivity, whitespace trim, no fuzzy matching', () => {
-    const e01Sample = allActivities.find(a => a.source?.activityCode === 'E01')!;
+    const e01Sample = allActivities.find(a => a.source?.activityCode === 'E01' && a.variant === 'word-entry')!;
     expect(e01Sample).toBeDefined();
 
     const def = activityRegistry.getDefinition(e01Sample.category, e01Sample.variant)!;
@@ -252,28 +252,28 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
   });
 
   it('renders ActivityAsset with real image for reused asset and fallback UI for missing asset', () => {
-    // 1. Reused asset (dog)
-    const dogAct = allActivities.find(a => a.targetWord?.toLowerCase() === 'dog' && a.category === 'picture-recognition')!;
-    expect(dogAct).toBeDefined();
+    // 1. Reused asset (rat -> Q013_Eli.jpg)
+    const reusedAct = allActivities.find(a => a.targetWord?.toLowerCase() === 'rat' && a.category === 'picture-recognition')!;
+    expect(reusedAct).toBeDefined();
 
-    const def = activityRegistry.getDefinition(dogAct.category, dogAct.variant)!;
+    const def = activityRegistry.getDefinition(reusedAct.category, reusedAct.variant)!;
     const Component = def.component;
 
-    const { container: dogContainer } = render(
+    const { container: reusedContainer } = render(
       <Component 
-        activity={dogAct} 
-        state={{ activityId: dogAct.id, status: 'idle', attempts: 0 }} 
+        activity={reusedAct} 
+        state={{ activityId: reusedAct.id, status: 'idle', attempts: 0 }} 
         onSubmit={() => {}} 
         onNext={() => {}} 
       />
     );
 
-    const img = dogContainer.querySelector('img[data-testid="activity-asset-image"]');
+    const img = reusedContainer.querySelector('img[data-testid="activity-asset-image"]');
     expect(img).not.toBeNull();
-    expect(img?.getAttribute('src')).toBe('/assets/class-3/tamil/term-1/images/Q005_Naai.jpg');
+    expect(img?.getAttribute('src')).toBe('/assets/class-3/tamil/term-1/images/Q013_Eli.jpg');
 
     // 2. Missing asset (bird) -> must render graceful fallback
-    const birdAct = { ...allActivities.find(a => a.targetWord?.toLowerCase() === 'bird' && a.category === 'picture-recognition')!, targetWord: 'nonexistentbird' };
+    const birdAct = { ...allActivities.find(a => a.targetWord?.toLowerCase() === 'bird')!, category: 'picture-recognition' as const, variant: 'word-entry' as const, targetWord: 'nonexistentbird' };
     expect(birdAct).toBeDefined();
 
     const birdDef = activityRegistry.getDefinition(birdAct.category, birdAct.variant)!;
@@ -351,7 +351,7 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
 
   // --- SECTION 7: INTERACTIVE RETRY AND NO-ANSWER-REVEAL FLOW ---
   it('verifies interactive wrong submission, retry enablement, and absence of answer reveal in WordEntryActivity', () => {
-    const e01Act = allActivities.find(a => a.source?.activityCode === 'E01')!;
+    const e01Act = allActivities.find(a => a.source?.activityCode === 'E01' && a.variant === 'word-entry')!;
     const def = activityRegistry.getDefinition(e01Act.category, e01Act.variant)!;
 
     let submittedVal: unknown = null;

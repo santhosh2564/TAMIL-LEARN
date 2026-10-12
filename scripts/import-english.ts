@@ -13,79 +13,93 @@ import {
   EnglishDifficultyBreakdown
 } from '../src/types';
 
-const ENG_SOURCE_DIR = path.resolve('docs/eng');
+// ── Source and output directories ──────────────────────────────────────────────
+const ENG_SOURCE_DIR = path.resolve('updatedenglishspellingquestions');
 const OUT_DIR = path.resolve('src/content/class-3/english');
 const ENG_IMAGES_ROOT = path.resolve('ENGLISH-IMAGES-20261004T082455Z-1-001/ENGLISH-IMAGES');
 const PUBLIC_IMAGES_DIR = path.resolve('public/assets/class-3/english/images');
 
+// ── Module configuration: new XLSX files ────────────────────────────────────────
 interface ModuleSourceConfig {
   module: number;
   filename: string;
+  /** Primary data sheet for new words */
   newWordsSheet: string;
+  /** Primary data sheet for review words (null for M1) */
   reviewSheet: string | null;
   title: string;
+  /** Which schema to use when reading rows */
+  schema: 'M1' | 'M2' | 'M3' | 'M4_plus';
 }
 
 const MODULE_CONFIGS: ModuleSourceConfig[] = [
   {
     module: 1,
-    filename: 'English_Module_1_120_Word_Implementation_Plan.xlsx',
-    newWordsSheet: 'Module 1 - 120 Words',
+    filename: 'English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx',
+    newWordsSheet: 'All 120 - Validation',
     reviewSheet: null,
-    title: 'Module 1 - Foundation & Recognition'
+    title: 'Module 1 - Foundation & Recognition',
+    schema: 'M1'
   },
   {
     module: 2,
-    filename: 'English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx',
-    newWordsSheet: 'Module 2 - 120 New Words',
-    reviewSheet: 'Module 2 - 40 Review',
-    title: 'Module 2 - Phonemic Building & Core Vocabulary'
+    filename: 'English_Module_2_All_160_Questions_Options_for_Validation.xlsx',
+    newWordsSheet: 'All 160 - Validation',
+    reviewSheet: null, // new+review in one flat sheet, split by Role column
+    title: 'Module 2 - Phonemic Building & Core Vocabulary',
+    schema: 'M2'
   },
   {
     module: 3,
-    filename: 'English_Module_3_120_NEW_40_REVIEW_PROCESSED.xlsx',
-    newWordsSheet: 'Module 3 - 120 New Words',
-    reviewSheet: 'Module 3 - 40 Review',
-    title: 'Module 3 - Structural Patterns & Blends'
+    filename: 'English_Module_3_All_160_Questions_Options_for_Validation.xlsx',
+    newWordsSheet: 'All 160 - Validation',
+    reviewSheet: null, // new+review in one flat sheet
+    title: 'Module 3 - Structural Patterns & Blends',
+    schema: 'M3'
   },
   {
     module: 4,
-    filename: 'English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx',
+    filename: 'English_Module_4_Picture_Support_Corrected_v2.xlsx',
     newWordsSheet: 'Module 4 - 120 New Words',
     reviewSheet: 'Module 4 - 40 Review',
-    title: 'Module 4 - Word Construction & Syllables'
+    title: 'Module 4 - Word Construction & Syllables',
+    schema: 'M4_plus'
   },
   {
     module: 5,
-    filename: 'English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx',
+    filename: 'English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx',
     newWordsSheet: 'Module 5 - 120 New Words',
     reviewSheet: 'Module 5 - 40 Review',
-    title: 'Module 5 - Context & Extended Vocabulary'
+    title: 'Module 5 - Context & Extended Vocabulary',
+    schema: 'M4_plus'
   },
   {
     module: 6,
-    filename: 'English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx',
+    filename: 'English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx',
     newWordsSheet: 'Module 6 - 120 New Words',
     reviewSheet: 'Module 6 - 40 Review',
-    title: 'Module 6 - Advanced Construction & Compounds'
+    title: 'Module 6 - Advanced Construction & Compounds',
+    schema: 'M4_plus'
   },
   {
     module: 7,
-    filename: 'English_Module_7_120_NEW_40_REVIEW_PROCESSED.xlsx',
+    filename: 'English_Module_7_Picture_and_Options_Support_Corrected_v2_FULL_WORD_LIST.xlsx',
     newWordsSheet: 'Module 7 - 120 New Words',
     reviewSheet: 'Module 7 - 40 Review',
-    title: 'Module 7 - Lexical Consolidation'
+    title: 'Module 7 - Lexical Consolidation',
+    schema: 'M4_plus'
   },
   {
     module: 8,
-    filename: 'English_Module_8_118_NEW_40_REVIEW_PROCESSED.xlsx',
+    filename: 'English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx',
     newWordsSheet: 'Module 8 - 118 New Words',
     reviewSheet: 'Module 8 - 40 Review',
-    title: 'Module 8 - Curriculum Mastery'
+    title: 'Module 8 - Curriculum Mastery',
+    schema: 'M4_plus'
   }
 ];
 
-// Documented authoring anomalies that must not be silently fixed
+// ── Documented authoring anomalies ──────────────────────────────────────────────
 const SOURCE_ANOMALIES: Record<string, string> = {
   EW114: '8 letter tokens provided for 6-letter word "cannot" (extra n, o)',
   EW249: 'Options string includes literal text "+ picture of a home"',
@@ -97,6 +111,24 @@ const SOURCE_ANOMALIES: Record<string, string> = {
   EW913: '7 letter tokens provided for 6-letter word "warned" (extra n)',
   EW943: '7 letter tokens provided for 6-letter word "wooden" (extra d)'
 };
+
+// ── Normalized row type returned by schema readers ──────────────────────────────
+interface NormalizedRow {
+  ewId: string;
+  targetWord: string;
+  difficulty: unknown;
+  activityCode: string;
+  rawActivity: string;
+  prompt: string;
+  rawOptions: string | undefined;
+  correctAnswer: string;
+  day: number;
+  role: 'new' | 'review';
+  reviewSourceModule?: number;
+  proposedOptions?: string; // E05 proposed missing-letter options
+}
+
+// ── Utility ─────────────────────────────────────────────────────────────────────
 
 function readSheet(filePath: string, sheetName: string): Record<string, unknown>[] {
   const buf = fs.readFileSync(filePath);
@@ -114,20 +146,31 @@ function extractActivityCode(activityStr: string): string {
 function normalizeDifficulty(rawDiff: unknown): { level: 1 | 2 | 3; sourceDifficulty: 'Easy' | 'Medium' | 'Hard' | 'Mixed' | 'Unclassified' } {
   const str = String(rawDiff || '').trim();
   const lower = str.toLowerCase();
-
-  if (lower === 'easy') {
-    return { level: 1, sourceDifficulty: 'Easy' };
-  }
-  if (lower === 'medium') {
-    return { level: 2, sourceDifficulty: 'Medium' };
-  }
-  if (lower === 'hard') {
-    return { level: 3, sourceDifficulty: 'Hard' };
-  }
-  if (lower === 'mixed') {
-    return { level: 2, sourceDifficulty: 'Mixed' };
-  }
+  if (lower === 'easy') return { level: 1, sourceDifficulty: 'Easy' };
+  if (lower === 'medium') return { level: 2, sourceDifficulty: 'Medium' };
+  if (lower === 'hard') return { level: 3, sourceDifficulty: 'Hard' };
+  if (lower === 'mixed') return { level: 2, sourceDifficulty: 'Mixed' };
   return { level: 2, sourceDifficulty: 'Unclassified' };
+}
+
+
+/**
+ * Detect whether rawOptions represent individual letter/syllable tiles for arrangement
+ * vs word-level spelling choices.
+ * Letter tiles: pipe-delimited, each token is 1-4 chars (single letters or short syllables).
+ * Word choices: slash-delimited OR pipe-delimited tokens of >4 chars on average.
+ */
+function isLetterTileOptions(rawOptions: string): boolean {
+  // Strip common prefixes like "Picture + jumbled letters:", "Jumbled letter tiles:", etc.
+  const cleaned = rawOptions.replace(/^[^|/]+?(?:letter tiles|jumbled letters|word parts|syllables|tiles)\s*[:：]?\s*/i, '');
+  // If only slashes and no pipes → word-choice format
+  if (!cleaned.includes('|') && cleaned.includes('/')) return false;
+  // Split by pipe
+  const parts = cleaned.split('|').map(p => p.trim()).filter(Boolean);
+  if (parts.length < 2) return false;
+  // If average token length is ≤ 4 chars, treat as letter tiles
+  const avgLen = parts.reduce((sum, p) => sum + p.length, 0) / parts.length;
+  return avgLen <= 4;
 }
 
 function normalizeActivityMapping(
@@ -147,15 +190,29 @@ function normalizeActivityMapping(
     case 'E11':
       return { category: 'word-completion', variant: 'missing-unit' };
 
-    case 'E01':
+    case 'E01': {
+      // E01 is picture-recognition; if it has letter tiles for arrangement, use arrange
+      if (rawOptions && isLetterTileOptions(rawOptions)) {
+        return { category: 'arrange-word', variant: 'arrange' };
+      }
       return { category: 'picture-recognition', variant: 'word-entry' };
+    }
 
     case 'E12': {
-      const hasChoices = rawOptions && (rawOptions.includes('/') || rawOptions.includes('|'));
-      return {
-        category: 'picture-recognition',
-        variant: hasChoices ? 'select' : 'word-entry'
-      };
+      if (!rawOptions) return { category: 'picture-recognition', variant: 'word-entry' };
+      // Slash-delimited full word choices → picture-recognition::select
+      if (rawOptions.includes('/') && !rawOptions.includes('|')) {
+        return { category: 'picture-recognition', variant: 'select' };
+      }
+      // Pipe-delimited letter tiles → arrange-word::arrange
+      if (isLetterTileOptions(rawOptions)) {
+        return { category: 'arrange-word', variant: 'arrange' };
+      }
+      // Mixed or ambiguous: pipe-delimited with longer tokens → select
+      if (rawOptions.includes('/') || rawOptions.includes('|')) {
+        return { category: 'picture-recognition', variant: 'select' };
+      }
+      return { category: 'picture-recognition', variant: 'word-entry' };
     }
 
     case 'E09':
@@ -167,16 +224,26 @@ function normalizeActivityMapping(
   }
 }
 
+
+/**
+ * Parse the options/units from the raw options string.
+ * For select: slash-delimited or pipe-delimited word choices
+ * For arrange: pipe-delimited letter/syllable tiles
+ * For missing-unit: template with underscore gaps
+ */
 function parseOptionsOrUnits(
   variant: ActivityVariant,
-  rawStr: string | undefined
+  rawStr: string | undefined,
+  proposedOptions?: string
 ): { options?: ActivityOption[]; units?: string[]; template?: string } {
-  if (!rawStr) return {};
+  // Prefer proposedOptions for word-completion (E05) when available
+  const effectiveStr = (variant === 'missing-unit' && proposedOptions) ? proposedOptions : rawStr;
 
-  const trimmed = rawStr.trim();
+  if (!effectiveStr) return {};
+  const trimmed = effectiveStr.trim();
 
   if (variant === 'select') {
-    // Slash-delimited or pipe-delimited
+    // Slash-delimited or pipe-delimited options
     const delimiter = trimmed.includes('/') ? '/' : '|';
     const parts = trimmed.split(delimiter).map(p => p.trim()).filter(Boolean);
     const options: ActivityOption[] = parts.map((label, idx) => ({
@@ -187,9 +254,32 @@ function parseOptionsOrUnits(
   }
 
   if (variant === 'arrange') {
-    // Pipe-delimited or slash-delimited (e.g. EW894)
-    const delimiter = trimmed.includes('|') ? '|' : (trimmed.includes('/') ? '/' : '|');
-    const units = trimmed.split(delimiter).map(p => p.trim()).filter(Boolean);
+    // Parse pipe-delimited or slash-delimited arrange tiles
+    // Strip prefix text like "Jumbled letter tiles:" or "Picture + jumbled letters:"
+    let cleaned = trimmed;
+    // Remove common prefix patterns
+    cleaned = cleaned.replace(/^.*?(?:jumbled letter tiles|jumbled letters|letter tiles|word parts|word part tiles|syllable tiles)\s*[:：]?\s*/i, '');
+    // Also handle "_ _ _ | Jumbled letter tiles: t | a | r" pattern
+    const pipeIdx = cleaned.indexOf('|');
+    const underscoreOnly = /^[_\s]+$/.test(cleaned.substring(0, pipeIdx > 0 ? pipeIdx : cleaned.length));
+    if (underscoreOnly && pipeIdx > 0) {
+      cleaned = cleaned.substring(pipeIdx + 1);
+    }
+
+    const delimiter = cleaned.includes('|') ? '|' : (cleaned.includes('/') ? '/' : '|');
+    const units = cleaned.split(delimiter).map(p => p.trim()).filter(p => p && p !== '_');
+    if (units.length === 0) {
+      // Fallback: try original rawStr
+      const fallback = (rawStr || '').replace(/^.*?[:：]\s*/i, '');
+      const fb = fallback.split(/[|/]/).map(p => p.trim()).filter(p => p && p !== '_');
+      if (fb.length > 0) {
+        const options: ActivityOption[] = fb.map((label, idx) => ({
+          id: String.fromCharCode(65 + idx),
+          label
+        }));
+        return { units: fb, options };
+      }
+    }
     const options: ActivityOption[] = units.map((label, idx) => ({
       id: String.fromCharCode(65 + idx),
       label
@@ -197,9 +287,11 @@ function parseOptionsOrUnits(
     return { units, options };
   }
 
-  // For missing-unit, word-entry, or clues
+  // For missing-unit and word-entry: use as template
   return { template: trimmed };
 }
+
+// ── Letter and word distractor generators (unchanged from original) ──────────────
 
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 const CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w'];
@@ -227,9 +319,7 @@ function generateLetterDistractors(letter: string, seedStr: string): string[] {
   for (let i = 0; i < pool.length && picked.length < 3; i++) {
     const idx = (hash + i * 3) % pool.length;
     const candidate = pool[idx];
-    if (!picked.includes(candidate)) {
-      picked.push(candidate);
-    }
+    if (!picked.includes(candidate)) picked.push(candidate);
   }
   let i = 0;
   while (picked.length < 3 && i < pool.length) {
@@ -249,9 +339,7 @@ function generateWordDistractors(targetWord: string, pool: string[], seedStr: st
   for (let i = 0; i < filtered.length && picked.length < 3; i++) {
     const idx = (hash + i * 7) % filtered.length;
     const candidate = filtered[idx];
-    if (!picked.includes(candidate)) {
-      picked.push(candidate);
-    }
+    if (!picked.includes(candidate)) picked.push(candidate);
   }
   let i = 0;
   while (picked.length < 3 && i < filtered.length) {
@@ -275,6 +363,8 @@ function createActivityOptions(correctLabel: string, distractors: string[], seed
   }));
 }
 
+// ── Tamil asset cross-references ────────────────────────────────────────────────
+
 const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; alt: string }> = {
   'apple': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Apple — ஆப்பிள்' },
   'fruit': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Fruit — பழம்' },
@@ -297,8 +387,7 @@ function createAssetRequirement(activityId: string, ewId: string, targetWord: st
   const wordKey = targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-');
   const assetId = `eng-${wordKey}`;
   const lowerPrompt = prompt.toLowerCase();
-  
-  // False positive check: prompt sentence mentions the noun "picture"
+
   let isTextOnly = false;
   if (activityCode === 'E04') isTextOnly = true;
   else if (activityCode === 'E06' && !lowerPrompt.includes('look at the picture')) isTextOnly = true;
@@ -308,11 +397,7 @@ function createAssetRequirement(activityId: string, ewId: string, targetWord: st
 
   if (isTextOnly) {
     return {
-      activityId,
-      ewId,
-      targetWord,
-      activityCode,
-      assetId,
+      activityId, ewId, targetWord, activityCode, assetId,
       required: false,
       classification: 'TEXT_ONLY' as const,
       status: 'text_only' as const,
@@ -323,11 +408,7 @@ function createAssetRequirement(activityId: string, ewId: string, targetWord: st
   const tamilMatch = EXACT_TAMIL_MATCHES[targetWord.toLowerCase()];
   if (tamilMatch) {
     return {
-      activityId,
-      ewId,
-      targetWord,
-      activityCode,
-      assetId,
+      activityId, ewId, targetWord, activityCode, assetId,
       required: true,
       classification: 'REQUIRED' as const,
       status: 'mapped' as const,
@@ -338,11 +419,7 @@ function createAssetRequirement(activityId: string, ewId: string, targetWord: st
   }
 
   return {
-    activityId,
-    ewId,
-    targetWord,
-    activityCode,
-    assetId,
+    activityId, ewId, targetWord, activityCode, assetId,
     required: true,
     classification: 'REQUIRED' as const,
     status: 'missing' as const,
@@ -350,6 +427,208 @@ function createAssetRequirement(activityId: string, ewId: string, targetWord: st
     proposedPath: `/assets/class-3/english/images/${assetId}.jpg`
   };
 }
+
+// ── Schema-specific row normalizers ─────────────────────────────────────────────
+
+/**
+ * Module 1: All 120 questions in one sheet.
+ * Columns: No., Question ID, Target Word, Difficulty, Existing Activity Type,
+ *          Exact Existing Instruction / Question, Existing Options / Word Parts / Picture Cue,
+ *          Correct Answer (reviewer only), Proposed Game Presentation,
+ *          Proposed Jumbled Letter Tiles (picture-write only), Validation Decision
+ * No Day or Role column — all rows are 'new'; day assigned by position (24 per day).
+ */
+function normalizeM1Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
+  return rows.map((r, idx) => {
+    const ewId = String(r['Question ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Existing Activity Type'] || '').trim();
+    const activityCode = extractActivityCode(rawActivity);
+
+    // Prompt: use instruction/question field
+    const prompt = String(r['Exact Existing Instruction / Question'] || '').trim();
+
+    // Options: prefer existing options field; for arrange activities, use Proposed Jumbled Letter Tiles
+    let rawOptions = String(r['Existing Options / Word Parts / Picture Cue'] || '').trim();
+    const proposedTiles = String(r['Proposed Jumbled Letter Tiles (picture-write only)'] || '').trim();
+
+    // For picture-write activities (E01/E12 with arrangement), use proposed tiles if cue is a picture description or empty
+    if (!rawOptions || /^picture\b/i.test(rawOptions) || (activityCode === 'E01' && proposedTiles)) {
+      if (proposedTiles) {
+        rawOptions = proposedTiles;
+      }
+    }
+
+    const correctAnswer = String(r['Correct Answer (reviewer only)'] || '').trim();
+    const difficulty = r['Difficulty'];
+    // No Day column in M1 — assign 24 per day (rows 0-23 → day 1, etc.)
+    const day = Math.min(5, Math.floor(idx / 24) + 1);
+
+    return {
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions: rawOptions || undefined, correctAnswer,
+      day, role: 'new'
+    };
+  });
+}
+
+/**
+ * Module 2: All 160 questions (new + review) in one flat sheet.
+ * Columns: No., Question ID, Target Word, Difficulty, Role / Source Sheet,
+ *          Existing Activity Type, Activity Code, Exact Existing Instruction / Clue,
+ *          Existing Letters / Options / Word Parts, Correct Answer (reviewer only),
+ *          Proposed Game Presentation, Proposed Missing-Letter Options (E05 only),
+ *          Validation Status
+ * Role column distinguishes new vs review.
+ * No Day column — assign 24 new / 8 review per day (5 days).
+ */
+function normalizeM2Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
+  const newRows = rows.filter(r => String(r['Role / Source Sheet'] || '').toLowerCase().includes('new'));
+  const revRows = rows.filter(r => String(r['Role / Source Sheet'] || '').toLowerCase().includes('review') || String(r['Role / Source Sheet'] || '').toLowerCase().includes('cumulative'));
+
+  const result: NormalizedRow[] = [];
+
+  newRows.forEach((r, idx) => {
+    const ewId = String(r['Question ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Existing Activity Type'] || '').trim();
+    const actCode = String(r['Activity Code'] || '').trim();
+    const activityCode = actCode || extractActivityCode(rawActivity);
+    const prompt = String(r['Exact Existing Instruction / Clue'] || '').trim();
+    const rawOptions = String(r['Existing Letters / Options / Word Parts'] || '').trim() || undefined;
+    const proposedOptions = String(r['Proposed Missing-Letter Options (E05 only)'] || '').trim() || undefined;
+    const correctAnswer = String(r['Correct Answer (reviewer only)'] || '').trim();
+    const difficulty = r['Difficulty'];
+    const day = Math.min(5, Math.floor(idx / 24) + 1);
+
+    result.push({
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions, correctAnswer, day, role: 'new', proposedOptions
+    });
+  });
+
+  revRows.forEach((r, idx) => {
+    const ewId = String(r['Question ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Existing Activity Type'] || '').trim();
+    const actCode = String(r['Activity Code'] || '').trim();
+    const activityCode = actCode || extractActivityCode(rawActivity);
+    const prompt = String(r['Exact Existing Instruction / Clue'] || '').trim();
+    let rawOptions: string | undefined = String(r['Existing Letters / Options / Word Parts'] || '').trim() || undefined;
+    const proposedTiles = String(r['Proposed Jumbled Letter Tiles (picture-write only)'] || '').trim();
+    if (proposedTiles && (!rawOptions || /^picture\b/i.test(rawOptions) || activityCode === 'E01')) {
+      rawOptions = proposedTiles;
+    }
+    const proposedOptions = String(r['Proposed Missing-Letter Options (E05 only)'] || '').trim() || undefined;
+    const correctAnswer = String(r['Correct Answer (reviewer only)'] || '').trim();
+    const difficulty = r['Difficulty'];
+    const day = Math.min(5, Math.floor(idx / 8) + 1);
+
+    result.push({
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions, correctAnswer, day, role: 'review',
+      reviewSourceModule: 1,
+      proposedOptions
+    });
+  });
+
+  return result;
+}
+
+/**
+ * Module 3: All 160 questions in one flat sheet.
+ * Columns: Target Word, Activity Type, Child-Facing Instruction / Clue,
+ *          Letters / Options / Word Parts, Answer, ID, Module, Role, Source,
+ *          Difficulty Evidence, Primary Activity Code, Day, Source Worksheet,
+ *          Proposed Interaction Support, Proposed Letters / Options, Validation Note
+ */
+function normalizeM3Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
+  return rows.map(r => {
+    const ewId = String(r['ID'] || r['Question ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Activity Type'] || '').trim();
+    const actCode = String(r['Primary Activity Code'] || '').trim();
+    const activityCode = actCode || extractActivityCode(rawActivity);
+    const prompt = String(r['Child-Facing Instruction / Clue'] || '').trim();
+    const rawOptions = String(r['Letters / Options / Word Parts'] || r['Proposed Letters / Options'] || '').trim() || undefined;
+    const correctAnswer = String(r['Answer'] || '').trim();
+    const difficulty = r['Difficulty Evidence'] || r['Difficulty'];
+    const day = Number(r['Day'] || 1);
+    const roleRaw = String(r['Role'] || '').toLowerCase();
+    const role: 'new' | 'review' = roleRaw.includes('review') ? 'review' : 'new';
+    const reviewSourceModule = role === 'review' ? 2 : undefined;
+
+    return {
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions, correctAnswer, day, role, reviewSourceModule
+    };
+  });
+}
+
+/**
+ * Module 4-8: Separate sheets for new words and review.
+ * Columns: Day, EW ID, Target Word, Difficulty, Activity Type,
+ *          Child-Facing Instruction / Clue, Letters / Options / Word Parts, Answer,
+ *          + various extra columns depending on module
+ */
+function normalizeM4PlusNewRows(rows: Record<string, unknown>[]): NormalizedRow[] {
+  return rows.map(r => {
+    const ewId = String(r['EW ID'] || r['ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Activity Type'] || '').trim();
+    const activityCode = extractActivityCode(rawActivity);
+    const prompt = String(r['Child-Facing Instruction / Clue'] || '').trim();
+
+    // Prefer Proposed Letters / Options for E05 activities when available
+    const proposedOptions = String(r['E05 Missing-Letter Options (Proposed)'] || r['E05 Options (Proposed)'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
+    const rawOptionsRaw = String(r['Letters / Options / Word Parts'] || r['Proposed Letters / Options'] || '').trim();
+    const rawOptions = rawOptionsRaw || undefined;
+
+    const correctAnswer = String(r['Answer'] || r['Answer (Adult Key)'] || '').trim();
+    const difficulty = r['Difficulty'];
+    const day = Number(r['Day'] || 1);
+
+    return {
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions, correctAnswer, day, role: 'new', proposedOptions
+    };
+  });
+}
+
+function normalizeM4PlusReviewRows(rows: Record<string, unknown>[], moduleNum: number): NormalizedRow[] {
+  return rows.map(r => {
+    const ewId = String(r['EW ID'] || r['ID'] || '').trim();
+    const targetWord = String(r['Target Word'] || '').trim().toLowerCase();
+    const rawActivity = String(r['Activity Type'] || '').trim();
+    const activityCode = extractActivityCode(rawActivity);
+    const prompt = String(r['Child-Facing Instruction / Clue'] || '').trim();
+
+    const proposedOptions = String(r['Proposed Letters / Options'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
+    const rawOptionsRaw = String(r['Letters / Options / Word Parts'] || '').trim();
+    const rawOptions = rawOptionsRaw || undefined;
+
+    const correctAnswer = String(r['Answer'] || r['Answer (Adult Key)'] || '').trim();
+    const difficulty = r['Difficulty'];
+    const day = Number(r['Day'] || 1);
+
+    // Determine review source module from "Previous Module" or module number
+    const prevModStr = String(r['Previous Module'] || '').trim();
+    let reviewSourceModule: number | undefined;
+    if (prevModStr) {
+      const match = prevModStr.match(/\d+/);
+      if (match) reviewSourceModule = Number(match[0]);
+    }
+    if (!reviewSourceModule) reviewSourceModule = moduleNum - 1;
+
+    return {
+      ewId, targetWord, difficulty, activityCode, rawActivity,
+      prompt, rawOptions, correctAnswer, day, role: 'review', reviewSourceModule,
+      proposedOptions
+    };
+  });
+}
+
+// ── Main ingestion function ──────────────────────────────────────────────────────
 
 export interface IngestedEnglishContent {
   curriculumManifest: EnglishCurriculumManifest;
@@ -367,67 +646,80 @@ export interface IngestedEnglishContent {
     prompt: string;
     proposedPath?: string;
     reusedFromTamilAssetId?: string;
+    resolvedPath?: string;
   }[];
 }
 
 export function importEnglishContent(): IngestedEnglishContent {
-  console.log('Starting Class 3 English content ingestion...');
+  console.log('Starting Class 3 English content ingestion from updated source files...');
+  console.log(`Source directory: ${ENG_SOURCE_DIR}`);
 
-  // Step 1: Pre-scan to map each EW ID to its origin module and build module vocabulary pools
+  // ── Pre-scan: build EW ID → origin module map and module word pools ──────────
   const wordOriginModuleMap = new Map<string, number>();
   const moduleWordMap = new Map<number, string[]>();
   const allEnglishWords: string[] = [];
 
-  MODULE_CONFIGS.forEach(cfg => {
+  for (const cfg of MODULE_CONFIGS) {
     const filePath = path.join(ENG_SOURCE_DIR, cfg.filename);
     const rows = readSheet(filePath, cfg.newWordsSheet);
     const wordsInMod: string[] = [];
+
     rows.forEach(r => {
-      const id = String(r['ID'] || r['EW ID'] || '').trim();
+      const id = String(r['Question ID'] || r['EW ID'] || r['ID'] || '').trim();
       const word = String(r['Target Word'] || '').trim().toLowerCase();
-      if (id) {
-        wordOriginModuleMap.set(id, cfg.module);
-      }
+      if (id) wordOriginModuleMap.set(id, cfg.module);
       if (word && !wordsInMod.includes(word)) {
         wordsInMod.push(word);
-        if (!allEnglishWords.includes(word)) {
-          allEnglishWords.push(word);
-        }
+        if (!allEnglishWords.includes(word)) allEnglishWords.push(word);
       }
     });
-    moduleWordMap.set(cfg.module, wordsInMod);
-  });
 
-  console.log(`Pre-scanned ${wordOriginModuleMap.size} unique new words across 8 modules.`);
+    moduleWordMap.set(cfg.module, wordsInMod);
+  }
+
+  console.log(`Pre-scanned ${wordOriginModuleMap.size} unique new words across ${MODULE_CONFIGS.length} modules.`);
 
   const moduleActivities: Record<number, Activity[]> = {};
   const moduleManifests: Record<number, EnglishModuleManifest> = {};
   const assetRequirements: IngestedEnglishContent['assetRequirements'] = [];
 
   const overallDifficultyBreakdown: EnglishDifficultyBreakdown = {
-    easy: 0,
-    medium: 0,
-    hard: 0,
-    mixed: 0,
-    unclassified: 0
+    easy: 0, medium: 0, hard: 0, mixed: 0, unclassified: 0
   };
 
   let totalNewWords = 0;
   let totalReviewInstances = 0;
 
-  // Step 2: Ingest each module
-  MODULE_CONFIGS.forEach(cfg => {
+  // ── Ingest each module ────────────────────────────────────────────────────────
+  for (const cfg of MODULE_CONFIGS) {
     const filePath = path.join(ENG_SOURCE_DIR, cfg.filename);
-    const newRows = readSheet(filePath, cfg.newWordsSheet);
-    const reviewRows = cfg.reviewSheet ? readSheet(filePath, cfg.reviewSheet) : [];
+    console.log(`\nIngesting Module ${cfg.module}: ${cfg.filename}`);
+
+    // Get normalized rows for this module
+    let normalizedRows: NormalizedRow[];
+
+    if (cfg.schema === 'M1') {
+      const rows = readSheet(filePath, cfg.newWordsSheet);
+      normalizedRows = normalizeM1Rows(rows);
+    } else if (cfg.schema === 'M2') {
+      const rows = readSheet(filePath, cfg.newWordsSheet);
+      normalizedRows = normalizeM2Rows(rows);
+    } else if (cfg.schema === 'M3') {
+      const rows = readSheet(filePath, cfg.newWordsSheet);
+      normalizedRows = normalizeM3Rows(rows);
+    } else {
+      // M4_plus: separate sheets
+      const newRows = readSheet(filePath, cfg.newWordsSheet);
+      const revRows = cfg.reviewSheet ? readSheet(filePath, cfg.reviewSheet) : [];
+      normalizedRows = [
+        ...normalizeM4PlusNewRows(newRows),
+        ...normalizeM4PlusReviewRows(revRows, cfg.module)
+      ];
+    }
 
     const activities: Activity[] = [];
     const modDiffBreakdown: EnglishDifficultyBreakdown = {
-      easy: 0,
-      medium: 0,
-      hard: 0,
-      mixed: 0,
-      unclassified: 0
+      easy: 0, medium: 0, hard: 0, mixed: 0, unclassified: 0
     };
 
     const daysMap = new Map<number, EnglishDayAllocation>();
@@ -437,47 +729,39 @@ export function importEnglishContent(): IngestedEnglishContent {
 
     const categoriesSet = new Set<ActivityCategory>();
 
-    // Process new words
-    newRows.forEach(row => {
-      const ewId = String(row['ID'] || row['EW ID'] || '').trim();
-      if (!ewId) return;
+    for (const row of normalizedRows) {
+      const { ewId, targetWord, difficulty, activityCode, rawActivity, prompt, rawOptions, correctAnswer, day, role, reviewSourceModule, proposedOptions } = row;
 
-      const targetWord = String(row['Target Word'] || '').trim().toLowerCase();
-      const rawActivity = String(row['Activity Type'] || row['Existing Primary Activity'] || row['Activity Code'] || '').trim();
-      const activityCode = extractActivityCode(rawActivity);
+      if (!ewId) continue;
 
-      const rawDiff = row['Difficulty'] || row['Difficulty Evidence'];
-      const { level, sourceDifficulty } = normalizeDifficulty(rawDiff);
+      const { level, sourceDifficulty } = normalizeDifficulty(difficulty);
 
-      // Track difficulty for new words
-      modDiffBreakdown[sourceDifficulty.toLowerCase() as keyof EnglishDifficultyBreakdown]++;
-      overallDifficultyBreakdown[sourceDifficulty.toLowerCase() as keyof EnglishDifficultyBreakdown]++;
-
-      const rawOptions = row['Letters / Options / Word Parts'] !== undefined && row['Letters / Options / Word Parts'] !== null
-        ? String(row['Letters / Options / Word Parts'])
-        : undefined;
+      if (role === 'new') {
+        modDiffBreakdown[sourceDifficulty.toLowerCase() as keyof EnglishDifficultyBreakdown]++;
+        overallDifficultyBreakdown[sourceDifficulty.toLowerCase() as keyof EnglishDifficultyBreakdown]++;
+      }
 
       const { category, variant } = normalizeActivityMapping(activityCode, rawOptions);
       categoriesSet.add(category);
 
-      const parsed = parseOptionsOrUnits(variant, rawOptions);
+      const parsed = parseOptionsOrUnits(variant, rawOptions, proposedOptions);
 
-      const prompt = String(row['Child-Facing Instruction / Clue'] || '').trim();
-      const correctAnswer = String(row['Answer'] || '').trim();
-
-      const day = Number(row['Day'] || row['Primary Day'] || 1);
       const dayAlloc = daysMap.get(day);
       if (dayAlloc) {
-        dayAlloc.newCount++;
-        dayAlloc.totalCount++;
+        if (role === 'new') { dayAlloc.newCount++; dayAlloc.totalCount++; }
+        else { dayAlloc.reviewCount++; dayAlloc.totalCount++; }
       }
 
-      const runtimeId = `ENG-M${cfg.module}-${ewId}`;
+      const runtimeId = role === 'new'
+        ? `ENG-M${cfg.module}-${ewId}`
+        : `ENG-M${cfg.module}-REV-${ewId}`;
+
       const isAnomaly = ewId in SOURCE_ANOMALIES;
 
       let options = parsed.options;
       let units = parsed.units;
 
+      // Auto-generate options when missing
       if (!options || options.length === 0) {
         if (category === 'word-completion') {
           const missing = extractMissingLetter(parsed.template, targetWord, correctAnswer);
@@ -491,6 +775,8 @@ export function importEnglishContent(): IngestedEnglishContent {
         }
       }
 
+      const originModule = role === 'review' ? (reviewSourceModule ?? wordOriginModuleMap.get(ewId)) : undefined;
+
       const activity: Activity = {
         id: runtimeId,
         classLevel: 3,
@@ -498,7 +784,8 @@ export function importEnglishContent(): IngestedEnglishContent {
         language: 'en-IN',
         module: cfg.module,
         day,
-        role: 'new',
+        role,
+        ...(role === 'review' && { reviewSourceModule: originModule }),
         level,
         sourceDifficulty,
         targetWord,
@@ -519,107 +806,21 @@ export function importEnglishContent(): IngestedEnglishContent {
         }
       };
 
-      // Check asset requirement
+      // Track asset requirements for picture activities
       if (requiresPictureAsset(activityCode, prompt, rawActivity)) {
         assetRequirements.push(createAssetRequirement(runtimeId, ewId, targetWord, activityCode, prompt));
       }
 
       activities.push(activity);
-      totalNewWords++;
-    });
 
-    // Process review words
-    reviewRows.forEach(row => {
-      const ewId = String(row['ID'] || row['EW ID'] || '').trim();
-      if (!ewId) return;
-
-      const targetWord = String(row['Target Word'] || '').trim().toLowerCase();
-      const rawActivity = String(row['Activity Type'] || row['Existing Activity Type'] || '').trim();
-      const activityCode = extractActivityCode(rawActivity);
-
-      const rawDiff = row['Difficulty'] || row['Difficulty Evidence'] || row['Module 1 Difficulty'];
-      const { level, sourceDifficulty } = normalizeDifficulty(rawDiff);
-
-      const rawOptions = row['Letters / Options / Word Parts'] !== undefined && row['Letters / Options / Word Parts'] !== null
-        ? String(row['Letters / Options / Word Parts'])
-        : undefined;
-
-      const { category, variant } = normalizeActivityMapping(activityCode, rawOptions);
-      categoriesSet.add(category);
-
-      const parsed = parseOptionsOrUnits(variant, rawOptions);
-
-      const prompt = String(row['Child-Facing Instruction / Clue'] || '').trim();
-      const correctAnswer = String(row['Answer'] || '').trim();
-
-      const day = Number(row['Day'] || row['Review Day'] || 1);
-      const dayAlloc = daysMap.get(day);
-      if (dayAlloc) {
-        dayAlloc.reviewCount++;
-        dayAlloc.totalCount++;
-      }
-
-      const runtimeId = `ENG-M${cfg.module}-REV-${ewId}`;
-      const originModule = wordOriginModuleMap.get(ewId);
-      const isAnomaly = ewId in SOURCE_ANOMALIES;
-
-      let options = parsed.options;
-      let units = parsed.units;
-
-      if (!options || options.length === 0) {
-        if (category === 'word-completion') {
-          const missing = extractMissingLetter(parsed.template, targetWord, correctAnswer);
-          const distractors = generateLetterDistractors(missing, runtimeId);
-          options = createActivityOptions(missing, distractors, runtimeId);
-          units = options.map(o => o.label);
-        } else if (category === 'picture-recognition' || category === 'meaning-match') {
-          const modPool = moduleWordMap.get(cfg.module) || allEnglishWords;
-          const distractors = generateWordDistractors(targetWord, modPool.length >= 4 ? modPool : allEnglishWords, runtimeId);
-          options = createActivityOptions(targetWord, distractors, runtimeId);
-        }
-      }
-
-      const activity: Activity = {
-        id: runtimeId,
-        classLevel: 3,
-        subject: 'English',
-        language: 'en-IN',
-        module: cfg.module,
-        day,
-        role: 'review',
-        reviewSourceModule: originModule,
-        level,
-        sourceDifficulty,
-        targetWord,
-        category,
-        variant,
-        prompt,
-        options,
-        units,
-        template: parsed.template,
-        correctAnswer,
-        source: {
-          workbook: cfg.filename,
-          ewId,
-          activityCode,
-          originalActivity: rawActivity,
-          hasSourceAnomaly: isAnomaly,
-          anomalyNote: isAnomaly ? SOURCE_ANOMALIES[ewId] : undefined
-        }
-      };
-
-      if (requiresPictureAsset(activityCode, prompt, rawActivity)) {
-        assetRequirements.push(createAssetRequirement(runtimeId, ewId, targetWord, activityCode, prompt));
-      }
-
-      activities.push(activity);
-      totalReviewInstances++;
-    });
+      if (role === 'new') totalNewWords++;
+      else totalReviewInstances++;
+    }
 
     moduleActivities[cfg.module] = activities;
 
-    const newCount = newRows.length;
-    const reviewCount = reviewRows.length;
+    const newCount = activities.filter(a => a.role === 'new').length;
+    const reviewCount = activities.filter(a => a.role === 'review').length;
 
     moduleManifests[cfg.module] = {
       classLevel: 3,
@@ -632,9 +833,11 @@ export function importEnglishContent(): IngestedEnglishContent {
       days: Array.from(daysMap.values()),
       difficultyBreakdown: modDiffBreakdown,
       supportedCategories: Array.from(categoriesSet),
-      version: '1.0.0'
+      version: '2.0.0'
     };
-  });
+
+    console.log(`  Module ${cfg.module}: ${newCount} new + ${reviewCount} review = ${activities.length} activities`);
+  }
 
   const curriculumManifest: EnglishCurriculumManifest = {
     classLevel: 3,
@@ -655,10 +858,15 @@ export function importEnglishContent(): IngestedEnglishContent {
       };
     }),
     difficultyBreakdown: overallDifficultyBreakdown,
-    version: '1.0.0',
-    sourceVersion: 'Class 3 English Modules 1-8 Consolidated Verified Master',
+    version: '2.0.0',
+    sourceVersion: 'Class 3 English Updated Spelling Questions (updatedenglishspellingquestions v2)',
     generatedDate: new Date().toISOString()
   };
+
+  console.log(`\nIngestion complete:`);
+  console.log(`  Total unique new words: ${totalNewWords}`);
+  console.log(`  Total review instances: ${totalReviewInstances}`);
+  console.log(`  Total activities: ${totalNewWords + totalReviewInstances}`);
 
   return {
     curriculumManifest,
@@ -696,10 +904,10 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
     );
   }
 
-  // ── START ASSET IMPORT FIX ──
+  // ── Asset import ──────────────────────────────────────────────────────────────
   fs.mkdirSync(PUBLIC_IMAGES_DIR, { recursive: true });
 
-  // 1. Build Tamil baseline
+  // Build Tamil baseline
   const manifestEntries: Record<string, { type: string; source: string; path: string; alt: string }> = {};
   for (const [word, match] of Object.entries(EXACT_TAMIL_MATCHES)) {
     const key = `eng-${word}`;
@@ -711,20 +919,20 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
     };
   }
 
-  // 2. Scan available English source images
+  // Scan available English source images
   const sourceImageMap = new Map<string, string>(); // ewId -> source absolute path
   for (let m = 1; m <= 8; m++) {
     const modDir = path.join(ENG_IMAGES_ROOT, `Module_${m}`);
     if (fs.existsSync(modDir)) {
       const files = fs.readdirSync(modDir).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
-      // First pass: look for _1 variants
+      // First pass: prefer _1 variants
       for (const f of files) {
         if (f.includes('_1.')) {
           const m2 = f.match(/^(EW\d+)_/i);
           if (m2) sourceImageMap.set(m2[1].toUpperCase(), path.join(modDir, f));
         }
       }
-      // Second pass: fallback if no _1 exists
+      // Second pass: fallback
       for (const f of files) {
         const m2 = f.match(/^(EW\d+)_/i);
         if (m2) {
@@ -735,7 +943,7 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
     }
   }
 
-  // 3. Resolve required assets
+  // Resolve required assets
   const processedAssetIds = new Set<string>();
   for (const entry of ingested.assetRequirements) {
     if (entry.classification === 'REQUIRED' && entry.status === 'missing') {
@@ -744,7 +952,6 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
       const publicPath = `/assets/class-3/english/images/${destFileName}`;
 
       if (processedAssetIds.has(entry.assetId)) {
-        // Already copied by a previous instance (e.g. original activity)
         entry.status = 'mapped';
         entry.resolvedPath = publicPath;
       } else {
@@ -763,13 +970,11 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
         }
       }
     } else if (entry.status === 'mapped' && entry.reusedFromTamilAssetId) {
-      // It's a Tamil reuse, just populate resolvedPath if needed
       entry.resolvedPath = entry.proposedPath;
     }
   }
-  // ── END ASSET IMPORT FIX ──
 
-  // Write asset requirements manifest
+  // Write asset manifests
   fs.writeFileSync(
     path.join(OUT_DIR, 'assets.json'),
     JSON.stringify(ingested.assetRequirements, null, 2),
@@ -782,14 +987,14 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
     'utf-8'
   );
 
-  console.log(`Successfully written English content to ${OUT_DIR}`);
-  console.log(`- Total Unique Words: ${ingested.curriculumManifest.totalUniqueWords}`);
-  console.log(`- Total Review Instances: ${ingested.curriculumManifest.totalReviewInstances}`);
-  console.log(`- Total Activities: ${ingested.curriculumManifest.totalActivities}`);
-  console.log(`- Visual Asset Requirements: ${ingested.assetRequirements.length}`);
+  console.log(`\nSuccessfully written English content to ${OUT_DIR}`);
+  console.log(`  Total Unique Words: ${ingested.curriculumManifest.totalUniqueWords}`);
+  console.log(`  Total Review Instances: ${ingested.curriculumManifest.totalReviewInstances}`);
+  console.log(`  Total Activities: ${ingested.curriculumManifest.totalActivities}`);
+  console.log(`  Visual Asset Requirements: ${ingested.assetRequirements.length}`);
 }
 
-// Run CLI when invoked directly
+// ── CLI entry point ───────────────────────────────────────────────────────────
 if (process.argv[1] && (process.argv[1].endsWith('import-english.ts') || process.argv[1].endsWith('import-english.js'))) {
   const result = importEnglishContent();
   writeIngestedContent(result);

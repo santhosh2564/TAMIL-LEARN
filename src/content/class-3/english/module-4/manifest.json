@@ -47,9 +47,9 @@
   },
   "supportedCategories": [
     "meaning-match",
-    "picture-recognition",
+    "arrange-word",
     "word-completion",
     "spelling-choice"
   ],
-  "version": "1.0.0"
+  "version": "2.0.0"
 }

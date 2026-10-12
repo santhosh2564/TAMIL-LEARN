@@ -16,31 +16,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "about"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "s"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "o",
-      "a"
+      "k",
+      "n",
+      "about",
+      "s"
     ],
-    "template": "a b _ u t",
+    "template": "o   /   w   /   p",
     "correctAnswer": "about",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW001",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -112,7 +112,7 @@
     ],
     "correctAnswer": "aeroplane",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW004",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -125,7 +125,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -154,7 +154,7 @@
     ],
     "correctAnswer": "agriculture",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW005",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -167,7 +167,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -178,31 +178,31 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
-      },
-      {
-        "id": "B",
-        "label": "b"
-      },
-      {
-        "id": "C",
         "label": "t"
       },
       {
+        "id": "B",
+        "label": "alphabet"
+      },
+      {
+        "id": "C",
+        "label": "c"
+      },
+      {
         "id": "D",
-        "label": "d"
+        "label": "g"
       }
     ],
     "units": [
-      "p",
-      "b",
       "t",
-      "d"
+      "alphabet",
+      "c",
+      "g"
     ],
-    "template": "a l p h a _ e t",
+    "template": "b   /   z   /   q",
     "correctAnswer": "alphabet",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW008",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -239,7 +239,7 @@
     ],
     "correctAnswer": "baton",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW041",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -263,31 +263,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "bee"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "n"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "e",
-      "a"
+      "f",
+      "k",
+      "bee",
+      "n"
     ],
-    "template": "b _ e",
+    "template": "u   /   o   /   e",
     "correctAnswer": "bee",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW049",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -311,31 +311,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "bin"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "p"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "g",
+      "bin",
+      "l",
+      "p"
     ],
-    "template": "b _ n",
+    "template": "i   /   c   /   a",
     "correctAnswer": "bin",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW059",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -348,7 +348,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -397,7 +397,7 @@
     ],
     "correctAnswer": "blanket",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW063",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -421,31 +421,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "bring"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "k"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "b",
+      "bring",
+      "f",
+      "k"
     ],
-    "template": "b r _ n g",
+    "template": "f   /   i   /   w",
     "correctAnswer": "bring",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW091",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -458,7 +458,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -487,7 +487,7 @@
     ],
     "correctAnswer": "buttermilk",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW108",
       "activityCode": "E07",
       "originalActivity": "E07 – Arrange Syllables",
@@ -511,31 +511,31 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "catch"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "f"
       }
     ],
     "units": [
-      "c",
-      "l",
-      "p",
-      "t"
+      "catch",
+      "s",
+      "b",
+      "f"
     ],
-    "template": "c a t _ h",
+    "template": "n   /   m   /   c",
     "correctAnswer": "catch",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW124",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -559,31 +559,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "coop"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "r"
       }
     ],
     "units": [
-      "o",
-      "a",
-      "u",
-      "i"
+      "coop",
+      "h",
+      "m",
+      "r"
     ],
-    "template": "c o _ p",
+    "template": "o   /   x   /   q",
     "correctAnswer": "coop",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW168",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -596,7 +596,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -625,7 +625,7 @@
     ],
     "correctAnswer": "creature",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW179",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -657,7 +657,7 @@
       },
       {
         "id": "C",
-        "label": "y"
+        "label": "cry"
       },
       {
         "id": "D",
@@ -667,13 +667,13 @@
     "units": [
       "l",
       "p",
-      "y",
+      "cry",
       "t"
     ],
-    "template": "c r _",
+    "template": "y   /   j   /   d",
     "correctAnswer": "cry",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW188",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -686,7 +686,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -697,31 +697,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "cube"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "k"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "a",
-      "u"
+      "b",
+      "cube",
+      "f",
+      "k"
     ],
-    "template": "c u b _",
+    "template": "f   /   w   /   e",
     "correctAnswer": "cube",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW190",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -745,31 +745,31 @@
     "options": [
       {
         "id": "A",
-        "label": "m"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "dance"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "w"
+        "label": "b"
       }
     ],
     "units": [
-      "m",
-      "c",
-      "r",
-      "w"
+      "n",
+      "dance",
+      "s",
+      "b"
     ],
-    "template": "d a n _ e",
+    "template": "o   /   c   /   z",
     "correctAnswer": "dance",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW202",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -793,31 +793,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "die"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "b"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "n",
+      "die",
+      "s",
+      "b"
     ],
-    "template": "d _ e",
+    "template": "w   /   i   /   p",
     "correctAnswer": "die",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW220",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -841,31 +841,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "dip"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "g"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "t",
+      "dip",
+      "c",
+      "g"
     ],
-    "template": "d _ p",
+    "template": "i   /   g   /   e",
     "correctAnswer": "dip",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW224",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -901,19 +901,19 @@
       },
       {
         "id": "D",
-        "label": "v"
+        "label": "drive"
       }
     ],
     "units": [
       "r",
       "w",
       "d",
-      "v"
+      "drive"
     ],
-    "template": "d r i _ e",
+    "template": "a   /   v   /   s",
     "correctAnswer": "drive",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW240",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -949,19 +949,19 @@
       },
       {
         "id": "D",
-        "label": "y"
+        "label": "dry"
       }
     ],
     "units": [
       "b",
       "f",
       "k",
-      "y"
+      "dry"
     ],
-    "template": "d r _",
+    "template": "l   /   y   /   q",
     "correctAnswer": "dry",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW244",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -985,31 +985,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "eat"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "t",
+      "c",
+      "g",
+      "eat"
     ],
-    "template": "e | _ | t",
+    "template": "j   /   a   /   o",
     "correctAnswer": "eat",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW251",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1033,31 +1033,31 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "egg"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "h"
       }
     ],
     "units": [
-      "g",
-      "n",
-      "s",
-      "b"
+      "egg",
+      "w",
+      "d",
+      "h"
     ],
-    "template": "e | g | _",
+    "template": "g   /   o   /   z",
     "correctAnswer": "egg",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW252",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1070,7 +1070,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -1099,7 +1099,7 @@
     ],
     "correctAnswer": "encourage",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW255",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -1112,7 +1112,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 1,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -1166,7 +1166,7 @@
     ],
     "correctAnswer": "evening",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW262",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1191,20 +1191,25 @@
     "options": [
       {
         "id": "A",
-        "label": "lash"
+        "label": "la"
       },
       {
         "id": "B",
+        "label": "sh"
+      },
+      {
+        "id": "C",
         "label": "eye"
       }
     ],
     "units": [
-      "lash",
+      "la",
+      "sh",
       "eye"
     ],
     "correctAnswer": "eyelash",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW268",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Word Parts",
@@ -1228,31 +1233,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "flag"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "p",
+      "t",
+      "c",
+      "flag"
     ],
-    "template": "f l _ g",
+    "template": "q   /   c   /   a",
     "correctAnswer": "flag",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW299",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1309,7 +1314,7 @@
     ],
     "correctAnswer": "fluffy",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW305",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1322,7 +1327,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1341,7 +1346,7 @@
       },
       {
         "id": "C",
-        "label": "y"
+        "label": "fly"
       },
       {
         "id": "D",
@@ -1351,13 +1356,13 @@
     "units": [
       "w",
       "d",
-      "y",
+      "fly",
       "h"
     ],
-    "template": "f l _",
+    "template": "y   /   r   /   x",
     "correctAnswer": "fly",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW306",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1381,31 +1386,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "front"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "c"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "o",
-      "a"
+      "p",
+      "t",
+      "front",
+      "c"
     ],
-    "template": "f r _ n t",
+    "template": "o   /   d   /   a",
     "correctAnswer": "front",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW320",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1418,7 +1423,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1429,31 +1434,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "u"
+        "label": "fun"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "g"
       }
     ],
     "units": [
-      "e",
-      "u",
-      "a",
-      "o"
+      "t",
+      "fun",
+      "c",
+      "g"
     ],
-    "template": "f | _ | n",
+    "template": "u   /   g   /   b",
     "correctAnswer": "fun",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW323",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1466,7 +1471,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1477,31 +1482,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "gap"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "b",
+      "f",
+      "k",
+      "gap"
     ],
-    "template": "g _ p",
+    "template": "h   /   u   /   a",
     "correctAnswer": "gap",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW325",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1525,31 +1530,31 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
+        "label": "grain"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "r"
       }
     ],
     "units": [
-      "a",
-      "e",
-      "u",
-      "o"
+      "grain",
+      "h",
+      "m",
+      "r"
     ],
-    "template": "g r _ i n",
+    "template": "b   /   a   /   w",
     "correctAnswer": "grain",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW348",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1573,31 +1578,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "green"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "n"
       }
     ],
     "units": [
-      "e",
-      "a",
-      "u",
-      "o"
+      "green",
+      "f",
+      "k",
+      "n"
     ],
-    "template": "g r _ e n",
+    "template": "h   /   e   /   b",
     "correctAnswer": "green",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW355",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1610,7 +1615,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1621,31 +1626,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "hay"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "w"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "e",
-      "u"
+      "m",
+      "hay",
+      "r",
+      "w"
     ],
-    "template": "h _ y",
+    "template": "s   /   a   /   b",
     "correctAnswer": "hay",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW378",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1669,31 +1674,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "here"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "n"
       }
     ],
     "units": [
-      "e",
-      "a",
-      "u",
-      "o"
+      "here",
+      "f",
+      "k",
+      "n"
     ],
-    "template": "h e r _",
+    "template": "z   /   a   /   e",
     "correctAnswer": "here",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW391",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1730,7 +1735,7 @@
     ],
     "correctAnswer": "hippo",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW393",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -1743,7 +1748,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1754,31 +1759,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "home"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "e"
+      "p",
+      "t",
+      "c",
+      "home"
     ],
-    "template": "h o m _",
+    "template": "e   /   v   /   f",
     "correctAnswer": "home",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW398",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1830,7 +1835,7 @@
     ],
     "correctAnswer": "honey",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW399",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1843,7 +1848,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1854,31 +1859,31 @@
     "options": [
       {
         "id": "A",
-        "label": "s"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "b"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "hope"
       }
     ],
     "units": [
-      "s",
-      "b",
-      "f",
-      "p"
+      "r",
+      "w",
+      "d",
+      "hope"
     ],
-    "template": "h o _ e",
+    "template": "a   /   p   /   k",
     "correctAnswer": "hope",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW402",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1891,7 +1896,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1902,31 +1907,31 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "hose"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "g"
       }
     ],
     "units": [
-      "w",
-      "s",
-      "d",
-      "h"
+      "t",
+      "hose",
+      "c",
+      "g"
     ],
-    "template": "h o _ e",
+    "template": "s   /   j   /   k",
     "correctAnswer": "hose",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW404",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1950,31 +1955,31 @@
     "options": [
       {
         "id": "A",
-        "label": "f"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "hump"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "m"
       }
     ],
     "units": [
-      "f",
-      "m",
-      "k",
-      "p"
+      "d",
+      "hump",
+      "h",
+      "m"
     ],
-    "template": "h u _ p",
+    "template": "g   /   d   /   m",
     "correctAnswer": "hump",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW408",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1987,7 +1992,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 1,
+    "day": 2,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -1998,31 +2003,31 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "h"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "ice"
       }
     ],
     "units": [
-      "d",
-      "h",
-      "m",
-      "c"
+      "t",
+      "c",
+      "g",
+      "ice"
     ],
-    "template": "i _ e",
+    "template": "c   /   g   /   o",
     "correctAnswer": "ice",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW413",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2035,7 +2040,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 2,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -2074,7 +2079,7 @@
     ],
     "correctAnswer": "imaginary",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW415",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -2131,7 +2136,7 @@
     ],
     "correctAnswer": "letter",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW464",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -2155,31 +2160,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "l"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "lie"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "t"
       }
     ],
     "units": [
-      "o",
-      "e",
-      "i",
-      "a"
+      "l",
+      "p",
+      "lie",
+      "t"
     ],
-    "template": "l _ e",
+    "template": "x   /   i   /   w",
     "correctAnswer": "lie",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW467",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2192,7 +2197,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 2,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -2236,7 +2241,7 @@
     ],
     "correctAnswer": "little",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW477",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -2268,7 +2273,7 @@
       },
       {
         "id": "C",
-        "label": "v"
+        "label": "live"
       },
       {
         "id": "D",
@@ -2278,13 +2283,13 @@
     "units": [
       "n",
       "s",
-      "v",
+      "live",
       "b"
     ],
-    "template": "l i _ e",
+    "template": "p   /   v   /   n",
     "correctAnswer": "live",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW478",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2308,31 +2313,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "load"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "p",
+      "t",
+      "c",
+      "load"
     ],
-    "template": "l o _ d",
+    "template": "a   /   t   /   q",
     "correctAnswer": "load",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW479",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2345,42 +2350,42 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lone",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The ______ bird sat on the branch by itself. Complete the word:",
+    "prompt": "The______bird sat on the branch. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "lone"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "m"
       }
     ],
     "units": [
+      "d",
+      "lone",
       "h",
-      "n",
-      "m",
-      "s"
+      "m"
     ],
-    "template": "l o _ e",
+    "template": "n   /   v   /   b",
     "correctAnswer": "lone",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW480",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2404,31 +2409,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "loop"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "g",
+      "l",
+      "p",
+      "loop"
     ],
-    "template": "l o _ p",
+    "template": "e   /   c   /   o",
     "correctAnswer": "loop",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW482",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2441,7 +2446,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2452,31 +2457,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "loud"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "r"
       }
     ],
     "units": [
-      "u",
-      "a",
-      "o",
-      "i"
+      "loud",
+      "h",
+      "m",
+      "r"
     ],
-    "template": "l o _ d",
+    "template": "m   /   u   /   x",
     "correctAnswer": "loud",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW483",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2489,7 +2494,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2500,31 +2505,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "low"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "b"
       }
     ],
     "units": [
-      "o",
-      "a",
-      "u",
-      "i"
+      "low",
+      "n",
+      "s",
+      "b"
     ],
-    "template": "l _ w",
+    "template": "i   /   q   /   o",
     "correctAnswer": "low",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW487",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2537,7 +2542,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2548,31 +2553,31 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "milk"
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "l"
       }
     ],
     "units": [
-      "l",
-      "r",
-      "w",
-      "d"
+      "milk",
+      "c",
+      "g",
+      "l"
     ],
-    "template": "m i _ k",
+    "template": "l   /   a   /   n",
     "correctAnswer": "milk",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW506",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2624,7 +2629,7 @@
     ],
     "correctAnswer": "money",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW511",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -2637,7 +2642,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2648,31 +2653,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "moon"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "t",
+      "c",
+      "g",
+      "moon"
     ],
-    "template": "m o _ n",
+    "template": "i   /   b   /   o",
     "correctAnswer": "moon",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW512",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2685,7 +2690,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 3,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -2714,7 +2719,7 @@
     ],
     "correctAnswer": "morning",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW514",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -2727,7 +2732,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 3,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -2781,7 +2786,7 @@
     ],
     "correctAnswer": "munching",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW524",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -2794,7 +2799,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 3,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -2805,31 +2810,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "nail"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "k",
+      "nail",
+      "n",
+      "s"
     ],
-    "template": "n a _ l",
+    "template": "e   /   i   /   r",
     "correctAnswer": "nail",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW529",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2842,7 +2847,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2853,31 +2858,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "noon"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "n"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "o",
-      "a"
+      "f",
+      "k",
+      "noon",
+      "n"
     ],
-    "template": "n o _ n",
+    "template": "d   /   o   /   a",
     "correctAnswer": "noon",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW544",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2890,7 +2895,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2901,31 +2906,31 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "nose"
       }
     ],
     "units": [
+      "g",
       "l",
       "p",
-      "w",
-      "s"
+      "nose"
     ],
-    "template": "n o _ e",
+    "template": "c   /   p   /   s",
     "correctAnswer": "nose",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW545",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2938,7 +2943,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2949,31 +2954,31 @@
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "note"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "r"
       }
     ],
     "units": [
-      "t",
+      "note",
+      "h",
       "m",
-      "r",
-      "b"
+      "r"
     ],
-    "template": "n o _ e",
+    "template": "t   /   w   /   s",
     "correctAnswer": "note",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW546",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2986,7 +2991,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -2997,31 +3002,31 @@
     "options": [
       {
         "id": "A",
-        "label": "m"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "off"
       }
     ],
     "units": [
+      "d",
+      "h",
       "m",
-      "r",
-      "w",
-      "f"
+      "off"
     ],
-    "template": "o _ f",
+    "template": "f   /   h   /   l",
     "correctAnswer": "off",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW552",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3078,7 +3083,7 @@
     ],
     "correctAnswer": "packet",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW564",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -3091,7 +3096,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 2,
+    "day": 3,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3102,31 +3107,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "pie"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "e",
-      "i"
+      "g",
+      "l",
+      "p",
+      "pie"
     ],
-    "template": "p _ e",
+    "template": "i   /   r   /   f",
     "correctAnswer": "pie",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW581",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3183,7 +3188,7 @@
     ],
     "correctAnswer": "pillow",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW584",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -3220,7 +3225,7 @@
     ],
     "correctAnswer": "pilot",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW585",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3244,31 +3249,31 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
+        "label": "play"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "t"
       }
     ],
     "units": [
-      "a",
-      "e",
-      "u",
-      "o"
+      "play",
+      "l",
+      "p",
+      "t"
     ],
-    "template": "p l _ y",
+    "template": "a   /   w   /   s",
     "correctAnswer": "play",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW593",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3292,31 +3297,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "pool"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
-      "e",
-      "o",
-      "a",
-      "u"
+      "d",
+      "pool",
+      "h",
+      "m"
     ],
-    "template": "p o _ l",
+    "template": "o   /   f   /   e",
     "correctAnswer": "pool",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW606",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3340,31 +3345,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "pop"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "n"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "o",
-      "a"
+      "f",
+      "k",
+      "pop",
+      "n"
     ],
-    "template": "p _ p",
+    "template": "b   /   o   /   v",
     "correctAnswer": "pop",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW607",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3406,7 +3411,7 @@
     ],
     "correctAnswer": "postman",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW610",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Syllables",
@@ -3419,7 +3424,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 3,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -3443,7 +3448,7 @@
     ],
     "correctAnswer": "protect",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW617",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3467,31 +3472,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "quiet"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
-      "e",
-      "i",
-      "a",
-      "u"
+      "k",
+      "quiet",
+      "n",
+      "s"
     ],
-    "template": "q u _ e t",
+    "template": "v   /   i   /   x",
     "correctAnswer": "quiet",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW628",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3504,7 +3509,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3515,31 +3520,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "rain"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "h"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "u",
-      "o"
+      "rain",
+      "w",
+      "d",
+      "h"
     ],
-    "template": "r a _ n",
+    "template": "s   /   c   /   i",
     "correctAnswer": "rain",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW630",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3552,7 +3557,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -3591,7 +3596,7 @@
     ],
     "correctAnswer": "ready",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW637",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -3604,7 +3609,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3615,31 +3620,31 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "ride"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "b"
       }
     ],
     "units": [
-      "d",
-      "l",
-      "p",
-      "t"
+      "ride",
+      "n",
+      "s",
+      "b"
     ],
-    "template": "r i _ e",
+    "template": "d   /   t   /   a",
     "correctAnswer": "ride",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW649",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3652,7 +3657,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -3676,7 +3681,7 @@
     ],
     "correctAnswer": "river",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW653",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3689,7 +3694,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3700,31 +3705,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "roam"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "k",
+      "n",
+      "s",
+      "roam"
     ],
-    "template": "r o _ m",
+    "template": "u   /   a   /   k",
     "correctAnswer": "roam",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW655",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3737,7 +3742,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3756,7 +3761,7 @@
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "role"
       },
       {
         "id": "D",
@@ -3766,13 +3771,13 @@
     "units": [
       "n",
       "s",
-      "l",
+      "role",
       "b"
     ],
-    "template": "r o _ e",
+    "template": "l   /   c   /   q",
     "correctAnswer": "role",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW658",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3785,7 +3790,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3796,31 +3801,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "room"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "p",
+      "t",
+      "c",
+      "room"
     ],
-    "template": "r o _ m",
+    "template": "o   /   w   /   z",
     "correctAnswer": "room",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW659",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3833,7 +3838,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3844,31 +3849,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "root"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
-      "e",
-      "o",
-      "a",
-      "u"
+      "d",
+      "root",
+      "h",
+      "m"
     ],
-    "template": "r o _ t",
+    "template": "y   /   o   /   l",
     "correctAnswer": "root",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW660",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3881,7 +3886,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -3889,6 +3894,54 @@
     "category": "word-completion",
     "variant": "missing-unit",
     "prompt": "We can tie things with a ______. Complete the word:",
+    "options": [
+      {
+        "id": "A",
+        "label": "f"
+      },
+      {
+        "id": "B",
+        "label": "k"
+      },
+      {
+        "id": "C",
+        "label": "rope"
+      },
+      {
+        "id": "D",
+        "label": "n"
+      }
+    ],
+    "units": [
+      "f",
+      "k",
+      "rope",
+      "n"
+    ],
+    "template": "g   /   p   /   j",
+    "correctAnswer": "rope",
+    "source": {
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
+      "ewId": "EW661",
+      "activityCode": "E05",
+      "originalActivity": "E05 Missing Letters",
+      "hasSourceAnomaly": false
+    }
+  },
+  {
+    "id": "ENG-M2-EW662",
+    "classLevel": 3,
+    "subject": "English",
+    "language": "en-IN",
+    "module": 2,
+    "day": 4,
+    "role": "new",
+    "level": 1,
+    "sourceDifficulty": "Easy",
+    "targetWord": "rose",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "The ______ is a flower with a pleasant smell. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -3904,67 +3957,19 @@
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "rose"
       }
     ],
     "units": [
       "g",
       "l",
       "p",
-      "r"
+      "rose"
     ],
-    "template": "r o _ e",
-    "correctAnswer": "rope",
-    "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
-      "ewId": "EW661",
-      "activityCode": "E05",
-      "originalActivity": "E05 Missing Letters",
-      "hasSourceAnomaly": false
-    }
-  },
-  {
-    "id": "ENG-M2-EW662",
-    "classLevel": 3,
-    "subject": "English",
-    "language": "en-IN",
-    "module": 2,
-    "day": 3,
-    "role": "new",
-    "level": 1,
-    "sourceDifficulty": "Easy",
-    "targetWord": "rose",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "The ______ is a flower with a pleasant smell. Complete the word:",
-    "options": [
-      {
-        "id": "A",
-        "label": "h"
-      },
-      {
-        "id": "B",
-        "label": "m"
-      },
-      {
-        "id": "C",
-        "label": "r"
-      },
-      {
-        "id": "D",
-        "label": "s"
-      }
-    ],
-    "units": [
-      "h",
-      "m",
-      "r",
-      "s"
-    ],
-    "template": "r o _ e",
+    "template": "k   /   d   /   s",
     "correctAnswer": "rose",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW662",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3977,7 +3982,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 4,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -3988,31 +3993,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "seem"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "e"
+      "p",
+      "t",
+      "c",
+      "seem"
     ],
-    "template": "s e _ m",
+    "template": "u   /   e   /   v",
     "correctAnswer": "seem",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW695",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4025,7 +4030,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 3,
+    "day": 4,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4069,7 +4074,7 @@
     ],
     "correctAnswer": "shakes",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW699",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4093,31 +4098,31 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "shall"
       },
       {
         "id": "B",
-        "label": "n"
-      },
-      {
-        "id": "C",
         "label": "s"
       },
       {
-        "id": "D",
+        "id": "C",
         "label": "b"
+      },
+      {
+        "id": "D",
+        "label": "f"
       }
     ],
     "units": [
-      "l",
-      "n",
+      "shall",
       "s",
-      "b"
+      "b",
+      "f"
     ],
-    "template": "s h a _ l",
+    "template": "v   /   x   /   l",
     "correctAnswer": "shall",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW700",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4141,31 +4146,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "show"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "l"
       }
     ],
     "units": [
-      "o",
-      "a",
-      "u",
-      "i"
+      "show",
+      "c",
+      "g",
+      "l"
     ],
-    "template": "s h _ w",
+    "template": "r   /   c   /   o",
     "correctAnswer": "show",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW722",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4222,7 +4227,7 @@
     ],
     "correctAnswer": "sleepy",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW735",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4246,31 +4251,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "slow"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "t"
       }
     ],
     "units": [
-      "o",
-      "a",
-      "u",
-      "i"
+      "slow",
+      "l",
+      "p",
+      "t"
     ],
-    "template": "s l _ w",
+    "template": "a   /   k   /   o",
     "correctAnswer": "slow",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW737",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4294,31 +4299,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "small"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "w"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "e",
-      "u"
+      "m",
+      "small",
+      "r",
+      "w"
     ],
-    "template": "s m _ l l",
+    "template": "a   /   c   /   z",
     "correctAnswer": "small",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW738",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4342,31 +4347,31 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "snake"
       }
     ],
     "units": [
+      "g",
+      "l",
       "p",
-      "t",
-      "c",
-      "k"
+      "snake"
     ],
-    "template": "s n a _ e",
+    "template": "k   /   g   /   q",
     "correctAnswer": "snake",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW743",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4418,7 +4423,7 @@
     ],
     "correctAnswer": "sorry",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW756",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4442,31 +4447,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "soup"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "e",
-      "u"
+      "p",
+      "t",
+      "c",
+      "soup"
     ],
-    "template": "s o _ p",
+    "template": "u   /   d   /   t",
     "correctAnswer": "soup",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW758",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4490,31 +4495,31 @@
     "options": [
       {
         "id": "A",
-        "label": "f"
-      },
-      {
-        "id": "B",
         "label": "k"
       },
       {
+        "id": "B",
+        "label": "n"
+      },
+      {
         "id": "C",
-        "label": "p"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "stamp"
       }
     ],
     "units": [
-      "f",
       "k",
-      "p",
-      "m"
+      "n",
+      "s",
+      "stamp"
     ],
-    "template": "s t a _ p",
+    "template": "r   /   v   /   m",
     "correctAnswer": "stamp",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW772",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4527,7 +4532,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 4,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -4556,7 +4561,7 @@
     ],
     "correctAnswer": "stomach",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW780",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4580,15 +4585,15 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "stone"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "n"
       },
       {
         "id": "D",
@@ -4596,15 +4601,15 @@
       }
     ],
     "units": [
-      "h",
+      "k",
+      "stone",
       "n",
-      "m",
       "s"
     ],
-    "template": "s t o _ e",
+    "template": "f   /   h   /   n",
     "correctAnswer": "stone",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW781",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4617,7 +4622,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 5,
+    "day": 4,
     "role": "new",
     "level": 3,
     "sourceDifficulty": "Hard",
@@ -4656,7 +4661,7 @@
     ],
     "correctAnswer": "story",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW786",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4669,7 +4674,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4692,19 +4697,19 @@
       },
       {
         "id": "D",
-        "label": "v"
+        "label": "stove"
       }
     ],
     "units": [
       "s",
       "b",
       "f",
-      "v"
+      "stove"
     ],
-    "template": "s t o _ e",
+    "template": "v   /   q   /   i",
     "correctAnswer": "stove",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW787",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4717,7 +4722,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4766,7 +4771,7 @@
     ],
     "correctAnswer": "stripes",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW792",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4779,7 +4784,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -4802,19 +4807,19 @@
       },
       {
         "id": "D",
-        "label": "y"
+        "label": "sty"
       }
     ],
     "units": [
       "p",
       "t",
       "c",
-      "y"
+      "sty"
     ],
-    "template": "s t _",
+    "template": "g   /   y   /   e",
     "correctAnswer": "sty",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW794",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4827,7 +4832,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4851,7 +4856,7 @@
     ],
     "correctAnswer": "sugar",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW797",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4864,7 +4869,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4875,31 +4880,31 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
+        "label": "sway"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "r"
       }
     ],
     "units": [
-      "a",
-      "e",
-      "u",
-      "o"
+      "sway",
+      "h",
+      "m",
+      "r"
     ],
-    "template": "s w _ y",
+    "template": "c   /   j   /   a",
     "correctAnswer": "sway",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW807",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -4912,7 +4917,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 2,
     "sourceDifficulty": "Medium",
@@ -4956,7 +4961,7 @@
     ],
     "correctAnswer": "tasted",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW822",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -4980,31 +4985,31 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
-      },
-      {
-        "id": "B",
-        "label": "n"
-      },
-      {
-        "id": "C",
         "label": "m"
       },
       {
+        "id": "B",
+        "label": "thing"
+      },
+      {
+        "id": "C",
+        "label": "r"
+      },
+      {
         "id": "D",
-        "label": "s"
+        "label": "w"
       }
     ],
     "units": [
-      "h",
-      "n",
       "m",
-      "s"
+      "thing",
+      "r",
+      "w"
     ],
-    "template": "t h i _ g",
+    "template": "x   /   n   /   f",
     "correctAnswer": "thing",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW837",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5061,7 +5066,7 @@
     ],
     "correctAnswer": "ticket",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW849",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -5074,7 +5079,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -5085,31 +5090,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "tie"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "n"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "u",
-      "o"
+      "tie",
+      "f",
+      "k",
+      "n"
     ],
-    "template": "t _ e",
+    "template": "j   /   r   /   i",
     "correctAnswer": "tie",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW850",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5161,7 +5166,7 @@
     ],
     "correctAnswer": "today",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW857",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -5198,7 +5203,7 @@
     ],
     "correctAnswer": "tractor",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW873",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5211,7 +5216,7 @@
     "subject": "English",
     "language": "en-IN",
     "module": 2,
-    "day": 4,
+    "day": 5,
     "role": "new",
     "level": 1,
     "sourceDifficulty": "Easy",
@@ -5234,19 +5239,19 @@
       },
       {
         "id": "D",
-        "label": "y"
+        "label": "try"
       }
     ],
     "units": [
       "m",
       "r",
       "w",
-      "y"
+      "try"
     ],
-    "template": "t r _",
+    "template": "z   /   x   /   y",
     "correctAnswer": "try",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW882",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5270,31 +5275,31 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "under"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "w"
       }
     ],
     "units": [
-      "g",
-      "d",
-      "l",
-      "p"
+      "m",
+      "under",
+      "r",
+      "w"
     ],
-    "template": "u n _ e r",
+    "template": "t   /   d   /   l",
     "correctAnswer": "under",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW891",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5318,31 +5323,31 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "use"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "l"
       }
     ],
     "units": [
-      "r",
-      "s",
-      "b",
-      "f"
+      "c",
+      "use",
+      "g",
+      "l"
     ],
-    "template": "u _ e",
+    "template": "z   /   s   /   c",
     "correctAnswer": "use",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW899",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5366,31 +5371,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "vote"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "m",
+      "r",
+      "w",
+      "vote"
     ],
-    "template": "v | _ | t | e",
+    "template": "k   /   s   /   o",
     "correctAnswer": "vote",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW909",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5427,7 +5432,7 @@
     ],
     "correctAnswer": "water",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW915",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5451,31 +5456,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "wave"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "w"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "e",
-      "u"
+      "m",
+      "wave",
+      "r",
+      "w"
     ],
-    "template": "w | _ | v | e",
+    "template": "c   /   a   /   f",
     "correctAnswer": "wave",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW918",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5499,31 +5504,31 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "wipe"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "b"
       }
     ],
     "units": [
-      "b",
-      "f",
-      "p",
-      "k"
+      "n",
+      "s",
+      "wipe",
+      "b"
     ],
-    "template": "w | i | _ | e",
+    "template": "p   /   v   /   g",
     "correctAnswer": "wipe",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW937",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5560,7 +5565,7 @@
     ],
     "correctAnswer": "without",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW939",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Word Parts",
@@ -5602,7 +5607,7 @@
     ],
     "correctAnswer": "wonderful",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW940",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5626,31 +5631,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "year"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "r"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "a",
-      "e"
+      "h",
+      "m",
+      "year",
+      "r"
     ],
-    "template": "y | e | _ | r",
+    "template": "w   /   h   /   a",
     "correctAnswer": "year",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW951",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5674,31 +5679,31 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "yell"
       }
     ],
     "units": [
-      "c",
-      "g",
-      "m",
-      "l"
+      "k",
+      "n",
+      "s",
+      "yell"
     ],
-    "template": "y | e | _ | l",
+    "template": "b   /   l   /   t",
     "correctAnswer": "yell",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW952",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -5735,7 +5740,7 @@
     ],
     "correctAnswer": "yellow",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW953",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5787,7 +5792,7 @@
     ],
     "correctAnswer": "yummy",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW956",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -5850,7 +5855,7 @@
     ],
     "correctAnswer": "achieve",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW002",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -5888,7 +5893,7 @@
     ],
     "correctAnswer": "angry",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW011",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5926,7 +5931,7 @@
     ],
     "correctAnswer": "ask",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW021",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5964,7 +5969,7 @@
     ],
     "correctAnswer": "badge",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW031",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6027,7 +6032,7 @@
     ],
     "correctAnswer": "bandage",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW035",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -6052,31 +6057,31 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "bell"
       }
     ],
     "units": [
-      "h",
-      "n",
-      "s",
-      "l"
+      "p",
+      "t",
+      "c",
+      "bell"
     ],
-    "template": "b e _ l",
+    "template": "u   /   k   /   l",
     "correctAnswer": "bell",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW051",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6101,31 +6106,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "between"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "k"
       }
     ],
     "units": [
-      "e",
-      "a",
-      "u",
-      "o"
+      "between",
+      "b",
+      "f",
+      "k"
     ],
-    "template": "b e t w _ e n",
+    "template": "s   /   e   /   r",
     "correctAnswer": "between",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW056",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6144,31 +6149,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bird",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "show"
+        "label": "B"
       },
       {
         "id": "B",
-        "label": "bird"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "stamp"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "sugar"
+        "label": "I"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "B",
+      "R",
+      "D",
+      "I"
+    ],
     "correctAnswer": "bird",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW060",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -6206,7 +6216,7 @@
     ],
     "correctAnswer": "board",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW068",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6244,7 +6254,7 @@
     ],
     "correctAnswer": "bread",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW083",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6282,7 +6292,7 @@
     ],
     "correctAnswer": "breathe",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW085",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6320,7 +6330,7 @@
     ],
     "correctAnswer": "brown",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW095",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6345,31 +6355,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "cake"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "t"
       }
     ],
     "units": [
-      "e",
-      "a",
-      "u",
-      "o"
+      "cake",
+      "l",
+      "p",
+      "t"
     ],
-    "template": "c a k _",
+    "template": "d   /   q   /   e",
     "correctAnswer": "cake",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW111",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6394,31 +6404,31 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "carrot"
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "k"
       }
     ],
     "units": [
-      "r",
-      "p",
-      "w",
-      "d"
+      "carrot",
+      "b",
+      "f",
+      "k"
     ],
-    "template": "c a r _ o t",
+    "template": "n   /   r   /   k",
     "correctAnswer": "carrot",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW119",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6443,31 +6453,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "clock"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "d"
       }
     ],
     "units": [
-      "o",
-      "a",
-      "u",
-      "i"
+      "clock",
+      "r",
+      "w",
+      "d"
     ],
-    "template": "c l _ c k",
+    "template": "o   /   h   /   t",
     "correctAnswer": "clock",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW151",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6505,7 +6515,7 @@
     ],
     "correctAnswer": "cold",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW160",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6543,7 +6553,7 @@
     ],
     "correctAnswer": "colour",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW161",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6562,31 +6572,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This food is made from lentils. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "encourage"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "fun"
+        "label": "A"
       },
       {
         "id": "C",
-        "label": "dal"
-      },
-      {
-        "id": "D",
-        "label": "home"
+        "label": "D"
       }
     ],
-    "template": "Picture of dal",
+    "units": [
+      "L",
+      "A",
+      "D"
+    ],
     "correctAnswer": "dal",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW201",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6605,31 +6615,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dish",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "snake"
+        "label": "H"
       },
       {
         "id": "B",
-        "label": "dish"
+        "label": "I"
       },
       {
         "id": "C",
-        "label": "stove"
+        "label": "S"
       },
       {
         "id": "D",
-        "label": "ticket"
+        "label": "D"
       }
     ],
-    "template": "Picture of a dish",
+    "units": [
+      "H",
+      "I",
+      "S",
+      "D"
+    ],
     "correctAnswer": "dish",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW226",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -6648,31 +6663,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "farm",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "farm"
+        "label": "R"
       },
       {
         "id": "B",
-        "label": "about"
+        "label": "A"
       },
       {
         "id": "C",
-        "label": "blanket"
+        "label": "M"
       },
       {
         "id": "D",
-        "label": "cube"
+        "label": "F"
       }
     ],
-    "template": "Picture of a farm",
+    "units": [
+      "R",
+      "A",
+      "M",
+      "F"
+    ],
     "correctAnswer": "farm",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW272",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -6730,7 +6750,7 @@
     ],
     "correctAnswer": "farmer",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW273",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -6749,31 +6769,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "foal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a young horse. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "gap"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "honey"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "foal"
+        "label": "F"
       },
       {
         "id": "D",
-        "label": "lie"
+        "label": "L"
       }
     ],
-    "template": "Picture of a foal",
+    "units": [
+      "A",
+      "O",
+      "F",
+      "L"
+    ],
     "correctAnswer": "foal",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW308",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -6811,7 +6836,7 @@
     ],
     "correctAnswer": "friend",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW318",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -6849,7 +6874,7 @@
     ],
     "correctAnswer": "garden",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW327",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -6878,7 +6903,7 @@
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "gate"
       },
       {
         "id": "C",
@@ -6891,14 +6916,14 @@
     ],
     "units": [
       "f",
-      "t",
+      "gate",
       "k",
       "n"
     ],
-    "template": "g a _ e",
+    "template": "u   /   n   /   t",
     "correctAnswer": "gate",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW329",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -6917,31 +6942,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "hand",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "yummy"
+        "label": "N"
       },
       {
         "id": "B",
-        "label": "bin"
+        "label": "D"
       },
       {
         "id": "C",
-        "label": "cry"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "hand"
+        "label": "A"
       }
     ],
-    "template": "Picture of a hand",
+    "units": [
+      "N",
+      "D",
+      "H",
+      "A"
+    ],
     "correctAnswer": "hand",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW370",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -6960,31 +6990,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "idli",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this food.",
     "options": [
       {
         "id": "A",
-        "label": "noon"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "pilot"
+        "label": "L"
       },
       {
         "id": "C",
-        "label": "idli"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "rain"
+        "label": "D"
       }
     ],
-    "template": "Picture of idli",
+    "units": [
+      "I",
+      "L",
+      "I",
+      "D"
+    ],
     "correctAnswer": "idli",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW414",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -7003,31 +7038,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "juice",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "aeroplane"
+        "label": "E"
       },
       {
         "id": "B",
-        "label": "juice"
+        "label": "U"
       },
       {
         "id": "C",
-        "label": "bring"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "dance"
+        "label": "J"
+      },
+      {
+        "id": "E",
+        "label": "C"
       }
     ],
-    "template": "Picture of a glass of juice",
+    "units": [
+      "E",
+      "U",
+      "I",
+      "J",
+      "C"
+    ],
     "correctAnswer": "juice",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW435",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -7065,7 +7110,7 @@
     ],
     "correctAnswer": "leaves",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW458",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -7084,31 +7129,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lion",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "alphabet"
+        "label": "N"
       },
       {
         "id": "B",
-        "label": "catch"
+        "label": "L"
       },
       {
         "id": "C",
-        "label": "dip"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "lion"
+        "label": "O"
       }
     ],
-    "template": "Picture of a lion",
+    "units": [
+      "N",
+      "L",
+      "I",
+      "O"
+    ],
     "correctAnswer": "lion",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW473",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -7146,7 +7196,7 @@
     ],
     "correctAnswer": "pinky",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW587",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -7165,31 +7215,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "rhino",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "rhino"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "home"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "letter"
+        "label": "O"
       },
       {
         "id": "D",
-        "label": "loud"
+        "label": "H"
+      },
+      {
+        "id": "E",
+        "label": "N"
       }
     ],
-    "template": "Picture of a rhinoceros.",
+    "units": [
+      "I",
+      "R",
+      "O",
+      "H",
+      "N"
+    ],
     "correctAnswer": "rhino",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW647",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7208,31 +7268,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "rice",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "honey"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "rice"
+        "label": "C"
       },
       {
         "id": "C",
-        "label": "lie"
+        "label": "R"
       },
       {
         "id": "D",
-        "label": "low"
+        "label": "E"
       }
     ],
-    "template": "Picture of rice.",
+    "units": [
+      "I",
+      "C",
+      "R",
+      "E"
+    ],
     "correctAnswer": "rice",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW648",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7251,31 +7316,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "skirt",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "aeroplane"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "skirt"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "bring"
+        "label": "T"
       },
       {
         "id": "D",
-        "label": "dance"
+        "label": "R"
+      },
+      {
+        "id": "E",
+        "label": "K"
       }
     ],
-    "template": "Picture of a skirt.",
+    "units": [
+      "I",
+      "S",
+      "T",
+      "R",
+      "K"
+    ],
     "correctAnswer": "skirt",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW732",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7294,31 +7369,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "snow",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "honey"
+        "label": "S"
       },
       {
         "id": "B",
-        "label": "snow"
+        "label": "N"
       },
       {
         "id": "C",
-        "label": "lie"
+        "label": "W"
       },
       {
         "id": "D",
-        "label": "low"
+        "label": "O"
       }
     ],
-    "template": "Picture of snow falling.",
+    "units": [
+      "S",
+      "N",
+      "W",
+      "O"
+    ],
     "correctAnswer": "snow",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW747",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7337,31 +7417,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tail",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "pie"
+        "label": "I"
       },
       {
         "id": "B",
-        "label": "protect"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "role"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "tail"
+        "label": "L"
       }
     ],
-    "template": "Picture clearly showing the tail of an animal.",
+    "units": [
+      "I",
+      "T",
+      "A",
+      "L"
+    ],
     "correctAnswer": "tail",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW815",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7399,7 +7484,7 @@
     ],
     "correctAnswer": "thought",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW841",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -7437,7 +7522,7 @@
     ],
     "correctAnswer": "told",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW861",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -7456,31 +7541,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "truck",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "hippo"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "imaginary"
+        "label": "K"
       },
       {
         "id": "C",
-        "label": "loop"
+        "label": "U"
       },
       {
         "id": "D",
-        "label": "truck"
+        "label": "R"
+      },
+      {
+        "id": "E",
+        "label": "C"
       }
     ],
-    "template": "Picture clearly showing a truck.",
+    "units": [
+      "T",
+      "K",
+      "U",
+      "R",
+      "C"
+    ],
     "correctAnswer": "truck",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW880",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -7505,7 +7600,7 @@
     "options": [
       {
         "id": "A",
-        "label": "honey"
+        "label": "bandage"
       },
       {
         "id": "B",
@@ -7513,17 +7608,17 @@
       },
       {
         "id": "C",
-        "label": "lie"
+        "label": "brown"
       },
       {
         "id": "D",
-        "label": "low"
+        "label": "dish"
       }
     ],
     "template": "worm / warm / word",
     "correctAnswer": "worm",
     "source": {
-      "workbook": "English_Module_2_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW945",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",

@@ -10,30 +10,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "yam",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of the vegetable.",
     "options": [
       {
         "id": "A",
-        "label": "yam"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "mop"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "ox"
-      },
-      {
-        "id": "D",
-        "label": "pup"
+        "label": "y"
       }
+    ],
+    "units": [
+      "a",
+      "m",
+      "y"
     ],
     "correctAnswer": "yam",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW950",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -75,7 +76,7 @@
     "template": "Picture of a mat",
     "correctAnswer": "mat",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW496",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -117,7 +118,7 @@
     "template": "Picture of a mother",
     "correctAnswer": "mom",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW510",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -159,7 +160,7 @@
     "template": "Picture of a mop",
     "correctAnswer": "mop",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW513",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -201,7 +202,7 @@
     "template": "Picture of mud",
     "correctAnswer": "mud",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW521",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -243,7 +244,7 @@
     "template": "Picture of a mug",
     "correctAnswer": "mug",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW522",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -285,7 +286,7 @@
     "template": "Picture of a child taking a nap",
     "correctAnswer": "nap",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW531",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -327,7 +328,7 @@
     "template": "Picture of a net",
     "correctAnswer": "net",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW540",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -369,7 +370,7 @@
     "template": "Picture of a nut",
     "correctAnswer": "nut",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW549",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -411,7 +412,7 @@
     "template": "Picture of an owl",
     "correctAnswer": "owl",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW560",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -453,7 +454,7 @@
     "template": "Picture of an ox",
     "correctAnswer": "ox",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW561",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -495,7 +496,7 @@
     "template": "Picture of a cooking pan",
     "correctAnswer": "pan",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW567",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -537,7 +538,7 @@
     "template": "Picture of a pea",
     "correctAnswer": "pea",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW572",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -579,7 +580,7 @@
     "template": "Picture of a pen",
     "correctAnswer": "pen",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW575",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -621,7 +622,7 @@
     "template": "Picture of a pig",
     "correctAnswer": "pig",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW582",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -663,7 +664,7 @@
     "template": "Picture of a pin",
     "correctAnswer": "pin",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW586",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -705,7 +706,7 @@
     "template": "Picture of a pot.",
     "correctAnswer": "pot",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW611",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -747,7 +748,7 @@
     "template": "Picture of a young dog.",
     "correctAnswer": "pup",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW622",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -789,7 +790,7 @@
     "template": "Picture of a rat.",
     "correctAnswer": "rat",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW635",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -831,7 +832,7 @@
     "template": "Picture showing the colour red.",
     "correctAnswer": "red",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW641",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -873,7 +874,7 @@
     "template": "Picture showing a child with a sad facial expression.",
     "correctAnswer": "sad",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW668",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -915,7 +916,7 @@
     "template": "she",
     "correctAnswer": "she",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW702",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -957,7 +958,7 @@
     "template": "Picture clearly showing a child sitting on a chair, with the seated position prominently visible.",
     "correctAnswer": "sit",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW730",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -999,7 +1000,7 @@
     "template": "Picture clearly showing the sun in the sky.",
     "correctAnswer": "sun",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW799",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1041,7 +1042,7 @@
     "template": "Picture of a water tap.",
     "correctAnswer": "tap",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW819",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1083,7 +1084,7 @@
     "template": "Picture of a metal tin/container.",
     "correctAnswer": "tin",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW853",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1125,7 +1126,7 @@
     "template": "Picture clearly showing the top part of an object.",
     "correctAnswer": "top",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW866",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1167,7 +1168,7 @@
     "template": "Picture clearly showing a child's toy.",
     "correctAnswer": "toy",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW870",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1209,7 +1210,7 @@
     "template": "Picture clearly showing a small tub/container.",
     "correctAnswer": "tub",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW883",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -1251,7 +1252,7 @@
     "template": "van / fan / can",
     "correctAnswer": "van",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW901",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1293,7 +1294,7 @@
     "template": "web / wet / wig",
     "correctAnswer": "web",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW920",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1335,7 +1336,7 @@
     "template": "win / run / sit",
     "correctAnswer": "win",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW931",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1377,7 +1378,7 @@
     "template": "yum / yawn / jump",
     "correctAnswer": "yum",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW955",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1419,7 +1420,7 @@
     "template": "zoo / zero / zoom",
     "correctAnswer": "zoo",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW958",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1464,10 +1465,10 @@
       "l",
       "g"
     ],
-    "template": "f i _ l",
+    "template": "f i _ l | Selectable options: l / t / n",
     "correctAnswer": "fill",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW288",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1512,10 +1513,10 @@
       "u",
       "o"
     ],
-    "template": "f _ x",
+    "template": "f _ x | Selectable options: i / a / e",
     "correctAnswer": "fix",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW297",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1560,10 +1561,10 @@
       "e",
       "i"
     ],
-    "template": "f l _ c k",
+    "template": "f l _ c k | Selectable options: i / a / e",
     "correctAnswer": "flick",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW300",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1608,10 +1609,10 @@
       "d",
       "h"
     ],
-    "template": "f r e _ h",
+    "template": "f r e _ h | Selectable options: s / t / n",
     "correctAnswer": "fresh",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW317",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1656,10 +1657,10 @@
       "i",
       "a"
     ],
-    "template": "g l _ s s",
+    "template": "g l _ s s | Selectable options: a / e / i",
     "correctAnswer": "glass",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW340",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1704,10 +1705,10 @@
       "a",
       "o"
     ],
-    "template": "g l _ e",
+    "template": "g l _ e | Selectable options: u / a / e",
     "correctAnswer": "glue",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW342",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1752,10 +1753,10 @@
       "s",
       "p"
     ],
-    "template": "g r a _ e",
+    "template": "g r a _ e | Selectable options: p / t / n",
     "correctAnswer": "grape",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW351",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1800,10 +1801,10 @@
       "n",
       "t"
     ],
-    "template": "g r a _ s",
+    "template": "g r a _ s | Selectable options: s / t / n",
     "correctAnswer": "grass",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW352",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1848,10 +1849,10 @@
       "u",
       "a"
     ],
-    "template": "g r _ n t",
+    "template": "g r _ n t | Selectable options: u / a / e",
     "correctAnswer": "grunt",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW365",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1896,10 +1897,10 @@
       "g",
       "l"
     ],
-    "template": "h | e | a | _ | s",
+    "template": "h | e | a | _ | s | Selectable options: d / t / n",
     "correctAnswer": "heads",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW381",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1944,10 +1945,10 @@
       "c",
       "v"
     ],
-    "template": "h i _ e",
+    "template": "h i _ e | Selectable options: v / t / n",
     "correctAnswer": "hive",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW395",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -1992,10 +1993,10 @@
       "u",
       "o"
     ],
-    "template": "h o l _",
+    "template": "h o l _ | Selectable options: e / a / i",
     "correctAnswer": "hole",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW396",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2040,10 +2041,10 @@
       "g",
       "l"
     ],
-    "template": "k i _ e",
+    "template": "k i _ e | Selectable options: t / n / r",
     "correctAnswer": "kite",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW445",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2088,10 +2089,10 @@
       "k",
       "t"
     ],
-    "template": "l i _ e",
+    "template": "l i _ e | Selectable options: k / t / n",
     "correctAnswer": "like",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW471",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2136,10 +2137,10 @@
       "c",
       "n"
     ],
-    "template": "m e _ d",
+    "template": "m e _ d | Selectable options: n / t / r",
     "correctAnswer": "mend",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW502",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -2184,10 +2185,10 @@
       "d",
       "h"
     ],
-    "template": "n u r _ e",
+    "template": "n u r _ e | Selectable options: s / t / n",
     "correctAnswer": "nurse",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW548",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2232,10 +2233,10 @@
       "e",
       "u"
     ],
-    "template": "p l _ t e",
+    "template": "p l _ t e | Selectable options: a / e / i",
     "correctAnswer": "plate",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW591",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2280,10 +2281,10 @@
       "l",
       "k"
     ],
-    "template": "p u _ l",
+    "template": "p u _ l | Selectable options: l / t / n",
     "correctAnswer": "pull",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW619",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2328,10 +2329,10 @@
       "e",
       "i"
     ],
-    "template": "q u _ c k",
+    "template": "q u _ c k | Selectable options: i / a / e",
     "correctAnswer": "quick",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW627",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2376,10 +2377,10 @@
       "m",
       "g"
     ],
-    "template": "s a _ e",
+    "template": "s a _ e | Selectable options: m / t / n",
     "correctAnswer": "same",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW673",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2424,10 +2425,10 @@
       "s",
       "b"
     ],
-    "template": "s h a _ e",
+    "template": "s h a _ e | Selectable options: k / t / n",
     "correctAnswer": "shake",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW697",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2472,10 +2473,10 @@
       "u",
       "i"
     ],
-    "template": "s h _ r e",
+    "template": "s h _ r e | Selectable options: o / a / e",
     "correctAnswer": "shore",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW716",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2520,10 +2521,10 @@
       "p",
       "t"
     ],
-    "template": "s i _ k",
+    "template": "s i _ k | Selectable options: c / t / n",
     "correctAnswer": "sick",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW723",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2568,10 +2569,10 @@
       "a",
       "u"
     ],
-    "template": "s m _ l l",
+    "template": "s m _ l l | Selectable options: e / a / i",
     "correctAnswer": "smell",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW739",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2616,10 +2617,10 @@
       "c",
       "l"
     ],
-    "template": "s m i _ e",
+    "template": "s m i _ e | Selectable options: l / t / n",
     "correctAnswer": "smile",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW740",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2664,10 +2665,10 @@
       "m",
       "r"
     ],
-    "template": "s t a _ k",
+    "template": "s t a _ k | Selectable options: c / t / n",
     "correctAnswer": "stack",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW770",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2712,10 +2713,10 @@
       "n",
       "s"
     ],
-    "template": "s t a _ e",
+    "template": "s t a _ e | Selectable options: g / t / n",
     "correctAnswer": "stage",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW771",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2760,10 +2761,10 @@
       "t",
       "c"
     ],
-    "template": "s t a _ t",
+    "template": "s t a _ t | Selectable options: r / t / n",
     "correctAnswer": "start",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW775",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2808,10 +2809,10 @@
       "u",
       "o"
     ],
-    "template": "s t _ c k",
+    "template": "s t _ c k | Selectable options: i / a / e",
     "correctAnswer": "stick",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW778",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2856,10 +2857,10 @@
       "a",
       "u"
     ],
-    "template": "s t _ o l",
+    "template": "s t _ o l | Selectable options: o / a / e",
     "correctAnswer": "stool",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW782",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2904,10 +2905,10 @@
       "u",
       "i"
     ],
-    "template": "s t _ r m",
+    "template": "s t _ r m | Selectable options: o / a / e",
     "correctAnswer": "storm",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW785",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -2952,10 +2953,10 @@
       "e",
       "a"
     ],
-    "template": "s t r _ a m",
+    "template": "s t r _ a m | Selectable options: e / a / i",
     "correctAnswer": "stream",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW790",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3000,10 +3001,10 @@
       "a",
       "u"
     ],
-    "template": "s t r _ n g",
+    "template": "s t r _ n g | Selectable options: o / a / e",
     "correctAnswer": "strong",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW793",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3048,10 +3049,10 @@
       "h",
       "l"
     ],
-    "template": "t a b _ e",
+    "template": "t a b _ e | Selectable options: l / t / n",
     "correctAnswer": "table",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW814",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3096,10 +3097,10 @@
       "r",
       "t"
     ],
-    "template": "t h e _ e",
+    "template": "t h e _ e | Selectable options: r / t / n",
     "correctAnswer": "there",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW835",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3144,10 +3145,10 @@
       "d",
       "h"
     ],
-    "template": "t i _ k",
+    "template": "t i _ k | Selectable options: c / t / n",
     "correctAnswer": "tick",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW848",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3192,10 +3193,10 @@
       "c",
       "l"
     ],
-    "template": "t r a _ e",
+    "template": "t r a _ e | Selectable options: c / t / n",
     "correctAnswer": "trace",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW871",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3240,10 +3241,10 @@
       "u",
       "o"
     ],
-    "template": "w | _ | e | k",
+    "template": "w | _ | e | k | Selectable options: e / a / i",
     "correctAnswer": "week",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW921",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3288,10 +3289,10 @@
       "h",
       "m"
     ],
-    "template": "w | h | i | _ | e",
+    "template": "w | h | i | _ | e | Selectable options: t / n / r",
     "correctAnswer": "white",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW929",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -3328,7 +3329,7 @@
     ],
     "correctAnswer": "cumin",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW191",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -3365,7 +3366,7 @@
     ],
     "correctAnswer": "hello",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW387",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3402,7 +3403,7 @@
     ],
     "correctAnswer": "helmet",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW388",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3439,7 +3440,7 @@
     ],
     "correctAnswer": "music",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW526",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3476,7 +3477,7 @@
     ],
     "correctAnswer": "onion",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW555",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3518,7 +3519,7 @@
     ],
     "correctAnswer": "potato",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW612",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3555,7 +3556,7 @@
     ],
     "correctAnswer": "recipe",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW639",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3597,7 +3598,7 @@
     ],
     "correctAnswer": "rupee",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW667",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3639,7 +3640,7 @@
     ],
     "correctAnswer": "salad",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW671",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3676,7 +3677,7 @@
     ],
     "correctAnswer": "spider",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW763",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3713,7 +3714,7 @@
     ],
     "correctAnswer": "tailor",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW816",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3750,7 +3751,7 @@
     ],
     "correctAnswer": "cradle",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW176",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write/Choose",
@@ -3792,7 +3793,7 @@
     "template": "Picture of dosa",
     "correctAnswer": "dosa",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW232",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -3829,7 +3830,7 @@
     ],
     "correctAnswer": "orange",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW557",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3866,7 +3867,7 @@
     ],
     "correctAnswer": "school",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW683",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3903,7 +3904,7 @@
     ],
     "correctAnswer": "wheat",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW926",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -3948,10 +3949,10 @@
       "s",
       "c"
     ],
-    "template": "b a _ k",
+    "template": "b a _ k | Selectable options: c / t / n",
     "correctAnswer": "back",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW029",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3993,7 +3994,7 @@
     "template": "Picture of flowers",
     "correctAnswer": "flowers",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW304",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4035,7 +4036,7 @@
     "template": "Picture of green gram",
     "correctAnswer": "green gram",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW356",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4077,7 +4078,7 @@
     "template": "Picture showing several insects",
     "correctAnswer": "insects",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW419",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4119,7 +4120,7 @@
     "template": "Picture of jaggery",
     "correctAnswer": "jaggery",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW426",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4161,7 +4162,7 @@
     "template": "Picture of jute",
     "correctAnswer": "jute",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW439",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4198,7 +4199,7 @@
     ],
     "correctAnswer": "peanuts",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW573",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4235,7 +4236,7 @@
     ],
     "correctAnswer": "reefs",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW642",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4272,7 +4273,7 @@
     ],
     "correctAnswer": "saffron",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW670",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4309,7 +4310,7 @@
     ],
     "correctAnswer": "samosa",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW674",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4346,7 +4347,7 @@
     ],
     "correctAnswer": "seasons",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW690",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4383,7 +4384,7 @@
     ],
     "correctAnswer": "shovel",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW721",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4420,7 +4421,7 @@
     ],
     "correctAnswer": "snake gourd",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW744",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4457,7 +4458,7 @@
     ],
     "correctAnswer": "talents",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW817",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4494,7 +4495,7 @@
     ],
     "correctAnswer": "tamarind",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW818",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4531,7 +4532,7 @@
     ],
     "correctAnswer": "tears",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW827",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4568,7 +4569,7 @@
     ],
     "correctAnswer": "tender coconut",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW832",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4613,10 +4614,10 @@
       "d",
       "y"
     ],
-    "template": "c a r r _",
+    "template": "c a r r _ | Selectable options: y / t / n",
     "correctAnswer": "carry",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW120",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4661,10 +4662,10 @@
       "b",
       "f"
     ],
-    "template": "c a t _ l e",
+    "template": "c a t _ l e | Selectable options: t / n / r",
     "correctAnswer": "cattle",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW126",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4709,10 +4710,10 @@
       "e",
       "a"
     ],
-    "template": "c h _ e k",
+    "template": "c h _ e k | Selectable options: e / a / i",
     "correctAnswer": "cheek",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW134",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4757,10 +4758,10 @@
       "a",
       "u"
     ],
-    "template": "c h _ s t",
+    "template": "c h _ s t | Selectable options: e / a / i",
     "correctAnswer": "chest",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW137",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -4778,30 +4779,41 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "barfi",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "barfi"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "tears"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "shells"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "island"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "b"
       }
+    ],
+    "units": [
+      "a",
+      "r",
+      "f",
+      "i",
+      "b"
     ],
     "correctAnswer": "barfi",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW037",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4838,7 +4850,7 @@
     ],
     "correctAnswer": "shadow",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW696",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4875,7 +4887,7 @@
     ],
     "correctAnswer": "shells",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW705",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -4893,30 +4905,41 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "zebra",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of the animal.",
     "options": [
       {
         "id": "A",
-        "label": "owl"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "pot"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "sun"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "zebra"
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "z"
       }
+    ],
+    "units": [
+      "e",
+      "b",
+      "r",
+      "a",
+      "z"
     ],
     "correctAnswer": "zebra",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW957",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4953,7 +4976,7 @@
     ],
     "correctAnswer": "day",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW206",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -4990,7 +5013,7 @@
     ],
     "correctAnswer": "desert",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW215",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5027,7 +5050,7 @@
     ],
     "correctAnswer": "fibre",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW284",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5064,7 +5087,7 @@
     ],
     "correctAnswer": "go",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW343",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5101,7 +5124,7 @@
     ],
     "correctAnswer": "iron",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW423",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5138,7 +5161,7 @@
     ],
     "correctAnswer": "island",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW424",
       "activityCode": "E08",
       "originalActivity": "E08 Correct Spelling",
@@ -5180,7 +5203,7 @@
     ],
     "correctAnswer": "baby",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW028",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -5218,7 +5241,7 @@
     ],
     "correctAnswer": "boondhi",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW074",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -5261,7 +5284,7 @@
     "template": "Picture of dal",
     "correctAnswer": "dal",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW201",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -5304,7 +5327,7 @@
     "template": "Picture of ghee",
     "correctAnswer": "ghee",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW335",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -5347,7 +5370,7 @@
     "template": "Picture of idli",
     "correctAnswer": "idli",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW414",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -5385,7 +5408,7 @@
     ],
     "correctAnswer": "pinky",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW587",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -5423,7 +5446,7 @@
     ],
     "correctAnswer": "angry",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW011",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5461,7 +5484,7 @@
     ],
     "correctAnswer": "ask",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW021",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5499,7 +5522,7 @@
     ],
     "correctAnswer": "bad",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW030",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5537,7 +5560,7 @@
     ],
     "correctAnswer": "badge",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW031",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -5562,31 +5585,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "about"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "n",
+      "s",
+      "b",
+      "about"
     ],
-    "template": "a b _ u t",
+    "template": "o   /   w   /   p",
     "correctAnswer": "about",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW001",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5611,31 +5634,31 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "alphabet"
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "l"
       }
     ],
     "units": [
-      "n",
-      "s",
-      "b",
-      "c"
+      "c",
+      "g",
+      "alphabet",
+      "l"
     ],
-    "template": "a l p h a _ e t",
+    "template": "b   /   z   /   q",
     "correctAnswer": "alphabet",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW008",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5660,31 +5683,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "bee"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "e"
+      "k",
+      "n",
+      "s",
+      "bee"
     ],
-    "template": "b _ e",
+    "template": "u   /   o   /   e",
     "correctAnswer": "bee",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW049",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5709,31 +5732,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "l"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "bin"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "t"
       }
     ],
     "units": [
-      "o",
-      "e",
-      "i",
-      "a"
+      "l",
+      "p",
+      "bin",
+      "t"
     ],
-    "template": "b _ n",
+    "template": "i   /   c   /   a",
     "correctAnswer": "bin",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW059",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5758,31 +5781,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "bring"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "n"
       }
     ],
     "units": [
-      "o",
-      "e",
-      "i",
-      "a"
+      "f",
+      "k",
+      "bring",
+      "n"
     ],
-    "template": "b r _ n g",
+    "template": "f   /   i   /   w",
     "correctAnswer": "bring",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW091",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5807,31 +5830,31 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "catch"
       },
       {
         "id": "C",
-        "label": "n"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "k"
       }
     ],
     "units": [
-      "k",
-      "c",
-      "n",
-      "s"
+      "b",
+      "catch",
+      "f",
+      "k"
     ],
-    "template": "c a t _ h",
+    "template": "n   /   m   /   c",
     "correctAnswer": "catch",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW124",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5856,31 +5879,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "coop"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "w"
       }
     ],
     "units": [
-      "e",
-      "o",
-      "a",
-      "u"
+      "m",
+      "coop",
+      "r",
+      "w"
     ],
-    "template": "c o _ p",
+    "template": "o   /   x   /   q",
     "correctAnswer": "coop",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW168",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5917,19 +5940,19 @@
       },
       {
         "id": "D",
-        "label": "y"
+        "label": "cry"
       }
     ],
     "units": [
       "p",
       "t",
       "c",
-      "y"
+      "cry"
     ],
-    "template": "c r _",
+    "template": "y   /   j   /   d",
     "correctAnswer": "cry",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW188",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5954,31 +5977,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "cube"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "n"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "e",
-      "a"
+      "f",
+      "k",
+      "cube",
+      "n"
     ],
-    "template": "c u b _",
+    "template": "f   /   w   /   e",
     "correctAnswer": "cube",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW190",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6003,31 +6026,31 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "dance"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "f"
       }
     ],
     "units": [
-      "l",
-      "p",
-      "c",
-      "t"
+      "s",
+      "b",
+      "dance",
+      "f"
     ],
-    "template": "d a n _ e",
+    "template": "o   /   c   /   z",
     "correctAnswer": "dance",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW202",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6065,7 +6088,7 @@
     ],
     "correctAnswer": "almond",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW007",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6103,7 +6126,7 @@
     ],
     "correctAnswer": "axe",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW027",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6141,7 +6164,7 @@
     ],
     "correctAnswer": "beach",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW042",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6179,7 +6202,7 @@
     ],
     "correctAnswer": "beat",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW045",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6217,7 +6240,7 @@
     ],
     "correctAnswer": "best",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW054",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6255,7 +6278,7 @@
     ],
     "correctAnswer": "blew",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW065",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6293,7 +6316,7 @@
     ],
     "correctAnswer": "bolt",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW071",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6331,7 +6354,7 @@
     ],
     "correctAnswer": "both",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW076",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6369,7 +6392,7 @@
     ],
     "correctAnswer": "bow",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW078",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6407,7 +6430,7 @@
     ],
     "correctAnswer": "bowl",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW079",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",
@@ -6432,31 +6455,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "anything"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "e",
-      "i"
+      "b",
+      "f",
+      "k",
+      "anything"
     ],
-    "template": "a n y t h _ n g",
+    "template": "i / e / a",
     "correctAnswer": "anything",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW016",
       "activityCode": "E11",
       "originalActivity": "E11 – Context → Complete Word",
@@ -6494,7 +6517,7 @@
     ],
     "correctAnswer": "anjaraipetti",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW013",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6532,7 +6555,7 @@
     ],
     "correctAnswer": "ash gourd",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW020",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6574,7 +6597,7 @@
     ],
     "correctAnswer": "aval",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW025",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6612,7 +6635,7 @@
     ],
     "correctAnswer": "bengal gram",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW053",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -6650,7 +6673,7 @@
     ],
     "correctAnswer": "black gram",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW062",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -6688,7 +6711,7 @@
     ],
     "correctAnswer": "brinjal",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW092",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -6726,7 +6749,7 @@
     ],
     "correctAnswer": "cashew",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW121",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -6764,7 +6787,7 @@
     ],
     "correctAnswer": "curry leaves",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW195",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write/Choose",
@@ -6798,7 +6821,7 @@
     ],
     "correctAnswer": "derry",
     "source": {
-      "workbook": "English_Module_5_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW213",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",

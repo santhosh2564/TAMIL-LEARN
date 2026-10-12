@@ -31,10 +31,10 @@
         "label": "art"
       }
     ],
-    "template": "_ _ _",
+    "template": "_ _ _ | Jumbled letter tiles: t | a | r",
     "correctAnswer": "art",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW019",
       "activityCode": "E09",
       "originalActivity": "E09 – Meaning → Word",
@@ -73,10 +73,10 @@
         "label": "mango"
       }
     ],
-    "template": "_ _ _ _",
+    "template": "_ _ _ _ | Jumbled letter tiles: o | t | a | u",
     "correctAnswer": "auto",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW024",
       "activityCode": "E09",
       "originalActivity": "E09 – Meaning → Word",
@@ -115,10 +115,10 @@
         "label": "cow"
       }
     ],
-    "template": "______",
+    "template": "______ | Jumbled letter tiles: y | j | o",
     "correctAnswer": "joy",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW432",
       "activityCode": "E09",
       "originalActivity": "E09 Meaning → Word",
@@ -157,10 +157,10 @@
         "label": "meat"
       }
     ],
-    "template": "______",
+    "template": "______ | Jumbled letter tiles: t | a | m | e",
     "correctAnswer": "meat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW499",
       "activityCode": "E09",
       "originalActivity": "E09 Meaning → Word",
@@ -178,30 +178,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ant",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "he"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "kid"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "barn"
-      },
-      {
-        "id": "D",
-        "label": "ant"
+        "label": "n"
       }
+    ],
+    "units": [
+      "t",
+      "a",
+      "n"
     ],
     "correctAnswer": "ant",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW015",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -219,30 +220,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bag",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "violet"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "hat"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "bag"
-      },
-      {
-        "id": "D",
-        "label": "anything"
+        "label": "a"
       }
+    ],
+    "units": [
+      "g",
+      "b",
+      "a"
     ],
     "correctAnswer": "bag",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW032",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -260,30 +262,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "finger"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "auto"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "boy"
-      },
-      {
-        "id": "D",
-        "label": "bat"
+        "label": "t"
       }
+    ],
+    "units": [
+      "a",
+      "b",
+      "t"
     ],
     "correctAnswer": "bat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW040",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -301,30 +304,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bed",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "joy"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "bun"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "cup"
-      },
-      {
-        "id": "D",
-        "label": "bed"
+        "label": "b"
       }
+    ],
+    "units": [
+      "e",
+      "d",
+      "b"
     ],
     "correctAnswer": "bed",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW048",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -342,31 +346,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "box",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "seat"
+        "label": "x"
       },
       {
         "id": "B",
-        "label": "bat"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "cop"
-      },
-      {
-        "id": "D",
-        "label": "box"
+        "label": "b"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "x",
+      "o",
+      "b"
+    ],
     "correctAnswer": "box",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW080",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -384,31 +388,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "boy",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "boy"
+        "label": "y"
       },
       {
         "id": "B",
-        "label": "art"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "bed"
-      },
-      {
-        "id": "D",
-        "label": "cot"
+        "label": "b"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "y",
+      "o",
+      "b"
+    ],
     "correctAnswer": "boy",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW081",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -426,31 +430,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bun",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "art"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "bed"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "bun"
-      },
-      {
-        "id": "D",
-        "label": "cot"
+        "label": "b"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "n",
+      "u",
+      "b"
+    ],
     "correctAnswer": "bun",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW102",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -468,31 +472,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bus",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "meat"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "bus"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "bun"
-      },
-      {
-        "id": "D",
-        "label": "dad"
+        "label": "b"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "s",
+      "u",
+      "b"
+    ],
     "correctAnswer": "bus",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW105",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -510,31 +514,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "car",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "leg"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "car"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "corn"
-      },
-      {
-        "id": "D",
-        "label": "horn"
+        "label": "a"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "c",
+      "r",
+      "a"
+    ],
     "correctAnswer": "car",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW116",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -552,31 +556,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "cat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "gaur"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "cat"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "mixie"
-      },
-      {
-        "id": "D",
-        "label": "shorts"
+        "label": "t"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "a",
+      "c",
+      "t"
+    ],
     "correctAnswer": "cat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW123",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -594,30 +598,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "cop",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "rabbit"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "tomato"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "drink"
-      },
-      {
-        "id": "D",
-        "label": "cop"
+        "label": "o"
       }
+    ],
+    "units": [
+      "c",
+      "p",
+      "o"
     ],
     "correctAnswer": "cop",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW169",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -635,30 +640,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "cot",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "anything"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "ash gourd"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "feathers"
-      },
-      {
-        "id": "D",
-        "label": "cot"
+        "label": "c"
       }
+    ],
+    "units": [
+      "o",
+      "t",
+      "c"
     ],
     "correctAnswer": "cot",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW172",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -676,30 +682,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "cow",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "scarf"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "cow"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "black gram"
-      },
-      {
-        "id": "D",
-        "label": "fingers"
+        "label": "o"
       }
+    ],
+    "units": [
+      "c",
+      "w",
+      "o"
     ],
     "correctAnswer": "cow",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW174",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -717,30 +724,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "cup",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "bean"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "cup"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "gun"
-      },
-      {
-        "id": "D",
-        "label": "skin"
+        "label": "p"
       }
+    ],
+    "units": [
+      "u",
+      "c",
+      "p"
     ],
     "correctAnswer": "cup",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW192",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -758,30 +766,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dad",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is your male parent. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "dad"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "gun"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "skin"
-      },
-      {
-        "id": "D",
-        "label": "flower"
+        "label": "d"
       }
+    ],
+    "units": [
+      "a",
+      "d",
+      "d"
     ],
     "correctAnswer": "dad",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW199",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -799,31 +808,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "den",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "beak"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "fur"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "den"
-      },
-      {
-        "id": "D",
-        "label": "sink"
+        "label": "d"
       }
     ],
-    "template": "Picture of an animal den",
+    "units": [
+      "e",
+      "n",
+      "d"
+    ],
     "correctAnswer": "den",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW212",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -841,31 +850,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dog",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "dog"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "socks"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "wings"
-      },
-      {
-        "id": "D",
-        "label": "jump"
+        "label": "d"
       }
     ],
-    "template": "Picture of a dog",
+    "units": [
+      "o",
+      "g",
+      "d"
+    ],
     "correctAnswer": "dog",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW229",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -883,31 +892,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ear",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ear"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "desk"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "leaf"
-      },
-      {
-        "id": "D",
-        "label": "tool"
+        "label": "a"
       }
     ],
-    "template": "Picture of an ear",
+    "units": [
+      "r",
+      "e",
+      "a"
+    ],
     "correctAnswer": "ear",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW250",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -925,31 +934,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "fan",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ash gourd"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "feathers"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "fan"
-      },
-      {
-        "id": "D",
-        "label": "art"
+        "label": "f"
       }
     ],
-    "template": "Picture of a fan",
+    "units": [
+      "n",
+      "a",
+      "f"
+    ],
     "correctAnswer": "fan",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW270",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -967,31 +976,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "fig",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fig"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "ham"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "jug"
-      },
-      {
-        "id": "D",
-        "label": "map"
+        "label": "i"
       }
     ],
-    "template": "Picture of a fig",
+    "units": [
+      "f",
+      "g",
+      "i"
+    ],
     "correctAnswer": "fig",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW287",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1009,31 +1018,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "fox",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ship"
+        "label": "x"
       },
       {
         "id": "B",
-        "label": "aval"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "legs"
-      },
-      {
-        "id": "D",
-        "label": "fox"
+        "label": "f"
       }
     ],
-    "template": "Picture of a fox",
+    "units": [
+      "x",
+      "o",
+      "f"
+    ],
     "correctAnswer": "fox",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW316",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1051,31 +1060,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ham",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ham"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "hat"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "anything"
-      },
-      {
-        "id": "D",
-        "label": "ash gourd"
+        "label": "m"
       }
     ],
-    "template": "Picture of ham",
+    "units": [
+      "a",
+      "h",
+      "m"
+    ],
     "correctAnswer": "ham",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW368",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1093,31 +1102,26 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "he",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the word for the male person.",
     "options": [
       {
         "id": "A",
-        "label": "he"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "ant"
-      },
-      {
-        "id": "C",
-        "label": "bus"
-      },
-      {
-        "id": "D",
-        "label": "dad"
+        "label": "h"
       }
     ],
-    "template": "Picture of a boy/man",
+    "units": [
+      "e",
+      "h"
+    ],
     "correctAnswer": "he",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW379",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1135,31 +1139,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "hen",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "tool"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "hen"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "ginger"
-      },
-      {
-        "id": "D",
-        "label": "paws"
+        "label": "h"
       }
     ],
-    "template": "Picture of a hen",
+    "units": [
+      "n",
+      "e",
+      "h"
+    ],
     "correctAnswer": "hen",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW390",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1177,31 +1181,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "hop",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the action word.",
     "options": [
       {
         "id": "A",
-        "label": "hop"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "he"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "kit"
-      },
-      {
-        "id": "D",
-        "label": "beak"
+        "label": "o"
       }
     ],
-    "template": "Picture of a child hopping",
+    "units": [
+      "h",
+      "p",
+      "o"
+    ],
     "correctAnswer": "hop",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW401",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1219,31 +1223,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "jam",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "jam"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "nest"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "snack"
-      },
-      {
-        "id": "D",
-        "label": "cashew"
+        "label": "j"
       }
     ],
-    "template": "Picture of a jar of jam",
+    "units": [
+      "m",
+      "a",
+      "j"
+    ],
     "correctAnswer": "jam",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW427",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1261,31 +1265,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "jar",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cereals"
+        "label": "j"
       },
       {
         "id": "B",
-        "label": "jar"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "toe"
-      },
-      {
-        "id": "D",
-        "label": "curry leaves"
+        "label": "a"
       }
     ],
-    "template": "Picture of a jar",
+    "units": [
+      "j",
+      "r",
+      "a"
+    ],
     "correctAnswer": "jar",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW428",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1303,31 +1307,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "jet",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "dew"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "wood"
+        "label": "j"
       },
       {
         "id": "C",
-        "label": "jet"
-      },
-      {
-        "id": "D",
-        "label": "derry"
+        "label": "e"
       }
     ],
-    "template": "Picture of a jet",
+    "units": [
+      "t",
+      "j",
+      "e"
+    ],
     "correctAnswer": "jet",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW429",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1345,31 +1349,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "jug",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "jug"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "meat"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "bun"
-      },
-      {
-        "id": "D",
-        "label": "cup"
+        "label": "j"
       }
     ],
-    "template": "Picture of a jug",
+    "units": [
+      "g",
+      "u",
+      "j"
+    ],
     "correctAnswer": "jug",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW434",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1387,31 +1391,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "kid",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "jug"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "kid"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "barn"
-      },
-      {
-        "id": "D",
-        "label": "fork"
+        "label": "i"
       }
     ],
-    "template": "Picture of a young goat",
+    "units": [
+      "d",
+      "k",
+      "i"
+    ],
     "correctAnswer": "kid",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW442",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1429,31 +1433,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "kit",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "kid"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "beak"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "kit"
-      },
-      {
-        "id": "D",
-        "label": "fur"
+        "label": "i"
       }
     ],
-    "template": "Picture of a kit/set of tools",
+    "units": [
+      "t",
+      "k",
+      "i"
+    ],
     "correctAnswer": "kit",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW443",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1471,31 +1475,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lap",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "lap"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "gaur"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "mixie"
-      },
-      {
-        "id": "D",
-        "label": "shorts"
+        "label": "p"
       }
     ],
-    "template": "Picture of a child sitting with a book on their lap",
+    "units": [
+      "a",
+      "l",
+      "p"
+    ],
     "correctAnswer": "lap",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW452",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1513,31 +1517,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "leg",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "jump"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "leg"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "animals"
-      },
-      {
-        "id": "D",
-        "label": "bengal gram"
+        "label": "g"
       }
     ],
-    "template": "Picture showing a leg",
+    "units": [
+      "e",
+      "l",
+      "g"
+    ],
     "correctAnswer": "leg",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW460",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1555,31 +1559,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "lip",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "lip"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "box"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "cot"
-      },
-      {
-        "id": "D",
-        "label": "fan"
+        "label": "l"
       }
     ],
-    "template": "Picture showing a lip",
+    "units": [
+      "i",
+      "p",
+      "l"
+    ],
     "correctAnswer": "lip",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW474",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1597,31 +1601,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "man",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "man"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "lemon"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "saree"
-      },
-      {
-        "id": "D",
-        "label": "towel"
+        "label": "a"
       }
     ],
-    "template": "Picture of a man",
+    "units": [
+      "n",
+      "m",
+      "a"
+    ],
     "correctAnswer": "man",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW492",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1639,31 +1643,31 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "map",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "mixie"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "shorts"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "map"
-      },
-      {
-        "id": "D",
-        "label": "violet"
+        "label": "m"
       }
     ],
-    "template": "Picture of a map",
+    "units": [
+      "p",
+      "a",
+      "m"
+    ],
     "correctAnswer": "map",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW494",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1681,30 +1685,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "barn",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a building where farm animals are kept. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "barn"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "cap"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "meal"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "anjaraipetti"
+        "label": "n"
       }
+    ],
+    "units": [
+      "r",
+      "a",
+      "b",
+      "n"
     ],
     "correctAnswer": "barn",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW038",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -1722,30 +1732,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "beak",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "gem"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "ant"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "beak"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "bus"
+        "label": "a"
       }
+    ],
+    "units": [
+      "e",
+      "k",
+      "b",
+      "a"
     ],
     "correctAnswer": "beak",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW043",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -1763,30 +1779,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "bean",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "rest"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "bag"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "car"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "bean"
+        "label": "e"
       }
+    ],
+    "units": [
+      "b",
+      "a",
+      "n",
+      "e"
     ],
     "correctAnswer": "bean",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW044",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -1804,30 +1826,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "corn",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "meal"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "anjaraipetti"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "corn"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "dhoti"
+        "label": "o"
       }
+    ],
+    "units": [
+      "c",
+      "n",
+      "r",
+      "o"
     ],
     "correctAnswer": "corn",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW171",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -1845,31 +1873,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "desk",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "drum"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "lift"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "desk"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "town"
+        "label": "e"
       }
     ],
-    "template": "Picture of a desk",
+    "units": [
+      "k",
+      "d",
+      "s",
+      "e"
+    ],
     "correctAnswer": "desk",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW216",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -1887,31 +1920,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "drum",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cop"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "ear"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "hop"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "drum"
+        "label": "r"
       }
     ],
-    "template": "Picture of a drum",
+    "units": [
+      "m",
+      "d",
+      "u",
+      "r"
+    ],
     "correctAnswer": "drum",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW242",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -1929,31 +1967,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "fins",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. These help a fish move through water. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "horn"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "fins"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "sofa"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "gaur"
+        "label": "s"
       }
     ],
-    "template": "Picture of fish fins",
+    "units": [
+      "f",
+      "n",
+      "i",
+      "s"
+    ],
     "correctAnswer": "fins",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW291",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -1971,31 +2014,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "fork",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "lift"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "fork"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "town"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "hands"
+        "label": "r"
       }
     ],
-    "template": "Picture of a fork",
+    "units": [
+      "o",
+      "f",
+      "k",
+      "r"
+    ],
     "correctAnswer": "fork",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW314",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2013,31 +2061,31 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "fur",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This soft covering keeps some animals warm. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fur"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "towel"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "few"
-      },
-      {
-        "id": "D",
-        "label": "dew"
+        "label": "u"
       }
     ],
-    "template": "Picture of animal fur",
+    "units": [
+      "r",
+      "f",
+      "u"
+    ],
     "correctAnswer": "fur",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW324",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2055,31 +2103,31 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "gun",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "few"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "dew"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "gun"
-      },
-      {
-        "id": "D",
-        "label": "wood"
+        "label": "g"
       }
     ],
-    "template": "Picture of a gun",
+    "units": [
+      "u",
+      "n",
+      "g"
+    ],
     "correctAnswer": "gun",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW366",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2097,31 +2145,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "horn",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "hop"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "lap"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "horn"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "bean"
+        "label": "n"
       }
     ],
-    "template": "Picture of a horn",
+    "units": [
+      "o",
+      "r",
+      "h",
+      "n"
+    ],
     "correctAnswer": "horn",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW403",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2139,31 +2192,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "leaf",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "leaf"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "legs"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "rabbit"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "tomato"
+        "label": "e"
       }
     ],
-    "template": "Picture of a leaf",
+    "units": [
+      "a",
+      "l",
+      "f",
+      "e"
+    ],
     "correctAnswer": "leaf",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW456",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2181,31 +2239,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "lift",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the action word.",
     "options": [
       {
         "id": "A",
-        "label": "scarf"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "lift"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "black gram"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "fingers"
+        "label": "l"
       }
     ],
-    "template": "Picture of a child lifting a box",
+    "units": [
+      "i",
+      "f",
+      "t",
+      "l"
+    ],
     "correctAnswer": "lift",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW468",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2223,31 +2286,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "ring",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "thank you"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "ring"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "deep"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "nest"
+        "label": "n"
       }
     ],
-    "template": "Picture of a ring.",
+    "units": [
+      "g",
+      "r",
+      "i",
+      "n"
+    ],
     "correctAnswer": "ring",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW651",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2265,31 +2333,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "ship",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "brinjal"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "lemon"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "saree"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "ship"
+        "label": "s"
       }
     ],
-    "template": "Picture of a ship.",
+    "units": [
+      "i",
+      "h",
+      "p",
+      "s"
+    ],
     "correctAnswer": "ship",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW709",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2307,31 +2380,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "sink",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sink"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "meat"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "bun"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "cup"
+        "label": "i"
       }
     ],
-    "template": "Picture of a kitchen sink.",
+    "units": [
+      "n",
+      "k",
+      "s",
+      "i"
+    ],
     "correctAnswer": "sink",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW728",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2349,31 +2427,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "skin",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for the part covering the person's hand or arm.",
     "options": [
       {
         "id": "A",
-        "label": "skin"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "hen"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "kit"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "beak"
+        "label": "s"
       }
     ],
-    "template": "Picture clearly showing a close-up of visible skin on a hand or arm, with the skin itself clearly emphasized.",
+    "units": [
+      "k",
+      "i",
+      "n",
+      "s"
+    ],
     "correctAnswer": "skin",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW731",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2391,31 +2474,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "sofa",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cap"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "meal"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "anjaraipetti"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "sofa"
+        "label": "o"
       }
     ],
-    "template": "Picture of a sofa.",
+    "units": [
+      "a",
+      "s",
+      "f",
+      "o"
+    ],
     "correctAnswer": "sofa",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW752",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2433,31 +2521,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "tool",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cop"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "ear"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "tool"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "hop"
+        "label": "t"
       }
     ],
-    "template": "Picture clearly showing a hand tool used for simple work.",
+    "units": [
+      "o",
+      "l",
+      "o",
+      "t"
+    ],
     "correctAnswer": "tool",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW865",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2475,31 +2568,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "town",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "dad"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "ham"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "town"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "jug"
+        "label": "w"
       }
     ],
-    "template": "Picture showing a small town with houses, roads and buildings.",
+    "units": [
+      "t",
+      "n",
+      "o",
+      "w"
+    ],
     "correctAnswer": "town",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW869",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -2517,31 +2615,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "wing",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word.",
     "options": [
       {
         "id": "A",
-        "label": "fur"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "wing"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "sink"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "flower"
+        "label": "g"
       }
     ],
-    "template": "wing / ring / king",
+    "units": [
+      "i",
+      "w",
+      "n",
+      "g"
+    ],
     "correctAnswer": "wing",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW934",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -2559,30 +2662,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "aval",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "skin"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "gaur"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "aval"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "mixie"
+        "label": "v"
       }
+    ],
+    "units": [
+      "a",
+      "a",
+      "l",
+      "v"
     ],
     "correctAnswer": "aval",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW025",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -2600,26 +2709,51 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "brinjal",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This vegetable is commonly used in curries. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "brinjal"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "brinjel"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "brenjal"
+        "label": "n"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "j"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "b"
       }
+    ],
+    "units": [
+      "a",
+      "i",
+      "n",
+      "r",
+      "j",
+      "l",
+      "b"
     ],
     "correctAnswer": "brinjal",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW092",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -2637,31 +2771,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "flower",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is the colourful part of a plant. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "den"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "flower"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "he"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "kid"
+        "label": "w"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "e"
       }
     ],
-    "template": "Picture of a flower",
+    "units": [
+      "o",
+      "f",
+      "l",
+      "w",
+      "r",
+      "e"
+    ],
     "correctAnswer": "flower",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW303",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2679,31 +2828,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "gaur",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a large wild animal found in forests. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "curry leaves"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "gem"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "ant"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "gaur"
+        "label": "u"
       }
     ],
-    "template": "Picture of a gaur",
+    "units": [
+      "a",
+      "r",
+      "g",
+      "u"
+    ],
     "correctAnswer": "gaur",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW330",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2721,31 +2875,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "ginger",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a root used as a spice in cooking. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "gem"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "ant"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "ginger"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "bus"
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "i"
       }
     ],
-    "template": "Picture of ginger",
+    "units": [
+      "e",
+      "r",
+      "g",
+      "n",
+      "g",
+      "i"
+    ],
     "correctAnswer": "ginger",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW337",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2763,31 +2932,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "hands",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for these body parts.",
     "options": [
       {
         "id": "A",
-        "label": "gem"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "hands"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "ant"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "bus"
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "s"
       }
     ],
-    "template": "Picture of hands",
+    "units": [
+      "a",
+      "h",
+      "d",
+      "n",
+      "s"
+    ],
     "correctAnswer": "hands",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW372",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2805,31 +2984,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "laddus",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of these sweets.",
     "options": [
       {
         "id": "A",
-        "label": "man"
+        "label": "l"
       },
       {
         "id": "B",
-        "label": "drum"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "lift"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "laddus"
+        "label": "d"
+      },
+      {
+        "id": "E",
+        "label": "s"
+      },
+      {
+        "id": "F",
+        "label": "u"
       }
     ],
-    "template": "Picture of laddus",
+    "units": [
+      "l",
+      "d",
+      "a",
+      "d",
+      "s",
+      "u"
+    ],
     "correctAnswer": "laddus",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW448",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2847,31 +3041,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "legs",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for these body parts.",
     "options": [
       {
         "id": "A",
-        "label": "lunch"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "scarf"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "legs"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "black gram"
+        "label": "l"
       }
     ],
-    "template": "Picture showing two legs",
+    "units": [
+      "g",
+      "e",
+      "s",
+      "l"
+    ],
     "correctAnswer": "legs",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW461",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2889,31 +3088,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "lemon",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this fruit.",
     "options": [
       {
         "id": "A",
-        "label": "nest"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "snack"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "cashew"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "lemon"
+        "label": "o"
+      },
+      {
+        "id": "E",
+        "label": "l"
       }
     ],
-    "template": "Picture of a lemon",
+    "units": [
+      "e",
+      "n",
+      "m",
+      "o",
+      "l"
+    ],
     "correctAnswer": "lemon",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW462",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2931,31 +3140,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "mango",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this fruit.",
     "options": [
       {
         "id": "A",
-        "label": "lemon"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "mango"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "seeds"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "veena"
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "g"
       }
     ],
-    "template": "Picture of a mango",
+    "units": [
+      "a",
+      "o",
+      "m",
+      "n",
+      "g"
+    ],
     "correctAnswer": "mango",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW493",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -2973,22 +3192,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "mixie",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the correct word.",
     "options": [
       {
         "id": "A",
-        "label": "Picture: a kitchen mixie"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "blender"
+        "label": "m"
+      },
+      {
+        "id": "C",
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "x"
+      },
+      {
+        "id": "E",
+        "label": "i"
       }
+    ],
+    "units": [
+      "i",
+      "m",
+      "e",
+      "x",
+      "i"
     ],
     "correctAnswer": "mixie",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW509",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write Word",
@@ -3006,26 +3244,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "paws",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "paws"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "pawes"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "pows"
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "w"
       }
+    ],
+    "units": [
+      "a",
+      "s",
+      "p",
+      "w"
     ],
     "correctAnswer": "paws",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW571",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3043,26 +3291,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "ponds",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "ponds"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "pondes"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "pons"
+        "label": "s"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      },
+      {
+        "id": "E",
+        "label": "p"
       }
+    ],
+    "units": [
+      "d",
+      "n",
+      "s",
+      "o",
+      "p"
     ],
     "correctAnswer": "ponds",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW605",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3080,26 +3343,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "puppy",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "puppy"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "puppie"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "pupy"
+        "label": "p"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "p"
       }
+    ],
+    "units": [
+      "p",
+      "u",
+      "p",
+      "y",
+      "p"
     ],
     "correctAnswer": "puppy",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW623",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3117,26 +3395,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "rabbit",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "rabbit"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "rabit"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "rabbitt"
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "b"
+      },
+      {
+        "id": "E",
+        "label": "b"
+      },
+      {
+        "id": "F",
+        "label": "t"
       }
+    ],
+    "units": [
+      "i",
+      "r",
+      "a",
+      "b",
+      "b",
+      "t"
     ],
     "correctAnswer": "rabbit",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW629",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3154,26 +3452,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "saree",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "saree"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "sare"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "sareee"
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "e"
       }
+    ],
+    "units": [
+      "e",
+      "r",
+      "a",
+      "s",
+      "e"
     ],
     "correctAnswer": "saree",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW677",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3191,26 +3504,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "seeds",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "seeds"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "seads"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "seedes"
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "e"
       }
+    ],
+    "units": [
+      "s",
+      "s",
+      "d",
+      "e",
+      "e"
     ],
     "correctAnswer": "seeds",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW694",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3228,26 +3556,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "shorts",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "shorts"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "shurts"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "shortes"
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "h"
+      },
+      {
+        "id": "F",
+        "label": "r"
       }
+    ],
+    "units": [
+      "s",
+      "t",
+      "o",
+      "s",
+      "h",
+      "r"
     ],
     "correctAnswer": "shorts",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW718",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3265,26 +3613,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "socks",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "socks"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "soks"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "sockes"
+        "label": "k"
+      },
+      {
+        "id": "D",
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "s"
       }
+    ],
+    "units": [
+      "o",
+      "c",
+      "k",
+      "s",
+      "s"
     ],
     "correctAnswer": "socks",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW751",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3302,26 +3665,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "tabla",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "tabla"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "tabala"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "tablha"
+        "label": "l"
+      },
+      {
+        "id": "D",
+        "label": "b"
+      },
+      {
+        "id": "E",
+        "label": "t"
       }
+    ],
+    "units": [
+      "a",
+      "a",
+      "l",
+      "b",
+      "t"
     ],
     "correctAnswer": "tabla",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW813",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3339,26 +3717,56 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "thank you",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct words and write them.",
     "options": [
       {
         "id": "A",
-        "label": "thank you"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "thank yoo"
+        "label": "y"
       },
       {
         "id": "C",
-        "label": "thnk you"
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "k"
+      },
+      {
+        "id": "G",
+        "label": "o"
+      },
+      {
+        "id": "H",
+        "label": "n"
       }
+    ],
+    "units": [
+      "t",
+      "y",
+      "h",
+      "a",
+      "u",
+      "k",
+      "o",
+      "n"
     ],
     "correctAnswer": "thank you",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW834",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3376,26 +3784,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "tomato",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "tomato"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "tomatto"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "tometo"
+        "label": "o"
+      },
+      {
+        "id": "D",
+        "label": "m"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "t"
       }
+    ],
+    "units": [
+      "o",
+      "t",
+      "o",
+      "m",
+      "a",
+      "t"
     ],
     "correctAnswer": "tomato",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW862",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3413,26 +3841,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "towel",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "towel"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "towle"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "towvel"
+        "label": "t"
+      },
+      {
+        "id": "D",
+        "label": "o"
+      },
+      {
+        "id": "E",
+        "label": "l"
       }
+    ],
+    "units": [
+      "w",
+      "e",
+      "t",
+      "o",
+      "l"
     ],
     "correctAnswer": "towel",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW868",
       "activityCode": "E12",
       "originalActivity": "E12 Picture Write → Word",
@@ -3450,30 +3893,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "veena",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of the musical instrument.",
     "options": [
       {
         "id": "A",
-        "label": "paws"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "socks"
+        "label": "v"
       },
       {
         "id": "C",
-        "label": "veena"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "crack"
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "a"
       }
+    ],
+    "units": [
+      "e",
+      "v",
+      "n",
+      "e",
+      "a"
     ],
     "correctAnswer": "veena",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW902",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -3491,30 +3945,46 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "violet",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of the colour.",
     "options": [
       {
         "id": "A",
-        "label": "saree"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "towel"
+        "label": "v"
       },
       {
         "id": "C",
-        "label": "violet"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "cap"
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "o"
+      },
+      {
+        "id": "F",
+        "label": "l"
       }
+    ],
+    "units": [
+      "t",
+      "v",
+      "i",
+      "e",
+      "o",
+      "l"
     ],
     "correctAnswer": "violet",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW906",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -3532,30 +4002,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "wings",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for the parts birds use to fly.",
     "options": [
       {
         "id": "A",
-        "label": "gun"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "skin"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "wings"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "flower"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "s"
       }
+    ],
+    "units": [
+      "w",
+      "g",
+      "n",
+      "i",
+      "s"
     ],
     "correctAnswer": "wings",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW935",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -3575,35 +4056,35 @@
     "targetWord": "crack",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "There is a ______ in the wall. Complete the word:",
+    "prompt": "There is a ______ in the wall. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "crack"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "r"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "a",
-      "e"
+      "h",
+      "m",
+      "crack",
+      "r"
     ],
-    "template": "c r _ c k",
+    "template": "a / o / e",
     "correctAnswer": "crack",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW175",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3623,35 +4104,35 @@
     "targetWord": "deep",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The well is very ______. Complete the word:",
+    "prompt": "The well is very ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "deep"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "a",
-      "u"
+      "d",
+      "deep",
+      "h",
+      "m"
     ],
-    "template": "d e _ p",
+    "template": "e / a / o",
     "correctAnswer": "deep",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW208",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3671,35 +4152,35 @@
     "targetWord": "drink",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ water when we are thirsty. Complete the word:",
+    "prompt": "We ______ water when we are thirsty. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "drink"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "e",
-      "i"
+      "k",
+      "n",
+      "s",
+      "drink"
     ],
-    "template": "d r _ n k",
+    "template": "i / a / e",
     "correctAnswer": "drink",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW239",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -3738,10 +4219,10 @@
         "label": "kit"
       }
     ],
-    "template": "Meaning clue",
+    "template": "Write the word: _ _ _ | Jumbled letter tiles: w | f | e",
     "correctAnswer": "few",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW283",
       "activityCode": "E09",
       "originalActivity": "E09 Meaning → Word",
@@ -3759,31 +4240,31 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "cap",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cap"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "kit"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "beak"
-      },
-      {
-        "id": "D",
-        "label": "fur"
+        "label": "p"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "a",
+      "c",
+      "p"
+    ],
     "correctAnswer": "cap",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW115",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -3801,31 +4282,31 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "hat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "joy"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "boy"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "hat"
-      },
-      {
-        "id": "D",
-        "label": "cow"
+        "label": "a"
       }
     ],
-    "template": "Picture of a hat",
+    "units": [
+      "h",
+      "t",
+      "a"
+    ],
     "correctAnswer": "hat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW377",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -3843,31 +4324,36 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "jump",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the action word.",
     "options": [
       {
         "id": "A",
-        "label": "bag"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "car"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "jump"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "den"
+        "label": "j"
       }
     ],
-    "template": "Picture of a child jumping",
+    "units": [
+      "p",
+      "u",
+      "m",
+      "j"
+    ],
     "correctAnswer": "jump",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW436",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -3885,31 +4371,41 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "lunch",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for this meal.",
     "options": [
       {
         "id": "A",
-        "label": "corn"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "horn"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "sofa"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "lunch"
+        "label": "u"
+      },
+      {
+        "id": "E",
+        "label": "l"
       }
     ],
-    "template": "Picture of a lunch meal",
+    "units": [
+      "h",
+      "c",
+      "n",
+      "u",
+      "l"
+    ],
     "correctAnswer": "lunch",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW488",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -3927,31 +4423,36 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "nest",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cup"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "fox"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "nest"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "jet"
+        "label": "e"
       }
     ],
-    "template": "Picture of a bird's nest",
+    "units": [
+      "s",
+      "n",
+      "t",
+      "e"
+    ],
     "correctAnswer": "nest",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW539",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -3990,10 +4491,10 @@
         "label": "tomato"
       }
     ],
-    "template": "__________________",
+    "template": "__________________ | Jumbled letter tiles: s | e | r | a | c | e | l",
     "correctAnswer": "cereals",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW128",
       "activityCode": "E09",
       "originalActivity": "E09 – Meaning → Word",
@@ -4032,10 +4533,10 @@
         "label": "dew"
       }
     ],
-    "template": "Meaning/context",
+    "template": "Write the word: _ _ _ | Jumbled letter tiles: w | d | e",
     "correctAnswer": "dew",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW217",
       "activityCode": "E09",
       "originalActivity": "E09 – Meaning → Word",
@@ -4074,10 +4575,10 @@
         "label": "deep"
       }
     ],
-    "template": "______",
+    "template": "______ | Jumbled letter tiles: l | a | m | e",
     "correctAnswer": "meal",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW498",
       "activityCode": "E09",
       "originalActivity": "E09 Meaning → Word",
@@ -4101,31 +4602,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "anything"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "h"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "u",
-      "o"
+      "anything",
+      "w",
+      "d",
+      "h"
     ],
-    "template": "a n y t h _ n g",
+    "template": "i / e / a",
     "correctAnswer": "anything",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW016",
       "activityCode": "E11",
       "originalActivity": "E11 – Context → Complete Word",
@@ -4143,30 +4644,51 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "animals",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "animals"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "fan"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "jam"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "leg"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "l"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "a"
       }
+    ],
+    "units": [
+      "a",
+      "m",
+      "n",
+      "i",
+      "l",
+      "s",
+      "a"
     ],
     "correctAnswer": "animals",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW012",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -4184,31 +4706,41 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "scarf",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sink"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "brinjal"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "lemon"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "scarf"
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "r"
       }
     ],
-    "template": "Picture of a scarf.",
+    "units": [
+      "c",
+      "s",
+      "f",
+      "a",
+      "r"
+    ],
     "correctAnswer": "scarf",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW682",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4226,31 +4758,41 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "snack",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "tool"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "ginger"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "paws"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "snack"
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "c"
       }
     ],
-    "template": "Picture clearly showing a child eating a small snack.",
+    "units": [
+      "n",
+      "k",
+      "s",
+      "a",
+      "c"
+    ],
     "correctAnswer": "snack",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW741",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4268,31 +4810,31 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "toe",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ash gourd"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "feathers"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "toe"
-      },
-      {
-        "id": "D",
-        "label": "art"
+        "label": "t"
       }
     ],
-    "template": "Picture clearly showing a toe on a foot.",
+    "units": [
+      "e",
+      "o",
+      "t"
+    ],
     "correctAnswer": "toe",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW858",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4310,31 +4852,36 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "wood",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word.",
     "options": [
       {
         "id": "A",
-        "label": "seeds"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "veena"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "wood"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "cap"
+        "label": "w"
       }
     ],
-    "template": "wood / wool / food",
+    "units": [
+      "o",
+      "d",
+      "o",
+      "w"
+    ],
     "correctAnswer": "wood",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW942",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -4352,26 +4899,76 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "anjaraipetti",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "anjaraipetti"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "anjaraipetty"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "anjaraipeti"
+        "label": "a"
+      },
+      {
+        "id": "D",
+        "label": "p"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "j"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "a"
+      },
+      {
+        "id": "I",
+        "label": "e"
+      },
+      {
+        "id": "J",
+        "label": "a"
+      },
+      {
+        "id": "K",
+        "label": "i"
+      },
+      {
+        "id": "L",
+        "label": "r"
       }
+    ],
+    "units": [
+      "i",
+      "t",
+      "a",
+      "p",
+      "t",
+      "j",
+      "n",
+      "a",
+      "e",
+      "a",
+      "i",
+      "r"
     ],
     "correctAnswer": "anjaraipetti",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW013",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4389,26 +4986,56 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "ash gourd",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "ash gourd"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "ash guard"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "ash gourde"
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "a"
+      },
+      {
+        "id": "E",
+        "label": "s"
+      },
+      {
+        "id": "F",
+        "label": "o"
+      },
+      {
+        "id": "G",
+        "label": "g"
+      },
+      {
+        "id": "H",
+        "label": "u"
       }
+    ],
+    "units": [
+      "r",
+      "d",
+      "h",
+      "a",
+      "s",
+      "o",
+      "g",
+      "u"
     ],
     "correctAnswer": "ash gourd",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW020",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4426,26 +5053,66 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "bengal gram",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "bengal gram"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "bengal grem"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "bengal grum"
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "b"
+      },
+      {
+        "id": "E",
+        "label": "m"
+      },
+      {
+        "id": "F",
+        "label": "l"
+      },
+      {
+        "id": "G",
+        "label": "n"
+      },
+      {
+        "id": "H",
+        "label": "a"
+      },
+      {
+        "id": "I",
+        "label": "a"
+      },
+      {
+        "id": "J",
+        "label": "r"
       }
+    ],
+    "units": [
+      "g",
+      "g",
+      "e",
+      "b",
+      "m",
+      "l",
+      "n",
+      "a",
+      "a",
+      "r"
     ],
     "correctAnswer": "bengal gram",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW053",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -4463,26 +5130,61 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "black gram",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "black gram"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "black grem"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "black grum"
+        "label": "m"
+      },
+      {
+        "id": "D",
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "a"
+      },
+      {
+        "id": "F",
+        "label": "b"
+      },
+      {
+        "id": "G",
+        "label": "k"
+      },
+      {
+        "id": "H",
+        "label": "g"
+      },
+      {
+        "id": "I",
+        "label": "l"
       }
+    ],
+    "units": [
+      "c",
+      "a",
+      "m",
+      "r",
+      "a",
+      "b",
+      "k",
+      "g",
+      "l"
     ],
     "correctAnswer": "black gram",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW062",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -4500,26 +5202,46 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "cashew",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
-        "label": "cashew"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "casheu"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "cashaw"
+        "label": "h"
+      },
+      {
+        "id": "D",
+        "label": "w"
+      },
+      {
+        "id": "E",
+        "label": "c"
+      },
+      {
+        "id": "F",
+        "label": "e"
       }
+    ],
+    "units": [
+      "s",
+      "a",
+      "h",
+      "w",
+      "c",
+      "e"
     ],
     "correctAnswer": "cashew",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW121",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -4537,26 +5259,71 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "curry leaves",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
     "options": [
       {
         "id": "A",
-        "label": "curry leaves"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "curry leavs"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "curry leevs"
+        "label": "e"
+      },
+      {
+        "id": "D",
+        "label": "y"
+      },
+      {
+        "id": "E",
+        "label": "u"
+      },
+      {
+        "id": "F",
+        "label": "a"
+      },
+      {
+        "id": "G",
+        "label": "c"
+      },
+      {
+        "id": "H",
+        "label": "l"
+      },
+      {
+        "id": "I",
+        "label": "r"
+      },
+      {
+        "id": "J",
+        "label": "v"
+      },
+      {
+        "id": "K",
+        "label": "e"
       }
+    ],
+    "units": [
+      "r",
+      "s",
+      "e",
+      "y",
+      "u",
+      "a",
+      "c",
+      "l",
+      "r",
+      "v",
+      "e"
     ],
     "correctAnswer": "curry leaves",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW195",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write/Choose",
@@ -4574,22 +5341,41 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "derry",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "Picture"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "context from source"
+        "label": "y"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
       }
+    ],
+    "units": [
+      "r",
+      "y",
+      "d",
+      "e",
+      "r"
     ],
     "correctAnswer": "derry",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW213",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4607,31 +5393,41 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "dhoti",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "dhoti"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "fins"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "ring"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "wing"
+        "label": "d"
+      },
+      {
+        "id": "E",
+        "label": "i"
       }
     ],
-    "template": "Picture of a dhoti",
+    "units": [
+      "o",
+      "t",
+      "h",
+      "d",
+      "i"
+    ],
     "correctAnswer": "dhoti",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW218",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -4649,31 +5445,56 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "feathers",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. These cover a bird's body. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "finger"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "auto"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "feathers"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "box"
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "t"
+      },
+      {
+        "id": "G",
+        "label": "e"
+      },
+      {
+        "id": "H",
+        "label": "f"
       }
     ],
-    "template": "Picture of bird feathers",
+    "units": [
+      "a",
+      "s",
+      "h",
+      "r",
+      "e",
+      "t",
+      "e",
+      "f"
+    ],
     "correctAnswer": "feathers",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW278",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4691,31 +5512,46 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "finger",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is one part of your hand. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "he"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "kid"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "finger"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "barn"
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "n"
+      },
+      {
+        "id": "F",
+        "label": "g"
       }
     ],
-    "template": "Picture of a finger",
+    "units": [
+      "f",
+      "r",
+      "i",
+      "e",
+      "n",
+      "g"
+    ],
     "correctAnswer": "finger",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW289",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4733,31 +5569,51 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "fingers",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. These are parts of your hand. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fingers"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "fur"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "sink"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "brinjal"
+        "label": "f"
+      },
+      {
+        "id": "E",
+        "label": "e"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "n"
       }
     ],
-    "template": "Picture of fingers",
+    "units": [
+      "g",
+      "i",
+      "r",
+      "f",
+      "e",
+      "s",
+      "n"
+    ],
     "correctAnswer": "fingers",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW290",
       "activityCode": "E12",
       "originalActivity": "E12 Picture → Write Word",
@@ -4775,31 +5631,31 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "bug",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "man"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "drum"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "bug"
-      },
-      {
-        "id": "D",
-        "label": "lift"
+        "label": "u"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "b",
+      "g",
+      "u"
+    ],
     "correctAnswer": "bug",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW098",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -4817,31 +5673,31 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "gem",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "derry"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "gem"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "seat"
-      },
-      {
-        "id": "D",
-        "label": "bat"
+        "label": "m"
       }
     ],
-    "template": "Picture of a gem",
+    "units": [
+      "e",
+      "g",
+      "m"
+    ],
     "correctAnswer": "gem",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW332",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -4859,31 +5715,36 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "rest",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ship"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "aval"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "legs"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "rest"
+        "label": "t"
       }
     ],
-    "template": "Picture showing a child sitting quietly after playing.",
+    "units": [
+      "e",
+      "r",
+      "s",
+      "t"
+    ],
     "correctAnswer": "rest",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW646",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4901,31 +5762,36 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "seat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "violet"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "seat"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "hat"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "anything"
+        "label": "t"
       }
     ],
-    "template": "Picture of a seat.",
+    "units": [
+      "s",
+      "a",
+      "e",
+      "t"
+    ],
     "correctAnswer": "seat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW691",
       "activityCode": "E01",
       "originalActivity": "E01 Picture Identify → Word",
@@ -4944,30 +5810,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "apple",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "lap"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "bean"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "gun"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "apple"
+        "label": "p"
+      },
+      {
+        "id": "E",
+        "label": "a"
       }
+    ],
+    "units": [
+      "e",
+      "l",
+      "p",
+      "p",
+      "a"
     ],
     "correctAnswer": "apple",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW017",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write",
@@ -4986,31 +5863,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "bird",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "flower"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "mango"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "seeds"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "bird"
+        "label": "d"
       }
     ],
-    "template": "Picture",
+    "units": [
+      "r",
+      "i",
+      "b",
+      "d"
+    ],
     "correctAnswer": "bird",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW060",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture Identify → Word",
@@ -5029,30 +5911,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "crow",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "bun"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "cup"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "crow"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "fox"
+        "label": "r"
       }
+    ],
+    "units": [
+      "c",
+      "o",
+      "w",
+      "r"
     ],
     "correctAnswer": "crow",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW184",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -5071,30 +5959,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "curd",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "beak"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "curd"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "fur"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "sink"
+        "label": "u"
       }
+    ],
+    "units": [
+      "c",
+      "d",
+      "r",
+      "u"
     ],
     "correctAnswer": "curd",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW194",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Write Word",
@@ -5113,31 +6007,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dish",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "laddus"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "puppy"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "thank you"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "dish"
+        "label": "s"
       }
     ],
-    "template": "Picture of a dish",
+    "units": [
+      "i",
+      "d",
+      "h",
+      "s"
+    ],
     "correctAnswer": "dish",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW226",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -5156,31 +6055,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "door",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "jump"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "door"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "animals"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "bengal gram"
+        "label": "r"
       }
     ],
-    "template": "Picture of a door",
+    "units": [
+      "o",
+      "o",
+      "d",
+      "r"
+    ],
     "correctAnswer": "door",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW231",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -5199,31 +6103,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "duck",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "duck"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "box"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "cot"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "fan"
+        "label": "d"
       }
     ],
-    "template": "Picture of a duck",
+    "units": [
+      "c",
+      "k",
+      "u",
+      "d"
+    ],
     "correctAnswer": "duck",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW245",
       "activityCode": "E01",
       "originalActivity": "E01 – Picture → Identify Word",
@@ -5242,31 +6151,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "farm",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "meal"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "anjaraipetti"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "farm"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "dhoti"
+        "label": "a"
       }
     ],
-    "template": "Picture of a farm",
+    "units": [
+      "f",
+      "m",
+      "r",
+      "a"
+    ],
     "correctAnswer": "farm",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW272",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5285,31 +6199,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "fish",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "bean"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "gun"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "fish"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "skin"
+        "label": "h"
       }
     ],
-    "template": "Picture of a fish",
+    "units": [
+      "i",
+      "s",
+      "f",
+      "h"
+    ],
     "correctAnswer": "fish",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW294",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5328,31 +6247,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "foal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a young horse. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "foal"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "box"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "cot"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "fan"
+        "label": "l"
       }
     ],
-    "template": "Picture of a foal",
+    "units": [
+      "f",
+      "a",
+      "o",
+      "l"
+    ],
     "correctAnswer": "foal",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW308",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5371,31 +6295,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "frock",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "frock"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "barn"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "fork"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "ship"
+        "label": "k"
+      },
+      {
+        "id": "E",
+        "label": "f"
       }
     ],
-    "template": "Picture of a frock",
+    "units": [
+      "o",
+      "r",
+      "c",
+      "k",
+      "f"
+    ],
     "correctAnswer": "frock",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW319",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5414,31 +6348,41 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "fruit",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "flower"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "mango"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "seeds"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "fruit"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "u"
       }
     ],
-    "template": "Picture of fruit",
+    "units": [
+      "t",
+      "f",
+      "r",
+      "i",
+      "u"
+    ],
     "correctAnswer": "fruit",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW321",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5457,31 +6401,36 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "goat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "goat"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "box"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "cot"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "fan"
+        "label": "g"
       }
     ],
-    "template": "Picture of a goat",
+    "units": [
+      "a",
+      "o",
+      "t",
+      "g"
+    ],
     "correctAnswer": "goat",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW344",
       "activityCode": "E01",
       "originalActivity": "E01 Picture → Identify Word",
@@ -5502,7 +6451,7 @@
     "targetWord": "about",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The programme is ______ to start.",
+    "prompt": "The programme is ______ to start. Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5527,10 +6476,10 @@
       "o",
       "a"
     ],
-    "template": "a b _ u t",
+    "template": "a b _ u t | Selectable options: o / a / e",
     "correctAnswer": "about",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW001",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5551,7 +6500,7 @@
     "targetWord": "alphabet",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "Look at the picture. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -5576,10 +6525,10 @@
       "h",
       "m"
     ],
-    "template": "a l p h a _ e t",
+    "template": "a l p h a _ e t | Selectable options: b / d / r",
     "correctAnswer": "alphabet",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW008",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5600,7 +6549,7 @@
     "targetWord": "bee",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "Look at the picture. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -5625,10 +6574,10 @@
       "e",
       "a"
     ],
-    "template": "b _ e",
+    "template": "b _ e | Selectable options: e / a / o",
     "correctAnswer": "bee",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW049",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5649,7 +6598,7 @@
     "targetWord": "bin",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Put the paper in the ______. Complete the word:",
+    "prompt": "Put the paper in the ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5674,10 +6623,10 @@
       "a",
       "u"
     ],
-    "template": "b _ n",
+    "template": "b _ n | Selectable options: i / a / e",
     "correctAnswer": "bin",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW059",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5698,7 +6647,7 @@
     "targetWord": "bring",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Please ______ your book to class. Complete the word:",
+    "prompt": "Please ______ your book to class. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5723,10 +6672,10 @@
       "a",
       "u"
     ],
-    "template": "b r _ n g",
+    "template": "b r _ n g | Selectable options: i / a / e",
     "correctAnswer": "bring",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW091",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5747,7 +6696,7 @@
     "targetWord": "catch",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Try to ______ the ball. Complete the word:",
+    "prompt": "Try to ______ the ball. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5772,10 +6721,10 @@
       "d",
       "h"
     ],
-    "template": "c a t _ h",
+    "template": "c a t _ h | Selectable options: c / k / t",
     "correctAnswer": "catch",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW124",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5796,7 +6745,7 @@
     "targetWord": "coop",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Chickens can stay in a ______. Complete the word:",
+    "prompt": "Chickens can stay in a ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5821,10 +6770,10 @@
       "u",
       "i"
     ],
-    "template": "c o _ p",
+    "template": "c o _ p | Selectable options: o / a / e",
     "correctAnswer": "coop",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW168",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5845,7 +6794,7 @@
     "targetWord": "cry",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The baby may ______ when hungry. Complete the word:",
+    "prompt": "The baby may ______ when hungry. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5870,10 +6819,10 @@
       "y",
       "h"
     ],
-    "template": "c r _",
+    "template": "c r _ | Selectable options: y / a / e",
     "correctAnswer": "cry",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW188",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5894,7 +6843,7 @@
     "targetWord": "cube",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "A dice is shaped like a ______. Complete the word:",
+    "prompt": "A dice is shaped like a ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5919,10 +6868,10 @@
       "a",
       "u"
     ],
-    "template": "c u b _",
+    "template": "c u b _ | Selectable options: e / a / o",
     "correctAnswer": "cube",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW190",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5943,7 +6892,7 @@
     "targetWord": "dance",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The children like to ______ to music. Complete the word:",
+    "prompt": "The children like to ______ to music. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -5968,10 +6917,10 @@
       "f",
       "k"
     ],
-    "template": "d a n _ e",
+    "template": "d a n _ e | Selectable options: c / s / t",
     "correctAnswer": "dance",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW202",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5992,7 +6941,7 @@
     "targetWord": "die",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "One small cube used in a board game is called a ______. Complete the word:",
+    "prompt": "One small cube used in a board game is called a ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6017,10 +6966,10 @@
       "a",
       "u"
     ],
-    "template": "d _ e",
+    "template": "d _ e | Selectable options: i / a / o",
     "correctAnswer": "die",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW220",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6041,7 +6990,7 @@
     "targetWord": "dip",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Please ______ the biscuit in the milk. Complete the word:",
+    "prompt": "Please ______ the biscuit in the milk. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6066,10 +7015,10 @@
       "a",
       "u"
     ],
-    "template": "d _ p",
+    "template": "d _ p | Selectable options: i / a / o",
     "correctAnswer": "dip",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW224",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6090,7 +7039,7 @@
     "targetWord": "drive",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ a car on the road. Complete the word:",
+    "prompt": "We ______ a car on the road. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6115,10 +7064,10 @@
       "n",
       "v"
     ],
-    "template": "d r i _ e",
+    "template": "d r i _ e | Selectable options: v / f / b",
     "correctAnswer": "drive",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW240",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6139,7 +7088,7 @@
     "targetWord": "away",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "Look at the picture. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -6164,10 +7113,10 @@
       "e",
       "u"
     ],
-    "template": "a w _ y",
+    "template": "a w _ y | Selectable options: a / e / o",
     "correctAnswer": "away",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW026",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6188,7 +7137,7 @@
     "targetWord": "behind",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "Look at the picture. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -6213,10 +7162,10 @@
       "u",
       "o"
     ],
-    "template": "b e h _ n d",
+    "template": "b e h _ n d | Selectable options: i / a / e",
     "correctAnswer": "behind",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW050",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6237,7 +7186,7 @@
     "targetWord": "black",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The cat is ______. Complete the word:",
+    "prompt": "The cat is ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6262,10 +7211,10 @@
       "u",
       "o"
     ],
-    "template": "b l _ c k",
+    "template": "b l _ c k | Selectable options: a / e / o",
     "correctAnswer": "black",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW061",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6286,7 +7235,7 @@
     "targetWord": "brick",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The wall is made of ______. Complete the word:",
+    "prompt": "The wall is made of ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6311,10 +7260,10 @@
       "a",
       "u"
     ],
-    "template": "b r _ c k",
+    "template": "b r _ c k | Selectable options: i / a / e",
     "correctAnswer": "brick",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW088",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6335,7 +7284,7 @@
     "targetWord": "broom",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We use a ______ to sweep the floor. Complete the word:",
+    "prompt": "We use a ______ to sweep the floor. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6360,10 +7309,10 @@
       "e",
       "o"
     ],
-    "template": "b r _ o m",
+    "template": "b r _ o m | Selectable options: o / a / e",
     "correctAnswer": "broom",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW093",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6384,7 +7333,7 @@
     "targetWord": "brush",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "I use a ______ to clean my teeth. Complete the word:",
+    "prompt": "I use a ______ to clean my teeth. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6409,10 +7358,10 @@
       "u",
       "a"
     ],
-    "template": "b r _ s h",
+    "template": "b r _ s h | Selectable options: u / a / o",
     "correctAnswer": "brush",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW096",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6433,7 +7382,7 @@
     "targetWord": "buzz",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "A bee can ______ around a flower. Complete the word:",
+    "prompt": "A bee can ______ around a flower. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6458,10 +7407,10 @@
       "d",
       "h"
     ],
-    "template": "b u _ z",
+    "template": "b u _ z | Selectable options: z / s / t",
     "correctAnswer": "buzz",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW110",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6482,7 +7431,7 @@
     "targetWord": "claps",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "She ______ her hands after the song. Complete the word:",
+    "prompt": "She ______ her hands after the song. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6507,10 +7456,10 @@
       "p",
       "r"
     ],
-    "template": "c l a _ s",
+    "template": "c l a _ s | Selectable options: p / b / t",
     "correctAnswer": "claps",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW144",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6531,7 +7480,7 @@
     "targetWord": "cool",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The water feels ______. Complete the word:",
+    "prompt": "The water feels ______. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6556,10 +7505,10 @@
       "e",
       "o"
     ],
-    "template": "c _ o l",
+    "template": "c _ o l | Selectable options: o / a / e",
     "correctAnswer": "cool",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW167",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6580,7 +7529,7 @@
     "targetWord": "count",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Can you ______ the apples? Complete the word:",
+    "prompt": "Can you ______ the apples? Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6605,10 +7554,10 @@
       "u",
       "a"
     ],
-    "template": "c o _ n t",
+    "template": "c o _ n t | Selectable options: u / a / o",
     "correctAnswer": "count",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW173",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6629,7 +7578,7 @@
     "targetWord": "fry",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We can ______ an egg in a pan. Complete the word:",
+    "prompt": "We can ______ an egg in a pan. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6654,10 +7603,10 @@
       "l",
       "p"
     ],
-    "template": "f r _",
+    "template": "f r _ | Selectable options: y / a / e",
     "correctAnswer": "fry",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW322",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -6678,7 +7627,7 @@
     "targetWord": "mow",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ the grass to keep it short. Complete the word:",
+    "prompt": "We ______ the grass to keep it short. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6703,10 +7652,10 @@
       "u",
       "i"
     ],
-    "template": "m _ w",
+    "template": "m _ w | Selectable options: o / a / e",
     "correctAnswer": "mow",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW520",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -6727,7 +7676,7 @@
     "targetWord": "soak",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Leave the clothes in water to ______ them. Complete the word:",
+    "prompt": "Leave the clothes in water to ______ them. Complete the word: Look at the picture and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6752,10 +7701,10 @@
       "e",
       "u"
     ],
-    "template": "s o _ k",
+    "template": "s o _ k | Selectable options: a / o / e",
     "correctAnswer": "soak",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW749",
       "activityCode": "E05",
       "originalActivity": "E05 Missing Letters",
@@ -6793,7 +7742,7 @@
     ],
     "correctAnswer": "almond",
     "source": {
-      "workbook": "English_Module_4_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW007",
       "activityCode": "E08",
       "originalActivity": "E08 – Correct Spelling",

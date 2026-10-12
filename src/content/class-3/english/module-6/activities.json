@@ -12,7 +12,7 @@
     "targetWord": "tiger",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This large wild animal has black stripes. Put the word parts in the correct order:",
+    "prompt": "Look at the picture. This large wild animal has black stripes. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -29,7 +29,7 @@
     ],
     "correctAnswer": "tiger",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW851",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -49,7 +49,7 @@
     "targetWord": "uniform",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Children wear a school ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Children wear a school ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -66,7 +66,7 @@
     ],
     "correctAnswer": "uniform",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW895",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -86,7 +86,7 @@
     "targetWord": "violin",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the parts to make the word for a musical instrument played with a bow.",
+    "prompt": "Look at the picture.Arrange the parts to make the word for a musical instrument played with a bow.",
     "options": [
       {
         "id": "A",
@@ -103,7 +103,7 @@
     ],
     "correctAnswer": "violin",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW907",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -123,7 +123,7 @@
     "targetWord": "window",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the parts to make the word for an opening in a wall that lets in light and air.",
+    "prompt": "Look at the picture. Arrange the parts to make the word for an opening in a wall that lets in light and air.",
     "options": [
       {
         "id": "A",
@@ -140,7 +140,7 @@
     ],
     "correctAnswer": "window",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW933",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -160,7 +160,7 @@
     "targetWord": "winter",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the parts to make the word for the coldest season of the year.",
+    "prompt": "Look at the picture.Arrange the parts to make the word for the coldest season of the year.",
     "options": [
       {
         "id": "A",
@@ -177,7 +177,7 @@
     ],
     "correctAnswer": "winter",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW936",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -197,7 +197,7 @@
     "targetWord": "fisherman",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A ______ catches fish. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A ______ catches fish. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -214,7 +214,7 @@
     ],
     "correctAnswer": "fisherman",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW295",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Word Parts",
@@ -234,7 +234,7 @@
     "targetWord": "policeman",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who works to keep people safe and enforce the law is a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A person who works to keep people safe and enforce the law is a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -256,7 +256,7 @@
     ],
     "correctAnswer": "policeman",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW603",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Syllables",
@@ -276,7 +276,7 @@
     "targetWord": "curvy",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A road with many bends can be ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.A road with many bends can be ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -308,7 +308,7 @@
     ],
     "correctAnswer": "curvy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW197",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -360,7 +360,7 @@
     ],
     "correctAnswer": "fixed",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW298",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -380,7 +380,7 @@
     "targetWord": "hanging",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the letters to make the correct word.",
+    "prompt": "Look at the picture.Arrange the letters to make the correct word.",
     "options": [
       {
         "id": "A",
@@ -422,7 +422,7 @@
     ],
     "correctAnswer": "hanging",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW373",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -442,7 +442,7 @@
     "targetWord": "heavy",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The big box is very ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.The big box is very ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -474,7 +474,7 @@
     ],
     "correctAnswer": "heavy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW386",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -526,7 +526,7 @@
     ],
     "correctAnswer": "jumps",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW437",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -573,7 +573,7 @@
     ],
     "correctAnswer": "lazy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW455",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -625,7 +625,7 @@
     ],
     "correctAnswer": "liked",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW472",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -677,7 +677,7 @@
     ],
     "correctAnswer": "loved",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW485",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -734,7 +734,7 @@
     ],
     "correctAnswer": "lovely",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW486",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -786,7 +786,7 @@
     ],
     "correctAnswer": "moved",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW519",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -838,7 +838,7 @@
     ],
     "correctAnswer": "opens",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW556",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -858,7 +858,7 @@
     "targetWord": "pepper",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This spice can make food taste hot. Put the letters in the correct order:",
+    "prompt": "Look at the picture.This spice can make food taste hot. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -890,7 +890,7 @@
     ],
     "correctAnswer": "pepper",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW576",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -911,7 +911,7 @@
     "targetWord": "picnic",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "We had a ______ in the park. Put the letters in the correct order:",
+    "prompt": "Look at the picture.We had a ______ in the park. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -948,7 +948,7 @@
     ],
     "correctAnswer": "picnic",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW580",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -968,7 +968,7 @@
     "targetWord": "puddle",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "After the rain, there was a small ______ on the road. Put the letters in the correct order:",
+    "prompt": "Look at the picture.After the rain, there was a small ______ on the road. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1005,7 +1005,7 @@
     ],
     "correctAnswer": "puddle",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW618",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1057,7 +1057,7 @@
     ],
     "correctAnswer": "rainy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW633",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1114,7 +1114,7 @@
     ],
     "correctAnswer": "really",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW638",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1134,7 +1134,7 @@
     "targetWord": "sandy",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The beach is ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.The beach is ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1166,7 +1166,7 @@
     ],
     "correctAnswer": "sandy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW676",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1186,7 +1186,7 @@
     "targetWord": "scared",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The little child was ______ when he heard the loud noise. Put the letters in the correct order:",
+    "prompt": "Look at the picture.The little child was ______ when he heard the loud noise. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1223,7 +1223,7 @@
     ],
     "correctAnswer": "scared",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW681",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1285,7 +1285,7 @@
     ],
     "correctAnswer": "shocked",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW712",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1305,7 +1305,7 @@
     "targetWord": "singer",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who sings is a ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.A person who sings is a ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1342,7 +1342,7 @@
     ],
     "correctAnswer": "singer",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW726",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1362,7 +1362,7 @@
     "targetWord": "snaps",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The boy ______ his fingers to make a sound. Put the letters in the correct order:",
+    "prompt": "Look at the picture.The boy ______ his fingers to make a sound. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1394,7 +1394,7 @@
     ],
     "correctAnswer": "snaps",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW745",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1414,7 +1414,7 @@
     "targetWord": "snowy",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "It was a ______ day in the mountains. Put the letters in the correct order:",
+    "prompt": "Look at the picture.It was a ______ day in the mountains. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1446,7 +1446,7 @@
     ],
     "correctAnswer": "snowy",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW748",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1498,7 +1498,7 @@
     ],
     "correctAnswer": "stops",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW784",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1518,7 +1518,7 @@
     "targetWord": "striped",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The tiger has a ______ body. Put the letters in the correct order:",
+    "prompt": "Look at the picture.The tiger has a ______ body. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1560,7 +1560,7 @@
     ],
     "correctAnswer": "striped",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW791",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1617,7 +1617,7 @@
     ],
     "correctAnswer": "summer",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW798",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1637,7 +1637,7 @@
     "targetWord": "sunny",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "It is a ______ day today. Put the letters in the correct order:",
+    "prompt": "Look at the picture.It is a ______ day today. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1669,7 +1669,7 @@
     ],
     "correctAnswer": "sunny",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW802",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1716,7 +1716,7 @@
     ],
     "correctAnswer": "taps",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW821",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1736,7 +1736,7 @@
     "targetWord": "teacher",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who teaches children is a ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.A person who teaches children is a ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1778,7 +1778,7 @@
     ],
     "correctAnswer": "teacher",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW826",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1798,7 +1798,7 @@
     "targetWord": "thirsty",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "After playing in the sun, the child felt ______. Put the letters in the correct order:",
+    "prompt": "Look at the picture.After playing in the sun, the child felt ______. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1840,7 +1840,7 @@
     ],
     "correctAnswer": "thirsty",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW839",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1887,7 +1887,7 @@
     ],
     "correctAnswer": "tiny",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW854",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1939,7 +1939,7 @@
     ],
     "correctAnswer": "tired",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW855",
       "activityCode": "E06",
       "originalActivity": "E06 Arrange Letters",
@@ -1959,7 +1959,7 @@
     "targetWord": "doctor",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who treats sick people is a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture. A person who treats sick people is a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -1976,7 +1976,7 @@
     ],
     "correctAnswer": "doctor",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW228",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2013,7 +2013,7 @@
     ],
     "correctAnswer": "market",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW495",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -2050,7 +2050,7 @@
     ],
     "correctAnswer": "mirror",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW507",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2092,7 +2092,7 @@
     ],
     "correctAnswer": "welcome",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW923",
       "activityCode": "E07",
       "originalActivity": "E07 Arrange Word Parts",
@@ -2112,7 +2112,7 @@
     "targetWord": "basket",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "Look at the picture.Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2149,7 +2149,7 @@
     ],
     "correctAnswer": "basket",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW039",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -2206,7 +2206,7 @@
     ],
     "correctAnswer": "dinner",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW223",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -2226,7 +2226,7 @@
     "targetWord": "ambulance",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This vehicle takes sick or injured people to a hospital.",
+    "prompt": "Look at the picture.This vehicle takes sick or injured people to a hospital.",
     "options": [
       {
         "id": "A",
@@ -2248,7 +2248,7 @@
     ],
     "correctAnswer": "ambulance",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW009",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2268,7 +2268,7 @@
     "targetWord": "astronaut",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who travels into space.",
+    "prompt": "Look at the picture.A person who travels into space.",
     "options": [
       {
         "id": "A",
@@ -2290,7 +2290,7 @@
     ],
     "correctAnswer": "astronaut",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW022",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2310,7 +2310,7 @@
     "targetWord": "audience",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "These are people watching a show.",
+    "prompt": "Look at the picture.These are people watching a show.",
     "options": [
       {
         "id": "A",
@@ -2327,7 +2327,7 @@
     ],
     "correctAnswer": "audience",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW023",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2369,7 +2369,7 @@
     ],
     "correctAnswer": "beautiful",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW046",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2389,7 +2389,7 @@
     "targetWord": "cardamom",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2411,7 +2411,7 @@
     ],
     "correctAnswer": "cardamom",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW117",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2431,7 +2431,7 @@
     "targetWord": "carpenter",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a person who makes or repairs things from wood. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a person who makes or repairs things from wood. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2453,7 +2453,7 @@
     ],
     "correctAnswer": "carpenter",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW118",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2473,7 +2473,7 @@
     "targetWord": "caterpillar",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a long, soft-bodied insect that later becomes a butterfly or moth. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a long, soft-bodied insect that later becomes a butterfly or moth. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2500,7 +2500,7 @@
     ],
     "correctAnswer": "caterpillar",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW125",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2520,7 +2520,7 @@
     "targetWord": "cinnamon",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a spice used in cooking. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a spice used in cooking. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2542,7 +2542,7 @@
     ],
     "correctAnswer": "cinnamon",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW141",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2562,7 +2562,7 @@
     "targetWord": "clinic",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a place where people go to see a doctor. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a place where people go to see a doctor. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2579,7 +2579,7 @@
     ],
     "correctAnswer": "clinic",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW150",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -2616,7 +2616,7 @@
     ],
     "correctAnswer": "contest",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW165",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2636,7 +2636,7 @@
     "targetWord": "coriander",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a herb used in cooking. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a herb used in cooking. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2663,7 +2663,7 @@
     ],
     "correctAnswer": "coriander",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW170",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2683,7 +2683,7 @@
     "targetWord": "crocodile",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a large animal that lives in or near water. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a large animal that lives in or near water. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2705,7 +2705,7 @@
     ],
     "correctAnswer": "crocodile",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW181",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2725,7 +2725,7 @@
     "targetWord": "decorate",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "We ______ the classroom for a celebration. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.We ______ the classroom for a celebration. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2747,7 +2747,7 @@
     ],
     "correctAnswer": "decorate",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW207",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2789,7 +2789,7 @@
     ],
     "correctAnswer": "delicious",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW210",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2831,7 +2831,7 @@
     ],
     "correctAnswer": "demonstrate",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW211",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2868,7 +2868,7 @@
     ],
     "correctAnswer": "describe",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW214",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2888,7 +2888,7 @@
     "targetWord": "different",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The two pictures are not the same. They are ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.The two pictures are not the same. They are ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2910,7 +2910,7 @@
     ],
     "correctAnswer": "different",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW221",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2930,7 +2930,7 @@
     "targetWord": "dolphin",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This animal lives in water and is very intelligent. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This animal lives in water and is very intelligent. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2947,7 +2947,7 @@
     ],
     "correctAnswer": "dolphin",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW230",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -2967,7 +2967,7 @@
     "targetWord": "dragon",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a large imaginary animal that can breathe fire in stories. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a large imaginary animal that can breathe fire in stories. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2984,7 +2984,7 @@
     ],
     "correctAnswer": "dragon",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW235",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -3004,7 +3004,7 @@
     "targetWord": "dwelling",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A place where someone lives is called a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A place where someone lives is called a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3012,16 +3012,16 @@
       },
       {
         "id": "B",
-        "label": "dwell + picture of a home"
+        "label": "dwell"
       }
     ],
     "units": [
       "ing",
-      "dwell + picture of a home"
+      "dwell"
     ],
     "correctAnswer": "dwelling",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW249",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts + Picture Context",
@@ -3042,7 +3042,7 @@
     "targetWord": "elephant",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a large animal with a long trunk. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a large animal with a long trunk. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3059,7 +3059,7 @@
     ],
     "correctAnswer": "elephant",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW254",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3079,7 +3079,7 @@
     "targetWord": "engineer",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "An ______ designs or builds machines and structures. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.An ______ designs or builds machines and structures. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3101,7 +3101,7 @@
     ],
     "correctAnswer": "engineer",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW257",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3138,7 +3138,7 @@
     ],
     "correctAnswer": "entire",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW259",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3158,7 +3158,7 @@
     "targetWord": "exercise",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "We do ______ to keep our body healthy. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.We do ______ to keep our body healthy. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3180,7 +3180,7 @@
     ],
     "correctAnswer": "exercise",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW266",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3200,7 +3200,7 @@
     "targetWord": "fenugreek",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This plant is used as a spice in cooking. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This plant is used as a spice in cooking. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3222,7 +3222,7 @@
     ],
     "correctAnswer": "fenugreek",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW281",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3242,7 +3242,7 @@
     "targetWord": "festival",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "People celebrate a ______ with special activities. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.People celebrate a ______ with special activities. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3264,7 +3264,7 @@
     ],
     "correctAnswer": "festival",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW282",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3301,7 +3301,7 @@
     ],
     "correctAnswer": "giraffe",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW338",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3321,7 +3321,7 @@
     "targetWord": "grocery",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A shop or place where food and household items are sold is a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A shop or place where food and household items are sold is a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3338,7 +3338,7 @@
     ],
     "correctAnswer": "grocery",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW359",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3358,7 +3358,7 @@
     "targetWord": "handkerchief",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a small cloth used for wiping the nose or face. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a small cloth used for wiping the nose or face. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3375,7 +3375,7 @@
     ],
     "correctAnswer": "handkerchief",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW371",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3395,7 +3395,7 @@
     "targetWord": "harvest",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Farmers collect crops during the ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Farmers collect crops during the ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3412,7 +3412,7 @@
     ],
     "correctAnswer": "harvest",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW375",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3449,7 +3449,7 @@
     ],
     "correctAnswer": "holiday",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW397",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3469,7 +3469,7 @@
     "targetWord": "hospital",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Sick people may go to this place to see a doctor. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Sick people may go to this place to see a doctor. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3491,7 +3491,7 @@
     ],
     "correctAnswer": "hospital",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW405",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3533,7 +3533,7 @@
     ],
     "correctAnswer": "inclusion",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW417",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3553,7 +3553,7 @@
     "targetWord": "injection",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A medicine given with a needle is called an ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A medicine given with a needle is called an ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3575,7 +3575,7 @@
     ],
     "correctAnswer": "injection",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW418",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3595,7 +3595,7 @@
     "targetWord": "instruction",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A direction that tells you what to do is an ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A direction that tells you what to do is an ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3617,7 +3617,7 @@
     ],
     "correctAnswer": "instruction",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW420",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3659,7 +3659,7 @@
     ],
     "correctAnswer": "instructions",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW421",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3706,7 +3706,7 @@
     ],
     "correctAnswer": "interesting",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW422",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3726,7 +3726,7 @@
     "targetWord": "kitchen",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "We cook food in this room. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.We cook food in this room. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3743,7 +3743,7 @@
     ],
     "correctAnswer": "kitchen",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW444",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3763,7 +3763,7 @@
     "targetWord": "lightning",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A bright flash seen in the sky during a storm is called ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A bright flash seen in the sky during a storm is called ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3780,7 +3780,7 @@
     ],
     "correctAnswer": "lightning",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW470",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3800,7 +3800,7 @@
     "targetWord": "magician",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who performs magic tricks is a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A person who performs magic tricks is a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3822,7 +3822,7 @@
     ],
     "correctAnswer": "magician",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW491",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3842,7 +3842,7 @@
     "targetWord": "medicine",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is something used to help a sick person get better. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is something used to help a sick person get better. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3864,7 +3864,7 @@
     ],
     "correctAnswer": "medicine",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW500",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -3884,7 +3884,7 @@
     "targetWord": "merchant",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the word parts to make the word for a person who buys and sells things.",
+    "prompt": "Look at the picture.Arrange the word parts to make the word for a person who buys and sells things.",
     "options": [
       {
         "id": "A",
@@ -3901,7 +3901,7 @@
     ],
     "correctAnswer": "merchant",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW503",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -3921,7 +3921,7 @@
     "targetWord": "mosquito",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a small flying insect that can bite people. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a small flying insect that can bite people. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3943,7 +3943,7 @@
     ],
     "correctAnswer": "mosquito",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW515",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -3963,7 +3963,7 @@
     "targetWord": "mustard",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a yellow spice or sauce used with food. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a yellow spice or sauce used with food. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3980,7 +3980,7 @@
     ],
     "correctAnswer": "mustard",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW527",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4000,7 +4000,7 @@
     "targetWord": "nectar",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Bees collect sweet liquid from flowers called ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Bees collect sweet liquid from flowers called ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4017,7 +4017,7 @@
     ],
     "correctAnswer": "nectar",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW535",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4037,7 +4037,7 @@
     "targetWord": "nutritious",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Food that helps our body grow and stay healthy is ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Food that helps our body grow and stay healthy is ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4059,7 +4059,7 @@
     ],
     "correctAnswer": "nutritious",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW550",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4096,7 +4096,7 @@
     ],
     "correctAnswer": "oyster",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW562",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4138,7 +4138,7 @@
     ],
     "correctAnswer": "perfect",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW577",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4180,7 +4180,7 @@
     ],
     "correctAnswer": "permission",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW578",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4200,7 +4200,7 @@
     "targetWord": "person",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A human being can be called a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A human being can be called a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4217,7 +4217,7 @@
     ],
     "correctAnswer": "person",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW579",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4237,7 +4237,7 @@
     "targetWord": "adventure",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This means an exciting journey or experience.",
+    "prompt": "Look at the picture.This means an exciting journey or experience.",
     "options": [
       {
         "id": "A",
@@ -4259,7 +4259,7 @@
     ],
     "correctAnswer": "adventure",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW003",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -4279,7 +4279,7 @@
     "targetWord": "bumblebee",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a flying insect that makes honey. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a flying insect that makes honey. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4301,7 +4301,7 @@
     ],
     "correctAnswer": "bumblebee",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW101",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -4321,7 +4321,7 @@
     "targetWord": "camel",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This animal has a hump and can live in hot, dry places. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This animal has a hump and can live in hot, dry places. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4338,7 +4338,7 @@
     ],
     "correctAnswer": "camel",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW113",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -4358,7 +4358,7 @@
     "targetWord": "chameleon",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This animal can change the colour of its skin. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This animal can change the colour of its skin. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4385,7 +4385,7 @@
     ],
     "correctAnswer": "chameleon",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW131",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -4405,7 +4405,7 @@
     "targetWord": "conductor",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This person leads a group of musicians. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This person leads a group of musicians. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4427,7 +4427,7 @@
     ],
     "correctAnswer": "conductor",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW163",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -4447,7 +4447,7 @@
     "targetWord": "direction",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The way to go somewhere is called a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.The way to go somewhere is called a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4469,7 +4469,7 @@
     ],
     "correctAnswer": "direction",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW225",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -4489,7 +4489,7 @@
     "targetWord": "electric",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This word describes something that works using electricity. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This word describes something that works using electricity. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4506,7 +4506,7 @@
     ],
     "correctAnswer": "electric",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW253",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4526,7 +4526,7 @@
     "targetWord": "environment",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The world around us is called the ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.The world around us is called the ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4548,7 +4548,7 @@
     ],
     "correctAnswer": "environment",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW260",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4568,7 +4568,7 @@
     "targetWord": "factory",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A ______ is a place where things are made. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A ______ is a place where things are made. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4585,7 +4585,7 @@
     ],
     "correctAnswer": "factory",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW269",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4605,7 +4605,7 @@
     "targetWord": "garbage",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Things that we throw away are called ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Things that we throw away are called ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4622,7 +4622,7 @@
     ],
     "correctAnswer": "garbage",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW326",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4642,7 +4642,7 @@
     "targetWord": "glacier",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A large, slow-moving mass of ice is called a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A large, slow-moving mass of ice is called a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4659,7 +4659,7 @@
     ],
     "correctAnswer": "glacier",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW339",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4711,7 +4711,7 @@
     ],
     "correctAnswer": "imagination",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW416",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4731,7 +4731,7 @@
     "targetWord": "laundry",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Clothes that need washing are called ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Clothes that need washing are called ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4748,7 +4748,7 @@
     ],
     "correctAnswer": "laundry",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW454",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4790,7 +4790,7 @@
     ],
     "correctAnswer": "library",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW466",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4810,7 +4810,7 @@
     "targetWord": "machine",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a device that does a job using moving parts. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a device that does a job using moving parts. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4827,7 +4827,7 @@
     ],
     "correctAnswer": "machine",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW489",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4847,7 +4847,7 @@
     "targetWord": "magic",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "The ______ show had colourful lights and surprising tricks. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.The ______ show had colourful lights and surprising tricks. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4864,7 +4864,7 @@
     ],
     "correctAnswer": "magic",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW490",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -4884,7 +4884,7 @@
     "targetWord": "mountain",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A very high natural landform is called a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A very high natural landform is called a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4901,7 +4901,7 @@
     ],
     "correctAnswer": "mountain",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW516",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4921,7 +4921,7 @@
     "targetWord": "multimeter",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a tool used to measure electrical quantities. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a tool used to measure electrical quantities. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4938,7 +4938,7 @@
     ],
     "correctAnswer": "multimeter",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW523",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4958,7 +4958,7 @@
     "targetWord": "museum",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "We visit this place to see old objects and interesting displays. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.We visit this place to see old objects and interesting displays. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4975,7 +4975,7 @@
     ],
     "correctAnswer": "museum",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW525",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -4995,7 +4995,7 @@
     "targetWord": "nature",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Plants, animals, trees and the world around us are part of ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.Plants, animals, trees and the world around us are part of ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5012,7 +5012,7 @@
     ],
     "correctAnswer": "nature",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW532",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5032,7 +5032,7 @@
     "targetWord": "needle",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a thin, sharp tool used for sewing. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.This is a thin, sharp tool used for sewing. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5049,7 +5049,7 @@
     ],
     "correctAnswer": "needle",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW536",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5069,7 +5069,7 @@
     "targetWord": "neighbour",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A person who lives near your home is your ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A person who lives near your home is your ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5086,7 +5086,7 @@
     ],
     "correctAnswer": "neighbour",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW538",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5106,7 +5106,7 @@
     "targetWord": "oasis",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A green place with water in a desert is called an ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A green place with water in a desert is called an ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5123,7 +5123,7 @@
     ],
     "correctAnswer": "oasis",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW551",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5143,7 +5143,7 @@
     "targetWord": "office",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A room where people work is called an ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A room where people work is called an ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5160,7 +5160,7 @@
     ],
     "correctAnswer": "office",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW553",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5180,7 +5180,7 @@
     "targetWord": "palace",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "A large and beautiful home where a king or queen may live is a ______. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.A large and beautiful home where a king or queen may live is a ______. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5202,7 +5202,7 @@
     ],
     "correctAnswer": "palace",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW566",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5222,7 +5222,7 @@
     "targetWord": "pavement",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "People walk on the ______ beside the road. Put the word parts in the correct order:",
+    "prompt": "Look at the picture.People walk on the ______ beside the road. Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5239,7 +5239,7 @@
     ],
     "correctAnswer": "pavement",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW570",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5282,7 +5282,7 @@
     ],
     "correctAnswer": "banana",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW034",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -5325,7 +5325,7 @@
     ],
     "correctAnswer": "bicycle",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW057",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -5363,7 +5363,7 @@
     ],
     "correctAnswer": "concert",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW162",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -5401,7 +5401,7 @@
     ],
     "correctAnswer": "forest",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW313",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5439,7 +5439,7 @@
     ],
     "correctAnswer": "garden",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW327",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5477,7 +5477,7 @@
     ],
     "correctAnswer": "garlic",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW328",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5515,7 +5515,7 @@
     ],
     "correctAnswer": "kennel",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW440",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5578,7 +5578,7 @@
     ],
     "correctAnswer": "achieve",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW002",
       "activityCode": "E06",
       "originalActivity": "E06 – Arrange Letters",
@@ -5621,7 +5621,7 @@
     ],
     "correctAnswer": "agriculture",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW005",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -5659,7 +5659,7 @@
     ],
     "correctAnswer": "baton",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW041",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Syllables",
@@ -5702,7 +5702,7 @@
     ],
     "correctAnswer": "creature",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW179",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -5745,7 +5745,7 @@
     ],
     "correctAnswer": "encourage",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW255",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5783,7 +5783,7 @@
     ],
     "correctAnswer": "hippo",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW393",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5836,7 +5836,7 @@
     ],
     "correctAnswer": "imaginary",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW415",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -5879,7 +5879,7 @@
     ],
     "correctAnswer": "morning",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW514",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5917,7 +5917,7 @@
     ],
     "correctAnswer": "pilot",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW585",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -5942,31 +5942,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "away"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "i",
-      "a"
+      "t",
+      "c",
+      "g",
+      "away"
     ],
-    "template": "a w _ y",
+    "template": "e / a / t",
     "correctAnswer": "away",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW026",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -5991,31 +5991,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "behind"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "c"
       }
     ],
     "units": [
-      "o",
-      "e",
-      "i",
-      "a"
+      "p",
+      "t",
+      "behind",
+      "c"
     ],
-    "template": "b e h _ n d",
+    "template": "a / i / t",
     "correctAnswer": "behind",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW050",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6040,31 +6040,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "black"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "f"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "a",
-      "e"
+      "s",
+      "b",
+      "black",
+      "f"
     ],
-    "template": "b l _ c k",
+    "template": "a / e / t",
     "correctAnswer": "black",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW061",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6089,31 +6089,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "brick"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "e",
-      "i"
+      "k",
+      "n",
+      "s",
+      "brick"
     ],
-    "template": "b r _ c k",
+    "template": "e / i / t",
     "correctAnswer": "brick",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW088",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6138,31 +6138,31 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "broom"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
-      "e",
-      "o",
-      "a",
-      "u"
+      "d",
+      "broom",
+      "h",
+      "m"
     ],
-    "template": "b r _ o m",
+    "template": "o / t / e",
     "correctAnswer": "broom",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW093",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6187,31 +6187,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "brush"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "r"
       }
     ],
     "units": [
-      "u",
-      "a",
-      "o",
-      "i"
+      "brush",
+      "h",
+      "m",
+      "r"
     ],
-    "template": "b r _ s h",
+    "template": "t / e / u",
     "correctAnswer": "brush",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW096",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6248,19 +6248,19 @@
       },
       {
         "id": "D",
-        "label": "z"
+        "label": "buzz"
       }
     ],
     "units": [
       "l",
       "p",
       "t",
-      "z"
+      "buzz"
     ],
-    "template": "b u _ z",
+    "template": "e / t / z",
     "correctAnswer": "buzz",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW110",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6285,31 +6285,31 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "claps"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "h"
       }
     ],
     "units": [
-      "p",
-      "m",
-      "s",
-      "b"
+      "claps",
+      "w",
+      "d",
+      "h"
     ],
-    "template": "c l a _ s",
+    "template": "e / t / p",
     "correctAnswer": "claps",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW144",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6334,31 +6334,31 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "crack"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "n"
       }
     ],
     "units": [
-      "o",
-      "i",
-      "a",
-      "e"
+      "f",
+      "k",
+      "crack",
+      "n"
     ],
-    "template": "c r _ c k",
+    "template": "a / o / e",
     "correctAnswer": "crack",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW175",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6383,31 +6383,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "b"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "deep"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "k"
       }
     ],
     "units": [
-      "i",
-      "e",
-      "a",
-      "u"
+      "b",
+      "deep",
+      "f",
+      "k"
     ],
-    "template": "d e _ p",
+    "template": "e / a / o",
     "correctAnswer": "deep",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW208",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6432,31 +6432,31 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "drink"
       }
     ],
     "units": [
-      "u",
-      "o",
-      "e",
-      "i"
+      "g",
+      "l",
+      "p",
+      "drink"
     ],
-    "template": "d r _ n k",
+    "template": "i / a / e",
     "correctAnswer": "drink",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW239",
       "activityCode": "E05",
       "originalActivity": "E05 – Missing Letters",
@@ -6481,31 +6481,31 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "anything"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "f"
       }
     ],
     "units": [
-      "i",
-      "a",
-      "u",
-      "o"
+      "anything",
+      "s",
+      "b",
+      "f"
     ],
-    "template": "a n y t h _ n g",
+    "template": "i / e / a",
     "correctAnswer": "anything",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW016",
       "activityCode": "E11",
       "originalActivity": "E11 – Context → Complete Word",
@@ -6543,7 +6543,7 @@
     ],
     "correctAnswer": "anjaraipetti",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW013",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6581,7 +6581,7 @@
     ],
     "correctAnswer": "ash gourd",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW020",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6600,30 +6600,36 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "aval",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "basket"
+        "label": "v"
       },
       {
         "id": "B",
-        "label": "carpenter"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "aval"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "decorate"
+        "label": "a"
       }
+    ],
+    "units": [
+      "v",
+      "a",
+      "l",
+      "a"
     ],
     "correctAnswer": "aval",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW025",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write",
@@ -6661,7 +6667,7 @@
     ],
     "correctAnswer": "bengal gram",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW053",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture Write → Word",
@@ -6699,7 +6705,7 @@
     ],
     "correctAnswer": "cumin",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW191",
       "activityCode": "E04",
       "originalActivity": "E04 – Arrange Word Parts",
@@ -6737,7 +6743,7 @@
     ],
     "correctAnswer": "hello",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW387",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -6775,7 +6781,7 @@
     ],
     "correctAnswer": "helmet",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW388",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Word Parts",
@@ -6813,7 +6819,7 @@
     ],
     "correctAnswer": "music",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW526",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -6851,7 +6857,7 @@
     ],
     "correctAnswer": "onion",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW555",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -6894,7 +6900,7 @@
     ],
     "correctAnswer": "potato",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW612",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -6932,7 +6938,7 @@
     ],
     "correctAnswer": "recipe",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW639",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",
@@ -6975,7 +6981,7 @@
     ],
     "correctAnswer": "rupee",
     "source": {
-      "workbook": "English_Module_6_120_NEW_40_REVIEW_PROCESSED.xlsx",
+      "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW667",
       "activityCode": "E04",
       "originalActivity": "E04 Arrange Syllables",

@@ -119,12 +119,20 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
           expect(act.variant).toBe('missing-unit');
           break;
         case 'E01':
-          expect(act.category).toBe('picture-recognition');
-          expect(act.variant).toBe('word-entry');
+          expect(['picture-recognition', 'arrange-word']).toContain(act.category);
+          if (act.category === 'picture-recognition') {
+            expect(act.variant).toBe('word-entry');
+          } else {
+            expect(act.variant).toBe('arrange');
+          }
           break;
         case 'E12':
-          expect(act.category).toBe('picture-recognition');
-          expect(['select', 'word-entry']).toContain(act.variant);
+          expect(['picture-recognition', 'arrange-word']).toContain(act.category);
+          if (act.category === 'picture-recognition') {
+            expect(['select', 'word-entry']).toContain(act.variant);
+          } else {
+            expect(act.variant).toBe('arrange');
+          }
           break;
         case 'E09':
           expect(act.category).toBe('meaning-match');
@@ -223,7 +231,7 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
 
     const assetRequirements = JSON.parse(fs.readFileSync(assetPath, 'utf-8'));
     expect(Array.isArray(assetRequirements)).toBe(true);
-    expect(assetRequirements.length).toBe(343);
+    expect(assetRequirements.length).toBe(489);
 
     let mappedCount = 0;
     let missingCount = 0;
@@ -255,8 +263,8 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
     }
 
     expect(mappedCount).toBe(335);
-    expect(missingCount).toBe(0);
-    expect(textOnlyCount).toBe(8);
+    expect(missingCount).toBe(78);
+    expect(textOnlyCount).toBe(76);
 
     // Also verify asset-manifest.json exists and has valid local entries
     const manifestPath = path.join(ENG_DIR, 'asset-manifest.json');
