@@ -274,5 +274,11 @@
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q140_Veedu.jpg",
     "alt": "வீடு — House"
+  },
+  "class3-tamil-picture-q102": {
+    "type": "image",
+    "source": "local",
+    "path": "/assets/class-3/tamil/term-1/images/Q102_Periyavar.jpg",
+    "alt": "பெரியவர் — Elder"
   }
 }
