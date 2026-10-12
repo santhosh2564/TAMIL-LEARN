@@ -223,9 +223,9 @@
   },
   "eng-tail": {
     "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-tail.jpg",
-    "alt": "tail — English vocabulary image"
+    "path": "/assets/class-3/english/images/eng-dog-tail.jpg",
+    "alt": "tail — English vocabulary image",
+    "source": "local"
   },
   "eng-tent": {
     "type": "image",
