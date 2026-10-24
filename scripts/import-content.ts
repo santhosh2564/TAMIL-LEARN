@@ -112,9 +112,35 @@ function run() {
     let options: ActivityOption[] | undefined;
     let units: string[] | undefined;
 
+    let prompt = bankRow['Question / Instruction'] || '';
     const rawOptions = bankRow['Options / Units'];
     if (rawOptions && typeof rawOptions === 'string') {
-      const parts = rawOptions.split('|').map(p => p.trim());
+      let parts = rawOptions.split('|').map(p => p.trim());
+      if (qid === 'Q025') {
+        parts = ['வா', 'னொ', 'லி'];
+      } else if (qid === 'Q090') {
+        const idx = parts.indexOf('பதட்டம்');
+        if (idx !== -1) parts[idx] = 'பதற்றல்';
+      } else if (qid === 'Q073') {
+        const idx = parts.indexOf('தோன்றுகிற');
+        if (idx !== -1) parts[idx] = 'தோன்றின';
+      } else if (qid === 'Q042') {
+        const idx = parts.indexOf('கவி');
+        if (idx !== -1) parts[idx] = 'கவிதை';
+      } else if (qid === 'Q060') {
+        prompt = 'ஒரு வேலையைச் செய்ய ஒருவருக்குத் தேவையான கல்வி மற்றும் அனுபவத்தை ______ என்பார்கள்.';
+        const idx = parts.indexOf('திறமை');
+        if (idx !== -1) parts[idx] = 'வளர்ச்சி';
+      } else if (qid === 'Q065') {
+        const idx = parts.indexOf('பயம்');
+        if (idx !== -1) parts[idx] = 'பயணம்';
+      } else if (qid === 'Q050') {
+        const idx = parts.indexOf('கூடை');
+        if (idx !== -1) parts[idx] = 'கூட்டு';
+      } else if (qid === 'Q006') {
+        const idx = parts.findIndex(t => t === 'மண்' || t === 'மண');
+        if (idx !== -1) parts[idx] = 'மன';
+      }
       if (variant === 'arrange' || variant === 'missing-unit') {
         units = parts;
       }
@@ -131,7 +157,7 @@ function run() {
       targetWord: bankRow['Target Word'],
       category,
       variant,
-      prompt: bankRow['Question / Instruction'] || '',
+      prompt,
       options,
       units,
       correctAnswer: bankRow['Correct Answer'] || '',

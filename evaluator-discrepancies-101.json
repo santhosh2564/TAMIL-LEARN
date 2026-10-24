@@ -1,0 +1,810 @@
+[
+  {
+    "id": "FTS0052",
+    "module": "Module 1",
+    "activity": "Context → Select/Drag",
+    "word": "அலை",
+    "problem": "Correct answer \"அலை\" is not present in options [லை, அ]",
+    "sourceFile": "Module_1\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0077",
+    "module": "Module 1",
+    "activity": "Context → Select/Drag",
+    "word": "ஆத்திசூடி",
+    "problem": "Correct answer \"ஆத்திசூடி\" is not present in options [நீதிப் பாடல்கள் கொண்ட நூலின் தலைப்பு: ___.]",
+    "sourceFile": "Module_1\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0064",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "அழைப்பு",
+    "problem": "Correct answer \"அழைப்பு\" is not present in options [ழை, பு, அ, ப்]",
+    "sourceFile": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0073",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "ஆட்டம்",
+    "problem": "Correct answer \"ஆட்டம்\" is not present in options [ஆ, ம், ட், ட]",
+    "sourceFile": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0095",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "இனிது",
+    "problem": "Correct answer \"இனிது\" is not present in options [னி, து, இ]",
+    "sourceFile": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0097",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "இனிப்பு",
+    "problem": "Correct answer \"இனிப்பு\" is not present in options [இ, பு, னி, ப்]",
+    "sourceFile": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0101",
+    "module": "Module 1",
+    "activity": "English Meaning → Tamil Word",
+    "word": "இன்பம்",
+    "problem": "Correct answer \"இன்பம்\" is not present in options [இ, ம், ன், ப]",
+    "sourceFile": "Module_1\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0121",
+    "module": "Module 1",
+    "activity": "Picture → Select",
+    "word": "ஈக்கள்",
+    "problem": "Correct answer \"ஈக்கள்\" is not present in options [ஈ, ள், க், க]",
+    "sourceFile": "Module_1\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0169",
+    "module": "Module 2",
+    "activity": "Arrange Tamil Units",
+    "word": "ஊர்த்தலைவர்",
+    "problem": "Units [ஊர், வர், தலை] character multiset does not match target word \"ஊர்த்தலைவர்\"",
+    "sourceFile": "Module_2\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0143",
+    "module": "Module 2",
+    "activity": "Context → Select/Drag",
+    "word": "உயர்ந்த",
+    "problem": "Correct answer \"உயர்ந்த\" is not present in options [உ, ந், த, ய, ர்]",
+    "sourceFile": "Module_2\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0189",
+    "module": "Module 2",
+    "activity": "Context → Select/Drag",
+    "word": "ஏன்",
+    "problem": "Correct answer \"ஏன்\" is not present in options [ன், ஏ]",
+    "sourceFile": "Module_2\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0262",
+    "module": "Module 2",
+    "activity": "Correct Spelling",
+    "word": "கற்று",
+    "problem": "Correct answer \"கற்று\" is not present in options [று, க, ற்]",
+    "sourceFile": "Module_2\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0144",
+    "module": "Module 2",
+    "activity": "English Meaning → Tamil Word",
+    "word": "உயர்வு",
+    "problem": "Correct answer \"உயர்வு\" is not present in options [உ, வு, ய, ர்]",
+    "sourceFile": "Module_2\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0249",
+    "module": "Module 2",
+    "activity": "Picture → Arrange",
+    "word": "கரிக்கோல்",
+    "problem": "Units [கோ, ல், கரி] character multiset does not match target word \"கரிக்கோல்\"",
+    "sourceFile": "Module_2\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0276",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கவனிக்கவில்லை",
+    "problem": "Correct answer \"கவனிக்கவில்லை\" is not present in options [னிக், க, வில், லை, கவ]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0279",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கவியரசி",
+    "problem": "Correct answer \"கவியரசி\" is not present in options [கவி, சி, யர]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0324",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "குருவி",
+    "problem": "Correct answer \"குருவி\" is not present in options [வி, கு, ரு]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0359",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கொழு கொழு",
+    "problem": "Correct answer \"கொழு கொழு\" is not present in options [கொ, ழு, கொ, ழு]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0373",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சண்டை",
+    "problem": "Correct answer \"சண்டை\" is not present in options [டை, ச, ண்]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0374",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சத்தம்",
+    "problem": "Correct answer \"சத்தம்\" is not present in options [ம், ச, த், த]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0379",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சமைக்க",
+    "problem": "Correct answer \"சமைக்க\" is not present in options [க, ச, மை, க்]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0382",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சரிசெய்ய",
+    "problem": "Correct answer \"சரிசெய்ய\" is not present in options [ய, சரி, செ, ய்]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0398",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சிக்கியது",
+    "problem": "Correct answer \"சிக்கியது\" is not present in options [கியது, சிக்]",
+    "sourceFile": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0272",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கழுத்துப்பட்டி",
+    "problem": "Correct answer \"கழுத்துப்பட்டி\" is not present in options [கழு, ப்ப, ட்டி, த்து]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0278",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கவிதை",
+    "problem": "Correct answer \"கவிதை\" is not present in options [வி, தை, க]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0302",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கிழமை",
+    "problem": "Correct answer \"கிழமை\" is not present in options [ழ, கி, மை]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0307",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கீழோர்",
+    "problem": "Correct answer \"கீழோர்\" is not present in options [ழோ, ர், கீ]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0312",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குட்டையான",
+    "problem": "Correct answer \"குட்டையான\" is not present in options [டை, யா, ன, கு, ட்]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0320",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குப்பைத்தொட்டி",
+    "problem": "Correct answer \"குப்பைத்தொட்டி\" is not present in options [தொ, ட், டி, குப், பை, த்]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0331",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குலுங்குது",
+    "problem": "Correct answer \"குலுங்குது\" is not present in options [குது, கு, லு, ங்]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0334",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குளித்தல்",
+    "problem": "Correct answer \"குளித்தல்\" is not present in options [த், தல், கு, ளி]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0342",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கூட்டி",
+    "problem": "Correct answer \"கூட்டி\" is not present in options [டி, கூ, ட்]",
+    "sourceFile": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0347",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "கேள்வி",
+    "problem": "Correct answer \"கேள்வி\" is not present in options [வி, கே, ள்]",
+    "sourceFile": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0376",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சந்தோஷம்",
+    "problem": "Correct answer \"சந்தோஷம்\" is not present in options [ஷம், ச, ந், தோ]",
+    "sourceFile": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0378",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சமுதாயம்",
+    "problem": "Correct answer \"சமுதாயம்\" is not present in options [ம், ச, மு, தா, ய]",
+    "sourceFile": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0383",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சரித்திரம்",
+    "problem": "Correct answer \"சரித்திரம்\" is not present in options [ம், சரி, த், தி, ர]",
+    "sourceFile": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0392",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சாதிகள்",
+    "problem": "Correct answer \"சாதிகள்\" is not present in options [கள், சாதி]",
+    "sourceFile": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0386",
+    "module": "Module 3",
+    "activity": "Picture → Arrange",
+    "word": "சறுக்குப்பலகை",
+    "problem": "Units [க்கு, பலகை, சறு] character multiset does not match target word \"சறுக்குப்பலகை\"",
+    "sourceFile": "Module_3\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0365",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "கோலிகுண்டு",
+    "problem": "Correct answer \"கோலிகுண்டு\" is not present in options [குண்டு, கோ, லி]",
+    "sourceFile": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0377",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "சன்னல்",
+    "problem": "Correct answer \"சன்னல்\" is not present in options [ல், ச, ன், ன]",
+    "sourceFile": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0384",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "சருகு",
+    "problem": "Correct answer \"சருகு\" is not present in options [கு, ச, ரு]",
+    "sourceFile": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0413",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "சிறிய",
+    "problem": "Correct answer \"சிறிய\" is not present in options [ய, சி, றி]",
+    "sourceFile": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0444",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "செப்டம்பர்",
+    "problem": "Correct answer \"செப்டம்பர்\" is not present in options [பர், செப், டம்]",
+    "sourceFile": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0468",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "ஜவஹர்லால்",
+    "problem": "Correct answer \"ஜவஹர்லால்\" is not present in options [லால், ஜவ, ஹர்]",
+    "sourceFile": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0425",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "சுமப்பேன்",
+    "problem": "Correct answer \"சுமப்பேன்\" is not present in options [பேன், சு, ம, ப்]",
+    "sourceFile": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0462",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "சோம்பல்",
+    "problem": "Correct answer \"சோம்பல்\" is not present in options [பல், சோ, ம்]",
+    "sourceFile": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0480",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "தட்டு",
+    "problem": "Correct answer \"தட்டு\" is not present in options [டு, த, ட்]",
+    "sourceFile": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0497",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "தலைநகர்",
+    "problem": "Correct answer \"தலைநகர்\" is not present in options [ந, க, ர், த, லை]",
+    "sourceFile": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0412",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சிறிது",
+    "problem": "Correct answer \"சிறிது\" is not present in options [றி, ரி, று, ரு]",
+    "sourceFile": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0424",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சுத்தம்",
+    "problem": "Correct answer \"சுத்தம்\" is not present in options [ம், சு, த், த]",
+    "sourceFile": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0445",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "செய்திகள்",
+    "problem": "Correct answer \"செய்திகள்\" is not present in options [கள், செ, ய், தி]",
+    "sourceFile": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0511",
+    "module": "Module 4",
+    "activity": "Picture → Arrange",
+    "word": "தார்ச்சாலை",
+    "problem": "Units [தார்ச்சாலை, மண்சாலை, பாதை, ரயில்பாதை] character multiset does not match target word \"தார்ச்சாலை\"",
+    "sourceFile": "Module_4\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0542",
+    "module": "Module 5",
+    "activity": "Arrange Tamil Units",
+    "word": "துள்ளிக்குதித்து",
+    "problem": "Units [குதி, த்து, துள்ளி] character multiset does not match target word \"துள்ளிக்குதித்து\"",
+    "sourceFile": "Module_5\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0618",
+    "module": "Module 5",
+    "activity": "Arrange Tamil Units",
+    "word": "நிர்வாகம்",
+    "problem": "Units [கம், நிர், வா, க] character multiset does not match target word \"நிர்வாகம்\"",
+    "sourceFile": "Module_5\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0536",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "துடைக்க",
+    "problem": "Correct answer \"துடைக்க\" is not present in options [க்க, து, டை]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0543",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "துவைக்க",
+    "problem": "Correct answer \"துவைக்க\" is not present in options [க்க, து, வை]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0544",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தூங்கு",
+    "problem": "Correct answer \"தூங்கு\" is not present in options [கு, தூ, ங்]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0567",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தொட்டனைத்து",
+    "problem": "Correct answer \"தொட்டனைத்து\" is not present in options [னை, த்து, தொ, ட்ட]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0573",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தொலைந்துவிட்டால்",
+    "problem": "Correct answer \"தொலைந்துவிட்டால்\" is not present in options [விட், டால், தொ, லை, ந்து]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0631",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "நீந்து",
+    "problem": "Correct answer \"நீந்து\" is not present in options [து, நீ, ந்]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0653",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "நோயின்றி",
+    "problem": "Correct answer \"நோயின்றி\" is not present in options [றி, நோ, யி, ன்]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0658",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "பங்கேற்பு",
+    "problem": "Correct answer \"பங்கேற்பு\" is not present in options [கே, ற்பு, பங்]",
+    "sourceFile": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0550",
+    "module": "Module 5",
+    "activity": "English Meaning → Tamil Word",
+    "word": "தெய்வம்",
+    "problem": "Correct answer \"தெய்வம்\" is not present in options [வம், தெ, ய்]",
+    "sourceFile": "Module_5\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0652",
+    "module": "Module 5",
+    "activity": "Picture → Select",
+    "word": "நோயினுக்கு",
+    "problem": "Correct answer \"நோயினுக்கு\" is not present in options [க்கு, நோ, யினு]",
+    "sourceFile": "Module_5\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0674",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பட்டுக்குட்டி",
+    "problem": "Correct answer \"பட்டுக்குட்டி\" is not present in options [க்கு, ட்டி, பட்டு]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0680",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பண்பு",
+    "problem": "Correct answer \"பண்பு\" is not present in options [பு, ப, ண்]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0730",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பாதுஷா",
+    "problem": "Correct answer \"பாதுஷா\" is not present in options [ஷா, பாது]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0736",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பாய்தல்",
+    "problem": "Correct answer \"பாய்தல்\" is not present in options [தல், பாய்]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0751",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பிறப்பு",
+    "problem": "Correct answer \"பிறப்பு\" is not present in options [பு, பி, ற, ப்]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0791",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பெரியப்பா",
+    "problem": "Correct answer \"பெரியப்பா\" is not present in options [ப், பா, பெ, ரிய]",
+    "sourceFile": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0760",
+    "module": "Module 6",
+    "activity": "English Meaning → Tamil Word",
+    "word": "புத்திக்கூர்மை",
+    "problem": "Correct answer \"புத்திக்கூர்மை\" is not present in options [கூர், மை, புத், திக்]",
+    "sourceFile": "Module_6\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0788",
+    "module": "Module 6",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பெரிதாகிறேனே",
+    "problem": "Correct answer \"பெரிதாகிறேனே\" is not present in options [கி, றே, னே, பெரி, தா]",
+    "sourceFile": "Module_6\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0718",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழங்கள்",
+    "problem": "Units [பழங்கள், பறக்கும், பறவை, பறிப்பேன்] character multiset does not match target word \"பழங்கள்\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0719",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழச்சாறு",
+    "problem": "Units [பழச்சாறு, பறக்கும், பறிக்காதீர், பறிப்பேன்] character multiset does not match target word \"பழச்சாறு\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0720",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழப்பாகு",
+    "problem": "Units [பழப்பாகு, பறக்கும், பறிக்காதீர், பறிப்பேன்] character multiset does not match target word \"பழப்பாகு\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0723",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பாக்ஸ்",
+    "problem": "Units [பாக்ஸ், பறக்கும், பறவை, பறிப்பேன்] character multiset does not match target word \"பாக்ஸ்\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0727",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பாட்டி",
+    "problem": "Units [பாட்டி, பறக்கும், பறவை, பறிப்பேன்] character multiset does not match target word \"பாட்டி\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0742",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பார்வையாளர்",
+    "problem": "Units [பார்வையாளர், பறக்கும், பறிக்காதீர், பறிப்பேன்] character multiset does not match target word \"பார்வையாளர்\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0761",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "புத்திசாலி",
+    "problem": "Units [சா, லி, புத், த] character multiset does not match target word \"புத்திசாலி\"",
+    "sourceFile": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0711",
+    "module": "Module 6",
+    "activity": "Picture → Select",
+    "word": "பல்",
+    "problem": "Correct answer \"பல்\" is not present in options [ல், ப]",
+    "sourceFile": "Module_6\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0825",
+    "module": "Module 7",
+    "activity": "Arrange Tamil Units",
+    "word": "மடிக்கலாம்",
+    "problem": "Units [லாம், மடிக்] character multiset does not match target word \"மடிக்கலாம்\"",
+    "sourceFile": "Module_7\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0830",
+    "module": "Module 7",
+    "activity": "Arrange Tamil Units",
+    "word": "மத்தளம்",
+    "problem": "Units [த்த, ளம், மத்] character multiset does not match target word \"மத்தளம்\"",
+    "sourceFile": "Module_7\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0882",
+    "module": "Module 7",
+    "activity": "Context → Select/Drag",
+    "word": "முத்துசாமி",
+    "problem": "Correct answer \"முத்துசாமி\" is not present in options [சாமி, முத்து]",
+    "sourceFile": "Module_7\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0797",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "பேச்சு",
+    "problem": "Correct answer \"பேச்சு\" is not present in options [சு, பே, ச்]",
+    "sourceFile": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0831",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மத்து",
+    "problem": "Correct answer \"மத்து\" is not present in options [து, ம, த்]",
+    "sourceFile": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0841",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மருத்துவர்",
+    "problem": "Correct answer \"மருத்துவர்\" is not present in options [த்து, மரு, வர்]",
+    "sourceFile": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0846",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மறைந்திருந்தவை",
+    "problem": "Correct answer \"மறைந்திருந்தவை\" is not present in options [தவை, மறைந், திருந்]",
+    "sourceFile": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0795",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பெருமை",
+    "problem": "Correct answer \"பெருமை\" is not present in options [மை, பெரு]",
+    "sourceFile": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0800",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பொது அறிவு",
+    "problem": "Correct answer \"பொது அறிவு\" is not present in options [அறி, வு, பொ, து]",
+    "sourceFile": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0884",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "முன்னேற்றம்",
+    "problem": "Correct answer \"முன்னேற்றம்\" is not present in options [றம், முன், னே, ற்]",
+    "sourceFile": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0899",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "மெய்",
+    "problem": "Correct answer \"மெய்\" is not present in options [ய், மெ]",
+    "sourceFile": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0942",
+    "module": "Module 8",
+    "activity": "Arrange Tamil Units",
+    "word": "வம்புப்பேச்சு",
+    "problem": "Units [பேச்சு, வம்பு] character multiset does not match target word \"வம்புப்பேச்சு\"",
+    "sourceFile": "Module_8\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS1054",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "வையம்பட்டி",
+    "problem": "Correct answer \"வையம்பட்டி\" is not present in options [டி, வை, ய, ம், ப, ட்]",
+    "sourceFile": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1055",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஷாஜஹான்",
+    "problem": "Correct answer \"ஷாஜஹான்\" is not present in options [ஹா, ன், ஷா, ஜ]",
+    "sourceFile": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1058",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஹரீஷ்",
+    "problem": "Correct answer \"ஹரீஷ்\" is not present in options [ஷ், ஹ, ரீ]",
+    "sourceFile": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1059",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஹிலாரி",
+    "problem": "Correct answer \"ஹிலாரி\" is not present in options [ரி, ஹி, லா]",
+    "sourceFile": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0929",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "லட்டு",
+    "problem": "Correct answer \"லட்டு\" is not present in options [டு, ல, ட்]",
+    "sourceFile": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0939",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வண்ணத்துப்பூச்சி",
+    "problem": "Correct answer \"வண்ணத்துப்பூச்சி\" is not present in options [பூச்சி, வண்ண, த், துப்]",
+    "sourceFile": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0944",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வரிக்குதிரை",
+    "problem": "Correct answer \"வரிக்குதிரை\" is not present in options [குதி, ரை, வரிக்]",
+    "sourceFile": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS1033",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வீரர்கள்",
+    "problem": "Correct answer \"வீரர்கள்\" is not present in options [ள், வீ, ர, ர், க]",
+    "sourceFile": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS1036",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வெட்ட",
+    "problem": "Correct answer \"வெட்ட\" is not present in options [ட, வெ, ட்]",
+    "sourceFile": "Module_8\\correct_spelling.json"
+  }
+]

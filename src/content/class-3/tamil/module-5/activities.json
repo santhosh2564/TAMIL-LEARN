@@ -1,0 +1,7552 @@
+[
+  {
+    "id": "FTS0535",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீர்மானம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "தீர்மானம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தீர்மானம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0535",
+      "ftsId": "FTS0535",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 5,
+      "masterSequence": 535,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2935,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "மா"
+      },
+      {
+        "id": "2",
+        "label": "னம்"
+      },
+      {
+        "id": "3",
+        "label": "தீர்"
+      }
+    ],
+    "units": [
+      "மா",
+      "னம்",
+      "தீர்"
+    ]
+  },
+  {
+    "id": "FTS0539",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துயில்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "துயில்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for துயில்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0539",
+      "ftsId": "FTS0539",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 10,
+      "masterSequence": 539,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2958,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "யி"
+      },
+      {
+        "id": "2",
+        "label": "ல்"
+      },
+      {
+        "id": "3",
+        "label": "து"
+      }
+    ],
+    "units": [
+      "யி",
+      "ல்",
+      "து"
+    ]
+  },
+  {
+    "id": "FTS0542",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துள்ளிக்குதித்து",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "துள்ளிக்குதித்து",
+    "learningObjective": "Arrange Tamil Units recognition and practice for துள்ளிக்குதித்து",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0542",
+      "ftsId": "FTS0542",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 13,
+      "masterSequence": 542,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2974,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "துள்ளிக்"
+      },
+      {
+        "id": "2",
+        "label": "குதித்து"
+      }
+    ],
+    "units": [
+      "துள்ளிக்",
+      "குதித்து"
+    ]
+  },
+  {
+    "id": "FTS0546",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தூங்கும்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "தூங்கும்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தூங்கும்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0546",
+      "ftsId": "FTS0546",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 17,
+      "masterSequence": 546,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2992,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ங்"
+      },
+      {
+        "id": "2",
+        "label": "கும்"
+      },
+      {
+        "id": "3",
+        "label": "தூ"
+      }
+    ],
+    "units": [
+      "ங்",
+      "கும்",
+      "தூ"
+    ]
+  },
+  {
+    "id": "FTS0553",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேடி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்",
+    "correctAnswer": "தேடி",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தேடி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0553",
+      "ftsId": "FTS0553",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 25,
+      "masterSequence": 553,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Searching (Pg. 47)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "டி"
+      },
+      {
+        "id": "2",
+        "label": "தே"
+      }
+    ],
+    "units": [
+      "டி",
+      "தே"
+    ]
+  },
+  {
+    "id": "FTS0554",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேடு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்",
+    "correctAnswer": "தேடு",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தேடு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0554",
+      "ftsId": "FTS0554",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 26,
+      "masterSequence": 554,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Search (Pg. 43) | Konraivendan - Search (Pg. 37)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "டு"
+      },
+      {
+        "id": "2",
+        "label": "தே"
+      }
+    ],
+    "units": [
+      "டு",
+      "தே"
+    ]
+  },
+  {
+    "id": "FTS0558",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேன்கூடு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தேன்கூடு",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தேன்கூடு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0558",
+      "ftsId": "FTS0558",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 31,
+      "masterSequence": 558,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Honeycomb (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "கூடு"
+      },
+      {
+        "id": "2",
+        "label": "தே"
+      },
+      {
+        "id": "3",
+        "label": "ன்"
+      }
+    ],
+    "units": [
+      "கூடு",
+      "தே",
+      "ன்"
+    ]
+  },
+  {
+    "id": "FTS0562",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தைரியம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தைரியம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தைரியம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0562",
+      "ftsId": "FTS0562",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 35,
+      "masterSequence": 562,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Attribute - Courage (Pg. 34)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ரி"
+      },
+      {
+        "id": "2",
+        "label": "யம்"
+      },
+      {
+        "id": "3",
+        "label": "தை"
+      }
+    ],
+    "units": [
+      "ரி",
+      "யம்",
+      "தை"
+    ]
+  },
+  {
+    "id": "FTS0564",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொங்குதல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொங்குதல்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொங்குதல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0564",
+      "ftsId": "FTS0564",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 37,
+      "masterSequence": 564,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Hanging (Pg. 1)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "தல்"
+      },
+      {
+        "id": "2",
+        "label": "தொ"
+      },
+      {
+        "id": "3",
+        "label": "ங்கு"
+      }
+    ],
+    "units": [
+      "தல்",
+      "தொ",
+      "ங்கு"
+    ]
+  },
+  {
+    "id": "FTS0565",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொங்குபாலம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொங்குபாலம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொங்குபாலம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0565",
+      "ftsId": "FTS0565",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 38,
+      "masterSequence": 565,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Structure - Hanging bridge (Pg. 12)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "பா"
+      },
+      {
+        "id": "2",
+        "label": "லம்"
+      },
+      {
+        "id": "3",
+        "label": "தொ"
+      },
+      {
+        "id": "4",
+        "label": "ங்கு"
+      }
+    ],
+    "units": [
+      "பா",
+      "லம்",
+      "தொ",
+      "ங்கு"
+    ]
+  },
+  {
+    "id": "FTS0566",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொடங்கினர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொடங்கினர்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொடங்கினர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0566",
+      "ftsId": "FTS0566",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 40,
+      "masterSequence": 566,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Started (Pg. 36)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "கி"
+      },
+      {
+        "id": "2",
+        "label": "னர்"
+      },
+      {
+        "id": "3",
+        "label": "தொ"
+      },
+      {
+        "id": "4",
+        "label": "டங்"
+      }
+    ],
+    "units": [
+      "கி",
+      "னர்",
+      "தொ",
+      "டங்"
+    ]
+  },
+  {
+    "id": "FTS0570",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொட்டு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொட்டு",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொட்டு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0570",
+      "ftsId": "FTS0570",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 44,
+      "masterSequence": 570,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Touching (Pg. 30) | Action - Touching/Dipping (Pg. 32)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ட்டு"
+      },
+      {
+        "id": "2",
+        "label": "தொ"
+      }
+    ],
+    "units": [
+      "ட்டு",
+      "தொ"
+    ]
+  },
+  {
+    "id": "FTS0572",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொலைந்து",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொலைந்து",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொலைந்து",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0572",
+      "ftsId": "FTS0572",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 46,
+      "masterSequence": 572,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Lost (Pg. 44)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ந்து"
+      },
+      {
+        "id": "2",
+        "label": "தொ"
+      },
+      {
+        "id": "3",
+        "label": "லை"
+      }
+    ],
+    "units": [
+      "ந்து",
+      "தொ",
+      "லை"
+    ]
+  },
+  {
+    "id": "FTS0574",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொலைவில்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொலைவில்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தொலைவில்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0574",
+      "ftsId": "FTS0574",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 48,
+      "masterSequence": 574,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Song - Far (Pg. 20)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வில்"
+      },
+      {
+        "id": "2",
+        "label": "தொ"
+      },
+      {
+        "id": "3",
+        "label": "லை"
+      }
+    ],
+    "units": [
+      "வில்",
+      "தொ",
+      "லை"
+    ]
+  },
+  {
+    "id": "FTS0580",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தோரணம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தோரணம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தோரணம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0580",
+      "ftsId": "FTS0580",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 55,
+      "masterSequence": 580,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Decoration - Festoon (Pg. 26)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ர"
+      },
+      {
+        "id": "2",
+        "label": "ணம்"
+      },
+      {
+        "id": "3",
+        "label": "தோ"
+      }
+    ],
+    "units": [
+      "ர",
+      "ணம்",
+      "தோ"
+    ]
+  },
+  {
+    "id": "FTS0581",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தோற்றம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தோற்றம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for தோற்றம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0581",
+      "ftsId": "FTS0581",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 56,
+      "masterSequence": 581,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Description - Appearance (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ற்"
+      },
+      {
+        "id": "2",
+        "label": "றம்"
+      },
+      {
+        "id": "3",
+        "label": "தோ"
+      }
+    ],
+    "units": [
+      "ற்",
+      "றம்",
+      "தோ"
+    ]
+  },
+  {
+    "id": "FTS0583",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நகர்ந்தது",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நகர்ந்தது",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நகர்ந்தது",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0583",
+      "ftsId": "FTS0583",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 59,
+      "masterSequence": 583,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Moved (Pg. 10)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ந்"
+      },
+      {
+        "id": "2",
+        "label": "த"
+      },
+      {
+        "id": "3",
+        "label": "து"
+      },
+      {
+        "id": "4",
+        "label": "ந"
+      },
+      {
+        "id": "5",
+        "label": "க"
+      },
+      {
+        "id": "6",
+        "label": "ர்"
+      }
+    ],
+    "units": [
+      "ந்",
+      "த",
+      "து",
+      "ந",
+      "க",
+      "ர்"
+    ]
+  },
+  {
+    "id": "FTS0587",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நடுவர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நடுவர்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நடுவர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0587",
+      "ftsId": "FTS0587",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 63,
+      "masterSequence": 587,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Role - Referee/Judge (Pg. 2)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வ"
+      },
+      {
+        "id": "2",
+        "label": "ர்"
+      },
+      {
+        "id": "3",
+        "label": "ந"
+      },
+      {
+        "id": "4",
+        "label": "டு"
+      }
+    ],
+    "units": [
+      "வ",
+      "ர்",
+      "ந",
+      "டு"
+    ]
+  },
+  {
+    "id": "FTS0589",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நட்சத்திரம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நட்சத்திரம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நட்சத்திரம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0589",
+      "ftsId": "FTS0589",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 65,
+      "masterSequence": 589,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Star (Pg. 16)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ரம்"
+      },
+      {
+        "id": "2",
+        "label": "நட்ச"
+      },
+      {
+        "id": "3",
+        "label": "த்தி"
+      }
+    ],
+    "units": [
+      "ரம்",
+      "நட்ச",
+      "த்தி"
+    ]
+  },
+  {
+    "id": "FTS0595",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நனைக்கலாம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நனைக்கலாம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நனைக்கலாம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0595",
+      "ftsId": "FTS0595",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 72,
+      "masterSequence": 595,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Can get wet (Pg. 32) | Song - Can wet (Pg. 20)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "க்க"
+      },
+      {
+        "id": "2",
+        "label": "லாம்"
+      },
+      {
+        "id": "3",
+        "label": "நனை"
+      }
+    ],
+    "units": [
+      "க்க",
+      "லாம்",
+      "நனை"
+    ]
+  },
+  {
+    "id": "FTS0596",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நனைதல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நனைதல்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நனைதல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0596",
+      "ftsId": "FTS0596",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 73,
+      "masterSequence": 596,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Getting wet (Pg. 7)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "தல்"
+      },
+      {
+        "id": "2",
+        "label": "ந"
+      },
+      {
+        "id": "3",
+        "label": "னை"
+      }
+    ],
+    "units": [
+      "தல்",
+      "ந",
+      "னை"
+    ]
+  },
+  {
+    "id": "FTS0600",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நறுமணம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "நறுமணம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நறுமணம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0600",
+      "ftsId": "FTS0600",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 77,
+      "masterSequence": 600,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Dictionary - Fragrance (Pg. 36)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ம"
+      },
+      {
+        "id": "2",
+        "label": "ண"
+      },
+      {
+        "id": "3",
+        "label": "ம்"
+      },
+      {
+        "id": "4",
+        "label": "நறு"
+      }
+    ],
+    "units": [
+      "ம",
+      "ண",
+      "ம்",
+      "நறு"
+    ]
+  },
+  {
+    "id": "FTS0602",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நல்லிணக்கம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்ட அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நல்லிணக்கம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நல்லிணக்கம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0602",
+      "ftsId": "FTS0602",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 80,
+      "masterSequence": 602,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Konraivendan - Harmony (Pg. 37)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "க்"
+      },
+      {
+        "id": "2",
+        "label": "கம்"
+      },
+      {
+        "id": "3",
+        "label": "நல்"
+      },
+      {
+        "id": "4",
+        "label": "லி"
+      },
+      {
+        "id": "5",
+        "label": "ண"
+      }
+    ],
+    "units": [
+      "க்",
+      "கம்",
+      "நல்",
+      "லி",
+      "ண"
+    ]
+  },
+  {
+    "id": "FTS0603",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நஷ்டஈடு",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்ட அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நஷ்டஈடு",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நஷ்டஈடு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0603",
+      "ftsId": "FTS0603",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 81,
+      "masterSequence": 603,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Legal - Compensation (Pg. 21)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ஈடு"
+      },
+      {
+        "id": "2",
+        "label": "நஷ்"
+      },
+      {
+        "id": "3",
+        "label": "ட"
+      }
+    ],
+    "units": [
+      "ஈடு",
+      "நஷ்",
+      "ட"
+    ]
+  },
+  {
+    "id": "FTS0606",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாட்டுப்புற",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்ட அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நாட்டுப்புற",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நாட்டுப்புற",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0606",
+      "ftsId": "FTS0606",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 84,
+      "masterSequence": 606,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Activity - Folk songs (Pg. 10)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "புற"
+      },
+      {
+        "id": "2",
+        "label": "நா"
+      },
+      {
+        "id": "3",
+        "label": "ட்டு"
+      },
+      {
+        "id": "4",
+        "label": "ப்"
+      }
+    ],
+    "units": [
+      "புற",
+      "நா",
+      "ட்டு",
+      "ப்"
+    ]
+  },
+  {
+    "id": "FTS0616",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நினைவூட்டி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "கொடுக்கப்பட்ட அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நினைவூட்டி",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நினைவூட்டி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0616",
+      "ftsId": "FTS0616",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 95,
+      "masterSequence": 616,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "L3 - Birthday Reminder",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வூ"
+      },
+      {
+        "id": "2",
+        "label": "ட்டி"
+      },
+      {
+        "id": "3",
+        "label": "நி"
+      },
+      {
+        "id": "4",
+        "label": "னை"
+      }
+    ],
+    "units": [
+      "வூ",
+      "ட்டி",
+      "நி",
+      "னை"
+    ]
+  },
+  {
+    "id": "FTS0618",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிர்வாகம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நிர்வாகம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நிர்வாகம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0618",
+      "ftsId": "FTS0618",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 97,
+      "masterSequence": 618,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Admin - Administration (Pg. 16)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "நிர்"
+      },
+      {
+        "id": "2",
+        "label": "வா"
+      },
+      {
+        "id": "3",
+        "label": "கம்"
+      }
+    ],
+    "units": [
+      "நிர்",
+      "வா",
+      "கம்"
+    ]
+  },
+  {
+    "id": "FTS0623",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிழல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நிழல்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நிழல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0623",
+      "ftsId": "FTS0623",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 103,
+      "masterSequence": 623,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Nature - Shadow/Shade (Pg. 6)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ல்"
+      },
+      {
+        "id": "2",
+        "label": "நி"
+      },
+      {
+        "id": "3",
+        "label": "ழ"
+      }
+    ],
+    "units": [
+      "ல்",
+      "நி",
+      "ழ"
+    ]
+  },
+  {
+    "id": "FTS0625",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீட்டாதீர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீட்டாதீர்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீட்டாதீர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0625",
+      "ftsId": "FTS0625",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 105,
+      "masterSequence": 625,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Instruction - Do not extend (Pg. 25)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "தீர்"
+      },
+      {
+        "id": "2",
+        "label": "நீட்"
+      },
+      {
+        "id": "3",
+        "label": "டா"
+      }
+    ],
+    "units": [
+      "தீர்",
+      "நீட்",
+      "டா"
+    ]
+  },
+  {
+    "id": "FTS0626",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீண்ட",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீண்ட",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீண்ட",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0626",
+      "ftsId": "FTS0626",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 106,
+      "masterSequence": 626,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Exercise - Long (Pg. 3)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ட"
+      },
+      {
+        "id": "2",
+        "label": "நீ"
+      },
+      {
+        "id": "3",
+        "label": "ண்"
+      }
+    ],
+    "units": [
+      "ட",
+      "நீ",
+      "ண்"
+    ]
+  },
+  {
+    "id": "FTS0630",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீந்தினாள்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீந்தினாள்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீந்தினாள்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0630",
+      "ftsId": "FTS0630",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 111,
+      "masterSequence": 630,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - She swam (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "னா"
+      },
+      {
+        "id": "2",
+        "label": "ள்"
+      },
+      {
+        "id": "3",
+        "label": "நீந்"
+      },
+      {
+        "id": "4",
+        "label": "தி"
+      }
+    ],
+    "units": [
+      "னா",
+      "ள்",
+      "நீந்",
+      "தி"
+    ]
+  },
+  {
+    "id": "FTS0632",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீந்துதல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீந்துதல்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீந்துதல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0632",
+      "ftsId": "FTS0632",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 113,
+      "masterSequence": 632,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Swimming (Pg. 3)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "தல்"
+      },
+      {
+        "id": "2",
+        "label": "நீந்"
+      },
+      {
+        "id": "3",
+        "label": "து"
+      }
+    ],
+    "units": [
+      "தல்",
+      "நீந்",
+      "து"
+    ]
+  },
+  {
+    "id": "FTS0634",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீரோடை",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீரோடை",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீரோடை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0634",
+      "ftsId": "FTS0634",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 115,
+      "masterSequence": 634,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Stream (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "டை"
+      },
+      {
+        "id": "2",
+        "label": "நீ"
+      },
+      {
+        "id": "3",
+        "label": "ரோ"
+      }
+    ],
+    "units": [
+      "டை",
+      "நீ",
+      "ரோ"
+    ]
+  },
+  {
+    "id": "FTS0638",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீலவானம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீலவானம்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நீலவானம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0638",
+      "ftsId": "FTS0638",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 120,
+      "masterSequence": 638,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Nature - Blue sky (Pg. 36)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வா"
+      },
+      {
+        "id": "2",
+        "label": "னம்"
+      },
+      {
+        "id": "3",
+        "label": "நீல"
+      }
+    ],
+    "units": [
+      "வா",
+      "னம்",
+      "நீல"
+    ]
+  },
+  {
+    "id": "FTS0640",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நுழைந்த",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நுழைந்த",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நுழைந்த",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0640",
+      "ftsId": "FTS0640",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 122,
+      "masterSequence": 640,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Entered (Pg. 10)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ந்த"
+      },
+      {
+        "id": "2",
+        "label": "நு"
+      },
+      {
+        "id": "3",
+        "label": "ழை"
+      }
+    ],
+    "units": [
+      "ந்த",
+      "நு",
+      "ழை"
+    ]
+  },
+  {
+    "id": "FTS0644",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நெய்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நெய்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நெய்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0644",
+      "ftsId": "FTS0644",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 126,
+      "masterSequence": 644,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 20 (Exercise)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ய்"
+      },
+      {
+        "id": "2",
+        "label": "நெ"
+      }
+    ],
+    "units": [
+      "ய்",
+      "நெ"
+    ]
+  },
+  {
+    "id": "FTS0645",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நெல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "அரிசி கிடைக்கும் பயிரின் பெயரை உருவாக்கவும்.",
+    "correctAnswer": "நெல்",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நெல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0645",
+      "ftsId": "FTS0645",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 128,
+      "masterSequence": 645,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Crop - Paddy (Pg. 38)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ல்"
+      },
+      {
+        "id": "2",
+        "label": "நெ"
+      }
+    ],
+    "units": [
+      "ல்",
+      "நெ"
+    ]
+  },
+  {
+    "id": "FTS0650",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நேர்பட",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "உண்மையை மறைக்காமல் நேர்மையாகச் செயல்படுவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நேர்பட",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நேர்பட",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0650",
+      "ftsId": "FTS0650",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 133,
+      "masterSequence": 650,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Honestly/Straight (Pg. 53)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "பட"
+      },
+      {
+        "id": "2",
+        "label": "நே"
+      },
+      {
+        "id": "3",
+        "label": "ர்"
+      }
+    ],
+    "units": [
+      "பட",
+      "நே",
+      "ர்"
+    ]
+  },
+  {
+    "id": "FTS0656",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பகை",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "பிறருடன் சண்டை  இருப்பதைக் குறிக்கும் சொல்லை அமைக்கவும்.",
+    "correctAnswer": "பகை",
+    "learningObjective": "Arrange Tamil Units recognition and practice for பகை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0656",
+      "ftsId": "FTS0656",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 140,
+      "masterSequence": 656,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Relation - Enmity (Pg. 33)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "கை"
+      },
+      {
+        "id": "2",
+        "label": "ப"
+      }
+    ],
+    "units": [
+      "கை",
+      "ப"
+    ]
+  },
+  {
+    "id": "Q082",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 2,
+    "targetWord": "நெகிழி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "correctAnswer": "நெகிழி",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நெகிழி",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q082",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 108,
+      "masterSequence": 1130,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "நெ"
+      },
+      {
+        "id": "2",
+        "label": "கி"
+      },
+      {
+        "id": "3",
+        "label": "ழி"
+      }
+    ],
+    "units": [
+      "நெ",
+      "கி",
+      "ழி"
+    ]
+  },
+  {
+    "id": "Q083",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "நெல்மணி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "எழுத்துத் தொகுதிகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "correctAnswer": "நெல்மணி",
+    "learningObjective": "Arrange Tamil Units recognition and practice for நெல்மணி",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q083",
+      "originalActivity": "Arrange Tamil Units"
+    },
+    "metadata": {
+      "positionInModule": 117,
+      "masterSequence": 1131,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "நெ"
+      },
+      {
+        "id": "2",
+        "label": "ல்"
+      },
+      {
+        "id": "3",
+        "label": "ம"
+      },
+      {
+        "id": "4",
+        "label": "ணி"
+      }
+    ],
+    "units": [
+      "நெ",
+      "ல்",
+      "ம",
+      "ணி"
+    ]
+  },
+  {
+    "id": "Q069",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "திறமை",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "ஒரு வேலையை நன்றாகச் செய்யும் திறனை ______ என்பார்கள்.",
+    "correctAnswer": "திறமை",
+    "learningObjective": "Context → Drag Word recognition and practice for திறமை",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q069",
+      "originalActivity": "Context → Drag Word"
+    },
+    "metadata": {
+      "positionInModule": 9,
+      "masterSequence": 1120,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "திறமை"
+      },
+      {
+        "id": "B",
+        "label": "தயக்கம்"
+      },
+      {
+        "id": "C",
+        "label": "தகுதி"
+      },
+      {
+        "id": "D",
+        "label": "முயற்சி"
+      }
+    ]
+  },
+  {
+    "id": "Q073",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "தோன்றுகின்ற",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "கிழக்கில் ______ சூரியனைப் பார்த்து குழந்தைகள் மகிழ்ந்தனர்.",
+    "correctAnswer": "தோன்றுகின்ற",
+    "learningObjective": "Context → Drag Word recognition and practice for தோன்றுகின்ற",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q073",
+      "originalActivity": "Context → Drag Word"
+    },
+    "metadata": {
+      "positionInModule": 39,
+      "masterSequence": 1123,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தோன்றுகின்ற"
+      },
+      {
+        "id": "B",
+        "label": "தோன்றியது"
+      },
+      {
+        "id": "C",
+        "label": "தோன்றின"
+      },
+      {
+        "id": "D",
+        "label": "தோன்றுக"
+      }
+    ]
+  },
+  {
+    "id": "FTS0534",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீர்ப்பு",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "நீதிமன்றம் ஒரு வழக்கில் முடிவை அறிவிப்பதை ______ என்போம்.",
+    "correctAnswer": "தீர்ப்பு",
+    "learningObjective": "Context → Select/Drag recognition and practice for தீர்ப்பு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0534",
+      "ftsId": "FTS0534",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 4,
+      "masterSequence": 534,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2931,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தீர்ப்பு"
+      },
+      {
+        "id": "B",
+        "label": "தீர்மானம்"
+      },
+      {
+        "id": "C",
+        "label": "தீர்வு"
+      },
+      {
+        "id": "D",
+        "label": "தேர்தல்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0545",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தூங்குமூஞ்சி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "மழைமரம் என்றும் அழைக்கப்படும் மரத்தின் பெயரைத் தேர்ந்தெடு.",
+    "correctAnswer": "தூங்குமூஞ்சி",
+    "learningObjective": "Context → Select/Drag recognition and practice for தூங்குமூஞ்சி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0545",
+      "ftsId": "FTS0545",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 16,
+      "masterSequence": 545,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2988,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தூங்குமூஞ்சி"
+      },
+      {
+        "id": "B",
+        "label": "தென்னை"
+      },
+      {
+        "id": "C",
+        "label": "மாமரம்"
+      },
+      {
+        "id": "D",
+        "label": "வேப்பமரம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0593",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நண்பர்கள்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "பல நண்பர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "நண்பர்கள்",
+    "learningObjective": "Context → Select/Drag recognition and practice for நண்பர்கள்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0593",
+      "ftsId": "FTS0593",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 70,
+      "masterSequence": 593,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Relation - Friends (Pg. 23) | Page 16 (Group) | Page 16 (Group noun) | Title - Friends (Pg. 16) | Exercise - Friends (Pg. 3) | Relationship - Friends (Pg. 1)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நண்பர்கள்"
+      },
+      {
+        "id": "B",
+        "label": "நண்பன்"
+      },
+      {
+        "id": "C",
+        "label": "நம்பர்கள்"
+      },
+      {
+        "id": "D",
+        "label": "நண்பர்கல்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0608",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நார்கே",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "மலை ஏறுவதில் சிறந்து விளங்கிய இந்தியப் பெண் மலையேற்ற வீராங்கனையுடன் தொடர்புடைய பெயரைத் தேர்ந்தெடு.",
+    "correctAnswer": "நார்கே",
+    "learningObjective": "Context → Select/Drag recognition and practice for நார்கே",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0608",
+      "ftsId": "FTS0608",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 86,
+      "masterSequence": 608,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Name - Mountaineer (Pg. 31)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நார்கே"
+      },
+      {
+        "id": "B",
+        "label": "நாற்காலி"
+      },
+      {
+        "id": "C",
+        "label": "நாடு"
+      },
+      {
+        "id": "D",
+        "label": "நாளை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0647",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நேதாஜி",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "இந்திய தேசியப் படையின் தலைவராக இருந்தவரின் பெயரைத் தேர்ந்தெடு.",
+    "correctAnswer": "நேதாஜி",
+    "learningObjective": "Context → Select/Drag recognition and practice for நேதாஜி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0647",
+      "ftsId": "FTS0647",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 130,
+      "masterSequence": 647,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 23 (Name list)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நேதாஜி"
+      },
+      {
+        "id": "B",
+        "label": "நேரு"
+      },
+      {
+        "id": "C",
+        "label": "காந்தி"
+      },
+      {
+        "id": "D",
+        "label": "பாரதி"
+      }
+    ]
+  },
+  {
+    "id": "FTS0648",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நேயன்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "“நண்பன்” என்று பொருள்படும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நேயன்",
+    "learningObjective": "Context → Select/Drag recognition and practice for நேயன்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0648",
+      "ftsId": "FTS0648",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 131,
+      "masterSequence": 648,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Name - Character (Pg. 36)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நேயன்"
+      },
+      {
+        "id": "B",
+        "label": "நெல்"
+      },
+      {
+        "id": "C",
+        "label": "நீதி"
+      },
+      {
+        "id": "D",
+        "label": "நிழல்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0655",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பகல்",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "சூரியன் வானத்தில் ஒளி தரும் நேரத்தைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "பகல்",
+    "learningObjective": "Context → Select/Drag recognition and practice for பகல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0655",
+      "ftsId": "FTS0655",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 139,
+      "masterSequence": 655,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Time - Day (Pg. 38)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "பகல்"
+      },
+      {
+        "id": "B",
+        "label": "இரவு"
+      },
+      {
+        "id": "C",
+        "label": "காலை"
+      },
+      {
+        "id": "D",
+        "label": "மாலை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0661",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பசு",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "படத்தில் உள்ள பால் தரும் வீட்டில் வளர்க்கப்படும் விலங்கைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "பசு",
+    "learningObjective": "Context → Select/Drag recognition and practice for பசு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0661",
+      "ftsId": "FTS0661",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 145,
+      "masterSequence": 661,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Not specified in the fresh source master",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "பசு"
+      },
+      {
+        "id": "B",
+        "label": "ஆடு"
+      },
+      {
+        "id": "C",
+        "label": "நாய்"
+      },
+      {
+        "id": "D",
+        "label": "குதிரை"
+      }
+    ]
+  },
+  {
+    "id": "Q087",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "படை",
+    "category": "context-choice",
+    "variant": "fill-blank",
+    "prompt": "நாட்டைக் காக்க ஒரு பெரிய ______ அமைக்கப்பட்டது.",
+    "correctAnswer": "படை",
+    "learningObjective": "Context → Select/Drag recognition and practice for படை",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q087",
+      "originalActivity": "Context → Select/Drag"
+    },
+    "metadata": {
+      "positionInModule": 147,
+      "masterSequence": 1134,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "படை"
+      },
+      {
+        "id": "B",
+        "label": "படி"
+      },
+      {
+        "id": "C",
+        "label": "படைப்பு"
+      },
+      {
+        "id": "D",
+        "label": "படகு"
+      }
+    ]
+  },
+  {
+    "id": "FTS0532",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீப்பெட்டி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "தீக்குச்சிகளை வைத்திருக்கும் சிறிய பெட்டியின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "தீப்பெட்டி",
+    "learningObjective": "Correct Spelling recognition and practice for தீப்பெட்டி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0532",
+      "ftsId": "FTS0532",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 2,
+      "masterSequence": 532,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Matchbox",
+      "sourceReferenceContext": "Page 32 (Craft item)",
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தீப்பெட்டி"
+      },
+      {
+        "id": "B",
+        "label": "தீபெட்டி"
+      },
+      {
+        "id": "C",
+        "label": "தீப்பெட்டீ"
+      },
+      {
+        "id": "D",
+        "label": "தீப்பேட்டி"
+      }
+    ]
+  },
+  {
+    "id": "FTS0536",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துடைக்க",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "“மேசையில் உள்ள தூசியைத் துணியால் ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "துடைக்க",
+    "learningObjective": "Correct Spelling recognition and practice for துடைக்க",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0536",
+      "ftsId": "FTS0536",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 6,
+      "masterSequence": 536,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2940,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "துடைக்க"
+      },
+      {
+        "id": "B",
+        "label": "துடைக"
+      },
+      {
+        "id": "C",
+        "label": "துடைக்"
+      },
+      {
+        "id": "D",
+        "label": "துடைக்கா"
+      }
+    ]
+  },
+  {
+    "id": "FTS0543",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துவைக்க",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "“அம்மா அழுக்கான துணிகளை ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "துவைக்க",
+    "learningObjective": "Correct Spelling recognition and practice for துவைக்க",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0543",
+      "ftsId": "FTS0543",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 14,
+      "masterSequence": 543,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2979,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "துவைக்க"
+      },
+      {
+        "id": "B",
+        "label": "துவக"
+      },
+      {
+        "id": "C",
+        "label": "துவைக"
+      },
+      {
+        "id": "D",
+        "label": "துவைக்கா"
+      }
+    ]
+  },
+  {
+    "id": "FTS0544",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தூங்கு",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "correctAnswer": "தூங்கு",
+    "learningObjective": "Correct Spelling recognition and practice for தூங்கு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0544",
+      "ftsId": "FTS0544",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 15,
+      "masterSequence": 544,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2983,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தூங்கு"
+      },
+      {
+        "id": "B",
+        "label": "துங்கு"
+      },
+      {
+        "id": "C",
+        "label": "தூங்குய்"
+      },
+      {
+        "id": "D",
+        "label": "தூங்கும"
+      }
+    ]
+  },
+  {
+    "id": "FTS0547",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தூசி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "வீட்டில் படியும் சிறிய துகள்களைக் குறிக்கும் சொல்லை தேர்ந்தெடு",
+    "correctAnswer": "தூசி",
+    "learningObjective": "Correct Spelling recognition and practice for தூசி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0547",
+      "ftsId": "FTS0547",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 18,
+      "masterSequence": 547,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2997,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தூசி"
+      },
+      {
+        "id": "B",
+        "label": "தோசி"
+      },
+      {
+        "id": "C",
+        "label": "திசை"
+      },
+      {
+        "id": "D",
+        "label": "தூய்மை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0556",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேனீக்கள்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "தேனீக்கள்",
+    "learningObjective": "Correct Spelling recognition and practice for தேனீக்கள்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0556",
+      "ftsId": "FTS0556",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 28,
+      "masterSequence": 556,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 15 (Plural usage)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தேனீக்கள்"
+      },
+      {
+        "id": "B",
+        "label": "தேனீகல்"
+      },
+      {
+        "id": "C",
+        "label": "தேனிக்கள்"
+      },
+      {
+        "id": "D",
+        "label": "தேனீக்கல்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0567",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொட்டனைத்து",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொட்டனைத்து",
+    "learningObjective": "Correct Spelling recognition and practice for தொட்டனைத்து",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0567",
+      "ftsId": "FTS0567",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 41,
+      "masterSequence": 567,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2915,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொட்டனைத்து"
+      },
+      {
+        "id": "B",
+        "label": "தொட்டனைது"
+      },
+      {
+        "id": "C",
+        "label": "தொட்டணைத்து"
+      },
+      {
+        "id": "D",
+        "label": "தொட்டநைத்து"
+      }
+    ]
+  },
+  {
+    "id": "FTS0571",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொலைக்காட்சி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "தொலைக்காட்சி",
+    "learningObjective": "Correct Spelling recognition and practice for தொலைக்காட்சி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0571",
+      "ftsId": "FTS0571",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 45,
+      "masterSequence": 571,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "General Vocab",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொலைக்காட்சி"
+      },
+      {
+        "id": "B",
+        "label": "தொலைகாட்சி"
+      },
+      {
+        "id": "C",
+        "label": "தொலைக்காச்சி"
+      },
+      {
+        "id": "D",
+        "label": "தொலைக்காச்சி"
+      }
+    ]
+  },
+  {
+    "id": "FTS0573",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொலைந்துவிட்டால்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொலைந்துவிட்டால்",
+    "learningObjective": "Correct Spelling recognition and practice for தொலைந்துவிட்டால்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0573",
+      "ftsId": "FTS0573",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 47,
+      "masterSequence": 573,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 30 (Discussion)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொலைந்துவிட்டால்"
+      },
+      {
+        "id": "B",
+        "label": "தொலைந்துவிடால்"
+      },
+      {
+        "id": "C",
+        "label": "தொளைந்துவிட்டால்"
+      },
+      {
+        "id": "D",
+        "label": "தொலைந்துவிட்டாள்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0576",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொழிற்சாலை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "தொழிற்சாலை",
+    "learningObjective": "Correct Spelling recognition and practice for தொழிற்சாலை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0576",
+      "ftsId": "FTS0576",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 51,
+      "masterSequence": 576,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Factory (Pg. 24)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொழிற்சாலை"
+      },
+      {
+        "id": "B",
+        "label": "தொழிற்சலை"
+      },
+      {
+        "id": "C",
+        "label": "தொழிற்சால"
+      },
+      {
+        "id": "D",
+        "label": "தொழிர்சாலை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0585",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நடனம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "நடனம்",
+    "learningObjective": "Correct Spelling recognition and practice for நடனம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0585",
+      "ftsId": "FTS0585",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 61,
+      "masterSequence": 585,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Dance (Pg. 20) | Song - Dance (Pg. 2) | Story - Dance (Pg. 16)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நடனம்"
+      },
+      {
+        "id": "B",
+        "label": "நட"
+      },
+      {
+        "id": "C",
+        "label": "நடனம"
+      },
+      {
+        "id": "D",
+        "label": "நடணம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0592",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நண்பன்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "நண்பன்",
+    "learningObjective": "Correct Spelling recognition and practice for நண்பன்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0592",
+      "ftsId": "FTS0592",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 69,
+      "masterSequence": 592,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Implicit - Friend (Pg. 37) | Relationship - Friend (Pg. 33) | Relationship - Friend (Pg. 37)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நண்பன்"
+      },
+      {
+        "id": "B",
+        "label": "நண்பண்"
+      },
+      {
+        "id": "C",
+        "label": "நன்பன்"
+      },
+      {
+        "id": "D",
+        "label": "நண்பன"
+      }
+    ]
+  },
+  {
+    "id": "FTS0598",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நன்றி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "நன்றி",
+    "learningObjective": "Correct Spelling recognition and practice for நன்றி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0598",
+      "ftsId": "FTS0598",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 75,
+      "masterSequence": 598,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "L-1 (Ulaga Needhi)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நன்றி"
+      },
+      {
+        "id": "B",
+        "label": "நன்ரி"
+      },
+      {
+        "id": "C",
+        "label": "நன்றீ"
+      },
+      {
+        "id": "D",
+        "label": "நனறீ"
+      }
+    ]
+  },
+  {
+    "id": "FTS0607",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாய்க்குட்டி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நாய்க்குட்டி",
+    "learningObjective": "Correct Spelling recognition and practice for நாய்க்குட்டி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0607",
+      "ftsId": "FTS0607",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 85,
+      "masterSequence": 607,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 19 (Exercise)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நாய்க்குட்டி"
+      },
+      {
+        "id": "B",
+        "label": "நாய்குட்டி"
+      },
+      {
+        "id": "C",
+        "label": "நாய்க்குட்டீ"
+      },
+      {
+        "id": "D",
+        "label": "நாய்குட்டீ"
+      }
+    ]
+  },
+  {
+    "id": "FTS0614",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிந்தனை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நிந்தனை",
+    "learningObjective": "Correct Spelling recognition and practice for நிந்தனை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0614",
+      "ftsId": "FTS0614",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 93,
+      "masterSequence": 614,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Not specified in the fresh source master",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நிந்தனை"
+      },
+      {
+        "id": "B",
+        "label": "நிந்தணை"
+      },
+      {
+        "id": "C",
+        "label": "நிந்தய்"
+      },
+      {
+        "id": "D",
+        "label": "நிந்தலை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0619",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிறுத்து",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "“Stop” என்பதைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "நிறுத்து",
+    "learningObjective": "Correct Spelling recognition and practice for நிறுத்து",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0619",
+      "ftsId": "FTS0619",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 99,
+      "masterSequence": 619,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Stop (Pg. 21)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நிறுத்து"
+      },
+      {
+        "id": "B",
+        "label": "நிருத்து"
+      },
+      {
+        "id": "C",
+        "label": "நிறுத்தூ"
+      },
+      {
+        "id": "D",
+        "label": "நிறத்த"
+      }
+    ]
+  },
+  {
+    "id": "FTS0621",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிலைப்பேழை",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நிலைப்பேழை",
+    "learningObjective": "Correct Spelling recognition and practice for நிலைப்பேழை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0621",
+      "ftsId": "FTS0621",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 101,
+      "masterSequence": 621,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "General Vocab",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நிலைப்பேழை"
+      },
+      {
+        "id": "B",
+        "label": "நிலைப்பேளை"
+      },
+      {
+        "id": "C",
+        "label": "நிலைபேழை"
+      },
+      {
+        "id": "D",
+        "label": "நிலைப்பேலை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0624",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீச்சல்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "தண்ணீரில் நீந்துவதைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீச்சல்",
+    "learningObjective": "Correct Spelling recognition and practice for நீச்சல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0624",
+      "ftsId": "FTS0624",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 104,
+      "masterSequence": 624,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Swimming (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீச்சல்"
+      },
+      {
+        "id": "B",
+        "label": "நீச்சள்"
+      },
+      {
+        "id": "C",
+        "label": "நிச்சல்"
+      },
+      {
+        "id": "D",
+        "label": "நீசல்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0631",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீந்து",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "“Swim” என்பதைக் குறிக்கும் சொல்லின் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நீந்து",
+    "learningObjective": "Correct Spelling recognition and practice for நீந்து",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0631",
+      "ftsId": "FTS0631",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 112,
+      "masterSequence": 631,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Swim (Pg. 20)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீந்து"
+      },
+      {
+        "id": "B",
+        "label": "நிந்து"
+      },
+      {
+        "id": "C",
+        "label": "நீந்துய்"
+      },
+      {
+        "id": "D",
+        "label": "நீந்த"
+      }
+    ]
+  },
+  {
+    "id": "FTS0637",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீலம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "வானத்தின் நிறத்தைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீலம்",
+    "learningObjective": "Correct Spelling recognition and practice for நீலம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0637",
+      "ftsId": "FTS0637",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 119,
+      "masterSequence": 637,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Color - Blue (Pg. 11) | Color - Blue (Pg. 30) | Song - Blue (Pg. 20)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீலம்"
+      },
+      {
+        "id": "B",
+        "label": "நீளம்"
+      },
+      {
+        "id": "C",
+        "label": "நீளாம்"
+      },
+      {
+        "id": "D",
+        "label": "நீலன்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0639",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீளம்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "ஒரு பொருள் எவ்வளவு நீண்டது என்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீளம்",
+    "learningObjective": "Correct Spelling recognition and practice for நீளம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0639",
+      "ftsId": "FTS0639",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 121,
+      "masterSequence": 639,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Adjective - Length (Pg. 3)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீளம்"
+      },
+      {
+        "id": "B",
+        "label": "நீலம்"
+      },
+      {
+        "id": "C",
+        "label": "நிலம்"
+      },
+      {
+        "id": "D",
+        "label": "நீளாம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0643",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நூல்கண்டு",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நூல்கண்டு",
+    "learningObjective": "Correct Spelling recognition and practice for நூல்கண்டு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0643",
+      "ftsId": "FTS0643",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 125,
+      "masterSequence": 643,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 32 (Craft item)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நூல்கண்டு"
+      },
+      {
+        "id": "B",
+        "label": "நூல்கன்டு"
+      },
+      {
+        "id": "C",
+        "label": "நூலகண்டு"
+      },
+      {
+        "id": "D",
+        "label": "நூல்கண்டூ"
+      }
+    ]
+  },
+  {
+    "id": "FTS0646",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நெல்லிக்கனி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியாக எழுதப்பட்ட சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நெல்லிக்கனி",
+    "learningObjective": "Correct Spelling recognition and practice for நெல்லிக்கனி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0646",
+      "ftsId": "FTS0646",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 129,
+      "masterSequence": 646,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Not specified in the fresh source master",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நெல்லிக்கனி"
+      },
+      {
+        "id": "B",
+        "label": "நெல்லிகனி"
+      },
+      {
+        "id": "C",
+        "label": "நெல்லிக்கணி"
+      },
+      {
+        "id": "D",
+        "label": "நெல்லிக்கனீ"
+      }
+    ]
+  },
+  {
+    "id": "FTS0649",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நேர்த்தியான",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "ஒழுங்காகவும் அழகாகவும் இருப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நேர்த்தியான",
+    "learningObjective": "Correct Spelling recognition and practice for நேர்த்தியான",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0649",
+      "ftsId": "FTS0649",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 132,
+      "masterSequence": 649,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Adjective - Elegant/Neat (Pg. 47)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நேர்த்தியான"
+      },
+      {
+        "id": "B",
+        "label": "நேர்தியான"
+      },
+      {
+        "id": "C",
+        "label": "நேர்த்தியாண"
+      },
+      {
+        "id": "D",
+        "label": "நேர்த்தியன"
+      }
+    ]
+  },
+  {
+    "id": "FTS0653",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நோயின்றி",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "நோய் இல்லாத நிலையைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "நோயின்றி",
+    "learningObjective": "Correct Spelling recognition and practice for நோயின்றி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0653",
+      "ftsId": "FTS0653",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 136,
+      "masterSequence": 653,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "State - Without disease (Pg. 54)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நோயின்றி"
+      },
+      {
+        "id": "B",
+        "label": "நோயின்ரி"
+      },
+      {
+        "id": "C",
+        "label": "நோயின்றிம்"
+      },
+      {
+        "id": "D",
+        "label": "நோயின்ற்றி"
+      }
+    ]
+  },
+  {
+    "id": "FTS0658",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பங்கேற்பு",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "பலர் ஒன்றாகச் சேர்ந்து ஒரு செயலில் கலந்து கொள்வதைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "பங்கேற்பு",
+    "learningObjective": "Correct Spelling recognition and practice for பங்கேற்பு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0658",
+      "ftsId": "FTS0658",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 142,
+      "masterSequence": 658,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Participation (Pg. 16)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "பங்கேற்பு"
+      },
+      {
+        "id": "B",
+        "label": "பங்கேர்பு"
+      },
+      {
+        "id": "C",
+        "label": "பங்கைற்பு"
+      },
+      {
+        "id": "D",
+        "label": "பங்கேபு"
+      }
+    ]
+  },
+  {
+    "id": "Q070",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீது",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "தீது",
+    "learningObjective": "Correct Spelling recognition and practice for தீது",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q070",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 19,
+      "masterSequence": 1121,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தீது"
+      },
+      {
+        "id": "B",
+        "label": "திது"
+      },
+      {
+        "id": "C",
+        "label": "தீத"
+      },
+      {
+        "id": "D",
+        "label": "தீத்து"
+      }
+    ]
+  },
+  {
+    "id": "Q075",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நன்று",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "நன்று",
+    "learningObjective": "Correct Spelling recognition and practice for நன்று",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q075",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 49,
+      "masterSequence": 1124,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நன்று"
+      },
+      {
+        "id": "B",
+        "label": "நனறு"
+      },
+      {
+        "id": "C",
+        "label": "நன்ற"
+      },
+      {
+        "id": "D",
+        "label": "நண்று"
+      }
+    ]
+  },
+  {
+    "id": "Q081",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நூல்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "படிக்கப் பயன்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "நூல்",
+    "learningObjective": "Correct Spelling recognition and practice for நூல்",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q081",
+      "originalActivity": "Correct Spelling"
+    },
+    "metadata": {
+      "positionInModule": 98,
+      "masterSequence": 1129,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நூல்"
+      },
+      {
+        "id": "B",
+        "label": "நூள்"
+      },
+      {
+        "id": "C",
+        "label": "நுல்"
+      },
+      {
+        "id": "D",
+        "label": "நூல"
+      }
+    ]
+  },
+  {
+    "id": "Q086",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "படி",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "புத்தகத்தைப் ______. ப + [blank]",
+    "correctAnswer": "டி",
+    "learningObjective": "Drag & Drop Missing Unit recognition and practice for படி",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q086",
+      "originalActivity": "Drag & Drop Missing Unit"
+    },
+    "metadata": {
+      "positionInModule": 137,
+      "masterSequence": 1133,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "டி"
+      },
+      {
+        "id": "B",
+        "label": "தி"
+      },
+      {
+        "id": "C",
+        "label": "டு"
+      },
+      {
+        "id": "D",
+        "label": "டா"
+      }
+    ],
+    "template": "ப_"
+  },
+  {
+    "id": "Q078",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "நாளிதழ்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "“Newspaper” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "correctAnswer": "நாளிதழ்",
+    "learningObjective": "English Meaning → Arrange Tamil Word recognition and practice for நாளிதழ்",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q078",
+      "originalActivity": "English Meaning → Arrange Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 68,
+      "masterSequence": 1126,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "நா"
+      },
+      {
+        "id": "2",
+        "label": "தழ்"
+      },
+      {
+        "id": "3",
+        "label": "ளி"
+      }
+    ],
+    "units": [
+      "நா",
+      "தழ்",
+      "ளி"
+    ]
+  },
+  {
+    "id": "FTS0533",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீரா",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “never-ending”?",
+    "correctAnswer": "தீரா",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தீரா",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0533",
+      "ftsId": "FTS0533",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 3,
+      "masterSequence": 533,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2926,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தீரா"
+      },
+      {
+        "id": "B",
+        "label": "தீர்வு"
+      },
+      {
+        "id": "C",
+        "label": "தீர்ப்பு"
+      },
+      {
+        "id": "D",
+        "label": "தீரன்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0537",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துணிவு",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “being brave”?",
+    "correctAnswer": "துணிவு",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for துணிவு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0537",
+      "ftsId": "FTS0537",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 7,
+      "masterSequence": 537,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2945,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "துணிவு"
+      },
+      {
+        "id": "B",
+        "label": "துணி"
+      },
+      {
+        "id": "C",
+        "label": "துனிவு"
+      },
+      {
+        "id": "D",
+        "label": "துணை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0538",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துன்பம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “sadness or pain”?",
+    "correctAnswer": "துன்பம்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for துன்பம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0538",
+      "ftsId": "FTS0538",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 8,
+      "masterSequence": 538,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2950,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "துன்பம்"
+      },
+      {
+        "id": "B",
+        "label": "துண்பம்"
+      },
+      {
+        "id": "C",
+        "label": "தும்பம்"
+      },
+      {
+        "id": "D",
+        "label": "துன்ப"
+      }
+    ]
+  },
+  {
+    "id": "FTS0541",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துறை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “an area of work or study”?",
+    "correctAnswer": "துறை",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for துறை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0541",
+      "ftsId": "FTS0541",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 12,
+      "masterSequence": 541,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2970,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "துறை"
+      },
+      {
+        "id": "B",
+        "label": "துரை"
+      },
+      {
+        "id": "C",
+        "label": "துரு"
+      },
+      {
+        "id": "D",
+        "label": "துறைமை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0548",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தூரம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Distance என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "தூரம்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தூரம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0548",
+      "ftsId": "FTS0548",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 20,
+      "masterSequence": 548,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Distance",
+      "sourceReferenceContext": "Concept - Distance (Pg. 11) | L-1 (Ulaga Needhi)",
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தூரம்"
+      },
+      {
+        "id": "B",
+        "label": "தாரம்"
+      },
+      {
+        "id": "C",
+        "label": "தூரை"
+      },
+      {
+        "id": "D",
+        "label": "துரம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0550",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தெய்வம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "God என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "correctAnswer": "தெய்வம்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தெய்வம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0550",
+      "ftsId": "FTS0550",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 22,
+      "masterSequence": 550,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 3018,
+      "sourceReferenceContext": null,
+      "pictureSpecification": 2915,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தெய்வம்"
+      },
+      {
+        "id": "B",
+        "label": "மனிதன்"
+      },
+      {
+        "id": "C",
+        "label": "இயற்கை"
+      },
+      {
+        "id": "D",
+        "label": "உலகம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0575",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொலைவு",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “distance”?",
+    "correctAnswer": "தொலைவு",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தொலைவு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0575",
+      "ftsId": "FTS0575",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 50,
+      "masterSequence": 575,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Distance (Pg. 19)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொலைவு"
+      },
+      {
+        "id": "B",
+        "label": "தோல்வி"
+      },
+      {
+        "id": "C",
+        "label": "தொழில்"
+      },
+      {
+        "id": "D",
+        "label": "தேவை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0577",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொழில்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “work or profession”?",
+    "correctAnswer": "தொழில்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தொழில்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0577",
+      "ftsId": "FTS0577",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 52,
+      "masterSequence": 577,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Job/Profession (Pg. 17)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தொழில்"
+      },
+      {
+        "id": "B",
+        "label": "தோற்றம்"
+      },
+      {
+        "id": "C",
+        "label": "தொட்டி"
+      },
+      {
+        "id": "D",
+        "label": "தேர்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0582",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தோல்வி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “defeat” or “loss”?",
+    "correctAnswer": "தோல்வி",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for தோல்வி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0582",
+      "ftsId": "FTS0582",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 57,
+      "masterSequence": 582,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Defeat (Pg. 38)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தோல்வி"
+      },
+      {
+        "id": "B",
+        "label": "தொலைவு"
+      },
+      {
+        "id": "C",
+        "label": "தொழில்"
+      },
+      {
+        "id": "D",
+        "label": "தைரியம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0588",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நடுவுநிலைமை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "அனைவரையும் சமமாகவும் நியாயமாகவும் நடத்துவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நடுவுநிலைமை",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நடுவுநிலைமை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0588",
+      "ftsId": "FTS0588",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 64,
+      "masterSequence": 588,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Kural Value - Impartiality (Pg. 37)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நடுவுநிலைமை"
+      },
+      {
+        "id": "B",
+        "label": "நடனம்"
+      },
+      {
+        "id": "C",
+        "label": "நட்பு"
+      },
+      {
+        "id": "D",
+        "label": "நன்மை"
+      }
+    ]
+  },
+  {
+    "id": "FTS0597",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நன்மை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “goodness” or “benefit”?",
+    "correctAnswer": "நன்மை",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நன்மை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0597",
+      "ftsId": "FTS0597",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 74,
+      "masterSequence": 597,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Good (Pg. 48)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நன்மை"
+      },
+      {
+        "id": "B",
+        "label": "துன்பம்"
+      },
+      {
+        "id": "C",
+        "label": "தோல்வி"
+      },
+      {
+        "id": "D",
+        "label": "தொலைவு"
+      }
+    ]
+  },
+  {
+    "id": "FTS0604",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நஷ்டம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “loss”?",
+    "correctAnswer": "நஷ்டம்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நஷ்டம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0604",
+      "ftsId": "FTS0604",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 82,
+      "masterSequence": 604,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Loss (Pg. 21)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நஷ்டம்"
+      },
+      {
+        "id": "B",
+        "label": "நன்மை"
+      },
+      {
+        "id": "C",
+        "label": "நன்றி"
+      },
+      {
+        "id": "D",
+        "label": "நலம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0615",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நினைவுகள்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "Which Tamil word means “memories”?",
+    "correctAnswer": "நினைவுகள்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நினைவுகள்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0615",
+      "ftsId": "FTS0615",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 94,
+      "masterSequence": 615,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Memories (Pg. 15)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நினைவுகள்"
+      },
+      {
+        "id": "B",
+        "label": "நிகழ்வுகள்"
+      },
+      {
+        "id": "C",
+        "label": "நிமிடங்கள்"
+      },
+      {
+        "id": "D",
+        "label": "நிலங்கள்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0617",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நியாயம்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "எல்லோரிடமும் சரியாக நடந்துகொள்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நியாயம்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நியாயம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0617",
+      "ftsId": "FTS0617",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 96,
+      "masterSequence": 617,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Justice/Fairness (Pg. 22)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நியாயம்"
+      },
+      {
+        "id": "B",
+        "label": "நிழல்"
+      },
+      {
+        "id": "C",
+        "label": "நீளம்"
+      },
+      {
+        "id": "D",
+        "label": "நிலம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0627",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீதி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "சரியானதைச் செய்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீதி",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நீதி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0627",
+      "ftsId": "FTS0627",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 107,
+      "masterSequence": 627,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - Justice (Pg. 21)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீதி"
+      },
+      {
+        "id": "B",
+        "label": "நீர்"
+      },
+      {
+        "id": "C",
+        "label": "நீளம்"
+      },
+      {
+        "id": "D",
+        "label": "நீலம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0628",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீதிநெறி",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "நல்ல வழியில் நடக்க உதவும் நெறியைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீதிநெறி",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நீதிநெறி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0628",
+      "ftsId": "FTS0628",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 109,
+      "masterSequence": 628,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 35 (Value)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீதிநெறி"
+      },
+      {
+        "id": "B",
+        "label": "நீச்சல்"
+      },
+      {
+        "id": "C",
+        "label": "நீரோடை"
+      },
+      {
+        "id": "D",
+        "label": "நீலம்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0654",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நோய்",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Disease” என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு",
+    "correctAnswer": "நோய்",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நோய்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0654",
+      "ftsId": "FTS0654",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 138,
+      "masterSequence": 654,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Story - Disease (Pg. 24)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நோய்"
+      },
+      {
+        "id": "B",
+        "label": "நோக்கு"
+      },
+      {
+        "id": "C",
+        "label": "நொய்"
+      },
+      {
+        "id": "D",
+        "label": "நூய்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0660",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பசிக்கிறது",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "உணவு சாப்பிட வேண்டும் என்று தோன்றும் உணர்வைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "பசிக்கிறது",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for பசிக்கிறது",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0660",
+      "ftsId": "FTS0660",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 144,
+      "masterSequence": 660,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Sensation - Feeling hungry (Pg. 41)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "பசிக்கிறது"
+      },
+      {
+        "id": "B",
+        "label": "பச"
+      },
+      {
+        "id": "C",
+        "label": "பசுமை"
+      },
+      {
+        "id": "D",
+        "label": "பசு"
+      }
+    ]
+  },
+  {
+    "id": "Q076",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "நம்பிக்கை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Confidence / hope” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "நம்பிக்கை",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நம்பிக்கை",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q076",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 58,
+      "masterSequence": 1125,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நம்பிக்கை"
+      },
+      {
+        "id": "B",
+        "label": "நம்பிகை"
+      },
+      {
+        "id": "C",
+        "label": "நம்பிக்கி"
+      },
+      {
+        "id": "D",
+        "label": "நம்பிக்கம்"
+      }
+    ]
+  },
+  {
+    "id": "Q084",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "நேர்மை",
+    "category": "meaning-match",
+    "variant": "translate-select",
+    "prompt": "“Honesty” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "நேர்மை",
+    "learningObjective": "English Meaning → Tamil Word recognition and practice for நேர்மை",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q084",
+      "originalActivity": "English Meaning → Tamil Word"
+    },
+    "metadata": {
+      "positionInModule": 127,
+      "masterSequence": 1132,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நேர்மை"
+      },
+      {
+        "id": "B",
+        "label": "நேர்ம"
+      },
+      {
+        "id": "C",
+        "label": "நேர்மைல்"
+      },
+      {
+        "id": "D",
+        "label": "நேர்மைன்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0552",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேடல்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "விடுபட்ட எழுத்தை நிரப்பி சொல்லை முடிக்கவும்: தே_ல்.",
+    "correctAnswer": "தேடல்",
+    "learningObjective": "Missing Letter recognition and practice for தேடல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0552",
+      "ftsId": "FTS0552",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 24,
+      "masterSequence": 552,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Search (Pg. 43) | Action - Search (Pg. 26)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ட"
+      },
+      {
+        "id": "B",
+        "label": "த"
+      },
+      {
+        "id": "C",
+        "label": "ர"
+      },
+      {
+        "id": "D",
+        "label": "ற"
+      }
+    ],
+    "template": "தே_ல்"
+  },
+  {
+    "id": "FTS0555",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேனீ",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "தேன் சேகரிக்கும் பூச்சியின் பெயரை முடிக்கவும்: தே[blank]",
+    "correctAnswer": "தேனீ",
+    "learningObjective": "Missing Letter recognition and practice for தேனீ",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0555",
+      "ftsId": "FTS0555",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 27,
+      "masterSequence": 555,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Insect - Bee (Pg. 35) | Story - Bee (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "னீ"
+      },
+      {
+        "id": "B",
+        "label": "நீ"
+      },
+      {
+        "id": "C",
+        "label": "னை"
+      },
+      {
+        "id": "D",
+        "label": "னா"
+      }
+    ],
+    "template": "தே_"
+  },
+  {
+    "id": "FTS0559",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேர்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "குதிரை இழுத்துச் செல்லும் அலங்கரிக்கப்பட்ட வண்டியின் பெயரை முடிக்கவும்: தே[blank]",
+    "correctAnswer": "தேர்",
+    "learningObjective": "Missing Letter recognition and practice for தேர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0559",
+      "ftsId": "FTS0559",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 32,
+      "masterSequence": 559,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "General Exercises",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ர்"
+      },
+      {
+        "id": "B",
+        "label": "ல்"
+      },
+      {
+        "id": "C",
+        "label": "ன்"
+      },
+      {
+        "id": "D",
+        "label": "ற்"
+      }
+    ],
+    "template": "தே_"
+  },
+  {
+    "id": "FTS0560",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேவை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "ஒரு பொருள் வேண்டியிருக்கும்போது அதைக் குறிக்கும் சொல்லை முடிக்கவும்: தே[blank]",
+    "correctAnswer": "தேவை",
+    "learningObjective": "Missing Letter recognition and practice for தேவை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0560",
+      "ftsId": "FTS0560",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 33,
+      "masterSequence": 560,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2915,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "வை"
+      },
+      {
+        "id": "B",
+        "label": "வி"
+      },
+      {
+        "id": "C",
+        "label": "வு"
+      },
+      {
+        "id": "D",
+        "label": "வா"
+      }
+    ],
+    "template": "தே_"
+  },
+  {
+    "id": "FTS0561",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "பொங்கல் திருநாள் கொண்டாடப்படும் தமிழ் மாதம் எது?",
+    "correctAnswer": "தை",
+    "learningObjective": "Missing Letter recognition and practice for தை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0561",
+      "ftsId": "FTS0561",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 34,
+      "masterSequence": 561,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 41 (Action)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தை"
+      },
+      {
+        "id": "B",
+        "label": "ஆடி"
+      },
+      {
+        "id": "C",
+        "label": "ஆவணி"
+      },
+      {
+        "id": "D",
+        "label": "சித்திரை"
+      }
+    ],
+    "template": "_"
+  },
+  {
+    "id": "FTS0584",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நட",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "ஒருவர் காலால் செய்வது: ந[blank]",
+    "correctAnswer": "நட",
+    "learningObjective": "Missing Letter recognition and practice for நட",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0584",
+      "ftsId": "FTS0584",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 60,
+      "masterSequence": 584,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Song - Walk (Pg. 2)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ட"
+      },
+      {
+        "id": "B",
+        "label": "ண"
+      },
+      {
+        "id": "C",
+        "label": "த"
+      },
+      {
+        "id": "D",
+        "label": "ல"
+      }
+    ],
+    "template": "ந_"
+  },
+  {
+    "id": "FTS0586",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நடு",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "இரண்டு பொருட்களுக்கு இடையில் இருப்பதைக் குறிக்கும் சொல்லை முடிக்கவும்: ந_",
+    "correctAnswer": "நடு",
+    "learningObjective": "Missing Letter recognition and practice for நடு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0586",
+      "ftsId": "FTS0586",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 62,
+      "masterSequence": 586,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 16 (Preposition context)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "டு"
+      },
+      {
+        "id": "B",
+        "label": "று"
+      },
+      {
+        "id": "C",
+        "label": "லு"
+      },
+      {
+        "id": "D",
+        "label": "ணு"
+      }
+    ],
+    "template": "ந_"
+  },
+  {
+    "id": "FTS0601",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நல்ல",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "சரியான சொல்லை முடிக்க விடுபட்ட எழுத்தை நிரப்பவும்: நல்[blank].",
+    "correctAnswer": "நல்ல",
+    "learningObjective": "Missing Letter recognition and practice for நல்ல",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0601",
+      "ftsId": "FTS0601",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 79,
+      "masterSequence": 601,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Konraivendan - Good (Pg. 37)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ல"
+      },
+      {
+        "id": "B",
+        "label": "ள"
+      },
+      {
+        "id": "C",
+        "label": "ழ"
+      },
+      {
+        "id": "D",
+        "label": "ர"
+      }
+    ],
+    "template": "ந_்ல"
+  },
+  {
+    "id": "FTS0605",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாடு",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "நாம் வாழும் நாட்டைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
+    "correctAnswer": "நாடு",
+    "learningObjective": "Missing Letter recognition and practice for நாடு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0605",
+      "ftsId": "FTS0605",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 83,
+      "masterSequence": 605,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "L-1 (Ulaga Needhi)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "டு"
+      },
+      {
+        "id": "B",
+        "label": "டி"
+      },
+      {
+        "id": "C",
+        "label": "து"
+      },
+      {
+        "id": "D",
+        "label": "று"
+      }
+    ],
+    "template": "நா_"
+  },
+  {
+    "id": "FTS0610",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாளை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "இன்றைக்கு அடுத்த நாளைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
+    "correctAnswer": "நாளை",
+    "learningObjective": "Missing Letter recognition and practice for நாளை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0610",
+      "ftsId": "FTS0610",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 89,
+      "masterSequence": 610,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Time - Tomorrow (Pg. 42) | Time - Tomorrow (Pg. 44) | Page 30 (Story)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ளை"
+      },
+      {
+        "id": "B",
+        "label": "லை"
+      },
+      {
+        "id": "C",
+        "label": "ளே"
+      },
+      {
+        "id": "D",
+        "label": "ழை"
+      }
+    ],
+    "template": "நா_"
+  },
+  {
+    "id": "FTS0611",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாள்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "ஒரு முழு பகல் மற்றும் இரவைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
+    "correctAnswer": "நாள்",
+    "learningObjective": "Missing Letter recognition and practice for நாள்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0611",
+      "ftsId": "FTS0611",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 90,
+      "masterSequence": 611,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Not specified in the fresh source master",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ள்"
+      },
+      {
+        "id": "B",
+        "label": "ல்"
+      },
+      {
+        "id": "C",
+        "label": "ற்"
+      },
+      {
+        "id": "D",
+        "label": "ண்"
+      }
+    ],
+    "template": "நா_"
+  },
+  {
+    "id": "FTS0622",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நில்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "நடப்பதை நிறுத்தி அசையாமல் இருப்பதைக் குறிக்கும் சொல்லை முடிக்கவும்: நி[blank].",
+    "correctAnswer": "நில்",
+    "learningObjective": "Missing Letter recognition and practice for நில்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0622",
+      "ftsId": "FTS0622",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 102,
+      "masterSequence": 622,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Action - Stop/Stand (Pg. 25) | Song - Stand (Pg. 2) | Action - Stop (Pg. 34)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "ல்"
+      },
+      {
+        "id": "B",
+        "label": "ள்"
+      },
+      {
+        "id": "C",
+        "label": "ற்"
+      },
+      {
+        "id": "D",
+        "label": "ன்"
+      }
+    ],
+    "template": "நி_"
+  },
+  {
+    "id": "FTS0641",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நூறு",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "தொண்ணூற்றுக்கு அடுத்த எண்ணைக் குறிக்கும் சொல்லை முடிக்கவும்: நூ[blank].",
+    "correctAnswer": "நூறு",
+    "learningObjective": "Missing Letter recognition and practice for நூறு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0641",
+      "ftsId": "FTS0641",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 123,
+      "masterSequence": 641,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Not specified in the fresh source master",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "று"
+      },
+      {
+        "id": "B",
+        "label": "றி"
+      },
+      {
+        "id": "C",
+        "label": "ரு"
+      },
+      {
+        "id": "D",
+        "label": "ளு"
+      }
+    ],
+    "template": "நூ_"
+  },
+  {
+    "id": "FTS0662",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பசுமை",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "விடுபட்ட எழுத்தை நிரப்பவும்: பசு[blank].",
+    "correctAnswer": "பசுமை",
+    "learningObjective": "Missing Letter recognition and practice for பசுமை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0662",
+      "ftsId": "FTS0662",
+      "originalActivity": "Missing Letter"
+    },
+    "metadata": {
+      "positionInModule": 146,
+      "masterSequence": 662,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 15 (Poem)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "மை"
+      },
+      {
+        "id": "B",
+        "label": "மே"
+      },
+      {
+        "id": "C",
+        "label": "ம"
+      },
+      {
+        "id": "D",
+        "label": "வை"
+      }
+    ],
+    "template": "பசு_"
+  },
+  {
+    "id": "FTS0540",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "துருவி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் பென்சிலின் முனையைச் சீவி கூர்மையாக்கும் பொருளை அடையாளம் கண்டு, அதன் பெயரை அமைக்கவும்.",
+    "correctAnswer": "துருவி",
+    "learningObjective": "Picture → Arrange recognition and practice for துருவி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0540",
+      "ftsId": "FTS0540",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 11,
+      "masterSequence": 540,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Sharpener",
+      "sourceReferenceContext": "Object - Sharpener (Pg. 42) | L4 - விட்டுச் செல்லாதே",
+      "pictureSpecification": "A simple handheld pencil sharpener beside a sharpened pencil; make the sharpener the central clear object, no text or logos.",
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0540.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Apsco_Vacuhold_pencil_sharpener_13.jpg",
+        "license": "cc-by-sa-3.0",
+        "creator": "Coyau\n",
+        "attribution": "Coyau\n / cc-by-sa-3.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வி"
+      },
+      {
+        "id": "2",
+        "label": "து"
+      },
+      {
+        "id": "3",
+        "label": "ரு"
+      }
+    ],
+    "units": [
+      "வி",
+      "து",
+      "ரு"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0540",
+      "alt": "துருவி"
+    }
+  },
+  {
+    "id": "FTS0551",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேங்காய்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தேங்காய்",
+    "learningObjective": "Picture → Arrange recognition and practice for தேங்காய்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0551",
+      "ftsId": "FTS0551",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 23,
+      "masterSequence": 551,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Food - Coconut (Pg. 7)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0551.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Birgus_latro.jpg",
+        "license": "cc-by-2.0",
+        "creator": "fearlessRich",
+        "attribution": "fearlessRich / cc-by-2.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ய்"
+      },
+      {
+        "id": "2",
+        "label": "தேங்"
+      },
+      {
+        "id": "3",
+        "label": "கா"
+      }
+    ],
+    "units": [
+      "ய்",
+      "தேங்",
+      "கா"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0551",
+      "alt": "தேங்காய்"
+    }
+  },
+  {
+    "id": "FTS0568",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொட்டாச்சிணுங்கி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் உள்ள செடிக்குப் பெயர் என்ன? படத்துடன் பொருந்தும் சொல்லைத் தேர்ந்தெடுத்து எழுத்து அலகுகளை அமைக்கவும்。",
+    "correctAnswer": "தொட்டாச்சிணுங்கி",
+    "learningObjective": "Picture → Arrange recognition and practice for தொட்டாச்சிணுங்கி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0568",
+      "ftsId": "FTS0568",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 42,
+      "masterSequence": 568,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Song - Touch-me-not plant (Pg. 6)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0568.jpg",
+        "status": "available",
+        "license": "educational-use",
+        "imageSource": "fts-spelling-images"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ட்"
+      },
+      {
+        "id": "2",
+        "label": "டா"
+      },
+      {
+        "id": "3",
+        "label": "ச்சி"
+      },
+      {
+        "id": "4",
+        "label": "ணுங்கி"
+      },
+      {
+        "id": "5",
+        "label": "தொ"
+      }
+    ],
+    "units": [
+      "ட்",
+      "டா",
+      "ச்சி",
+      "ணுங்கி",
+      "தொ"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0568",
+      "alt": "தொட்டாச்சிணுங்கி"
+    }
+  },
+  {
+    "id": "FTS0569",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தொட்டி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தொட்டி",
+    "learningObjective": "Picture → Arrange recognition and practice for தொட்டி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0569",
+      "ftsId": "FTS0569",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 43,
+      "masterSequence": 569,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Object - Bin/Tank (Pg. 19)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0569.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:1rm60rt0t_rtbcwh.jpg",
+        "license": "cc-by-sa-3.0",
+        "creator": "L.M.Arias",
+        "attribution": "L.M.Arias / cc-by-sa-3.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ட்டி"
+      },
+      {
+        "id": "2",
+        "label": "தொ"
+      }
+    ],
+    "units": [
+      "ட்டி",
+      "தொ"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0569",
+      "alt": "தொட்டி"
+    }
+  },
+  {
+    "id": "FTS0579",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தோட்டம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் உள்ள இடத்தின் பெயரைத் தேர்ந்தெடுத்து, தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "correctAnswer": "தோட்டம்",
+    "learningObjective": "Picture → Arrange recognition and practice for தோட்டம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0579",
+      "ftsId": "FTS0579",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 54,
+      "masterSequence": 579,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Place - Garden (Pg. 36) | L2 - அழகுத் தோட்டம் | Implicit - Context of nature (Pg. 6)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0579.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bostanie_Community_Garden_from_the_air.jpg",
+        "license": "cc-by-4.0",
+        "creator": "SA, The Green Ark- Bostanie",
+        "attribution": "SA, The Green Ark- Bostanie / cc-by-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ட்"
+      },
+      {
+        "id": "2",
+        "label": "டம்"
+      },
+      {
+        "id": "3",
+        "label": "தோ"
+      }
+    ],
+    "units": [
+      "ட்",
+      "டம்",
+      "தோ"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0579",
+      "alt": "தோட்டம்"
+    }
+  },
+  {
+    "id": "FTS0609",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாற்காலி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைச் சரியான வரிசையில் அமைக்கவும்.",
+    "correctAnswer": "நாற்காலி",
+    "learningObjective": "Picture → Arrange recognition and practice for நாற்காலி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0609",
+      "ftsId": "FTS0609",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 87,
+      "masterSequence": 609,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "General / Vocab | Object - Chair (Pg. 17)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0609.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fauteuil_Riviera_Chaise_Bleue_Neptune_SBR.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Aeroceanaute",
+        "attribution": "Aeroceanaute / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "லி"
+      },
+      {
+        "id": "2",
+        "label": "நாற்"
+      },
+      {
+        "id": "3",
+        "label": "கா"
+      }
+    ],
+    "units": [
+      "லி",
+      "நாற்",
+      "கா"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0609",
+      "alt": "நாற்காலி"
+    }
+  },
+  {
+    "id": "FTS0612",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாள்காட்டி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் நாட்களையும் மாதங்களையும் காட்டும் பொருளின் பெயரை அமைக்கவும்.",
+    "correctAnswer": "நாள்காட்டி",
+    "learningObjective": "Picture → Arrange recognition and practice for நாள்காட்டி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0612",
+      "ftsId": "FTS0612",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 91,
+      "masterSequence": 612,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Object - Calendar (Pg. 17)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0612.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2012_Minority_Health_Month_calendar_of_events_a_30-day_wellness_campaign._-_DPLA_-_6250cae8ccbc1a7a056d4452404ba22a.jpg",
+        "license": "pd",
+        "creator": "",
+        "attribution": "pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "கா"
+      },
+      {
+        "id": "2",
+        "label": "ட்டி"
+      },
+      {
+        "id": "3",
+        "label": "நாள்"
+      }
+    ],
+    "units": [
+      "கா",
+      "ட்டி",
+      "நாள்"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0612",
+      "alt": "நாள்காட்டி"
+    }
+  },
+  {
+    "id": "FTS0629",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீதிபதி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் நீதிமன்றத்தில் தீர்ப்பு வழங்கும் நபரின் பெயரை அமைக்கவும்.",
+    "correctAnswer": "நீதிபதி",
+    "learningObjective": "Picture → Arrange recognition and practice for நீதிபதி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0629",
+      "ftsId": "FTS0629",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 110,
+      "masterSequence": 629,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Person - Judge (Pg. 21)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0629.png",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:EDMO_division_jurisdictions_(2009).png",
+        "license": "pd",
+        "creator": "United States District Court for the Eastern District of Missouri",
+        "attribution": "United States District Court for the Eastern District of Missouri / pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "ப"
+      },
+      {
+        "id": "2",
+        "label": "நீ"
+      },
+      {
+        "id": "3",
+        "label": "தி"
+      },
+      {
+        "id": "4",
+        "label": "தி"
+      }
+    ],
+    "units": [
+      "ப",
+      "நீ",
+      "தி",
+      "தி"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0629",
+      "alt": "நீதிபதி"
+    }
+  },
+  {
+    "id": "FTS0633",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீராடல்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் நீரில் குளிக்கும் செயலைக் குறிக்கும் சொல்லை அமைக்கவும்.",
+    "correctAnswer": "நீராடல்",
+    "learningObjective": "Picture → Arrange recognition and practice for நீராடல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0633",
+      "ftsId": "FTS0633",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 114,
+      "masterSequence": 633,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Activity - Water bathing (Pg. 12)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0633.jpg",
+        "status": "available",
+        "license": "educational-use",
+        "imageSource": "fts-spelling-images"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "டல்"
+      },
+      {
+        "id": "2",
+        "label": "நீ"
+      },
+      {
+        "id": "3",
+        "label": "ரா"
+      }
+    ],
+    "units": [
+      "டல்",
+      "நீ",
+      "ரா"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0633",
+      "alt": "நீராடல்"
+    }
+  },
+  {
+    "id": "FTS0636",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீர்வீழ்ச்சி",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் உயரத்திலிருந்து கீழே விழும் நீரின் இயற்கைக் காட்சியை அமைக்கவும்.",
+    "correctAnswer": "நீர்வீழ்ச்சி",
+    "learningObjective": "Picture → Arrange recognition and practice for நீர்வீழ்ச்சி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0636",
+      "ftsId": "FTS0636",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 118,
+      "masterSequence": 636,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Nature - Waterfall (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0636.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chamarel_Falls_Mauritius_2.JPG",
+        "license": "cc-by-sa-4.0",
+        "creator": "Martin Falbisoner",
+        "attribution": "Martin Falbisoner / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வீழ்"
+      },
+      {
+        "id": "2",
+        "label": "ச்சி"
+      },
+      {
+        "id": "3",
+        "label": "நீர்"
+      }
+    ],
+    "units": [
+      "வீழ்",
+      "ச்சி",
+      "நீர்"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0636",
+      "alt": "நீர்வீழ்ச்சி"
+    }
+  },
+  {
+    "id": "FTS0642",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நூலகர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் நூலகத்தில் புத்தகங்களைப் பராமரிக்கும் நபரின் பெயரை அமைக்கவும்.",
+    "correctAnswer": "நூலகர்",
+    "learningObjective": "Picture → Arrange recognition and practice for நூலகர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0642",
+      "ftsId": "FTS0642",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 124,
+      "masterSequence": 642,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Person - Librarian (Pg. 26)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0642.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Librarian,_Marie_Bracey,_1952.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Unknown authorUnknown author",
+        "attribution": "Unknown authorUnknown author / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "க"
+      },
+      {
+        "id": "2",
+        "label": "நூ"
+      },
+      {
+        "id": "3",
+        "label": "ல"
+      },
+      {
+        "id": "4",
+        "label": "ர்"
+      }
+    ],
+    "units": [
+      "க",
+      "நூ",
+      "ல",
+      "ர்"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0642",
+      "alt": "நூலகர்"
+    }
+  },
+  {
+    "id": "FTS0657",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பகைவர்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் எதிரியாக இருப்பவரைக் குறிக்கும் சொல்லை அமைக்கவும்.",
+    "correctAnswer": "பகைவர்",
+    "learningObjective": "Picture → Arrange recognition and practice for பகைவர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0657",
+      "ftsId": "FTS0657",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 141,
+      "masterSequence": 657,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Person - Enemy (Pg. 38)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0657.png",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ISN_10020_CSRT_2007_transcript_Pg_19.png",
+        "license": "pd",
+        "creator": "OARDEC",
+        "attribution": "OARDEC / pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "வர்"
+      },
+      {
+        "id": "2",
+        "label": "பகை"
+      }
+    ],
+    "units": [
+      "வர்",
+      "பகை"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0657",
+      "alt": "பகைவர்"
+    }
+  },
+  {
+    "id": "Q080",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 3,
+    "targetWord": "நூலகம்",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் பெயரை உருவாக்கவும்.",
+    "correctAnswer": "நூலகம்",
+    "learningObjective": "Picture → Arrange recognition and practice for நூலகம்",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q080",
+      "originalActivity": "Picture → Arrange"
+    },
+    "metadata": {
+      "positionInModule": 88,
+      "masterSequence": 1128,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_arrange/Q080.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Books_and_Bookshelves_M-LISADA_Community_Library_01.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Micheal Kaluba",
+        "attribution": "Micheal Kaluba / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "நூ"
+      },
+      {
+        "id": "2",
+        "label": "ல"
+      },
+      {
+        "id": "3",
+        "label": "க"
+      },
+      {
+        "id": "4",
+        "label": "ம்"
+      }
+    ],
+    "units": [
+      "நூ",
+      "ல",
+      "க",
+      "ம்"
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q080",
+      "alt": "நூலகம்"
+    }
+  },
+  {
+    "id": "FTS0531",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தீ",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "விளக்கில் எரிந்து வெளிச்சம் தருவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "தீ",
+    "learningObjective": "Picture → Select recognition and practice for தீ",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0531",
+      "ftsId": "FTS0531",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 1,
+      "masterSequence": 531,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": 2913,
+      "sourceReferenceContext": null,
+      "pictureSpecification": "A small, controlled flame from a traditional oil lamp or candle; no danger, no people, simple background.",
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0531.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Eternal_flame_at_the_Kremlin_wall_in_Moscow.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "АнИгМа",
+        "attribution": "АнИгМа / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தீ"
+      },
+      {
+        "id": "B",
+        "label": "நீ"
+      },
+      {
+        "id": "C",
+        "label": "தே"
+      },
+      {
+        "id": "D",
+        "label": "தை"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0531",
+      "alt": "தீ"
+    }
+  },
+  {
+    "id": "FTS0549",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தென்னை",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் உயரமான  மரத்தைத் தேர்ந்தெடு.",
+    "correctAnswer": "தென்னை",
+    "learningObjective": "Picture → Select recognition and practice for தென்னை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0549",
+      "ftsId": "FTS0549",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 21,
+      "masterSequence": 549,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Coconut Tree",
+      "sourceReferenceContext": "Page 16 (Story)",
+      "pictureSpecification": "A full coconut palm tree with a tall slender trunk and a crown of long fronds, visible coconuts; plain outdoor background.",
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0549.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Coconut_Tree.JPG",
+        "license": "cc-by-3.0",
+        "creator": "Anoopan at Malayalam Wikipedia",
+        "attribution": "Anoopan at Malayalam Wikipedia / cc-by-3.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தென்னை"
+      },
+      {
+        "id": "B",
+        "label": "மாமரம்"
+      },
+      {
+        "id": "C",
+        "label": "வாழைமரம்"
+      },
+      {
+        "id": "D",
+        "label": "வேப்பமரம்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0549",
+      "alt": "தென்னை"
+    }
+  },
+  {
+    "id": "FTS0557",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தேன்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் உள்ள இனிப்பான பொருளின் பெயரைத் தேர்ந்தெடு。",
+    "correctAnswer": "தேன்",
+    "learningObjective": "Picture → Select recognition and practice for தேன்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0557",
+      "ftsId": "FTS0557",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 30,
+      "masterSequence": 557,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Competition - Honey sucking (Pg. 1) | Implicit - Related to food (Pg. 6)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0557.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:European_honey_bee_extracts_nectar.jpg",
+        "license": "pd",
+        "creator": "John Severns (Severnjc)",
+        "attribution": "John Severns (Severnjc) / pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தேன்"
+      },
+      {
+        "id": "B",
+        "label": "எண்ணெய்"
+      },
+      {
+        "id": "C",
+        "label": "பால்"
+      },
+      {
+        "id": "D",
+        "label": "உப்பு"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0557",
+      "alt": "தேன்"
+    }
+  },
+  {
+    "id": "FTS0563",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தைலம்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "உடலில் வலி ஏற்படும் போது தடவிப் பயன்படுத்தும் எண்ணெயின் பெயரைத் தேர்ந்தெடு.",
+    "correctAnswer": "தைலம்",
+    "learningObjective": "Picture → Select recognition and practice for தைலம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0563",
+      "ftsId": "FTS0563",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 36,
+      "masterSequence": 563,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Object - Medicated Oil/Balm (Pg. 12)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0563.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Eucalyptus_Plant.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Ibrahim Achiri",
+        "attribution": "Ibrahim Achiri / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தைலம்"
+      },
+      {
+        "id": "B",
+        "label": "தேன்"
+      },
+      {
+        "id": "C",
+        "label": "தண்ணீர்"
+      },
+      {
+        "id": "D",
+        "label": "சோப்பு"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0563",
+      "alt": "தைலம்"
+    }
+  },
+  {
+    "id": "FTS0578",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தோசை",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் உள்ள உணவின் பெயரைத் தேர்ந்தெடு。",
+    "correctAnswer": "தோசை",
+    "learningObjective": "Picture → Select recognition and practice for தோசை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0578",
+      "ftsId": "FTS0578",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 53,
+      "masterSequence": 578,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Food - Dosa (Pg. 32) | Food - Dosa (Pg. 9)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0578.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_plate_of_South_Indian_Masala_Dosa.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Billjones94",
+        "attribution": "Billjones94 / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தோசை"
+      },
+      {
+        "id": "B",
+        "label": "இட்லி"
+      },
+      {
+        "id": "C",
+        "label": "வடை"
+      },
+      {
+        "id": "D",
+        "label": "பொங்கல்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0578",
+      "alt": "தோசை"
+    }
+  },
+  {
+    "id": "FTS0590",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நட்டு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காட்டப்படும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "correctAnswer": "நட்டு",
+    "learningObjective": "Picture → Select recognition and practice for நட்டு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0590",
+      "ftsId": "FTS0590",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 66,
+      "masterSequence": 590,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Song - Planted (Pg. 29)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0590.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bredevoort_(NL),_Parkbank_--_2016_--_1398.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Dietmar Rabich",
+        "attribution": "Dietmar Rabich / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நட்டு"
+      },
+      {
+        "id": "B",
+        "label": "வெட்டி"
+      },
+      {
+        "id": "C",
+        "label": "பறித்து"
+      },
+      {
+        "id": "D",
+        "label": "கழுவி"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0590",
+      "alt": "நட்டு"
+    }
+  },
+  {
+    "id": "FTS0591",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நண்டு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் உள்ள விலங்கின் பெயரைத் தேர்ந்தெடு。",
+    "correctAnswer": "நண்டு",
+    "learningObjective": "Picture → Select recognition and practice for நண்டு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0591",
+      "ftsId": "FTS0591",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 67,
+      "masterSequence": 591,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Animal - Crab (Pg. 33) | Animal - Crab (Pg. 40)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0591.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Atlantic_sand_fiddler_crab_(30996).jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Rhododendrites",
+        "attribution": "Rhododendrites / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நண்டு"
+      },
+      {
+        "id": "B",
+        "label": "நத்தை"
+      },
+      {
+        "id": "C",
+        "label": "நரி"
+      },
+      {
+        "id": "D",
+        "label": "நாய்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0591",
+      "alt": "நண்டு"
+    }
+  },
+  {
+    "id": "FTS0594",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நத்தை",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் உள்ள சிறிய ஓட்டுடன் மெதுவாக நகரும் உயிரினத்தின் பெயரைத் தேர்ந்தெடு。",
+    "correctAnswer": "நத்தை",
+    "learningObjective": "Picture → Select recognition and practice for நத்தை",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0594",
+      "ftsId": "FTS0594",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 71,
+      "masterSequence": 594,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Animal - Snail (Pg. 8)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0594.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Snail_11.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "Almostway2004",
+        "attribution": "Almostway2004 / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நத்தை"
+      },
+      {
+        "id": "B",
+        "label": "நண்டு"
+      },
+      {
+        "id": "C",
+        "label": "நரி"
+      },
+      {
+        "id": "D",
+        "label": "நாய்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0594",
+      "alt": "நத்தை"
+    }
+  },
+  {
+    "id": "FTS0599",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நரி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் உள்ள விலங்கின் பெயரைத் தேர்ந்தெடு。",
+    "correctAnswer": "நரி",
+    "learningObjective": "Picture → Select recognition and practice for நரி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0599",
+      "ftsId": "FTS0599",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 76,
+      "masterSequence": 599,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "L1 - Exercises | Animal - Fox (Pg. 1)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0599.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alaska_Red_Fox_(Vulpes_vulpes).jpg",
+        "license": "cc-by-sa-2.0",
+        "creator": "Gregory \"Slobirdr\" Smith",
+        "attribution": "Gregory \"Slobirdr\" Smith / cc-by-sa-2.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நரி"
+      },
+      {
+        "id": "B",
+        "label": "நண்டு"
+      },
+      {
+        "id": "C",
+        "label": "நத்தை"
+      },
+      {
+        "id": "D",
+        "label": "நாய்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0599",
+      "alt": "நரி"
+    }
+  },
+  {
+    "id": "FTS0613",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நாவல்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் கதையைச் சொல்லும் நீண்ட உரைநூலின் வகையைத் தேர்ந்தெடு.",
+    "correctAnswer": "நாவல்",
+    "learningObjective": "Picture → Select recognition and practice for நாவல்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0613",
+      "ftsId": "FTS0613",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 92,
+      "masterSequence": 613,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Page 16 (Story)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0613.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:16%22_gun,_Ft._Story_(cropped).jpg",
+        "license": "pd",
+        "creator": "Alfred T. Palmer, U.S. Office of War Information",
+        "attribution": "Alfred T. Palmer, U.S. Office of War Information / pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நாவல்"
+      },
+      {
+        "id": "B",
+        "label": "நாளை"
+      },
+      {
+        "id": "C",
+        "label": "நாடு"
+      },
+      {
+        "id": "D",
+        "label": "நாய்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0613",
+      "alt": "நாவல்"
+    }
+  },
+  {
+    "id": "FTS0620",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிலம்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "வீடு, மரம் போன்றவை இருக்கும் தரையைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நிலம்",
+    "learningObjective": "Picture → Select recognition and practice for நிலம்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0620",
+      "ftsId": "FTS0620",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 100,
+      "masterSequence": 620,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Object - Land (Pg. 38)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0620.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aegires_gardineri_Papua_New_Guinea_by_Nick_Hobgood-001.jpg",
+        "license": "cc-by-sa-3.0",
+        "creator": "Nhobgood",
+        "attribution": "Nhobgood / cc-by-sa-3.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நிலம்"
+      },
+      {
+        "id": "B",
+        "label": "நீர்"
+      },
+      {
+        "id": "C",
+        "label": "நிழல்"
+      },
+      {
+        "id": "D",
+        "label": "நீளம்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0620",
+      "alt": "நிலம்"
+    }
+  },
+  {
+    "id": "FTS0635",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நீர்",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "தாகம் தீர்க்க நாம் குடிப்பதன் பெயரைத் தேர்ந்தெடு.",
+    "correctAnswer": "நீர்",
+    "learningObjective": "Picture → Select recognition and practice for நீர்",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0635",
+      "ftsId": "FTS0635",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 116,
+      "masterSequence": 635,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Object - Water (Pg. 19) | L2 / General | Story - Water (Pg. 24) | Nature - Water (Pg. 8) | Description - Water (Pg. 11)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0635.jpg",
+        "status": "available",
+        "license": "educational-use",
+        "imageSource": "fts-spelling-images"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நீர்"
+      },
+      {
+        "id": "B",
+        "label": "நிலம்"
+      },
+      {
+        "id": "C",
+        "label": "நிழல்"
+      },
+      {
+        "id": "D",
+        "label": "நீளம்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0635",
+      "alt": "நீர்"
+    }
+  },
+  {
+    "id": "FTS0651",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நோக்கி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காட்டப்படும் திசையை நோக்கிச் செல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நோக்கி",
+    "learningObjective": "Picture → Select recognition and practice for நோக்கி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0651",
+      "ftsId": "FTS0651",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 134,
+      "masterSequence": 651,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Fact - Towards (Pg. 8)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0651.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jean_Gordon,_Countess_of_Bothwell_(3772866141).jpg",
+        "license": "cc-by-2.0",
+        "creator": "Unidentified painter",
+        "attribution": "Unidentified painter / cc-by-2.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நோக்கி"
+      },
+      {
+        "id": "B",
+        "label": "நோய்"
+      },
+      {
+        "id": "C",
+        "label": "நொடி"
+      },
+      {
+        "id": "D",
+        "label": "நூல்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0651",
+      "alt": "நோக்கி"
+    }
+  },
+  {
+    "id": "FTS0652",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நோயினுக்கு",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "உடல்நலம் சரியில்லாதபோது எதற்காக மருந்து எடுத்துக்கொள்வோம்? பொருத்தமான சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "நோயினுக்கு",
+    "learningObjective": "Picture → Select recognition and practice for நோயினுக்கு",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0652",
+      "ftsId": "FTS0652",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 135,
+      "masterSequence": 652,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Concept - For illness (Pg. 48)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": null
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நோயினுக்கு"
+      },
+      {
+        "id": "B",
+        "label": "நோயின்றி"
+      },
+      {
+        "id": "C",
+        "label": "மருந்தாக"
+      },
+      {
+        "id": "D",
+        "label": "நலமுடன்"
+      }
+    ]
+  },
+  {
+    "id": "FTS0659",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "பசி",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் குழந்தை சாப்பிட வேண்டும் என்று உணர்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "correctAnswer": "பசி",
+    "learningObjective": "Picture → Select recognition and practice for பசி",
+    "source": {
+      "workbook": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+      "questionId": "FTS0659",
+      "ftsId": "FTS0659",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 143,
+      "masterSequence": 659,
+      "sourceBatch": "1–20",
+      "sourceMeaningNotes": "Feeling - Hunger (Pg. 33)",
+      "sourceReferenceContext": 2915,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/FTS0659.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gladna_hercegova%C4%8Dka_djeca.jpg",
+        "license": "pd",
+        "creator": "",
+        "attribution": "pd",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "பசி"
+      },
+      {
+        "id": "B",
+        "label": "தாகம்"
+      },
+      {
+        "id": "C",
+        "label": "தூக்கம்"
+      },
+      {
+        "id": "D",
+        "label": "மகிழ்ச்சி"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-fts0659",
+      "alt": "பசி"
+    }
+  },
+  {
+    "id": "Q071",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "தெரு",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் இடத்தின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "தெரு",
+    "learningObjective": "Picture → Select recognition and practice for தெரு",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q071",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 29,
+      "masterSequence": 1122,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/Q071.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:DSC_7675_Quiet_illuminated_main_street_at_night_-_a_lone_car_moves_through_a_warmly_lit_neighborhood_under_streetlights.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "PattayaPatrol",
+        "attribution": "PattayaPatrol / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "தெரு"
+      },
+      {
+        "id": "B",
+        "label": "தேரு"
+      },
+      {
+        "id": "C",
+        "label": "தெரி"
+      },
+      {
+        "id": "D",
+        "label": "தெரம்"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q071",
+      "alt": "தெரு"
+    }
+  },
+  {
+    "id": "Q079",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "module": 5,
+    "level": 1,
+    "targetWord": "நிலா",
+    "category": "picture-recognition",
+    "variant": "select",
+    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "correctAnswer": "நிலா",
+    "learningObjective": "Picture → Select recognition and practice for நிலா",
+    "source": {
+      "workbook": "Tamil_Consolidated_Question_corrected one.xlsx",
+      "questionId": "Q079",
+      "originalActivity": "Picture → Select"
+    },
+    "metadata": {
+      "positionInModule": 78,
+      "masterSequence": 1127,
+      "sourceBatch": "Earlier set",
+      "sourceMeaningNotes": 90,
+      "sourceReferenceContext": null,
+      "pictureSpecification": null,
+      "verificationFlag": null,
+      "imageMeta": {
+        "path": "/images/tamil-vocabulary/Module_5/picture_to_select/Q079.jpg",
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cloudy_night_sky_with_the_Moon_on_October_17,_2024.jpg",
+        "license": "cc-by-sa-4.0",
+        "creator": "George E. Koronaios",
+        "attribution": "George E. Koronaios / cc-by-sa-4.0",
+        "imageSource": "wikimedia",
+        "status": "downloaded",
+        "reviewStatus": "pending"
+      }
+    },
+    "options": [
+      {
+        "id": "A",
+        "label": "நிலா"
+      },
+      {
+        "id": "B",
+        "label": "நிலை"
+      },
+      {
+        "id": "C",
+        "label": "நிலம்"
+      },
+      {
+        "id": "D",
+        "label": "நிளவு"
+      }
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q079",
+      "alt": "நிலா"
+    }
+  }
+]

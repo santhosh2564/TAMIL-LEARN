@@ -1,0 +1,38 @@
+{
+  "totalModules": 8,
+  "totalActivityFiles": 84,
+  "totalQuestions": 1178,
+  "questionsPerModule": {
+    "Module 1": 148,
+    "Module 2": 148,
+    "Module 3": 147,
+    "Module 4": 147,
+    "Module 5": 147,
+    "Module 6": 147,
+    "Module 7": 147,
+    "Module 8": 147
+  },
+  "questionsPerActivityType": {
+    "Arrange Tamil Units": 230,
+    "Context → Drag Word": 22,
+    "Context → Select/Drag": 107,
+    "Correct Spelling": 199,
+    "Drag & Drop Missing Unit": 5,
+    "English Meaning → Tamil Word": 191,
+    "Missing Letter": 99,
+    "Picture → Arrange": 146,
+    "Picture → Select": 160,
+    "Drag & Drop Missing Ending": 1,
+    "English Meaning → Arrange Tamil Word": 7,
+    "Picture → Correct Spelling": 4,
+    "Context → Select": 1,
+    "Context → Correct Spelling": 2,
+    "English Meaning → Arrange Tamil Units": 2,
+    "Picture → Missing Unit": 1,
+    "Picture → Context/Select": 1
+  },
+  "questionsContainingImages": 287,
+  "questionsContainingOptions": 793,
+  "questionsContainingUnits": 385,
+  "questionsContainingExpectedAnswers": 1178
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "கதைகள்",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q020",
+    "FTS ID": null,
+    "Question ID": "Q020",
+    "Level": "Medium",
+    "Activity": "Drag & Drop Missing Ending",
+    "Question / Instruction": "கதை + [blank]",
+    "Options / Units": "கள் | கல் | கண் | கன்",
+    "Correct Answer": "கள்",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 2",
+    "Position in Module": 48,
+    "Normalized Word": "கதைகள்",
+    "Master Sequence": 1079
+  }
+]

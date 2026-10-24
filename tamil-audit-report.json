@@ -1,0 +1,525 @@
+{
+  "totalModules": 8,
+  "totalJsonFilesExcludingIndex": 84,
+  "totalJsonFilesIncludingIndex": 85,
+  "totalQuestions": 1178,
+  "totalTargetWords": 1178,
+  "uniqueTargetWords": 1178,
+  "totalTamilTokenOccurrences": 15381,
+  "uniqueTamilTokensInDataset": 3782,
+  "distinctActivityTypesCount": 17,
+  "activityCounts": {
+    "Arrange Tamil Units": 230,
+    "Context → Drag Word": 22,
+    "Context → Select/Drag": 107,
+    "Correct Spelling": 199,
+    "Drag & Drop Missing Unit": 5,
+    "English Meaning → Tamil Word": 191,
+    "Missing Letter": 99,
+    "Picture → Arrange": 146,
+    "Picture → Select": 160,
+    "Drag & Drop Missing Ending": 1,
+    "English Meaning → Arrange Tamil Word": 7,
+    "Picture → Correct Spelling": 4,
+    "Context → Select": 1,
+    "Context → Correct Spelling": 2,
+    "English Meaning → Arrange Tamil Units": 2,
+    "Picture → Missing Unit": 1,
+    "Picture → Context/Select": 1
+  },
+  "moduleCounts": {
+    "Module 1": 148,
+    "Module 2": 148,
+    "Module 3": 147,
+    "Module 4": 147,
+    "Module 5": 147,
+    "Module 6": 147,
+    "Module 7": 147,
+    "Module 8": 147
+  },
+  "pictureQuestionsCount": 323,
+  "recordsWithImagePath": 278,
+  "imagesInSara": 278,
+  "imagesInTamilLearn": 278,
+  "unicodeIssuesCount": 0,
+  "unicodeIssues": [],
+  "evaluatorMismatchesCount": 68,
+  "evaluatorMismatches": [
+    {
+      "file": "Module_1\\context_to_select_drag.json",
+      "id": "FTS0052",
+      "activity": "Context → Select/Drag",
+      "answer": "அலை",
+      "reason": "Correct answer \"அலை\" not in options [லை, அ]"
+    },
+    {
+      "file": "Module_1\\correct_spelling.json",
+      "id": "FTS0064",
+      "activity": "Correct Spelling",
+      "answer": "அழைப்பு",
+      "reason": "Correct answer \"அழைப்பு\" not in options [ழை, பு, அ, ப்]"
+    },
+    {
+      "file": "Module_1\\correct_spelling.json",
+      "id": "FTS0073",
+      "activity": "Correct Spelling",
+      "answer": "ஆட்டம்",
+      "reason": "Correct answer \"ஆட்டம்\" not in options [ஆ, ம், ட், ட]"
+    },
+    {
+      "file": "Module_1\\correct_spelling.json",
+      "id": "FTS0095",
+      "activity": "Correct Spelling",
+      "answer": "இனிது",
+      "reason": "Correct answer \"இனிது\" not in options [னி, து, இ]"
+    },
+    {
+      "file": "Module_1\\correct_spelling.json",
+      "id": "FTS0097",
+      "activity": "Correct Spelling",
+      "answer": "இனிப்பு",
+      "reason": "Correct answer \"இனிப்பு\" not in options [இ, பு, னி, ப்]"
+    },
+    {
+      "file": "Module_1\\picture_to_select.json",
+      "id": "FTS0121",
+      "activity": "Picture → Select",
+      "answer": "ஈக்கள்",
+      "reason": "Correct answer \"ஈக்கள்\" not in options [ஈ, ள், க், க]"
+    },
+    {
+      "file": "Module_2\\context_to_select_drag.json",
+      "id": "FTS0143",
+      "activity": "Context → Select/Drag",
+      "answer": "உயர்ந்த",
+      "reason": "Correct answer \"உயர்ந்த\" not in options [உ, ந், த, ய, ர்]"
+    },
+    {
+      "file": "Module_2\\context_to_select_drag.json",
+      "id": "FTS0189",
+      "activity": "Context → Select/Drag",
+      "answer": "ஏன்",
+      "reason": "Correct answer \"ஏன்\" not in options [ன், ஏ]"
+    },
+    {
+      "file": "Module_2\\correct_spelling.json",
+      "id": "FTS0262",
+      "activity": "Correct Spelling",
+      "answer": "கற்று",
+      "reason": "Correct answer \"கற்று\" not in options [று, க, ற்]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0276",
+      "activity": "Context → Select/Drag",
+      "answer": "கவனிக்கவில்லை",
+      "reason": "Correct answer \"கவனிக்கவில்லை\" not in options [னிக், க, வில், லை, கவ]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0279",
+      "activity": "Context → Select/Drag",
+      "answer": "கவியரசி",
+      "reason": "Correct answer \"கவியரசி\" not in options [கவி, சி, யர]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0324",
+      "activity": "Context → Select/Drag",
+      "answer": "குருவி",
+      "reason": "Correct answer \"குருவி\" not in options [வி, கு, ரு]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0359",
+      "activity": "Context → Select/Drag",
+      "answer": "கொழு கொழு",
+      "reason": "Correct answer \"கொழு கொழு\" not in options [கொ, ழு, கொ, ழு]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0373",
+      "activity": "Context → Select/Drag",
+      "answer": "சண்டை",
+      "reason": "Correct answer \"சண்டை\" not in options [டை, ச, ண்]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0374",
+      "activity": "Context → Select/Drag",
+      "answer": "சத்தம்",
+      "reason": "Correct answer \"சத்தம்\" not in options [ம், ச, த், த]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0379",
+      "activity": "Context → Select/Drag",
+      "answer": "சமைக்க",
+      "reason": "Correct answer \"சமைக்க\" not in options [க, ச, மை, க்]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0382",
+      "activity": "Context → Select/Drag",
+      "answer": "சரிசெய்ய",
+      "reason": "Correct answer \"சரிசெய்ய\" not in options [ய, சரி, செ, ய்]"
+    },
+    {
+      "file": "Module_3\\context_to_select_drag.json",
+      "id": "FTS0398",
+      "activity": "Context → Select/Drag",
+      "answer": "சிக்கியது",
+      "reason": "Correct answer \"சிக்கியது\" not in options [கியது, சிக்]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0272",
+      "activity": "Correct Spelling",
+      "answer": "கழுத்துப்பட்டி",
+      "reason": "Correct answer \"கழுத்துப்பட்டி\" not in options [கழு, ப்ப, ட்டி, த்து]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0278",
+      "activity": "Correct Spelling",
+      "answer": "கவிதை",
+      "reason": "Correct answer \"கவிதை\" not in options [வி, தை, க]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0302",
+      "activity": "Correct Spelling",
+      "answer": "கிழமை",
+      "reason": "Correct answer \"கிழமை\" not in options [ழ, கி, மை]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0307",
+      "activity": "Correct Spelling",
+      "answer": "கீழோர்",
+      "reason": "Correct answer \"கீழோர்\" not in options [ழோ, ர், கீ]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0312",
+      "activity": "Correct Spelling",
+      "answer": "குட்டையான",
+      "reason": "Correct answer \"குட்டையான\" not in options [டை, யா, ன, கு, ட்]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0320",
+      "activity": "Correct Spelling",
+      "answer": "குப்பைத்தொட்டி",
+      "reason": "Correct answer \"குப்பைத்தொட்டி\" not in options [தொ, ட், டி, குப், பை, த்]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0331",
+      "activity": "Correct Spelling",
+      "answer": "குலுங்குது",
+      "reason": "Correct answer \"குலுங்குது\" not in options [குது, கு, லு, ங்]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0334",
+      "activity": "Correct Spelling",
+      "answer": "குளித்தல்",
+      "reason": "Correct answer \"குளித்தல்\" not in options [த், தல், கு, ளி]"
+    },
+    {
+      "file": "Module_3\\correct_spelling.json",
+      "id": "FTS0342",
+      "activity": "Correct Spelling",
+      "answer": "கூட்டி",
+      "reason": "Correct answer \"கூட்டி\" not in options [டி, கூ, ட்]"
+    },
+    {
+      "file": "Module_3\\picture_to_select.json",
+      "id": "FTS0365",
+      "activity": "Picture → Select",
+      "answer": "கோலிகுண்டு",
+      "reason": "Correct answer \"கோலிகுண்டு\" not in options [குண்டு, கோ, லி]"
+    },
+    {
+      "file": "Module_3\\picture_to_select.json",
+      "id": "FTS0377",
+      "activity": "Picture → Select",
+      "answer": "சன்னல்",
+      "reason": "Correct answer \"சன்னல்\" not in options [ல், ச, ன், ன]"
+    },
+    {
+      "file": "Module_3\\picture_to_select.json",
+      "id": "FTS0384",
+      "activity": "Picture → Select",
+      "answer": "சருகு",
+      "reason": "Correct answer \"சருகு\" not in options [கு, ச, ரு]"
+    },
+    {
+      "file": "Module_4\\context_to_select_drag.json",
+      "id": "FTS0413",
+      "activity": "Context → Select/Drag",
+      "answer": "சிறிய",
+      "reason": "Correct answer \"சிறிய\" not in options [ய, சி, றி]"
+    },
+    {
+      "file": "Module_4\\context_to_select_drag.json",
+      "id": "FTS0444",
+      "activity": "Context → Select/Drag",
+      "answer": "செப்டம்பர்",
+      "reason": "Correct answer \"செப்டம்பர்\" not in options [பர், செப், டம்]"
+    },
+    {
+      "file": "Module_4\\context_to_select_drag.json",
+      "id": "FTS0468",
+      "activity": "Context → Select/Drag",
+      "answer": "ஜவஹர்லால்",
+      "reason": "Correct answer \"ஜவஹர்லால்\" not in options [லால், ஜவ, ஹர்]"
+    },
+    {
+      "file": "Module_4\\correct_spelling.json",
+      "id": "FTS0425",
+      "activity": "Correct Spelling",
+      "answer": "சுமப்பேன்",
+      "reason": "Correct answer \"சுமப்பேன்\" not in options [பேன், சு, ம, ப்]"
+    },
+    {
+      "file": "Module_4\\correct_spelling.json",
+      "id": "FTS0462",
+      "activity": "Correct Spelling",
+      "answer": "சோம்பல்",
+      "reason": "Correct answer \"சோம்பல்\" not in options [பல், சோ, ம்]"
+    },
+    {
+      "file": "Module_4\\correct_spelling.json",
+      "id": "FTS0480",
+      "activity": "Correct Spelling",
+      "answer": "தட்டு",
+      "reason": "Correct answer \"தட்டு\" not in options [டு, த, ட்]"
+    },
+    {
+      "file": "Module_4\\correct_spelling.json",
+      "id": "FTS0497",
+      "activity": "Correct Spelling",
+      "answer": "தலைநகர்",
+      "reason": "Correct answer \"தலைநகர்\" not in options [ந, க, ர், த, லை]"
+    },
+    {
+      "file": "Module_5\\arrange_tamil_units.json",
+      "id": "FTS0644",
+      "activity": "Arrange Tamil Units",
+      "answer": "நெய்",
+      "reason": "Options/Units does not contain pipe separator: \"ய் / நெ\""
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0536",
+      "activity": "Correct Spelling",
+      "answer": "துடைக்க",
+      "reason": "Correct answer \"துடைக்க\" not in options [க்க, து, டை]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0543",
+      "activity": "Correct Spelling",
+      "answer": "துவைக்க",
+      "reason": "Correct answer \"துவைக்க\" not in options [க்க, து, வை]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0544",
+      "activity": "Correct Spelling",
+      "answer": "தூங்கு",
+      "reason": "Correct answer \"தூங்கு\" not in options [கு, தூ, ங்]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0567",
+      "activity": "Correct Spelling",
+      "answer": "தொட்டனைத்து",
+      "reason": "Correct answer \"தொட்டனைத்து\" not in options [னை, த்து, தொ, ட்ட]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0573",
+      "activity": "Correct Spelling",
+      "answer": "தொலைந்துவிட்டால்",
+      "reason": "Correct answer \"தொலைந்துவிட்டால்\" not in options [விட், டால், தொ, லை, ந்து]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0631",
+      "activity": "Correct Spelling",
+      "answer": "நீந்து",
+      "reason": "Correct answer \"நீந்து\" not in options [து, நீ, ந்]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0653",
+      "activity": "Correct Spelling",
+      "answer": "நோயின்றி",
+      "reason": "Correct answer \"நோயின்றி\" not in options [றி, நோ, யி, ன்]"
+    },
+    {
+      "file": "Module_5\\correct_spelling.json",
+      "id": "FTS0658",
+      "activity": "Correct Spelling",
+      "answer": "பங்கேற்பு",
+      "reason": "Correct answer \"பங்கேற்பு\" not in options [கே, ற்பு, பங்]"
+    },
+    {
+      "file": "Module_5\\picture_to_select.json",
+      "id": "FTS0652",
+      "activity": "Picture → Select",
+      "answer": "நோயினுக்கு",
+      "reason": "Correct answer \"நோயினுக்கு\" not in options [க்கு, நோ, யினு]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0674",
+      "activity": "Correct Spelling",
+      "answer": "பட்டுக்குட்டி",
+      "reason": "Correct answer \"பட்டுக்குட்டி\" not in options [க்கு, ட்டி, பட்டு]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0680",
+      "activity": "Correct Spelling",
+      "answer": "பண்பு",
+      "reason": "Correct answer \"பண்பு\" not in options [பு, ப, ண்]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0730",
+      "activity": "Correct Spelling",
+      "answer": "பாதுஷா",
+      "reason": "Correct answer \"பாதுஷா\" not in options [ஷா, பாது]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0736",
+      "activity": "Correct Spelling",
+      "answer": "பாய்தல்",
+      "reason": "Correct answer \"பாய்தல்\" not in options [தல், பாய்]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0751",
+      "activity": "Correct Spelling",
+      "answer": "பிறப்பு",
+      "reason": "Correct answer \"பிறப்பு\" not in options [பு, பி, ற, ப்]"
+    },
+    {
+      "file": "Module_6\\correct_spelling.json",
+      "id": "FTS0791",
+      "activity": "Correct Spelling",
+      "answer": "பெரியப்பா",
+      "reason": "Correct answer \"பெரியப்பா\" not in options [ப், பா, பெ, ரிய]"
+    },
+    {
+      "file": "Module_6\\picture_to_select.json",
+      "id": "FTS0711",
+      "activity": "Picture → Select",
+      "answer": "பல்",
+      "reason": "Correct answer \"பல்\" not in options [ல், ப]"
+    },
+    {
+      "file": "Module_7\\context_to_select_drag.json",
+      "id": "FTS0882",
+      "activity": "Context → Select/Drag",
+      "answer": "முத்துசாமி",
+      "reason": "Correct answer \"முத்துசாமி\" not in options [சாமி, முத்து]"
+    },
+    {
+      "file": "Module_7\\correct_spelling.json",
+      "id": "FTS0797",
+      "activity": "Correct Spelling",
+      "answer": "பேச்சு",
+      "reason": "Correct answer \"பேச்சு\" not in options [சு, பே, ச்]"
+    },
+    {
+      "file": "Module_7\\correct_spelling.json",
+      "id": "FTS0831",
+      "activity": "Correct Spelling",
+      "answer": "மத்து",
+      "reason": "Correct answer \"மத்து\" not in options [து, ம, த்]"
+    },
+    {
+      "file": "Module_7\\correct_spelling.json",
+      "id": "FTS0841",
+      "activity": "Correct Spelling",
+      "answer": "மருத்துவர்",
+      "reason": "Correct answer \"மருத்துவர்\" not in options [த்து, மரு, வர்]"
+    },
+    {
+      "file": "Module_7\\correct_spelling.json",
+      "id": "FTS0846",
+      "activity": "Correct Spelling",
+      "answer": "மறைந்திருந்தவை",
+      "reason": "Correct answer \"மறைந்திருந்தவை\" not in options [தவை, மறைந், திருந்]"
+    },
+    {
+      "file": "Module_8\\context_to_select_drag.json",
+      "id": "FTS1054",
+      "activity": "Context → Select/Drag",
+      "answer": "வையம்பட்டி",
+      "reason": "Correct answer \"வையம்பட்டி\" not in options [டி, வை, ய, ம், ப, ட்]"
+    },
+    {
+      "file": "Module_8\\context_to_select_drag.json",
+      "id": "FTS1055",
+      "activity": "Context → Select/Drag",
+      "answer": "ஷாஜஹான்",
+      "reason": "Correct answer \"ஷாஜஹான்\" not in options [ஹா, ன், ஷா, ஜ]"
+    },
+    {
+      "file": "Module_8\\context_to_select_drag.json",
+      "id": "FTS1058",
+      "activity": "Context → Select/Drag",
+      "answer": "ஹரீஷ்",
+      "reason": "Correct answer \"ஹரீஷ்\" not in options [ஷ், ஹ, ரீ]"
+    },
+    {
+      "file": "Module_8\\context_to_select_drag.json",
+      "id": "FTS1059",
+      "activity": "Context → Select/Drag",
+      "answer": "ஹிலாரி",
+      "reason": "Correct answer \"ஹிலாரி\" not in options [ரி, ஹி, லா]"
+    },
+    {
+      "file": "Module_8\\correct_spelling.json",
+      "id": "FTS0929",
+      "activity": "Correct Spelling",
+      "answer": "லட்டு",
+      "reason": "Correct answer \"லட்டு\" not in options [டு, ல, ட்]"
+    },
+    {
+      "file": "Module_8\\correct_spelling.json",
+      "id": "FTS0939",
+      "activity": "Correct Spelling",
+      "answer": "வண்ணத்துப்பூச்சி",
+      "reason": "Correct answer \"வண்ணத்துப்பூச்சி\" not in options [பூச்சி, வண்ண, த், துப்]"
+    },
+    {
+      "file": "Module_8\\correct_spelling.json",
+      "id": "FTS0944",
+      "activity": "Correct Spelling",
+      "answer": "வரிக்குதிரை",
+      "reason": "Correct answer \"வரிக்குதிரை\" not in options [குதி, ரை, வரிக்]"
+    },
+    {
+      "file": "Module_8\\correct_spelling.json",
+      "id": "FTS1033",
+      "activity": "Correct Spelling",
+      "answer": "வீரர்கள்",
+      "reason": "Correct answer \"வீரர்கள்\" not in options [ள், வீ, ர, ர், க]"
+    },
+    {
+      "file": "Module_8\\correct_spelling.json",
+      "id": "FTS1036",
+      "activity": "Correct Spelling",
+      "answer": "வெட்ட",
+      "reason": "Correct answer \"வெட்ட\" not in options [ட, வெ, ட்]"
+    }
+  ]
+}

@@ -7,10 +7,12 @@ import { SessionConfig } from '../../engine/types';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { ErrorState } from '../../components/ui/ErrorState';
 import { Activity, ActivityCategory } from '../../types';
-import { ProgressService, LocalProgressRepository, EnglishProgressService, DEFAULT_TAMIL_STORAGE_KEY } from '../../progress';
+import { ProgressService, LocalProgressRepository, EnglishProgressService, PROGRESS_STORAGE_KEY_V2 } from '../../progress';
+import { useStudent } from '../../student';
 
 export function SessionPage() {
   const navigate = useNavigate();
+  const { activeStudent } = useStudent();
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
   const [searchParams] = useSearchParams();
   const rawCategory = searchParams.get('category');
@@ -52,7 +54,7 @@ export function SessionPage() {
   const sessionService = useMemo(() => new SessionService(), []);
   const engine = useMemo(() => new CoreActivityEngine(), []);
   const tamilProgressService = useMemo(
-    () => new ProgressService(new LocalProgressRepository(DEFAULT_TAMIL_STORAGE_KEY)),
+    () => new ProgressService(new LocalProgressRepository(PROGRESS_STORAGE_KEY_V2)),
     []
   );
   const englishProgressService = useMemo(
@@ -171,6 +173,23 @@ export function SessionPage() {
 
       setCurrentActivityState(nextState);
 
+      const studentId = activeStudent?.id;
+
+      // Persist individual attempt to isolated student tracking
+      if (studentId) {
+        tamilProgressService
+          .recordAttempt({
+            studentId,
+            activityId: activity.id,
+            category: activity.category,
+            isCorrect: evaluation.correct,
+            isCompleted: evaluation.completed,
+          })
+          .catch(() => {
+            // Non-fatal
+          });
+      }
+
       if (evaluation.completed) {
         const activityResult = {
           activityId: activity.id,
@@ -189,6 +208,10 @@ export function SessionPage() {
           englishProgressService.recordActivityCompletion(activityResult, activity).catch(() => {
             // Storage failures are non-fatal: session continues normally
           });
+        } else if (studentId) {
+          tamilProgressService.recordCompletion(activityResult, activity.category, studentId).catch(() => {
+            // Storage failures are non-fatal: session continues normally
+          });
         } else {
           tamilProgressService.recordCompletion(activityResult, activity.category).catch(() => {
             // Storage failures are non-fatal: session continues normally
@@ -198,7 +221,7 @@ export function SessionPage() {
     } catch (err) {
       console.error(err);
     }
-  }, [session, currentActivityState, activities, engine, sessionService, isEnglish, englishProgressService, tamilProgressService]);
+  }, [session, currentActivityState, activities, engine, sessionService, isEnglish, englishProgressService, tamilProgressService, activeStudent]);
 
   const handleNext = useCallback(() => {
     if (!session) return;
@@ -214,7 +237,8 @@ export function SessionPage() {
           state: { 
             session: advancedSession,
             activities: activities,
-            config: config
+            config: config,
+            student: activeStudent
           },
           replace: true
         });
@@ -225,7 +249,7 @@ export function SessionPage() {
         setCurrentActivityState(engine.start(activities[nextActivityId]));
       }
     }
-  }, [session, activities, config, navigate, engine, sessionService]);
+  }, [session, activities, config, navigate, engine, sessionService, activeStudent]);
 
   if (isLoading) return <Page hideHeader><LoadingState message="பயிற்சி தயாராகிறது..." /></Page>;
   

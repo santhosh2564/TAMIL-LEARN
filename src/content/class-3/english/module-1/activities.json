@@ -1233,7 +1233,7 @@
     "targetWord": "ball",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "A round object that children bounce and throw in outdoor games. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -1249,14 +1249,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "r"
       }
     ],
     "units": [
       "a",
       "f",
       "w",
-      "e"
+      "r"
     ],
     "template": "b _ l l",
     "correctAnswer": "ball",
@@ -1298,14 +1298,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "e"
       }
     ],
     "units": [
       "l",
       "f",
       "q",
-      "m"
+      "e"
     ],
     "template": "b e _ l",
     "correctAnswer": "bell",
@@ -1343,7 +1343,7 @@
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "u"
       },
       {
         "id": "D",
@@ -1353,7 +1353,7 @@
     "units": [
       "g",
       "i",
-      "h",
+      "u",
       "n"
     ],
     "template": "b o _ e",
@@ -1392,18 +1392,18 @@
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "g"
       }
     ],
     "units": [
       "y",
       "l",
-      "h",
-      "k"
+      "c",
+      "g"
     ],
     "template": "b u _ l",
     "correctAnswer": "bull",
@@ -1445,14 +1445,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
       "i",
       "e",
       "q",
-      "u"
+      "m"
     ],
     "template": "c a k _",
     "correctAnswer": "cake",
@@ -2561,14 +2561,14 @@
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "m"
       }
     ],
     "units": [
       "l",
       "i",
       "k",
-      "d"
+      "m"
     ],
     "template": "c _ a p",
     "correctAnswer": "clap",
@@ -2610,14 +2610,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "b"
       }
     ],
     "units": [
       "p",
       "j",
       "a",
-      "o"
+      "b"
     ],
     "template": "c o _ l",
     "correctAnswer": "coal",
@@ -2659,7 +2659,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "c"
       },
       {
         "id": "D",
@@ -2669,7 +2669,7 @@
     "units": [
       "z",
       "p",
-      "u",
+      "c",
       "a"
     ],
     "template": "c o _ t",
@@ -2700,15 +2700,15 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
-      },
-      {
-        "id": "B",
         "label": "v"
       },
       {
+        "id": "B",
+        "label": "a"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "o"
       },
       {
         "id": "D",
@@ -2716,9 +2716,9 @@
       }
     ],
     "units": [
-      "k",
       "v",
-      "u",
+      "a",
+      "o",
       "e"
     ],
     "template": "c o n _",
@@ -2757,7 +2757,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
@@ -2767,7 +2767,7 @@
     "units": [
       "s",
       "p",
-      "u",
+      "w",
       "o"
     ],
     "template": "d _ w n",
@@ -2810,14 +2810,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "b"
       }
     ],
     "units": [
       "k",
       "o",
       "x",
-      "e"
+      "b"
     ],
     "template": "f l _ w",
     "correctAnswer": "flow",
@@ -2859,14 +2859,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "l"
       }
     ],
     "units": [
       "a",
       "t",
       "c",
-      "e"
+      "l"
     ],
     "template": "f o _ m",
     "correctAnswer": "foam",
@@ -2908,14 +2908,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "w"
       }
     ],
     "units": [
       "o",
       "v",
       "c",
-      "a"
+      "w"
     ],
     "template": "f o _ d",
     "correctAnswer": "food",
@@ -2949,7 +2949,7 @@
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "w"
       },
       {
         "id": "C",
@@ -2957,14 +2957,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "i"
       }
     ],
     "units": [
       "h",
-      "d",
+      "w",
       "t",
-      "s"
+      "i"
     ],
     "template": "g a _ e",
     "correctAnswer": "gate",
@@ -3006,14 +3006,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "f"
       }
     ],
     "units": [
       "o",
       "m",
       "k",
-      "a"
+      "f"
     ],
     "template": "g l _ w",
     "correctAnswer": "glow",
@@ -3055,14 +3055,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "b"
       }
     ],
     "units": [
       "l",
       "u",
       "o",
-      "n"
+      "b"
     ],
     "template": "h e _ p",
     "correctAnswer": "help",
@@ -3104,14 +3104,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "d"
       }
     ],
     "units": [
       "i",
       "n",
       "s",
-      "a"
+      "d"
     ],
     "template": "h _ l l",
     "correctAnswer": "hill",
@@ -3947,7 +3947,7 @@
     "targetWord": "achieve",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "To succeed in reaching a goal after working hard. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4022,7 +4022,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4032,7 +4032,7 @@
     "units": [
       "y",
       "w",
-      "u",
+      "p",
       "e"
     ],
     "template": "a n o t h _ r",
@@ -4071,7 +4071,7 @@
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "r"
       },
       {
         "id": "D",
@@ -4081,7 +4081,7 @@
     "units": [
       "p",
       "o",
-      "l",
+      "r",
       "s"
     ],
     "template": "b e c a u _ e",
@@ -4124,14 +4124,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "u"
       }
     ],
     "units": [
       "c",
       "e",
       "o",
-      "i"
+      "u"
     ],
     "template": "b e t w _ e n",
     "correctAnswer": "between",
@@ -4169,7 +4169,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
@@ -4179,7 +4179,7 @@
     "units": [
       "p",
       "q",
-      "u",
+      "w",
       "o"
     ],
     "template": "a r _ u n d",
@@ -4271,14 +4271,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "n"
       }
     ],
     "units": [
       "m",
       "j",
       "e",
-      "o"
+      "n"
     ],
     "template": "b r e _ z e",
     "correctAnswer": "breeze",
@@ -4316,7 +4316,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
@@ -4326,7 +4326,7 @@
     "units": [
       "d",
       "x",
-      "u",
+      "w",
       "i"
     ],
     "template": "b r _ g h t",
@@ -4365,7 +4365,7 @@
       },
       {
         "id": "C",
-        "label": "g"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4375,7 +4375,7 @@
     "units": [
       "d",
       "h",
-      "g",
+      "p",
       "t"
     ],
     "template": "b u t _ e r",
@@ -4418,14 +4418,14 @@
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "c"
       }
     ],
     "units": [
       "k",
       "r",
       "j",
-      "l"
+      "c"
     ],
     "template": "c a r _ o t",
     "correctAnswer": "carrot",
@@ -4467,14 +4467,14 @@
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "e"
       }
     ],
     "units": [
       "g",
       "d",
       "l",
-      "r"
+      "e"
     ],
     "template": "c h a n _ e",
     "correctAnswer": "change",
@@ -4780,14 +4780,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "b"
       }
     ],
     "units": [
       "f",
       "z",
       "i",
-      "o"
+      "b"
     ],
     "template": "c h _ c k",
     "correctAnswer": "chick",
@@ -4829,14 +4829,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "s"
       }
     ],
     "units": [
       "b",
       "o",
       "f",
-      "e"
+      "s"
     ],
     "template": "c l _ c k",
     "correctAnswer": "clock",
@@ -4874,7 +4874,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "d"
       },
       {
         "id": "D",
@@ -4884,7 +4884,7 @@
     "units": [
       "h",
       "k",
-      "u",
+      "d",
       "e"
     ],
     "template": "d a t _ s",
@@ -5581,14 +5581,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "g"
       }
     ],
     "units": [
       "s",
       "o",
       "a",
-      "u"
+      "g"
     ],
     "template": "g r _ u n d",
     "correctAnswer": "ground",
@@ -5668,14 +5668,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "u"
       }
     ],
     "units": [
       "x",
       "e",
       "z",
-      "i"
+      "u"
     ],
     "template": "s c r _ e n",
     "correctAnswer": "screen",
@@ -5717,14 +5717,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "d"
       }
     ],
     "units": [
       "f",
       "p",
       "l",
-      "m"
+      "d"
     ],
     "template": "s t a b _ e",
     "correctAnswer": "stable",

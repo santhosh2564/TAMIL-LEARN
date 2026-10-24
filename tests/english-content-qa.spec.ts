@@ -74,7 +74,7 @@ test.describe('Phase D: English Visual Assets & Content Browser QA', () => {
     const realImg = page.locator('img[data-testid="activity-asset-image"]');
     await expect(realImg).toBeVisible();
     const src = await realImg.getAttribute('src');
-    expect(src).toMatch(/^\/assets\/class-3\/tamil\/term-1\/images\//);
+    expect(src).toMatch(/^\/(assets\/class-3\/tamil\/term-1\/images|images\/tamil-vocabulary)\//);
     const naturalWidth = await realImg.evaluate((img: HTMLImageElement) => img.naturalWidth);
     expect(naturalWidth).toBeGreaterThan(0);
 

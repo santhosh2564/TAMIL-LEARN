@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Activity } from '../../../types';
 import { ActivityStatus } from '../../../engine';
 import { shuffleOptions } from '../../../utils/shuffle';
+import { getGraphemes } from '../../../utils/tamil';
 
 interface UseSelectableRetryArgs {
   activity: Activity;
@@ -53,18 +54,31 @@ export function useSelectableRetry({ activity, status, onSubmit, onNext }: UseSe
   if (activity.category === 'word-completion' && activity.template && targetWord) {
     const cleanedTemplate = activity.template.replace(/[|\s]/g, '');
     const cleanedTarget = targetWord.replace(/\s+/g, '');
+    const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
+    const locale = isEnglish ? 'en' : 'ta';
+    const tGraphemes = getGraphemes(cleanedTemplate, locale);
+    const wGraphemes = getGraphemes(cleanedTarget, locale);
     let missing = '';
-    for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
-      if (cleanedTemplate[i] === '_') {
-        missing += cleanedTarget[i];
+    for (let i = 0; i < tGraphemes.length && i < wGraphemes.length; i++) {
+      if (tGraphemes[i] === '_') {
+        missing += wGraphemes[i];
       }
     }
-    if (missing) expectedUnit = missing;
+    if (missing) expectedUnit = missing.trim().toLowerCase();
   }
 
   const selectedLabel = selectedOption?.label.trim().toLowerCase();
+  const completedWord = (activity.template && activity.template.includes('_') && selectedLabel)
+    ? activity.template.replace(/[|\s]/g, '').replace('_', selectedLabel).trim().toLowerCase()
+    : '';
+
+
   const isCorrect = submitted && selectedId
-    ? (selectedLabel === targetAns || selectedLabel === expectedUnit)
+    ? (
+        selectedLabel === targetAns ||
+        selectedLabel === expectedUnit ||
+        (completedWord.length > 0 && (completedWord === targetWord || completedWord === targetAns))
+      )
     : undefined;
 
   const isCompleted = status === 'completed';

@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "வழி",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q133",
+    "FTS ID": null,
+    "Question ID": "Q133",
+    "Level": "Easy",
+    "Activity": "Picture → Context/Select",
+    "Question / Instruction": "ஊருக்குச் செல்லும் ______ எது?",
+    "Options / Units": "வழி | வலி | வளி | வாலை",
+    "Correct Answer": "வழி",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 8",
+    "Position in Module": 40,
+    "Normalized Word": "வழி",
+    "Master Sequence": 1168
+  }
+]

@@ -28,14 +28,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "c"
       }
     ],
     "units": [
       "w",
       "p",
       "o",
-      "i"
+      "c"
     ],
     "template": "a b _ u t",
     "correctAnswer": "about",
@@ -61,7 +61,7 @@
     "targetWord": "aeroplane",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "A large flying vehicle with wings and engines that carries passengers in the sky. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -193,14 +193,14 @@
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "t"
       }
     ],
     "units": [
       "z",
       "b",
       "q",
-      "p"
+      "t"
     ],
     "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
@@ -280,14 +280,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "t"
       }
     ],
     "units": [
       "u",
       "o",
       "e",
-      "a"
+      "t"
     ],
     "template": "b _ e",
     "correctAnswer": "bee",
@@ -325,18 +325,18 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "l"
       }
     ],
     "units": [
       "c",
       "i",
-      "a",
-      "o"
+      "g",
+      "l"
     ],
     "template": "b _ n",
     "correctAnswer": "bin",
@@ -362,7 +362,7 @@
     "targetWord": "blanket",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "You use this to cover yourself when you sleep. Put the letters in the correct order:",
+    "prompt": "A thick, warm cloth cover used on a bed to keep you warm. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -441,14 +441,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "b"
       }
     ],
     "units": [
       "f",
       "i",
       "w",
-      "e"
+      "b"
     ],
     "template": "b r _ n g",
     "correctAnswer": "bring",
@@ -533,14 +533,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "s"
       }
     ],
     "units": [
       "c",
       "n",
       "m",
-      "b"
+      "s"
     ],
     "template": "c a t _ h",
     "correctAnswer": "catch",
@@ -674,14 +674,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "h"
       }
     ],
     "units": [
       "j",
       "d",
       "y",
-      "b"
+      "h"
     ],
     "template": "c r _",
     "correctAnswer": "cry",
@@ -723,14 +723,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "b"
       }
     ],
     "units": [
       "f",
       "e",
       "w",
-      "i"
+      "b"
     ],
     "template": "c u b _",
     "correctAnswer": "cube",
@@ -772,14 +772,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "n"
       }
     ],
     "units": [
       "o",
       "c",
       "z",
-      "m"
+      "n"
     ],
     "template": "d a n _ e",
     "correctAnswer": "dance",
@@ -821,14 +821,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "g"
       }
     ],
     "units": [
       "w",
       "i",
       "p",
-      "e"
+      "g"
     ],
     "template": "d _ e",
     "correctAnswer": "die",
@@ -870,14 +870,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "m"
       }
     ],
     "units": [
       "g",
       "i",
       "e",
-      "o"
+      "m"
     ],
     "template": "d _ p",
     "correctAnswer": "dip",
@@ -915,7 +915,7 @@
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "r"
       },
       {
         "id": "D",
@@ -925,7 +925,7 @@
     "units": [
       "a",
       "s",
-      "f",
+      "r",
       "v"
     ],
     "template": "d r i _ e",
@@ -964,7 +964,7 @@
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "a"
       },
       {
         "id": "D",
@@ -974,7 +974,7 @@
     "units": [
       "l",
       "q",
-      "m",
+      "a",
       "y"
     ],
     "template": "d r _",
@@ -1013,7 +1013,7 @@
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
@@ -1023,7 +1023,7 @@
     "units": [
       "j",
       "o",
-      "i",
+      "c",
       "a"
     ],
     "template": "e _ t",
@@ -1066,14 +1066,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "l"
       }
     ],
     "units": [
       "g",
       "o",
       "z",
-      "n"
+      "l"
     ],
     "template": "e _ g",
     "correctAnswer": "egg",
@@ -1265,7 +1265,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -1275,7 +1275,7 @@
     "units": [
       "q",
       "c",
-      "u",
+      "p",
       "a"
     ],
     "template": "f l _ g",
@@ -1376,14 +1376,14 @@
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "w"
       }
     ],
     "units": [
       "r",
       "x",
       "y",
-      "k"
+      "w"
     ],
     "template": "f l _",
     "correctAnswer": "fly",
@@ -1425,14 +1425,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "h"
       }
     ],
     "units": [
       "d",
       "a",
       "o",
-      "i"
+      "h"
     ],
     "template": "f r _ n t",
     "correctAnswer": "front",
@@ -1474,14 +1474,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "m"
       }
     ],
     "units": [
       "g",
       "u",
       "b",
-      "e"
+      "m"
     ],
     "template": "f _ n",
     "correctAnswer": "fun",
@@ -1519,11 +1519,11 @@
       },
       {
         "id": "B",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "D",
@@ -1532,8 +1532,8 @@
     ],
     "units": [
       "h",
-      "u",
-      "e",
+      "p",
+      "t",
       "a"
     ],
     "template": "g _ p",
@@ -1576,14 +1576,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "c"
       }
     ],
     "units": [
       "a",
       "b",
       "w",
-      "e"
+      "c"
     ],
     "template": "g r _ i n",
     "correctAnswer": "grain",
@@ -1625,14 +1625,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "f"
       }
     ],
     "units": [
       "e",
       "h",
       "b",
-      "a"
+      "f"
     ],
     "template": "g r _ e n",
     "correctAnswer": "green",
@@ -1674,14 +1674,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
       "s",
       "a",
       "b",
-      "i"
+      "m"
     ],
     "template": "h _ y",
     "correctAnswer": "hay",
@@ -1723,14 +1723,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "f"
       }
     ],
     "units": [
       "e",
       "z",
       "a",
-      "i"
+      "f"
     ],
     "template": "h e r _",
     "correctAnswer": "here",
@@ -1806,7 +1806,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -1816,7 +1816,7 @@
     "units": [
       "v",
       "f",
-      "u",
+      "p",
       "e"
     ],
     "template": "h o m _",
@@ -1904,11 +1904,11 @@
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "b"
       },
       {
         "id": "D",
@@ -1917,8 +1917,8 @@
     ],
     "units": [
       "a",
-      "k",
-      "m",
+      "i",
+      "b",
       "p"
     ],
     "template": "h o _ e",
@@ -1957,18 +1957,18 @@
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "u"
       }
     ],
     "units": [
       "j",
       "s",
-      "k",
-      "p"
+      "e",
+      "u"
     ],
     "template": "h o _ e",
     "correctAnswer": "hose",
@@ -2010,14 +2010,14 @@
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "i"
       }
     ],
     "units": [
       "g",
       "m",
       "d",
-      "l"
+      "i"
     ],
     "template": "h u _ p",
     "correctAnswer": "hump",
@@ -2055,7 +2055,7 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "f"
       },
       {
         "id": "D",
@@ -2065,7 +2065,7 @@
     "units": [
       "g",
       "o",
-      "b",
+      "f",
       "c"
     ],
     "template": "i _ e",
@@ -2219,14 +2219,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "b"
       }
     ],
     "units": [
       "x",
       "w",
       "i",
-      "o"
+      "b"
     ],
     "template": "l _ e",
     "correctAnswer": "lie",
@@ -2314,11 +2314,11 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "i"
       },
       {
         "id": "C",
@@ -2326,14 +2326,14 @@
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "b"
       }
     ],
     "units": [
-      "p",
-      "n",
+      "w",
+      "i",
       "v",
-      "r"
+      "b"
     ],
     "template": "l i _ e",
     "correctAnswer": "live",
@@ -2371,7 +2371,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -2381,7 +2381,7 @@
     "units": [
       "t",
       "q",
-      "u",
+      "p",
       "a"
     ],
     "template": "l o _ d",
@@ -2412,7 +2412,7 @@
     "options": [
       {
         "id": "A",
-        "label": "v"
+        "label": "i"
       },
       {
         "id": "B",
@@ -2420,18 +2420,18 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "a"
       }
     ],
     "units": [
-      "v",
+      "i",
       "n",
-      "b",
-      "l"
+      "f",
+      "a"
     ],
     "template": "l o _ e",
     "correctAnswer": "lone",
@@ -2522,14 +2522,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
       "u",
       "m",
       "x",
-      "a"
+      "o"
     ],
     "template": "l o _ d",
     "correctAnswer": "loud",
@@ -2571,14 +2571,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "u"
       }
     ],
     "units": [
       "o",
       "i",
       "q",
-      "a"
+      "u"
     ],
     "template": "l _ w",
     "correctAnswer": "low",
@@ -2616,18 +2616,18 @@
       },
       {
         "id": "C",
-        "label": "n"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "u"
       }
     ],
     "units": [
       "l",
       "a",
-      "n",
-      "s"
+      "e",
+      "u"
     ],
     "template": "m i _ k",
     "correctAnswer": "milk",
@@ -2718,7 +2718,7 @@
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "c"
       },
       {
         "id": "D",
@@ -2728,7 +2728,7 @@
     "units": [
       "i",
       "b",
-      "e",
+      "c",
       "o"
     ],
     "template": "m o _ n",
@@ -2882,14 +2882,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "u"
       }
     ],
     "units": [
       "e",
       "i",
       "r",
-      "a"
+      "u"
     ],
     "template": "n a _ l",
     "correctAnswer": "nail",
@@ -2931,14 +2931,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "t"
       }
     ],
     "units": [
       "d",
       "a",
       "o",
-      "e"
+      "t"
     ],
     "template": "n o _ n",
     "correctAnswer": "noon",
@@ -2972,11 +2972,11 @@
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "h"
       },
       {
         "id": "D",
@@ -2985,8 +2985,8 @@
     ],
     "units": [
       "c",
-      "p",
-      "m",
+      "u",
+      "h",
       "s"
     ],
     "template": "n o _ e",
@@ -3025,18 +3025,18 @@
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "f"
       }
     ],
     "units": [
       "t",
       "w",
-      "s",
-      "m"
+      "b",
+      "f"
     ],
     "template": "n o _ e",
     "correctAnswer": "note",
@@ -3074,7 +3074,7 @@
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "p"
       },
       {
         "id": "D",
@@ -3084,7 +3084,7 @@
     "units": [
       "h",
       "l",
-      "w",
+      "p",
       "f"
     ],
     "template": "o _ f",
@@ -3173,15 +3173,15 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
-      },
-      {
-        "id": "B",
         "label": "f"
       },
       {
+        "id": "B",
+        "label": "w"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "b"
       },
       {
         "id": "D",
@@ -3189,9 +3189,9 @@
       }
     ],
     "units": [
-      "r",
       "f",
-      "u",
+      "w",
+      "b",
       "i"
     ],
     "template": "p _ e",
@@ -3330,14 +3330,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "l"
       }
     ],
     "units": [
       "a",
       "w",
       "s",
-      "e"
+      "l"
     ],
     "template": "p l _ y",
     "correctAnswer": "play",
@@ -3379,14 +3379,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
       "f",
       "o",
       "e",
-      "u"
+      "s"
     ],
     "template": "p o _ l",
     "correctAnswer": "pool",
@@ -3428,14 +3428,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "t"
       }
     ],
     "units": [
       "b",
       "v",
       "o",
-      "i"
+      "t"
     ],
     "template": "p _ p",
     "correctAnswer": "pop",
@@ -3607,14 +3607,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "d"
       }
     ],
     "units": [
       "i",
       "s",
       "c",
-      "a"
+      "d"
     ],
     "template": "r a _ n",
     "correctAnswer": "rain",
@@ -3701,22 +3701,22 @@
       },
       {
         "id": "B",
-        "label": "t"
-      },
-      {
-        "id": "C",
         "label": "a"
       },
       {
+        "id": "C",
+        "label": "g"
+      },
+      {
         "id": "D",
-        "label": "l"
+        "label": "e"
       }
     ],
     "units": [
       "d",
-      "t",
       "a",
-      "l"
+      "g",
+      "e"
     ],
     "template": "r i _ e",
     "correctAnswer": "ride",
@@ -3784,15 +3784,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
-      },
-      {
-        "id": "B",
         "label": "k"
       },
       {
+        "id": "B",
+        "label": "n"
+      },
+      {
         "id": "C",
-        "label": "e"
+        "label": "s"
       },
       {
         "id": "D",
@@ -3800,9 +3800,9 @@
       }
     ],
     "units": [
-      "u",
       "k",
-      "e",
+      "n",
+      "s",
       "a"
     ],
     "template": "r o _ m",
@@ -3845,14 +3845,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "w"
       }
     ],
     "units": [
       "c",
       "q",
       "l",
-      "s"
+      "w"
     ],
     "template": "r o _ e",
     "correctAnswer": "role",
@@ -3890,7 +3890,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -3900,7 +3900,7 @@
     "units": [
       "w",
       "z",
-      "u",
+      "p",
       "o"
     ],
     "template": "r o _ m",
@@ -3943,14 +3943,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "a"
       }
     ],
     "units": [
       "y",
       "o",
       "l",
-      "e"
+      "a"
     ],
     "template": "r o _ t",
     "correctAnswer": "root",
@@ -3992,14 +3992,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "o"
       }
     ],
     "units": [
       "g",
       "j",
       "p",
-      "n"
+      "o"
     ],
     "template": "r o _ e",
     "correctAnswer": "rope",
@@ -4029,15 +4029,15 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "n"
+        "label": "w"
       },
       {
         "id": "D",
@@ -4045,9 +4045,9 @@
       }
     ],
     "units": [
-      "k",
-      "d",
-      "n",
+      "h",
+      "m",
+      "w",
       "s"
     ],
     "template": "r o _ e",
@@ -4086,7 +4086,7 @@
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4096,7 +4096,7 @@
     "units": [
       "u",
       "v",
-      "i",
+      "p",
       "e"
     ],
     "template": "s e _ m",
@@ -4197,14 +4197,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "s"
       }
     ],
     "units": [
       "l",
       "v",
       "x",
-      "n"
+      "s"
     ],
     "template": "s h a _ l",
     "correctAnswer": "shall",
@@ -4246,14 +4246,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "w"
       }
     ],
     "units": [
       "o",
       "r",
       "c",
-      "a"
+      "w"
     ],
     "template": "s h _ w",
     "correctAnswer": "show",
@@ -4345,22 +4345,22 @@
       },
       {
         "id": "B",
-        "label": "a"
-      },
-      {
-        "id": "C",
         "label": "k"
       },
       {
+        "id": "C",
+        "label": "l"
+      },
+      {
         "id": "D",
-        "label": "i"
+        "label": "p"
       }
     ],
     "units": [
       "o",
-      "a",
       "k",
-      "i"
+      "l",
+      "p"
     ],
     "template": "s l _ w",
     "correctAnswer": "slow",
@@ -4402,14 +4402,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
       "c",
       "a",
       "z",
-      "i"
+      "m"
     ],
     "template": "s m _ l l",
     "correctAnswer": "small",
@@ -4447,7 +4447,7 @@
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "u"
       },
       {
         "id": "D",
@@ -4457,7 +4457,7 @@
     "units": [
       "g",
       "q",
-      "w",
+      "u",
       "k"
     ],
     "template": "s n a _ e",
@@ -4549,7 +4549,7 @@
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4559,7 +4559,7 @@
     "units": [
       "d",
       "t",
-      "o",
+      "p",
       "u"
     ],
     "template": "s o _ p",
@@ -4598,7 +4598,7 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "w"
       },
       {
         "id": "D",
@@ -4608,7 +4608,7 @@
     "units": [
       "r",
       "v",
-      "b",
+      "w",
       "m"
     ],
     "template": "s t a _ p",
@@ -4694,14 +4694,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "c"
       }
     ],
     "units": [
       "f",
       "n",
       "h",
-      "s"
+      "c"
     ],
     "template": "s t o _ e",
     "correctAnswer": "stone",
@@ -4792,7 +4792,7 @@
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "t"
       },
       {
         "id": "D",
@@ -4802,7 +4802,7 @@
     "units": [
       "q",
       "i",
-      "s",
+      "t",
       "v"
     ],
     "template": "s t o _ e",
@@ -4904,7 +4904,7 @@
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "a"
       },
       {
         "id": "D",
@@ -4914,7 +4914,7 @@
     "units": [
       "g",
       "e",
-      "s",
+      "a",
       "y"
     ],
     "template": "s t _",
@@ -4995,14 +4995,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "o"
       }
     ],
     "units": [
       "a",
       "c",
       "j",
-      "e"
+      "o"
     ],
     "template": "s w _ y",
     "correctAnswer": "sway",
@@ -5102,14 +5102,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "t"
       }
     ],
     "units": [
       "x",
       "n",
       "f",
-      "s"
+      "t"
     ],
     "template": "t h i _ g",
     "correctAnswer": "thing",
@@ -5209,14 +5209,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "f"
       }
     ],
     "units": [
       "i",
       "j",
       "r",
-      "a"
+      "f"
     ],
     "template": "t _ e",
     "correctAnswer": "tie",
@@ -5345,7 +5345,7 @@
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "f"
       },
       {
         "id": "D",
@@ -5355,7 +5355,7 @@
     "units": [
       "z",
       "x",
-      "m",
+      "f",
       "y"
     ],
     "template": "t r _",
@@ -5398,14 +5398,14 @@
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "e"
       }
     ],
     "units": [
       "t",
       "d",
       "l",
-      "k"
+      "e"
     ],
     "template": "u n _ e r",
     "correctAnswer": "under",
@@ -5492,7 +5492,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "c"
       },
       {
         "id": "D",
@@ -5502,7 +5502,7 @@
     "units": [
       "k",
       "s",
-      "u",
+      "c",
       "o"
     ],
     "template": "v _ t e",
@@ -5583,14 +5583,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
       "c",
       "a",
       "f",
-      "i"
+      "m"
     ],
     "template": "w _ v e",
     "correctAnswer": "wave",
@@ -5762,14 +5762,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "m"
       }
     ],
     "units": [
       "w",
       "h",
       "e",
-      "a"
+      "m"
     ],
     "template": "y _ a r",
     "correctAnswer": "year",
@@ -5936,7 +5936,7 @@
     "targetWord": "achieve",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "To succeed in reaching a goal after working hard. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -6197,14 +6197,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "e"
       }
     ],
     "units": [
       "l",
       "f",
       "q",
-      "m"
+      "e"
     ],
     "template": "b e _ l",
     "correctAnswer": "bell",
@@ -6247,14 +6247,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "u"
       }
     ],
     "units": [
       "c",
       "e",
       "o",
-      "i"
+      "u"
     ],
     "template": "b e t w _ e n",
     "correctAnswer": "between",
@@ -6514,14 +6514,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "m"
       }
     ],
     "units": [
       "i",
       "e",
       "q",
-      "u"
+      "m"
     ],
     "template": "c a k _",
     "correctAnswer": "cake",
@@ -6564,14 +6564,14 @@
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "c"
       }
     ],
     "units": [
       "k",
       "r",
       "j",
-      "l"
+      "c"
     ],
     "template": "c a r _ o t",
     "correctAnswer": "carrot",
@@ -6614,14 +6614,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "s"
       }
     ],
     "units": [
       "b",
       "o",
       "f",
-      "e"
+      "s"
     ],
     "template": "c l _ c k",
     "correctAnswer": "clock",
@@ -7086,7 +7086,7 @@
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "w"
       },
       {
         "id": "C",
@@ -7094,14 +7094,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "i"
       }
     ],
     "units": [
       "h",
-      "d",
+      "w",
       "t",
-      "s"
+      "i"
     ],
     "template": "g a _ e",
     "correctAnswer": "gate",

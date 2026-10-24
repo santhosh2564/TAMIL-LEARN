@@ -192,14 +192,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "w"
       }
     ],
     "units": [
       "d",
       "p",
       "t",
-      "s"
+      "w"
     ],
     "template": "b e t _ e r",
     "correctAnswer": "better",
@@ -233,11 +233,11 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "h"
       },
       {
         "id": "D",
@@ -246,8 +246,8 @@
     ],
     "units": [
       "o",
-      "a",
-      "i",
+      "d",
+      "h",
       "u"
     ],
     "template": "b l _ e",
@@ -278,7 +278,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "g"
       },
       {
         "id": "B",
@@ -286,18 +286,18 @@
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "d"
       }
     ],
     "units": [
-      "e",
+      "g",
       "a",
-      "o",
-      "u"
+      "p",
+      "d"
     ],
     "template": "b o _ t",
     "correctAnswer": "boat",
@@ -335,7 +335,7 @@
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "k"
       },
       {
         "id": "D",
@@ -345,7 +345,7 @@
     "units": [
       "y",
       "e",
-      "o",
+      "k",
       "i"
     ],
     "template": "b o _ l",
@@ -376,11 +376,11 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "l"
       },
       {
         "id": "C",
@@ -388,14 +388,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "p"
       }
     ],
     "units": [
-      "u",
-      "a",
+      "g",
+      "l",
       "o",
-      "e"
+      "p"
     ],
     "template": "b o _ k",
     "correctAnswer": "book",
@@ -429,22 +429,22 @@
       },
       {
         "id": "B",
-        "label": "a"
-      },
-      {
-        "id": "C",
         "label": "i"
       },
       {
+        "id": "C",
+        "label": "u"
+      },
+      {
         "id": "D",
-        "label": "o"
+        "label": "d"
       }
     ],
     "units": [
       "e",
-      "a",
       "i",
-      "o"
+      "u",
+      "d"
     ],
     "template": "c a v _",
     "correctAnswer": "cave",
@@ -482,7 +482,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "d"
       },
       {
         "id": "D",
@@ -492,7 +492,7 @@
     "units": [
       "a",
       "i",
-      "u",
+      "d",
       "e"
     ],
     "template": "c l _ a n",
@@ -535,14 +535,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
       "u",
       "o",
       "a",
-      "i"
+      "m"
     ],
     "template": "c l _ u d",
     "correctAnswer": "cloud",
@@ -584,7 +584,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "D",
@@ -594,7 +594,7 @@
     "units": [
       "e",
       "y",
-      "a",
+      "w",
       "i"
     ],
     "template": "c o _ n",
@@ -637,14 +637,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "c"
       }
     ],
     "units": [
       "u",
       "a",
       "o",
-      "e"
+      "c"
     ],
     "template": "g r _ w",
     "correctAnswer": "grow",
@@ -731,7 +731,7 @@
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "d"
       },
       {
         "id": "D",
@@ -741,7 +741,7 @@
     "units": [
       "a",
       "u",
-      "i",
+      "d",
       "o"
     ],
     "template": "l o _ k",
@@ -776,22 +776,22 @@
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "e"
       }
     ],
     "units": [
       "k",
-      "t",
-      "c",
-      "h"
+      "g",
+      "p",
+      "e"
     ],
     "template": "m i _ e",
     "correctAnswer": "mike",
@@ -833,14 +833,14 @@
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "o"
       }
     ],
     "units": [
       "f",
       "w",
       "v",
-      "g"
+      "o"
     ],
     "template": "m o _ e",
     "correctAnswer": "move",
@@ -3519,11 +3519,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "c"
       },
       {
         "id": "C",
@@ -3531,14 +3531,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "g"
       }
     ],
     "units": [
-      "o",
       "e",
+      "c",
       "a",
-      "i"
+      "g"
     ],
     "template": "c l _ y",
     "correctAnswer": "clay",
@@ -3572,11 +3572,11 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "D",
@@ -3585,8 +3585,8 @@
     ],
     "units": [
       "u",
-      "a",
-      "i",
+      "p",
+      "t",
       "o"
     ],
     "template": "c l _ v e",
@@ -3629,14 +3629,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "t"
       }
     ],
     "units": [
       "e",
       "y",
       "i",
-      "u"
+      "t"
     ],
     "template": "c o _ l",
     "correctAnswer": "coil",
@@ -3674,7 +3674,7 @@
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "s"
       },
       {
         "id": "C",
@@ -3682,14 +3682,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "a"
       }
     ],
     "units": [
       "t",
-      "c",
+      "s",
       "k",
-      "m"
+      "a"
     ],
     "template": "d u _ e",
     "correctAnswer": "duke",
@@ -3723,11 +3723,11 @@
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "e"
       },
       {
         "id": "D",
@@ -3736,8 +3736,8 @@
     ],
     "units": [
       "m",
-      "r",
-      "l",
+      "t",
+      "e",
       "n"
     ],
     "template": "d u _ e",
@@ -3776,7 +3776,7 @@
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "f"
       },
       {
         "id": "D",
@@ -3786,7 +3786,7 @@
     "units": [
       "q",
       "b",
-      "t",
+      "f",
       "p"
     ],
     "template": "e s c a _ e",
@@ -3825,7 +3825,7 @@
       },
       {
         "id": "C",
-        "label": "g"
+        "label": "u"
       },
       {
         "id": "D",
@@ -3835,7 +3835,7 @@
     "units": [
       "d",
       "p",
-      "g",
+      "u",
       "t"
     ],
     "template": "f a v o u r i _ e",
@@ -3878,14 +3878,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "f"
       }
     ],
     "units": [
       "i",
       "y",
       "e",
-      "o"
+      "f"
     ],
     "template": "f o _ l",
     "correctAnswer": "foil",
@@ -3927,14 +3927,14 @@
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "h"
       }
     ],
     "units": [
       "k",
       "g",
       "j",
-      "t"
+      "h"
     ],
     "template": "h u _ e",
     "correctAnswer": "huge",
@@ -3972,7 +3972,7 @@
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "k"
       },
       {
         "id": "D",
@@ -3982,7 +3982,7 @@
     "units": [
       "y",
       "e",
-      "o",
+      "k",
       "i"
     ],
     "template": "j o _ n",
@@ -4025,14 +4025,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "l"
       }
     ],
     "units": [
       "i",
       "y",
       "e",
-      "u"
+      "l"
     ],
     "template": "j o _ n t",
     "correctAnswer": "joint",
@@ -4074,14 +4074,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "c"
       }
     ],
     "units": [
       "a",
       "o",
       "e",
-      "i"
+      "c"
     ],
     "template": "l e _ v e",
     "correctAnswer": "leave",
@@ -4119,18 +4119,18 @@
       },
       {
         "id": "C",
-        "label": "n"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "a"
       }
     ],
     "units": [
       "m",
       "w",
-      "n",
-      "p"
+      "s",
+      "a"
     ],
     "template": "n a _ e",
     "correctAnswer": "name",
@@ -4164,22 +4164,22 @@
       },
       {
         "id": "B",
-        "label": "w"
-      },
-      {
-        "id": "C",
         "label": "f"
       },
       {
+        "id": "C",
+        "label": "g"
+      },
+      {
         "id": "D",
-        "label": "s"
+        "label": "l"
       }
     ],
     "units": [
       "v",
-      "w",
       "f",
-      "s"
+      "g",
+      "l"
     ],
     "template": "n e _ e r",
     "correctAnswer": "never",
@@ -4209,11 +4209,11 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "k"
       },
       {
         "id": "C",
@@ -4225,8 +4225,8 @@
       }
     ],
     "units": [
-      "w",
       "f",
+      "k",
       "s",
       "v"
     ],
@@ -4270,14 +4270,14 @@
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "m"
       }
     ],
     "units": [
       "c",
       "s",
       "k",
-      "p"
+      "m"
     ],
     "template": "p a _ k",
     "correctAnswer": "pack",
@@ -4307,15 +4307,15 @@
     "options": [
       {
         "id": "A",
-        "label": "y"
-      },
-      {
-        "id": "B",
         "label": "e"
       },
       {
+        "id": "B",
+        "label": "d"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "h"
       },
       {
         "id": "D",
@@ -4323,9 +4323,9 @@
       }
     ],
     "units": [
-      "y",
       "e",
-      "u",
+      "d",
+      "h",
       "i"
     ],
     "template": "p o _ n t",
@@ -4364,7 +4364,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4374,7 +4374,7 @@
     "units": [
       "e",
       "y",
-      "u",
+      "p",
       "i"
     ],
     "template": "p r a c t _ c e",
@@ -6044,14 +6044,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "h"
       }
     ],
     "units": [
       "j",
       "g",
       "k",
-      "b"
+      "h"
     ],
     "template": "a n _ e l",
     "correctAnswer": "angel",
@@ -6089,18 +6089,18 @@
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "e"
       }
     ],
     "units": [
       "m",
       "n",
-      "r",
-      "s"
+      "t",
+      "e"
     ],
     "template": "b a _ k",
     "correctAnswer": "bank",
@@ -6142,14 +6142,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "r"
       }
     ],
     "units": [
       "i",
       "y",
       "e",
-      "a"
+      "r"
     ],
     "template": "b o r _ n g",
     "correctAnswer": "boring",
@@ -6183,11 +6183,11 @@
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "i"
       },
       {
         "id": "D",
@@ -6196,8 +6196,8 @@
     ],
     "units": [
       "e",
-      "o",
-      "u",
+      "w",
+      "i",
       "a"
     ],
     "template": "c r _ n k",
@@ -6236,18 +6236,18 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "f"
       }
     ],
     "units": [
       "u",
       "o",
-      "a",
-      "i"
+      "b",
+      "f"
     ],
     "template": "c r _ s s",
     "correctAnswer": "cross",
@@ -6285,18 +6285,18 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "l"
       }
     ],
     "units": [
       "o",
       "u",
-      "a",
-      "i"
+      "g",
+      "l"
     ],
     "template": "c r _ s h",
     "correctAnswer": "crush",
@@ -6334,18 +6334,18 @@
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "s"
       }
     ],
     "units": [
       "k",
       "c",
-      "t",
-      "b"
+      "f",
+      "s"
     ],
     "template": "d a r _",
     "correctAnswer": "dark",
@@ -6379,22 +6379,22 @@
       },
       {
         "id": "B",
-        "label": "e"
-      },
-      {
-        "id": "C",
         "label": "y"
       },
       {
+        "id": "C",
+        "label": "c"
+      },
+      {
         "id": "D",
-        "label": "a"
+        "label": "g"
       }
     ],
     "units": [
       "i",
-      "e",
       "y",
-      "a"
+      "c",
+      "g"
     ],
     "template": "d _ g",
     "correctAnswer": "dig",
@@ -6436,14 +6436,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "a"
       }
     ],
     "units": [
       "v",
       "f",
       "w",
-      "s"
+      "a"
     ],
     "template": "d o _ e",
     "correctAnswer": "dove",
@@ -6485,14 +6485,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "s"
       }
     ],
     "units": [
       "y",
       "i",
       "e",
-      "o"
+      "s"
     ],
     "template": "d r _ l l",
     "correctAnswer": "drill",
@@ -6526,22 +6526,22 @@
       },
       {
         "id": "B",
-        "label": "e"
-      },
-      {
-        "id": "C",
         "label": "o"
       },
       {
+        "id": "C",
+        "label": "c"
+      },
+      {
         "id": "D",
-        "label": "i"
+        "label": "g"
       }
     ],
     "units": [
       "a",
-      "e",
       "o",
-      "i"
+      "c",
+      "g"
     ],
     "template": "f e _ r",
     "correctAnswer": "fear",
@@ -6583,14 +6583,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "t"
       }
     ],
     "units": [
       "a",
       "u",
       "o",
-      "e"
+      "t"
     ],
     "template": "f l _ a t",
     "correctAnswer": "float",
@@ -6632,14 +6632,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "h"
       }
     ],
     "units": [
       "f",
       "v",
       "w",
-      "s"
+      "h"
     ],
     "template": "g r o _ e",
     "correctAnswer": "grove",
@@ -6673,11 +6673,11 @@
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "w"
       },
       {
         "id": "D",
@@ -6686,8 +6686,8 @@
     ],
     "units": [
       "z",
-      "c",
-      "t",
+      "r",
+      "w",
       "s"
     ],
     "template": "h u _ k",
@@ -6718,15 +6718,15 @@
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "b"
       },
       {
         "id": "D",
@@ -6734,9 +6734,9 @@
       }
     ],
     "units": [
-      "t",
-      "c",
       "w",
+      "i",
+      "b",
       "k"
     ],
     "template": "l a _ e",
@@ -7045,7 +7045,7 @@
     "targetWord": "aeroplane",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "A large flying vehicle with wings and engines that carries passengers in the sky. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -7119,7 +7119,7 @@
     "targetWord": "blanket",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "You use this to cover yourself when you sleep. Put the letters in the correct order:",
+    "prompt": "A thick, warm cloth cover used on a bed to keep you warm. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -7561,7 +7561,7 @@
     "targetWord": "beach",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Choose the correct spelling:",
+    "prompt": "A sandy shore along the edge of the sea or ocean. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -7764,11 +7764,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "h"
       },
       {
         "id": "C",
@@ -7776,14 +7776,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
-      "o",
       "e",
+      "h",
       "a",
-      "i"
+      "m"
     ],
     "template": "c r _ c k",
     "correctAnswer": "crack",
@@ -7826,14 +7826,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
       "a",
       "e",
       "o",
-      "u"
+      "s"
     ],
     "template": "d e _ p",
     "correctAnswer": "deep",
@@ -7864,15 +7864,15 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
-      },
-      {
-        "id": "B",
         "label": "e"
       },
       {
+        "id": "B",
+        "label": "k"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "n"
       },
       {
         "id": "D",
@@ -7880,9 +7880,9 @@
       }
     ],
     "units": [
-      "a",
       "e",
-      "u",
+      "k",
+      "n",
       "i"
     ],
     "template": "d r _ n k",
@@ -7926,14 +7926,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "u"
       }
     ],
     "units": [
       "i",
       "e",
       "a",
-      "o"
+      "u"
     ],
     "template": "a n y t h _ n g",
     "correctAnswer": "anything",
@@ -8606,7 +8606,7 @@
     "targetWord": "hanging",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the letters to make the correct word.",
+    "prompt": "Attached or fixed from above with the lower part swinging free. Arrange the letters to make the word:",
     "options": [
       {
         "id": "A",

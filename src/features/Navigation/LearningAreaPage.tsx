@@ -5,9 +5,15 @@ import { LoadingState } from '../../components/ui/LoadingState';
 import { EmptyState } from '../../components/ui/EmptyState';
 import { LocalContentRepository } from '../../repositories/implementations/LocalContentRepository';
 import { ActivityCategory } from '../../types';
-import { Image, Puzzle, Blocks, BookOpen, PenTool, Languages } from 'lucide-react';
+import { Image, Puzzle, Blocks, BookOpen, PenTool, Languages, User } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ProgressService, LocalProgressRepository, CategoryProgress } from '../../progress';
+import {
+  ProgressService,
+  LocalProgressRepository,
+  CategoryProgress,
+  PROGRESS_STORAGE_KEY_V2,
+} from '../../progress';
+import { useStudent } from '../../student';
 
 const PRESENTATION_MAP: Record<ActivityCategory, Omit<CategoryPresentation, 'id'>> = {
   'picture-recognition': {
@@ -54,6 +60,7 @@ const ALL_CATEGORIES: ActivityCategory[] = [
 export function LearningAreaPage() {
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
   const navigate = useNavigate();
+  const { activeStudent } = useStudent();
   const [counts, setCounts] = useState<Record<ActivityCategory, number> | null>(null);
   const [progressByCategory, setProgressByCategory] = useState<Record<ActivityCategory, CategoryProgress> | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -62,7 +69,9 @@ export function LearningAreaPage() {
     async function loadData() {
       setIsLoading(true);
       const repo = new LocalContentRepository();
-      const progressService = new ProgressService(new LocalProgressRepository());
+      const progressService = new ProgressService(
+        new LocalProgressRepository(PROGRESS_STORAGE_KEY_V2)
+      );
       
       const newCounts = {} as Record<ActivityCategory, number>;
       const newProgress = {} as Record<ActivityCategory, CategoryProgress>;
@@ -74,7 +83,11 @@ export function LearningAreaPage() {
           category: cat 
         });
         newCounts[cat] = count;
-        newProgress[cat] = await progressService.getCategoryProgress(cat, count);
+        newProgress[cat] = await progressService.getCategoryProgress(
+          cat,
+          count,
+          activeStudent?.id
+        );
       }
       
       setCounts(newCounts);
@@ -83,7 +96,7 @@ export function LearningAreaPage() {
     }
     
     loadData();
-  }, [classId, subjectId]);
+  }, [classId, subjectId, activeStudent?.id]);
 
   if (isLoading) {
     return <Page><LoadingState message="கற்றல் பகுதி ஏற்றப்படுகிறது..." /></Page>;
@@ -104,22 +117,27 @@ export function LearningAreaPage() {
 
   return (
     <Page>
-      <div className="space-y-8 max-w-6xl mx-auto">
+      <div className="space-y-8 max-w-6xl mx-auto overflow-x-hidden">
         <div className="text-center space-y-2">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-text">தமிழ் கற்றல் பகுதி</h1>
-          <p className="text-xl text-text-muted">இன்று நீங்கள் பயில விரும்பும் பகுதியைப் தேர்ந்தெடுக்கவும்</p>
+          {activeStudent && (
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-100 text-primary-800 text-sm font-bold mb-1">
+              <User size={16} /> கற்பவர்: {activeStudent.name}
+            </div>
+          )}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-text">தமிழ் கற்றல் பகுதி</h1>
+          <p className="text-lg sm:text-xl text-text-muted">இன்று நீங்கள் பயில விரும்பும் பகுதியைப் தேர்ந்தெடுக்கவும்</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-8">
           <div 
-            className="col-span-1 md:col-span-2 lg:col-span-3 bg-primary-50 p-8 rounded-3xl border-2 border-primary-200 hover:border-primary-400 cursor-pointer transition-all flex items-center justify-between"
+            className="col-span-1 md:col-span-2 lg:col-span-3 bg-primary-50 p-4 sm:p-8 rounded-2xl sm:rounded-3xl border-2 border-primary-200 hover:border-primary-400 cursor-pointer transition-all flex items-center justify-between gap-3"
             onClick={() => navigate(`/session/${classId}/${subjectId}/setup`)}
           >
             <div>
-              <h2 className="text-2xl font-bold text-primary-900">கலப்பு பயிற்சி</h2>
-              <p className="text-primary-700 mt-1">அனைத்துப் பகுதிகளிலிருந்தும் கலந்து பயிற்சி செய்ய</p>
+              <h2 className="text-xl sm:text-2xl font-bold text-primary-900">கலப்பு பயிற்சி</h2>
+              <p className="text-sm sm:text-base text-primary-700 mt-1">அனைத்துப் பகுதிகளிலிருந்தும் கலந்து பயிற்சி செய்ய</p>
             </div>
-            <div className="bg-primary-500 text-white font-bold py-3 px-6 rounded-2xl shadow-button">
+            <div className="bg-primary-500 text-white font-bold py-2.5 px-4 sm:py-3 sm:px-6 rounded-2xl shadow-button text-sm sm:text-base whitespace-nowrap">
               தொடங்கு
             </div>
           </div>

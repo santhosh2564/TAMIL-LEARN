@@ -4,8 +4,12 @@ import * as path from 'path';
 import { Activity } from '../src/types';
 import { AssetResolver, AssetReference } from '../src/engine/assets';
 
-const TAMIL_ACTIVITIES_FILE = path.resolve('src/content/class-3/tamil/term-1/activities.json');
-const TAMIL_MANIFEST_FILE = path.resolve('src/content/class-3/tamil/term-1/assets.json');
+const TAMIL_ACTIVITIES_FILE = fs.existsSync(path.resolve('src/content/class-3/tamil/activities.json'))
+  ? path.resolve('src/content/class-3/tamil/activities.json')
+  : path.resolve('src/content/class-3/tamil/term-1/activities.json');
+const TAMIL_MANIFEST_FILE = fs.existsSync(path.resolve('src/content/class-3/tamil/asset-manifest.json'))
+  ? path.resolve('src/content/class-3/tamil/asset-manifest.json')
+  : path.resolve('src/content/class-3/tamil/term-1/assets.json');
 
 const ENG_DIR = path.resolve('src/content/class-3/english');
 const ENG_ASSETS_FILE = path.join(ENG_DIR, 'assets.json');
@@ -30,10 +34,11 @@ function run() {
   tamilActivities.forEach(activity => {
     tamilStats.checked++;
     
-    if (activity.category === 'picture-recognition' || activity.id === 'Q013') {
+    if (activity.image || activity.category === 'picture-recognition') {
       tamilStats.requiringImages++;
+      const assetId = activity.image?.source || `class3-tamil-picture-${activity.id.toLowerCase()}`;
       const ref: AssetReference = {
-        id: `class3-tamil-picture-${activity.id.toLowerCase()}`,
+        id: assetId,
         type: 'image'
       };
       

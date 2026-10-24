@@ -226,7 +226,7 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
 
     // 1. Reused Tamil assets must resolve
     const reusedKeys = [
-      'eng-fruit',
+      'eng-apple',
       'eng-bag',
       'eng-box',
       'eng-dog',
@@ -253,8 +253,9 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
 
   it('renders ActivityAsset with real image for reused asset and fallback UI for missing asset', () => {
     // 1. Reused asset (rat -> Q013_Eli.jpg)
-    const reusedAct = allActivities.find(a => a.targetWord?.toLowerCase() === 'rat' && a.category === 'picture-recognition')!;
+    const reusedAct = allActivities.find(a => a.targetWord?.toLowerCase() === 'rat')!;
     expect(reusedAct).toBeDefined();
+
 
     const def = activityRegistry.getDefinition(reusedAct.category, reusedAct.variant)!;
     const Component = def.component;

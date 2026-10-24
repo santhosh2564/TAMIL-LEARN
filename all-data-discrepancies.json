@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "FTS0052",
+    "module": "Module 1",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "அலை",
+    "answer": "அலை",
+    "optionsOrUnits": "லை | அ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0077",
+    "module": "Module 1",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஆத்திசூடி",
+    "answer": "ஆத்திசூடி",
+    "optionsOrUnits": "நீதிப் பாடல்கள் கொண்ட நூலின் தலைப்பு: ___.",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0064",
+    "module": "Module 1",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "அழைப்பு",
+    "answer": "அழைப்பு",
+    "optionsOrUnits": "ழை | பு | அ | ப்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0073",
+    "module": "Module 1",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "ஆட்டம்",
+    "answer": "ஆட்டம்",
+    "optionsOrUnits": "ஆ | ம் | ட் | ட",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0095",
+    "module": "Module 1",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "இனிது",
+    "answer": "இனிது",
+    "optionsOrUnits": "னி | து | இ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0097",
+    "module": "Module 1",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "இனிப்பு",
+    "answer": "இனிப்பு",
+    "optionsOrUnits": "இ | பு | னி | ப்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0101",
+    "module": "Module 1",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "இன்பம்",
+    "answer": "இன்பம்",
+    "optionsOrUnits": "இ | ம் | ன் | ப",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0121",
+    "module": "Module 1",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "ஈக்கள்",
+    "answer": "ஈக்கள்",
+    "optionsOrUnits": "ஈ | ள் | க் | க",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0169",
+    "module": "Module 2",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "ஊர்த்தலைவர்",
+    "answer": "ஊர்த்தலைவர்",
+    "optionsOrUnits": "ஊர் | வர் | தலை",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0143",
+    "module": "Module 2",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "உயர்ந்த",
+    "answer": "உயர்ந்த",
+    "optionsOrUnits": "உ | ந் | த | ய | ர்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0189",
+    "module": "Module 2",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஏன்",
+    "answer": "ஏன்",
+    "optionsOrUnits": "ன் | ஏ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0262",
+    "module": "Module 2",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கற்று",
+    "answer": "கற்று",
+    "optionsOrUnits": "று | க | ற்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0144",
+    "module": "Module 2",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "உயர்வு",
+    "answer": "உயர்வு",
+    "optionsOrUnits": "உ | வு | ய | ர்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0165",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஊது",
+    "answer": "ஊது",
+    "optionsOrUnits": "து | ரு | டு | த",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0171",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஊற்ற",
+    "answer": "ஊற்ற",
+    "optionsOrUnits": "ற்ற | ரு | ற் | த்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0175",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "எண்",
+    "answer": "எண்",
+    "optionsOrUnits": "ண் | ன் | ணு | ர்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0194",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஏறு",
+    "answer": "ஏறு",
+    "optionsOrUnits": "று | ரு | ற் | ர",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0196",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஏழு",
+    "answer": "ஏழு",
+    "optionsOrUnits": "ழு | ழ | ளு | லு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0265",
+    "module": "Module 2",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கலை",
+    "answer": "கலை",
+    "optionsOrUnits": "லை | ளை | ல | ழை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0249",
+    "module": "Module 2",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "கரிக்கோல்",
+    "answer": "கரிக்கோல்",
+    "optionsOrUnits": "கோ | ல் | கரி",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0276",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "கவனிக்கவில்லை",
+    "answer": "கவனிக்கவில்லை",
+    "optionsOrUnits": "னிக் | க | வில் | லை | கவ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0279",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "கவியரசி",
+    "answer": "கவியரசி",
+    "optionsOrUnits": "கவி | சி | யர",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0324",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "குருவி",
+    "answer": "குருவி",
+    "optionsOrUnits": "வி | கு | ரு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0359",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "கொழு கொழு",
+    "answer": "கொழு கொழு",
+    "optionsOrUnits": "கொ | ழு | கொ | ழு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0373",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சண்டை",
+    "answer": "சண்டை",
+    "optionsOrUnits": "டை | ச | ண்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0374",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சத்தம்",
+    "answer": "சத்தம்",
+    "optionsOrUnits": "ம் | ச | த் | த",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0379",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சமைக்க",
+    "answer": "சமைக்க",
+    "optionsOrUnits": "க | ச | மை | க்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0382",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சரிசெய்ய",
+    "answer": "சரிசெய்ய",
+    "optionsOrUnits": "ய | சரி | செ | ய்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0398",
+    "module": "Module 3",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சிக்கியது",
+    "answer": "சிக்கியது",
+    "optionsOrUnits": "கியது | சிக்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0272",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கழுத்துப்பட்டி",
+    "answer": "கழுத்துப்பட்டி",
+    "optionsOrUnits": "கழு | ப்ப | ட்டி | த்து",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0278",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கவிதை",
+    "answer": "கவிதை",
+    "optionsOrUnits": "வி | தை | க",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0302",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கிழமை",
+    "answer": "கிழமை",
+    "optionsOrUnits": "ழ | கி | மை",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0307",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கீழோர்",
+    "answer": "கீழோர்",
+    "optionsOrUnits": "ழோ | ர் | கீ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0312",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "குட்டையான",
+    "answer": "குட்டையான",
+    "optionsOrUnits": "டை | யா | ன | கு | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0320",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "குப்பைத்தொட்டி",
+    "answer": "குப்பைத்தொட்டி",
+    "optionsOrUnits": "தொ | ட் | டி | குப் | பை | த்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0331",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "குலுங்குது",
+    "answer": "குலுங்குது",
+    "optionsOrUnits": "குது | கு | லு | ங்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0334",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "குளித்தல்",
+    "answer": "குளித்தல்",
+    "optionsOrUnits": "த் | தல் | கு | ளி",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0342",
+    "module": "Module 3",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "கூட்டி",
+    "answer": "கூட்டி",
+    "optionsOrUnits": "டி | கூ | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0347",
+    "module": "Module 3",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "கேள்வி",
+    "answer": "கேள்வி",
+    "optionsOrUnits": "வி | கே | ள்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0376",
+    "module": "Module 3",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சந்தோஷம்",
+    "answer": "சந்தோஷம்",
+    "optionsOrUnits": "ஷம் | ச | ந் | தோ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0378",
+    "module": "Module 3",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சமுதாயம்",
+    "answer": "சமுதாயம்",
+    "optionsOrUnits": "ம் | ச | மு | தா | ய",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0383",
+    "module": "Module 3",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சரித்திரம்",
+    "answer": "சரித்திரம்",
+    "optionsOrUnits": "ம் | சரி | த் | தி | ர",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0392",
+    "module": "Module 3",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சாதிகள்",
+    "answer": "சாதிகள்",
+    "optionsOrUnits": "கள் | சாதி",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0273",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கழுவ",
+    "answer": "கழுவ",
+    "optionsOrUnits": "ழு | வ | க",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0277",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கவலை",
+    "answer": "கவலை",
+    "optionsOrUnits": "வ | வா | வு | ப",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0301",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கிளை",
+    "answer": "கிளை",
+    "optionsOrUnits": "ளை | லை | ள | ழை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0306",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கீழே",
+    "answer": "கீழே",
+    "optionsOrUnits": "ழே | ழ | ளே | லே",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0308",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கீழ்",
+    "answer": "கீழ்",
+    "optionsOrUnits": "ழ் | ழ | ள் | ல்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0310",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "குடை",
+    "answer": "குடை",
+    "optionsOrUnits": "டை | டே | டய் | ட",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0326",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "குறை",
+    "answer": "குறை",
+    "optionsOrUnits": "றை | ரை | ளை | ழை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0333",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "குளி",
+    "answer": "குளி",
+    "optionsOrUnits": "ளி | லி | ழி | ளீ",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0346",
+    "module": "Module 3",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "கேள்",
+    "answer": "கேள்",
+    "optionsOrUnits": "ள் | ல் | ளே | லே",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0386",
+    "module": "Module 3",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "சறுக்குப்பலகை",
+    "answer": "சறுக்குப்பலகை",
+    "optionsOrUnits": "க்கு | பலகை | சறு",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0365",
+    "module": "Module 3",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "கோலிகுண்டு",
+    "answer": "கோலிகுண்டு",
+    "optionsOrUnits": "குண்டு | கோ | லி",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0377",
+    "module": "Module 3",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "சன்னல்",
+    "answer": "சன்னல்",
+    "optionsOrUnits": "ல் | ச | ன் | ன",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0384",
+    "module": "Module 3",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "சருகு",
+    "answer": "சருகு",
+    "optionsOrUnits": "கு | ச | ரு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0413",
+    "module": "Module 4",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "சிறிய",
+    "answer": "சிறிய",
+    "optionsOrUnits": "ய | சி | றி",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0444",
+    "module": "Module 4",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "செப்டம்பர்",
+    "answer": "செப்டம்பர்",
+    "optionsOrUnits": "பர் | செப் | டம்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0468",
+    "module": "Module 4",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஜவஹர்லால்",
+    "answer": "ஜவஹர்லால்",
+    "optionsOrUnits": "லால் | ஜவ | ஹர்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0425",
+    "module": "Module 4",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "சுமப்பேன்",
+    "answer": "சுமப்பேன்",
+    "optionsOrUnits": "பேன் | சு | ம | ப்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0462",
+    "module": "Module 4",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "சோம்பல்",
+    "answer": "சோம்பல்",
+    "optionsOrUnits": "பல் | சோ | ம்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0480",
+    "module": "Module 4",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "தட்டு",
+    "answer": "தட்டு",
+    "optionsOrUnits": "டு | த | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0497",
+    "module": "Module 4",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "தலைநகர்",
+    "answer": "தலைநகர்",
+    "optionsOrUnits": "ந | க | ர் | த | லை",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0412",
+    "module": "Module 4",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சிறிது",
+    "answer": "சிறிது",
+    "optionsOrUnits": "றி | ரி | று | ரு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0424",
+    "module": "Module 4",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "சுத்தம்",
+    "answer": "சுத்தம்",
+    "optionsOrUnits": "ம் | சு | த் | த",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0445",
+    "module": "Module 4",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "செய்திகள்",
+    "answer": "செய்திகள்",
+    "optionsOrUnits": "கள் | செ | ய் | தி",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0407",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "சிரி",
+    "answer": "சிரி",
+    "optionsOrUnits": "ரி | றி | லி | வி",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0420",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "சீவி",
+    "answer": "சீவி",
+    "optionsOrUnits": "வி | பி | லி | மி",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0449",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "செல்",
+    "answer": "செல்",
+    "optionsOrUnits": "ல் | ள் | ற் | ல",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0461",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "சொல்",
+    "answer": "சொல்",
+    "optionsOrUnits": "ல் | ள் | ற் | ல",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0470",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஜாதி",
+    "answer": "ஜாதி",
+    "optionsOrUnits": "தி | தீ | டி | து",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0473",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஜூன்",
+    "answer": "ஜூன்",
+    "optionsOrUnits": "ன் | ன | ல் | ண்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0474",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ஜூலை",
+    "answer": "ஜூலை",
+    "optionsOrUnits": "லை | ன் | ல | ளை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0478",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தடு",
+    "answer": "தடு",
+    "optionsOrUnits": "டு | டூ | து | று",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0494",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தரை",
+    "answer": "தரை",
+    "optionsOrUnits": "ரை | றை | லை | ளை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0495",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தலை",
+    "answer": "தலை",
+    "optionsOrUnits": "லை | ளை | ல | றை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0504",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தவளை",
+    "answer": "தவளை",
+    "optionsOrUnits": "ளை | லை | ளா | ளு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0529",
+    "module": "Module 4",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "திற",
+    "answer": "திற",
+    "optionsOrUnits": "ற | ர | று | ரு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0511",
+    "module": "Module 4",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "தார்ச்சாலை",
+    "answer": "தார்ச்சாலை",
+    "optionsOrUnits": "தார்ச்சாலை | மண்சாலை | பாதை | ரயில்பாதை",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0542",
+    "module": "Module 5",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "துள்ளிக்குதித்து",
+    "answer": "துள்ளிக்குதித்து",
+    "optionsOrUnits": "குதி | த்து | துள்ளி",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0618",
+    "module": "Module 5",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "நிர்வாகம்",
+    "answer": "நிர்வாகம்",
+    "optionsOrUnits": "கம் | நிர் | வா | க",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0536",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "துடைக்க",
+    "answer": "துடைக்க",
+    "optionsOrUnits": "க்க | து | டை",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0543",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "துவைக்க",
+    "answer": "துவைக்க",
+    "optionsOrUnits": "க்க | து | வை",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0544",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "தூங்கு",
+    "answer": "தூங்கு",
+    "optionsOrUnits": "கு | தூ | ங்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0567",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "தொட்டனைத்து",
+    "answer": "தொட்டனைத்து",
+    "optionsOrUnits": "னை | த்து | தொ | ட்ட",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0573",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "தொலைந்துவிட்டால்",
+    "answer": "தொலைந்துவிட்டால்",
+    "optionsOrUnits": "விட் | டால் | தொ | லை | ந்து",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0631",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "நீந்து",
+    "answer": "நீந்து",
+    "optionsOrUnits": "து | நீ | ந்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0653",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "நோயின்றி",
+    "answer": "நோயின்றி",
+    "optionsOrUnits": "றி | நோ | யி | ன்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0658",
+    "module": "Module 5",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பங்கேற்பு",
+    "answer": "பங்கேற்பு",
+    "optionsOrUnits": "கே | ற்பு | பங்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0550",
+    "module": "Module 5",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "தெய்வம்",
+    "answer": "தெய்வம்",
+    "optionsOrUnits": "வம் | தெ | ய்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0552",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தேடல்",
+    "answer": "தேடல்",
+    "optionsOrUnits": "ட | த | ர | ற",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0555",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தேனீ",
+    "answer": "தேனீ",
+    "optionsOrUnits": "னீ | நீ | னை | னா",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0559",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தேர்",
+    "answer": "தேர்",
+    "optionsOrUnits": "ர் | ல் | ன் | ற்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0560",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "தேவை",
+    "answer": "தேவை",
+    "optionsOrUnits": "வை | வி | வு | வா",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0584",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நட",
+    "answer": "நட",
+    "optionsOrUnits": "ட | ண | த | ல",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0586",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நடு",
+    "answer": "நடு",
+    "optionsOrUnits": "டு | று | லு | ணு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0601",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நல்ல",
+    "answer": "நல்ல",
+    "optionsOrUnits": "ல | ள | ழ | ர",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0605",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நாடு",
+    "answer": "நாடு",
+    "optionsOrUnits": "டு | டி | து | று",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0610",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நாளை",
+    "answer": "நாளை",
+    "optionsOrUnits": "ளை | லை | ளே | ழை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0611",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நாள்",
+    "answer": "நாள்",
+    "optionsOrUnits": "ள் | ல் | ற் | ண்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0622",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நில்",
+    "answer": "நில்",
+    "optionsOrUnits": "ல் | ள் | ற் | ன்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0641",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "நூறு",
+    "answer": "நூறு",
+    "optionsOrUnits": "று | றி | ரு | ளு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0662",
+    "module": "Module 5",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பசுமை",
+    "answer": "பசுமை",
+    "optionsOrUnits": "மை | மே | ம | வை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0652",
+    "module": "Module 5",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "நோயினுக்கு",
+    "answer": "நோயினுக்கு",
+    "optionsOrUnits": "க்கு | நோ | யினு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0674",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பட்டுக்குட்டி",
+    "answer": "பட்டுக்குட்டி",
+    "optionsOrUnits": "க்கு | ட்டி | பட்டு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0680",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பண்பு",
+    "answer": "பண்பு",
+    "optionsOrUnits": "பு | ப | ண்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0730",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பாதுஷா",
+    "answer": "பாதுஷா",
+    "optionsOrUnits": "ஷா | பாது",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0736",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பாய்தல்",
+    "answer": "பாய்தல்",
+    "optionsOrUnits": "தல் | பாய்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0751",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பிறப்பு",
+    "answer": "பிறப்பு",
+    "optionsOrUnits": "பு | பி | ற | ப்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0791",
+    "module": "Module 6",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பெரியப்பா",
+    "answer": "பெரியப்பா",
+    "optionsOrUnits": "ப் | பா | பெ | ரிய",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0760",
+    "module": "Module 6",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "புத்திக்கூர்மை",
+    "answer": "புத்திக்கூர்மை",
+    "optionsOrUnits": "கூர் | மை | புத் | திக்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0788",
+    "module": "Module 6",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "பெரிதாகிறேனே",
+    "answer": "பெரிதாகிறேனே",
+    "optionsOrUnits": "கி | றே | னே | பெரி | தா",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0677",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பணியாரம்",
+    "answer": "பணியாரம்",
+    "optionsOrUnits": "ரம் | ர | ம் | லம்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0688",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பயணிகள்",
+    "answer": "பயணிகள்",
+    "optionsOrUnits": "கள் | கல் | ல் | ள்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0705",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பல",
+    "answer": "பல",
+    "optionsOrUnits": "ல | ப | ற | வை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0717",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பழகு",
+    "answer": "பழகு",
+    "optionsOrUnits": "ழ | ப | ற | வை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0726",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பாடு",
+    "answer": "பாடு",
+    "optionsOrUnits": "டு | ப | ற | வை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0749",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பிதா",
+    "answer": "பிதா",
+    "optionsOrUnits": "தா | ப | ற | வை",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0756",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "புகை",
+    "answer": "புகை",
+    "optionsOrUnits": "கை | கா | கு | கோ",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0768",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "புல்",
+    "answer": "புல்",
+    "optionsOrUnits": "ல் | ள் | ற் | ன்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0769",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "புளி",
+    "answer": "புளி",
+    "optionsOrUnits": "ளி | லி | ழி | ளு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0771",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "புழு",
+    "answer": "புழு",
+    "optionsOrUnits": "ழு | ளு | லு | ழி",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0785",
+    "module": "Module 6",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பெண்",
+    "answer": "பெண்",
+    "optionsOrUnits": "ண் | ன் | ல் | ண",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0718",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பழங்கள்",
+    "answer": "பழங்கள்",
+    "optionsOrUnits": "பழங்கள் | பறக்கும் | பறவை | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0719",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பழச்சாறு",
+    "answer": "பழச்சாறு",
+    "optionsOrUnits": "பழச்சாறு | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0720",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பழப்பாகு",
+    "answer": "பழப்பாகு",
+    "optionsOrUnits": "பழப்பாகு | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0723",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பாக்ஸ்",
+    "answer": "பாக்ஸ்",
+    "optionsOrUnits": "பாக்ஸ் | பறக்கும் | பறவை | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0727",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பாட்டி",
+    "answer": "பாட்டி",
+    "optionsOrUnits": "பாட்டி | பறக்கும் | பறவை | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0742",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "பார்வையாளர்",
+    "answer": "பார்வையாளர்",
+    "optionsOrUnits": "பார்வையாளர் | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0761",
+    "module": "Module 6",
+    "category": "arrange-word",
+    "originalActivity": "Picture → Arrange",
+    "targetWord": "புத்திசாலி",
+    "answer": "புத்திசாலி",
+    "optionsOrUnits": "சா | லி | புத் | த",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0711",
+    "module": "Module 6",
+    "category": "picture-recognition",
+    "originalActivity": "Picture → Select",
+    "targetWord": "பல்",
+    "answer": "பல்",
+    "optionsOrUnits": "ல் | ப",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0825",
+    "module": "Module 7",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "மடிக்கலாம்",
+    "answer": "மடிக்கலாம்",
+    "optionsOrUnits": "லாம் | மடிக்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0830",
+    "module": "Module 7",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "மத்தளம்",
+    "answer": "மத்தளம்",
+    "optionsOrUnits": "த்த | ளம் | மத்",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS0882",
+    "module": "Module 7",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "முத்துசாமி",
+    "answer": "முத்துசாமி",
+    "optionsOrUnits": "சாமி | முத்து",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0797",
+    "module": "Module 7",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "பேச்சு",
+    "answer": "பேச்சு",
+    "optionsOrUnits": "சு | பே | ச்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0831",
+    "module": "Module 7",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "மத்து",
+    "answer": "மத்து",
+    "optionsOrUnits": "து | ம | த்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0841",
+    "module": "Module 7",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "மருத்துவர்",
+    "answer": "மருத்துவர்",
+    "optionsOrUnits": "த்து | மரு | வர்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0846",
+    "module": "Module 7",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "மறைந்திருந்தவை",
+    "answer": "மறைந்திருந்தவை",
+    "optionsOrUnits": "தவை | மறைந் | திருந்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0795",
+    "module": "Module 7",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "பெருமை",
+    "answer": "பெருமை",
+    "optionsOrUnits": "மை | பெரு",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0800",
+    "module": "Module 7",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "பொது அறிவு",
+    "answer": "பொது அறிவு",
+    "optionsOrUnits": "அறி | வு | பொ | து",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0884",
+    "module": "Module 7",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "முன்னேற்றம்",
+    "answer": "முன்னேற்றம்",
+    "optionsOrUnits": "றம் | முன் | னே | ற்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0899",
+    "module": "Module 7",
+    "category": "meaning-match",
+    "originalActivity": "English Meaning → Tamil Word",
+    "targetWord": "மெய்",
+    "answer": "மெய்",
+    "optionsOrUnits": "ய் | மெ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0807",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "பொரி",
+    "answer": "பொரி",
+    "optionsOrUnits": "ரி | றி | லி | ளி",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0813",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "போடு",
+    "answer": "போடு",
+    "optionsOrUnits": "டு | டி | டா | டே",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0814",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "போர்",
+    "answer": "போர்",
+    "optionsOrUnits": "ர் | ல் | ள் | ன்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0816",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மகன்",
+    "answer": "மகன்",
+    "optionsOrUnits": "கன் | கள் | கல் | கால்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0817",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மகள்",
+    "answer": "மகள்",
+    "optionsOrUnits": "கள் | கன் | கல் | கால்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0848",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மலை",
+    "answer": "மலை",
+    "optionsOrUnits": "லை | ளை | லு | ளு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0855",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மாடு",
+    "answer": "மாடு",
+    "optionsOrUnits": "டு | ல் | ள் | ல்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0863",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மாலை",
+    "answer": "மாலை",
+    "optionsOrUnits": "லை | ளை | லு | ளு",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0893",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மூடி",
+    "answer": "மூடி",
+    "optionsOrUnits": "டி | ல் | ள் | ல்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0910",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மேலே",
+    "answer": "மேலே",
+    "optionsOrUnits": "லே | லை | ளே | ள்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0912",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மேல்",
+    "answer": "மேல்",
+    "optionsOrUnits": "ல் | ள் | லை | ளே",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0921",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "மோர்",
+    "answer": "மோர்",
+    "optionsOrUnits": "ர் | ல் | ள் | ன்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0924",
+    "module": "Module 7",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "யார்",
+    "answer": "யார்",
+    "optionsOrUnits": "ர் | ள் | ல் | ற்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0942",
+    "module": "Module 8",
+    "category": "arrange-word",
+    "originalActivity": "Arrange Tamil Units",
+    "targetWord": "வம்புப்பேச்சு",
+    "answer": "வம்புப்பேச்சு",
+    "optionsOrUnits": "பேச்சு | வம்பு",
+    "issue": "Arrange units multiset does not match target word (missing letter or mislabeled activity)"
+  },
+  {
+    "id": "FTS1054",
+    "module": "Module 8",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "வையம்பட்டி",
+    "answer": "வையம்பட்டி",
+    "optionsOrUnits": "டி | வை | ய | ம் | ப | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS1055",
+    "module": "Module 8",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஷாஜஹான்",
+    "answer": "ஷாஜஹான்",
+    "optionsOrUnits": "ஹா | ன் | ஷா | ஜ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS1058",
+    "module": "Module 8",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஹரீஷ்",
+    "answer": "ஹரீஷ்",
+    "optionsOrUnits": "ஷ் | ஹ | ரீ",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS1059",
+    "module": "Module 8",
+    "category": "context-choice",
+    "originalActivity": "Context → Select/Drag",
+    "targetWord": "ஹிலாரி",
+    "answer": "ஹிலாரி",
+    "optionsOrUnits": "ரி | ஹி | லா",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0929",
+    "module": "Module 8",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "லட்டு",
+    "answer": "லட்டு",
+    "optionsOrUnits": "டு | ல | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0939",
+    "module": "Module 8",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "வண்ணத்துப்பூச்சி",
+    "answer": "வண்ணத்துப்பூச்சி",
+    "optionsOrUnits": "பூச்சி | வண்ண | த் | துப்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0944",
+    "module": "Module 8",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "வரிக்குதிரை",
+    "answer": "வரிக்குதிரை",
+    "optionsOrUnits": "குதி | ரை | வரிக்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS1033",
+    "module": "Module 8",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "வீரர்கள்",
+    "answer": "வீரர்கள்",
+    "optionsOrUnits": "ள் | வீ | ர | ர் | க",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS1036",
+    "module": "Module 8",
+    "category": "spelling-choice",
+    "originalActivity": "Correct Spelling",
+    "targetWord": "வெட்ட",
+    "answer": "வெட்ட",
+    "optionsOrUnits": "ட | வெ | ட்",
+    "issue": "Correct answer not in option choices (options contain units or distractors)"
+  },
+  {
+    "id": "FTS0928",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "ரோஜா",
+    "answer": "ரோஜா",
+    "optionsOrUnits": "ஜா | ச | ஷா | டா",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0932",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வடை",
+    "answer": "வடை",
+    "optionsOrUnits": "டை | டே | டா | டி",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0933",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வட்ட",
+    "answer": "வட்டம்",
+    "optionsOrUnits": "ட | டு | டே | டோ",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0984",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வான்",
+    "answer": "வான்",
+    "optionsOrUnits": "ன் | ண் | ம் | ல்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0988",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வாய்",
+    "answer": "வாய்",
+    "optionsOrUnits": "ய் | யி | ள் | ம்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0995",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வாள்",
+    "answer": "வாள்",
+    "optionsOrUnits": "ள் | ல் | ண் | ம்",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS0999",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "விடு",
+    "answer": "விடு",
+    "optionsOrUnits": "டு | டை | து | று",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS1005",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "விதை",
+    "answer": "விதை",
+    "optionsOrUnits": "தை | தி | து | தா",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS1017",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வில்",
+    "answer": "வில்",
+    "optionsOrUnits": "ல் | ள் | ழ் | ல",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS1022",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "விழு",
+    "answer": "விழு",
+    "optionsOrUnits": "ழு | ழா | ளு | று",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS1027",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வீசு",
+    "answer": "வீசு",
+    "optionsOrUnits": "சு | சூ | சை | சா",
+    "issue": "Word completion answer not in option choices"
+  },
+  {
+    "id": "FTS1050",
+    "module": "Module 8",
+    "category": "word-completion",
+    "originalActivity": "Missing Letter",
+    "targetWord": "வேர்",
+    "answer": "வேர்",
+    "optionsOrUnits": "ர் | ல் | ள் | ற்",
+    "issue": "Word completion answer not in option choices"
+  }
+]

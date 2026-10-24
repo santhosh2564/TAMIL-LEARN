@@ -10,6 +10,7 @@ import { SessionPage } from '../features/Session/SessionPage';
 import { SessionSetupPage } from '../features/Session/SessionSetupPage';
 import { ResultsPage } from '../features/Session/ResultsPage';
 import { SettingsPage } from '../features/Settings/SettingsPage';
+import { StudentSelectionPage } from '../features/Student/StudentSelectionPage';
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+      },
+      {
+        path: 'students',
+        element: <StudentSelectionPage />,
       },
       {
         path: 'classes',

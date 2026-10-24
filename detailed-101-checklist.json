@@ -1,0 +1,911 @@
+[
+  {
+    "id": "FTS0052",
+    "module": "Module 1",
+    "activity": "Context → Select/Drag",
+    "word": "அலை",
+    "q": "கடலில் ______ உயரமாக எழுகிறது.",
+    "curOptions": "லை|அ",
+    "file": "Module_1\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0077",
+    "module": "Module 1",
+    "activity": "Context → Select/Drag",
+    "word": "ஆத்திசூடி",
+    "q": "பாடத்தின் தலைப்பைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுத்து இடத்தில் வைக்கவும்.",
+    "curOptions": "நீதிப் பாடல்கள் கொண்ட நூலின் தலைப்பு: ___.",
+    "file": "Module_1\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0064",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "அழைப்பு",
+    "q": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "curOptions": "ழை | பு | அ | ப்",
+    "file": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0073",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "ஆட்டம்",
+    "q": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "curOptions": "ஆ|ம்|ட்|ட",
+    "file": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0095",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "இனிது",
+    "q": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "curOptions": "னி| து |இ",
+    "file": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0097",
+    "module": "Module 1",
+    "activity": "Correct Spelling",
+    "word": "இனிப்பு",
+    "q": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "curOptions": "இ|பு|னி|ப்",
+    "file": "Module_1\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0101",
+    "module": "Module 1",
+    "activity": "English Meaning → Tamil Word",
+    "word": "இன்பம்",
+    "q": "Joy / Pleasure என்பதற்கான சரியான தமிழ்ச் சொல்லைத் சரியாக அமைக்கவும்.",
+    "curOptions": "இ|ம் |ன்|ப",
+    "file": "Module_1\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0121",
+    "module": "Module 1",
+    "activity": "Picture → Select",
+    "word": "ஈக்கள்",
+    "q": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "curOptions": "ஈ|ள்|க்|க",
+    "file": "Module_1\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0169",
+    "module": "Module 2",
+    "activity": "Arrange Tamil Units",
+    "word": "ஊர்த்தலைவர்",
+    "q": "ஊருக்குத் தலைமை வகிப்பவரை ______ என்போம். என்பதற்கான சொல்லை அமைக்கவும்.",
+    "curOptions": "ஊர்  | வர் | தலை",
+    "file": "Module_2\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0143",
+    "module": "Module 2",
+    "activity": "Context → Select/Drag",
+    "word": "உயர்ந்த",
+    "q": "Tall / High என்பதைக் குறிக்கும் சொல்லைத் சரியாக அமைக்கவும்.",
+    "curOptions": "உ|ந்|த|ய|ர்",
+    "file": "Module_2\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0189",
+    "module": "Module 2",
+    "activity": "Context → Select/Drag",
+    "word": "ஏன்",
+    "q": "எழுத்துகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.: “நீ ______?” வரவில்லை? ",
+    "curOptions": "ன் |ஏ",
+    "file": "Module_2\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0262",
+    "module": "Module 2",
+    "activity": "Correct Spelling",
+    "word": "கற்று",
+    "q": "புதிய விஷயங்களைப் படித்து ______ கொள்வோம்.",
+    "curOptions": "று | க | ற்",
+    "file": "Module_2\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0144",
+    "module": "Module 2",
+    "activity": "English Meaning → Tamil Word",
+    "word": "உயர்வு",
+    "q": "Rise / High status என்பதற்கான  தமிழ்ச் சொல்லைத் சரியாக அமைக்கவும்.",
+    "curOptions": "உ|வு|ய|ர்",
+    "file": "Module_2\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0249",
+    "module": "Module 2",
+    "activity": "Picture → Arrange",
+    "word": "கரிக்கோல்",
+    "q": "படத்தைப் பார்த்து, எழுத்துத் துண்டுகளைச் சேர்த்து சொல்லை அமைக்கவும்.",
+    "curOptions": "கோ|ல் | கரி",
+    "file": "Module_2\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0276",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கவனிக்கவில்லை",
+    "q": "ஆசிரியர் சொன்னதை அவன் ______.",
+    "curOptions": "னிக்|க|வில்|லை|கவ",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0279",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கவியரசி",
+    "q": "அம்மாவின் பெயர் எது?",
+    "curOptions": "கவி|சி|யர",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0324",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "குருவி",
+    "q": "சிறியதாகப் பறக்கும் இந்தப் பறவையின் பெயர் எது?",
+    "curOptions": "வி|கு|ரு",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0359",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "கொழு கொழு",
+    "q": "ஒருவர் சற்று பருமனாக இருப்பதை ______ என்று சொல்வோம்.",
+    "curOptions": "கொ|ழு | கொ|ழு",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0373",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சண்டை",
+    "q": "இருவர் கோபமாக ஒருவருடன் ஒருவர் மோதிக் கொள்வதை ______ என்போம்.",
+    "curOptions": "டை | ச|ண்",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0374",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சத்தம்",
+    "q": "அதிகமாகவும் உரக்கவும் கேட்கும் ஒலியை ______ என்போம்.",
+    "curOptions": "ம் | ச|த்|த",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0379",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சமைக்க",
+    "q": "சமையலறையில் உணவு செய்வதை ______ என்போம்.",
+    "curOptions": "க | ச|மை|க்",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0382",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சரிசெய்ய",
+    "q": "பழுதான பொருளை மீண்டும் நன்றாகச் செய்வதை ______ என்போம்.",
+    "curOptions": "ய |சரி|செ|ய்",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0398",
+    "module": "Module 3",
+    "activity": "Context → Select/Drag",
+    "word": "சிக்கியது",
+    "q": "தேடிய பொருளில் மாட்டிக்கொண்டதை ______ என்போம்.",
+    "curOptions": "கியது | சிக்",
+    "file": "Module_3\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0272",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கழுத்துப்பட்டி",
+    "q": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "curOptions": "கழு|ப்ப|ட்டி|த்து",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0278",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கவிதை",
+    "q": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "curOptions": "வி|தை|க",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0302",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கிழமை",
+    "q": "ஒரு வாரத்தின் ஒரு நாளைக் குறிக்கும் சொல்லைச் சரியாகத் தேர்ந்தெடு.",
+    "curOptions": "ழ|கி|மை",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0307",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கீழோர்",
+    "q": "‘தாழ்ந்த நிலையில் உள்ளவர்கள்’ என்பதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "ழோ|ர்|கீ",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0312",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குட்டையான",
+    "q": "உயரம் குறைவாக இருப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "டை|யா|ன|கு|ட்",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0320",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குப்பைத்தொட்டி",
+    "q": "குப்பைகளைப் போடுவதற்கான பொருளின் சரியான பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "தொ|ட்|டி|குப்|பை|த்",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0331",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குலுங்குது",
+    "q": "ஆடும்போது பொருள் அசைந்து ______.",
+    "curOptions": "குது |கு|லு|ங்",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0334",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "குளித்தல்",
+    "q": "தண்ணீரில் குளிக்கும் செயலைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "த்|தல்|கு|ளி",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0342",
+    "module": "Module 3",
+    "activity": "Correct Spelling",
+    "word": "கூட்டி",
+    "q": "பல பொருட்களை ஒன்றாகச் சேர்ப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "டி |கூ|ட்",
+    "file": "Module_3\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0347",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "கேள்வி",
+    "q": "ஒருவரிடம் கேட்கப்படும் விஷயத்தை ______ என்போம்.",
+    "curOptions": "வி |கே|ள்",
+    "file": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0376",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சந்தோஷம்",
+    "q": "Happiness என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "ஷம் | ச|ந்|தோ",
+    "file": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0378",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சமுதாயம்",
+    "q": "Society என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "ம் | ச|மு|தா|ய",
+    "file": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0383",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சரித்திரம்",
+    "q": "History என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "ம் | சரி|த்|தி|ர",
+    "file": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0392",
+    "module": "Module 3",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சாதிகள்",
+    "q": "Castes என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "கள் | சாதி",
+    "file": "Module_3\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0386",
+    "module": "Module 3",
+    "activity": "Picture → Arrange",
+    "word": "சறுக்குப்பலகை",
+    "q": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "curOptions": "க்கு | பலகை | சறு",
+    "file": "Module_3\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0365",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "கோலிகுண்டு",
+    "q": "படத்தில் உள்ள சிறிய விளையாட்டு உருண்டைகள் எவை?",
+    "curOptions": "குண்டு | கோ|லி",
+    "file": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0377",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "சன்னல்",
+    "q": "படத்தில் உள்ள வீட்டின் சுவரில் இருக்கும் திறப்பு எது?",
+    "curOptions": "ல் | ச|ன்|ன",
+    "file": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0384",
+    "module": "Module 3",
+    "activity": "Picture → Select",
+    "word": "சருகு",
+    "q": "படத்தில் தரையில் கிடக்கும் உலர்ந்த இலைகள் எவை?",
+    "curOptions": "கு | ச|ரு",
+    "file": "Module_3\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0413",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "சிறிய",
+    "q": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "ய | சி|றி",
+    "file": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0444",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "செப்டம்பர்",
+    "q": "ஒரு ஆண்டின் ஒன்பதாவது மாதத்தின் பெயர் ______.",
+    "curOptions": "பர்|செப்|டம்",
+    "file": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0468",
+    "module": "Module 4",
+    "activity": "Context → Select/Drag",
+    "word": "ஜவஹர்லால்",
+    "q": "இந்தியாவின் முதல் பிரதமரான …......... பெயரைச் சரியான சொல்லை உருவாக்க எழுத்து அலகுகளை அமைக்கவும்.",
+    "curOptions": "லால் |ஜவ|ஹர்",
+    "file": "Module_4\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0425",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "சுமப்பேன்",
+    "q": "“நான் பொருளை எடுத்துச் செல்வேன்” என்பதைக் குறிக்கும் சொல்லைச் சரியாகத் தேர்ந்தெடு.",
+    "curOptions": "பேன் | சு|ம| ப்",
+    "file": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0462",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "சோம்பல்",
+    "q": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "பல் |சோ|ம்",
+    "file": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0480",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "தட்டு",
+    "q": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "டு | த|ட்",
+    "file": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0497",
+    "module": "Module 4",
+    "activity": "Correct Spelling",
+    "word": "தலைநகர்",
+    "q": "ஒரு நாட்டின் முக்கிய நிர்வாக நகரத்தைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "curOptions": "ந|க|ர் | த|லை",
+    "file": "Module_4\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0412",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சிறிது",
+    "q": "கொஞ்சம்” என்பதைக் குறிக்கும் சொல்லை முடிக்கவும்: சி__து.",
+    "curOptions": "றி | ரி | று | ரு",
+    "file": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0424",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "சுத்தம்",
+    "q": "வீடு, பள்ளி, சுற்றுப்புறம் ஆகியவற்றை அழுக்கில்லாமல் வைத்திருப்பதை ______ என்போம்.",
+    "curOptions": "ம் |சு|த்|த",
+    "file": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0445",
+    "module": "Module 4",
+    "activity": "English Meaning → Tamil Word",
+    "word": "செய்திகள்",
+    "q": "News என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "கள் | செ|ய்|தி",
+    "file": "Module_4\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0511",
+    "module": "Module 4",
+    "activity": "Picture → Arrange",
+    "word": "தார்ச்சாலை",
+    "q": "படத்தில் காணப்படும் கருப்பு நிறம் பூசப்பட்ட சாலையைச் சரியாகக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "தார்ச்சாலை | மண்சாலை | பாதை | ரயில்பாதை",
+    "file": "Module_4\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0542",
+    "module": "Module 5",
+    "activity": "Arrange Tamil Units",
+    "word": "துள்ளிக்குதித்து",
+    "q": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "குதி|த்து|துள்ளி",
+    "file": "Module_5\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0618",
+    "module": "Module 5",
+    "activity": "Arrange Tamil Units",
+    "word": "நிர்வாகம்",
+    "q": "அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "curOptions": "கம் | நிர் | வா|க",
+    "file": "Module_5\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0536",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "துடைக்க",
+    "q": "“மேசையில் உள்ள தூசியைத் துணியால் ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "க்க | து|டை",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0543",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "துவைக்க",
+    "q": "“அம்மா அழுக்கான துணிகளை ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "க்க | து|வை",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0544",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தூங்கு",
+    "q": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "கு | தூ|ங்",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0567",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தொட்டனைத்து",
+    "q": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "curOptions": "னை|த்து |தொ|ட்ட",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0573",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "தொலைந்துவிட்டால்",
+    "q": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "curOptions": "விட்|டால் | தொ|லை|ந்து",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0631",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "நீந்து",
+    "q": "“Swim” என்பதைக் குறிக்கும் சொல்லின் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "curOptions": "து | நீ|ந்",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0653",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "நோயின்றி",
+    "q": "நோய் இல்லாத நிலையைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "curOptions": "றி | நோ|யி|ன்",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0658",
+    "module": "Module 5",
+    "activity": "Correct Spelling",
+    "word": "பங்கேற்பு",
+    "q": "பலர் ஒன்றாகச் சேர்ந்து ஒரு செயலில் கலந்து கொள்வதைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "curOptions": "கே|ற்பு | பங்",
+    "file": "Module_5\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0550",
+    "module": "Module 5",
+    "activity": "English Meaning → Tamil Word",
+    "word": "தெய்வம்",
+    "q": "God என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "curOptions": "வம் | தெ|ய்",
+    "file": "Module_5\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0652",
+    "module": "Module 5",
+    "activity": "Picture → Select",
+    "word": "நோயினுக்கு",
+    "q": "உடல்நலம் சரியில்லாதபோது எதற்காக மருந்து எடுத்துக்கொள்வோம்?படத்துடன் பொருந்தும் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "க்கு |நோ|யினு",
+    "file": "Module_5\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0674",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பட்டுக்குட்டி",
+    "q": "அன்பாக அழைக்கும் செல்லப் பெயரின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "curOptions": "க்கு|ட்டி | பட்டு",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0680",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பண்பு",
+    "q": "ஒருவரின் நல்ல குணத்தைக் குறிக்கும் சொல்லின் சரியான எழுத்தைத் தேர்ந்தெடு.",
+    "curOptions": "பு | ப|ண்",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0730",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பாதுஷா",
+    "q": "இனிப்பின் பெயருக்கான சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடு.",
+    "curOptions": "ஷா |பாது",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0736",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பாய்தல்",
+    "q": "திடீரெனத் தாவிச் செல்லும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "தல் | பாய்",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0751",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பிறப்பு",
+    "q": "சரியான எழுத்துப்பிழையற்ற சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "பு | பி|ற|ப்",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0791",
+    "module": "Module 6",
+    "activity": "Correct Spelling",
+    "word": "பெரியப்பா",
+    "q": "கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "ப்|பா | பெ|ரிய",
+    "file": "Module_6\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0760",
+    "module": "Module 6",
+    "activity": "English Meaning → Tamil Word",
+    "word": "புத்திக்கூர்மை",
+    "q": "\"Sharpness of mind\" என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "கூர்|மை | புத்|திக்",
+    "file": "Module_6\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0788",
+    "module": "Module 6",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பெரிதாகிறேனே",
+    "q": "\"I am getting bigger\" என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "கி|றே|னே | பெரி|தா",
+    "file": "Module_6\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0718",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழங்கள்",
+    "q": "படத்தில் காட்டப்படும் பொருட்களின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "பழங்கள் | பறக்கும் | பறவை | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0719",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழச்சாறு",
+    "q": "படத்தில் காட்டப்படும் பானத்தின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "பழச்சாறு | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0720",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பழப்பாகு",
+    "q": "படத்தில் காட்டப்படும் இனிப்புப் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "பழப்பாகு | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0723",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பாக்ஸ்",
+    "q": "படத்தில் காட்டப்படும் பெட்டியின் பெயரை அமைக்கவும்.",
+    "curOptions": "பாக்ஸ் | பறக்கும் | பறவை | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0727",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பாட்டி",
+    "q": "படத்தில் காட்டப்படும் குடும்ப உறவின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "பாட்டி | பறக்கும் | பறவை | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0742",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "பார்வையாளர்",
+    "q": "நிகழ்ச்சியைப் பார்க்க வந்தவரைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "பார்வையாளர் | பறக்கும் | பறிக்காதீர் | பறிப்பேன்",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0761",
+    "module": "Module 6",
+    "activity": "Picture → Arrange",
+    "word": "புத்திசாலி",
+    "q": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "curOptions": "சா|லி | புத்|த",
+    "file": "Module_6\\picture_to_arrange.json"
+  },
+  {
+    "id": "FTS0711",
+    "module": "Module 6",
+    "activity": "Picture → Select",
+    "word": "பல்",
+    "q": "படத்தில் காட்டப்படும் உடல் உறுப்பின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "ல் | ப",
+    "file": "Module_6\\picture_to_select.json"
+  },
+  {
+    "id": "FTS0825",
+    "module": "Module 7",
+    "activity": "Arrange Tamil Units",
+    "word": "மடிக்கலாம்",
+    "q": "சொல்லைச் சரியான வரிசையில் அமைக்கவும்.",
+    "curOptions": "லாம் | மடிக்",
+    "file": "Module_7\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0830",
+    "module": "Module 7",
+    "activity": "Arrange Tamil Units",
+    "word": "மத்தளம்",
+    "q": "சொல்லைச் சரியான வரிசையில் அமைக்கவும்.",
+    "curOptions": "த்த|ளம் | மத்",
+    "file": "Module_7\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS0882",
+    "module": "Module 7",
+    "activity": "Context → Select/Drag",
+    "word": "முத்துசாமி",
+    "q": "பாடலின் ஆசிரியராகக் குறிப்பிடப்பட்டவரின் பெயரைத் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "சாமி | முத்து",
+    "file": "Module_7\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0797",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "பேச்சு",
+    "q": "கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "curOptions": "சு | பே|ச்",
+    "file": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0831",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மத்து",
+    "q": "சரியான எழுத்துப்பிழையற்ற சொல்லைத்  அமைக்கவும்.",
+    "curOptions": "து | ம|த்",
+    "file": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0841",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மருத்துவர்",
+    "q": "சரியான எழுத்துப்பிழையற்ற சொல்லை அமைக்கவும்.",
+    "curOptions": "த்து | மரு|வர்",
+    "file": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0846",
+    "module": "Module 7",
+    "activity": "Correct Spelling",
+    "word": "மறைந்திருந்தவை",
+    "q": "சொல்லைச் சரியான வரிசையில் அமைக்கவும்.",
+    "curOptions": "தவை | மறைந்|திருந்",
+    "file": "Module_7\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0795",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பெருமை",
+    "q": "\"Pride\" என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "மை | பெரு",
+    "file": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0800",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "பொது அறிவு",
+    "q": "\"General Knowledge\" என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "curOptions": "அறி|வு |பொ|து",
+    "file": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0884",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "முன்னேற்றம்",
+    "q": "“Progress” என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு. ",
+    "curOptions": "றம் | முன்|னே|ற்",
+    "file": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0899",
+    "module": "Module 7",
+    "activity": "English Meaning → Tamil Word",
+    "word": "மெய்",
+    "q": "“Truth” என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "curOptions": "ய் | மெ",
+    "file": "Module_7\\english_meaning_to_tamil_word.json"
+  },
+  {
+    "id": "FTS0942",
+    "module": "Module 8",
+    "activity": "Arrange Tamil Units",
+    "word": "வம்புப்பேச்சு",
+    "q": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "curOptions": "பேச்சு | வம்பு",
+    "file": "Module_8\\arrange_tamil_units.json"
+  },
+  {
+    "id": "FTS1054",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "வையம்பட்டி",
+    "q": "ஊரின் பெயரைச் சரியாக எழுதப்பட்டுள்ள வடிவத்தில் தேர்ந்தெடு.",
+    "curOptions": "டி | வை|ய|ம்|ப|ட்",
+    "file": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1055",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஷாஜஹான்",
+    "q": "வரலாற்றில் புகழ்பெற்ற முகலாய மன்னரின் பெயரைச் சரியாகத் தேர்ந்தெடு.",
+    "curOptions": "ஹா|ன் | ஷா|ஜ",
+    "file": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1058",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஹரீஷ்",
+    "q": "ஒரு மாணவரின் பெயரைச் சரியாக எழுதப்பட்டுள்ள வடிவத்தில் தேர்ந்தெடு.",
+    "curOptions": "ஷ் | ஹ|ரீ",
+    "file": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS1059",
+    "module": "Module 8",
+    "activity": "Context → Select/Drag",
+    "word": "ஹிலாரி",
+    "q": "எவரெஸ்ட் சிகரத்தை ஏறிய புகழ்பெற்ற மலையேறியின் பெயரைத் தேர்ந்தெடு.",
+    "curOptions": "ரி | ஹி|லா",
+    "file": "Module_8\\context_to_select_drag.json"
+  },
+  {
+    "id": "FTS0929",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "லட்டு",
+    "q": "இந்தியாவில் பிரபலமான வட்டமான இனிப்பின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "curOptions": "டு | ல|ட்",
+    "file": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0939",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வண்ணத்துப்பூச்சி",
+    "q": "படத்தில் காணப்படும் அழகான சிறகுகள் கொண்ட பூச்சியின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "curOptions": "பூச்சி | வண்ண|த்|துப்",
+    "file": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS0944",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வரிக்குதிரை",
+    "q": "கருப்பு-வெள்ளைக் கோடுகள் கொண்ட விலங்கின் பெயரின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "curOptions": "குதி|ரை | வரிக்",
+    "file": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS1033",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வீரர்கள்",
+    "q": "பல வீரர்களைக் குறிக்கும் சொல்லின் சரியான  வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "curOptions": "ள் | வீ|ர|ர்|க",
+    "file": "Module_8\\correct_spelling.json"
+  },
+  {
+    "id": "FTS1036",
+    "module": "Module 8",
+    "activity": "Correct Spelling",
+    "word": "வெட்ட",
+    "q": "கத்தி அல்லது கத்தரிக்கோலால் துண்டிப்பதைக் குறிக்கும் சொல்லின் சரியான எழுத்து அமைத்துச் சொல்லை உருவாக்கு.",
+    "curOptions": "ட |வெ|ட்",
+    "file": "Module_8\\correct_spelling.json"
+  }
+]

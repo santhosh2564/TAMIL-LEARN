@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "மண்",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q110",
+    "FTS ID": null,
+    "Question ID": "Q110",
+    "Level": "Easy",
+    "Activity": "Picture → Missing Unit",
+    "Question / Instruction": "படத்தில் காணப்படுவது: ம + [____]",
+    "Options / Units": "ண் | ன் | ண | ந்",
+    "Correct Answer": "ண்",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 7",
+    "Position in Module": 20,
+    "Normalized Word": "மண்",
+    "Master Sequence": 1151
+  }
+]

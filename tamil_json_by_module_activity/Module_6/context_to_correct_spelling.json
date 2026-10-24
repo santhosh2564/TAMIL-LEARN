@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "பொய்",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q105",
+    "FTS ID": null,
+    "Question ID": "Q105",
+    "Level": "Easy",
+    "Activity": "Context → Correct Spelling",
+    "Question / Instruction": "உண்மைக்கு மாறாகச் சொல்வதை ______ என்பார்கள்.",
+    "Options / Units": "பொய் | போய் | பொயி | பொய்ய்",
+    "Correct Answer": "பொய்",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 6",
+    "Position in Module": 128,
+    "Normalized Word": "பொய்",
+    "Master Sequence": 1147
+  }
+]

@@ -9,8 +9,8 @@ const activities = JSON.parse(fs.readFileSync(activitiesPath, 'utf8'));
 const assets = JSON.parse(fs.readFileSync(assetsPath, 'utf8'));
 
 // Map activities by ID: Q001 -> activity
-const actMap = new Map<string, any>();
-const actByNum = new Map<number, any>();
+const actMap = new Map<string, Record<string, unknown>>();
+const actByNum = new Map<number, Record<string, unknown>>();
 for (const act of activities) {
   actMap.set(act.id, act);
   const num = parseInt(act.id.replace(/\D/g, ''), 10);

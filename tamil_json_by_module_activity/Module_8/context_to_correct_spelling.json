@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "வலி",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q132",
+    "FTS ID": null,
+    "Question ID": "Q132",
+    "Level": "Medium",
+    "Activity": "Context → Correct Spelling",
+    "Question / Instruction": "கீழே விழுந்ததால் அவனுடைய காலில் ______ ஏற்பட்டது.",
+    "Options / Units": "வலி | வழி | வளை | வாலி",
+    "Correct Answer": "வலி",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 8",
+    "Position in Module": 30,
+    "Normalized Word": "வலி",
+    "Master Sequence": 1167
+  }
+]

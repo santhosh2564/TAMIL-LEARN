@@ -1,7 +1,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { createRequire } from 'module';
 // @ts-expect-error - no types for xlsx
 import * as xlsx from 'xlsx';
+
+const require = createRequire(import.meta.url);
+const englishWordsList: string[] = require('an-array-of-english-words');
+const englishWordsSet = new Set(englishWordsList.map(w => w.toLowerCase()));
+
 import {
   Activity,
   ActivityCategory,
@@ -425,23 +431,67 @@ function parseWordCompletion(
     template = chars.join(' ');
   }
 
-  // 2. Distractor options: extract letters from proposedOptions and/or options clause
+  const templateNoSpace = template.replace(/\s+/g, '').toLowerCase();
+
+  // 2. Distractor options: extract letters from proposedOptions and/or options clause,
+  // guaranteeing NO distractor forms a real English word when inserted into the template
   const distractorText = `${proposedOptions || ''} ${rawStr?.match(/(?:selectable options|options)\s*:\s*([^|]+)/i)?.[1] || ''}`;
   const rawLetters = distractorText
     .split(/[/|,\s]+/)
     .map(s => s.trim().toLowerCase())
     .filter(s => s.length === 1 && /^[a-z]$/.test(s) && s !== missingLetter);
 
-  const uniqueDistractors = Array.from(new Set(rawLetters));
-  if (uniqueDistractors.length < 3) {
-    const fallbacks = generateLetterDistractors(missingLetter, runtimeId, [missingLetter, ...uniqueDistractors]);
-    for (const fb of fallbacks) {
-      if (uniqueDistractors.length < 3 && !uniqueDistractors.includes(fb) && fb !== missingLetter) {
-        uniqueDistractors.push(fb);
+  const safeDistractors: string[] = [];
+
+  // Filter proposed options: discard any that form a valid English word
+  for (const letter of rawLetters) {
+    if (safeDistractors.length >= 3) break;
+    if (!safeDistractors.includes(letter)) {
+      const formed = templateNoSpace.replace('_', letter);
+      if (!englishWordsSet.has(formed)) {
+        safeDistractors.push(letter);
       }
     }
   }
-  const distractors = uniqueDistractors.slice(0, 3);
+
+  // Generate deterministic fallbacks from consonant/vowel pools
+  if (safeDistractors.length < 3) {
+    let seedHash = 0;
+    for (let i = 0; i < runtimeId.length; i++) {
+      seedHash = (seedHash * 31 + runtimeId.charCodeAt(i)) >>> 0;
+    }
+    const isVowel = VOWELS.includes(missingLetter);
+    const primaryPool = isVowel ? VOWELS : CONSONANTS;
+    const secondaryPool = isVowel ? CONSONANTS : VOWELS;
+    const candidatePool = [...primaryPool, ...secondaryPool];
+
+    for (let i = 0; i < candidatePool.length && safeDistractors.length < 3; i++) {
+      const idx = (seedHash + i * 3) % candidatePool.length;
+      const cand = candidatePool[idx];
+      if (cand !== missingLetter && !safeDistractors.includes(cand)) {
+        const formed = templateNoSpace.replace('_', cand);
+        if (!englishWordsSet.has(formed)) {
+          safeDistractors.push(cand);
+        }
+      }
+    }
+  }
+
+  // Final fallback to alphabet
+  if (safeDistractors.length < 3) {
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    for (const cand of alphabet) {
+      if (safeDistractors.length >= 3) break;
+      if (cand !== missingLetter && !safeDistractors.includes(cand)) {
+        const formed = templateNoSpace.replace('_', cand);
+        if (!englishWordsSet.has(formed)) {
+          safeDistractors.push(cand);
+        }
+      }
+    }
+  }
+
+  const distractors = safeDistractors.slice(0, 3);
 
   // Combine missingLetter + 3 distractors deterministically
   let hash = 0;
@@ -1049,6 +1099,36 @@ export function importEnglishContent(): IngestedEnglishContent {
       }
       if (ewId === 'EW085' && effectiveRawOptions) {
         effectiveRawOptions = effectiveRawOptions.replace(/\bbreath\b/g, 'breethe');
+      }
+      if (ewId === 'EW817') {
+        effectivePrompt = 'Special natural skills or abilities that a person is good at doing. Choose the correct word:';
+      }
+      if (ewId === 'EW002') {
+        effectivePrompt = 'To succeed in reaching a goal after working hard. Put the letters in the correct order:';
+      }
+      if (ewId === 'EW004') {
+        effectivePrompt = 'A large flying vehicle with wings and engines that carries passengers in the sky. Put the letters in the correct order:';
+      }
+      if (ewId === 'EW063') {
+        effectivePrompt = 'A thick, warm cloth cover used on a bed to keep you warm. Put the letters in the correct order:';
+      }
+      if (ewId === 'EW356') {
+        effectivePrompt = 'A small green bean or pulse commonly cooked to make nutritious dal. Put the letters in order:';
+      }
+      if (ewId === 'EW373') {
+        effectivePrompt = 'Attached or fixed from above with the lower part swinging free. Arrange the letters to make the word:';
+      }
+      if (ewId === 'EW033') {
+        effectivePrompt = 'A round object that children bounce and throw in outdoor games. Complete the word:';
+      }
+      if (ewId === 'EW636') {
+        effectivePrompt = 'To look at written words in a book and understand their meaning. Choose the correct spelling:';
+      }
+      if (ewId === 'EW042') {
+        effectivePrompt = 'A sandy shore along the edge of the sea or ocean. Choose the correct spelling:';
+      }
+      if (ewId === 'EW321') {
+        effectivePrompt = 'A sweet, juicy food like an apple or mango that grows on plants. Arrange the letters to find the word:';
       }
 
       const { category, variant } = normalizeActivityMapping(activityCode, effectiveRawOptions);

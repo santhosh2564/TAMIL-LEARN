@@ -126,10 +126,10 @@
     "sourceSet": "Picture set 11",
     "fileSizeBytes": 64797,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0510.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
+    "status": "mapped_integrated",
+    "targetWord": "தாய்",
+    "meaning": "Mother",
+    "mappedActivityId": "FTS0510"
   },
   {
     "fileName": "FTS0511.jpg",

@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "தொலைபேசி",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q028",
+    "FTS ID": null,
+    "Question ID": "Q028",
+    "Level": "Hard",
+    "Activity": "English Meaning → Arrange Tamil Word",
+    "Question / Instruction": "“Telephone” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "Options / Units": "தொலை | பேசி",
+    "Correct Answer": "தொலைபேசி",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 2",
+    "Position in Module": 127,
+    "Normalized Word": "தொலைபேசி",
+    "Master Sequence": 1087
+  }
+]

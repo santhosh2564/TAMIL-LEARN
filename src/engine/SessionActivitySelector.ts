@@ -23,6 +23,13 @@ export class SessionActivitySelector {
    * Fetches, filters, shuffles, and sizes the activities based on the config.
    */
   async selectActivities(config: SessionConfig): Promise<Activity[]> {
+    if (config.activityId) {
+      const direct = await this.repository.getActivityById(config.activityId);
+      if (direct) {
+        return [direct];
+      }
+    }
+
     const isEnglish = config.subjectId === 'english' || config.subjectId === 'English';
     const loadedActivities = await this.repository.getActivities({
       classLevel: Number(config.classId),
@@ -37,12 +44,6 @@ export class SessionActivitySelector {
       return [];
     }
 
-    if (config.activityId) {
-      const match = loadedActivities.find(a => a.id.toLowerCase() === config.activityId?.toLowerCase());
-      if (match) {
-        return [match];
-      }
-    }
 
     // Shuffle valid activities (creates a new array)
     const shuffled = this.shuffle(loadedActivities);

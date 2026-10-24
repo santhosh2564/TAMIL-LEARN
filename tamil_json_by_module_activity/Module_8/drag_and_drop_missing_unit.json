@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "விடை",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q137",
+    "FTS ID": null,
+    "Question ID": "Q137",
+    "Level": "Easy",
+    "Activity": "Drag & Drop Missing Unit",
+    "Question / Instruction": "வி + [blank]",
+    "Options / Units": "டை | டைல் | தை | டி",
+    "Correct Answer": "டை",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 8",
+    "Position in Module": 69,
+    "Normalized Word": "விடை",
+    "Master Sequence": 1171
+  }
+]

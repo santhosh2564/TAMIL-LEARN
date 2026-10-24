@@ -169,17 +169,17 @@ describe('WordEntryActivity', () => {
   });
 
   it('Phase I: does not render visible "Picture of ..." text while preserving alt attribute on image', () => {
-    const fruitActivity: Activity = {
+    const appleActivity: Activity = {
       ...mockActivity,
-      targetWord: 'fruit',
+      targetWord: 'apple',
       prompt: 'Look at the picture. Write the word.',
-      template: 'Picture of fruit',
-      image: { source: 'eng-fruit', type: 'image' }
+      template: 'Picture of apple',
+      image: { source: 'eng-apple', type: 'image' }
     };
 
     render(
       <WordEntryActivity
-        activity={fruitActivity}
+        activity={appleActivity}
         state={mockActiveState}
         onSubmit={vi.fn()}
       />
@@ -188,13 +188,13 @@ describe('WordEntryActivity', () => {
     // 1. Instruction prompt is visible
     expect(screen.getByText('Look at the picture. Write the word.')).toBeInTheDocument();
 
-    // 2. Visible "Picture of fruit" text is NOT rendered
-    expect(screen.queryByText('Picture of fruit')).not.toBeInTheDocument();
+    // 2. Visible "Picture of apple" text is NOT rendered
+    expect(screen.queryByText('Picture of apple')).not.toBeInTheDocument();
 
     // 3. Image element is rendered with accessible alt text
     const img = screen.getByTestId('activity-asset-image');
     expect(img).toBeInTheDocument();
-    expect(img).toHaveAttribute('alt', 'Picture of fruit');
+    expect(img).toHaveAttribute('alt', 'Picture of apple');
   });
 
   it('Phase I: works generically across different target words (dog, bag)', () => {

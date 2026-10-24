@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "கதை",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q036",
+    "FTS ID": null,
+    "Question ID": "Q036",
+    "Level": "Easy",
+    "Activity": "Drag & Drop Missing Unit",
+    "Question / Instruction": "க + [blank]",
+    "Options / Units": "தை | த | தா | தி",
+    "Correct Answer": "தை",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 3",
+    "Position in Module": 48,
+    "Normalized Word": "கதை",
+    "Master Sequence": 1094
+  }
+]

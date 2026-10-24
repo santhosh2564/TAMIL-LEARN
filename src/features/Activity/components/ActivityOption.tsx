@@ -9,6 +9,8 @@ interface ActivityOptionProps {
 export function ActivityOption({ id, label, selected = false, disabled = false, onSelect }: ActivityOptionProps) {
   return (
     <button
+      id={`option-${id}`}
+      data-testid={`activity-option-${id}`}
       type="button"
       onClick={() => onSelect(id)}
       disabled={disabled}

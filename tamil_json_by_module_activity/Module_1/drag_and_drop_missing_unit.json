@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "குதி",
+    "Source Type": "Earlier 144-word question set",
+    "Source ID": "Q002",
+    "FTS ID": null,
+    "Question ID": "Q002",
+    "Level": "Easy",
+    "Activity": "Drag & Drop Missing Unit",
+    "Question / Instruction": "கு + [blank]",
+    "Options / Units": "தி | தீ | டி | து",
+    "Correct Answer": "தி",
+    "Source Batch": "Earlier set",
+    "Source File": "Tamil_Consolidated_Question_corrected one.xlsx",
+    "Picture Required": null,
+    "Source Meaning / Notes": 90,
+    "Source Reference / Context": null,
+    "Picture Specification": null,
+    "Verification Flag": null,
+    "Module": "Module 1",
+    "Position in Module": 20,
+    "Normalized Word": "குதி",
+    "Master Sequence": 1061
+  }
+]

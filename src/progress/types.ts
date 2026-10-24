@@ -2,9 +2,11 @@ import { ActivityCategory } from '../types';
 
 // ============================================================================
 // PROGRESS SCHEMA VERSION
-// Increment this if the stored structure changes in a breaking way.
+// Schema v1: Unscoped activities map
+// Schema v2: Student-scoped progress
 // ============================================================================
 export const PROGRESS_SCHEMA_VERSION = 1;
+export const PROGRESS_SCHEMA_VERSION_V2 = 2;
 
 // ============================================================================
 // ACTIVITY-LEVEL PROGRESS
@@ -12,6 +14,8 @@ export const PROGRESS_SCHEMA_VERSION = 1;
 // ============================================================================
 
 export interface ActivityProgress {
+  /** The stable student ID when student-scoped */
+  studentId?: string;
   /** The stable activity ID (e.g. Q001) */
   activityId: string;
   /** The category of the activity, stored to enable category-level aggregation */
@@ -22,6 +26,14 @@ export interface ActivityProgress {
   correct: boolean;
   /** Total number of attempts (increments on each submit) */
   attempts: number;
+  /** Total number of correct attempts */
+  correctAttempts?: number;
+  /** Total number of incorrect attempts */
+  incorrectAttempts?: number;
+  /** Number of retry attempts (attempts after an unsuccessful attempt) */
+  retryCount?: number;
+  /** Best score if applicable */
+  bestScore?: number;
   /** True if the learner succeeded on their very first attempt (no retries) */
   firstAttemptCorrect?: boolean;
   /** True if the final attempt was correct */
@@ -30,6 +42,8 @@ export interface ActivityProgress {
   lastCompletedAt: string;
   /** ISO timestamp of the last time an attempt was made */
   lastAttemptedAt: string;
+  /** ISO timestamp of the last attempt (alias per prompt specification) */
+  lastAttemptAt?: string;
 }
 
 // ============================================================================
@@ -56,7 +70,22 @@ export interface ProgressSummary {
 }
 
 // ============================================================================
-// FULL SNAPSHOT (what gets stored)
+// STUDENT LEARNING METRICS (Overall learning analytics)
+// ============================================================================
+
+export interface StudentLearningMetrics {
+  totalActivitiesAttempted: number;
+  totalActivitiesCompleted: number;
+  totalCorrectAttempts: number;
+  totalIncorrectAttempts: number;
+  totalRetries: number;
+  firstAttemptCorrectCount: number;
+  eventuallyCorrectCount: number;
+  completionPercentage: number;
+}
+
+// ============================================================================
+// SNAPSHOTS (what gets stored)
 // ============================================================================
 
 export interface ProgressSnapshot {
@@ -66,7 +95,19 @@ export interface ProgressSnapshot {
   updatedAt: string;
   /**
    * Map from activityId → ActivityProgress.
-   * Never stores content — only learner state.
+   * Legacy unscoped v1 snapshot.
    */
   activities: Record<string, ActivityProgress>;
+}
+
+export interface ProgressSnapshotV2 {
+  /** Schema version 2 */
+  version: 2;
+  /** ISO timestamp of last write */
+  updatedAt: string;
+  /**
+   * Nested map: studentId → activityId → ActivityProgress.
+   * Guarantees total student isolation.
+   */
+  students: Record<string, Record<string, ActivityProgress>>;
 }

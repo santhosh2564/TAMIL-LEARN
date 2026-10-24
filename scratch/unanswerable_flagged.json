@@ -1,0 +1,138 @@
+[
+  {
+    "id": "ENG-M1-EW002",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "achieve",
+    "prompt": "Put the letters in the correct order:",
+    "options": "e | v | a | i | h | c | e",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M1-EW035",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "bandage",
+    "prompt": "You put this on a small cut or wound.",
+    "options": "d | a | b | g | e | n | a",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M2-EW004",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "aeroplane",
+    "prompt": "Put the letters in the correct order:",
+    "options": "p | a | e | r | o | l | a | n | e",
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M2-REV-EW002",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "achieve",
+    "prompt": "Put the letters in the correct order:",
+    "options": "e | v | a | i | h | c | e",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M2-REV-EW035",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "bandage",
+    "prompt": "You put this on a small cut or wound.",
+    "options": "d | a | b | g | e | n | a",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M3-REV-EW002",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "achieve",
+    "prompt": "Put the letters in the correct order:",
+    "options": "e | v | a | i | h | c | e",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M3-REV-EW035",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "bandage",
+    "prompt": "You put this on a small cut or wound.",
+    "options": "d | a | b | g | e | n | a",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M3-REV-EW004",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "aeroplane",
+    "prompt": "Put the letters in the correct order:",
+    "options": "p | a | e | r | o | l | a | n | e",
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M4-EW024",
+    "categoryVariant": "meaning-match::word-entry",
+    "targetWord": "auto",
+    "prompt": "This is a short word for a car.",
+    "options": "skin | auto | flower | mango",
+    "reason": "word-entry with no clue in prompt"
+  },
+  {
+    "id": "ENG-M5-EW356",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "green gram",
+    "prompt": "Write the name of this food grain.",
+    "options": "r | e | e | n | g | r | a | m | g",
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M5-EW817",
+    "categoryVariant": "picture-recognition::select",
+    "targetWord": "talents",
+    "prompt": "Choose the correct word and write it.",
+    "options": "talents | talants | talentss",
+    "reason": "picture-recognition with no clue in prompt"
+  },
+  {
+    "id": "ENG-M6-REV-EW002",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "achieve",
+    "prompt": "Put the letters in the correct order:",
+    "options": "e | v | a | i | h | c | e",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M7-EW912",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "walking",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": "k | w | i | n | a | g | l",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M7-EW941",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "wonders",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": "s | w | n | e | d | r | o",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M7-EW946",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "worried",
+    "prompt": "Arrange the letters to spell the word.",
+    "options": "r | w | o | e | d | r | i",
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M7-REV-EW004",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "aeroplane",
+    "prompt": "Put the letters in the correct order:",
+    "options": "p | a | e | r | o | l | a | n | e",
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M8-REV-EW004",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "aeroplane",
+    "prompt": "Put the letters in the correct order:",
+    "options": "p | a | e | r | o | l | a | n | e",
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  }
+]

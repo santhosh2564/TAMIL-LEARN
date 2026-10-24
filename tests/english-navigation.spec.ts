@@ -1,8 +1,29 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.addInitScript(() => {
+      try {
+        localStorage.setItem('sa.activeStudentId.v1', 'qa-english-student');
+        localStorage.setItem('sa.students.v1', JSON.stringify({
+          version: 1,
+          updatedAt: new Date().toISOString(),
+          students: [{
+            id: 'qa-english-student',
+            name: 'Sara QA',
+            createdAt: new Date().toISOString(),
+            lastActiveAt: new Date().toISOString()
+          }]
+        }));
+      } catch {
+        // ignore
+      }
+    });
+  });
+
   test('Complete Flow: Home -> Classes -> Class 3 -> English -> Module 1 -> Day 1 -> Practice -> Exit', async ({ page }) => {
     // 1. Home
+
     await page.goto('http://localhost:5173/');
     const startLearningBtn = page.getByRole('button', { name: /Start Learning/i });
     await expect(startLearningBtn).toBeVisible();
@@ -10,8 +31,8 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
 
     // 2. Subjects (Direct - no class selection step)
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects/);
-    const tamilCard = page.getByText('Tamil').first();
-    const englishCard = page.getByText('English').first();
+    const tamilCard = page.getByText('தமிழ்').first();
+    const englishCard = page.getByRole('heading', { name: 'English' });
     await expect(tamilCard).toBeVisible();
     await expect(englishCard).toBeVisible();
 

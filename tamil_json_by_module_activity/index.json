@@ -1,0 +1,513 @@
+{
+  "source_json": "tamil--data.json",
+  "module_reference_workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059(1).xlsx",
+  "total_records": 1178,
+  "records_with_module_restored_from_workbook": 565,
+  "grouping_rule": "Group by Module and Activity; surrounding whitespace in Activity is ignored for grouping, while original record fields are preserved.",
+  "groups": [
+    {
+      "module": "Module 1",
+      "activity": "Arrange Tamil Units",
+      "record_count": 24,
+      "file": "Module_1/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Context → Drag Word",
+      "record_count": 1,
+      "file": "Module_1/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Context → Select/Drag",
+      "record_count": 14,
+      "file": "Module_1/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Correct Spelling",
+      "record_count": 31,
+      "file": "Module_1/correct_spelling.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Drag & Drop Missing Unit",
+      "record_count": 1,
+      "file": "Module_1/drag_and_drop_missing_unit.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 27,
+      "file": "Module_1/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Missing Letter",
+      "record_count": 13,
+      "file": "Module_1/missing_letter.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Picture → Arrange",
+      "record_count": 17,
+      "file": "Module_1/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 1",
+      "activity": "Picture → Select",
+      "record_count": 20,
+      "file": "Module_1/picture_to_select.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Arrange Tamil Units",
+      "record_count": 24,
+      "file": "Module_2/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Context → Drag Word",
+      "record_count": 3,
+      "file": "Module_2/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Context → Select/Drag",
+      "record_count": 27,
+      "file": "Module_2/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Correct Spelling",
+      "record_count": 16,
+      "file": "Module_2/correct_spelling.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Drag & Drop Missing Ending",
+      "record_count": 1,
+      "file": "Module_2/drag_and_drop_missing_ending.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "English Meaning → Arrange Tamil Word",
+      "record_count": 1,
+      "file": "Module_2/english_meaning_to_arrange_tamil_word.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 30,
+      "file": "Module_2/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Missing Letter",
+      "record_count": 7,
+      "file": "Module_2/missing_letter.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Picture → Arrange",
+      "record_count": 15,
+      "file": "Module_2/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 2",
+      "activity": "Picture → Select",
+      "record_count": 24,
+      "file": "Module_2/picture_to_select.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Arrange Tamil Units",
+      "record_count": 12,
+      "file": "Module_3/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Context → Drag Word",
+      "record_count": 4,
+      "file": "Module_3/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Context → Select/Drag",
+      "record_count": 16,
+      "file": "Module_3/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Correct Spelling",
+      "record_count": 24,
+      "file": "Module_3/correct_spelling.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Drag & Drop Missing Unit",
+      "record_count": 1,
+      "file": "Module_3/drag_and_drop_missing_unit.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 29,
+      "file": "Module_3/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Missing Letter",
+      "record_count": 10,
+      "file": "Module_3/missing_letter.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Picture → Arrange",
+      "record_count": 16,
+      "file": "Module_3/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Picture → Correct Spelling",
+      "record_count": 2,
+      "file": "Module_3/picture_to_correct_spelling.json"
+    },
+    {
+      "module": "Module 3",
+      "activity": "Picture → Select",
+      "record_count": 33,
+      "file": "Module_3/picture_to_select.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Arrange Tamil Units",
+      "record_count": 28,
+      "file": "Module_4/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Context → Drag Word",
+      "record_count": 4,
+      "file": "Module_4/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Context → Select",
+      "record_count": 1,
+      "file": "Module_4/context_to_select.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Context → Select/Drag",
+      "record_count": 11,
+      "file": "Module_4/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Correct Spelling",
+      "record_count": 23,
+      "file": "Module_4/correct_spelling.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Drag & Drop Missing Unit",
+      "record_count": 1,
+      "file": "Module_4/drag_and_drop_missing_unit.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "English Meaning → Arrange Tamil Word",
+      "record_count": 3,
+      "file": "Module_4/english_meaning_to_arrange_tamil_word.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 30,
+      "file": "Module_4/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Missing Letter",
+      "record_count": 14,
+      "file": "Module_4/missing_letter.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Picture → Arrange",
+      "record_count": 11,
+      "file": "Module_4/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 4",
+      "activity": "Picture → Select",
+      "record_count": 21,
+      "file": "Module_4/picture_to_select.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Arrange Tamil Units",
+      "record_count": 41,
+      "file": "Module_5/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Context → Drag Word",
+      "record_count": 2,
+      "file": "Module_5/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Context → Select/Drag",
+      "record_count": 9,
+      "file": "Module_5/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Correct Spelling",
+      "record_count": 29,
+      "file": "Module_5/correct_spelling.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Drag & Drop Missing Unit",
+      "record_count": 1,
+      "file": "Module_5/drag_and_drop_missing_unit.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "English Meaning → Arrange Tamil Word",
+      "record_count": 1,
+      "file": "Module_5/english_meaning_to_arrange_tamil_word.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 20,
+      "file": "Module_5/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Missing Letter",
+      "record_count": 14,
+      "file": "Module_5/missing_letter.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Picture → Arrange",
+      "record_count": 13,
+      "file": "Module_5/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 5",
+      "activity": "Picture → Select",
+      "record_count": 17,
+      "file": "Module_5/picture_to_select.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Arrange Tamil Units",
+      "record_count": 28,
+      "file": "Module_6/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Context → Correct Spelling",
+      "record_count": 1,
+      "file": "Module_6/context_to_correct_spelling.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Context → Drag Word",
+      "record_count": 4,
+      "file": "Module_6/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Context → Select/Drag",
+      "record_count": 12,
+      "file": "Module_6/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Correct Spelling",
+      "record_count": 22,
+      "file": "Module_6/correct_spelling.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "English Meaning → Arrange Tamil Word",
+      "record_count": 1,
+      "file": "Module_6/english_meaning_to_arrange_tamil_word.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 22,
+      "file": "Module_6/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Missing Letter",
+      "record_count": 13,
+      "file": "Module_6/missing_letter.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Picture → Arrange",
+      "record_count": 25,
+      "file": "Module_6/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 6",
+      "activity": "Picture → Select",
+      "record_count": 19,
+      "file": "Module_6/picture_to_select.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Arrange Tamil Units",
+      "record_count": 30,
+      "file": "Module_7/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Context → Drag Word",
+      "record_count": 2,
+      "file": "Module_7/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Context → Select/Drag",
+      "record_count": 8,
+      "file": "Module_7/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Correct Spelling",
+      "record_count": 29,
+      "file": "Module_7/correct_spelling.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "English Meaning → Arrange Tamil Units",
+      "record_count": 1,
+      "file": "Module_7/english_meaning_to_arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 15,
+      "file": "Module_7/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Missing Letter",
+      "record_count": 15,
+      "file": "Module_7/missing_letter.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Picture → Arrange",
+      "record_count": 26,
+      "file": "Module_7/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Picture → Correct Spelling",
+      "record_count": 2,
+      "file": "Module_7/picture_to_correct_spelling.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Picture → Missing Unit",
+      "record_count": 1,
+      "file": "Module_7/picture_to_missing_unit.json"
+    },
+    {
+      "module": "Module 7",
+      "activity": "Picture → Select",
+      "record_count": 18,
+      "file": "Module_7/picture_to_select.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Arrange Tamil Units",
+      "record_count": 43,
+      "file": "Module_8/arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Context → Correct Spelling",
+      "record_count": 1,
+      "file": "Module_8/context_to_correct_spelling.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Context → Drag Word",
+      "record_count": 2,
+      "file": "Module_8/context_to_drag_word.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Context → Select/Drag",
+      "record_count": 10,
+      "file": "Module_8/context_to_select_drag.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Correct Spelling",
+      "record_count": 25,
+      "file": "Module_8/correct_spelling.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Drag & Drop Missing Unit",
+      "record_count": 1,
+      "file": "Module_8/drag_and_drop_missing_unit.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "English Meaning → Arrange Tamil Units",
+      "record_count": 1,
+      "file": "Module_8/english_meaning_to_arrange_tamil_units.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "English Meaning → Arrange Tamil Word",
+      "record_count": 1,
+      "file": "Module_8/english_meaning_to_arrange_tamil_word.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "English Meaning → Tamil Word",
+      "record_count": 18,
+      "file": "Module_8/english_meaning_to_tamil_word.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Missing Letter",
+      "record_count": 13,
+      "file": "Module_8/missing_letter.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Picture → Arrange",
+      "record_count": 23,
+      "file": "Module_8/picture_to_arrange.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Picture → Context/Select",
+      "record_count": 1,
+      "file": "Module_8/picture_to_context_select.json"
+    },
+    {
+      "module": "Module 8",
+      "activity": "Picture → Select",
+      "record_count": 8,
+      "file": "Module_8/picture_to_select.json"
+    }
+  ]
+}

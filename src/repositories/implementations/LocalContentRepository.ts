@@ -1,8 +1,6 @@
 import { ContentRepository } from '../ContentRepository';
 import { Activity, ActivityQuery, ContentManifest, EnglishCurriculumManifest, EnglishModuleManifest } from '../../types';
-
-import class3TamilTerm1 from '../../content/class-3/tamil/term-1/activities.json';
-import manifestTerm1 from '../../content/class-3/tamil/term-1/manifest.json';
+import { TamilContentLoader } from '../../content/class-3/tamil/TamilContentLoader';
 
 import englishCurriculumManifest from '../../content/class-3/english/manifest.json';
 import m1Manifest from '../../content/class-3/english/module-1/manifest.json';
@@ -31,8 +29,9 @@ export class LocalContentRepository implements ContentRepository {
   private englishModuleManifests: Map<number, EnglishModuleManifest>;
 
   constructor() {
-    this.manifest = manifestTerm1 as ContentManifest;
-    this.tamilActivities = class3TamilTerm1 as Activity[];
+    const tamilLoader = new TamilContentLoader();
+    this.manifest = tamilLoader.loadManifest();
+    this.tamilActivities = tamilLoader.loadActivities();
     this.englishManifest = englishCurriculumManifest as EnglishCurriculumManifest;
 
     this.englishModuleManifests = new Map([
@@ -83,12 +82,15 @@ export class LocalContentRepository implements ContentRepository {
     if (!query) {
       // Default to Tamil activities for backward-compatibility with existing tests
       pool = this.tamilActivities;
-    } else if (query.subject?.toLowerCase() === 'english' || query.module !== undefined) {
+    } else if (query.subject?.toLowerCase() === 'english') {
       pool = this.englishActivities;
     } else if (query.subject?.toLowerCase() === 'all') {
       pool = [...this.tamilActivities, ...this.englishActivities];
     } else if (query.subject?.toLowerCase() === 'tamil') {
       pool = this.tamilActivities;
+    } else if (query.day !== undefined) {
+      // English curriculum has day allocation
+      pool = this.englishActivities;
     } else {
       pool = this.tamilActivities;
     }

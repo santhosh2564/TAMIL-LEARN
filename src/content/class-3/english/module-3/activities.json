@@ -1100,14 +1100,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "u"
       }
     ],
     "units": [
       "t",
       "y",
       "e",
-      "n"
+      "u"
     ],
     "template": "f r _",
     "correctAnswer": "fry",
@@ -1137,7 +1137,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "B",
@@ -1145,18 +1145,18 @@
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "r"
       }
     ],
     "units": [
-      "e",
-      "o",
       "t",
-      "i"
+      "o",
+      "m",
+      "r"
     ],
     "template": "m _ w",
     "correctAnswer": "mow",
@@ -1198,14 +1198,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "g"
       }
     ],
     "units": [
       "t",
       "e",
       "a",
-      "u"
+      "g"
     ],
     "template": "s o _ k",
     "correctAnswer": "soak",
@@ -2889,14 +2889,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
       "e",
       "t",
       "a",
-      "u"
+      "s"
     ],
     "template": "a w _ y",
     "correctAnswer": "away",
@@ -2938,14 +2938,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "m"
       }
     ],
     "units": [
       "e",
       "a",
       "t",
-      "o"
+      "m"
     ],
     "template": "b l _ c k",
     "correctAnswer": "black",
@@ -2983,7 +2983,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "k"
       },
       {
         "id": "D",
@@ -2993,7 +2993,7 @@
     "units": [
       "t",
       "e",
-      "a",
+      "k",
       "u"
     ],
     "template": "b r _ s h",
@@ -3036,14 +3036,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "o"
       }
     ],
     "units": [
       "e",
       "t",
       "z",
-      "b"
+      "o"
     ],
     "template": "b u _ z",
     "correctAnswer": "buzz",
@@ -3073,15 +3073,15 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "c"
       },
       {
         "id": "D",
@@ -3089,9 +3089,9 @@
       }
     ],
     "units": [
-      "e",
-      "t",
-      "h",
+      "a",
+      "o",
+      "c",
       "p"
     ],
     "template": "c l a _ s",
@@ -3134,14 +3134,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "a"
       }
     ],
     "units": [
       "o",
       "e",
       "t",
-      "u"
+      "a"
     ],
     "template": "c _ o l",
     "correctAnswer": "cool",
@@ -3179,7 +3179,7 @@
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "d"
       },
       {
         "id": "D",
@@ -3189,7 +3189,7 @@
     "units": [
       "e",
       "a",
-      "o",
+      "d",
       "u"
     ],
     "template": "c o _ n t",
@@ -3840,7 +3840,7 @@
     "targetWord": "read",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Choose the correct spelling:",
+    "prompt": "To look at written words in a book and understand their meaning. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4274,14 +4274,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
       "a",
       "i",
       "t",
-      "u"
+      "e"
     ],
     "template": "b e h _ n d",
     "correctAnswer": "behind",
@@ -4323,14 +4323,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "b"
       }
     ],
     "units": [
       "e",
       "t",
       "i",
-      "o"
+      "b"
     ],
     "template": "b r _ c k",
     "correctAnswer": "brick",
@@ -4372,14 +4372,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "f"
       }
     ],
     "units": [
       "o",
       "t",
       "e",
-      "a"
+      "f"
     ],
     "template": "b r _ o m",
     "correctAnswer": "broom",
@@ -4485,7 +4485,7 @@
     "targetWord": "beach",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Choose the correct spelling:",
+    "prompt": "A sandy shore along the edge of the sea or ocean. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4764,7 +4764,7 @@
     "targetWord": "achieve",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "To succeed in reaching a goal after working hard. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4879,7 +4879,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
@@ -4889,7 +4889,7 @@
     "units": [
       "i",
       "s",
-      "u",
+      "p",
       "e"
     ],
     "template": "a n o t h _ r",
@@ -4987,7 +4987,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "D",
@@ -4997,7 +4997,7 @@
     "units": [
       "e",
       "t",
-      "a",
+      "w",
       "o"
     ],
     "template": "a r _ u n d",
@@ -5195,7 +5195,7 @@
     "targetWord": "ball",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Complete the word:",
+    "prompt": "A round object that children bounce and throw in outdoor games. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -5203,22 +5203,22 @@
       },
       {
         "id": "B",
-        "label": "e"
-      },
-      {
-        "id": "C",
         "label": "t"
       },
       {
+        "id": "C",
+        "label": "r"
+      },
+      {
         "id": "D",
-        "label": "i"
+        "label": "w"
       }
     ],
     "units": [
       "a",
-      "e",
       "t",
-      "i"
+      "r",
+      "w"
     ],
     "template": "b _ l l",
     "correctAnswer": "ball",
@@ -5365,7 +5365,7 @@
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "r"
       },
       {
         "id": "D",
@@ -5375,7 +5375,7 @@
     "units": [
       "o",
       "t",
-      "w",
+      "r",
       "s"
     ],
     "template": "b e c a u _ e",
@@ -5419,14 +5419,14 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "e"
       }
     ],
     "units": [
       "l",
       "t",
       "a",
-      "s"
+      "e"
     ],
     "template": "b e _ l",
     "correctAnswer": "bell",
@@ -5735,14 +5735,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "t"
       }
     ],
     "units": [
       "u",
       "o",
       "e",
-      "a"
+      "t"
     ],
     "template": "b _ e",
     "correctAnswer": "bee",
@@ -5781,18 +5781,18 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "l"
       }
     ],
     "units": [
       "c",
       "i",
-      "a",
-      "o"
+      "g",
+      "l"
     ],
     "template": "b _ n",
     "correctAnswer": "bin",
@@ -5835,14 +5835,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "h"
       }
     ],
     "units": [
       "j",
       "d",
       "y",
-      "b"
+      "h"
     ],
     "template": "c r _",
     "correctAnswer": "cry",
@@ -5885,14 +5885,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "g"
       }
     ],
     "units": [
       "w",
       "i",
       "p",
-      "e"
+      "g"
     ],
     "template": "d _ e",
     "correctAnswer": "die",
@@ -5935,14 +5935,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "m"
       }
     ],
     "units": [
       "g",
       "i",
       "e",
-      "o"
+      "m"
     ],
     "template": "d _ p",
     "correctAnswer": "dip",
@@ -5981,7 +5981,7 @@
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "a"
       },
       {
         "id": "D",
@@ -5991,7 +5991,7 @@
     "units": [
       "l",
       "q",
-      "m",
+      "a",
       "y"
     ],
     "template": "d r _",
@@ -6031,7 +6031,7 @@
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "D",
@@ -6041,7 +6041,7 @@
     "units": [
       "j",
       "o",
-      "i",
+      "c",
       "a"
     ],
     "template": "e _ t",
@@ -6085,14 +6085,14 @@
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "l"
       }
     ],
     "units": [
       "g",
       "o",
       "z",
-      "n"
+      "l"
     ],
     "template": "e _ g",
     "correctAnswer": "egg",
@@ -6135,14 +6135,14 @@
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "w"
       }
     ],
     "units": [
       "r",
       "x",
       "y",
-      "k"
+      "w"
     ],
     "template": "f l _",
     "correctAnswer": "fly",
@@ -6185,14 +6185,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "m"
       }
     ],
     "units": [
       "g",
       "u",
       "b",
-      "e"
+      "m"
     ],
     "template": "f _ n",
     "correctAnswer": "fun",
@@ -6239,14 +6239,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "c"
       }
     ],
     "units": [
       "w",
       "p",
       "o",
-      "i"
+      "c"
     ],
     "template": "a b _ u t",
     "correctAnswer": "about",
@@ -6273,7 +6273,7 @@
     "targetWord": "aeroplane",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "A large flying vehicle with wings and engines that carries passengers in the sky. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -6402,14 +6402,14 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "b"
       }
     ],
     "units": [
       "f",
       "i",
       "w",
-      "e"
+      "b"
     ],
     "template": "b r _ n g",
     "correctAnswer": "bring",
@@ -6452,14 +6452,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "s"
       }
     ],
     "units": [
       "c",
       "n",
       "m",
-      "b"
+      "s"
     ],
     "template": "c a t _ h",
     "correctAnswer": "catch",
@@ -6552,14 +6552,14 @@
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "n"
       }
     ],
     "units": [
       "o",
       "c",
       "z",
-      "m"
+      "n"
     ],
     "template": "d a n _ e",
     "correctAnswer": "dance",
@@ -6646,14 +6646,14 @@
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "t"
       }
     ],
     "units": [
       "z",
       "b",
       "q",
-      "p"
+      "t"
     ],
     "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
@@ -6680,7 +6680,7 @@
     "targetWord": "blanket",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order to make the word.",
+    "prompt": "A thick, warm cloth cover used on a bed to keep you warm. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",

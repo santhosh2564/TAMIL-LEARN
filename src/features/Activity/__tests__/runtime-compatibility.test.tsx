@@ -7,9 +7,9 @@ import { registerCoreActivities } from '../registerActivities';
 describe('Runtime Compatibility Check', () => {
   const repository = new LocalContentRepository();
 
-  it('contains exactly 142 activities', async () => {
+  it('contains exactly 1178 activities from the full Tamil dataset', async () => {
     const allActivities = await repository.getActivities();
-    expect(allActivities.length).toBe(142);
+    expect(allActivities.length).toBe(1178);
   });
 
   it('ensures all activities resolve in the registry and render without crashing', async () => {
@@ -69,7 +69,7 @@ describe('Runtime Compatibility Check', () => {
       }
     }
 
-    expect(resolvedCount).toBe(142);
+    expect(resolvedCount).toBe(1178);
 
     // Log stats for manual verification against content-analysis
     console.log('Category Stats:', categoryStats);
@@ -77,12 +77,12 @@ describe('Runtime Compatibility Check', () => {
     console.log('Level Stats:', levelStats);
 
     // Verify accurate counts based on actual runtime results
-    expect(categoryStats['picture-recognition']).toBe(22);
-    expect(categoryStats['spelling-choice']).toBe(19);
-    expect(categoryStats['meaning-match']).toBe(23);
-    expect(categoryStats['context-choice']).toBe(27);
-    expect(categoryStats['arrange-word']).toBe(38);
-    expect(categoryStats['word-completion']).toBe(13);
+    expect(categoryStats['picture-recognition']).toBe(152);
+    expect(categoryStats['spelling-choice']).toBe(214);
+    expect(categoryStats['meaning-match']).toBe(191);
+    expect(categoryStats['context-choice']).toBe(130);
+    expect(categoryStats['arrange-word']).toBe(385);
+    expect(categoryStats['word-completion']).toBe(106);
   });
 
   it('ensures unique IDs', async () => {

@@ -389,7 +389,7 @@
     "targetWord": "hanging",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the letters to make the correct word.",
+    "prompt": "Attached or fixed from above with the lower part swinging free. Arrange the letters to make the word:",
     "options": [
       {
         "id": "A",
@@ -5668,7 +5668,7 @@
     "targetWord": "achieve",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Put the letters in the correct order:",
+    "prompt": "To succeed in reaching a goal after working hard. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -6095,14 +6095,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
       "e",
       "t",
       "a",
-      "u"
+      "s"
     ],
     "template": "a w _ y",
     "correctAnswer": "away",
@@ -6145,14 +6145,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
       "a",
       "i",
       "t",
-      "u"
+      "e"
     ],
     "template": "b e h _ n d",
     "correctAnswer": "behind",
@@ -6195,14 +6195,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "m"
       }
     ],
     "units": [
       "e",
       "a",
       "t",
-      "o"
+      "m"
     ],
     "template": "b l _ c k",
     "correctAnswer": "black",
@@ -6245,14 +6245,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "b"
       }
     ],
     "units": [
       "e",
       "t",
       "i",
-      "o"
+      "b"
     ],
     "template": "b r _ c k",
     "correctAnswer": "brick",
@@ -6295,14 +6295,14 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "f"
       }
     ],
     "units": [
       "o",
       "t",
       "e",
-      "a"
+      "f"
     ],
     "template": "b r _ o m",
     "correctAnswer": "broom",
@@ -6341,7 +6341,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "k"
       },
       {
         "id": "D",
@@ -6351,7 +6351,7 @@
     "units": [
       "t",
       "e",
-      "a",
+      "k",
       "u"
     ],
     "template": "b r _ s h",
@@ -6395,14 +6395,14 @@
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "o"
       }
     ],
     "units": [
       "e",
       "t",
       "z",
-      "b"
+      "o"
     ],
     "template": "b u _ z",
     "correctAnswer": "buzz",
@@ -6433,15 +6433,15 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "c"
       },
       {
         "id": "D",
@@ -6449,9 +6449,9 @@
       }
     ],
     "units": [
-      "e",
-      "t",
-      "h",
+      "a",
+      "o",
+      "c",
       "p"
     ],
     "template": "c l a _ s",
@@ -6483,11 +6483,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "h"
       },
       {
         "id": "C",
@@ -6495,14 +6495,14 @@
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "m"
       }
     ],
     "units": [
-      "o",
       "e",
+      "h",
       "a",
-      "i"
+      "m"
     ],
     "template": "c r _ c k",
     "correctAnswer": "crack",
@@ -6545,14 +6545,14 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "s"
       }
     ],
     "units": [
       "a",
       "e",
       "o",
-      "u"
+      "s"
     ],
     "template": "d e _ p",
     "correctAnswer": "deep",
@@ -6583,15 +6583,15 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
-      },
-      {
-        "id": "B",
         "label": "e"
       },
       {
+        "id": "B",
+        "label": "k"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "n"
       },
       {
         "id": "D",
@@ -6599,9 +6599,9 @@
       }
     ],
     "units": [
-      "a",
       "e",
-      "u",
+      "k",
+      "n",
       "i"
     ],
     "template": "d r _ n k",
@@ -6645,14 +6645,14 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "u"
       }
     ],
     "units": [
       "i",
       "e",
       "a",
-      "o"
+      "u"
     ],
     "template": "a n y t h _ n g",
     "correctAnswer": "anything",

@@ -7,10 +7,12 @@ import { ActivitySession, SessionSize } from '../../engine/types';
 import { serializeSessionSize } from '../../engine';
 import { Activity } from '../../types';
 import { EnglishProgressService, EnglishDayProgress } from '../../progress';
+import { useStudent, StudentProfile } from '../../student';
 
 interface SessionState {
   session?: ActivitySession;
   activities?: Record<string, Activity>;
+  student?: StudentProfile;
   config?: {
     classId: string;
     subjectId: string;
@@ -25,10 +27,13 @@ interface SessionState {
 export function ResultsPage() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { session, activities, config } = (location.state as SessionState) || {};
+  const { activeStudent } = useStudent();
+  const { session, activities, config, student } = (location.state as SessionState) || {};
 
   const isEnglish = (config?.subjectId || '').toLowerCase() === 'english';
   const [dayProgress, setDayProgress] = useState<EnglishDayProgress | null>(null);
+
+  const studentName = student?.name || activeStudent?.name;
 
   useEffect(() => {
     if (isEnglish && config?.module && config?.day) {
@@ -86,8 +91,16 @@ export function ResultsPage() {
   };
 
   const praise = isEnglish
-    ? (accuracy >= 80 ? 'Great Job!' : accuracy >= 50 ? 'Good Effort!' : 'Keep Practicing!')
-    : (accuracy >= 80 ? 'அருமையான முயற்சி!' : accuracy >= 50 ? 'நல்ல முயற்சி!' : 'தொடர்ந்து பயிற்சி செய்!');
+    ? (accuracy >= 80
+        ? (studentName ? `Great Job, ${studentName}!` : 'Great Job!')
+        : accuracy >= 50
+        ? (studentName ? `Good Effort, ${studentName}!` : 'Good Effort!')
+        : (studentName ? `Keep Practicing, ${studentName}!` : 'Keep Practicing!'))
+    : (accuracy >= 80
+        ? (studentName ? `அருமையான முயற்சி, ${studentName}!` : 'அருமையான முயற்சி!')
+        : accuracy >= 50
+        ? (studentName ? `நல்ல முயற்சி, ${studentName}!` : 'நல்ல முயற்சி!')
+        : (studentName ? `தொடர்ந்து பயிற்சி செய், ${studentName}!` : 'தொடர்ந்து பயிற்சி செய்!'));
 
   const subtitle = isEnglish
     ? `Your ${modeName} is complete.`
@@ -131,6 +144,8 @@ export function ResultsPage() {
               const activity = activities[id];
               const result = session.results[id];
               const isCorrect = result?.correct;
+              const attemptsCount = result?.attempts ?? 1;
+              const retryCount = attemptsCount > 1 ? attemptsCount - 1 : 0;
 
               return (
                 <div key={id} className="p-6 flex items-center justify-between hover:bg-surface-highlight/30 transition-colors">
@@ -145,6 +160,14 @@ export function ResultsPage() {
                           {activity.prompt}
                         </div>
                       )}
+                      <div className="text-xs text-text-muted mt-1 flex items-center gap-3">
+                        <span>{isEnglish ? 'Attempts:' : 'முயற்சிகள்:'} {attemptsCount}</span>
+                        {retryCount > 0 && (
+                          <span className="text-amber-600 font-semibold">
+                            {isEnglish ? 'Retry:' : 'மறுமுயற்சி:'} {retryCount}
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">

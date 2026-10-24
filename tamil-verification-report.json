@@ -1,0 +1,250 @@
+{
+  "modulesCount": 8,
+  "jsonFilesCount": 85,
+  "totalRecords": 1178,
+  "uniqueRecords": 1178,
+  "totalTamilWords": 15384,
+  "uniqueTamilWords": 3921,
+  "activityTypesCount": 17,
+  "pictureQuestionsCount": 312,
+  "imagesVerifiedCount": 287,
+  "imagesMissingCount": 0,
+  "duplicateIdsCount": 0,
+  "missingIdsCount": 0,
+  "unicodeCorruptionsCount": 0,
+  "evaluatorMismatchesCount": 0,
+  "xlsxRuntimeDependenciesCount": 0,
+  "failedQuestionIds": [],
+  "failedTamilWords": [],
+  "brokenImagePaths": [],
+  "evaluatorMismatchDetails": [],
+  "moduleMatrix": [
+    {
+      "module": "Module 1",
+      "jsonRecords": 148,
+      "loaded": 148,
+      "rendered": 148,
+      "answersVerified": 148,
+      "imagesVerified": 36,
+      "failures": 0
+    },
+    {
+      "module": "Module 2",
+      "jsonRecords": 148,
+      "loaded": 148,
+      "rendered": 148,
+      "answersVerified": 148,
+      "imagesVerified": 38,
+      "failures": 0
+    },
+    {
+      "module": "Module 3",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 49,
+      "failures": 0
+    },
+    {
+      "module": "Module 4",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 31,
+      "failures": 0
+    },
+    {
+      "module": "Module 5",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 29,
+      "failures": 0
+    },
+    {
+      "module": "Module 6",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 41,
+      "failures": 0
+    },
+    {
+      "module": "Module 7",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 34,
+      "failures": 0
+    },
+    {
+      "module": "Module 8",
+      "jsonRecords": 147,
+      "loaded": 147,
+      "rendered": 147,
+      "answersVerified": 147,
+      "imagesVerified": 29,
+      "failures": 0
+    }
+  ],
+  "activityMatrix": [
+    {
+      "activityType": "Arrange Tamil Units",
+      "records": 230,
+      "loaded": 230,
+      "rendered": 230,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Context → Correct Spelling",
+      "records": 2,
+      "loaded": 2,
+      "rendered": 2,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Context → Drag Word",
+      "records": 22,
+      "loaded": 22,
+      "rendered": 22,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Context → Select",
+      "records": 1,
+      "loaded": 1,
+      "rendered": 1,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Context → Select/Drag",
+      "records": 107,
+      "loaded": 107,
+      "rendered": 107,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Correct Spelling",
+      "records": 199,
+      "loaded": 199,
+      "rendered": 199,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Drag & Drop Missing Ending",
+      "records": 1,
+      "loaded": 1,
+      "rendered": 1,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Drag & Drop Missing Unit",
+      "records": 5,
+      "loaded": 5,
+      "rendered": 5,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "English Meaning → Arrange Tamil Units",
+      "records": 2,
+      "loaded": 2,
+      "rendered": 2,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "English Meaning → Arrange Tamil Word",
+      "records": 7,
+      "loaded": 7,
+      "rendered": 7,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "English Meaning → Tamil Word",
+      "records": 191,
+      "loaded": 191,
+      "rendered": 191,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Missing Letter",
+      "records": 99,
+      "loaded": 99,
+      "rendered": 99,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Picture → Arrange",
+      "records": 146,
+      "loaded": 146,
+      "rendered": 146,
+      "evaluator": "Available",
+      "assets": 138,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Picture → Context/Select",
+      "records": 1,
+      "loaded": 1,
+      "rendered": 1,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Picture → Correct Spelling",
+      "records": 4,
+      "loaded": 4,
+      "rendered": 4,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Picture → Missing Unit",
+      "records": 1,
+      "loaded": 1,
+      "rendered": 1,
+      "evaluator": "Available",
+      "assets": 0,
+      "status": "PASS"
+    },
+    {
+      "activityType": "Picture → Select",
+      "records": 160,
+      "loaded": 160,
+      "rendered": 160,
+      "evaluator": "Available",
+      "assets": 149,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "Target Word": "திசை",
+    "Source Type": "Consolidated FTS bank",
+    "Source ID": "FTS0516",
+    "FTS ID": "FTS0516",
+    "Question ID": null,
+    "Level": null,
+    "Activity": "Context → Select",
+    "Question / Instruction": "நாம் செல்ல வேண்டிய இடம் எந்தப் பக்கம் இருக்கிறது என்பதை அறிய உதவும் சொல்லைத் தேர்ந்தெடு.",
+    "Options / Units": "திசை | திசைவு | திசைப்பு | திசைமை",
+    "Correct Answer": "திசை",
+    "Source Batch": "1–20",
+    "Source File": "Final _Consolidated_Batches1-22_FTS0001_FTS1059 (1).xlsx",
+    "Picture Required": "No",
+    "Source Meaning / Notes": 2827,
+    "Source Reference / Context": null,
+    "Picture Specification": 2143,
+    "Verification Flag": null,
+    "Module": "Module 4",
+    "Position in Module": 131,
+    "Normalized Word": "திசை",
+    "Master Sequence": 516
+  }
+]

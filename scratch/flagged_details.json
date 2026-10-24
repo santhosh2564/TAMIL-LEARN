@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ENG-M3-REV-EW002",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "achieve",
+    "prompt": "Put the letters in the correct order:",
+    "options": "e, v, a, i, h, c, e",
+    "tileCount": 7,
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M3-REV-EW035",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "bandage",
+    "prompt": "You put this on a small cut or wound.",
+    "options": "d, a, b, g, e, n, a",
+    "tileCount": 7,
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M3-REV-EW004",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "aeroplane",
+    "prompt": "Put the letters in the correct order:",
+    "options": "p, a, e, r, o, l, a, n, e",
+    "tileCount": 9,
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M4-EW278",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "feathers",
+    "prompt": "These cover a bird's body. Write the word.",
+    "options": "a, s, h, r, e, t, e, f",
+    "tileCount": 8,
+    "reason": "arrange-word with 8 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M5-EW356",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "green gram",
+    "prompt": "Write the name of this food grain.",
+    "options": "r, e, e, n, g, r, a, m, g",
+    "tileCount": 9,
+    "reason": "arrange-word with 9 tiles and no meaning clue"
+  },
+  {
+    "id": "ENG-M5-EW817",
+    "categoryVariant": "picture-recognition::select",
+    "targetWord": "talents",
+    "prompt": "Choose the correct word and write it.",
+    "options": "talents, talants, talentss",
+    "tileCount": 3,
+    "reason": "picture-recognition with whole-word options and no meaning clue"
+  },
+  {
+    "id": "ENG-M6-EW373",
+    "categoryVariant": "arrange-word::arrange",
+    "targetWord": "hanging",
+    "prompt": "Arrange the letters to make the correct word.",
+    "options": "g, n, a, i, n, h, g",
+    "tileCount": 7,
+    "reason": "arrange-word with 7 tiles and no meaning clue"
+  }
+]
