@@ -1,6 +1,6 @@
 import { Activity } from '../../types';
 import { ActivityEvaluation, ActivityEvaluator } from '../types';
-import { matchesTamilOrTarget } from '../../utils/tamil';
+import { combineTamilSandhi, matchesTamilOrTarget } from '../../utils/tamil';
 
 export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
   evaluate(activity: Activity, inputIds: string[]): ActivityEvaluation {
@@ -40,9 +40,28 @@ export class ArrangeWordEvaluator implements ActivityEvaluator<string[]> {
       return opt ? opt.label : '';
     });
 
-    // Check if the joined labels match the correct answer (supports exact, array targets, and Tamil sandhi)
-    const formedWord = selectedLabels.join('');
-    const isCorrect = matchesTamilOrTarget(formedWord, activity.correctAnswer);
+    // Ignore spaces and hyphens on BOTH sides for comparison (multi-word answers with no space tiles)
+    const rawFormed = selectedLabels.join('');
+    const cleanFormed = rawFormed.replace(/[\s\-_]/g, '').toLowerCase();
+    const sandhiFormed = combineTamilSandhi(rawFormed).replace(/[\s\-_]/g, '').toLowerCase();
+
+    const targets = Array.isArray(activity.correctAnswer)
+      ? activity.correctAnswer
+      : [activity.correctAnswer || activity.targetWord || ''];
+
+    const isCorrect = matchesTamilOrTarget(rawFormed, activity.correctAnswer) || targets.some(target => {
+      const normTarget = (target || '').trim().toLowerCase();
+      const sandhiTarget = combineTamilSandhi(normTarget).replace(/[\s\-_]/g, '').toLowerCase();
+      const cleanTarget = normTarget.replace(/[\s\-_]/g, '');
+
+      return (
+        cleanFormed.length > 0 &&
+        (cleanFormed === cleanTarget ||
+         sandhiFormed === cleanTarget ||
+         cleanFormed === sandhiTarget ||
+         sandhiFormed === sandhiTarget)
+      );
+    });
 
     return {
       correct: isCorrect,

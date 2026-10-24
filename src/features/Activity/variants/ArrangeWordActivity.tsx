@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
 import { 
   ActivityCard, 
@@ -8,22 +8,37 @@ import {
   ArrangeToken,
   ActivityAsset
 } from '../components';
+import { AssetResolver, AssetReference } from '../../../engine/assets';
 
 import { shuffleArray } from '../../../utils/shuffle';
 import { matchesTamilOrTarget } from '../../../utils/tamil';
 
 export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string[]>) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const [availableIds, setAvailableIds] = useState<string[]>([]);
-  const [shuffled, setShuffled] = useState(false);
+  const [availableIds, setAvailableIds] = useState<string[]>(() => shuffleArray(activity.options?.map(o => o.id) || []));
   const [submitted, setSubmitted] = useState(false);
 
   const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
-  const isTamilPicturePrompt = /படத்தில் காணப்படும்/.test(activity.prompt || '');
-  const hasImage = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '') || isTamilPicturePrompt;
-  const assetId = activity.image?.source
-    || (isTamilPicturePrompt ? `class3-tamil-picture-${activity.id.toLowerCase()}` : null)
-    || (activity.targetWord ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : null);
+  const resolver = useMemo(() => new AssetResolver(), []);
+  const assetRef = useMemo<AssetReference | null>(() => {
+    if (activity.needsImage === false) return null;
+    if (activity.image?.source) {
+      return { id: activity.image.source, type: 'image' };
+    }
+    if (activity.needsImage === true) {
+      if (isEnglish) {
+        const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
+        return { id: `eng-${wordKey}`, type: 'image' };
+      }
+      return { id: `class3-tamil-picture-${activity.id.toLowerCase()}`, type: 'image' };
+    }
+    return null;
+  }, [activity, isEnglish]);
+
+  const hasImage = useMemo(() => {
+    if (!assetRef || activity.needsImage === false) return false;
+    return resolver.resolve(assetRef).status === 'resolved';
+  }, [assetRef, resolver, activity.needsImage]);
 
   const options = activity.options || [];
 
@@ -31,7 +46,6 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
     // Reset and shuffle when activity changes
     setSelectedIds([]);
     setAvailableIds(shuffleArray(activity.options?.map(o => o.id) || []));
-    setShuffled(true);
     setSubmitted(false);
   }, [activity.id, activity.options]);
 
@@ -100,17 +114,15 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
     if (onNext) onNext();
   };
 
-  if (!shuffled) return null; // Wait for initial shuffle
-
   return (
     <ActivityCard className="max-w-4xl">
       <div className="mb-4 text-center w-full">
         <ActivityPrompt prompt={activity.prompt} />
       </div>
 
-      {hasImage && assetId && (
+      {hasImage && assetRef && (
         <div className="mb-6 w-full flex justify-center">
-          <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
         </div>
       )}
       

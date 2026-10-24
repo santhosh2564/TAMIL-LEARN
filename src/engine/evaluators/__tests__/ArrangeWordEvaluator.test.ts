@@ -101,4 +101,120 @@ describe('ArrangeWordEvaluator', () => {
     expect(result.correct).toBe(true);
     expect(result.completed).toBe(true);
   });
+
+  describe('Defect 3 Regression: Compound Arrange Spacing Normalization', () => {
+    it('evaluates FTS0295 "காவல்" + "நிலையம்" -> "காவல் நிலையம்" correctly', () => {
+      const fts0295Activity = {
+        id: 'FTS0295',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'காவல் நிலையம்',
+        options: [
+          { id: '1', label: 'காவல்' },
+          { id: '2', label: 'நிலையம்' }
+        ]
+      } as Activity;
+
+      const result = evaluator.evaluate(fts0295Activity, ['1', '2']);
+      expect(result.correct).toBe(true);
+      expect(result.completed).toBe(true);
+
+      const wrongResult = evaluator.evaluate(fts0295Activity, ['2', '1']);
+      expect(wrongResult.correct).toBe(false);
+      expect(wrongResult.completed).toBe(false);
+    });
+
+    it('evaluates FTS0715 "பளு" + "தூக்கும்" -> "பளு தூக்கும்" correctly', () => {
+      const fts0715Activity = {
+        id: 'FTS0715',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'பளு தூக்கும்',
+        options: [
+          { id: '1', label: 'பளு' },
+          { id: '2', label: 'தூக்கும்' }
+        ]
+      } as Activity;
+
+      const result = evaluator.evaluate(fts0715Activity, ['1', '2']);
+      expect(result.correct).toBe(true);
+      expect(result.completed).toBe(true);
+
+      const wrongResult = evaluator.evaluate(fts0715Activity, ['2', '1']);
+      expect(wrongResult.correct).toBe(false);
+      expect(wrongResult.completed).toBe(false);
+    });
+
+    it('evaluates multi-word arrange with 3 or more spaced units', () => {
+      const multiWordActivity = {
+        id: 'MULTI-WORD-TEST',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'தமிழ் நாடு அரசு',
+        options: [
+          { id: '1', label: 'தமிழ்' },
+          { id: '2', label: 'நாடு' },
+          { id: '3', label: 'அரசு' }
+        ]
+      } as Activity;
+
+      const result = evaluator.evaluate(multiWordActivity, ['1', '2', '3']);
+      expect(result.correct).toBe(true);
+      expect(result.completed).toBe(true);
+
+      const wrongResult = evaluator.evaluate(multiWordActivity, ['2', '1', '3']);
+      expect(wrongResult.correct).toBe(false);
+      expect(wrongResult.completed).toBe(false);
+    });
+
+    it('evaluates English multi-word and hyphenated answers without space tiles (e.g. "thank you", "pitter-patter")', () => {
+      // 1. "thank you"
+      const thankYouAct = {
+        id: 'ENG-M4-EW834',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'thank you',
+        options: [
+          { id: '1', label: 't' },
+          { id: '2', label: 'h' },
+          { id: '3', label: 'a' },
+          { id: '4', label: 'n' },
+          { id: '5', label: 'k' },
+          { id: '6', label: 'y' },
+          { id: '7', label: 'o' },
+          { id: '8', label: 'u' }
+        ]
+      } as Activity;
+      expect(evaluator.evaluate(thankYouAct, ['1', '2', '3', '4', '5', '6', '7', '8']).correct).toBe(true);
+
+      // 2. "pitter-patter"
+      const pitterPatterAct = {
+        id: 'ENG-M8-EW588',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'pitter-patter',
+        options: [
+          { id: '1', label: 'pitter' },
+          { id: '2', label: 'patter' }
+        ]
+      } as Activity;
+      expect(evaluator.evaluate(pitterPatterAct, ['1', '2']).correct).toBe(true);
+      expect(evaluator.evaluate(pitterPatterAct, ['2', '1']).correct).toBe(false);
+
+      // 3. "post office"
+      const postOfficeAct = {
+        id: 'ENG-M8-EW609',
+        category: 'arrange-word',
+        variant: 'arrange',
+        correctAnswer: 'post office',
+        options: [
+          { id: '1', label: 'post' },
+          { id: '2', label: 'off' },
+          { id: '3', label: 'ice' }
+        ]
+      } as Activity;
+      expect(evaluator.evaluate(postOfficeAct, ['1', '2', '3']).correct).toBe(true);
+      expect(evaluator.evaluate(postOfficeAct, ['2', '3', '1']).correct).toBe(false);
+    });
+  });
 });
