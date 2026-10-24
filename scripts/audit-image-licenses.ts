@@ -174,7 +174,7 @@ async function run() {
     }
 
     if (!copyright) copyright = 'None';
-    if (!source) source = f.startsWith('public/assets/class-3/english') ? 'English Curriculum Image Assets' : 'None';
+    if (!source) source = f.startsWith('public/assets/class-3/english') ? 'unknown' : 'None';
 
     function escapeCsv(val: any): string {
       const str = String(val).replace(/\r?\n/g, ' ').replace(/"/g, '""');
