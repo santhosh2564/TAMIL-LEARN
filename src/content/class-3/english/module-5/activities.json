@@ -106,7 +106,7 @@
     "targetWord": "mom",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A mother or female parent. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -127,11 +127,7 @@
       "m"
     ],
     "correctAnswer": "mom",
-    "image": {
-      "type": "image",
-      "source": "eng-mom"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW510",
@@ -200,7 +196,7 @@
     "targetWord": "mud",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Wet, soft, sticky soil. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -221,11 +217,7 @@
       "m"
     ],
     "correctAnswer": "mud",
-    "image": {
-      "type": "image",
-      "source": "eng-mud"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW521",
@@ -388,7 +380,7 @@
     "targetWord": "nut",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A fruit consisting of a hard shell around an edible seed. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -409,11 +401,7 @@
       "n"
     ],
     "correctAnswer": "nut",
-    "image": {
-      "type": "image",
-      "source": "eng-nut"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW549",
@@ -900,7 +888,7 @@
     "targetWord": "red",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "The bright colour of blood, apples, and ripe strawberries. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -921,11 +909,7 @@
       "r"
     ],
     "correctAnswer": "red",
-    "image": {
-      "type": "image",
-      "source": "eng-red"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW641",
@@ -994,7 +978,7 @@
     "targetWord": "she",
     "category": "picture-recognition",
     "variant": "word-entry",
-    "prompt": "Look at the picture. Choose the word that tells about the girl.",
+    "prompt": "The pronoun used to refer to a girl or woman. Write the word:",
     "options": [
       {
         "id": "A",
@@ -1014,11 +998,7 @@
       }
     ],
     "correctAnswer": "she",
-    "image": {
-      "type": "image",
-      "source": "eng-she"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW702",
@@ -1040,7 +1020,7 @@
     "targetWord": "sit",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for what the child is doing.",
+    "prompt": "To rest your body on a chair or bench. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1061,11 +1041,7 @@
       "s"
     ],
     "correctAnswer": "sit",
-    "image": {
-      "type": "image",
-      "source": "eng-sit"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW730",
@@ -1134,7 +1110,7 @@
     "targetWord": "tap",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A fixture for drawing liquid from a pipe. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1155,11 +1131,7 @@
       "t"
     ],
     "correctAnswer": "tap",
-    "image": {
-      "type": "image",
-      "source": "eng-tap"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW819",
@@ -1415,7 +1387,7 @@
     "targetWord": "web",
     "category": "picture-recognition",
     "variant": "word-entry",
-    "prompt": "Look at the picture. Choose the correct word.",
+    "prompt": "A fine silky net spun by a spider to catch insects. Write the word:",
     "options": [
       {
         "id": "A",
@@ -1435,11 +1407,7 @@
       }
     ],
     "correctAnswer": "web",
-    "image": {
-      "type": "image",
-      "source": "eng-web"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW920",
@@ -2044,7 +2012,7 @@
     "targetWord": "heads",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "The top parts of human and animal bodies with the brain, eyes, and mouth. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -2071,11 +2039,7 @@
     ],
     "template": "h _ a d s",
     "correctAnswer": "heads",
-    "image": {
-      "type": "image",
-      "source": "eng-heads"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW381",
@@ -3951,7 +3915,7 @@
     "targetWord": "cradle",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. A baby sleeps in this small bed. Choose the correct word and write it:",
+    "prompt": "A small bed for a baby that rocks gently. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -3967,11 +3931,7 @@
       }
     ],
     "correctAnswer": "cradle",
-    "image": {
-      "type": "image",
-      "source": "eng-cradle"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW176",
@@ -4352,7 +4312,7 @@
     "targetWord": "insects",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for these small creatures.",
+    "prompt": "Small creatures with six legs, such as ants and bees. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4393,11 +4353,7 @@
       "i"
     ],
     "correctAnswer": "insects",
-    "image": {
-      "type": "image",
-      "source": "eng-insects"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW419",
@@ -4706,7 +4662,7 @@
     "targetWord": "seasons",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "The periods of the year: summer, rainy season, and winter. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -4722,11 +4678,7 @@
       }
     ],
     "correctAnswer": "seasons",
-    "image": {
-      "type": "image",
-      "source": "eng-seasons"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW690",
@@ -4748,7 +4700,7 @@
     "targetWord": "shovel",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A hand tool with a broad blade used for lifting earth or snow. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -4764,11 +4716,7 @@
       }
     ],
     "correctAnswer": "shovel",
-    "image": {
-      "type": "image",
-      "source": "eng-shovel"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW721",
@@ -4954,7 +4902,7 @@
     "targetWord": "tender coconut",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A young green coconut containing refreshing, sweet water. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -4970,11 +4918,7 @@
       }
     ],
     "correctAnswer": "tender coconut",
-    "image": {
-      "type": "image",
-      "source": "eng-tender-coconut"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW832",
@@ -5249,7 +5193,7 @@
     "targetWord": "shadow",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A dark area formed when an object blocks light. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -5265,11 +5209,7 @@
       }
     ],
     "correctAnswer": "shadow",
-    "image": {
-      "type": "image",
-      "source": "eng-shadow"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW696",
@@ -5291,7 +5231,7 @@
     "targetWord": "shells",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "Hard protective outer covers found on the seashore. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -5307,11 +5247,7 @@
       }
     ],
     "correctAnswer": "shells",
-    "image": {
-      "type": "image",
-      "source": "eng-shells"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW705",
@@ -5877,7 +5813,7 @@
     "targetWord": "pinky",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "The smallest finger on your hand. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -5893,11 +5829,7 @@
       }
     ],
     "correctAnswer": "pinky",
-    "image": {
-      "type": "image",
-      "source": "eng-pinky"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW587",
@@ -6814,7 +6746,7 @@
     "targetWord": "bolt",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "A threaded metal rod used with a nut to fasten things. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -6830,11 +6762,7 @@
       }
     ],
     "correctAnswer": "bolt",
-    "image": {
-      "type": "image",
-      "source": "eng-bolt"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW071",
@@ -6896,7 +6824,7 @@
     "targetWord": "bow",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "A decorative knot with loops made from ribbon. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -6912,11 +6840,7 @@
       }
     ],
     "correctAnswer": "bow",
-    "image": {
-      "type": "image",
-      "source": "eng-bow"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW078",
@@ -7118,7 +7042,7 @@
     "targetWord": "aval",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Flattened rice flakes used to make tasty snacks. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -7144,11 +7068,7 @@
       "v"
     ],
     "correctAnswer": "aval",
-    "image": {
-      "type": "image",
-      "source": "eng-aval"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW025",
@@ -7171,7 +7091,7 @@
     "targetWord": "bengal gram",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A yellow chickpea pulse used in cooking. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -7187,11 +7107,7 @@
       }
     ],
     "correctAnswer": "bengal gram",
-    "image": {
-      "type": "image",
-      "source": "eng-bengal-gram"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW053",
@@ -7214,7 +7130,7 @@
     "targetWord": "black gram",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A small black pulse used to make idli batter. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -7230,11 +7146,7 @@
       }
     ],
     "correctAnswer": "black gram",
-    "image": {
-      "type": "image",
-      "source": "eng-black-gram"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW062",
@@ -7343,7 +7255,7 @@
     "targetWord": "curry leaves",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
+    "prompt": "Aromatic green leaves used to season Indian food. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -7359,11 +7271,7 @@
       }
     ],
     "correctAnswer": "curry leaves",
-    "image": {
-      "type": "image",
-      "source": "eng-curry-leaves"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW195",

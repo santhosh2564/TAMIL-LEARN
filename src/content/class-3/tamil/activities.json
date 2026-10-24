@@ -6343,7 +6343,7 @@
     "targetWord": "ஆடையகம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "பல்வேறு துணிகளும் ஆடைகளும் விற்பனை செய்யப்படும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "ஆடையகம்",
     "learningObjective": "Picture → Arrange recognition and practice for ஆடையகம்",
     "source": {
@@ -6400,12 +6400,7 @@
       "ய",
       "க"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0072",
-      "alt": "ஆடையகம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0085",
@@ -6565,7 +6560,7 @@
     "targetWord": "இனிப்பகம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "லட்டு, ஜிலேபி போன்ற இனிப்புப் பண்டங்கள் விற்கும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "இனிப்பகம்",
     "learningObjective": "Picture → Arrange recognition and practice for இனிப்பகம்",
     "source": {
@@ -6627,12 +6622,7 @@
       "ம்",
       "இ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0096",
-      "alt": "இனிப்பகம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0122",
@@ -6723,7 +6713,7 @@
     "targetWord": "உடம்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "தலை, கை, கால் ஆகிய உறுப்புகளைக் கொண்ட நமது மெய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "உடம்பு",
     "learningObjective": "Picture → Arrange recognition and practice for உடம்பு",
     "source": {
@@ -6775,12 +6765,7 @@
       "பு",
       "உ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0127",
-      "alt": "உடம்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0133",
@@ -6866,7 +6851,7 @@
     "targetWord": "அட்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "புத்தகத்தின் தடித்த மேலட்டை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அட்டை",
     "learningObjective": "Picture → Select recognition and practice for அட்டை",
     "source": {
@@ -6912,12 +6897,7 @@
         "label": "அங்காடி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0013",
-      "alt": "அட்டை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0014",
@@ -7607,7 +7587,7 @@
     "targetWord": "உடல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உடலுக்குச் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "மனிதர்கள் மற்றும் விலங்குகளின் மெய் அல்லது உடம்பைக் குறிக்கும் தமிழ்ச் சொல் எது?",
     "correctAnswer": "உடல்",
     "learningObjective": "Picture → Select recognition and practice for உடல்",
     "source": {
@@ -7653,12 +7633,7 @@
         "label": "உதவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0128",
-      "alt": "உடல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0131",
@@ -7733,7 +7708,7 @@
     "targetWord": "முயல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "நீண்ட காதுகளும் சிறிய வாலும் கொண்ட துள்ளி ஓடும் வெள்ளையான சாதுவான விலங்கு எது?",
     "correctAnswer": "முயல்",
     "learningObjective": "Picture → Select recognition and practice for முயல்",
     "source": {
@@ -7778,12 +7753,7 @@
         "label": "நாய்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q001",
-      "alt": "முயல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q003",
@@ -7981,7 +7951,7 @@
     "targetWord": "எலி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "வீடுகளிலும் வயல்களிலும் தானியங்களை உண்ணும் சிறிய வால் உள்ள பிராணி எது?",
     "correctAnswer": "எலி",
     "learningObjective": "Picture → Select recognition and practice for எலி",
     "source": {
@@ -8026,12 +7996,7 @@
         "label": "எரி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q013",
-      "alt": "எலி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q014",
@@ -13581,7 +13546,7 @@
     "targetWord": "எண்ணெய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "சமையலுக்கும் தலைக்கும் நாம் பயன்படுத்தும் திரவப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "எண்ணெய்",
     "learningObjective": "Picture → Arrange recognition and practice for எண்ணெய்",
     "source": {
@@ -13628,12 +13593,7 @@
       "ய்",
       "ணெ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0177",
-      "alt": "எண்ணெய்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0206",
@@ -14495,7 +14455,7 @@
     "targetWord": "உருண்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குச் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "பந்து அல்லது லட்டு போன்ற வட்டமான உருவ அமைப்பு ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உருண்டை",
     "learningObjective": "Picture → Select recognition and practice for உருண்டை",
     "source": {
@@ -14541,12 +14501,7 @@
         "label": "உரம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0147",
-      "alt": "உருண்டை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0164",
@@ -14558,7 +14513,7 @@
     "targetWord": "ஊதல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வாயால் காற்றை வெளியேற்றி அல்லது விசில் வழியாக ஒலி எழுப்பும் செயல் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "ஊதல்",
     "learningObjective": "Picture → Select recognition and practice for ஊதல்",
     "source": {
@@ -14604,12 +14559,7 @@
         "label": "ஏறுதல்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0164",
-      "alt": "ஊதல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0168",
@@ -15814,7 +15764,7 @@
     "targetWord": "கரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் இருப்பது எது?",
+    "prompt": "நமது கையின் மற்றொரு தூய தமிழ்ப் பெயர் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "கரம்",
     "learningObjective": "Picture → Select recognition and practice for கரம்",
     "source": {
@@ -15860,12 +15810,7 @@
         "label": "கண்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0248",
-      "alt": "கரம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q026",
@@ -20870,7 +20815,7 @@
     "targetWord": "கீற்று",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "தென்னை அல்லது பனை மரத்தின் ஓலையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "கீற்று",
     "learningObjective": "Picture → Arrange recognition and practice for கீற்று",
     "source": {
@@ -20917,12 +20862,7 @@
       "று",
       "கீ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0305",
-      "alt": "கீற்று"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0309",
@@ -21190,7 +21130,7 @@
     "targetWord": "குறிப்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "முக்கியமான விவரங்களை நினைவில் வைக்க எழுதும் சுருக்கமான தகவல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "குறிப்பு",
     "learningObjective": "Picture → Arrange recognition and practice for குறிப்பு",
     "source": {
@@ -21242,12 +21182,7 @@
       "கு",
       "றி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0325",
-      "alt": "குறிப்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0338",
@@ -21323,7 +21258,7 @@
     "targetWord": "கொம்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "மாடு, மான் போன்றவற்றின் தலையில் உள்ள கூர்மையான உறுப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "கொம்பு",
     "learningObjective": "Picture → Arrange recognition and practice for கொம்பு",
     "source": {
@@ -21370,12 +21305,7 @@
       "கொ",
       "பு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0357",
-      "alt": "கொம்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0364",
@@ -21511,7 +21441,7 @@
     "targetWord": "சறுக்குப்பலகை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "பூங்காவில் குழந்தைகள் ஏறி வழுக்கி விளையாடும் சாய்வான பலகை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "சறுக்குப்பலகை",
     "learningObjective": "Picture → Arrange recognition and practice for சறுக்குப்பலகை",
     "source": {
@@ -21558,12 +21488,7 @@
       "ப்",
       "பலகை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0386",
-      "alt": "சறுக்குப்பலகை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0387",
@@ -22191,7 +22116,7 @@
     "targetWord": "குரல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "குழந்தை பேசும்போது வெளிவரும் ஒலியைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "குழந்தை பேசும்போது அல்லது பாடும்போது தொண்டையிலிருந்து வெளிவரும் இனிய ஒலி எது?",
     "correctAnswer": "குரல்",
     "learningObjective": "Picture → Select recognition and practice for குரல்",
     "source": {
@@ -22237,12 +22162,7 @@
         "label": "காது"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0323",
-      "alt": "குரல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0339",
@@ -22254,7 +22174,7 @@
     "targetWord": "குழி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள இடம் எது?",
+    "prompt": "நிலத்தில் தோண்டப்பட்ட சிறிய பள்ளம் அல்லது வெட்டு ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "குழி",
     "learningObjective": "Picture → Select recognition and practice for குழி",
     "source": {
@@ -22300,12 +22220,7 @@
         "label": "கூடு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0339",
-      "alt": "குழி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0341",
@@ -22380,7 +22295,7 @@
     "targetWord": "கேணி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள நீர் இருக்கும் இடம் எது?",
+    "prompt": "நிலத்தில் ஆழமாகத் தோண்டி நீர் எடுக்கும் கிணற்றின் மற்றொரு தமிழ்ப் பெயர் எது?",
     "correctAnswer": "கேணி",
     "learningObjective": "Picture → Select recognition and practice for கேணி",
     "source": {
@@ -22426,12 +22341,7 @@
         "label": "குழி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0345",
-      "alt": "கேணி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0350",
@@ -22506,7 +22416,7 @@
     "targetWord": "கொக்கு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள பறவை எது?",
+    "prompt": "குளக்கரையில் ஒற்றைக் காலில் நின்று மீன் பிடிக்கும் வெள்ளை நிறப் பறவை எது?",
     "correctAnswer": "கொக்கு",
     "learningObjective": "Picture → Select recognition and practice for கொக்கு",
     "source": {
@@ -22552,12 +22462,7 @@
         "label": "கிளி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0352",
-      "alt": "கொக்கு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0353",
@@ -22569,7 +22474,7 @@
     "targetWord": "கொசு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள சிறிய பூச்சி எது?",
+    "prompt": "இரவில் மனிதர்களைக் கடித்து மலேரியா போன்ற நோய்களைப் பரப்பும் சிறிய பூச்சி எது?",
     "correctAnswer": "கொசு",
     "learningObjective": "Picture → Select recognition and practice for கொசு",
     "source": {
@@ -22615,12 +22520,7 @@
         "label": "குருவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0353",
-      "alt": "கொசு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0356",
@@ -22758,7 +22658,7 @@
     "targetWord": "கோடை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் வெயில் அதிகமாக இருக்கும் பருவம் எது?",
+    "prompt": "சூரிய வெப்பமும் வெயிலும் அதிகமாக இருக்கும் ஆண்டின் பருவம் எது?",
     "correctAnswer": "கோடை",
     "learningObjective": "Picture → Select recognition and practice for கோடை",
     "source": {
@@ -22804,12 +22704,7 @@
         "label": "காற்று"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0361",
-      "alt": "கோடை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0363",
@@ -22880,7 +22775,7 @@
     "targetWord": "கோலிகுண்டு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள சிறிய விளையாட்டு உருண்டைகள் எவை?",
+    "prompt": "சிறுவர்கள் விரல்களால் உருட்டி விளையாடும் சிறிய கண்ணாடிக் குண்டுகள் எவை?",
     "correctAnswer": "கோலிகுண்டு",
     "learningObjective": "Picture → Select recognition and practice for கோலிகுண்டு",
     "source": {
@@ -22926,12 +22821,7 @@
         "label": "பந்து"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0365",
-      "alt": "கோலிகுண்டு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0366",
@@ -23384,7 +23274,7 @@
     "targetWord": "சறுக்கு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் குழந்தைகள் விளையாடும் --------- உபகரணம் எது?",
+    "prompt": "பூங்காவில் குழந்தைகள் மேலிருந்து கீழே வழுக்கி விளையாடும் விளையாட்டு உபகரணம் எது?",
     "correctAnswer": "சறுக்கு",
     "learningObjective": "Picture → Select recognition and practice for சறுக்கு",
     "source": {
@@ -23430,12 +23320,7 @@
         "label": "சங்கிலி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0385",
-      "alt": "சறுக்கு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0389",
@@ -29764,7 +29649,7 @@
     "targetWord": "செல்வர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ளவரைப் பார்த்து, எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "அதிக செல்வமும் பணமும் படைத்த பணக்காரர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "செல்வர்",
     "learningObjective": "Picture → Arrange recognition and practice for செல்வர்",
     "source": {
@@ -29811,12 +29696,7 @@
       "செ",
       "ல்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0452",
-      "alt": "செல்வர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0459",
@@ -30099,7 +29979,7 @@
     "targetWord": "தார்ச்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் கருப்பு நிறம் பூசப்பட்ட சாலையைச் சரியாகக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கருப்பு நிறத் தார் பூசி உறுதியாக அமைக்கப்பட்ட தரைவழிச் சாலை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "தார்ச்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for தார்ச்சாலை",
     "source": {
@@ -30141,12 +30021,7 @@
       "தார்ச்",
       "சாலை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0511",
-      "alt": "தார்ச்சாலை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q068",
@@ -30158,7 +30033,7 @@
     "targetWord": "திமிங்கலம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் கடல்வாழ் உயிரினத்தின் பெயரை உருவாக்கவும்.",
+    "prompt": "கடலில் வாழும் மிகப்பெரிய பாலூட்டி நீர்வாழ் உயிரினம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துப் பெயரை உருவாக்குக.",
     "correctAnswer": "திமிங்கலம்",
     "learningObjective": "Picture → Arrange recognition and practice for திமிங்கலம்",
     "source": {
@@ -30214,12 +30089,7 @@
       "க",
       "லம்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q068",
-      "alt": "திமிங்கலம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0399",
@@ -30357,7 +30227,7 @@
     "targetWord": "சிரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உடல் உறுப்பைச் சரியாகக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நமது தலையைக் குறிக்கும் மற்றொரு தூய தமிழ்ச் சொல் எது?",
     "correctAnswer": "சிரம்",
     "learningObjective": "Picture → Select recognition and practice for சிரம்",
     "source": {
@@ -30403,12 +30273,7 @@
         "label": "சிறை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0406",
-      "alt": "சிரம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0410",
@@ -30420,7 +30285,7 @@
     "targetWord": "சிறகு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பறவையின் உடல் உறுப்பைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "பறவைகள் வானில் சிறகடித்துப் பறப்பதற்கு உதவும் இறக்கை உறுப்பு எது?",
     "correctAnswer": "சிறகு",
     "learningObjective": "Picture → Select recognition and practice for சிறகு",
     "source": {
@@ -30466,12 +30331,7 @@
         "label": "சிரிப்பு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0410",
-      "alt": "சிறகு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0417",
@@ -30605,7 +30465,7 @@
     "targetWord": "சீப்பு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "தலையை வாரி முடியைச் சீராக வைக்க உதவும் பொருள் எது?",
     "correctAnswer": "சீப்பு",
     "learningObjective": "Picture → Select recognition and practice for சீப்பு",
     "source": {
@@ -30651,12 +30511,7 @@
         "label": "சிறகு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0419",
-      "alt": "சீப்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0422",
@@ -30955,7 +30810,7 @@
       },
       {
         "id": "B",
-        "label": "கோழி"
+        "label": "புறா"
       },
       {
         "id": "C",
@@ -31109,7 +30964,7 @@
     "targetWord": "தம்பி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உறவுமுறையைத் தேர்ந்தெடு.",
+    "prompt": "குடும்பத்தில் நமக்கு இளைய ஆண் உடன்பிறப்பைக் குறிக்கும் உறவுமுறைச் சொல் எது?",
     "correctAnswer": "தம்பி",
     "learningObjective": "Picture → Select recognition and practice for தம்பி",
     "source": {
@@ -31155,12 +31010,7 @@
         "label": "மாமா"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0490",
-      "alt": "தம்பி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0503",
@@ -31172,7 +31022,7 @@
     "targetWord": "தழும்பு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் தோலில் ஏற்பட்ட பழைய காயத்தின் அடையாளத்தைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "தோலில் ஏற்பட்ட காயம் ஆறிய பிறகு தங்கிவிடும் பழைய அடையாளம் எது?",
     "correctAnswer": "தழும்பு",
     "learningObjective": "Picture → Select recognition and practice for தழும்பு",
     "source": {
@@ -31218,12 +31068,7 @@
         "label": "தண்டு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0503",
-      "alt": "தழும்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0510",
@@ -37226,7 +37071,7 @@
     "targetWord": "துருவி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பென்சிலின் முனையைச் சீவி கூர்மையாக்கும் பொருளை அடையாளம் கண்டு, அதன் பெயரை அமைக்கவும்.",
+    "prompt": "பென்சிலின் முனையைச் சீவ அல்லது காய்களைத் துருவப் பயன்படும் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "துருவி",
     "learningObjective": "Picture → Arrange recognition and practice for துருவி",
     "source": {
@@ -37273,12 +37118,7 @@
       "து",
       "ரு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0540",
-      "alt": "துருவி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0551",
@@ -37290,7 +37130,7 @@
     "targetWord": "தேங்காய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "தென்னை மரத்தில் காய்க்கும் கெட்டியான ஓடுடைய சமையல் காய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தேங்காய்",
     "learningObjective": "Picture → Arrange recognition and practice for தேங்காய்",
     "source": {
@@ -37337,12 +37177,7 @@
       "தேங்",
       "கா"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0551",
-      "alt": "தேங்காய்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0568",
@@ -37483,7 +37318,7 @@
     "targetWord": "தோட்டம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள இடத்தின் பெயரைத் தேர்ந்தெடுத்து, தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "பூச்செடிகளும் காய்கறிகளும் மரங்களும் வளர்க்கப்படும் நிலப்பகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தோட்டம்",
     "learningObjective": "Picture → Arrange recognition and practice for தோட்டம்",
     "source": {
@@ -37530,12 +37365,7 @@
       "டம்",
       "தோ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0579",
-      "alt": "தோட்டம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0609",
@@ -37611,7 +37441,7 @@
     "targetWord": "நாள்காட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நாட்களையும் மாதங்களையும் காட்டும் பொருளின் பெயரை அமைக்கவும்.",
+    "prompt": "ஆண்டின் நாட்கள், கிழமைகள், மாதங்களைக் காட்டும் அட்டவணை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நாள்காட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for நாள்காட்டி",
     "source": {
@@ -37658,12 +37488,7 @@
       "ட்டி",
       "நாள்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0612",
-      "alt": "நாள்காட்டி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0629",
@@ -37675,7 +37500,7 @@
     "targetWord": "நீதிபதி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நீதிமன்றத்தில் தீர்ப்பு வழங்கும் நபரின் பெயரை அமைக்கவும்.",
+    "prompt": "நீதிமன்றத்தில் வழக்குகளை விசாரித்து நேர்மையாகத் தீர்ப்பு வழங்கும் அதிகாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நீதிபதி",
     "learningObjective": "Picture → Arrange recognition and practice for நீதிபதி",
     "source": {
@@ -37727,12 +37552,7 @@
       "தி",
       "தி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0629",
-      "alt": "நீதிபதி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0633",
@@ -37937,7 +37757,7 @@
     "targetWord": "பகைவர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் எதிரியாக இருப்பவரைக் குறிக்கும் சொல்லை அமைக்கவும்.",
+    "prompt": "நண்பருக்கு மாறாக நம்முடன் பகையும் விரோதமும் கொண்டு செயல்படுபவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பகைவர்",
     "learningObjective": "Picture → Arrange recognition and practice for பகைவர்",
     "source": {
@@ -37979,12 +37799,7 @@
       "வர்",
       "பகை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0657",
-      "alt": "பகைவர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q080",
@@ -38379,7 +38194,7 @@
     "targetWord": "நட்டு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "prompt": "நிலத்தில் விதையை அல்லது இளம் செடியை ஊன்றி வைக்கும் உழவுச் செயல் எது?",
     "correctAnswer": "நட்டு",
     "learningObjective": "Picture → Select recognition and practice for நட்டு",
     "source": {
@@ -38425,12 +38240,7 @@
         "label": "கழுவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0590",
-      "alt": "நட்டு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0591",
@@ -38631,7 +38441,7 @@
     "targetWord": "நாவல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் கதையைச் சொல்லும் நீண்ட உரைநூலின் வகையைத் தேர்ந்தெடு.",
+    "prompt": "விரிவான கதையமைப்பைக் கொண்ட நீண்ட உரைநடை இலக்கிய நூல் வகை எது?",
     "correctAnswer": "நாவல்",
     "learningObjective": "Picture → Select recognition and practice for நாவல்",
     "source": {
@@ -38677,12 +38487,7 @@
         "label": "நாய்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0613",
-      "alt": "நாவல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0620",
@@ -38694,7 +38499,7 @@
     "targetWord": "நிலம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "வீடு, மரம் போன்றவை இருக்கும் தரையைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நாம் வாழும் தரை அல்லது பூமிப்பரப்பைக் குறிக்கும் சொல் எது?",
     "correctAnswer": "நிலம்",
     "learningObjective": "Picture → Select recognition and practice for நிலம்",
     "source": {
@@ -38740,12 +38545,7 @@
         "label": "நீளம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0620",
-      "alt": "நிலம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0635",
@@ -44397,7 +44197,7 @@
     "targetWord": "பந்து",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள விளையாட்டுப் பொருளின் பெயரை அமைக்கவும்.",
+    "prompt": "குழந்தைகள் காலால் உதைத்தும் கையால் எறிந்தும் விளையாடும் உருண்டையான விளையாட்டுப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பந்து",
     "learningObjective": "Picture → Arrange recognition and practice for பந்து",
     "source": {
@@ -44444,12 +44244,7 @@
       "ப",
       "ந்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0685",
-      "alt": "பந்து"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0692",
@@ -44525,7 +44320,7 @@
     "targetWord": "பரிசு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் பரிசாகக் கொடுக்கப்படும் பொருளின் பெயரை அமைக்கவும்.",
+    "prompt": "போட்டிகளில் வெற்றி பெறுவோருக்குப் பாராட்டாக வழங்கப்படும் அன்பளிப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பரிசு",
     "learningObjective": "Picture → Arrange recognition and practice for பரிசு",
     "source": {
@@ -44572,12 +44367,7 @@
       "ப",
       "ரி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0699",
-      "alt": "பரிசு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0718",
@@ -44884,7 +44674,7 @@
     "targetWord": "பாயசம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் இனிப்புப் பானத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "பால், பருப்பு அல்லது சேமியா சேர்த்துச் செய்யப்படும் சுவையான இனிப்பு உணவு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பாயசம்",
     "learningObjective": "Picture → Arrange recognition and practice for பாயசம்",
     "source": {
@@ -44931,12 +44721,7 @@
       "பா",
       "ய"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0735",
-      "alt": "பாயசம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0742",
@@ -45007,7 +44792,7 @@
     "targetWord": "புகைப்படம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "கேமரா மூலம் எடுக்கப்படும் நிழற்படம் அல்லது படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "புகைப்படம்",
     "learningObjective": "Picture → Arrange recognition and practice for புகைப்படம்",
     "source": {
@@ -45064,12 +44849,7 @@
       "கை",
       "ப்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0757",
-      "alt": "புகைப்படம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0761",
@@ -45268,7 +45048,7 @@
     "targetWord": "பூங்கொத்து",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "பல வண்ண மலர்களை ஒன்றாகச் சேர்த்து கட்டப்பட்ட அழகிய மலர்க்கொத்து ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூங்கொத்து",
     "learningObjective": "Picture → Arrange recognition and practice for பூங்கொத்து",
     "source": {
@@ -45315,12 +45095,7 @@
       "த்து",
       "பூங்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0776",
-      "alt": "பூங்கொத்து"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0778",
@@ -45460,7 +45235,7 @@
     "targetWord": "பூட்டு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "கதவைப் பூட்டிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூட்டு",
     "learningObjective": "Picture → Arrange recognition and practice for பூட்டு",
     "source": {
@@ -45507,12 +45282,7 @@
       "பூ",
       "ட்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0780",
-      "alt": "பூட்டு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0783",
@@ -45588,7 +45358,7 @@
     "targetWord": "பெட்டிகள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "பொருட்களை அடுக்கி வைத்துப் பாதுகாக்கப் பயன்படும் பல பெட்டிகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெட்டிகள்",
     "learningObjective": "Picture → Arrange recognition and practice for பெட்டிகள்",
     "source": {
@@ -45635,12 +45405,7 @@
       "கள்",
       "பெட்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0784",
-      "alt": "பெட்டிகள்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0786",
@@ -45652,7 +45417,7 @@
     "targetWord": "பென்சில்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "எழுதுவதற்கும் வரைவதற்கும் குழந்தைகள் பயன்படுத்தும் கரிக்கோல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பென்சில்",
     "learningObjective": "Picture → Arrange recognition and practice for பென்சில்",
     "source": {
@@ -45699,12 +45464,7 @@
       "பெ",
       "ன்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0786",
-      "alt": "பென்சில்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q098",
@@ -46079,7 +45839,7 @@
     "targetWord": "பத்திரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "பாதுகாப்பாகவும் கவனமாகவும் இருக்கச் சொல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "பொருட்களையும் உடமைகளையும் பாதுகாப்பாகவும் கவனமாகவும் வைப்பதைக் குறிக்கும் சொல் எது?",
     "correctAnswer": "பத்திரம்",
     "learningObjective": "Picture → Select recognition and practice for பத்திரம்",
     "source": {
@@ -46125,12 +45885,7 @@
         "label": "பந்தயம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0683",
-      "alt": "பத்திரம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0689",
@@ -46142,7 +45897,7 @@
     "targetWord": "பயந்து",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் ஏதோ ஒன்றைக் கண்டு அச்சப்படுவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "ஆபத்து அல்லது மிரட்டலைக் கண்டு நெஞ்சில் அச்சம் கொள்ளும் உணர்வு எது?",
     "correctAnswer": "பயந்து",
     "learningObjective": "Picture → Select recognition and practice for பயந்து",
     "source": {
@@ -46188,12 +45943,7 @@
         "label": "தூங்கி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0689",
-      "alt": "பயந்து"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0695",
@@ -46379,7 +46129,7 @@
     "targetWord": "பலா",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் பழத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "முட்கள் நிறைந்த பெரிய தோலுக்குள் சுவையான சுளைகள் கொண்ட முக்கனிகளில் ஒன்று எது?",
     "correctAnswer": "பலா",
     "learningObjective": "Picture → Select recognition and practice for பலா",
     "source": {
@@ -46425,12 +46175,7 @@
         "label": "பலகை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0709",
-      "alt": "பலா"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0710",
@@ -46568,7 +46313,7 @@
     "targetWord": "பானை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் பாத்திரத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "களிமண்ணால் செய்யப்பட்டு சமையலுக்கும் தண்ணீர் வைக்கவும் பயன்படும் பாண்டம் எது?",
     "correctAnswer": "பானை",
     "learningObjective": "Picture → Select recognition and practice for பானை",
     "source": {
@@ -46614,12 +46359,7 @@
         "label": "பலகை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0732",
-      "alt": "பானை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0744",
@@ -46631,7 +46371,7 @@
     "targetWord": "பால்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் உணவுப் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "பசு நமக்குத் தரும் சத்துமிக்க வெள்ளை நிற உணவுப் பொருள் எது?",
     "correctAnswer": "பால்",
     "learningObjective": "Picture → Select recognition and practice for பால்",
     "source": {
@@ -46677,12 +46417,7 @@
         "label": "பலகை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0744",
-      "alt": "பால்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0765",
@@ -46945,7 +46680,7 @@
     "targetWord": "பை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "புத்தகங்கள் அல்லது பொருட்களை வைத்து எடுத்துச் செல்லப் பயன்படும் பை எது?",
     "correctAnswer": "பை",
     "learningObjective": "Picture → Select recognition and practice for பை",
     "source": {
@@ -46990,12 +46725,7 @@
         "label": "பல்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q104",
-      "alt": "பை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0799",
@@ -51824,7 +51554,7 @@
     "targetWord": "பெற்றோர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை உருவாக்க, கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமை.",
+    "prompt": "நம்மைப் பெற்றெடுத்த தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெற்றோர்",
     "learningObjective": "Picture → Arrange recognition and practice for பெற்றோர்",
     "source": {
@@ -51871,12 +51601,7 @@
       "ர்",
       "பெற்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0796",
-      "alt": "பெற்றோர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0801",
@@ -52016,7 +51741,7 @@
     "targetWord": "பொம்மை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் விளையாட்டுப் பொருளுக்கான சொல்லை உருவாக்கு.",
+    "prompt": "குழந்தைகள் வைத்து விளையாடும் அழகான விளையாட்டுப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பொம்மை",
     "learningObjective": "Picture → Arrange recognition and practice for பொம்மை",
     "source": {
@@ -52058,12 +51783,7 @@
       "மை",
       "பொம்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0806",
-      "alt": "பொம்மை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0815",
@@ -52075,7 +51795,7 @@
     "targetWord": "போர்வை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் போர்வைக்கான சொல்லை உருவாக்கு.",
+    "prompt": "குளிர்காலத்தில் இரவில் உடம்பைப் போர்த்திக் கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "போர்வை",
     "learningObjective": "Picture → Arrange recognition and practice for போர்வை",
     "source": {
@@ -52117,12 +51837,7 @@
       "வை",
       "போர்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0815",
-      "alt": "போர்வை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0826",
@@ -52507,7 +52222,7 @@
     "targetWord": "மாணவர்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் மாணவச் செல்வங்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மாணவர்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for மாணவர்கள்",
     "source": {
@@ -52554,12 +52269,7 @@
       "மாண",
       "வர்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0857",
-      "alt": "மாணவர்கள்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0858",
@@ -52758,7 +52468,7 @@
     "targetWord": "மின்விசிறி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "மின்சாரத்தில் இயங்கி நமக்குக் குளிர்ந்த காற்று வீசும் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மின்விசிறி",
     "learningObjective": "Picture → Arrange recognition and practice for மின்விசிறி",
     "source": {
@@ -52805,12 +52515,7 @@
       "மின்",
       "றி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0870",
-      "alt": "மின்விசிறி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0873",
@@ -52881,7 +52586,7 @@
     "targetWord": "முகமூடி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "முகத்தில் அணிந்து கொண்டு விளையாடும் உருவ அட்டை அல்லது மூடி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "முகமூடி",
     "learningObjective": "Picture → Arrange recognition and practice for முகமூடி",
     "source": {
@@ -52923,12 +52628,7 @@
       "மூடி",
       "முக"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0874",
-      "alt": "முகமூடி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0878",
@@ -53181,7 +52881,7 @@
     "targetWord": "மைக்குப்பி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் சொல்லை உருவாக்கு.",
+    "prompt": "எழுதுவதற்குப் பயன்படும் மையினை ஊற்றி வைக்கும் சிறிய பாட்டில் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மைக்குப்பி",
     "learningObjective": "Picture → Arrange recognition and practice for மைக்குப்பி",
     "source": {
@@ -53228,12 +52928,7 @@
       "மை",
       "க்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0916",
-      "alt": "மைக்குப்பி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0917",
@@ -53245,7 +52940,7 @@
     "targetWord": "மைதானம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள இடத்தின் சொல்லை உருவாக்கு.",
+    "prompt": "குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் திறந்தவெளி மைதானம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மைதானம்",
     "learningObjective": "Picture → Arrange recognition and practice for மைதானம்",
     "source": {
@@ -53292,12 +52987,7 @@
       "னம்",
       "மை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0917",
-      "alt": "மைதானம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0926",
@@ -53309,7 +52999,7 @@
     "targetWord": "ரப்பர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் சொல்லை உருவாக்கு.",
+    "prompt": "பென்சிலால் எழுதிய எழுத்துப் பிழைகளை அழிக்கப் பயன்படும் அழிப்பான் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "ரப்பர்",
     "learningObjective": "Picture → Arrange recognition and practice for ரப்பர்",
     "source": {
@@ -53356,12 +53046,7 @@
       "ர",
       "ப்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0926",
-      "alt": "ரப்பர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q108",
@@ -53533,7 +53218,7 @@
     "targetWord": "பேனா",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படுவதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "மை கொண்டு தாள்களில் அழகாக எழுதப் பயன்படும் கருவி எது?",
     "correctAnswer": "பேனா",
     "learningObjective": "Picture → Select recognition and practice for பேனா",
     "source": {
@@ -53579,12 +53264,7 @@
         "label": "அழிப்பான்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0798",
-      "alt": "பேனா"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0829",
@@ -53803,7 +53483,7 @@
     "targetWord": "மாமா",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "தாயின் உடன் பிறந்த சகோதரரை நாம் எவ்வாறு அழைப்போம்?",
     "correctAnswer": "மாமா",
     "learningObjective": "Picture → Select recognition and practice for மாமா",
     "source": {
@@ -53849,12 +53529,7 @@
         "label": "மாமால்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0861",
-      "alt": "மாமா"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0872",
@@ -53992,7 +53667,7 @@
     "targetWord": "முதலை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "ஆற்றில் வாழும் கூர்மையான பற்களும் கடினமான தோலும் கொண்ட பெரிய நீர்வாழ் ஊர்வன விலங்கு எது?",
     "correctAnswer": "முதலை",
     "learningObjective": "Picture → Select recognition and practice for முதலை",
     "source": {
@@ -54038,12 +53713,7 @@
         "label": "பல்லி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0880",
-      "alt": "முதலை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0903",
@@ -54166,7 +53836,7 @@
     "targetWord": "மேடை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நாடகம் அல்லது நிகழ்ச்சி நடத்தும் உயர்ந்த இடத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த மேடைத் தளம் எது?",
     "correctAnswer": "மேடை",
     "learningObjective": "Picture → Select recognition and practice for மேடை",
     "source": {
@@ -54212,12 +53882,7 @@
         "label": "தோட்டம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0909",
-      "alt": "மேடை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0915",
@@ -54418,7 +54083,7 @@
     "targetWord": "ரயில்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் தண்டவாளத்தில் செல்லும் வாகனத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "தண்டவாளத்தின் மீது பல பெட்டிகளுடன் வேகமாகச் செல்லும் தொடர்வண்டி எது?",
     "correctAnswer": "ரயில்",
     "learningObjective": "Picture → Select recognition and practice for ரயில்",
     "source": {
@@ -54464,12 +54129,7 @@
         "label": "மிதிவண்டி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0927",
-      "alt": "ரயில்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q123",
@@ -60189,7 +59849,7 @@
     "targetWord": "வகுப்பறை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள இடத்தின் சொல்லை உருவாக்கு.",
+    "prompt": "பள்ளியில் ஆசிரியரும் மாணவர்களும் அமர்ந்து கல்வி கற்கும் அறை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வகுப்பறை",
     "learningObjective": "Picture → Arrange recognition and practice for வகுப்பறை",
     "source": {
@@ -60236,12 +59896,7 @@
       "வகு",
       "ப்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0930",
-      "alt": "வகுப்பறை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0931",
@@ -60312,7 +59967,7 @@
     "targetWord": "வணிகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பொருட்களை வாங்கி விற்பவரின் சொல்லை உருவாக்கு.",
+    "prompt": "கடையில் பொருட்களை வாங்கி விற்பனை செய்யும் வியாபாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வணிகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வணிகர்",
     "source": {
@@ -60354,12 +60009,7 @@
       "கர்",
       "வணி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0937",
-      "alt": "வணிகர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0940",
@@ -60371,7 +60021,7 @@
     "targetWord": "வண்ணமிடப்பட்ட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள நிறம் தீட்டப்பட்ட பொருளைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "அழகிய பல வண்ணங்களால் நிறம் தீட்டப்பட்ட நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வண்ணமிடப்பட்ட",
     "learningObjective": "Picture → Arrange recognition and practice for வண்ணமிடப்பட்ட",
     "source": {
@@ -60418,12 +60068,7 @@
       "பட்ட",
       "வண்ண"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0940",
-      "alt": "வண்ணமிடப்பட்ட"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0949",
@@ -60435,7 +60080,7 @@
     "targetWord": "வரைபடம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் சொல்லை உருவாக்கு.",
+    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் அமைப்பைக் காட்டும் படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வரைபடம்",
     "learningObjective": "Picture → Arrange recognition and practice for வரைபடம்",
     "source": {
@@ -60477,12 +60122,7 @@
       "படம்",
       "வரை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0949",
-      "alt": "வரைபடம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0950",
@@ -60735,7 +60375,7 @@
     "targetWord": "வாசகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து உருவாக்கு.",
+    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வமாக வாசிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வாசகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வாசகர்",
     "source": {
@@ -60777,12 +60417,7 @@
       "கர்",
       "வாச"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0974",
-      "alt": "வாசகர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0981",
@@ -60912,7 +60547,7 @@
     "targetWord": "வான்கோழி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து உருவாக்கு.",
+    "prompt": "பெரிய உடலும் வண்ண விசிறி போன்ற வாலும் கொண்ட ஒரு பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வான்கோழி",
     "learningObjective": "Picture → Arrange recognition and practice for வான்கோழி",
     "source": {
@@ -60959,12 +60594,7 @@
       "ழி",
       "வான்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0985",
-      "alt": "வான்கோழி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0987",
@@ -61227,7 +60857,7 @@
     "targetWord": "விளையாட்டுத்திடல்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் விளையாடும் இடத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "ஓடி ஆடி பல்வேறு விளையாட்டுப் போட்டிகளை விளையாடும் பெரிய திடல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "விளையாட்டுத்திடல்",
     "learningObjective": "Picture → Arrange recognition and practice for விளையாட்டுத்திடல்",
     "source": {
@@ -61279,12 +60909,7 @@
       "விளை",
       "யாட்டு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts1021",
-      "alt": "விளையாட்டுத்திடல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS1025",
@@ -61672,7 +61297,7 @@
     "targetWord": "வாசல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படுவதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வீட்டின் முகப்பில் அமைந்துள்ள நுழைவு வாயில் அல்லது கதவுப் பகுதி எது?",
     "correctAnswer": "வாசல்",
     "learningObjective": "Picture → Select recognition and practice for வாசல்",
     "source": {
@@ -61718,12 +61343,7 @@
         "label": "கூரை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0976",
-      "alt": "வாசல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0994",

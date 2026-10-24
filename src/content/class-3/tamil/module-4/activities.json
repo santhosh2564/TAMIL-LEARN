@@ -5950,7 +5950,7 @@
     "targetWord": "செல்வர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ளவரைப் பார்த்து, எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "அதிக செல்வமும் பணமும் படைத்த பணக்காரர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "செல்வர்",
     "learningObjective": "Picture → Arrange recognition and practice for செல்வர்",
     "source": {
@@ -5997,12 +5997,7 @@
       "செ",
       "ல்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0452",
-      "alt": "செல்வர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0459",
@@ -6285,7 +6280,7 @@
     "targetWord": "தார்ச்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் கருப்பு நிறம் பூசப்பட்ட சாலையைச் சரியாகக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கருப்பு நிறத் தார் பூசி உறுதியாக அமைக்கப்பட்ட தரைவழிச் சாலை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "தார்ச்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for தார்ச்சாலை",
     "source": {
@@ -6327,12 +6322,7 @@
       "தார்ச்",
       "சாலை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0511",
-      "alt": "தார்ச்சாலை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q068",
@@ -6344,7 +6334,7 @@
     "targetWord": "திமிங்கலம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் கடல்வாழ் உயிரினத்தின் பெயரை உருவாக்கவும்.",
+    "prompt": "கடலில் வாழும் மிகப்பெரிய பாலூட்டி நீர்வாழ் உயிரினம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துப் பெயரை உருவாக்குக.",
     "correctAnswer": "திமிங்கலம்",
     "learningObjective": "Picture → Arrange recognition and practice for திமிங்கலம்",
     "source": {
@@ -6400,12 +6390,7 @@
       "க",
       "லம்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q068",
-      "alt": "திமிங்கலம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0399",
@@ -6543,7 +6528,7 @@
     "targetWord": "சிரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உடல் உறுப்பைச் சரியாகக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நமது தலையைக் குறிக்கும் மற்றொரு தூய தமிழ்ச் சொல் எது?",
     "correctAnswer": "சிரம்",
     "learningObjective": "Picture → Select recognition and practice for சிரம்",
     "source": {
@@ -6589,12 +6574,7 @@
         "label": "சிறை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0406",
-      "alt": "சிரம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0410",
@@ -6606,7 +6586,7 @@
     "targetWord": "சிறகு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பறவையின் உடல் உறுப்பைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "பறவைகள் வானில் சிறகடித்துப் பறப்பதற்கு உதவும் இறக்கை உறுப்பு எது?",
     "correctAnswer": "சிறகு",
     "learningObjective": "Picture → Select recognition and practice for சிறகு",
     "source": {
@@ -6652,12 +6632,7 @@
         "label": "சிரிப்பு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0410",
-      "alt": "சிறகு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0417",
@@ -6791,7 +6766,7 @@
     "targetWord": "சீப்பு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "தலையை வாரி முடியைச் சீராக வைக்க உதவும் பொருள் எது?",
     "correctAnswer": "சீப்பு",
     "learningObjective": "Picture → Select recognition and practice for சீப்பு",
     "source": {
@@ -6837,12 +6812,7 @@
         "label": "சிறகு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0419",
-      "alt": "சீப்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0422",
@@ -7141,7 +7111,7 @@
       },
       {
         "id": "B",
-        "label": "கோழி"
+        "label": "புறா"
       },
       {
         "id": "C",
@@ -7295,7 +7265,7 @@
     "targetWord": "தம்பி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உறவுமுறையைத் தேர்ந்தெடு.",
+    "prompt": "குடும்பத்தில் நமக்கு இளைய ஆண் உடன்பிறப்பைக் குறிக்கும் உறவுமுறைச் சொல் எது?",
     "correctAnswer": "தம்பி",
     "learningObjective": "Picture → Select recognition and practice for தம்பி",
     "source": {
@@ -7341,12 +7311,7 @@
         "label": "மாமா"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0490",
-      "alt": "தம்பி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0503",
@@ -7358,7 +7323,7 @@
     "targetWord": "தழும்பு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் தோலில் ஏற்பட்ட பழைய காயத்தின் அடையாளத்தைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "தோலில் ஏற்பட்ட காயம் ஆறிய பிறகு தங்கிவிடும் பழைய அடையாளம் எது?",
     "correctAnswer": "தழும்பு",
     "learningObjective": "Picture → Select recognition and practice for தழும்பு",
     "source": {
@@ -7404,12 +7369,7 @@
         "label": "தண்டு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0503",
-      "alt": "தழும்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0510",

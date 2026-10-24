@@ -6343,7 +6343,7 @@
     "targetWord": "ஆடையகம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "பல்வேறு துணிகளும் ஆடைகளும் விற்பனை செய்யப்படும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "ஆடையகம்",
     "learningObjective": "Picture → Arrange recognition and practice for ஆடையகம்",
     "source": {
@@ -6400,12 +6400,7 @@
       "ய",
       "க"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0072",
-      "alt": "ஆடையகம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0085",
@@ -6565,7 +6560,7 @@
     "targetWord": "இனிப்பகம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "லட்டு, ஜிலேபி போன்ற இனிப்புப் பண்டங்கள் விற்கும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "இனிப்பகம்",
     "learningObjective": "Picture → Arrange recognition and practice for இனிப்பகம்",
     "source": {
@@ -6627,12 +6622,7 @@
       "ம்",
       "இ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0096",
-      "alt": "இனிப்பகம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0122",
@@ -6723,7 +6713,7 @@
     "targetWord": "உடம்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து, சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "தலை, கை, கால் ஆகிய உறுப்புகளைக் கொண்ட நமது மெய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "உடம்பு",
     "learningObjective": "Picture → Arrange recognition and practice for உடம்பு",
     "source": {
@@ -6775,12 +6765,7 @@
       "பு",
       "உ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0127",
-      "alt": "உடம்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0133",
@@ -6866,7 +6851,7 @@
     "targetWord": "அட்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "புத்தகத்தின் தடித்த மேலட்டை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அட்டை",
     "learningObjective": "Picture → Select recognition and practice for அட்டை",
     "source": {
@@ -6912,12 +6897,7 @@
         "label": "அங்காடி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0013",
-      "alt": "அட்டை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0014",
@@ -7607,7 +7587,7 @@
     "targetWord": "உடல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் உடலுக்குச் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "மனிதர்கள் மற்றும் விலங்குகளின் மெய் அல்லது உடம்பைக் குறிக்கும் தமிழ்ச் சொல் எது?",
     "correctAnswer": "உடல்",
     "learningObjective": "Picture → Select recognition and practice for உடல்",
     "source": {
@@ -7653,12 +7633,7 @@
         "label": "உதவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0128",
-      "alt": "உடல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0131",
@@ -7733,7 +7708,7 @@
     "targetWord": "முயல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "இந்தப் படத்தில் உள்ள விலங்கின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "நீண்ட காதுகளும் சிறிய வாலும் கொண்ட துள்ளி ஓடும் வெள்ளையான சாதுவான விலங்கு எது?",
     "correctAnswer": "முயல்",
     "learningObjective": "Picture → Select recognition and practice for முயல்",
     "source": {
@@ -7778,12 +7753,7 @@
         "label": "நாய்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q001",
-      "alt": "முயல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q003",
@@ -7981,7 +7951,7 @@
     "targetWord": "எலி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "வீடுகளிலும் வயல்களிலும் தானியங்களை உண்ணும் சிறிய வால் உள்ள பிராணி எது?",
     "correctAnswer": "எலி",
     "learningObjective": "Picture → Select recognition and practice for எலி",
     "source": {
@@ -8026,12 +7996,7 @@
         "label": "எரி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-q013",
-      "alt": "எலி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q014",

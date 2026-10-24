@@ -3613,7 +3613,7 @@
     "targetWord": "coil",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "A length of wire or rope wound in rings. Complete the word:",
     "options": [
       {
         "id": "A",
@@ -3640,11 +3640,7 @@
     ],
     "template": "c o _ l",
     "correctAnswer": "coil",
-    "image": {
-      "type": "image",
-      "source": "eng-coil"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_7_Picture_and_Options_Support_Corrected_v2_FULL_WORD_LIST.xlsx",
       "ewId": "EW158",
@@ -6963,7 +6959,7 @@
     "targetWord": "big",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The opposite of small. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -6979,11 +6975,7 @@
       }
     ],
     "correctAnswer": "big",
-    "image": {
-      "type": "image",
-      "source": "eng-big"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_7_Picture_and_Options_Support_Corrected_v2_FULL_WORD_LIST.xlsx",
       "ewId": "EW058",
@@ -7717,7 +7709,7 @@
     "targetWord": "bolt",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "A threaded metal rod used with a nut to fasten things. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -7733,11 +7725,7 @@
       }
     ],
     "correctAnswer": "bolt",
-    "image": {
-      "type": "image",
-      "source": "eng-bolt"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_7_Picture_and_Options_Support_Corrected_v2_FULL_WORD_LIST.xlsx",
       "ewId": "EW071",
@@ -8046,7 +8034,7 @@
     "targetWord": "aval",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Flattened rice flakes used to make tasty snacks. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -8072,11 +8060,7 @@
       "v"
     ],
     "correctAnswer": "aval",
-    "image": {
-      "type": "image",
-      "source": "eng-aval"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_7_Picture_and_Options_Support_Corrected_v2_FULL_WORD_LIST.xlsx",
       "ewId": "EW025",

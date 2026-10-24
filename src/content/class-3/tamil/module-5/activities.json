@@ -5700,7 +5700,7 @@
     "targetWord": "துருவி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பென்சிலின் முனையைச் சீவி கூர்மையாக்கும் பொருளை அடையாளம் கண்டு, அதன் பெயரை அமைக்கவும்.",
+    "prompt": "பென்சிலின் முனையைச் சீவ அல்லது காய்களைத் துருவப் பயன்படும் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "துருவி",
     "learningObjective": "Picture → Arrange recognition and practice for துருவி",
     "source": {
@@ -5747,12 +5747,7 @@
       "து",
       "ரு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0540",
-      "alt": "துருவி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0551",
@@ -5764,7 +5759,7 @@
     "targetWord": "தேங்காய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "தென்னை மரத்தில் காய்க்கும் கெட்டியான ஓடுடைய சமையல் காய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தேங்காய்",
     "learningObjective": "Picture → Arrange recognition and practice for தேங்காய்",
     "source": {
@@ -5811,12 +5806,7 @@
       "தேங்",
       "கா"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0551",
-      "alt": "தேங்காய்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0568",
@@ -5957,7 +5947,7 @@
     "targetWord": "தோட்டம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள இடத்தின் பெயரைத் தேர்ந்தெடுத்து, தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "பூச்செடிகளும் காய்கறிகளும் மரங்களும் வளர்க்கப்படும் நிலப்பகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தோட்டம்",
     "learningObjective": "Picture → Arrange recognition and practice for தோட்டம்",
     "source": {
@@ -6004,12 +5994,7 @@
       "டம்",
       "தோ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0579",
-      "alt": "தோட்டம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0609",
@@ -6085,7 +6070,7 @@
     "targetWord": "நாள்காட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நாட்களையும் மாதங்களையும் காட்டும் பொருளின் பெயரை அமைக்கவும்.",
+    "prompt": "ஆண்டின் நாட்கள், கிழமைகள், மாதங்களைக் காட்டும் அட்டவணை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நாள்காட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for நாள்காட்டி",
     "source": {
@@ -6132,12 +6117,7 @@
       "ட்டி",
       "நாள்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0612",
-      "alt": "நாள்காட்டி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0629",
@@ -6149,7 +6129,7 @@
     "targetWord": "நீதிபதி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நீதிமன்றத்தில் தீர்ப்பு வழங்கும் நபரின் பெயரை அமைக்கவும்.",
+    "prompt": "நீதிமன்றத்தில் வழக்குகளை விசாரித்து நேர்மையாகத் தீர்ப்பு வழங்கும் அதிகாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நீதிபதி",
     "learningObjective": "Picture → Arrange recognition and practice for நீதிபதி",
     "source": {
@@ -6201,12 +6181,7 @@
       "தி",
       "தி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0629",
-      "alt": "நீதிபதி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0633",
@@ -6411,7 +6386,7 @@
     "targetWord": "பகைவர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் எதிரியாக இருப்பவரைக் குறிக்கும் சொல்லை அமைக்கவும்.",
+    "prompt": "நண்பருக்கு மாறாக நம்முடன் பகையும் விரோதமும் கொண்டு செயல்படுபவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பகைவர்",
     "learningObjective": "Picture → Arrange recognition and practice for பகைவர்",
     "source": {
@@ -6453,12 +6428,7 @@
       "வர்",
       "பகை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0657",
-      "alt": "பகைவர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q080",
@@ -6853,7 +6823,7 @@
     "targetWord": "நட்டு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "prompt": "நிலத்தில் விதையை அல்லது இளம் செடியை ஊன்றி வைக்கும் உழவுச் செயல் எது?",
     "correctAnswer": "நட்டு",
     "learningObjective": "Picture → Select recognition and practice for நட்டு",
     "source": {
@@ -6899,12 +6869,7 @@
         "label": "கழுவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0590",
-      "alt": "நட்டு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0591",
@@ -7105,7 +7070,7 @@
     "targetWord": "நாவல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் கதையைச் சொல்லும் நீண்ட உரைநூலின் வகையைத் தேர்ந்தெடு.",
+    "prompt": "விரிவான கதையமைப்பைக் கொண்ட நீண்ட உரைநடை இலக்கிய நூல் வகை எது?",
     "correctAnswer": "நாவல்",
     "learningObjective": "Picture → Select recognition and practice for நாவல்",
     "source": {
@@ -7151,12 +7116,7 @@
         "label": "நாய்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0613",
-      "alt": "நாவல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0620",
@@ -7168,7 +7128,7 @@
     "targetWord": "நிலம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "வீடு, மரம் போன்றவை இருக்கும் தரையைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நாம் வாழும் தரை அல்லது பூமிப்பரப்பைக் குறிக்கும் சொல் எது?",
     "correctAnswer": "நிலம்",
     "learningObjective": "Picture → Select recognition and practice for நிலம்",
     "source": {
@@ -7214,12 +7174,7 @@
         "label": "நீளம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0620",
-      "alt": "நிலம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0635",

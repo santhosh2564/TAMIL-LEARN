@@ -1,152 +1,309 @@
-id,targetWord,prompt
+id,targetWord,prompt,reason
 ENG-M1-EW321,fruit,"A sweet, juicy food like an apple or mango that grows on plants. Put the letters in the correct order:"
-ENG-M3-EW400,hoof,A horse has a hard foot called a ______. Choose the correct spelling:
-ENG-M3-EW061,black,The cat is ______. Complete the word:
-ENG-M3-EW096,brush,I use a ______ to clean my teeth. Complete the word:
-ENG-M3-EW110,buzz,A bee can ______ around a flower. Complete the word:
-ENG-M3-EW385,heart,Your ______ beats inside your chest. Choose the correct spelling:
-ENG-M3-EW433,judge,A person who decides cases in a court is a ______. Choose the correct spelling:
-ENG-M3-EW446,knee,Your leg bends at the ______. Choose the correct spelling:
-ENG-M3-EW597,plough,A farmer uses this tool to prepare the soil. Choose the correct spelling:
-ENG-M3-EW788,straight,The road is not curved. Choose the correct spelling:
-ENG-M3-EW843,threw,Ravi ______ the ball to his friend. Choose the correct spelling:
-ENG-M3-EW928,whistle,And choose the correctly spelled word.
-ENG-M3-EW050,behind,Complete the word:
-ENG-M3-EW088,brick,The wall is made of ______. Complete the word:
-ENG-M3-EW027,axe,Choose the correct spelling:
-ENG-M3-EW149,climb,We use our hands and feet to ______ a tree. Choose the correct spelling:
-ENG-M3-REV-EW011,angry,Choose the correct spelling:
-ENG-M3-REV-EW034,banana,Put the word parts in the correct order:
-ENG-M3-REV-EW035,bandage,You put this on a small cut or wound.
-ENG-M3-REV-EW051,bell,Choose the missing letter to complete the word.
-ENG-M3-REV-EW057,bicycle,Put the word parts in the correct order:
-ENG-M3-REV-EW059,bin,Put the paper in the ______. Complete the word:
-ENG-M3-REV-EW188,cry,The baby may ______ when hungry. Complete the word:
-ENG-M3-REV-EW220,die,One small cube used in a board game is called a ______. Complete the word:
-ENG-M3-REV-EW224,dip,Please ______ the biscuit in the milk. Complete the word:
-ENG-M3-REV-EW252,egg,A hen lays an ______. Complete the word:
-ENG-M3-REV-EW041,baton,A small stick used by a person leading a musical group.
-ENG-M3-REV-EW168,coop,Chickens can stay in a ______. Complete the word:
-ENG-M3-REV-EW005,agriculture,This means farming.
-ENG-M3-REV-EW008,alphabet,Complete the word:
-ENG-M4-EW038,barn,A large farm building used to shelter animals or store grain. Put the letters in the correct order:
-ENG-M4-EW731,skin,The soft outer layer covering the body of a person or animal. Put the letters in the correct order:
-ENG-M4-EW372,hands,The parts at the end of our arms with fingers and thumbs. Put the letters in the correct order:
-ENG-M4-EW461,legs,We use these two body parts with feet and knees to walk and run. Put the letters in the correct order:
-ENG-M4-EW571,paws,An animal's feet with soft pads and claws. Put the letters in the correct order:
-ENG-M4-EW175,crack,There is a ______ in the wall. Complete the word: and complete the word:
-ENG-M4-EW208,deep,The well is very ______. Complete the word: and complete the word:
-ENG-M4-EW239,drink,We ______ water when we are thirsty. Complete the word: and complete the word:
+ENG-M3-EW400,hoof,A horse has a hard foot called a ______. Choose the correct spelling:,unsuitable
+ENG-M3-EW061,black,The cat is ______. Complete the word:,unsuitable
+ENG-M3-EW096,brush,I use a ______ to clean my teeth. Complete the word:,unsuitable
+ENG-M3-EW110,buzz,A bee can ______ around a flower. Complete the word:,unsuitable
+ENG-M3-EW385,heart,Your ______ beats inside your chest. Choose the correct spelling:,unsuitable
+ENG-M3-EW433,judge,A person who decides cases in a court is a ______. Choose the correct spelling:,unsuitable
+ENG-M3-EW446,knee,Your leg bends at the ______. Choose the correct spelling:,unsuitable
+ENG-M3-EW597,plough,A farmer uses this tool to prepare the soil. Choose the correct spelling:,unsuitable
+ENG-M3-EW788,straight,The road is not curved. Choose the correct spelling:,unsuitable
+ENG-M3-EW843,threw,Ravi ______ the ball to his friend. Choose the correct spelling:,unsuitable
+ENG-M3-EW928,whistle,And choose the correctly spelled word.,unsuitable
+ENG-M3-EW050,behind,Complete the word:,unsuitable
+ENG-M3-EW088,brick,The wall is made of ______. Complete the word:,unsuitable
+ENG-M3-EW027,axe,Choose the correct spelling:,unsuitable
+ENG-M3-EW149,climb,We use our hands and feet to ______ a tree. Choose the correct spelling:,unsuitable
+ENG-M3-REV-EW011,angry,Choose the correct spelling:,unsuitable
+ENG-M3-REV-EW034,banana,Put the word parts in the correct order:,unsuitable
+ENG-M3-REV-EW035,bandage,You put this on a small cut or wound.,unsuitable
+ENG-M3-REV-EW051,bell,Choose the missing letter to complete the word.,unsuitable
+ENG-M3-REV-EW057,bicycle,Put the word parts in the correct order:,unsuitable
+ENG-M3-REV-EW059,bin,Put the paper in the ______. Complete the word:,unsuitable
+ENG-M3-REV-EW188,cry,The baby may ______ when hungry. Complete the word:,unsuitable
+ENG-M3-REV-EW220,die,One small cube used in a board game is called a ______. Complete the word:,unsuitable
+ENG-M3-REV-EW224,dip,Please ______ the biscuit in the milk. Complete the word:,unsuitable
+ENG-M3-REV-EW252,egg,A hen lays an ______. Complete the word:,unsuitable
+ENG-M3-REV-EW041,baton,A small stick used by a person leading a musical group.,unsuitable
+ENG-M3-REV-EW168,coop,Chickens can stay in a ______. Complete the word:,unsuitable
+ENG-M3-REV-EW005,agriculture,This means farming.,unsuitable
+ENG-M3-REV-EW008,alphabet,Complete the word:,unsuitable
+ENG-M4-EW038,barn,A large farm building used to shelter animals or store grain. Put the letters in the correct order:,unsuitable
+ENG-M4-EW731,skin,The soft outer layer covering the body of a person or animal. Put the letters in the correct order:,unsuitable
+ENG-M4-EW372,hands,The parts at the end of our arms with fingers and thumbs. Put the letters in the correct order:,unsuitable
+ENG-M4-EW461,legs,We use these two body parts with feet and knees to walk and run. Put the letters in the correct order:,unsuitable
+ENG-M4-EW571,paws,An animal's feet with soft pads and claws. Put the letters in the correct order:,unsuitable
+ENG-M4-EW175,crack,There is a ______ in the wall. Complete the word: and complete the word:,unsuitable
+ENG-M4-EW208,deep,The well is very ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-EW239,drink,We ______ water when we are thirsty. Complete the word: and complete the word:,unsuitable
 ENG-M4-EW278,feathers,"The light, soft growths that cover a bird's body and wings. Put the letters in the correct order:"
 ENG-M4-REV-EW321,fruit,"A sweet, juicy food like an apple or mango that grows on plants. Put the letters in the correct order:"
-ENG-M4-REV-EW001,about,The programme is ______ to start. and complete the word:
-ENG-M4-REV-EW008,alphabet,Complete the word:
-ENG-M4-REV-EW049,bee,Complete the word:
-ENG-M4-REV-EW059,bin,Put the paper in the ______. Complete the word: and complete the word:
-ENG-M4-REV-EW091,bring,Please ______ your book to class. Complete the word: and complete the word:
-ENG-M4-REV-EW124,catch,Try to ______ the ball. Complete the word: and complete the word:
-ENG-M4-REV-EW168,coop,Chickens can stay in a ______. Complete the word: and complete the word:
-ENG-M4-REV-EW188,cry,The baby may ______ when hungry. Complete the word: and complete the word:
-ENG-M4-REV-EW190,cube,A dice is shaped like a ______. Complete the word: and complete the word:
-ENG-M4-REV-EW202,dance,The children like to ______ to music. Complete the word: and complete the word:
-ENG-M4-REV-EW220,die,One small cube used in a board game is called a ______. Complete the word: and complete the word:
-ENG-M4-REV-EW224,dip,Please ______ the biscuit in the milk. Complete the word: and complete the word:
-ENG-M4-REV-EW240,drive,We ______ a car on the road. Complete the word: and complete the word:
-ENG-M4-REV-EW026,away,Complete the word:
-ENG-M4-REV-EW050,behind,Complete the word:
-ENG-M4-REV-EW061,black,The cat is ______. Complete the word: and complete the word:
-ENG-M4-REV-EW088,brick,The wall is made of ______. Complete the word: and complete the word:
-ENG-M4-REV-EW093,broom,We use a ______ to sweep the floor. Complete the word: and complete the word:
-ENG-M4-REV-EW096,brush,I use a ______ to clean my teeth. Complete the word: and complete the word:
-ENG-M4-REV-EW110,buzz,A bee can ______ around a flower. Complete the word: and complete the word:
-ENG-M4-REV-EW144,claps,She ______ her hands after the song. Complete the word: and complete the word:
-ENG-M4-REV-EW167,cool,The water feels ______. Complete the word: and complete the word:
-ENG-M4-REV-EW173,count,Can you ______ the apples? Complete the word: and complete the word:
-ENG-M4-REV-EW322,fry,We can ______ an egg in a pan. Complete the word: and complete the word:
-ENG-M4-REV-EW520,mow,We ______ the grass to keep it short. Complete the word: and complete the word:
-ENG-M4-REV-EW749,soak,Leave the clothes in water to ______ them. Complete the word: and complete the word:
-ENG-M5-EW356,green gram,A small green pulse or bean commonly cooked to make nutritious dal. Put the letters in order:
-ENG-M5-EW817,talents,Special natural skills or abilities that a person is good at doing. Choose the correct word:
-ENG-M6-EW851,tiger,This large wild animal has black stripes. Put the word parts in the correct order:
-ENG-M6-EW895,uniform,Children wear a school ______. Put the word parts in the correct order:
-ENG-M6-EW907,violin,Arrange the parts to make the word for a musical instrument played with a bow.
-ENG-M6-EW933,window,Arrange the parts to make the word for an opening in a wall that lets in light and air.
-ENG-M6-EW936,winter,Arrange the parts to make the word for the coldest season of the year.
-ENG-M6-EW295,fisherman,A ______ catches fish. Put the word parts in the correct order:
-ENG-M6-EW603,policeman,A person who works to keep people safe and enforce the law is a ______. Put the word parts in the correct order:
-ENG-M6-EW197,curvy,A road with many bends can be ______. Put the letters in the correct order:
-ENG-M6-EW386,heavy,The big box is very ______. Put the letters in the correct order:
-ENG-M6-EW576,pepper,This spice can make food taste hot. Put the letters in the correct order:
-ENG-M6-EW580,picnic,We had a ______ in the park. Put the letters in the correct order:
+ENG-M4-REV-EW001,about,The programme is ______ to start. and complete the word:,unsuitable
+ENG-M4-REV-EW008,alphabet,Complete the word:,unsuitable
+ENG-M4-REV-EW049,bee,Complete the word:,unsuitable
+ENG-M4-REV-EW059,bin,Put the paper in the ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW091,bring,Please ______ your book to class. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW124,catch,Try to ______ the ball. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW168,coop,Chickens can stay in a ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW188,cry,The baby may ______ when hungry. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW190,cube,A dice is shaped like a ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW202,dance,The children like to ______ to music. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW220,die,One small cube used in a board game is called a ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW224,dip,Please ______ the biscuit in the milk. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW240,drive,We ______ a car on the road. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW026,away,Complete the word:,unsuitable
+ENG-M4-REV-EW050,behind,Complete the word:,unsuitable
+ENG-M4-REV-EW061,black,The cat is ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW088,brick,The wall is made of ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW093,broom,We use a ______ to sweep the floor. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW096,brush,I use a ______ to clean my teeth. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW110,buzz,A bee can ______ around a flower. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW144,claps,She ______ her hands after the song. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW167,cool,The water feels ______. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW173,count,Can you ______ the apples? Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW322,fry,We can ______ an egg in a pan. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW520,mow,We ______ the grass to keep it short. Complete the word: and complete the word:,unsuitable
+ENG-M4-REV-EW749,soak,Leave the clothes in water to ______ them. Complete the word: and complete the word:,unsuitable
+ENG-M5-EW356,green gram,A small green pulse or bean commonly cooked to make nutritious dal. Put the letters in order:,unsuitable
+ENG-M5-EW817,talents,Special natural skills or abilities that a person is good at doing. Choose the correct word:,unsuitable
+ENG-M6-EW851,tiger,This large wild animal has black stripes. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW895,uniform,Children wear a school ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW907,violin,Arrange the parts to make the word for a musical instrument played with a bow.,unsuitable
+ENG-M6-EW933,window,Arrange the parts to make the word for an opening in a wall that lets in light and air.,unsuitable
+ENG-M6-EW936,winter,Arrange the parts to make the word for the coldest season of the year.,unsuitable
+ENG-M6-EW295,fisherman,A ______ catches fish. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW603,policeman,A person who works to keep people safe and enforce the law is a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW197,curvy,A road with many bends can be ______. Put the letters in the correct order:,unsuitable
+ENG-M6-EW386,heavy,The big box is very ______. Put the letters in the correct order:,unsuitable
+ENG-M6-EW576,pepper,This spice can make food taste hot. Put the letters in the correct order:,unsuitable
+ENG-M6-EW580,picnic,We had a ______ in the park. Put the letters in the correct order:,unsuitable
 ENG-M6-EW618,puddle,"After the rain, there was a small ______ on the road. Put the letters in the correct order:"
-ENG-M6-EW676,sandy,The beach is ______. Put the letters in the correct order:
-ENG-M6-EW681,scared,The little child was ______ when he heard the loud noise. Put the letters in the correct order:
-ENG-M6-EW726,singer,A person who sings is a ______. Put the letters in the correct order:
-ENG-M6-EW745,snaps,The boy ______ his fingers to make a sound. Put the letters in the correct order:
-ENG-M6-EW748,snowy,It was a ______ day in the mountains. Put the letters in the correct order:
-ENG-M6-EW791,striped,The tiger has a ______ body. Put the letters in the correct order:
-ENG-M6-EW802,sunny,It is a ______ day today. Put the letters in the correct order:
-ENG-M6-EW826,teacher,A person who teaches children is a ______. Put the letters in the correct order:
+ENG-M6-EW676,sandy,The beach is ______. Put the letters in the correct order:,unsuitable
+ENG-M6-EW681,scared,The little child was ______ when he heard the loud noise. Put the letters in the correct order:,unsuitable
+ENG-M6-EW726,singer,A person who sings is a ______. Put the letters in the correct order:,unsuitable
+ENG-M6-EW745,snaps,The boy ______ his fingers to make a sound. Put the letters in the correct order:,unsuitable
+ENG-M6-EW748,snowy,It was a ______ day in the mountains. Put the letters in the correct order:,unsuitable
+ENG-M6-EW791,striped,The tiger has a ______ body. Put the letters in the correct order:,unsuitable
+ENG-M6-EW802,sunny,It is a ______ day today. Put the letters in the correct order:,unsuitable
+ENG-M6-EW826,teacher,A person who teaches children is a ______. Put the letters in the correct order:,unsuitable
 ENG-M6-EW839,thirsty,"After playing in the sun, the child felt ______. Put the letters in the correct order:"
-ENG-M6-EW228,doctor,A person who treats sick people is a ______. Put the word parts in the correct order:
-ENG-M6-EW039,basket,Put the letters in the correct order:
-ENG-M6-EW009,ambulance,This vehicle takes sick or injured people to a hospital.
-ENG-M6-EW022,astronaut,A person who travels into space.
-ENG-M6-EW023,audience,These are people watching a show.
-ENG-M6-EW117,cardamom,Put the word parts in the correct order:
-ENG-M6-EW118,carpenter,This is a person who makes or repairs things from wood. Put the word parts in the correct order:
+ENG-M6-EW228,doctor,A person who treats sick people is a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW039,basket,Put the letters in the correct order:,unsuitable
+ENG-M6-EW009,ambulance,This vehicle takes sick or injured people to a hospital.,unsuitable
+ENG-M6-EW022,astronaut,A person who travels into space.,unsuitable
+ENG-M6-EW023,audience,These are people watching a show.,unsuitable
+ENG-M6-EW117,cardamom,Put the word parts in the correct order:,unsuitable
+ENG-M6-EW118,carpenter,This is a person who makes or repairs things from wood. Put the word parts in the correct order:,unsuitable
 ENG-M6-EW125,caterpillar,"This is a long, soft-bodied insect that later becomes a butterfly or moth. Put the word parts in the correct order:"
-ENG-M6-EW141,cinnamon,This is a spice used in cooking. Put the word parts in the correct order:
-ENG-M6-EW150,clinic,This is a place where people go to see a doctor. Put the word parts in the correct order:
-ENG-M6-EW170,coriander,This is a herb used in cooking. Put the word parts in the correct order:
-ENG-M6-EW181,crocodile,This is a large animal that lives in or near water. Put the word parts in the correct order:
-ENG-M6-EW207,decorate,We ______ the classroom for a celebration. Put the word parts in the correct order:
-ENG-M6-EW221,different,The two pictures are not the same. They are ______. Put the word parts in the correct order:
-ENG-M6-EW230,dolphin,This animal lives in water and is very intelligent. Put the word parts in the correct order:
-ENG-M6-EW235,dragon,This is a large imaginary animal that can breathe fire in stories. Put the word parts in the correct order:
-ENG-M6-EW249,dwelling,A place where someone lives is called a ______. Put the word parts in the correct order:
-ENG-M6-EW254,elephant,This is a large animal with a long trunk. Put the word parts in the correct order:
-ENG-M6-EW257,engineer,An ______ designs or builds machines and structures. Put the word parts in the correct order:
-ENG-M6-EW266,exercise,We do ______ to keep our body healthy. Put the word parts in the correct order:
-ENG-M6-EW281,fenugreek,This plant is used as a spice in cooking. Put the word parts in the correct order:
-ENG-M6-EW282,festival,People celebrate a ______ with special activities. Put the word parts in the correct order:
-ENG-M6-EW359,grocery,A shop or place where food and household items are sold is a ______. Put the word parts in the correct order:
-ENG-M6-EW371,handkerchief,This is a small cloth used for wiping the nose or face. Put the word parts in the correct order:
-ENG-M6-EW375,harvest,Farmers collect crops during the ______. Put the word parts in the correct order:
-ENG-M6-EW405,hospital,Sick people may go to this place to see a doctor. Put the word parts in the correct order:
-ENG-M6-EW418,injection,A medicine given with a needle is called an ______. Put the word parts in the correct order:
-ENG-M6-EW420,instruction,A direction that tells you what to do is an ______. Put the word parts in the correct order:
-ENG-M6-EW444,kitchen,We cook food in this room. Put the word parts in the correct order:
-ENG-M6-EW470,lightning,A bright flash seen in the sky during a storm is called ______. Put the word parts in the correct order:
-ENG-M6-EW491,magician,A person who performs magic tricks is a ______. Put the word parts in the correct order:
-ENG-M6-EW500,medicine,This is something used to help a sick person get better. Put the word parts in the correct order:
-ENG-M6-EW503,merchant,Arrange the word parts to make the word for a person who buys and sells things.
-ENG-M6-EW515,mosquito,This is a small flying insect that can bite people. Put the word parts in the correct order:
-ENG-M6-EW527,mustard,This is a yellow spice or sauce used with food. Put the word parts in the correct order:
-ENG-M6-EW535,nectar,Bees collect sweet liquid from flowers called ______. Put the word parts in the correct order:
-ENG-M6-EW550,nutritious,Food that helps our body grow and stay healthy is ______. Put the word parts in the correct order:
-ENG-M6-EW579,person,A human being can be called a ______. Put the word parts in the correct order:
-ENG-M6-EW003,adventure,This means an exciting journey or experience.
-ENG-M6-EW101,bumblebee,This is a flying insect that makes honey. Put the word parts in the correct order:
+ENG-M6-EW141,cinnamon,This is a spice used in cooking. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW150,clinic,This is a place where people go to see a doctor. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW170,coriander,This is a herb used in cooking. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW181,crocodile,This is a large animal that lives in or near water. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW207,decorate,We ______ the classroom for a celebration. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW221,different,The two pictures are not the same. They are ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW230,dolphin,This animal lives in water and is very intelligent. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW235,dragon,This is a large imaginary animal that can breathe fire in stories. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW249,dwelling,A place where someone lives is called a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW254,elephant,This is a large animal with a long trunk. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW257,engineer,An ______ designs or builds machines and structures. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW266,exercise,We do ______ to keep our body healthy. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW281,fenugreek,This plant is used as a spice in cooking. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW282,festival,People celebrate a ______ with special activities. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW359,grocery,A shop or place where food and household items are sold is a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW371,handkerchief,This is a small cloth used for wiping the nose or face. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW375,harvest,Farmers collect crops during the ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW405,hospital,Sick people may go to this place to see a doctor. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW418,injection,A medicine given with a needle is called an ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW420,instruction,A direction that tells you what to do is an ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW444,kitchen,We cook food in this room. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW470,lightning,A bright flash seen in the sky during a storm is called ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW491,magician,A person who performs magic tricks is a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW500,medicine,This is something used to help a sick person get better. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW503,merchant,Arrange the word parts to make the word for a person who buys and sells things.,unsuitable
+ENG-M6-EW515,mosquito,This is a small flying insect that can bite people. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW527,mustard,This is a yellow spice or sauce used with food. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW535,nectar,Bees collect sweet liquid from flowers called ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW550,nutritious,Food that helps our body grow and stay healthy is ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW579,person,A human being can be called a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW003,adventure,This means an exciting journey or experience.,unsuitable
+ENG-M6-EW101,bumblebee,This is a flying insect that makes honey. Put the word parts in the correct order:,unsuitable
 ENG-M6-EW113,camel,"This animal has a hump and can live in hot, dry places. Put the word parts in the correct order:"
-ENG-M6-EW131,chameleon,This animal can change the colour of its skin. Put the word parts in the correct order:
-ENG-M6-EW163,conductor,This person leads a group of musicians. Put the word parts in the correct order:
-ENG-M6-EW225,direction,The way to go somewhere is called a ______. Put the word parts in the correct order:
-ENG-M6-EW253,electric,This word describes something that works using electricity. Put the word parts in the correct order:
-ENG-M6-EW260,environment,The world around us is called the ______. Put the word parts in the correct order:
-ENG-M6-EW269,factory,A ______ is a place where things are made. Put the word parts in the correct order:
-ENG-M6-EW326,garbage,Things that we throw away are called ______. Put the word parts in the correct order:
+ENG-M6-EW131,chameleon,This animal can change the colour of its skin. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW163,conductor,This person leads a group of musicians. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW225,direction,The way to go somewhere is called a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW253,electric,This word describes something that works using electricity. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW260,environment,The world around us is called the ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW269,factory,A ______ is a place where things are made. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW326,garbage,Things that we throw away are called ______. Put the word parts in the correct order:,unsuitable
 ENG-M6-EW339,glacier,"A large, slow-moving mass of ice is called a ______. Put the word parts in the correct order:"
-ENG-M6-EW454,laundry,Clothes that need washing are called ______. Put the word parts in the correct order:
-ENG-M6-EW489,machine,This is a device that does a job using moving parts. Put the word parts in the correct order:
-ENG-M6-EW490,magic,The ______ show had colourful lights and surprising tricks. Put the word parts in the correct order:
-ENG-M6-EW516,mountain,A very high natural landform is called a ______. Put the word parts in the correct order:
-ENG-M6-EW523,multimeter,This is a tool used to measure electrical quantities. Put the word parts in the correct order:
-ENG-M6-EW525,museum,We visit this place to see old objects and interesting displays. Put the word parts in the correct order:
+ENG-M6-EW454,laundry,Clothes that need washing are called ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW489,machine,This is a device that does a job using moving parts. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW490,magic,The ______ show had colourful lights and surprising tricks. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW516,mountain,A very high natural landform is called a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW523,multimeter,This is a tool used to measure electrical quantities. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW525,museum,We visit this place to see old objects and interesting displays. Put the word parts in the correct order:,unsuitable
 ENG-M6-EW532,nature,"Plants, animals, trees and the world around us are part of ______. Put the word parts in the correct order:"
 ENG-M6-EW536,needle,"This is a thin, sharp tool used for sewing. Put the word parts in the correct order:"
-ENG-M6-EW538,neighbour,A person who lives near your home is your ______. Put the word parts in the correct order:
-ENG-M6-EW551,oasis,A green place with water in a desert is called an ______. Put the word parts in the correct order:
-ENG-M6-EW553,office,A room where people work is called an ______. Put the word parts in the correct order:
-ENG-M6-EW566,palace,A large and beautiful home where a king or queen may live is a ______. Put the word parts in the correct order:
-ENG-M6-EW570,pavement,People walk on the ______ beside the road. Put the word parts in the correct order:
+ENG-M6-EW538,neighbour,A person who lives near your home is your ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW551,oasis,A green place with water in a desert is called an ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW553,office,A room where people work is called an ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW566,palace,A large and beautiful home where a king or queen may live is a ______. Put the word parts in the correct order:,unsuitable
+ENG-M6-EW570,pavement,People walk on the ______ beside the road. Put the word parts in the correct order:,unsuitable
+ENG-M4-EW025,aval,Flattened rice flakes used to make tasty snacks. Arrange the letters:,watermark
+ENG-M5-REV-EW025,aval,Flattened rice flakes used to make tasty snacks. Arrange the letters:,watermark
+ENG-M6-REV-EW025,aval,Flattened rice flakes used to make tasty snacks. Arrange the letters:,watermark
+ENG-M7-REV-EW025,aval,Flattened rice flakes used to make tasty snacks. Arrange the letters:,watermark
+ENG-M4-EW040,bat,A wooden club used to hit the ball in cricket. Arrange the letters:,unsuitable
+ENG-M4-EW043,beak,"The hard, pointed outer mouthparts of a bird. Arrange the letters:",unsuitable
+ENG-M4-EW053,bengal gram,A yellow chickpea pulse used in cooking. Arrange the letters:,wrong-subject
+ENG-M5-REV-EW053,bengal gram,A yellow chickpea pulse used in cooking. Choose the correct word:,wrong-subject
+ENG-M6-REV-EW053,bengal gram,A yellow chickpea pulse used in cooking. Choose the correct word:,wrong-subject
+ENG-M1-EW058,big,The opposite of small. Choose the correct spelling:,unsuitable
+ENG-M3-REV-EW058,big,The opposite of small. Choose the correct spelling:,unsuitable
+ENG-M7-REV-EW058,big,The opposite of small. Choose the correct spelling:,unsuitable
+ENG-M8-REV-EW058,big,The opposite of small. Choose the correct spelling:,unsuitable
+ENG-M4-EW062,black gram,A small black pulse used to make idli batter. Arrange the letters:,wrong-subject
+ENG-M5-REV-EW062,black gram,A small black pulse used to make idli batter. Choose the correct word:,wrong-subject
+ENG-M3-EW071,bolt,A threaded metal rod used with a nut to fasten things. Choose the correct spelling:,wrong-subject
+ENG-M5-REV-EW071,bolt,A threaded metal rod used with a nut to fasten things. Choose the correct spelling:,wrong-subject
+ENG-M7-REV-EW071,bolt,A threaded metal rod used with a nut to fasten things. Choose the correct spelling:,wrong-subject
+ENG-M3-EW078,bow,A decorative knot with loops made from ribbon. Choose the correct spelling:,unsuitable
+ENG-M5-REV-EW078,bow,A decorative knot with loops made from ribbon. Choose the correct spelling:,unsuitable
+ENG-M4-EW081,boy,A young male child. Arrange the letters:,watermark
+ENG-M1-EW095,brown,"The colour of wood, soil, or chocolate. Choose the correct spelling:",watermark
+ENG-M2-REV-EW095,brown,"The colour of wood, soil, or chocolate. Choose the correct spelling:",watermark
+ENG-M7-EW158,coil,A length of wire or rope wound in rings. Complete the word:,watermark
+ENG-M1-EW160,cold,The opposite of hot. Choose the correct spelling:,watermark
+ENG-M2-REV-EW160,cold,The opposite of hot. Choose the correct spelling:,watermark
+ENG-M4-EW169,cop,Another word for a police officer. Arrange the letters:,watermark
+ENG-M5-EW176,cradle,A small bed for a baby that rocks gently. Choose the correct word:,wrong-subject
+ENG-M4-EW195,curry leaves,Aromatic green leaves used to season Indian food. Arrange the letters:,wrong-subject
+ENG-M5-REV-EW195,curry leaves,Aromatic green leaves used to season Indian food. Choose the correct word:,wrong-subject
+ENG-M4-EW199,dad,A father or male parent. Arrange the letters:,watermark
+ENG-M4-EW212,den,"A wild animal's resting place or home, like a lion's cave. Arrange the letters:",unsuitable
+ENG-M4-EW250,ear,The sense organ on your head used for hearing. Arrange the letters:,unsuitable
+ENG-M3-EW267,eye,The sense organ on your face used for seeing. Choose the correct spelling:,unsuitable
+ENG-M4-EW289,finger,One of the five digits on your hand. Arrange the letters:,unsuitable
+ENG-M4-EW290,fingers,The digits on your hands used for holding things. Arrange the letters:,unsuitable
+ENG-M4-EW332,gem,"A precious, sparkling stone or jewel. Arrange the letters:",unsuitable
+ENG-M4-EW377,hat,A covering worn on the head for warmth or shade. Arrange the letters:,watermark
+ENG-M4-EW379,he,The pronoun used to refer to a boy or a man. Arrange the letters:,unsuitable
+ENG-M5-EW381,heads,"The top parts of human and animal bodies with the brain, eyes, and mouth. Complete the word:",unsuitable
+ENG-M4-EW401,hop,To jump lightly on one foot. Arrange the letters:,wrong-subject
+ENG-M5-EW419,insects,"Small creatures with six legs, such as ants and bees. Arrange the letters:",watermark
+ENG-M4-EW442,kid,A child or young person. Arrange the letters:,watermark
+ENG-M4-EW448,laddus,"Round, sweet Indian treats made of flour, sugar, and ghee. Arrange the letters:",watermark
+ENG-M4-EW460,leg,The lower limb used for standing and walking. Arrange the letters:,unsuitable
+ENG-M4-EW468,lift,To raise something to a higher position. Arrange the letters:,wrong-subject
+ENG-M4-EW488,lunch,A meal eaten in the middle of the day. Arrange the letters:,wrong-subject
+ENG-M4-EW492,man,An adult male person. Arrange the letters:,watermark
+ENG-M4-EW494,map,"A flat drawing of an area showing rivers, roads, and cities. Arrange the letters:",watermark
+ENG-M1-EW497,match,A small wooden stick tipped with chemicals used to start a fire. Arrange the letters:,watermark
+ENG-M5-EW510,mom,A mother or female parent. Arrange the letters:,watermark
+ENG-M1-EW517,mouth,The opening on your face used for speaking and eating. Arrange the letters:,unsuitable
+ENG-M5-EW521,mud,"Wet, soft, sticky soil. Arrange the letters:",watermark
+ENG-M1-EW534,neck,The body part that connects the head to the torso. Arrange the letters:,watermark
+ENG-M5-EW549,nut,A fruit consisting of a hard shell around an edible seed. Arrange the letters:,watermark
+ENG-M1-EW587,pinky,The smallest finger on your hand. Choose the correct word:,unsuitable
+ENG-M2-REV-EW587,pinky,The smallest finger on your hand. Choose the correct word:,unsuitable
+ENG-M5-REV-EW587,pinky,The smallest finger on your hand. Choose the correct word:,unsuitable
+ENG-M5-EW641,red,"The bright colour of blood, apples, and ripe strawberries. Arrange the letters:",watermark
+ENG-M4-EW646,rest,To relax or stop work when you are tired. Arrange the letters:,watermark
+ENG-M4-EW651,ring,A small circular band of precious metal worn on a finger. Arrange the letters:,watermark
+ENG-M5-EW690,seasons,"The periods of the year: summer, rainy season, and winter. Choose the correct word:",watermark
+ENG-M4-EW691,seat,"A place to sit down, like a chair or bench. Arrange the letters:",wrong-subject
+ENG-M5-EW696,shadow,A dark area formed when an object blocks light. Choose the correct word:,watermark
+ENG-M5-EW702,she,The pronoun used to refer to a girl or woman. Write the word:,unsuitable
+ENG-M5-EW705,shells,Hard protective outer covers found on the seashore. Choose the correct word:,wrong-subject
+ENG-M5-EW721,shovel,A hand tool with a broad blade used for lifting earth or snow. Choose the correct word:,wrong-subject
+ENG-M5-EW730,sit,To rest your body on a chair or bench. Arrange the letters:,watermark
+ENG-M1-EW811,swim,To move yourself through water using your arms and legs. Arrange the letters:,wrong-subject
+ENG-M5-EW819,tap,A fixture for drawing liquid from a pipe. Arrange the letters:,watermark
+ENG-M5-EW832,tender coconut,"A young green coconut containing refreshing, sweet water. Choose the correct word:",watermark
+ENG-M4-EW834,thank you,Polite words used to express gratitude when receiving help. Arrange the letters:,watermark
+ENG-M4-EW858,toe,One of the digits on your foot. Arrange the letters:,watermark
+ENG-M4-EW865,tool,An instrument like a hammer or screwdriver used to do work. Arrange the letters:,watermark
+ENG-M4-EW869,town,A populated place larger than a village but smaller than a city. Arrange the letters:,wrong-subject
+ENG-M8-EW875,train,A series of railway carriages moved by an engine along tracks. Arrange the letters:,watermark
+ENG-M1-EW880,truck,"A large, strong motor vehicle designed for carrying heavy loads. Arrange the letters:",wrong-subject
+ENG-M2-REV-EW880,truck,"A large, strong motor vehicle designed for carrying heavy loads. Arrange the letters:",wrong-subject
+ENG-M5-EW920,web,A fine silky net spun by a spider to catch insects. Write the word:,unsuitable
+ENG-M4-EW935,wings,The feather-covered body parts that birds use to fly. Arrange the letters:,watermark
+ENG-M1-EW938,wish,To want or desire something to happen. Write the word:,watermark
+FTS0013,அட்டை,புத்தகத்தின் தடித்த மேலட்டை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.,wrong-subject
+FTS0072,ஆடையகம்,பல்வேறு துணிகளும் ஆடைகளும் விற்பனை செய்யப்படும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.,watermark
+FTS0096,இனிப்பகம்,"லட்டு, ஜிலேபி போன்ற இனிப்புப் பண்டங்கள் விற்கும் கடை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",unsuitable
+FTS0127,உடம்பு,"தலை, கை, கால் ஆகிய உறுப்புகளைக் கொண்ட நமது மெய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",wrong-subject
+FTS0128,உடல்,மனிதர்கள் மற்றும் விலங்குகளின் மெய் அல்லது உடம்பைக் குறிக்கும் தமிழ்ச் சொல் எது?,wrong-subject
+FTS0147,உருண்டை,பந்து அல்லது லட்டு போன்ற வட்டமான உருவ அமைப்பு ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.,unsuitable
+FTS0164,ஊதல்,வாயால் காற்றை வெளியேற்றி அல்லது விசில் வழியாக ஒலி எழுப்பும் செயல் ______. சரியான சொல்லைத் தேர்ந்தெடு.,unsuitable
+FTS0177,எண்ணெய்,சமையலுக்கும் தலைக்கும் நாம் பயன்படுத்தும் திரவப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.,unsuitable
+FTS0248,கரம்,நமது கையின் மற்றொரு தூய தமிழ்ப் பெயர் ______. சரியான சொல்லைத் தேர்ந்தெடு.,wrong-subject
+FTS0305,கீற்று,தென்னை அல்லது பனை மரத்தின் ஓலையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0323,குரல்,குழந்தை பேசும்போது அல்லது பாடும்போது தொண்டையிலிருந்து வெளிவரும் இனிய ஒலி எது?,wrong-subject
+FTS0325,குறிப்பு,முக்கியமான விவரங்களை நினைவில் வைக்க எழுதும் சுருக்கமான தகவல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0339,குழி,நிலத்தில் தோண்டப்பட்ட சிறிய பள்ளம் அல்லது வெட்டு ______. சரியான சொல்லைத் தேர்ந்தெடு.,unsuitable
+FTS0345,கேணி,நிலத்தில் ஆழமாகத் தோண்டி நீர் எடுக்கும் கிணற்றின் மற்றொரு தமிழ்ப் பெயர் எது?,wrong-subject
+FTS0352,கொக்கு,குளக்கரையில் ஒற்றைக் காலில் நின்று மீன் பிடிக்கும் வெள்ளை நிறப் பறவை எது?,wrong-subject
+FTS0353,கொசு,இரவில் மனிதர்களைக் கடித்து மலேரியா போன்ற நோய்களைப் பரப்பும் சிறிய பூச்சி எது?,unsuitable
+FTS0357,கொம்பு,"மாடு, மான் போன்றவற்றின் தலையில் உள்ள கூர்மையான உறுப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",wrong-subject
+FTS0361,கோடை,சூரிய வெப்பமும் வெயிலும் அதிகமாக இருக்கும் ஆண்டின் பருவம் எது?,wrong-subject
+FTS0365,கோலிகுண்டு,சிறுவர்கள் விரல்களால் உருட்டி விளையாடும் சிறிய கண்ணாடிக் குண்டுகள் எவை?,wrong-subject
+FTS0385,சறுக்கு,பூங்காவில் குழந்தைகள் மேலிருந்து கீழே வழுக்கி விளையாடும் விளையாட்டு உபகரணம் எது?,wrong-subject
+FTS0386,சறுக்குப்பலகை,பூங்காவில் குழந்தைகள் ஏறி வழுக்கி விளையாடும் சாய்வான பலகை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0406,சிரம்,நமது தலையைக் குறிக்கும் மற்றொரு தூய தமிழ்ச் சொல் எது?,wrong-subject
+FTS0410,சிறகு,பறவைகள் வானில் சிறகடித்துப் பறப்பதற்கு உதவும் இறக்கை உறுப்பு எது?,wrong-subject
+FTS0419,சீப்பு,தலையை வாரி முடியைச் சீராக வைக்க உதவும் பொருள் எது?,wrong-subject
+FTS0452,செல்வர்,அதிக செல்வமும் பணமும் படைத்த பணக்காரர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0490,தம்பி,குடும்பத்தில் நமக்கு இளைய ஆண் உடன்பிறப்பைக் குறிக்கும் உறவுமுறைச் சொல் எது?,wrong-subject
+FTS0503,தழும்பு,தோலில் ஏற்பட்ட காயம் ஆறிய பிறகு தங்கிவிடும் பழைய அடையாளம் எது?,wrong-subject
+FTS0511,தார்ச்சாலை,கருப்பு நிறத் தார் பூசி உறுதியாக அமைக்கப்பட்ட தரைவழிச் சாலை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.,wrong-subject
+FTS0540,துருவி,பென்சிலின் முனையைச் சீவ அல்லது காய்களைத் துருவப் பயன்படும் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0551,தேங்காய்,தென்னை மரத்தில் காய்க்கும் கெட்டியான ஓடுடைய சமையல் காய் ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.,wrong-subject
+FTS0579,தோட்டம்,பூச்செடிகளும் காய்கறிகளும் மரங்களும் வளர்க்கப்படும் நிலப்பகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.,wrong-subject
+FTS0590,நட்டு,நிலத்தில் விதையை அல்லது இளம் செடியை ஊன்றி வைக்கும் உழவுச் செயல் எது?,wrong-subject
+FTS0612,நாள்காட்டி,"ஆண்டின் நாட்கள், கிழமைகள், மாதங்களைக் காட்டும் அட்டவணை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",unsuitable
+FTS0613,நாவல்,விரிவான கதையமைப்பைக் கொண்ட நீண்ட உரைநடை இலக்கிய நூல் வகை எது?,wrong-subject
+FTS0620,நிலம்,நாம் வாழும் தரை அல்லது பூமிப்பரப்பைக் குறிக்கும் சொல் எது?,wrong-subject
+FTS0629,நீதிபதி,நீதிமன்றத்தில் வழக்குகளை விசாரித்து நேர்மையாகத் தீர்ப்பு வழங்கும் அதிகாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0657,பகைவர்,நண்பருக்கு மாறாக நம்முடன் பகையும் விரோதமும் கொண்டு செயல்படுபவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0683,பத்திரம்,பொருட்களையும் உடமைகளையும் பாதுகாப்பாகவும் கவனமாகவும் வைப்பதைக் குறிக்கும் சொல் எது?,wrong-subject
+FTS0685,பந்து,குழந்தைகள் காலால் உதைத்தும் கையால் எறிந்தும் விளையாடும் உருண்டையான விளையாட்டுப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,unsuitable
+FTS0689,பயந்து,ஆபத்து அல்லது மிரட்டலைக் கண்டு நெஞ்சில் அச்சம் கொள்ளும் உணர்வு எது?,unsuitable
+FTS0699,பரிசு,போட்டிகளில் வெற்றி பெறுவோருக்குப் பாராட்டாக வழங்கப்படும் அன்பளிப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.,wrong-subject
+FTS0709,பலா,முட்கள் நிறைந்த பெரிய தோலுக்குள் சுவையான சுளைகள் கொண்ட முக்கனிகளில் ஒன்று எது?,wrong-subject
+FTS0732,பானை,களிமண்ணால் செய்யப்பட்டு சமையலுக்கும் தண்ணீர் வைக்கவும் பயன்படும் பாண்டம் எது?,wrong-subject
+FTS0735,பாயசம்,"பால், பருப்பு அல்லது சேமியா சேர்த்துச் செய்யப்படும் சுவையான இனிப்பு உணவு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",wrong-subject
+FTS0744,பால்,பசு நமக்குத் தரும் சத்துமிக்க வெள்ளை நிற உணவுப் பொருள் எது?,unsuitable
+FTS0757,புகைப்படம்,கேமரா மூலம் எடுக்கப்படும் நிழற்படம் அல்லது படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0776,பூங்கொத்து,பல வண்ண மலர்களை ஒன்றாகச் சேர்த்து கட்டப்பட்ட அழகிய மலர்க்கொத்து ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0780,பூட்டு,கதவைப் பூட்டிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0784,பெட்டிகள்,பொருட்களை அடுக்கி வைத்துப் பாதுகாக்கப் பயன்படும் பல பெட்டிகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0786,பென்சில்,எழுதுவதற்கும் வரைவதற்கும் குழந்தைகள் பயன்படுத்தும் கரிக்கோல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0796,பெற்றோர்,நம்மைப் பெற்றெடுத்த தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0798,பேனா,மை கொண்டு தாள்களில் அழகாக எழுதப் பயன்படும் கருவி எது?,wrong-subject
+FTS0806,பொம்மை,குழந்தைகள் வைத்து விளையாடும் அழகான விளையாட்டுப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,unsuitable
+FTS0815,போர்வை,குளிர்காலத்தில் இரவில் உடம்பைப் போர்த்திக் கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0857,மாணவர்கள்,பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் மாணவச் செல்வங்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0861,மாமா,தாயின் உடன் பிறந்த சகோதரரை நாம் எவ்வாறு அழைப்போம்?,wrong-subject
+FTS0870,மின்விசிறி,மின்சாரத்தில் இயங்கி நமக்குக் குளிர்ந்த காற்று வீசும் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,unsuitable
+FTS0874,முகமூடி,முகத்தில் அணிந்து கொண்டு விளையாடும் உருவ அட்டை அல்லது மூடி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0880,முதலை,ஆற்றில் வாழும் கூர்மையான பற்களும் கடினமான தோலும் கொண்ட பெரிய நீர்வாழ் ஊர்வன விலங்கு எது?,unsuitable
+FTS0909,மேடை,நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த மேடைத் தளம் எது?,unsuitable
+FTS0916,மைக்குப்பி,எழுதுவதற்குப் பயன்படும் மையினை ஊற்றி வைக்கும் சிறிய பாட்டில் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0917,மைதானம்,குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் திறந்தவெளி மைதானம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0926,ரப்பர்,பென்சிலால் எழுதிய எழுத்துப் பிழைகளை அழிக்கப் பயன்படும் அழிப்பான் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0927,ரயில்,தண்டவாளத்தின் மீது பல பெட்டிகளுடன் வேகமாகச் செல்லும் தொடர்வண்டி எது?,wrong-subject
+FTS0930,வகுப்பறை,பள்ளியில் ஆசிரியரும் மாணவர்களும் அமர்ந்து கல்வி கற்கும் அறை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0937,வணிகர்,கடையில் பொருட்களை வாங்கி விற்பனை செய்யும் வியாபாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0940,வண்ணமிடப்பட்ட,அழகிய பல வண்ணங்களால் நிறம் தீட்டப்பட்ட நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+FTS0949,வரைபடம்,"நாடுகள், ஆறுகள், நகரங்களின் அமைப்பைக் காட்டும் படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",wrong-subject
+FTS0974,வாசகர்,"புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வமாக வாசிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",wrong-subject
+FTS0976,வாசல்,வீட்டின் முகப்பில் அமைந்துள்ள நுழைவு வாயில் அல்லது கதவுப் பகுதி எது?,wrong-subject
+FTS0985,வான்கோழி,பெரிய உடலும் வண்ண விசிறி போன்ற வாலும் கொண்ட ஒரு பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,unsuitable
+FTS1021,விளையாட்டுத்திடல்,ஓடி ஆடி பல்வேறு விளையாட்டுப் போட்டிகளை விளையாடும் பெரிய திடல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.,wrong-subject
+Q001,முயல்,நீண்ட காதுகளும் சிறிய வாலும் கொண்ட துள்ளி ஓடும் வெள்ளையான சாதுவான விலங்கு எது?,wrong-subject
+Q013,எலி,வீடுகளிலும் வயல்களிலும் தானியங்களை உண்ணும் சிறிய வால் உள்ள பிராணி எது?,wrong-subject
+Q068,திமிங்கலம்,கடலில் வாழும் மிகப்பெரிய பாலூட்டி நீர்வாழ் உயிரினம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துப் பெயரை உருவாக்குக.,wrong-subject
+Q104,பை,புத்தகங்கள் அல்லது பொருட்களை வைத்து எடுத்துச் செல்லப் பயன்படும் பை எது?,wrong-subject

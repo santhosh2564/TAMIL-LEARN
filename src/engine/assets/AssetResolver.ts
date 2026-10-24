@@ -3,7 +3,7 @@ import class3TamilAssets from '../../content/class-3/tamil/asset-manifest.json';
 import class3TamilTerm1Assets from '../../content/class-3/tamil/term-1/assets.json';
 import class3EnglishAssets from '../../content/class-3/english/asset-manifest.json';
 
-const getDefaultManifest = (): AssetManifest => {
+export const getDefaultManifest = (): AssetManifest => {
   return {
     ...(class3TamilTerm1Assets as AssetManifest),
     ...(class3TamilAssets as AssetManifest),

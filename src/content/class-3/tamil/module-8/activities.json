@@ -5593,7 +5593,7 @@
     "targetWord": "வகுப்பறை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள இடத்தின் சொல்லை உருவாக்கு.",
+    "prompt": "பள்ளியில் ஆசிரியரும் மாணவர்களும் அமர்ந்து கல்வி கற்கும் அறை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வகுப்பறை",
     "learningObjective": "Picture → Arrange recognition and practice for வகுப்பறை",
     "source": {
@@ -5640,12 +5640,7 @@
       "வகு",
       "ப்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0930",
-      "alt": "வகுப்பறை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0931",
@@ -5716,7 +5711,7 @@
     "targetWord": "வணிகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பொருட்களை வாங்கி விற்பவரின் சொல்லை உருவாக்கு.",
+    "prompt": "கடையில் பொருட்களை வாங்கி விற்பனை செய்யும் வியாபாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வணிகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வணிகர்",
     "source": {
@@ -5758,12 +5753,7 @@
       "கர்",
       "வணி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0937",
-      "alt": "வணிகர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0940",
@@ -5775,7 +5765,7 @@
     "targetWord": "வண்ணமிடப்பட்ட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள நிறம் தீட்டப்பட்ட பொருளைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "அழகிய பல வண்ணங்களால் நிறம் தீட்டப்பட்ட நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வண்ணமிடப்பட்ட",
     "learningObjective": "Picture → Arrange recognition and practice for வண்ணமிடப்பட்ட",
     "source": {
@@ -5822,12 +5812,7 @@
       "பட்ட",
       "வண்ண"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0940",
-      "alt": "வண்ணமிடப்பட்ட"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0949",
@@ -5839,7 +5824,7 @@
     "targetWord": "வரைபடம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் சொல்லை உருவாக்கு.",
+    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் அமைப்பைக் காட்டும் படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வரைபடம்",
     "learningObjective": "Picture → Arrange recognition and practice for வரைபடம்",
     "source": {
@@ -5881,12 +5866,7 @@
       "படம்",
       "வரை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0949",
-      "alt": "வரைபடம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0950",
@@ -6139,7 +6119,7 @@
     "targetWord": "வாசகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து உருவாக்கு.",
+    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வமாக வாசிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வாசகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வாசகர்",
     "source": {
@@ -6181,12 +6161,7 @@
       "கர்",
       "வாச"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0974",
-      "alt": "வாசகர்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0981",
@@ -6316,7 +6291,7 @@
     "targetWord": "வான்கோழி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படுவதற்கான சொல்லை எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து உருவாக்கு.",
+    "prompt": "பெரிய உடலும் வண்ண விசிறி போன்ற வாலும் கொண்ட ஒரு பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வான்கோழி",
     "learningObjective": "Picture → Arrange recognition and practice for வான்கோழி",
     "source": {
@@ -6363,12 +6338,7 @@
       "ழி",
       "வான்"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0985",
-      "alt": "வான்கோழி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0987",
@@ -6631,7 +6601,7 @@
     "targetWord": "விளையாட்டுத்திடல்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் விளையாடும் இடத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "ஓடி ஆடி பல்வேறு விளையாட்டுப் போட்டிகளை விளையாடும் பெரிய திடல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "விளையாட்டுத்திடல்",
     "learningObjective": "Picture → Arrange recognition and practice for விளையாட்டுத்திடல்",
     "source": {
@@ -6683,12 +6653,7 @@
       "விளை",
       "யாட்டு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts1021",
-      "alt": "விளையாட்டுத்திடல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS1025",
@@ -7076,7 +7041,7 @@
     "targetWord": "வாசல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படுவதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வீட்டின் முகப்பில் அமைந்துள்ள நுழைவு வாயில் அல்லது கதவுப் பகுதி எது?",
     "correctAnswer": "வாசல்",
     "learningObjective": "Picture → Select recognition and practice for வாசல்",
     "source": {
@@ -7122,12 +7087,7 @@
         "label": "கூரை"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0976",
-      "alt": "வாசல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0994",

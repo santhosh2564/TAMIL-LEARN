@@ -7,10 +7,10 @@
     "assetId": "eng-big",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-big.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-big.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW201",
@@ -202,10 +202,10 @@
     "assetId": "eng-neck",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "proposedPath": "/assets/class-3/english/images/eng-neck.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-neck.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW601",
@@ -383,10 +383,10 @@
     "assetId": "eng-swim",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "proposedPath": "/assets/class-3/english/images/eng-swim.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-swim.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW815",
@@ -435,10 +435,10 @@
     "assetId": "eng-wish",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word.",
     "proposedPath": "/assets/class-3/english/images/eng-wish.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-wish.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW945",
@@ -461,10 +461,10 @@
     "assetId": "eng-match",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "proposedPath": "/assets/class-3/english/images/eng-match.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-match.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW647",
@@ -513,10 +513,10 @@
     "assetId": "eng-truck",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Arrange the letters in order and find the word",
     "proposedPath": "/assets/class-3/english/images/eng-truck.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-truck.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW052",
@@ -565,10 +565,10 @@
     "assetId": "eng-brown",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-brown.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-brown.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW438",
@@ -591,10 +591,10 @@
     "assetId": "eng-cold",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-cold.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-cold.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW209",
@@ -656,10 +656,10 @@
     "assetId": "eng-mouth",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-mouth.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-mouth.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW587",
@@ -669,10 +669,10 @@
     "assetId": "eng-pinky",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-pinky.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-pinky.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M1-EW074",
@@ -785,10 +785,10 @@
     "assetId": "eng-brown",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-brown.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-brown.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M2-REV-EW160",
@@ -798,10 +798,10 @@
     "assetId": "eng-cold",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-cold.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-cold.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M2-REV-EW161",
@@ -929,10 +929,10 @@
     "assetId": "eng-pinky",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-pinky.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-pinky.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M2-REV-EW647",
@@ -1007,10 +1007,10 @@
     "assetId": "eng-truck",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-truck.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-truck.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M2-REV-EW945",
@@ -1033,10 +1033,10 @@
     "assetId": "eng-bow",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-bow.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bow.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M3-EW267",
@@ -1046,10 +1046,10 @@
     "assetId": "eng-eye",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-eye.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-eye.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M3-EW079",
@@ -1351,10 +1351,10 @@
     "assetId": "eng-bolt",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-bolt.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bolt.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M3-EW129",
@@ -1524,10 +1524,10 @@
     "assetId": "eng-big",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-big.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-big.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M3-REV-EW060",
@@ -1720,10 +1720,10 @@
     "assetId": "eng-bat",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-bat.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bat.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW048",
@@ -1760,10 +1760,10 @@
     "assetId": "eng-boy",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-boy.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-boy.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW102",
@@ -1825,10 +1825,10 @@
     "assetId": "eng-cop",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-cop.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-cop.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW172",
@@ -1877,10 +1877,10 @@
     "assetId": "eng-dad",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. This is your male parent. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-dad.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-dad.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW212",
@@ -1890,10 +1890,10 @@
     "assetId": "eng-den",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-den.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-den.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW229",
@@ -1917,10 +1917,10 @@
     "assetId": "eng-ear",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-ear.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-ear.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW270",
@@ -1982,10 +1982,10 @@
     "assetId": "eng-he",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the word for the male person.",
     "proposedPath": "/assets/class-3/english/images/eng-he.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-he.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW390",
@@ -2008,10 +2008,10 @@
     "assetId": "eng-hop",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the action word.",
     "proposedPath": "/assets/class-3/english/images/eng-hop.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-hop.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW427",
@@ -2073,10 +2073,10 @@
     "assetId": "eng-kid",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-kid.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-kid.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW443",
@@ -2112,10 +2112,10 @@
     "assetId": "eng-leg",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-leg.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-leg.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW474",
@@ -2138,10 +2138,10 @@
     "assetId": "eng-man",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-man.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-man.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW494",
@@ -2151,10 +2151,10 @@
     "assetId": "eng-map",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-map.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-map.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW038",
@@ -2175,10 +2175,10 @@
     "assetId": "eng-beak",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-beak.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-beak.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW044",
@@ -2318,10 +2318,10 @@
     "assetId": "eng-lift",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the action word.",
     "proposedPath": "/assets/class-3/english/images/eng-lift.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-lift.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW651",
@@ -2331,10 +2331,10 @@
     "assetId": "eng-ring",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-ring.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-ring.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW709",
@@ -2394,10 +2394,10 @@
     "assetId": "eng-tool",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-tool.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-tool.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW869",
@@ -2407,10 +2407,10 @@
     "assetId": "eng-town",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-town.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-town.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW934",
@@ -2433,10 +2433,10 @@
     "assetId": "eng-aval",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-aval.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-aval.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW092",
@@ -2509,10 +2509,10 @@
     "assetId": "eng-laddus",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the name of these sweets.",
     "proposedPath": "/assets/class-3/english/images/eng-laddus.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-laddus.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW461",
@@ -2688,10 +2688,10 @@
     "assetId": "eng-thank-you",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct words and write them.",
     "proposedPath": "/assets/class-3/english/images/eng-thank-you.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-thank-you.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW862",
@@ -2753,10 +2753,10 @@
     "assetId": "eng-wings",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word for the parts birds use to fly.",
     "proposedPath": "/assets/class-3/english/images/eng-wings.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-wings.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW175",
@@ -2815,10 +2815,10 @@
     "assetId": "eng-hat",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-hat.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-hat.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW436",
@@ -2841,10 +2841,10 @@
     "assetId": "eng-lunch",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word for this meal.",
     "proposedPath": "/assets/class-3/english/images/eng-lunch.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-lunch.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW539",
@@ -2906,10 +2906,10 @@
     "assetId": "eng-toe",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-toe.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-toe.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW942",
@@ -2958,10 +2958,10 @@
     "assetId": "eng-bengal-gram",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW062",
@@ -2971,10 +2971,10 @@
     "assetId": "eng-black-gram",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-black-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-black-gram.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW121",
@@ -2997,10 +2997,10 @@
     "assetId": "eng-curry-leaves",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
     "proposedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW218",
@@ -3034,10 +3034,10 @@
     "assetId": "eng-finger",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. This is one part of your hand. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-finger.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-finger.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW290",
@@ -3047,10 +3047,10 @@
     "assetId": "eng-fingers",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. These are parts of your hand. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-fingers.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-fingers.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW098",
@@ -3073,10 +3073,10 @@
     "assetId": "eng-gem",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-gem.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-gem.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW646",
@@ -3086,10 +3086,10 @@
     "assetId": "eng-rest",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-rest.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-rest.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-EW691",
@@ -3099,10 +3099,10 @@
     "assetId": "eng-seat",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-seat.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-seat.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M4-REV-EW017",
@@ -3631,10 +3631,10 @@
     "assetId": "eng-mom",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-mom.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-mom.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW513",
@@ -3657,10 +3657,10 @@
     "assetId": "eng-mud",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-mud.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-mud.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW522",
@@ -3709,10 +3709,10 @@
     "assetId": "eng-nut",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-nut.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-nut.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW560",
@@ -3853,10 +3853,10 @@
     "assetId": "eng-red",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-red.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-red.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW668",
@@ -3879,10 +3879,10 @@
     "assetId": "eng-she",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the word that tells about the girl.",
     "proposedPath": "/assets/class-3/english/images/eng-she.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-she.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW730",
@@ -3892,10 +3892,10 @@
     "assetId": "eng-sit",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word for what the child is doing.",
     "proposedPath": "/assets/class-3/english/images/eng-sit.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-sit.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW799",
@@ -3918,10 +3918,10 @@
     "assetId": "eng-tap",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-tap.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-tap.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW853",
@@ -3996,10 +3996,10 @@
     "assetId": "eng-web",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word.",
     "proposedPath": "/assets/class-3/english/images/eng-web.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-web.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW931",
@@ -4061,10 +4061,10 @@
     "assetId": "eng-heads",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Complete the word:",
     "proposedPath": "/assets/class-3/english/images/eng-heads.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-heads.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW176",
@@ -4074,10 +4074,10 @@
     "assetId": "eng-cradle",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. A baby sleeps in this small bed. Choose the correct word and write it:",
     "proposedPath": "/assets/class-3/english/images/eng-cradle.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-cradle.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW232",
@@ -4137,10 +4137,10 @@
     "assetId": "eng-insects",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word for these small creatures.",
     "proposedPath": "/assets/class-3/english/images/eng-insects.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-insects.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW426",
@@ -4228,10 +4228,10 @@
     "assetId": "eng-seasons",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-seasons.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-seasons.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW721",
@@ -4241,10 +4241,10 @@
     "assetId": "eng-shovel",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-shovel.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-shovel.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW744",
@@ -4304,10 +4304,10 @@
     "assetId": "eng-tender-coconut",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-tender-coconut.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-tender-coconut.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW037",
@@ -4330,10 +4330,10 @@
     "assetId": "eng-shadow",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-shadow.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-shadow.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW705",
@@ -4343,10 +4343,10 @@
     "assetId": "eng-shells",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-shells.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-shells.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-EW957",
@@ -4460,10 +4460,10 @@
     "assetId": "eng-pinky",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-pinky.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-pinky.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW007",
@@ -4486,10 +4486,10 @@
     "assetId": "eng-bolt",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-bolt.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bolt.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW078",
@@ -4499,10 +4499,10 @@
     "assetId": "eng-bow",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-bow.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bow.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW079",
@@ -4551,10 +4551,10 @@
     "assetId": "eng-aval",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-aval.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-aval.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW053",
@@ -4564,10 +4564,10 @@
     "assetId": "eng-bengal-gram",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW062",
@@ -4577,10 +4577,10 @@
     "assetId": "eng-black-gram",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-black-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-black-gram.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M5-REV-EW092",
@@ -4616,10 +4616,10 @@
     "assetId": "eng-curry-leaves",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
     "proposedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M6-EW851",
@@ -5608,10 +5608,10 @@
     "assetId": "eng-aval",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-aval.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-aval.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M6-REV-EW053",
@@ -5621,10 +5621,10 @@
     "assetId": "eng-bengal-gram",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct word and write it.",
     "proposedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bengal-gram.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M7-EW153",
@@ -5669,10 +5669,10 @@
     "assetId": "eng-coil",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Complete the word:",
     "proposedPath": "/assets/class-3/english/images/eng-coil.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-coil.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M7-REV-EW052",
@@ -5695,10 +5695,10 @@
     "assetId": "eng-big",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-big.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-big.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M7-REV-EW007",
@@ -5721,10 +5721,10 @@
     "assetId": "eng-bolt",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-bolt.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-bolt.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M7-REV-EW013",
@@ -5760,10 +5760,10 @@
     "assetId": "eng-aval",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-aval.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-aval.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M7-REV-EW206",
@@ -5891,10 +5891,10 @@
     "assetId": "eng-train",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Write the word.",
     "proposedPath": "/assets/class-3/english/images/eng-train.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-train.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M8-EW879",
@@ -6019,10 +6019,10 @@
     "assetId": "eng-big",
     "required": true,
     "classification": "REQUIRED",
-    "status": "mapped",
+    "status": "missing",
     "prompt": "Look at the picture. Choose the correct spelling:",
     "proposedPath": "/assets/class-3/english/images/eng-big.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-big.jpg"
+    "resolvedPath": null
   },
   {
     "activityId": "ENG-M8-REV-EW007",

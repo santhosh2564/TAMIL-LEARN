@@ -6765,7 +6765,7 @@
     "targetWord": "aval",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Flattened rice flakes used to make tasty snacks. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -6791,11 +6791,7 @@
       "v"
     ],
     "correctAnswer": "aval",
-    "image": {
-      "type": "image",
-      "source": "eng-aval"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW025",
@@ -6818,7 +6814,7 @@
     "targetWord": "bengal gram",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A yellow chickpea pulse used in cooking. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -6834,11 +6830,7 @@
       }
     ],
     "correctAnswer": "bengal gram",
-    "image": {
-      "type": "image",
-      "source": "eng-bengal-gram"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_6_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW053",

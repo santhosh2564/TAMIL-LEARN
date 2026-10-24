@@ -1062,7 +1062,7 @@
     "targetWord": "train",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A series of railway carriages moved by an engine along tracks. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1093,11 +1093,7 @@
       "n"
     ],
     "correctAnswer": "train",
-    "image": {
-      "type": "image",
-      "source": "eng-train"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW875",
@@ -5524,7 +5520,7 @@
     "targetWord": "big",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The opposite of small. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -5540,11 +5536,7 @@
       }
     ],
     "correctAnswer": "big",
-    "image": {
-      "type": "image",
-      "source": "eng-big"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW058",

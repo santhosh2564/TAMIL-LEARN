@@ -47,12 +47,6 @@
     "path": "/assets/class-3/tamil/term-1/images/Q014_Vannangal.jpg",
     "alt": "Colour — வண்ணங்கள்"
   },
-  "eng-big": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-big.jpg",
-    "alt": "big — English vocabulary image"
-  },
   "eng-dal": {
     "type": "image",
     "source": "local",
@@ -137,12 +131,6 @@
     "path": "/assets/class-3/english/images/eng-lion.jpg",
     "alt": "lion — English vocabulary image"
   },
-  "eng-neck": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-neck.jpg",
-    "alt": "neck — English vocabulary image"
-  },
   "eng-pole": {
     "type": "image",
     "source": "local",
@@ -209,12 +197,6 @@
     "path": "/assets/class-3/english/images/eng-star.jpg",
     "alt": "star — English vocabulary image"
   },
-  "eng-swim": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-swim.jpg",
-    "alt": "swim — English vocabulary image"
-  },
   "eng-tail": {
     "type": "image",
     "source": "local",
@@ -233,23 +215,11 @@
     "path": "/assets/class-3/english/images/eng-toad.jpg",
     "alt": "toad — English vocabulary image"
   },
-  "eng-wish": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-wish.jpg",
-    "alt": "wish — English vocabulary image"
-  },
   "eng-worm": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-worm.jpg",
     "alt": "worm — English vocabulary image"
-  },
-  "eng-match": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-match.jpg",
-    "alt": "match — English vocabulary image"
   },
   "eng-rhino": {
     "type": "image",
@@ -269,12 +239,6 @@
     "path": "/assets/class-3/english/images/eng-skirt.jpg",
     "alt": "skirt — English vocabulary image"
   },
-  "eng-truck": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-truck.jpg",
-    "alt": "truck — English vocabulary image"
-  },
   "eng-belt": {
     "type": "image",
     "source": "local",
@@ -293,23 +257,11 @@
     "path": "/assets/class-3/english/images/eng-bread.jpg",
     "alt": "bread — English vocabulary image"
   },
-  "eng-brown": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-brown.jpg",
-    "alt": "brown — English vocabulary image"
-  },
   "eng-jungle": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jungle.jpg",
     "alt": "jungle — English vocabulary image"
-  },
-  "eng-cold": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-cold.jpg",
-    "alt": "cold — English vocabulary image"
   },
   "eng-deer": {
     "type": "image",
@@ -335,18 +287,6 @@
     "path": "/assets/class-3/english/images/eng-idli.jpg",
     "alt": "idli — English vocabulary image"
   },
-  "eng-mouth": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-mouth.jpg",
-    "alt": "mouth — English vocabulary image"
-  },
-  "eng-pinky": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-pinky.jpg",
-    "alt": "pinky — English vocabulary image"
-  },
   "eng-boondhi": {
     "type": "image",
     "source": "local",
@@ -370,18 +310,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fun.jpg",
     "alt": "fun — English vocabulary image"
-  },
-  "eng-bow": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-bow.jpg",
-    "alt": "bow — English vocabulary image"
-  },
-  "eng-eye": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-eye.jpg",
-    "alt": "eye — English vocabulary image"
   },
   "eng-bowl": {
     "type": "image",
@@ -419,12 +347,6 @@
     "path": "/assets/class-3/english/images/eng-almond.jpg",
     "alt": "almond — English vocabulary image"
   },
-  "eng-bolt": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-bolt.jpg",
-    "alt": "bolt — English vocabulary image"
-  },
   "eng-chair": {
     "type": "image",
     "source": "local",
@@ -443,23 +365,11 @@
     "path": "/assets/class-3/english/images/eng-ant.jpg",
     "alt": "ant — English vocabulary image"
   },
-  "eng-bat": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-bat.jpg",
-    "alt": "bat — English vocabulary image"
-  },
   "eng-bed": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bed.jpg",
     "alt": "bed — English vocabulary image"
-  },
-  "eng-boy": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-boy.jpg",
-    "alt": "boy — English vocabulary image"
   },
   "eng-bun": {
     "type": "image",
@@ -485,12 +395,6 @@
     "path": "/assets/class-3/english/images/eng-cat.jpg",
     "alt": "cat — English vocabulary image"
   },
-  "eng-cop": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-cop.jpg",
-    "alt": "cop — English vocabulary image"
-  },
   "eng-cot": {
     "type": "image",
     "source": "local",
@@ -508,24 +412,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cup.jpg",
     "alt": "cup — English vocabulary image"
-  },
-  "eng-dad": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-dad.jpg",
-    "alt": "dad — English vocabulary image"
-  },
-  "eng-den": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-den.jpg",
-    "alt": "den — English vocabulary image"
-  },
-  "eng-ear": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-ear.jpg",
-    "alt": "ear — English vocabulary image"
   },
   "eng-fan": {
     "type": "image",
@@ -551,23 +437,11 @@
     "path": "/assets/class-3/english/images/eng-ham.jpg",
     "alt": "ham — English vocabulary image"
   },
-  "eng-he": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-he.jpg",
-    "alt": "he — English vocabulary image"
-  },
   "eng-hen": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-hen.jpg",
     "alt": "hen — English vocabulary image"
-  },
-  "eng-hop": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-hop.jpg",
-    "alt": "hop — English vocabulary image"
   },
   "eng-jam": {
     "type": "image",
@@ -593,12 +467,6 @@
     "path": "/assets/class-3/english/images/eng-jug.jpg",
     "alt": "jug — English vocabulary image"
   },
-  "eng-kid": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-kid.jpg",
-    "alt": "kid — English vocabulary image"
-  },
   "eng-kit": {
     "type": "image",
     "source": "local",
@@ -611,35 +479,11 @@
     "path": "/assets/class-3/english/images/eng-lap.jpg",
     "alt": "lap — English vocabulary image"
   },
-  "eng-leg": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-leg.jpg",
-    "alt": "leg — English vocabulary image"
-  },
   "eng-lip": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lip.jpg",
     "alt": "lip — English vocabulary image"
-  },
-  "eng-man": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-man.jpg",
-    "alt": "man — English vocabulary image"
-  },
-  "eng-map": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-map.jpg",
-    "alt": "map — English vocabulary image"
-  },
-  "eng-beak": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-beak.jpg",
-    "alt": "beak — English vocabulary image"
   },
   "eng-bean": {
     "type": "image",
@@ -701,18 +545,6 @@
     "path": "/assets/class-3/english/images/eng-leaf.jpg",
     "alt": "leaf — English vocabulary image"
   },
-  "eng-lift": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-lift.jpg",
-    "alt": "lift — English vocabulary image"
-  },
-  "eng-ring": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-ring.jpg",
-    "alt": "ring — English vocabulary image"
-  },
   "eng-ship": {
     "type": "image",
     "source": "local",
@@ -731,29 +563,11 @@
     "path": "/assets/class-3/english/images/eng-sofa.jpg",
     "alt": "sofa — English vocabulary image"
   },
-  "eng-tool": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-tool.jpg",
-    "alt": "tool — English vocabulary image"
-  },
-  "eng-town": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-town.jpg",
-    "alt": "town — English vocabulary image"
-  },
   "eng-wing": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-wing.jpg",
     "alt": "wing — English vocabulary image"
-  },
-  "eng-aval": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-aval.jpg",
-    "alt": "aval — English vocabulary image"
   },
   "eng-brinjal": {
     "type": "image",
@@ -778,12 +592,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ginger.jpg",
     "alt": "ginger — English vocabulary image"
-  },
-  "eng-laddus": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-laddus.jpg",
-    "alt": "laddus — English vocabulary image"
   },
   "eng-lemon": {
     "type": "image",
@@ -845,12 +653,6 @@
     "path": "/assets/class-3/english/images/eng-tabla.jpg",
     "alt": "tabla — English vocabulary image"
   },
-  "eng-thank-you": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-thank-you.jpg",
-    "alt": "thank you — English vocabulary image"
-  },
   "eng-tomato": {
     "type": "image",
     "source": "local",
@@ -875,35 +677,17 @@
     "path": "/assets/class-3/english/images/eng-violet.jpg",
     "alt": "violet — English vocabulary image"
   },
-  "eng-wings": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-wings.jpg",
-    "alt": "wings — English vocabulary image"
-  },
   "eng-cap": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cap.jpg",
     "alt": "cap — English vocabulary image"
   },
-  "eng-hat": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-hat.jpg",
-    "alt": "hat — English vocabulary image"
-  },
   "eng-jump": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jump.jpg",
     "alt": "jump — English vocabulary image"
-  },
-  "eng-lunch": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-lunch.jpg",
-    "alt": "lunch — English vocabulary image"
   },
   "eng-nest": {
     "type": "image",
@@ -929,12 +713,6 @@
     "path": "/assets/class-3/english/images/eng-snack.jpg",
     "alt": "snack — English vocabulary image"
   },
-  "eng-toe": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-toe.jpg",
-    "alt": "toe — English vocabulary image"
-  },
   "eng-wood": {
     "type": "image",
     "source": "local",
@@ -953,29 +731,11 @@
     "path": "/assets/class-3/english/images/eng-ash-gourd.jpg",
     "alt": "ash gourd — English vocabulary image"
   },
-  "eng-bengal-gram": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-bengal-gram.jpg",
-    "alt": "bengal gram — English vocabulary image"
-  },
-  "eng-black-gram": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-black-gram.jpg",
-    "alt": "black gram — English vocabulary image"
-  },
   "eng-cashew": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cashew.jpg",
     "alt": "cashew — English vocabulary image"
-  },
-  "eng-curry-leaves": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-curry-leaves.jpg",
-    "alt": "curry leaves — English vocabulary image"
   },
   "eng-dhoti": {
     "type": "image",
@@ -983,41 +743,11 @@
     "path": "/assets/class-3/english/images/eng-dhoti.jpg",
     "alt": "dhoti — English vocabulary image"
   },
-  "eng-finger": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-finger.jpg",
-    "alt": "finger — English vocabulary image"
-  },
-  "eng-fingers": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-fingers.jpg",
-    "alt": "fingers — English vocabulary image"
-  },
   "eng-bug": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bug.jpg",
     "alt": "bug — English vocabulary image"
-  },
-  "eng-gem": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-gem.jpg",
-    "alt": "gem — English vocabulary image"
-  },
-  "eng-rest": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-rest.jpg",
-    "alt": "rest — English vocabulary image"
-  },
-  "eng-seat": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-seat.jpg",
-    "alt": "seat — English vocabulary image"
   },
   "eng-yam": {
     "type": "image",
@@ -1031,23 +761,11 @@
     "path": "/assets/class-3/english/images/eng-mat.jpg",
     "alt": "mat — English vocabulary image"
   },
-  "eng-mom": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-mom.jpg",
-    "alt": "mom — English vocabulary image"
-  },
   "eng-mop": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mop.jpg",
     "alt": "mop — English vocabulary image"
-  },
-  "eng-mud": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-mud.jpg",
-    "alt": "mud — English vocabulary image"
   },
   "eng-mug": {
     "type": "image",
@@ -1066,12 +784,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-net.jpg",
     "alt": "net — English vocabulary image"
-  },
-  "eng-nut": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-nut.jpg",
-    "alt": "nut — English vocabulary image"
   },
   "eng-owl": {
     "type": "image",
@@ -1127,41 +839,17 @@
     "path": "/assets/class-3/english/images/eng-pup.jpg",
     "alt": "pup — English vocabulary image"
   },
-  "eng-red": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-red.jpg",
-    "alt": "red — English vocabulary image"
-  },
   "eng-sad": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sad.jpg",
     "alt": "sad — English vocabulary image"
   },
-  "eng-she": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-she.jpg",
-    "alt": "she — English vocabulary image"
-  },
-  "eng-sit": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-sit.jpg",
-    "alt": "sit — English vocabulary image"
-  },
   "eng-sun": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sun.jpg",
     "alt": "sun — English vocabulary image"
-  },
-  "eng-tap": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-tap.jpg",
-    "alt": "tap — English vocabulary image"
   },
   "eng-tin": {
     "type": "image",
@@ -1193,12 +881,6 @@
     "path": "/assets/class-3/english/images/eng-van.jpg",
     "alt": "van — English vocabulary image"
   },
-  "eng-web": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-web.jpg",
-    "alt": "web — English vocabulary image"
-  },
   "eng-win": {
     "type": "image",
     "source": "local",
@@ -1223,18 +905,6 @@
     "path": "/assets/class-3/english/images/eng-grape.jpg",
     "alt": "grape — English vocabulary image"
   },
-  "eng-heads": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-heads.jpg",
-    "alt": "heads — English vocabulary image"
-  },
-  "eng-cradle": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-cradle.jpg",
-    "alt": "cradle — English vocabulary image"
-  },
   "eng-dosa": {
     "type": "image",
     "source": "local",
@@ -1252,12 +922,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-flowers.jpg",
     "alt": "flowers — English vocabulary image"
-  },
-  "eng-insects": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-insects.jpg",
-    "alt": "insects — English vocabulary image"
   },
   "eng-jaggery": {
     "type": "image",
@@ -1295,18 +959,6 @@
     "path": "/assets/class-3/english/images/eng-samosa.jpg",
     "alt": "samosa — English vocabulary image"
   },
-  "eng-seasons": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-seasons.jpg",
-    "alt": "seasons — English vocabulary image"
-  },
-  "eng-shovel": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-shovel.jpg",
-    "alt": "shovel — English vocabulary image"
-  },
   "eng-snake-gourd": {
     "type": "image",
     "source": "local",
@@ -1325,29 +977,11 @@
     "path": "/assets/class-3/english/images/eng-tears.jpg",
     "alt": "tears — English vocabulary image"
   },
-  "eng-tender-coconut": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-tender-coconut.jpg",
-    "alt": "tender coconut — English vocabulary image"
-  },
   "eng-barfi": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-barfi.jpg",
     "alt": "barfi — English vocabulary image"
-  },
-  "eng-shadow": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-shadow.jpg",
-    "alt": "shadow — English vocabulary image"
-  },
-  "eng-shells": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-shells.jpg",
-    "alt": "shells — English vocabulary image"
   },
   "eng-zebra": {
     "type": "image",
@@ -1372,12 +1006,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cloud.jpg",
     "alt": "cloud — English vocabulary image"
-  },
-  "eng-coil": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-coil.jpg",
-    "alt": "coil — English vocabulary image"
   },
   "eng-park": {
     "type": "image",
@@ -1414,12 +1042,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tea.jpg",
     "alt": "tea — English vocabulary image"
-  },
-  "eng-train": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-train.jpg",
-    "alt": "train — English vocabulary image"
   },
   "eng-tree": {
     "type": "image",

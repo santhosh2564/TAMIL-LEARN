@@ -274,7 +274,7 @@
     "targetWord": "bat",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A wooden club used to hit the ball in cricket. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -295,11 +295,7 @@
       "t"
     ],
     "correctAnswer": "bat",
-    "image": {
-      "type": "image",
-      "source": "eng-bat"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW040",
@@ -415,7 +411,7 @@
     "targetWord": "boy",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A young male child. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -436,11 +432,7 @@
       "b"
     ],
     "correctAnswer": "boy",
-    "image": {
-      "type": "image",
-      "source": "eng-boy"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW081",
@@ -650,7 +642,7 @@
     "targetWord": "cop",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Another word for a police officer. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -671,11 +663,7 @@
       "o"
     ],
     "correctAnswer": "cop",
-    "image": {
-      "type": "image",
-      "source": "eng-cop"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW169",
@@ -838,7 +826,7 @@
     "targetWord": "dad",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. This is your male parent. Write the word.",
+    "prompt": "A father or male parent. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -859,11 +847,7 @@
       "d"
     ],
     "correctAnswer": "dad",
-    "image": {
-      "type": "image",
-      "source": "eng-dad"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW199",
@@ -885,7 +869,7 @@
     "targetWord": "den",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A wild animal's resting place or home, like a lion's cave. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -906,11 +890,7 @@
       "d"
     ],
     "correctAnswer": "den",
-    "image": {
-      "type": "image",
-      "source": "eng-den"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW212",
@@ -979,7 +959,7 @@
     "targetWord": "ear",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "The sense organ on your head used for hearing. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1000,11 +980,7 @@
       "a"
     ],
     "correctAnswer": "ear",
-    "image": {
-      "type": "image",
-      "source": "eng-ear"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW250",
@@ -1214,7 +1190,7 @@
     "targetWord": "he",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Choose the word for the male person.",
+    "prompt": "The pronoun used to refer to a boy or a man. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1230,11 +1206,7 @@
       "h"
     ],
     "correctAnswer": "he",
-    "image": {
-      "type": "image",
-      "source": "eng-he"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW379",
@@ -1303,7 +1275,7 @@
     "targetWord": "hop",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the action word.",
+    "prompt": "To jump lightly on one foot. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1324,11 +1296,7 @@
       "o"
     ],
     "correctAnswer": "hop",
-    "image": {
-      "type": "image",
-      "source": "eng-hop"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW401",
@@ -1538,7 +1506,7 @@
     "targetWord": "kid",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A child or young person. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1559,11 +1527,7 @@
       "i"
     ],
     "correctAnswer": "kid",
-    "image": {
-      "type": "image",
-      "source": "eng-kid"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW442",
@@ -1679,7 +1643,7 @@
     "targetWord": "leg",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "The lower limb used for standing and walking. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1700,11 +1664,7 @@
       "g"
     ],
     "correctAnswer": "leg",
-    "image": {
-      "type": "image",
-      "source": "eng-leg"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW460",
@@ -1773,7 +1733,7 @@
     "targetWord": "man",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "An adult male person. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1794,11 +1754,7 @@
       "a"
     ],
     "correctAnswer": "man",
-    "image": {
-      "type": "image",
-      "source": "eng-man"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW492",
@@ -1820,7 +1776,7 @@
     "targetWord": "map",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A flat drawing of an area showing rivers, roads, and cities. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1841,11 +1797,7 @@
       "m"
     ],
     "correctAnswer": "map",
-    "image": {
-      "type": "image",
-      "source": "eng-map"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW494",
@@ -1915,7 +1867,7 @@
     "targetWord": "beak",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "The hard, pointed outer mouthparts of a bird. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1941,11 +1893,7 @@
       "a"
     ],
     "correctAnswer": "beak",
-    "image": {
-      "type": "image",
-      "source": "eng-beak"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW043",
@@ -2477,7 +2425,7 @@
     "targetWord": "lift",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the action word.",
+    "prompt": "To raise something to a higher position. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2503,11 +2451,7 @@
       "l"
     ],
     "correctAnswer": "lift",
-    "image": {
-      "type": "image",
-      "source": "eng-lift"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW468",
@@ -2529,7 +2473,7 @@
     "targetWord": "ring",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A small circular band of precious metal worn on a finger. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2555,11 +2499,7 @@
       "n"
     ],
     "correctAnswer": "ring",
-    "image": {
-      "type": "image",
-      "source": "eng-ring"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW651",
@@ -2785,7 +2725,7 @@
     "targetWord": "tool",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "An instrument like a hammer or screwdriver used to do work. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2811,11 +2751,7 @@
       "t"
     ],
     "correctAnswer": "tool",
-    "image": {
-      "type": "image",
-      "source": "eng-tool"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW865",
@@ -2837,7 +2773,7 @@
     "targetWord": "town",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A populated place larger than a village but smaller than a city. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2863,11 +2799,7 @@
       "w"
     ],
     "correctAnswer": "town",
-    "image": {
-      "type": "image",
-      "source": "eng-town"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW869",
@@ -2941,7 +2873,7 @@
     "targetWord": "aval",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Flattened rice flakes used to make tasty snacks. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2967,11 +2899,7 @@
       "v"
     ],
     "correctAnswer": "aval",
-    "image": {
-      "type": "image",
-      "source": "eng-aval"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW025",
@@ -3289,7 +3217,7 @@
     "targetWord": "laddus",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the name of these sweets.",
+    "prompt": "Round, sweet Indian treats made of flour, sugar, and ghee. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -3325,11 +3253,7 @@
       "u"
     ],
     "correctAnswer": "laddus",
-    "image": {
-      "type": "image",
-      "source": "eng-laddus"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW448",
@@ -4084,7 +4008,7 @@
     "targetWord": "thank you",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Choose the correct words and write them.",
+    "prompt": "Polite words used to express gratitude when receiving help. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4130,11 +4054,7 @@
       "n"
     ],
     "correctAnswer": "thank you",
-    "image": {
-      "type": "image",
-      "source": "eng-thank-you"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW834",
@@ -4394,7 +4314,7 @@
     "targetWord": "wings",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for the parts birds use to fly.",
+    "prompt": "The feather-covered body parts that birds use to fly. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4425,11 +4345,7 @@
       "s"
     ],
     "correctAnswer": "wings",
-    "image": {
-      "type": "image",
-      "source": "eng-wings"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW935",
@@ -4687,7 +4603,7 @@
     "targetWord": "hat",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A covering worn on the head for warmth or shade. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4708,11 +4624,7 @@
       "a"
     ],
     "correctAnswer": "hat",
-    "image": {
-      "type": "image",
-      "source": "eng-hat"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW377",
@@ -4786,7 +4698,7 @@
     "targetWord": "lunch",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for this meal.",
+    "prompt": "A meal eaten in the middle of the day. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4817,11 +4729,7 @@
       "l"
     ],
     "correctAnswer": "lunch",
-    "image": {
-      "type": "image",
-      "source": "eng-lunch"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW488",
@@ -5251,7 +5159,7 @@
     "targetWord": "toe",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "One of the digits on your foot. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -5272,11 +5180,7 @@
       "t"
     ],
     "correctAnswer": "toe",
-    "image": {
-      "type": "image",
-      "source": "eng-toe"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW858",
@@ -5514,7 +5418,7 @@
     "targetWord": "bengal gram",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A yellow chickpea pulse used in cooking. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -5570,11 +5474,7 @@
       "r"
     ],
     "correctAnswer": "bengal gram",
-    "image": {
-      "type": "image",
-      "source": "eng-bengal-gram"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW053",
@@ -5596,7 +5496,7 @@
     "targetWord": "black gram",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "A small black pulse used to make idli batter. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -5647,11 +5547,7 @@
       "l"
     ],
     "correctAnswer": "black gram",
-    "image": {
-      "type": "image",
-      "source": "eng-black-gram"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW062",
@@ -5735,7 +5631,7 @@
     "targetWord": "curry leaves",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
+    "prompt": "Aromatic green leaves used to season Indian food. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -5796,11 +5692,7 @@
       "e"
     ],
     "correctAnswer": "curry leaves",
-    "image": {
-      "type": "image",
-      "source": "eng-curry-leaves"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW195",
@@ -5947,7 +5839,7 @@
     "targetWord": "finger",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. This is one part of your hand. Write the word.",
+    "prompt": "One of the five digits on your hand. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -5983,11 +5875,7 @@
       "g"
     ],
     "correctAnswer": "finger",
-    "image": {
-      "type": "image",
-      "source": "eng-finger"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW289",
@@ -6009,7 +5897,7 @@
     "targetWord": "fingers",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. These are parts of your hand. Write the word.",
+    "prompt": "The digits on your hands used for holding things. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -6050,11 +5938,7 @@
       "n"
     ],
     "correctAnswer": "fingers",
-    "image": {
-      "type": "image",
-      "source": "eng-fingers"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW290",
@@ -6123,7 +6007,7 @@
     "targetWord": "gem",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A precious, sparkling stone or jewel. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -6144,11 +6028,7 @@
       "m"
     ],
     "correctAnswer": "gem",
-    "image": {
-      "type": "image",
-      "source": "eng-gem"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW332",
@@ -6170,7 +6050,7 @@
     "targetWord": "rest",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "To relax or stop work when you are tired. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -6196,11 +6076,7 @@
       "t"
     ],
     "correctAnswer": "rest",
-    "image": {
-      "type": "image",
-      "source": "eng-rest"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW646",
@@ -6222,7 +6098,7 @@
     "targetWord": "seat",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A place to sit down, like a chair or bench. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -6248,11 +6124,7 @@
       "t"
     ],
     "correctAnswer": "seat",
-    "image": {
-      "type": "image",
-      "source": "eng-seat"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW691",

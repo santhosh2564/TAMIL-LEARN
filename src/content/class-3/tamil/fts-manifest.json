@@ -11,17 +11,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0452.jpg",
-    "ftsId": "FTS0452",
-    "sourceSet": "Picture set 10",
-    "fileSizeBytes": 552599,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0452.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0458.jpg",
     "ftsId": "FTS0458",
     "sourceSet": "Picture set 10",
@@ -99,28 +88,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0490.jpg",
-    "ftsId": "FTS0490",
-    "sourceSet": "Picture set 10",
-    "fileSizeBytes": 93149,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0490.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0503.jpg",
-    "ftsId": "FTS0503",
-    "sourceSet": "Picture set 11",
-    "fileSizeBytes": 49777,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0503.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0510.jpg",
     "ftsId": "FTS0510",
     "sourceSet": "Picture set 11",
@@ -130,17 +97,6 @@
     "targetWord": "தாய்",
     "meaning": "Mother",
     "mappedActivityId": "FTS0510"
-  },
-  {
-    "fileName": "FTS0511.jpg",
-    "ftsId": "FTS0511",
-    "sourceSet": "Picture set 11",
-    "fileSizeBytes": 65543,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0511.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
   },
   {
     "fileName": "FTS0513.jpg",
@@ -176,33 +132,11 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0540.jpg",
-    "ftsId": "FTS0540",
-    "sourceSet": "Picture set 11",
-    "fileSizeBytes": 59113,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0540.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0549.jpg",
     "ftsId": "FTS0549",
     "sourceSet": "Picture set 11",
     "fileSizeBytes": 96287,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0549.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0551.jpg",
-    "ftsId": "FTS0551",
-    "sourceSet": "picture set 12",
-    "fileSizeBytes": 50708,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0551.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -264,28 +198,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0579.jpg",
-    "ftsId": "FTS0579",
-    "sourceSet": "picture set 12",
-    "fileSizeBytes": 92234,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0579.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0590.jpg",
-    "ftsId": "FTS0590",
-    "sourceSet": "picture set 12",
-    "fileSizeBytes": 48515,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0590.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0591.jpg",
     "ftsId": "FTS0591",
     "sourceSet": "picture set 12",
@@ -324,39 +236,6 @@
     "sourceSet": "picture set 13",
     "fileSizeBytes": 31272,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0609.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0612.jpg",
-    "ftsId": "FTS0612",
-    "sourceSet": "picture set 13",
-    "fileSizeBytes": 41277,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0612.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0613.jpg",
-    "ftsId": "FTS0613",
-    "sourceSet": "picture set 13",
-    "fileSizeBytes": 43919,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0613.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0620.jpg",
-    "ftsId": "FTS0620",
-    "sourceSet": "picture set 13",
-    "fileSizeBytes": 86543,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0620.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -561,17 +440,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0164.jpg",
-    "ftsId": "FTS0164",
-    "sourceSet": "Picture set 4",
-    "fileSizeBytes": 61690,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0164.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0166.jpg",
     "ftsId": "FTS0166",
     "sourceSet": "Picture set 4",
@@ -588,17 +456,6 @@
     "sourceSet": "Picture set 4",
     "fileSizeBytes": 110215,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0168.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0177.jpg",
-    "ftsId": "FTS0177",
-    "sourceSet": "Picture set 4",
-    "fileSizeBytes": 56672,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0177.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -858,17 +715,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0248.jpg",
-    "ftsId": "FTS0248",
-    "sourceSet": "picture set 5",
-    "fileSizeBytes": 20426,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0248.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0249.jpg",
     "ftsId": "FTS0249",
     "sourceSet": "picture set 5",
@@ -1034,17 +880,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0305.jpg",
-    "ftsId": "FTS0305",
-    "sourceSet": "picture set 7",
-    "fileSizeBytes": 493875,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0305.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0309.jpg",
     "ftsId": "FTS0309",
     "sourceSet": "picture set 7",
@@ -1089,44 +924,11 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0323.jpg",
-    "ftsId": "FTS0323",
-    "sourceSet": "picture set 7",
-    "fileSizeBytes": 31686,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0323.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0325.jpg",
-    "ftsId": "FTS0325",
-    "sourceSet": "picture set 7",
-    "fileSizeBytes": 30038,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0325.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0338.jpg",
     "ftsId": "FTS0338",
     "sourceSet": "picture set 7",
     "fileSizeBytes": 29372,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0338.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0339.jpg",
-    "ftsId": "FTS0339",
-    "sourceSet": "picture set 7",
-    "fileSizeBytes": 59604,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0339.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -1144,44 +946,11 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0345.jpg",
-    "ftsId": "FTS0345",
-    "sourceSet": "picture set 7",
-    "fileSizeBytes": 68269,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0345.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0350.jpg",
     "ftsId": "FTS0350",
     "sourceSet": "picture set 7",
     "fileSizeBytes": 19922,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0350.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0352.jpg",
-    "ftsId": "FTS0352",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 28170,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0352.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0353.jpg",
-    "ftsId": "FTS0353",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 18651,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0353.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -1199,33 +968,11 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0357.jpg",
-    "ftsId": "FTS0357",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 26130,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0357.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0360.jpg",
     "ftsId": "FTS0360",
     "sourceSet": "Picture set 8",
     "fileSizeBytes": 29481,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0360.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0361.jpg",
-    "ftsId": "FTS0361",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 23047,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0361.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -1248,17 +995,6 @@
     "sourceSet": "Picture set 8",
     "fileSizeBytes": 39937,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0364.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0365.jpg",
-    "ftsId": "FTS0365",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 32034,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0365.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -1353,28 +1089,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0385.jpg",
-    "ftsId": "FTS0385",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 46333,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0385.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0386.jpg",
-    "ftsId": "FTS0386",
-    "sourceSet": "Picture set 8",
-    "fileSizeBytes": 44259,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0386.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0387.jpg",
     "ftsId": "FTS0387",
     "sourceSet": "Picture set 8",
@@ -1452,28 +1166,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0406.jpg",
-    "ftsId": "FTS0406",
-    "sourceSet": "picture set 9",
-    "fileSizeBytes": 34282,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0406.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0410.jpg",
-    "ftsId": "FTS0410",
-    "sourceSet": "picture set 9",
-    "fileSizeBytes": 36957,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0410.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0414.jpg",
     "ftsId": "FTS0414",
     "sourceSet": "picture set 9",
@@ -1501,17 +1193,6 @@
     "sourceSet": "picture set 9",
     "fileSizeBytes": 49105,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0418.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0419.jpg",
-    "ftsId": "FTS0419",
-    "sourceSet": "picture set 9",
-    "fileSizeBytes": 25483,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0419.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,
@@ -1727,28 +1408,6 @@
     "mappedActivityId": null
   },
   {
-    "fileName": "FTS0127.jpg",
-    "ftsId": "FTS0127",
-    "sourceSet": "Piture set 3",
-    "fileSizeBytes": 22346,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0127.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0128.jpg",
-    "ftsId": "FTS0128",
-    "sourceSet": "Piture set 3",
-    "fileSizeBytes": 22634,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0128.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
     "fileName": "FTS0131.jpg",
     "ftsId": "FTS0131",
     "sourceSet": "Piture set 3",
@@ -1787,17 +1446,6 @@
     "sourceSet": "Piture set 3",
     "fileSizeBytes": 29106,
     "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0136.jpg",
-    "status": "unmapped_future_module",
-    "targetWord": null,
-    "meaning": null,
-    "mappedActivityId": null
-  },
-  {
-    "fileName": "FTS0147.jpg",
-    "ftsId": "FTS0147",
-    "sourceSet": "Piture set 3",
-    "fileSizeBytes": 21145,
-    "publicPath": "/assets/class-3/tamil/fts-spelling-images/FTS0147.jpg",
     "status": "unmapped_future_module",
     "targetWord": null,
     "meaning": null,

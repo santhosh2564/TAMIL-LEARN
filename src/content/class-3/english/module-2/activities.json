@@ -6455,7 +6455,7 @@
     "targetWord": "brown",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The colour of wood, soil, or chocolate. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -6471,11 +6471,7 @@
       }
     ],
     "correctAnswer": "brown",
-    "image": {
-      "type": "image",
-      "source": "eng-brown"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW095",
@@ -6648,7 +6644,7 @@
     "targetWord": "cold",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The opposite of hot. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -6664,11 +6660,7 @@
       }
     ],
     "correctAnswer": "cold",
-    "image": {
-      "type": "image",
-      "source": "eng-cold"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW160",
@@ -7384,7 +7376,7 @@
     "targetWord": "pinky",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "The smallest finger on your hand. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -7400,11 +7392,7 @@
       }
     ],
     "correctAnswer": "pinky",
-    "image": {
-      "type": "image",
-      "source": "eng-pinky"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW587",
@@ -7780,7 +7768,7 @@
     "targetWord": "truck",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "A large, strong motor vehicle designed for carrying heavy loads. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -7811,11 +7799,7 @@
       "K"
     ],
     "correctAnswer": "truck",
-    "image": {
-      "type": "image",
-      "source": "eng-truck"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_2_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW880",

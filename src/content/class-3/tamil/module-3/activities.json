@@ -4940,7 +4940,7 @@
     "targetWord": "கீற்று",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "தென்னை அல்லது பனை மரத்தின் ஓலையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "கீற்று",
     "learningObjective": "Picture → Arrange recognition and practice for கீற்று",
     "source": {
@@ -4987,12 +4987,7 @@
       "று",
       "கீ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0305",
-      "alt": "கீற்று"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0309",
@@ -5260,7 +5255,7 @@
     "targetWord": "குறிப்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "முக்கியமான விவரங்களை நினைவில் வைக்க எழுதும் சுருக்கமான தகவல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "குறிப்பு",
     "learningObjective": "Picture → Arrange recognition and practice for குறிப்பு",
     "source": {
@@ -5312,12 +5307,7 @@
       "கு",
       "றி"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0325",
-      "alt": "குறிப்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0338",
@@ -5393,7 +5383,7 @@
     "targetWord": "கொம்பு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "மாடு, மான் போன்றவற்றின் தலையில் உள்ள கூர்மையான உறுப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "கொம்பு",
     "learningObjective": "Picture → Arrange recognition and practice for கொம்பு",
     "source": {
@@ -5440,12 +5430,7 @@
       "கொ",
       "பு"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0357",
-      "alt": "கொம்பு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0364",
@@ -5581,7 +5566,7 @@
     "targetWord": "சறுக்குப்பலகை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "பூங்காவில் குழந்தைகள் ஏறி வழுக்கி விளையாடும் சாய்வான பலகை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "சறுக்குப்பலகை",
     "learningObjective": "Picture → Arrange recognition and practice for சறுக்குப்பலகை",
     "source": {
@@ -5628,12 +5613,7 @@
       "ப்",
       "பலகை"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0386",
-      "alt": "சறுக்குப்பலகை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0387",
@@ -6261,7 +6241,7 @@
     "targetWord": "குரல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "குழந்தை பேசும்போது வெளிவரும் ஒலியைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "குழந்தை பேசும்போது அல்லது பாடும்போது தொண்டையிலிருந்து வெளிவரும் இனிய ஒலி எது?",
     "correctAnswer": "குரல்",
     "learningObjective": "Picture → Select recognition and practice for குரல்",
     "source": {
@@ -6307,12 +6287,7 @@
         "label": "காது"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0323",
-      "alt": "குரல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0339",
@@ -6324,7 +6299,7 @@
     "targetWord": "குழி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள இடம் எது?",
+    "prompt": "நிலத்தில் தோண்டப்பட்ட சிறிய பள்ளம் அல்லது வெட்டு ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "குழி",
     "learningObjective": "Picture → Select recognition and practice for குழி",
     "source": {
@@ -6370,12 +6345,7 @@
         "label": "கூடு"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0339",
-      "alt": "குழி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0341",
@@ -6450,7 +6420,7 @@
     "targetWord": "கேணி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள நீர் இருக்கும் இடம் எது?",
+    "prompt": "நிலத்தில் ஆழமாகத் தோண்டி நீர் எடுக்கும் கிணற்றின் மற்றொரு தமிழ்ப் பெயர் எது?",
     "correctAnswer": "கேணி",
     "learningObjective": "Picture → Select recognition and practice for கேணி",
     "source": {
@@ -6496,12 +6466,7 @@
         "label": "குழி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0345",
-      "alt": "கேணி"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0350",
@@ -6576,7 +6541,7 @@
     "targetWord": "கொக்கு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள பறவை எது?",
+    "prompt": "குளக்கரையில் ஒற்றைக் காலில் நின்று மீன் பிடிக்கும் வெள்ளை நிறப் பறவை எது?",
     "correctAnswer": "கொக்கு",
     "learningObjective": "Picture → Select recognition and practice for கொக்கு",
     "source": {
@@ -6622,12 +6587,7 @@
         "label": "கிளி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0352",
-      "alt": "கொக்கு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0353",
@@ -6639,7 +6599,7 @@
     "targetWord": "கொசு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள சிறிய பூச்சி எது?",
+    "prompt": "இரவில் மனிதர்களைக் கடித்து மலேரியா போன்ற நோய்களைப் பரப்பும் சிறிய பூச்சி எது?",
     "correctAnswer": "கொசு",
     "learningObjective": "Picture → Select recognition and practice for கொசு",
     "source": {
@@ -6685,12 +6645,7 @@
         "label": "குருவி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0353",
-      "alt": "கொசு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0356",
@@ -6828,7 +6783,7 @@
     "targetWord": "கோடை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் வெயில் அதிகமாக இருக்கும் பருவம் எது?",
+    "prompt": "சூரிய வெப்பமும் வெயிலும் அதிகமாக இருக்கும் ஆண்டின் பருவம் எது?",
     "correctAnswer": "கோடை",
     "learningObjective": "Picture → Select recognition and practice for கோடை",
     "source": {
@@ -6874,12 +6829,7 @@
         "label": "காற்று"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0361",
-      "alt": "கோடை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0363",
@@ -6950,7 +6900,7 @@
     "targetWord": "கோலிகுண்டு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் உள்ள சிறிய விளையாட்டு உருண்டைகள் எவை?",
+    "prompt": "சிறுவர்கள் விரல்களால் உருட்டி விளையாடும் சிறிய கண்ணாடிக் குண்டுகள் எவை?",
     "correctAnswer": "கோலிகுண்டு",
     "learningObjective": "Picture → Select recognition and practice for கோலிகுண்டு",
     "source": {
@@ -6996,12 +6946,7 @@
         "label": "பந்து"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0365",
-      "alt": "கோலிகுண்டு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0366",
@@ -7454,7 +7399,7 @@
     "targetWord": "சறுக்கு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் குழந்தைகள் விளையாடும் --------- உபகரணம் எது?",
+    "prompt": "பூங்காவில் குழந்தைகள் மேலிருந்து கீழே வழுக்கி விளையாடும் விளையாட்டு உபகரணம் எது?",
     "correctAnswer": "சறுக்கு",
     "learningObjective": "Picture → Select recognition and practice for சறுக்கு",
     "source": {
@@ -7500,12 +7445,7 @@
         "label": "சங்கிலி"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0385",
-      "alt": "சறுக்கு"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0389",

@@ -5485,7 +5485,7 @@
     "targetWord": "எண்ணெய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தைப் பார்த்து சொல்லைச் சரியாக அமைக்கவும்.",
+    "prompt": "சமையலுக்கும் தலைக்கும் நாம் பயன்படுத்தும் திரவப் பொருள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்குக.",
     "correctAnswer": "எண்ணெய்",
     "learningObjective": "Picture → Arrange recognition and practice for எண்ணெய்",
     "source": {
@@ -5532,12 +5532,7 @@
       "ய்",
       "ணெ"
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0177",
-      "alt": "எண்ணெய்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0206",
@@ -6399,7 +6394,7 @@
     "targetWord": "உருண்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குச் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "பந்து அல்லது லட்டு போன்ற வட்டமான உருவ அமைப்பு ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உருண்டை",
     "learningObjective": "Picture → Select recognition and practice for உருண்டை",
     "source": {
@@ -6445,12 +6440,7 @@
         "label": "உரம்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0147",
-      "alt": "உருண்டை"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0164",
@@ -6462,7 +6452,7 @@
     "targetWord": "ஊதல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் செயலைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வாயால் காற்றை வெளியேற்றி அல்லது விசில் வழியாக ஒலி எழுப்பும் செயல் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "ஊதல்",
     "learningObjective": "Picture → Select recognition and practice for ஊதல்",
     "source": {
@@ -6508,12 +6498,7 @@
         "label": "ஏறுதல்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0164",
-      "alt": "ஊதல்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "FTS0168",
@@ -7718,7 +7703,7 @@
     "targetWord": "கரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் இருப்பது எது?",
+    "prompt": "நமது கையின் மற்றொரு தூய தமிழ்ப் பெயர் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "கரம்",
     "learningObjective": "Picture → Select recognition and practice for கரம்",
     "source": {
@@ -7764,12 +7749,7 @@
         "label": "கண்"
       }
     ],
-    "image": {
-      "type": "image",
-      "source": "class3-tamil-picture-fts0248",
-      "alt": "கரம்"
-    },
-    "needsImage": true
+    "needsImage": false
   },
   {
     "id": "Q026",

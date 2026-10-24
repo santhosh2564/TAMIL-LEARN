@@ -88,7 +88,7 @@
     "targetWord": "big",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The opposite of small. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -104,11 +104,7 @@
       }
     ],
     "correctAnswer": "big",
-    "image": {
-      "type": "image",
-      "source": "eng-big"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW058",
@@ -853,7 +849,7 @@
     "targetWord": "neck",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "The body part that connects the head to the torso. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -879,11 +875,7 @@
       "E"
     ],
     "correctAnswer": "neck",
-    "image": {
-      "type": "image",
-      "source": "eng-neck"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW534",
@@ -1842,7 +1834,7 @@
     "targetWord": "swim",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "To move yourself through water using your arms and legs. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -1868,11 +1860,7 @@
       "S"
     ],
     "correctAnswer": "swim",
-    "image": {
-      "type": "image",
-      "source": "eng-swim"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW811",
@@ -2050,7 +2038,7 @@
     "targetWord": "wish",
     "category": "picture-recognition",
     "variant": "word-entry",
-    "prompt": "Look at the picture. Choose the correct word.",
+    "prompt": "To want or desire something to happen. Write the word:",
     "options": [
       {
         "id": "A",
@@ -2070,11 +2058,7 @@
       }
     ],
     "correctAnswer": "wish",
-    "image": {
-      "type": "image",
-      "source": "eng-wish"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW938",
@@ -2180,7 +2164,7 @@
     "targetWord": "match",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "A small wooden stick tipped with chemicals used to start a fire. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2211,11 +2195,7 @@
       "C"
     ],
     "correctAnswer": "match",
-    "image": {
-      "type": "image",
-      "source": "eng-match"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW497",
@@ -2408,7 +2388,7 @@
     "targetWord": "truck",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "A large, strong motor vehicle designed for carrying heavy loads. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -2439,11 +2419,7 @@
       "K"
     ],
     "correctAnswer": "truck",
-    "image": {
-      "type": "image",
-      "source": "eng-truck"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW880",
@@ -3374,7 +3350,7 @@
     "targetWord": "brown",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The colour of wood, soil, or chocolate. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3390,11 +3366,7 @@
       }
     ],
     "correctAnswer": "brown",
-    "image": {
-      "type": "image",
-      "source": "eng-brown"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW095",
@@ -3597,7 +3569,7 @@
     "targetWord": "cold",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "The opposite of hot. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3613,11 +3585,7 @@
       }
     ],
     "correctAnswer": "cold",
-    "image": {
-      "type": "image",
-      "source": "eng-cold"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW160",
@@ -4911,7 +4879,7 @@
     "targetWord": "mouth",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "The opening on your face used for speaking and eating. Arrange the letters:",
     "options": [
       {
         "id": "A",
@@ -4942,11 +4910,7 @@
       "T"
     ],
     "correctAnswer": "mouth",
-    "image": {
-      "type": "image",
-      "source": "eng-mouth"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW517",
@@ -4968,7 +4932,7 @@
     "targetWord": "pinky",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "The smallest finger on your hand. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -4984,11 +4948,7 @@
       }
     ],
     "correctAnswer": "pinky",
-    "image": {
-      "type": "image",
-      "source": "eng-pinky"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW587",

@@ -5,7 +5,7 @@ import { createRequire } from 'module';
 import { LocalContentRepository } from '../src/repositories/implementations/LocalContentRepository';
 import { activityRegistry } from '../src/engine/ActivityRegistry';
 import { registerCoreActivities } from '../src/features/Activity/registerActivities';
-import { AssetResolver } from '../src/engine/assets/AssetResolver';
+import { AssetResolver, getDefaultManifest } from '../src/engine/assets/AssetResolver';
 import { combineTamilSandhi, matchesTamilOrTarget } from '../src/utils/tamil';
 import { Activity } from '../src/types';
 
@@ -81,6 +81,7 @@ export interface ValidationSummary {
   PROMPT_MENTIONS_PICTURE: string[];
   ANAGRAM_ALTERNATIVE: string[];
   MISSING_ATTRIBUTION: string[];
+  BLOCKED_IMAGE: string[];
 }
 
 /**
@@ -200,6 +201,7 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     PROMPT_MENTIONS_PICTURE: [],
     ANAGRAM_ALTERNATIVE: [],
     MISSING_ATTRIBUTION: [],
+    BLOCKED_IMAGE: [],
   };
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
@@ -463,6 +465,27 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
     }
   }
 
+  // Check BLOCKED_IMAGE: any filename listed in docs/image-visual-audit.csv is referenced by the manifest
+  const auditCsvPath = path.resolve('docs/image-visual-audit.csv');
+  const blockedImageFiles = new Set<string>();
+  if (fs.existsSync(auditCsvPath)) {
+    const auditLines = fs.readFileSync(auditCsvPath, 'utf8').trim().split('\n').slice(1);
+    for (const line of auditLines) {
+      const match = line.match(/^"([^"]+)"/) || line.match(/^([^,]+)/);
+      if (match) {
+        blockedImageFiles.add(path.basename(match[1].trim()).toLowerCase());
+      }
+    }
+  }
+
+  const manifest = getDefaultManifest();
+  for (const [assetId, asset] of Object.entries(manifest)) {
+    const fn = path.basename(asset.path || '').toLowerCase();
+    if (blockedImageFiles.has(fn)) {
+      summary.BLOCKED_IMAGE.push(`${assetId} (${fn})`);
+    }
+  }
+
   const totalIssues = Object.values(summary).reduce((acc, list) => acc + list.length, 0);
   return { summary, totalIssues };
 }
@@ -487,7 +510,8 @@ async function main() {
     'IMAGE_LOST',
     'PROMPT_MENTIONS_PICTURE',
     'ANAGRAM_ALTERNATIVE',
-    'MISSING_ATTRIBUTION'
+    'MISSING_ATTRIBUTION',
+    'BLOCKED_IMAGE'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');
