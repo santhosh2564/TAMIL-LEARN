@@ -11,6 +11,9 @@ export interface ResolvedAsset {
   source: 'local' | 'remote';
   path: string;
   alt?: string;
+  creator?: string;
+  license?: string;
+  sourcePageUrl?: string;
 }
 
 export type AssetResolutionState = 
@@ -24,6 +27,9 @@ export interface AssetManifestEntry {
   source: string;
   path: string;
   alt?: string;
+  creator?: string;
+  license?: string;
+  sourcePageUrl?: string;
 }
 
 export interface AssetManifest {

@@ -69,7 +69,10 @@ export class AssetResolver {
         type: entry.type as 'image' | 'audio',
         source: entry.source as 'local' | 'remote',
         path: rawPath,
-        alt: entry.alt
+        alt: entry.alt,
+        creator: entry.creator,
+        license: entry.license,
+        sourcePageUrl: entry.sourcePageUrl
       }
     };
   }

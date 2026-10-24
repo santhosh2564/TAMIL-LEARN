@@ -80,6 +80,7 @@ export interface ValidationSummary {
   IMAGE_LOST: string[];
   PROMPT_MENTIONS_PICTURE: string[];
   ANAGRAM_ALTERNATIVE: string[];
+  MISSING_ATTRIBUTION: string[];
 }
 
 /**
@@ -198,6 +199,7 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     IMAGE_LOST: [],
     PROMPT_MENTIONS_PICTURE: [],
     ANAGRAM_ALTERNATIVE: [],
+    MISSING_ATTRIBUTION: [],
   };
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
@@ -342,6 +344,21 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
           entry.words.add(ansWord);
           entry.activities.push(act.id);
         }
+
+        // Check MISSING_ATTRIBUTION: any image in use whose license requires attribution but has no creator or license recorded
+        const meta = (act.metadata as any)?.imageMeta;
+        const asset = res.asset;
+        const license = meta?.license || asset?.license || '';
+        const creator = meta?.creator || asset?.creator || '';
+
+        const licLower = (license || '').toLowerCase();
+        const requiresAttribution = licLower.startsWith('cc-by') || licLower.startsWith('cc by') || /cc[- ]?by/i.test(licLower);
+
+        if (requiresAttribution) {
+          if (!creator.trim() || !license.trim()) {
+            summary.MISSING_ATTRIBUTION.push(act.id);
+          }
+        }
       }
     }
 
@@ -469,7 +486,8 @@ async function main() {
     'REAL_WORD_DISTRACTOR',
     'IMAGE_LOST',
     'PROMPT_MENTIONS_PICTURE',
-    'ANAGRAM_ALTERNATIVE'
+    'ANAGRAM_ALTERNATIVE',
+    'MISSING_ATTRIBUTION'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');

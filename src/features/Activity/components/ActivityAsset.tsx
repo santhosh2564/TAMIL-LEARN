@@ -2,13 +2,40 @@ import { useState, useEffect, useMemo } from 'react';
 import { Image as ImageIcon, AlertTriangle, HelpCircle } from 'lucide-react';
 import { AssetReference, AssetResolver, AssetResolutionState } from '../../../engine/assets';
 
+export function formatLicenseName(license?: string): string {
+  if (!license) return '';
+  const trimmed = license.trim();
+  const lower = trimmed.toLowerCase();
+  if (lower.startsWith('cc-by') || lower.startsWith('cc by') || lower.includes('cc-by') || lower.includes('cc by')) {
+    if (lower.includes('cc-by-sa-4.0') || lower.includes('cc by-sa 4.0')) return 'CC BY-SA 4.0';
+    if (lower.includes('cc-by-sa-3.0-es') || lower.includes('cc by-sa 3.0 es')) return 'CC BY-SA 3.0 ES';
+    if (lower.includes('cc-by-sa-3.0') || lower.includes('cc by-sa 3.0')) return 'CC BY-SA 3.0';
+    if (lower.includes('cc-by-sa-2.5') || lower.includes('cc by-sa 2.5')) return 'CC BY-SA 2.5';
+    if (lower.includes('cc-by-sa-2.0') || lower.includes('cc by-sa 2.0')) return 'CC BY-SA 2.0';
+    if (lower.includes('cc-by-4.0') || lower.includes('cc by 4.0')) return 'CC BY 4.0';
+    if (lower.includes('cc-by-3.0') || lower.includes('cc by 3.0')) return 'CC BY 3.0';
+    if (lower.includes('cc-by-2.5') || lower.includes('cc by 2.5')) return 'CC BY 2.5';
+    if (lower.includes('cc-by-2.0') || lower.includes('cc by 2.0')) return 'CC BY 2.0';
+    return trimmed.toUpperCase().replace(/[-_]/g, ' ');
+  }
+  return trimmed;
+}
+
+export function isAttributionRequired(license?: string): boolean {
+  if (!license) return false;
+  const lower = license.toLowerCase();
+  return lower.startsWith('cc-by') || lower.startsWith('cc by') || lower.includes('cc-by') || lower.includes('cc by');
+}
+
 interface ActivityAssetProps {
   assetRef: AssetReference;
   language?: 'tamil' | 'english';
   alt?: string;
+  creator?: string;
+  license?: string;
 }
 
-export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
+export function ActivityAsset({ assetRef, language, alt, creator, license }: ActivityAssetProps) {
   const [resolution, setResolution] = useState<AssetResolutionState | null>(null);
   const [loadFailed, setLoadFailed] = useState(false);
   const resolver = useMemo(() => new AssetResolver(), []);
@@ -33,15 +60,34 @@ export function ActivityAsset({ assetRef, language, alt }: ActivityAssetProps) {
     const { asset } = resolution;
     if (asset.type === 'image') {
       const altText = alt || asset.alt || (isEnglish ? 'Activity illustration' : 'செயல்பாட்டுப் படம்');
+      const effCreator = (creator || asset.creator || '').trim();
+      const effLicense = (license || asset.license || '').trim();
+      const requiresCredit = isAttributionRequired(effLicense);
+      const formattedLicense = formatLicenseName(effLicense);
+      const creditLine = requiresCredit && effCreator && formattedLicense
+        ? `Photo: ${effCreator}, ${formattedLicense}`
+        : null;
+
       return (
-        <div className="w-full aspect-video max-w-sm mx-auto bg-white rounded-2xl border-2 border-surface-raised overflow-hidden relative shadow-sm">
-          <img
-            src={asset.path}
-            alt={altText}
-            className="w-full h-full object-contain"
-            data-testid="activity-asset-image"
-            onError={() => setLoadFailed(true)}
-          />
+        <div className="w-full max-w-sm mx-auto flex flex-col items-center">
+          <div className="w-full aspect-video bg-white rounded-2xl border-2 border-surface-raised overflow-hidden relative shadow-sm">
+            <img
+              src={asset.path}
+              alt={altText}
+              className="w-full h-full object-contain"
+              data-testid="activity-asset-image"
+              onError={() => setLoadFailed(true)}
+            />
+          </div>
+          {creditLine && (
+            <p
+              className="text-[11px] sm:text-xs text-text-muted mt-1.5 text-center font-normal truncate max-w-full px-2"
+              data-testid="activity-asset-credit"
+              title={creditLine}
+            >
+              {creditLine}
+            </p>
+          )}
         </div>
       );
     }

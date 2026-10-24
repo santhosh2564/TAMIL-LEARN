@@ -46,6 +46,18 @@ export interface ActivityOption {
   label: string;
 }
 
+export interface ActivityImageMeta {
+  path?: string;
+  sourcePageUrl?: string;
+  license?: string;
+  creator?: string;
+  attribution?: string;
+  imageSource?: string;
+  status?: string;
+  reviewStatus?: string;
+  [key: string]: unknown;
+}
+
 export interface Activity {
   id: string;
   classLevel: number;
@@ -81,7 +93,10 @@ export interface Activity {
     hasSourceAnomaly?: boolean;
     anomalyNote?: string;
   };
-  metadata?: Record<string, unknown>;
+  metadata?: {
+    imageMeta?: ActivityImageMeta | null;
+    [key: string]: unknown;
+  };
 }
 
 export interface ActivitySession {

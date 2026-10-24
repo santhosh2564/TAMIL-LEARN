@@ -299,7 +299,10 @@ export function importTamilContent() {
             type: 'image',
             source: 'local',
             path: rec.image.path,
-            alt: rec['Target Word']?.trim()
+            alt: rec['Target Word']?.trim(),
+            ...(rec.image.creator ? { creator: rec.image.creator } : {}),
+            ...(rec.image.license ? { license: rec.image.license } : {}),
+            ...(rec.image.sourcePageUrl ? { sourcePageUrl: rec.image.sourcePageUrl } : {})
           };
           assetManifest[sourceId.toLowerCase()] = assetManifest[assetKey];
         }

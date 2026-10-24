@@ -11,6 +11,7 @@ import { SessionSetupPage } from '../features/Session/SessionSetupPage';
 import { ResultsPage } from '../features/Session/ResultsPage';
 import { SettingsPage } from '../features/Settings/SettingsPage';
 import { StudentSelectionPage } from '../features/Student/StudentSelectionPage';
+import { CreditsPage } from '../features/Credits/CreditsPage';
 
 export const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ export const router = createBrowserRouter([
       {
         path: 'settings',
         element: <SettingsPage />,
+      },
+      {
+        path: 'credits',
+        element: <CreditsPage />,
       },
       {
         path: '*',

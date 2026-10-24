@@ -46,7 +46,13 @@ export function PictureSelectActivity({ activity, state, onSubmit, onNext }: Act
       
       {hasImage && assetId && (
         <div className="mb-6">
-          <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset
+            assetRef={{ id: assetId, type: 'image' }}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
+          />
         </div>
       )}
       

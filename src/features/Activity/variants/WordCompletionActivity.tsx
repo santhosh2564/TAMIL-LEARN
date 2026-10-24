@@ -87,7 +87,13 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
     <ActivityCard>
       {hasImage && assetRef && (
         <div className="mb-6">
-          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset
+            assetRef={assetRef}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
+          />
         </div>
       )}
 
@@ -238,7 +244,13 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
       {/* Visual stimulus if picture is required */}
       {hasImage && inputAssetRef && (
         <div className="mb-6 w-full flex justify-center">
-          <ActivityAsset assetRef={inputAssetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset
+            assetRef={inputAssetRef}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
+          />
         </div>
       )}
 

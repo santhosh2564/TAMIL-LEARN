@@ -59,7 +59,13 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
 
       {hasImage && assetRef && (
         <div className="mb-6">
-          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset
+            assetRef={assetRef}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
+          />
         </div>
       )}
       

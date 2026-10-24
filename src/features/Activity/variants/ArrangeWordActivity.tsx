@@ -122,7 +122,13 @@ export function ArrangeWordActivity({ activity, state, onSubmit, onNext }: Activ
 
       {hasImage && assetRef && (
         <div className="mb-6 w-full flex justify-center">
-          <ActivityAsset assetRef={assetRef} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+          <ActivityAsset
+            assetRef={assetRef}
+            language={isEnglish ? 'english' : 'tamil'}
+            alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
+          />
         </div>
       )}
       

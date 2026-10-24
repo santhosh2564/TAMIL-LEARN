@@ -61,6 +61,8 @@ function WordEntryOptionsMode({
             assetRef={{ id: assetId, type: 'image' }}
             language={isEnglish ? 'english' : 'tamil'}
             alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
           />
         </div>
       )}
@@ -193,6 +195,8 @@ function WordEntryInputMode({
             assetRef={{ id: assetId, type: 'image' }}
             language="english"
             alt={activity.template || undefined}
+            creator={activity.metadata?.imageMeta?.creator}
+            license={activity.metadata?.imageMeta?.license}
           />
         </div>
       )}

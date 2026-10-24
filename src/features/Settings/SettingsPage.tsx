@@ -3,7 +3,7 @@ import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useStudent } from '../../student';
 import { useNavigate } from 'react-router-dom';
-import { Trash2, CheckCircle2, UserX, Users, AlertTriangle } from 'lucide-react';
+import { Trash2, CheckCircle2, UserX, Users, AlertTriangle, Image as ImageIcon } from 'lucide-react';
 
 export function SettingsPage() {
   const navigate = useNavigate();
@@ -235,6 +235,25 @@ export function SettingsPage() {
               </span>
             </Button>
           )}
+        </section>
+
+        {/* Credits & Attribution Section */}
+        <section className="bg-surface-raised rounded-3xl p-6 sm:p-8 space-y-4 border border-surface-highlight">
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            <div>
+              <h2 className="text-xl font-bold text-text">Image credits / படங்களுக்கான நன்றி</h2>
+              <p className="text-text-muted mt-1">
+                View creators, licenses, and sources for Creative Commons and open-licensed images used across activities.
+              </p>
+            </div>
+            <Button
+              variant="secondary"
+              onClick={() => navigate('/credits')}
+              className="flex items-center gap-2 font-bold"
+            >
+              <ImageIcon size={18} /> View Credits (நன்றியுரை)
+            </Button>
+          </div>
         </section>
       </div>
     </Page>
