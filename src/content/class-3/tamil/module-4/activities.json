@@ -5725,7 +5725,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0414",
       "alt": "சிறுத்தை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0441",
@@ -5803,7 +5804,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0441",
       "alt": "சூரியகாந்தி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0446",
@@ -5871,7 +5873,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0446",
       "alt": "செய்தித்தாள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0451",
@@ -5934,7 +5937,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0451",
       "alt": "செல்வன்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0452",
@@ -5997,7 +6001,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0452",
       "alt": "செல்வர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0459",
@@ -6070,7 +6075,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0459",
       "alt": "சொந்தக்காரர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0466",
@@ -6133,7 +6139,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0466",
       "alt": "ஜன்னல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0481",
@@ -6196,7 +6203,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0481",
       "alt": "தட்டுகள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0484",
@@ -6264,7 +6272,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0484",
       "alt": "தண்ணீர்ப்புட்டி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0511",
@@ -6322,7 +6331,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0511",
       "alt": "தார்ச்சாலை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q068",
@@ -6394,7 +6404,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q068",
       "alt": "திமிங்கலம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0399",
@@ -6456,7 +6467,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0399",
       "alt": "சிங்கம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0405",
@@ -6518,7 +6530,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0405",
       "alt": "சிப்பி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0406",
@@ -6580,7 +6593,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0406",
       "alt": "சிரம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0410",
@@ -6642,7 +6656,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0410",
       "alt": "சிறகு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0417",
@@ -6704,7 +6719,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0417",
       "alt": "சிவப்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0418",
@@ -6762,7 +6778,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0418",
       "alt": "சீட்டு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0419",
@@ -6824,7 +6841,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0419",
       "alt": "சீப்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0422",
@@ -6886,7 +6904,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0422",
       "alt": "சுண்டல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0434",
@@ -6948,7 +6967,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0434",
       "alt": "சுழல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0435",
@@ -7010,7 +7030,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0435",
       "alt": "சுழல் நாற்காலி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0436",
@@ -7072,7 +7093,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0436",
       "alt": "சுவர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0458",
@@ -7134,7 +7156,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0458",
       "alt": "சேவல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0463",
@@ -7196,7 +7219,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0463",
       "alt": "சோறு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0486",
@@ -7258,7 +7282,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0486",
       "alt": "தந்தை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0490",
@@ -7320,7 +7345,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0490",
       "alt": "தம்பி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0503",
@@ -7382,7 +7408,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0503",
       "alt": "தழும்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0510",
@@ -7440,7 +7467,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0510",
       "alt": "தாய்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0513",
@@ -7502,7 +7530,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0513",
       "alt": "தாள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0520",
@@ -7564,7 +7593,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0520",
       "alt": "திராட்சை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q055",
@@ -7611,7 +7641,13 @@
         "id": "D",
         "label": "செடு"
       }
-    ]
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q055",
+      "alt": "செடி"
+    },
+    "needsImage": true
   },
   {
     "id": "Q066",
@@ -7672,6 +7708,7 @@
       "type": "image",
       "source": "class3-tamil-picture-q066",
       "alt": "தாத்தா"
-    }
+    },
+    "needsImage": true
   }
 ]

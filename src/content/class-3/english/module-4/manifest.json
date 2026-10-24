@@ -3,9 +3,9 @@
   "subject": "English",
   "module": 4,
   "title": "Module 4 - Word Construction & Syllables",
-  "newWordCount": 120,
+  "newWordCount": 119,
   "reviewWordCount": 40,
-  "totalActivities": 160,
+  "totalActivities": 159,
   "days": [
     {
       "day": 1,
@@ -15,9 +15,9 @@
     },
     {
       "day": 2,
-      "newCount": 24,
+      "newCount": 23,
       "reviewCount": 8,
-      "totalCount": 32
+      "totalCount": 31
     },
     {
       "day": 3,
@@ -41,7 +41,7 @@
   "difficultyBreakdown": {
     "easy": 40,
     "medium": 50,
-    "hard": 20,
+    "hard": 19,
     "mixed": 6,
     "unclassified": 4
   },

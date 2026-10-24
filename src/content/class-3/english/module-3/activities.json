@@ -1577,7 +1577,7 @@
     "targetWord": "field",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct spelling:",
+    "prompt": "An open area of land used for farming or sports is a ______. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -1593,11 +1593,7 @@
       }
     ],
     "correctAnswer": "field",
-    "image": {
-      "type": "image",
-      "source": "eng-field"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW285",

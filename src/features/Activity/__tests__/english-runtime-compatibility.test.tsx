@@ -18,11 +18,11 @@ describe('English Runtime Compatibility Check', () => {
     allActivities.push(...acts);
   }
 
-  it('contains all 1,238 normalized English activities', () => {
-    expect(allActivities.length).toBe(1238);
+  it('contains all 1,236 normalized English activities', () => {
+    expect(allActivities.length).toBe(1236);
   });
 
-  it('ensures all 1,238 activities resolve in ActivityRegistry', () => {
+  it('ensures all 1,236 activities resolve in ActivityRegistry', () => {
     const unresolved: string[] = [];
 
     allActivities.forEach(activity => {

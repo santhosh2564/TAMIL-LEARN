@@ -5237,7 +5237,7 @@
     "targetWord": "mixer",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the letters to make the correct word.",
+    "prompt": "A kitchen appliance used to mix or blend food ingredients. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",

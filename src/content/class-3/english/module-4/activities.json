@@ -16,15 +16,15 @@
     "options": [
       {
         "id": "A",
-        "label": "jar"
+        "label": "shorts"
       },
       {
         "id": "B",
-        "label": "lip"
+        "label": "violet"
       },
       {
         "id": "C",
-        "label": "desk"
+        "label": "hat"
       },
       {
         "id": "D",
@@ -58,7 +58,7 @@
     "options": [
       {
         "id": "A",
-        "label": "skin"
+        "label": "wood"
       },
       {
         "id": "B",
@@ -66,11 +66,11 @@
       },
       {
         "id": "C",
-        "label": "flower"
+        "label": "dhoti"
       },
       {
         "id": "D",
-        "label": "mango"
+        "label": "seat"
       }
     ],
     "correctAnswer": "auto",
@@ -100,11 +100,11 @@
     "options": [
       {
         "id": "A",
-        "label": "auto"
+        "label": "towel"
       },
       {
         "id": "B",
-        "label": "boy"
+        "label": "few"
       },
       {
         "id": "C",
@@ -112,7 +112,7 @@
       },
       {
         "id": "D",
-        "label": "cow"
+        "label": "dew"
       }
     ],
     "correctAnswer": "joy",
@@ -142,15 +142,15 @@
     "options": [
       {
         "id": "A",
-        "label": "saree"
+        "label": "barn"
       },
       {
         "id": "B",
-        "label": "towel"
+        "label": "fork"
       },
       {
         "id": "C",
-        "label": "few"
+        "label": "ship"
       },
       {
         "id": "D",
@@ -1867,7 +1867,7 @@
     "targetWord": "barn",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "This is a building where farm animals are kept. Write the word.",
+    "prompt": "A large farm building used to shelter animals or store grain. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -2685,7 +2685,7 @@
     "targetWord": "skin",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Write the word for the part covering the person's hand or arm.",
+    "prompt": "The soft outer layer covering the body of a person or animal. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3236,7 +3236,7 @@
     "targetWord": "hands",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Write the word for these body parts.",
+    "prompt": "The parts at the end of our arms with fingers and thumbs. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3351,7 +3351,7 @@
     "targetWord": "legs",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for these body parts.",
+    "prompt": "We use these two body parts with feet and knees to walk and run. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -3377,11 +3377,7 @@
       "l"
     ],
     "correctAnswer": "legs",
-    "image": {
-      "type": "image",
-      "source": "eng-legs"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW461",
@@ -3574,7 +3570,7 @@
     "targetWord": "paws",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Choose the correct word and write it.",
+    "prompt": "An animal's feet with soft pads and claws. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4610,15 +4606,15 @@
       },
       {
         "id": "B",
-        "label": "dog"
+        "label": "wings"
       },
       {
         "id": "C",
-        "label": "hen"
+        "label": "lunch"
       },
       {
         "id": "D",
-        "label": "kit"
+        "label": "scarf"
       }
     ],
     "correctAnswer": "few",
@@ -4903,11 +4899,11 @@
     "options": [
       {
         "id": "A",
-        "label": "legs"
+        "label": "bat"
       },
       {
         "id": "B",
-        "label": "rabbit"
+        "label": "cat"
       },
       {
         "id": "C",
@@ -4915,7 +4911,7 @@
       },
       {
         "id": "D",
-        "label": "tomato"
+        "label": "dog"
       }
     ],
     "correctAnswer": "cereals",
@@ -4945,15 +4941,15 @@
     "options": [
       {
         "id": "A",
-        "label": "drum"
+        "label": "curry leaves"
       },
       {
         "id": "B",
-        "label": "lift"
+        "label": "rest"
       },
       {
         "id": "C",
-        "label": "town"
+        "label": "bag"
       },
       {
         "id": "D",
@@ -4987,11 +4983,11 @@
     "options": [
       {
         "id": "A",
-        "label": "puppy"
+        "label": "man"
       },
       {
         "id": "B",
-        "label": "thank you"
+        "label": "drum"
       },
       {
         "id": "C",
@@ -4999,7 +4995,7 @@
       },
       {
         "id": "D",
-        "label": "deep"
+        "label": "lift"
       }
     ],
     "correctAnswer": "meal",
@@ -5814,63 +5810,6 @@
     }
   },
   {
-    "id": "ENG-M4-EW213",
-    "classLevel": 3,
-    "subject": "English",
-    "language": "en-IN",
-    "module": 4,
-    "day": 2,
-    "role": "new",
-    "level": 3,
-    "sourceDifficulty": "Hard",
-    "targetWord": "derry",
-    "category": "arrange-word",
-    "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
-    "options": [
-      {
-        "id": "A",
-        "label": "r"
-      },
-      {
-        "id": "B",
-        "label": "y"
-      },
-      {
-        "id": "C",
-        "label": "d"
-      },
-      {
-        "id": "D",
-        "label": "e"
-      },
-      {
-        "id": "E",
-        "label": "r"
-      }
-    ],
-    "units": [
-      "r",
-      "y",
-      "d",
-      "e",
-      "r"
-    ],
-    "correctAnswer": "derry",
-    "image": {
-      "type": "image",
-      "source": "eng-derry"
-    },
-    "needsImage": true,
-    "source": {
-      "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
-      "ewId": "EW213",
-      "activityCode": "E12",
-      "originalActivity": "E12 – Picture → Write",
-      "hasSourceAnomaly": false
-    }
-  },
-  {
     "id": "ENG-M4-EW218",
     "classLevel": 3,
     "subject": "English",
@@ -5940,7 +5879,7 @@
     "targetWord": "feathers",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "These cover a bird's body. Write the word.",
+    "prompt": "The light, soft growths that cover a bird's body and wings. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -6929,7 +6868,7 @@
     "targetWord": "fruit",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Write the word.",
+    "prompt": "A sweet, juicy food like an apple or mango that grows on plants. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",

@@ -106,9 +106,9 @@ describe('LocalContentRepository', () => {
       expect(manifest).toBeDefined();
       expect(manifest.classLevel).toBe(3);
       expect(manifest.subject).toBe('English');
-      expect(manifest.totalUniqueWords).toBe(958);
-      expect(manifest.totalReviewInstances).toBe(280);
-      expect(manifest.totalActivities).toBe(1238);
+      expect(manifest.totalUniqueWords).toBe(957);
+      expect(manifest.totalReviewInstances).toBe(279);
+      expect(manifest.totalActivities).toBe(1236);
       expect(manifest.moduleCount).toBe(8);
       expect(manifest.modules.length).toBe(8);
     });

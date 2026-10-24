@@ -31,6 +31,12 @@
     "correctAnswer": "முயல்",
     "learningObjective": "Meaning recognition + word retrieval",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q001",
+      "alt": "முயல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q001",
@@ -113,6 +119,12 @@
     "correctAnswer": "பழம்",
     "learningObjective": "Meaning recognition + spelling",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q003",
+      "alt": "பழம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q003",
@@ -190,6 +202,12 @@
     "correctAnswer": "நாய்",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q005",
+      "alt": "நாய்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q005",
@@ -339,6 +357,12 @@
     "correctAnswer": "கடல்",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q009",
+      "alt": "கடல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q009",
@@ -353,40 +377,34 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "பள்ளி",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "குழந்தைகள் படிக்கும் இடத்தைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: பள் + [blank]",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "ளி"
+        "label": "பள்ளி"
       },
       {
         "id": "B",
-        "label": "லி"
+        "label": "பல்லி"
       },
       {
         "id": "C",
-        "label": "ழி"
+        "label": "பள்ளம்"
       },
       {
         "id": "D",
-        "label": "னி"
+        "label": "நூலகம்"
       }
     ],
-    "units": [
-      "ளி",
-      "லி",
-      "ழி",
-      "னி"
-    ],
-    "correctAnswer": "ளி",
+    "correctAnswer": "பள்ளி",
     "learningObjective": "ள்ளி spelling discrimination",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q010",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -435,40 +453,34 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "புலி",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "காட்டில் வாழும் ஒரு விலங்கைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: பு + [blank]",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "லி"
+        "label": "புலி"
       },
       {
         "id": "B",
-        "label": "ளி"
+        "label": "புளி"
       },
       {
         "id": "C",
-        "label": "ழி"
+        "label": "புலம்"
       },
       {
         "id": "D",
-        "label": "ரி"
+        "label": "புலன்"
       }
     ],
-    "units": [
-      "லி",
-      "ளி",
-      "ழி",
-      "ரி"
-    ],
-    "correctAnswer": "லி",
+    "correctAnswer": "புலி",
     "learningObjective": "லி/ளி discrimination",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q012",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -479,9 +491,9 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "எலி",
-    "category": "picture-recognition",
+    "category": "spelling-choice",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -502,11 +514,11 @@
     ],
     "correctAnswer": "எலி",
     "learningObjective": "ல/ள discrimination",
-    "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q013",
-      "originalActivity": "Picture → Select"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -541,6 +553,12 @@
     "correctAnswer": "வண்ணங்கள்",
     "learningObjective": "Meaning recognition + plural form",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q014",
+      "alt": "வண்ணங்கள்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q014",
@@ -629,6 +647,12 @@
     "correctAnswer": "ஊஞ்சல்",
     "learningObjective": "Visual cue + spelling construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q016",
+      "alt": "ஊஞ்சல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q016",
@@ -668,6 +692,12 @@
     "correctAnswer": "பம்பரம்",
     "learningObjective": "ம்பர spelling discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q017",
+      "alt": "பம்பரம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q017",
@@ -1024,6 +1054,12 @@
     "correctAnswer": "குரங்கு",
     "learningObjective": "Meaning recognition + retrieval",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q026",
+      "alt": "குரங்கு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q026",
@@ -1073,6 +1109,12 @@
     "correctAnswer": "ஒட்டகச்சிவிங்கி",
     "learningObjective": "Long-word sequencing + retention",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q027",
+      "alt": "ஒட்டகச்சிவிங்கி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q027",
@@ -1121,40 +1163,34 @@
     "term": "Term I",
     "level": 3,
     "targetWord": "மருத்துவமனை",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "நோயாளிகளுக்கு சிகிச்சை அளிக்கும் இடத்தைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: மருத்துவம + [blank]",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "னை"
+        "label": "மருத்துவமனை"
       },
       {
         "id": "B",
-        "label": "ணை"
+        "label": "மருத்துவர்"
       },
       {
         "id": "C",
-        "label": "நை"
+        "label": "மருத்துவமணி"
       },
       {
         "id": "D",
-        "label": "லை"
+        "label": "மருத்துவம்"
       }
     ],
-    "units": [
-      "னை",
-      "ணை",
-      "நை",
-      "லை"
-    ],
-    "correctAnswer": "னை",
+    "correctAnswer": "மருத்துவமனை",
     "learningObjective": "Long-word spelling sequence",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "interactionDetail": "Show explicit Tamil units; drag to form the word.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q029",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -1240,29 +1276,29 @@
     "language": "ta-IN",
     "term": "Term I",
     "level": 1,
-    "targetWord": "ஒளி",
+    "targetWord": "ஒலி",
     "category": "spelling-choice",
     "variant": "select",
     "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "ஒளி"
+        "label": "ஒலி"
       },
       {
         "id": "B",
-        "label": "ஒளீ"
+        "label": "ஒளி"
       },
       {
         "id": "C",
-        "label": "ஔ"
+        "label": "ஒல"
       },
       {
         "id": "D",
-        "label": "ஓளி"
+        "label": "ஒலீ"
       }
     ],
-    "correctAnswer": "ஒளி",
+    "correctAnswer": "ஒலி",
     "learningObjective": "ஒலி/ஒளி discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
@@ -1342,6 +1378,12 @@
     "correctAnswer": "கடை",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q034",
+      "alt": "கடை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q034",
@@ -1431,6 +1473,50 @@
     }
   },
   {
+    "id": "Q037",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "கதைகள்",
+    "category": "word-completion",
+    "variant": "missing-unit",
+    "prompt": "கதை + [blank]",
+    "options": [
+      {
+        "id": "A",
+        "label": "கள்"
+      },
+      {
+        "id": "B",
+        "label": "கல்"
+      },
+      {
+        "id": "C",
+        "label": "கண்"
+      },
+      {
+        "id": "D",
+        "label": "கன்"
+      }
+    ],
+    "units": [
+      "கள்",
+      "கல்",
+      "கண்",
+      "கன்"
+    ],
+    "correctAnswer": "கள்",
+    "learningObjective": "கள் ending + spelling discrimination",
+    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q037",
+      "originalActivity": "Drag & Drop Missing Ending"
+    }
+  },
+  {
     "id": "Q038",
     "classLevel": 3,
     "subject": "Tamil",
@@ -1462,6 +1548,12 @@
     "correctAnswer": "கல்",
     "learningObjective": "Meaning recognition; repeated word gets different task from U-007",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q038",
+      "alt": "கல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q038",
@@ -1538,6 +1630,12 @@
     "correctAnswer": "கழுதை",
     "learningObjective": "ழ spelling discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q040",
+      "alt": "கழுதை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q040",
@@ -1652,6 +1750,12 @@
     "correctAnswer": "காசு",
     "learningObjective": "Concrete object/meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q043",
+      "alt": "காசு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q043",
@@ -1704,40 +1808,34 @@
     "term": "Term I",
     "level": 2,
     "targetWord": "கிழங்கு",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "மண்ணுக்குள் வளரும் உணவுப் பொருளைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: கி + [blank]",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "ழங்கு"
+        "label": "கிழங்கு"
       },
       {
         "id": "B",
-        "label": "லங்கு"
+        "label": "கிலங்கு"
       },
       {
         "id": "C",
-        "label": "ளங்கு"
+        "label": "கிளங்கு"
       },
       {
         "id": "D",
-        "label": "ரங்கு"
+        "label": "கிழக்கு"
       }
     ],
-    "units": [
-      "ழங்கு",
-      "லங்கு",
-      "ளங்கு",
-      "ரங்கு"
-    ],
-    "correctAnswer": "ழங்கு",
+    "correctAnswer": "கிழங்கு",
     "learningObjective": "Repeated word gets spelling-focused task",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q045",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -1854,6 +1952,12 @@
     "correctAnswer": "குப்பை",
     "learningObjective": "Meaning + spelling",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q048",
+      "alt": "குப்பை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q048",
@@ -1898,6 +2002,12 @@
     "correctAnswer": "குரங்கு",
     "learningObjective": "Picture cue + word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q049",
+      "alt": "குரங்கு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q049",
@@ -2039,7 +2149,7 @@
     "targetWord": "சான்றோர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "“Virtuous / wise people” என்பதைக் குறிக்கும் தமிழ்ச் சொல்லை உருவாக்கவும்.",
+    "prompt": "பொருளுக்கேற்ற தமிழ்ச் சொல்லை உருவாக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -2159,6 +2269,12 @@
     "correctAnswer": "செடி",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q055",
+      "alt": "செடி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q055",
@@ -2444,6 +2560,44 @@
     }
   },
   {
+    "id": "Q063",
+    "classLevel": 3,
+    "subject": "Tamil",
+    "language": "ta-IN",
+    "term": "Term I",
+    "level": 2,
+    "targetWord": "தண்ணீர்",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "options": [
+      {
+        "id": "A",
+        "label": "தண்ணீர்"
+      },
+      {
+        "id": "B",
+        "label": "தணீர்"
+      },
+      {
+        "id": "C",
+        "label": "தன்னீர்"
+      },
+      {
+        "id": "D",
+        "label": "தண்ணிர்"
+      }
+    ],
+    "correctAnswer": "தண்ணீர்",
+    "learningObjective": "Repeated word gets spelling discrimination",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "source": {
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
+      "questionId": "Q063",
+      "originalActivity": "Correct Spelling"
+    }
+  },
+  {
     "id": "Q064",
     "classLevel": 3,
     "subject": "Tamil",
@@ -2572,6 +2726,12 @@
     "correctAnswer": "தாத்தா",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q066",
+      "alt": "தாத்தா"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q066",
@@ -2659,6 +2819,12 @@
     "correctAnswer": "திமிங்கலம்",
     "learningObjective": "Long animal word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q068",
+      "alt": "திமிங்கலம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q068",
@@ -2773,6 +2939,12 @@
     "correctAnswer": "தெரு",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q071",
+      "alt": "தெரு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q071",
@@ -2911,15 +3083,15 @@
       },
       {
         "id": "B",
-        "label": "னன்று"
+        "label": "நனறு"
       },
       {
         "id": "C",
-        "label": "நண்று"
+        "label": "நன்ற"
       },
       {
         "id": "D",
-        "label": "நன்றூ"
+        "label": "நண்டு"
       }
     ],
     "correctAnswer": "நன்று",
@@ -2997,6 +3169,12 @@
     "correctAnswer": "நாய்",
     "learningObjective": "Repeated word gets construction task",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q077",
+      "alt": "நாய்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q077",
@@ -3047,7 +3225,7 @@
     "targetWord": "நிலா",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காணப்படும் பொருளுக்குப் பொருத்தமான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் பொருளின் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
@@ -3063,14 +3241,20 @@
       },
       {
         "id": "D",
-        "label": "நிளவு"
+        "label": "நிலவு"
       }
     ],
     "correctAnswer": "நிலா",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q079",
+      "alt": "நிலா"
+    },
+    "needsImage": true,
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q079",
       "originalActivity": "Picture → Select"
     }
@@ -3113,6 +3297,12 @@
     "correctAnswer": "நூலகம்",
     "learningObjective": "Place-name spelling construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q080",
+      "alt": "நூலகம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q080",
@@ -3286,40 +3476,34 @@
     "term": "Term I",
     "level": 1,
     "targetWord": "படம்",
-    "category": "word-completion",
-    "variant": "missing-unit",
-    "prompt": "வரைந்து பார்க்கும் ஒன்றைக் குறிக்கும் சொல்லை முழுமையாக்கவும்: ப + [blank]",
+    "category": "spelling-choice",
+    "variant": "select",
+    "prompt": "சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "options": [
       {
         "id": "A",
-        "label": "டம்"
+        "label": "படம்"
       },
       {
         "id": "B",
-        "label": "ணம்"
+        "label": "பாடம்"
       },
       {
         "id": "C",
-        "label": "தம்"
+        "label": "படை"
       },
       {
         "id": "D",
-        "label": "லம்"
+        "label": "படன்"
       }
     ],
-    "units": [
-      "டம்",
-      "ணம்",
-      "தம்",
-      "லம்"
-    ],
-    "correctAnswer": "டம்",
+    "correctAnswer": "படம்",
     "learningObjective": "Repeated word gets spelling task",
-    "interactionDetail": "Show a blank unit and draggable candidate units.",
+    "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
     "source": {
-      "workbook": "Tamil_Revised_Questions_Q010_Q012_Q013_Q029_Q032_Q045_Q079_Q085.xlsx",
+      "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q085",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Correct Spelling"
     }
   },
   {
@@ -3501,6 +3685,12 @@
     "correctAnswer": "பட்டம்",
     "learningObjective": "Repeated word gets construction task",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q089",
+      "alt": "பட்டம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q089",
@@ -3577,6 +3767,12 @@
     "correctAnswer": "பம்பரம்",
     "learningObjective": "Repeated word gets spelling task",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q091",
+      "alt": "பம்பரம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q091",
@@ -3654,6 +3850,12 @@
     "correctAnswer": "பள்ளி",
     "learningObjective": "Repeated word gets construction task",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q093",
+      "alt": "பள்ளி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q093",
@@ -3692,6 +3894,12 @@
     "correctAnswer": "பழம்",
     "learningObjective": "Repeated word gets spelling task",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q094",
+      "alt": "பழம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q094",
@@ -3855,6 +4063,12 @@
     "correctAnswer": "புத்தகம்",
     "learningObjective": "Concrete word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q098",
+      "alt": "புத்தகம்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q098",
@@ -3893,6 +4107,12 @@
     "correctAnswer": "புலி",
     "learningObjective": "Repeated word gets spelling task",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q099",
+      "alt": "புலி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q099",
@@ -3969,6 +4189,12 @@
     "correctAnswer": "பெட்டி",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q101",
+      "alt": "பெட்டி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q101",
@@ -4051,6 +4277,12 @@
     "correctAnswer": "பேருந்து",
     "learningObjective": "Long word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q103",
+      "alt": "பேருந்து"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q103",
@@ -4089,6 +4321,12 @@
     "correctAnswer": "பை",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q104",
+      "alt": "பை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q104",
@@ -4241,6 +4479,12 @@
     "correctAnswer": "மணல்",
     "learningObjective": "ண/ன discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q108",
+      "alt": "மணல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q108",
@@ -4323,6 +4567,12 @@
     "correctAnswer": "ண்",
     "learningObjective": "ண் ending discrimination",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q110",
+      "alt": "மண்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q110",
@@ -4423,7 +4673,7 @@
       },
       {
         "id": "B",
-        "label": "மருந்தகம்"
+        "label": "மருத்துவமணி"
       },
       {
         "id": "C",
@@ -4437,6 +4687,12 @@
     "correctAnswer": "மருத்துவமனை",
     "learningObjective": "Repeated word gets spelling task",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q113",
+      "alt": "மருத்துவமனை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q113",
@@ -4704,6 +4960,12 @@
     "correctAnswer": "முயல்",
     "learningObjective": "Repeated word gets construction task",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q120",
+      "alt": "முயல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q120",
@@ -4742,6 +5004,12 @@
     "correctAnswer": "மூளை",
     "learningObjective": "Meaning + spelling",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q121",
+      "alt": "மூளை"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q121",
@@ -4818,6 +5086,12 @@
     "correctAnswer": "ராஜா",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q123",
+      "alt": "ராஜா"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q123",
@@ -4906,6 +5180,12 @@
     "correctAnswer": "வண்டி",
     "learningObjective": "Repeated word gets construction task",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q125",
+      "alt": "வண்டி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q125",
@@ -4955,6 +5235,12 @@
     "correctAnswer": "வண்ணங்கள்",
     "learningObjective": "Repeated word gets spelling task",
     "interactionDetail": "Show 3–4 purposeful spelling alternatives; one correct.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q126",
+      "alt": "வண்ணங்கள்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q126",
@@ -5031,6 +5317,12 @@
     "correctAnswer": "வயல்",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q128",
+      "alt": "வயல்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q128",
@@ -5085,6 +5377,12 @@
     "correctAnswer": "வயல்வெளிகள்",
     "learningObjective": "Long plural word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q129",
+      "alt": "வயல்வெளிகள்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q129",
@@ -5237,6 +5535,12 @@
     "correctAnswer": "வழி",
     "learningObjective": "Meaning recognition with controlled context",
     "interactionDetail": "Sentence/prompt with draggable or selectable target word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q133",
+      "alt": "வழி"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q133",
@@ -5281,6 +5585,12 @@
     "correctAnswer": "வானவில்",
     "learningObjective": "Visual cue + word construction",
     "interactionDetail": "Show explicit Tamil units; drag to form the word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q134",
+      "alt": "வானவில்"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q134",
@@ -5440,6 +5750,12 @@
     "correctAnswer": "விலங்கு",
     "learningObjective": "Category/meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q138",
+      "alt": "விலங்கு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q138",
@@ -5537,6 +5853,12 @@
     "correctAnswer": "வீடு",
     "learningObjective": "Meaning recognition",
     "interactionDetail": "Use picture/visual cue; child identifies the target Tamil word.",
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q140",
+      "alt": "வீடு"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx",
       "questionId": "Q140",

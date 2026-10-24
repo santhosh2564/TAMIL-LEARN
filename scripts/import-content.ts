@@ -77,6 +77,11 @@ function run() {
     }
   });
 
+  const term1AssetsPath = path.resolve('src/content/class-3/tamil/term-1/assets.json');
+  const term1Assets: Record<string, unknown> = fs.existsSync(term1AssetsPath)
+    ? JSON.parse(fs.readFileSync(term1AssetsPath, 'utf8'))
+    : {};
+
   const activities: Activity[] = [];
   const stats = {
     total: 0,
@@ -147,6 +152,21 @@ function run() {
       options = parts.map((p, i) => ({ id: String.fromCharCode(65 + i), label: p }));
     }
 
+    const picAssetId = `class3-tamil-picture-${qid.toLowerCase()}`;
+    let image: { type: 'image'; source: string; alt?: string } | undefined;
+    let needsImage: boolean | undefined;
+
+    if (originalActivity.includes('Picture') || prompt.includes('படத்தில்') || category === 'picture-recognition') {
+      if (term1Assets[picAssetId] || term1Assets[qid.toLowerCase()]) {
+        image = {
+          type: 'image',
+          source: picAssetId,
+          alt: bankRow['Target Word']
+        };
+        needsImage = true;
+      }
+    }
+
     const activity: Activity = {
       id: qid,
       classLevel: 3,
@@ -163,6 +183,8 @@ function run() {
       correctAnswer: bankRow['Correct Answer'] || '',
       learningObjective: mappingRow ? mappingRow['Learning Objective'] : undefined,
       interactionDetail: mappingRow ? mappingRow['Interaction Detail'] : undefined,
+      image,
+      needsImage,
       source: {
         workbook: 'Class_3_Tamil_Term_I_Consolidated_Question_Bank_Q001_Q144.xlsx',
         questionId: qid,

@@ -4279,7 +4279,7 @@
     "targetWord": "green gram",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Write the name of this food grain.",
+    "prompt": "A small green pulse or bean commonly cooked to make nutritious dal. Put the letters in order:",
     "options": [
       {
         "id": "A",
@@ -4832,7 +4832,7 @@
     "targetWord": "talents",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Choose the correct word and write it.",
+    "prompt": "Special natural skills or abilities that a person is good at doing. Choose the correct word:",
     "options": [
       {
         "id": "A",
@@ -7369,64 +7369,6 @@
       "ewId": "EW195",
       "activityCode": "E12",
       "originalActivity": "E12 – Picture → Write/Choose",
-      "hasSourceAnomaly": false
-    }
-  },
-  {
-    "id": "ENG-M5-REV-EW213",
-    "classLevel": 3,
-    "subject": "English",
-    "language": "en-IN",
-    "module": 5,
-    "day": 5,
-    "role": "review",
-    "reviewSourceModule": 4,
-    "level": 3,
-    "sourceDifficulty": "Hard",
-    "targetWord": "derry",
-    "category": "arrange-word",
-    "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
-    "options": [
-      {
-        "id": "A",
-        "label": "r"
-      },
-      {
-        "id": "B",
-        "label": "y"
-      },
-      {
-        "id": "C",
-        "label": "d"
-      },
-      {
-        "id": "D",
-        "label": "e"
-      },
-      {
-        "id": "E",
-        "label": "r"
-      }
-    ],
-    "units": [
-      "r",
-      "y",
-      "d",
-      "e",
-      "r"
-    ],
-    "correctAnswer": "derry",
-    "image": {
-      "type": "image",
-      "source": "eng-derry"
-    },
-    "needsImage": true,
-    "source": {
-      "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
-      "ewId": "EW213",
-      "activityCode": "E12",
-      "originalActivity": "E12 – Picture → Write",
       "hasSourceAnomaly": false
     }
   }

@@ -42,7 +42,7 @@ describe('English Navigation and Curriculum Structure', () => {
 
       await waitFor(() => {
         expect(screen.getByText('English Modules')).toBeInTheDocument();
-        expect(screen.getByText('958 Words · 1238 Total Practice Activities')).toBeInTheDocument();
+        expect(screen.getByText('957 Words · 1236 Total Practice Activities')).toBeInTheDocument();
       });
 
       // Verify all 8 modules are displayed

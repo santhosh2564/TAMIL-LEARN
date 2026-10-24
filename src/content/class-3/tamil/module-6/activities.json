@@ -4553,7 +4553,7 @@
       },
       {
         "id": "B",
-        "label": "ல"
+        "label": "ரி"
       },
       {
         "id": "C",
@@ -4564,7 +4564,7 @@
         "label": "லம்"
       }
     ],
-    "template": "பணியா__"
+    "template": "பணியா_"
   },
   {
     "id": "FTS0688",
@@ -5215,7 +5215,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0667",
       "alt": "படிக்கட்டு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0676",
@@ -5278,7 +5279,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0676",
       "alt": "பணம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0685",
@@ -5341,7 +5343,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0685",
       "alt": "பந்து"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0692",
@@ -5404,7 +5407,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0692",
       "alt": "பயம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0699",
@@ -5467,7 +5471,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0699",
       "alt": "பரிசு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0718",
@@ -5525,7 +5530,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0718",
       "alt": "பழங்கள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0719",
@@ -5583,7 +5589,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0719",
       "alt": "பழச்சாறு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0720",
@@ -5641,7 +5648,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0720",
       "alt": "பழப்பாகு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0723",
@@ -5699,7 +5707,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0723",
       "alt": "பாக்ஸ்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0727",
@@ -5757,7 +5766,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0727",
       "alt": "பாட்டி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0735",
@@ -5820,7 +5830,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0735",
       "alt": "பாயசம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0742",
@@ -5878,7 +5889,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0742",
       "alt": "பார்வையாளர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0757",
@@ -5951,7 +5963,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0757",
       "alt": "புகைப்படம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0761",
@@ -6009,7 +6022,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0761",
       "alt": "புத்திசாலி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0774",
@@ -6072,7 +6086,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0774",
       "alt": "பூக்கள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0775",
@@ -6135,7 +6150,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0775",
       "alt": "பூங்கா"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0776",
@@ -6198,7 +6214,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0776",
       "alt": "பூங்கொத்து"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0778",
@@ -6261,7 +6278,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0778",
       "alt": "பூச்செடி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0779",
@@ -6324,7 +6342,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0779",
       "alt": "பூச்செண்டு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0780",
@@ -6387,7 +6406,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0780",
       "alt": "பூட்டு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0783",
@@ -6450,7 +6470,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0783",
       "alt": "பூனைக்குட்டி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0784",
@@ -6513,7 +6534,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0784",
       "alt": "பெட்டிகள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0786",
@@ -6576,7 +6598,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0786",
       "alt": "பென்சில்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q098",
@@ -6648,7 +6671,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q098",
       "alt": "புத்தகம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q103",
@@ -6715,7 +6739,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q103",
       "alt": "பேருந்து"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0663",
@@ -6825,7 +6850,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0669",
       "alt": "படுக்கை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0673",
@@ -6887,7 +6913,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0673",
       "alt": "பட்டு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0679",
@@ -6997,7 +7024,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0683",
       "alt": "பத்திரம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0689",
@@ -7059,7 +7087,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0689",
       "alt": "பயந்து"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0695",
@@ -7169,7 +7198,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0702",
       "alt": "பறவை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0706",
@@ -7231,7 +7261,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0706",
       "alt": "பலகை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0709",
@@ -7293,7 +7324,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0709",
       "alt": "பலா"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0710",
@@ -7355,7 +7387,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0710",
       "alt": "பலூன்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0711",
@@ -7417,7 +7450,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0711",
       "alt": "பல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0732",
@@ -7479,7 +7513,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0732",
       "alt": "பானை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0744",
@@ -7541,7 +7576,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0744",
       "alt": "பால்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0765",
@@ -7603,7 +7639,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0765",
       "alt": "புறா"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0773",
@@ -7665,7 +7702,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0773",
       "alt": "பூ"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0782",
@@ -7727,7 +7765,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0782",
       "alt": "பூனை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q101",
@@ -7788,7 +7827,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q101",
       "alt": "பெட்டி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q104",
@@ -7849,6 +7889,7 @@
       "type": "image",
       "source": "class3-tamil-picture-q104",
       "alt": "பை"
-    }
+    },
+    "needsImage": true
   }
 ]

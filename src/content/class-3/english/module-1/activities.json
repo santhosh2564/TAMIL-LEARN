@@ -1123,7 +1123,7 @@
     "targetWord": "fruit",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Arrange the letters in order and find the word",
+    "prompt": "A sweet, juicy food like an apple or mango that grows on plants. Put the letters in the correct order:",
     "options": [
       {
         "id": "A",

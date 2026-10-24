@@ -13,6 +13,50 @@ const require = createRequire(import.meta.url);
 const englishWordsList: string[] = require('an-array-of-english-words');
 const englishWordsSet = new Set(englishWordsList.map((w: string) => w.toLowerCase()));
 
+// Load 20k common words list
+const commonWordsPath = path.resolve('scripts/google-20k-words.txt');
+const commonWordsSet = new Set<string>();
+if (fs.existsSync(commonWordsPath)) {
+  const lines = fs.readFileSync(commonWordsPath, 'utf8').split(/\r?\n/);
+  for (const l of lines) {
+    const w = l.trim().toLowerCase();
+    if (w) commonWordsSet.add(w);
+  }
+}
+// Ensure key common words
+commonWordsSet.add('wasp');
+commonWordsSet.add('swap');
+commonWordsSet.add('paws');
+
+// Pre-index dictionary words (>= 3 letters in 20k common words) by sorted letters
+const commonAnagramMap = new Map<string, string[]>();
+for (const w of englishWordsList) {
+  const lw = w.toLowerCase();
+  if (lw.length >= 3 && commonWordsSet.has(lw)) {
+    const s = lw.split('').sort().join('');
+    if (!commonAnagramMap.has(s)) {
+      commonAnagramMap.set(s, []);
+    }
+    commonAnagramMap.get(s)!.push(lw);
+  }
+}
+
+function hasMeaningClue(prompt: string): boolean {
+  if (!prompt) return false;
+  if (prompt.includes('_')) return true;
+  const clean = prompt
+    .replace(/look at the picture\.?/gi, '')
+    .replace(/arrange the (?:letters|word parts|parts)(?: in (?:the )?(?:correct )?order)?(?: to (?:make|spell) the (?:correct )?word)?(?: and find the word)?\.?:?/gi, '')
+    .replace(/put the (?:letters|word parts|parts) in the (?:correct )?order:?/gi, '')
+    .replace(/choose the correct word and write it\.?:?/gi, '')
+    .replace(/choose the correct (?:word|spelling)\.?:?/gi, '')
+    .replace(/write the word\.?:?/gi, '')
+    .replace(/write the name of (?:the|this) (?:food grain|body parts|vegetable|fruit|animal)\.?:?/gi, '')
+    .replace(/find the word\.?:?/gi, '')
+    .trim();
+  return clean.length >= 10;
+}
+
 // Register core activities in the activity registry
 registerCoreActivities();
 
@@ -33,6 +77,9 @@ export interface ValidationSummary {
   DUPLICATE_IMAGE: string[];
   DUPLICATE_ID: string[];
   REAL_WORD_DISTRACTOR: string[];
+  IMAGE_LOST: string[];
+  PROMPT_MENTIONS_PICTURE: string[];
+  ANAGRAM_ALTERNATIVE: string[];
 }
 
 /**
@@ -148,7 +195,31 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     DUPLICATE_IMAGE: [],
     DUPLICATE_ID: [],
     REAL_WORD_DISTRACTOR: [],
+    IMAGE_LOST: [],
+    PROMPT_MENTIONS_PICTURE: [],
+    ANAGRAM_ALTERNATIVE: [],
   };
+
+  const missingImagesPath = path.resolve('docs/missing-images.csv');
+  const missingImagesSet = new Set<string>();
+  if (fs.existsSync(missingImagesPath)) {
+    const lines = fs.readFileSync(missingImagesPath, 'utf8').split('\n');
+    for (const line of lines) {
+      const id = line.split(',')[0]?.trim();
+      if (id && id !== 'id') missingImagesSet.add(id);
+    }
+  }
+
+  const UNCHANGED_TAMIL_NO_IMAGE = new Set([
+    'FTS0661',
+    'FTS0722',
+    'FTS0666',
+    'FTS0734',
+    'FTS0768',
+    'FTS0769',
+    'FTS0906',
+    'FTS0939',
+  ]);
 
   // 1. DUPLICATE_ID
   const idSeen = new Map<string, number>();
@@ -250,11 +321,13 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
 
     // Check IMAGE_MISSING
     const requestedAssetId = getRequestedImageAssetId(act);
+    let rendersImage = false;
     if (requestedAssetId) {
       const res = resolver.resolve({ id: requestedAssetId, type: 'image' });
       if (res.status !== 'resolved') {
         summary.IMAGE_MISSING.push(act.id);
       } else if (res.asset?.path) {
+        rendersImage = true;
         // Track for DUPLICATE_IMAGE
         const fullDiskPath = path.resolve('public', res.asset.path.replace(/^\//, ''));
         if (fs.existsSync(fullDiskPath)) {
@@ -268,6 +341,64 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
           const entry = imageHashToWords.get(hash)!;
           entry.words.add(ansWord);
           entry.activities.push(act.id);
+        }
+      }
+    }
+
+    // Check IMAGE_LOST: an activity that should have rendered an image, but doesn't, excluding missing-images.csv
+    const isImageIntended = act.needsImage === true ||
+      Boolean(act.image?.source) ||
+      Boolean(act.source?.originalActivity && act.source.originalActivity.includes('Picture')) ||
+      (act.prompt && act.prompt.includes('படத்தில்'));
+
+    if (isImageIntended && !rendersImage) {
+      if (!missingImagesSet.has(act.id) && !UNCHANGED_TAMIL_NO_IMAGE.has(act.id)) {
+        if (act.subject === 'Tamil') {
+          const picKey = `class3-tamil-picture-${act.id.toLowerCase()}`;
+          if (resolver.resolve({ id: picKey, type: 'image' }).status === 'resolved') {
+            summary.IMAGE_LOST.push(act.id);
+          }
+        } else {
+          summary.IMAGE_LOST.push(act.id);
+        }
+      }
+    }
+
+    // Check PROMPT_MENTIONS_PICTURE: the prompt contains "picture" or படத்தில் (or "this/these" with no other clue), but no image will render
+    if (!rendersImage) {
+      if (!UNCHANGED_TAMIL_NO_IMAGE.has(act.id)) {
+        const p = act.prompt || '';
+        if (p.includes('படத்தில்')) {
+          summary.PROMPT_MENTIONS_PICTURE.push(act.id);
+        } else if (/(?:^|[.!?]\s*)look at the picture/i.test(p) || /\bin the picture\b/i.test(p)) {
+          summary.PROMPT_MENTIONS_PICTURE.push(act.id);
+        } else if (
+          /(?:this|these)\s+(?:food grain|body parts|object|picture)\b/i.test(p) ||
+          /^choose the correct word and write it\.?$/i.test(p.trim())
+        ) {
+          summary.PROMPT_MENTIONS_PICTURE.push(act.id);
+        }
+      }
+    }
+
+    // Check ANAGRAM_ALTERNATIVE: for every English arrange-word question with single-letter tiles,
+    // check if any other permutation forms a real English word (3+ letters in 20k common words).
+    // If no image renders, it MUST have a distinguishing meaning clue in the prompt so kids aren't rejected for valid words.
+    if (act.category === 'arrange-word' && (act.subject === 'English' || act.language?.startsWith('en'))) {
+      const tiles = (act.options && act.options.length > 0)
+        ? act.options.map(o => o.label.toLowerCase())
+        : (act.units ? act.units.map(u => u.toLowerCase()) : []);
+      if (tiles.length >= 3 && tiles.every(t => t.length === 1)) {
+        const sorted = tiles.slice().sort().join('');
+        const candidates = commonAnagramMap.get(sorted) || [];
+        const targetClean = (Array.isArray(act.correctAnswer) ? act.correctAnswer[0] : (act.correctAnswer || act.targetWord || '')).toLowerCase().replace(/\s+/g, '');
+        const alternatives = candidates.filter(w => w !== targetClean);
+        if (alternatives.length > 0) {
+          if (!rendersImage) {
+            if (!hasMeaningClue(act.prompt || '')) {
+              summary.ANAGRAM_ALTERNATIVE.push(act.id);
+            }
+          }
         }
       }
     }
@@ -335,7 +466,10 @@ async function main() {
     'EXTRA_TILES',
     'DUPLICATE_IMAGE',
     'DUPLICATE_ID',
-    'REAL_WORD_DISTRACTOR'
+    'REAL_WORD_DISTRACTOR',
+    'IMAGE_LOST',
+    'PROMPT_MENTIONS_PICTURE',
+    'ANAGRAM_ALTERNATIVE'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');

@@ -5679,7 +5679,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0003",
       "alt": "அங்காடி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0011",
@@ -5747,7 +5748,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0011",
       "alt": "அடுப்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0028",
@@ -5820,7 +5822,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0028",
       "alt": "அப்பளம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0037",
@@ -5893,7 +5896,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0037",
       "alt": "அரண்மனை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0042",
@@ -5961,7 +5965,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0042",
       "alt": "அறிஞர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0050",
@@ -6029,7 +6034,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0050",
       "alt": "அலமாரி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0051",
@@ -6107,7 +6113,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0051",
       "alt": "அலுவலகம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0053",
@@ -6175,7 +6182,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0053",
       "alt": "அலைபேசி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0059",
@@ -6248,7 +6256,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0059",
       "alt": "அழிப்பான்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0067",
@@ -6321,7 +6330,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0067",
       "alt": "ஆசிரியர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0072",
@@ -6394,7 +6404,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0072",
       "alt": "ஆடையகம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0085",
@@ -6467,7 +6478,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0085",
       "alt": "ஆலமரம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0093",
@@ -6540,7 +6552,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0093",
       "alt": "இதழ்கள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0096",
@@ -6618,7 +6631,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0096",
       "alt": "இனிப்பகம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0122",
@@ -6696,7 +6710,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0122",
       "alt": "ஈச்சமரம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0127",
@@ -6764,7 +6779,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0127",
       "alt": "உடம்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0133",
@@ -6837,7 +6853,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0133",
       "alt": "உணவகம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0013",
@@ -6899,7 +6916,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0013",
       "alt": "அட்டை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0014",
@@ -6961,7 +6979,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0014",
       "alt": "அணில்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0071",
@@ -7023,7 +7042,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0071",
       "alt": "ஆடு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0078",
@@ -7085,7 +7105,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0078",
       "alt": "ஆந்தை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0080",
@@ -7195,7 +7216,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0081",
       "alt": "ஆமை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0084",
@@ -7257,7 +7279,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0084",
       "alt": "ஆறு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0090",
@@ -7319,7 +7342,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0090",
       "alt": "இட்லி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0110",
@@ -7381,7 +7405,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0110",
       "alt": "இறகு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0114",
@@ -7443,7 +7468,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0114",
       "alt": "இலை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0119",
@@ -7505,7 +7531,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0119",
       "alt": "ஈ"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0121",
@@ -7567,7 +7594,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0121",
       "alt": "ஈக்கள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0128",
@@ -7629,7 +7657,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0128",
       "alt": "உடல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0131",
@@ -7691,7 +7720,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0131",
       "alt": "உடை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q001",
@@ -7752,7 +7782,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q001",
       "alt": "முயல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q003",
@@ -7813,7 +7844,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q003",
       "alt": "பழம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q005",
@@ -7874,7 +7906,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q005",
       "alt": "நாய்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q009",
@@ -7935,7 +7968,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q009",
       "alt": "கடல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q013",
@@ -7996,7 +8030,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q013",
       "alt": "எலி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q014",
@@ -8057,6 +8092,7 @@
       "type": "image",
       "source": "class3-tamil-picture-q014",
       "alt": "வண்ணங்கள்"
-    }
+    },
+    "needsImage": true
   }
 ]

@@ -646,22 +646,38 @@ const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; 
 
 // Words that should NOT receive an image because the candidate image depicts another word:
 // fun = hands = talents -> image depicts fun; hands & talents are text-only
-// field = green gram -> green gram is text-only (swatches of green does not depict food grain)
+// field = green gram -> green gram is text-only (swatches of green does not depict food grain); field removed as it is color swatches
 // farm = barn -> image depicts farm; barn is text-only
 // fur = paws -> image depicts fur; paws is text-only
-// skin = legs -> image depicts human body/legs; skin is text-only
+// skin = legs -> image depicts human body/legs infographic; skin and legs are text-only
 // bird = feathers -> image depicts bird; feathers is text-only
 // apple vs fruit -> image depicts apple; fruit is text-only
 const EXCLUDED_IMAGE_WORDS = new Set<string>([
   'hands',
   'talents',
   'green gram',
+  'field',
   'barn',
   'paws',
   'skin',
+  'legs',
   'feathers',
   'fruit'
 ]);
+
+const CUSTOM_MEANING_CLUES: Record<string, string> = {
+  'EW285': 'An open area of land used for farming or sports is a ______. Choose the correct spelling:',
+  'EW461': 'We use these two body parts with feet and knees to walk and run. Put the letters in the correct order:',
+  'EW372': 'The parts at the end of our arms with fingers and thumbs. Put the letters in the correct order:',
+  'EW571': "An animal's feet with soft pads and claws. Put the letters in the correct order:",
+  'EW356': 'A small green pulse or bean commonly cooked to make nutritious dal. Put the letters in order:',
+  'EW817': 'Special natural skills or abilities that a person is good at doing. Choose the correct word:',
+  'EW321': 'A sweet, juicy food like an apple or mango that grows on plants. Put the letters in the correct order:',
+  'EW508': 'A kitchen appliance used to mix or blend food ingredients. Put the letters in the correct order:',
+  'EW038': 'A large farm building used to shelter animals or store grain. Put the letters in the correct order:',
+  'EW731': 'The soft outer layer covering the body of a person or animal. Put the letters in the correct order:',
+  'EW278': "The light, soft growths that cover a bird's body and wings. Put the letters in the correct order:",
+};
 
 function isPictureIntended(actCode: string, prompt: string): boolean {
   if (actCode === 'E01' || actCode === 'E12') return true;
@@ -1079,6 +1095,7 @@ export function importEnglishContent(): IngestedEnglishContent {
       const { ewId, targetWord, difficulty, activityCode, rawActivity, prompt, rawOptions, correctAnswer, day, role, reviewSourceModule, proposedOptions } = row;
 
       if (!ewId) continue;
+      if (ewId === 'EW213' || targetWord?.toLowerCase() === 'derry') continue;
 
       const { level, sourceDifficulty } = normalizeDifficulty(difficulty);
 
@@ -1100,8 +1117,8 @@ export function importEnglishContent(): IngestedEnglishContent {
       if (ewId === 'EW085' && effectiveRawOptions) {
         effectiveRawOptions = effectiveRawOptions.replace(/\bbreath\b/g, 'breethe');
       }
-      if (ewId === 'EW817') {
-        effectivePrompt = 'Special natural skills or abilities that a person is good at doing. Choose the correct word:';
+      if (CUSTOM_MEANING_CLUES[ewId]) {
+        effectivePrompt = CUSTOM_MEANING_CLUES[ewId];
       }
       if (ewId === 'EW002') {
         effectivePrompt = 'To succeed in reaching a goal after working hard. Put the letters in the correct order:';
@@ -1228,11 +1245,15 @@ export function importEnglishContent(): IngestedEnglishContent {
           if (cleaned) {
             cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
           }
-          finalPrompt = cleaned || prompt;
+          if (CUSTOM_MEANING_CLUES[ewId]) {
+            finalPrompt = CUSTOM_MEANING_CLUES[ewId];
+          } else {
+            finalPrompt = cleaned || prompt;
+          }
           missingImagesList.push({
             id: runtimeId,
             targetWord,
-            prompt
+            prompt: finalPrompt
           });
         }
       } else {

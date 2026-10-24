@@ -389,12 +389,6 @@
     "path": "/assets/class-3/english/images/eng-bowl.jpg",
     "alt": "bowl — English vocabulary image"
   },
-  "eng-field": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-field.jpg",
-    "alt": "field — English vocabulary image"
-  },
   "eng-bridge": {
     "type": "image",
     "source": "local",
@@ -791,12 +785,6 @@
     "path": "/assets/class-3/english/images/eng-laddus.jpg",
     "alt": "laddus — English vocabulary image"
   },
-  "eng-legs": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-legs.jpg",
-    "alt": "legs — English vocabulary image"
-  },
   "eng-lemon": {
     "type": "image",
     "source": "local",
@@ -988,12 +976,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-curry-leaves.jpg",
     "alt": "curry leaves — English vocabulary image"
-  },
-  "eng-derry": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-derry.jpg",
-    "alt": "derry — English vocabulary image"
   },
   "eng-dhoti": {
     "type": "image",

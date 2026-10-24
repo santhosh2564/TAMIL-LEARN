@@ -1070,12 +1070,10 @@
     "targetWord": "field",
     "activityCode": "E08",
     "assetId": "eng-field",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Choose the correct spelling:",
-    "proposedPath": "/assets/class-3/english/images/eng-field.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-field.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Choose the correct spelling:"
   },
   {
     "activityId": "ENG-M3-EW400",
@@ -2522,12 +2520,10 @@
     "targetWord": "legs",
     "activityCode": "E12",
     "assetId": "eng-legs",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word for these body parts.",
-    "proposedPath": "/assets/class-3/english/images/eng-legs.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-legs.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Write the word for these body parts."
   },
   {
     "activityId": "ENG-M4-EW462",
@@ -3005,19 +3001,6 @@
     "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
     "proposedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg",
     "resolvedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg"
-  },
-  {
-    "activityId": "ENG-M4-EW213",
-    "ewId": "EW213",
-    "targetWord": "derry",
-    "activityCode": "E12",
-    "assetId": "eng-derry",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-derry.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-derry.jpg"
   },
   {
     "activityId": "ENG-M4-EW218",
@@ -4637,19 +4620,6 @@
     "prompt": "Look at the picture. These leaves are commonly used to add flavour to Indian dishes. Choose the correct word and write it:",
     "proposedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg",
     "resolvedPath": "/assets/class-3/english/images/eng-curry-leaves.jpg"
-  },
-  {
-    "activityId": "ENG-M5-REV-EW213",
-    "ewId": "EW213",
-    "targetWord": "derry",
-    "activityCode": "E12",
-    "assetId": "eng-derry",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-derry.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-derry.jpg"
   },
   {
     "activityId": "ENG-M6-EW851",

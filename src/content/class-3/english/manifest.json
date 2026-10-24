@@ -2,9 +2,9 @@
   "classLevel": 3,
   "subject": "English",
   "language": "en-IN",
-  "totalUniqueWords": 958,
-  "totalReviewInstances": 280,
-  "totalActivities": 1238,
+  "totalUniqueWords": 957,
+  "totalReviewInstances": 279,
+  "totalActivities": 1236,
   "moduleCount": 8,
   "modules": [
     {
@@ -31,16 +31,16 @@
     {
       "module": 4,
       "title": "Module 4 - Word Construction & Syllables",
-      "newWordCount": 120,
+      "newWordCount": 119,
       "reviewWordCount": 40,
-      "totalActivities": 160
+      "totalActivities": 159
     },
     {
       "module": 5,
       "title": "Module 5 - Context & Extended Vocabulary",
       "newWordCount": 120,
-      "reviewWordCount": 40,
-      "totalActivities": 160
+      "reviewWordCount": 39,
+      "totalActivities": 159
     },
     {
       "module": 6,
@@ -67,11 +67,11 @@
   "difficultyBreakdown": {
     "easy": 225,
     "medium": 278,
-    "hard": 273,
+    "hard": 272,
     "mixed": 64,
     "unclassified": 118
   },
   "version": "2.0.0",
   "sourceVersion": "Class 3 English Updated Spelling Questions (updatedenglishspellingquestions v2)",
-  "generatedDate": "2026-10-24T01:43:19.815Z"
+  "generatedDate": "2026-10-24T08:47:34.179Z"
 }

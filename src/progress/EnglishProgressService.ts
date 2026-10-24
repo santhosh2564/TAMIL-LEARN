@@ -386,16 +386,21 @@ export class EnglishProgressService {
       }
     }
 
-    const curriculumPercent = Math.round((wordsLearned / 958) * 100);
+    const manifest = await this.contentRepo.getEnglishCurriculumManifest();
+    const totalWords = manifest?.totalUniqueWords ?? this.newWordActivitiesByEwId.size;
+    const totalReviews = manifest?.totalReviewInstances ?? 279;
+    const totalActivities = manifest?.totalActivities ?? (totalWords + totalReviews);
+
+    const curriculumPercent = totalWords > 0 ? Math.round((wordsLearned / totalWords) * 100) : 0;
     const recommendedSession = await this.getRecommendedSession();
 
     return {
-      totalWords: 958,
+      totalWords,
       wordsLearned,
       wordsMastered,
-      totalReviews: 280,
+      totalReviews,
       reviewsCompleted,
-      totalActivities: 1238,
+      totalActivities,
       activitiesCompleted,
       totalModules: 8,
       modulesCompleted,

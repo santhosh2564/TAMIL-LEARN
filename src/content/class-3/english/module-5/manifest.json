@@ -4,8 +4,8 @@
   "module": 5,
   "title": "Module 5 - Context & Extended Vocabulary",
   "newWordCount": 120,
-  "reviewWordCount": 40,
-  "totalActivities": 160,
+  "reviewWordCount": 39,
+  "totalActivities": 159,
   "days": [
     {
       "day": 1,
@@ -34,8 +34,8 @@
     {
       "day": 5,
       "newCount": 24,
-      "reviewCount": 8,
-      "totalCount": 32
+      "reviewCount": 7,
+      "totalCount": 31
     }
   ],
   "difficultyBreakdown": {

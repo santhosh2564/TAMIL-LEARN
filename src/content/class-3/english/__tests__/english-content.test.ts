@@ -27,25 +27,25 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
   const newActivities = allActivities.filter(a => a.role === 'new');
   const reviewActivities = allActivities.filter(a => a.role === 'review');
 
-  it('contains exactly 958 unique new vocabulary words and 280 review instances (1238 total)', () => {
-    expect(curriculumManifest.totalUniqueWords).toBe(958);
-    expect(curriculumManifest.totalReviewInstances).toBe(280);
-    expect(curriculumManifest.totalActivities).toBe(1238);
+  it('contains exactly 957 unique new vocabulary words and 279 review instances (1236 total)', () => {
+    expect(curriculumManifest.totalUniqueWords).toBe(957);
+    expect(curriculumManifest.totalReviewInstances).toBe(279);
+    expect(curriculumManifest.totalActivities).toBe(1236);
     expect(curriculumManifest.moduleCount).toBe(8);
 
-    expect(newActivities.length).toBe(958);
-    expect(reviewActivities.length).toBe(280);
-    expect(allActivities.length).toBe(1238);
+    expect(newActivities.length).toBe(957);
+    expect(reviewActivities.length).toBe(279);
+    expect(allActivities.length).toBe(1236);
 
     const uniqueNewEwIds = new Set(newActivities.map(a => a.source.ewId));
-    expect(uniqueNewEwIds.size).toBe(958);
+    expect(uniqueNewEwIds.size).toBe(957);
   });
 
   it('guarantees zero duplicate runtime IDs across the entire curriculum', () => {
     const runtimeIds = allActivities.map(a => a.id);
     const uniqueIds = new Set(runtimeIds);
     expect(uniqueIds.size).toBe(allActivities.length);
-    expect(uniqueIds.size).toBe(1238);
+    expect(uniqueIds.size).toBe(1236);
   });
 
   it('verifies exact module activity counts and manifest definitions', () => {
@@ -55,13 +55,25 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
     expect(moduleManifests[1].reviewWordCount).toBe(0);
     expect(moduleManifests[1].totalActivities).toBe(120);
 
-    // Modules 2–7: 120 new + 40 review = 160 total each
-    for (let m = 2; m <= 7; m++) {
+    // Module 2, 3, 6, 7: 120 new + 40 review = 160 total each
+    for (const m of [2, 3, 6, 7]) {
       expect(moduleActivities[m].length).toBe(160);
       expect(moduleManifests[m].newWordCount).toBe(120);
       expect(moduleManifests[m].reviewWordCount).toBe(40);
       expect(moduleManifests[m].totalActivities).toBe(160);
     }
+
+    // Module 4: 119 new + 40 review = 159 total (EW213 removed)
+    expect(moduleActivities[4].length).toBe(159);
+    expect(moduleManifests[4].newWordCount).toBe(119);
+    expect(moduleManifests[4].reviewWordCount).toBe(40);
+    expect(moduleManifests[4].totalActivities).toBe(159);
+
+    // Module 5: 120 new + 39 review = 159 total (REV-EW213 removed)
+    expect(moduleActivities[5].length).toBe(159);
+    expect(moduleManifests[5].newWordCount).toBe(120);
+    expect(moduleManifests[5].reviewWordCount).toBe(39);
+    expect(moduleManifests[5].totalActivities).toBe(159);
 
     // Module 8: 118 new + 40 review = 158 total
     expect(moduleActivities[8].length).toBe(158);
@@ -80,13 +92,14 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
         seen.add(ewId);
       }
     }
-    expect(seen.size).toBe(958);
+    expect(seen.size).toBe(957);
   });
 
   it('verifies that review words strictly originate from earlier modules', () => {
     for (let m = 2; m <= 8; m++) {
       const modReviews = moduleActivities[m].filter(a => a.role === 'review');
-      expect(modReviews.length).toBe(40);
+      const expectedReviewCount = m === 5 ? 39 : 40;
+      expect(modReviews.length).toBe(expectedReviewCount);
       for (const act of modReviews) {
         expect(act.reviewSourceModule).toBeDefined();
         expect(act.reviewSourceModule!).toBeLessThan(m);
@@ -206,9 +219,11 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
 
       if (m <= 7) {
         for (let d = 1; d <= 5; d++) {
-          expect(byDay[d].newCount).toBe(24);
+          const expectedNew = (m === 4 && d === 2) ? 23 : 24;
+          expect(byDay[d].newCount).toBe(expectedNew);
           if (m >= 2) {
-            expect(byDay[d].revCount).toBe(8);
+            const expectedRev = (m === 5 && d === 5) ? 7 : 8;
+            expect(byDay[d].revCount).toBe(expectedRev);
           }
         }
       } else {
@@ -231,7 +246,7 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
 
     const assetRequirements = JSON.parse(fs.readFileSync(assetPath, 'utf-8'));
     expect(Array.isArray(assetRequirements)).toBe(true);
-    expect(assetRequirements.length).toBe(489);
+    expect(assetRequirements.length).toBe(487);
 
     let mappedCount = 0;
     let missingCount = 0;
@@ -262,15 +277,15 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
       }
     }
 
-    expect(mappedCount).toBe(326);
+    expect(mappedCount).toBe(322);
     expect(missingCount).toBe(78);
-    expect(textOnlyCount).toBe(85);
+    expect(textOnlyCount).toBe(87);
 
     // Also verify asset-manifest.json exists and has valid local entries
     const manifestPath = path.join(ENG_DIR, 'asset-manifest.json');
     expect(fs.existsSync(manifestPath)).toBe(true);
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
-    expect(Object.keys(manifest).length).toBe(247);
+    expect(Object.keys(manifest).length).toBe(244);
     for (const [key, entry] of Object.entries(manifest)) {
       expect(key).toMatch(/^eng-/);
       expect((entry as { type: string }).type).toBe('image');

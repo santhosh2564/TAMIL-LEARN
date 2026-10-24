@@ -350,14 +350,14 @@ describe('EnglishProgressService', () => {
   });
 
   describe('6. Curriculum Summary Aggregation', () => {
-    it('returns exact baseline totals (958 words, 280 reviews, 1238 activities, 8 modules)', async () => {
+    it('returns exact baseline totals (957 words, 279 reviews, 1236 activities, 8 modules)', async () => {
       const curr = await service.getCurriculumProgress();
-      expect(curr.totalWords).toBe(958);
+      expect(curr.totalWords).toBe(957);
       expect(curr.wordsLearned).toBe(0);
       expect(curr.wordsMastered).toBe(0);
-      expect(curr.totalReviews).toBe(280);
+      expect(curr.totalReviews).toBe(279);
       expect(curr.reviewsCompleted).toBe(0);
-      expect(curr.totalActivities).toBe(1238);
+      expect(curr.totalActivities).toBe(1236);
       expect(curr.activitiesCompleted).toBe(0);
       expect(curr.totalModules).toBe(8);
       expect(curr.modulesCompleted).toBe(0);
@@ -378,7 +378,7 @@ describe('EnglishProgressService', () => {
       expect(curr.wordsLearned).toBe(24);
       expect(curr.wordsMastered).toBe(0); // None mastered yet because M1 has no reviews
       expect(curr.activitiesCompleted).toBe(24);
-      expect(curr.curriculumPercent).toBe(Math.round((24 / 958) * 100)); // ~3%
+      expect(curr.curriculumPercent).toBe(Math.round((24 / 957) * 100)); // ~3%
     });
   });
 });

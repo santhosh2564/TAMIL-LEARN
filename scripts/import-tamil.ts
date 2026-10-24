@@ -108,7 +108,7 @@ function splitDelimited(str?: string): string[] {
   return str.split(delimiter).map(s => s.trim()).filter(Boolean);
 }
 
-export function normalizeRecord(rec: RawRecord): Activity {
+export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknown>): Activity {
   const sourceId = rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`;
   const rawActivity = (rec['Activity'] || '').trim();
   let { category, variant } = normalizeTamilCategory(rawActivity);
@@ -153,6 +153,16 @@ export function normalizeRecord(rec: RawRecord): Activity {
   } else if (sourceId === 'Q025') {
     tokens.length = 0;
     tokens.push('வா', 'லி', 'னொ');
+  } else if (sourceId === 'FTS0171') {
+    const idx = tokens.indexOf('ற்');
+    if (idx !== -1) tokens[idx] = 'லை';
+  } else if (sourceId === 'FTS0614') {
+    if (tokens.length >= 4 && tokens[3] === 'நிந்தனை') {
+      tokens[3] = 'நிந்தலை';
+    }
+  } else if (sourceId === 'FTS0677') {
+    const idx = tokens.indexOf('ர');
+    if (idx !== -1) tokens[idx] = 'ரி';
   }
 
   if (category === 'word-completion') {
@@ -196,6 +206,10 @@ export function normalizeRecord(rec: RawRecord): Activity {
   const picAssetId = `class3-tamil-picture-${sourceId.toLowerCase()}`;
   if (rec.image?.path) {
     imageAssetId = picAssetId;
+  } else if (rawActivity.includes('Picture') || prompt.includes('படத்தில்') || category === 'picture-recognition') {
+    if (manifest && (manifest[picAssetId] || manifest[sourceId.toLowerCase()])) {
+      imageAssetId = picAssetId;
+    }
   }
 
   const activity: Activity = {
@@ -244,6 +258,7 @@ export function normalizeRecord(rec: RawRecord): Activity {
       source: imageAssetId,
       alt: targetWord
     };
+    activity.needsImage = true;
   }
 
   return activity;
@@ -270,6 +285,29 @@ export function importTamilContent() {
     Object.assign(assetManifest, term1Assets);
   }
 
+  // 1. Pre-collect all image assets from records so manifest is complete
+  for (const modDir of moduleDirs) {
+    const files = fs.readdirSync(path.join(SOURCE_DIR, modDir)).filter(f => f.endsWith('.json')).sort();
+    for (const f of files) {
+      const fullPath = path.join(SOURCE_DIR, modDir, f);
+      const rawRecords: RawRecord[] = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+      for (const rec of rawRecords) {
+        const sourceId = rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`;
+        if (rec.image?.path) {
+          const assetKey = `class3-tamil-picture-${sourceId.toLowerCase()}`;
+          assetManifest[assetKey] = {
+            type: 'image',
+            source: 'local',
+            path: rec.image.path,
+            alt: rec['Target Word']?.trim()
+          };
+          assetManifest[sourceId.toLowerCase()] = assetManifest[assetKey];
+        }
+      }
+    }
+  }
+
+  // 2. Normalize records with full assetManifest
   for (const modDir of moduleDirs) {
     const modNum = parseModuleNumber(modDir);
     const modActivities: Activity[] = [];
@@ -280,22 +318,9 @@ export function importTamilContent() {
       const rawRecords: RawRecord[] = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
 
       for (const rec of rawRecords) {
-        const activity = normalizeRecord(rec);
+        const activity = normalizeRecord(rec, assetManifest);
         allActivities.push(activity);
         modActivities.push(activity);
-
-        // Register image in asset manifest if present
-        if (rec.image?.path) {
-          const assetKey = `class3-tamil-picture-${activity.id.toLowerCase()}`;
-          assetManifest[assetKey] = {
-            type: 'image',
-            source: 'local',
-            path: rec.image.path,
-            alt: activity.targetWord
-          };
-          // Also alias by sourceId
-          assetManifest[activity.id.toLowerCase()] = assetManifest[assetKey];
-        }
       }
     }
 

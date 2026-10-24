@@ -5644,7 +5644,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0930",
       "alt": "வகுப்பறை"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0931",
@@ -5702,7 +5703,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0931",
       "alt": "வகுப்பு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0937",
@@ -5760,7 +5762,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0937",
       "alt": "வணிகர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0940",
@@ -5823,7 +5826,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0940",
       "alt": "வண்ணமிடப்பட்ட"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0949",
@@ -5881,7 +5885,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0949",
       "alt": "வரைபடம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0950",
@@ -5939,7 +5944,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0950",
       "alt": "வரைமெழுகு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0955",
@@ -5997,7 +6003,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0955",
       "alt": "வறுவல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0970",
@@ -6055,7 +6062,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0970",
       "alt": "வழுக்குமரம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0972",
@@ -6118,7 +6126,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0972",
       "alt": "வாகனம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0974",
@@ -6176,7 +6185,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0974",
       "alt": "வாசகர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0981",
@@ -6234,7 +6244,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0981",
       "alt": "வாத்து"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0983",
@@ -6292,7 +6303,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0983",
       "alt": "வானூர்தி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0985",
@@ -6355,7 +6367,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0985",
       "alt": "வான்கோழி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0987",
@@ -6413,7 +6426,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0987",
       "alt": "வாயிற்காவலர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0991",
@@ -6471,7 +6485,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0991",
       "alt": "வாரஇதழ்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1010",
@@ -6534,7 +6549,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1010",
       "alt": "வியாபாரி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1013",
@@ -6602,7 +6618,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1013",
       "alt": "விருந்தினர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1021",
@@ -6670,7 +6687,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1021",
       "alt": "விளையாட்டுத்திடல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1025",
@@ -6738,7 +6756,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1025",
       "alt": "விவசாயி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1038",
@@ -6801,7 +6820,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1038",
       "alt": "வெல்லம்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1039",
@@ -6922,7 +6942,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q129",
       "alt": "வயல்வெளிகள்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q134",
@@ -6989,7 +7010,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q134",
       "alt": "வானவில்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q133",
@@ -7036,7 +7058,13 @@
         "id": "D",
         "label": "வாலை"
       }
-    ]
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q133",
+      "alt": "வழி"
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0976",
@@ -7098,7 +7126,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0976",
       "alt": "வாசல்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS0994",
@@ -7160,7 +7189,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts0994",
       "alt": "வால்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1016",
@@ -7222,7 +7252,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1016",
       "alt": "விறகு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1030",
@@ -7284,7 +7315,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1030",
       "alt": "வீதி"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1032",
@@ -7346,7 +7378,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1032",
       "alt": "வீரர்"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "FTS1056",
@@ -7408,7 +7441,8 @@
       "type": "image",
       "source": "class3-tamil-picture-fts1056",
       "alt": "ஷூ"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q138",
@@ -7469,7 +7503,8 @@
       "type": "image",
       "source": "class3-tamil-picture-q138",
       "alt": "விலங்கு"
-    }
+    },
+    "needsImage": true
   },
   {
     "id": "Q140",
@@ -7516,6 +7551,12 @@
         "id": "D",
         "label": "வீடம்"
       }
-    ]
+    ],
+    "image": {
+      "type": "image",
+      "source": "class3-tamil-picture-q140",
+      "alt": "வீடு"
+    },
+    "needsImage": true
   }
 ]
