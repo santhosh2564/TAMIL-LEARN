@@ -47,8 +47,8 @@
   },
   "supportedCategories": [
     "word-completion",
-    "picture-recognition",
     "arrange-word",
+    "picture-recognition",
     "spelling-choice"
   ],
   "version": "2.0.0"

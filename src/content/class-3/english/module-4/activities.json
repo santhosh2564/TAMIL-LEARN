@@ -31,8 +31,8 @@
         "label": "art"
       }
     ],
-    "template": "_ _ _ | Jumbled letter tiles: t | a | r",
     "correctAnswer": "art",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW019",
@@ -73,8 +73,8 @@
         "label": "mango"
       }
     ],
-    "template": "_ _ _ _ | Jumbled letter tiles: o | t | a | u",
     "correctAnswer": "auto",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW024",
@@ -115,8 +115,8 @@
         "label": "cow"
       }
     ],
-    "template": "______ | Jumbled letter tiles: y | j | o",
     "correctAnswer": "joy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW432",
@@ -157,8 +157,8 @@
         "label": "meat"
       }
     ],
-    "template": "______ | Jumbled letter tiles: t | a | m | e",
     "correctAnswer": "meat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW499",
@@ -201,6 +201,11 @@
       "n"
     ],
     "correctAnswer": "ant",
+    "image": {
+      "type": "image",
+      "source": "eng-ant"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW015",
@@ -243,6 +248,11 @@
       "a"
     ],
     "correctAnswer": "bag",
+    "image": {
+      "type": "image",
+      "source": "eng-bag"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW032",
@@ -285,6 +295,11 @@
       "t"
     ],
     "correctAnswer": "bat",
+    "image": {
+      "type": "image",
+      "source": "eng-bat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW040",
@@ -327,6 +342,11 @@
       "b"
     ],
     "correctAnswer": "bed",
+    "image": {
+      "type": "image",
+      "source": "eng-bed"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW048",
@@ -369,6 +389,11 @@
       "b"
     ],
     "correctAnswer": "box",
+    "image": {
+      "type": "image",
+      "source": "eng-box"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW080",
@@ -411,6 +436,11 @@
       "b"
     ],
     "correctAnswer": "boy",
+    "image": {
+      "type": "image",
+      "source": "eng-boy"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW081",
@@ -453,6 +483,11 @@
       "b"
     ],
     "correctAnswer": "bun",
+    "image": {
+      "type": "image",
+      "source": "eng-bun"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW102",
@@ -495,6 +530,11 @@
       "b"
     ],
     "correctAnswer": "bus",
+    "image": {
+      "type": "image",
+      "source": "eng-bus"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW105",
@@ -537,6 +577,11 @@
       "a"
     ],
     "correctAnswer": "car",
+    "image": {
+      "type": "image",
+      "source": "eng-car"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW116",
@@ -579,6 +624,11 @@
       "t"
     ],
     "correctAnswer": "cat",
+    "image": {
+      "type": "image",
+      "source": "eng-cat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW123",
@@ -621,6 +671,11 @@
       "o"
     ],
     "correctAnswer": "cop",
+    "image": {
+      "type": "image",
+      "source": "eng-cop"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW169",
@@ -663,6 +718,11 @@
       "c"
     ],
     "correctAnswer": "cot",
+    "image": {
+      "type": "image",
+      "source": "eng-cot"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW172",
@@ -705,6 +765,11 @@
       "o"
     ],
     "correctAnswer": "cow",
+    "image": {
+      "type": "image",
+      "source": "eng-cow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW174",
@@ -747,6 +812,11 @@
       "p"
     ],
     "correctAnswer": "cup",
+    "image": {
+      "type": "image",
+      "source": "eng-cup"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW192",
@@ -789,6 +859,11 @@
       "d"
     ],
     "correctAnswer": "dad",
+    "image": {
+      "type": "image",
+      "source": "eng-dad"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW199",
@@ -831,6 +906,11 @@
       "d"
     ],
     "correctAnswer": "den",
+    "image": {
+      "type": "image",
+      "source": "eng-den"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW212",
@@ -873,6 +953,11 @@
       "d"
     ],
     "correctAnswer": "dog",
+    "image": {
+      "type": "image",
+      "source": "eng-dog"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW229",
@@ -915,6 +1000,11 @@
       "a"
     ],
     "correctAnswer": "ear",
+    "image": {
+      "type": "image",
+      "source": "eng-ear"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW250",
@@ -957,6 +1047,11 @@
       "f"
     ],
     "correctAnswer": "fan",
+    "image": {
+      "type": "image",
+      "source": "eng-fan"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW270",
@@ -999,6 +1094,11 @@
       "i"
     ],
     "correctAnswer": "fig",
+    "image": {
+      "type": "image",
+      "source": "eng-fig"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW287",
@@ -1041,6 +1141,11 @@
       "f"
     ],
     "correctAnswer": "fox",
+    "image": {
+      "type": "image",
+      "source": "eng-fox"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW316",
@@ -1083,6 +1188,11 @@
       "m"
     ],
     "correctAnswer": "ham",
+    "image": {
+      "type": "image",
+      "source": "eng-ham"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW368",
@@ -1120,6 +1230,11 @@
       "h"
     ],
     "correctAnswer": "he",
+    "image": {
+      "type": "image",
+      "source": "eng-he"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW379",
@@ -1162,6 +1277,11 @@
       "h"
     ],
     "correctAnswer": "hen",
+    "image": {
+      "type": "image",
+      "source": "eng-hen"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW390",
@@ -1204,6 +1324,11 @@
       "o"
     ],
     "correctAnswer": "hop",
+    "image": {
+      "type": "image",
+      "source": "eng-hop"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW401",
@@ -1246,6 +1371,11 @@
       "j"
     ],
     "correctAnswer": "jam",
+    "image": {
+      "type": "image",
+      "source": "eng-jam"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW427",
@@ -1288,6 +1418,11 @@
       "a"
     ],
     "correctAnswer": "jar",
+    "image": {
+      "type": "image",
+      "source": "eng-jar"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW428",
@@ -1330,6 +1465,11 @@
       "e"
     ],
     "correctAnswer": "jet",
+    "image": {
+      "type": "image",
+      "source": "eng-jet"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW429",
@@ -1372,6 +1512,11 @@
       "j"
     ],
     "correctAnswer": "jug",
+    "image": {
+      "type": "image",
+      "source": "eng-jug"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW434",
@@ -1414,6 +1559,11 @@
       "i"
     ],
     "correctAnswer": "kid",
+    "image": {
+      "type": "image",
+      "source": "eng-kid"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW442",
@@ -1456,6 +1606,11 @@
       "i"
     ],
     "correctAnswer": "kit",
+    "image": {
+      "type": "image",
+      "source": "eng-kit"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW443",
@@ -1498,6 +1653,11 @@
       "p"
     ],
     "correctAnswer": "lap",
+    "image": {
+      "type": "image",
+      "source": "eng-lap"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW452",
@@ -1540,6 +1700,11 @@
       "g"
     ],
     "correctAnswer": "leg",
+    "image": {
+      "type": "image",
+      "source": "eng-leg"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW460",
@@ -1582,6 +1747,11 @@
       "l"
     ],
     "correctAnswer": "lip",
+    "image": {
+      "type": "image",
+      "source": "eng-lip"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW474",
@@ -1624,6 +1794,11 @@
       "a"
     ],
     "correctAnswer": "man",
+    "image": {
+      "type": "image",
+      "source": "eng-man"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW492",
@@ -1666,6 +1841,11 @@
       "m"
     ],
     "correctAnswer": "map",
+    "image": {
+      "type": "image",
+      "source": "eng-map"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW494",
@@ -1687,7 +1867,7 @@
     "targetWord": "barn",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. This is a building where farm animals are kept. Write the word.",
+    "prompt": "This is a building where farm animals are kept. Write the word.",
     "options": [
       {
         "id": "A",
@@ -1713,6 +1893,7 @@
       "n"
     ],
     "correctAnswer": "barn",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW038",
@@ -1760,6 +1941,11 @@
       "a"
     ],
     "correctAnswer": "beak",
+    "image": {
+      "type": "image",
+      "source": "eng-beak"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW043",
@@ -1807,6 +1993,11 @@
       "e"
     ],
     "correctAnswer": "bean",
+    "image": {
+      "type": "image",
+      "source": "eng-bean"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW044",
@@ -1854,6 +2045,11 @@
       "o"
     ],
     "correctAnswer": "corn",
+    "image": {
+      "type": "image",
+      "source": "eng-corn"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW171",
@@ -1901,6 +2097,11 @@
       "e"
     ],
     "correctAnswer": "desk",
+    "image": {
+      "type": "image",
+      "source": "eng-desk"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW216",
@@ -1948,6 +2149,11 @@
       "r"
     ],
     "correctAnswer": "drum",
+    "image": {
+      "type": "image",
+      "source": "eng-drum"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW242",
@@ -1995,6 +2201,11 @@
       "s"
     ],
     "correctAnswer": "fins",
+    "image": {
+      "type": "image",
+      "source": "eng-fins"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW291",
@@ -2042,6 +2253,11 @@
       "r"
     ],
     "correctAnswer": "fork",
+    "image": {
+      "type": "image",
+      "source": "eng-fork"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW314",
@@ -2084,6 +2300,11 @@
       "u"
     ],
     "correctAnswer": "fur",
+    "image": {
+      "type": "image",
+      "source": "eng-fur"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW324",
@@ -2126,6 +2347,11 @@
       "g"
     ],
     "correctAnswer": "gun",
+    "image": {
+      "type": "image",
+      "source": "eng-gun"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW366",
@@ -2173,6 +2399,11 @@
       "n"
     ],
     "correctAnswer": "horn",
+    "image": {
+      "type": "image",
+      "source": "eng-horn"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW403",
@@ -2220,6 +2451,11 @@
       "e"
     ],
     "correctAnswer": "leaf",
+    "image": {
+      "type": "image",
+      "source": "eng-leaf"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW456",
@@ -2267,6 +2503,11 @@
       "l"
     ],
     "correctAnswer": "lift",
+    "image": {
+      "type": "image",
+      "source": "eng-lift"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW468",
@@ -2314,6 +2555,11 @@
       "n"
     ],
     "correctAnswer": "ring",
+    "image": {
+      "type": "image",
+      "source": "eng-ring"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW651",
@@ -2361,6 +2607,11 @@
       "s"
     ],
     "correctAnswer": "ship",
+    "image": {
+      "type": "image",
+      "source": "eng-ship"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW709",
@@ -2408,6 +2659,11 @@
       "i"
     ],
     "correctAnswer": "sink",
+    "image": {
+      "type": "image",
+      "source": "eng-sink"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW728",
@@ -2429,7 +2685,7 @@
     "targetWord": "skin",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for the part covering the person's hand or arm.",
+    "prompt": "Write the word for the part covering the person's hand or arm.",
     "options": [
       {
         "id": "A",
@@ -2455,6 +2711,7 @@
       "s"
     ],
     "correctAnswer": "skin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW731",
@@ -2502,6 +2759,11 @@
       "o"
     ],
     "correctAnswer": "sofa",
+    "image": {
+      "type": "image",
+      "source": "eng-sofa"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW752",
@@ -2549,6 +2811,11 @@
       "t"
     ],
     "correctAnswer": "tool",
+    "image": {
+      "type": "image",
+      "source": "eng-tool"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW865",
@@ -2596,6 +2863,11 @@
       "w"
     ],
     "correctAnswer": "town",
+    "image": {
+      "type": "image",
+      "source": "eng-town"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW869",
@@ -2643,6 +2915,11 @@
       "g"
     ],
     "correctAnswer": "wing",
+    "image": {
+      "type": "image",
+      "source": "eng-wing"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW934",
@@ -2690,6 +2967,11 @@
       "v"
     ],
     "correctAnswer": "aval",
+    "image": {
+      "type": "image",
+      "source": "eng-aval"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW025",
@@ -2752,6 +3034,11 @@
       "b"
     ],
     "correctAnswer": "brinjal",
+    "image": {
+      "type": "image",
+      "source": "eng-brinjal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW092",
@@ -2809,6 +3096,11 @@
       "e"
     ],
     "correctAnswer": "flower",
+    "image": {
+      "type": "image",
+      "source": "eng-flower"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW303",
@@ -2856,6 +3148,11 @@
       "u"
     ],
     "correctAnswer": "gaur",
+    "image": {
+      "type": "image",
+      "source": "eng-gaur"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW330",
@@ -2913,6 +3210,11 @@
       "i"
     ],
     "correctAnswer": "ginger",
+    "image": {
+      "type": "image",
+      "source": "eng-ginger"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW337",
@@ -2934,7 +3236,7 @@
     "targetWord": "hands",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word for these body parts.",
+    "prompt": "Write the word for these body parts.",
     "options": [
       {
         "id": "A",
@@ -2965,6 +3267,7 @@
       "s"
     ],
     "correctAnswer": "hands",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW372",
@@ -3022,6 +3325,11 @@
       "u"
     ],
     "correctAnswer": "laddus",
+    "image": {
+      "type": "image",
+      "source": "eng-laddus"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW448",
@@ -3069,6 +3377,11 @@
       "l"
     ],
     "correctAnswer": "legs",
+    "image": {
+      "type": "image",
+      "source": "eng-legs"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW461",
@@ -3121,6 +3434,11 @@
       "l"
     ],
     "correctAnswer": "lemon",
+    "image": {
+      "type": "image",
+      "source": "eng-lemon"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW462",
@@ -3173,6 +3491,11 @@
       "g"
     ],
     "correctAnswer": "mango",
+    "image": {
+      "type": "image",
+      "source": "eng-mango"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW493",
@@ -3225,6 +3548,11 @@
       "i"
     ],
     "correctAnswer": "mixie",
+    "image": {
+      "type": "image",
+      "source": "eng-mixie"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW509",
@@ -3246,7 +3574,7 @@
     "targetWord": "paws",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
@@ -3272,6 +3600,7 @@
       "w"
     ],
     "correctAnswer": "paws",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW571",
@@ -3324,6 +3653,11 @@
       "p"
     ],
     "correctAnswer": "ponds",
+    "image": {
+      "type": "image",
+      "source": "eng-ponds"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW605",
@@ -3376,6 +3710,11 @@
       "p"
     ],
     "correctAnswer": "puppy",
+    "image": {
+      "type": "image",
+      "source": "eng-puppy"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW623",
@@ -3433,6 +3772,11 @@
       "t"
     ],
     "correctAnswer": "rabbit",
+    "image": {
+      "type": "image",
+      "source": "eng-rabbit"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW629",
@@ -3485,6 +3829,11 @@
       "e"
     ],
     "correctAnswer": "saree",
+    "image": {
+      "type": "image",
+      "source": "eng-saree"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW677",
@@ -3537,6 +3886,11 @@
       "e"
     ],
     "correctAnswer": "seeds",
+    "image": {
+      "type": "image",
+      "source": "eng-seeds"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW694",
@@ -3594,6 +3948,11 @@
       "r"
     ],
     "correctAnswer": "shorts",
+    "image": {
+      "type": "image",
+      "source": "eng-shorts"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW718",
@@ -3646,6 +4005,11 @@
       "s"
     ],
     "correctAnswer": "socks",
+    "image": {
+      "type": "image",
+      "source": "eng-socks"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW751",
@@ -3698,6 +4062,11 @@
       "t"
     ],
     "correctAnswer": "tabla",
+    "image": {
+      "type": "image",
+      "source": "eng-tabla"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW813",
@@ -3765,6 +4134,11 @@
       "n"
     ],
     "correctAnswer": "thank you",
+    "image": {
+      "type": "image",
+      "source": "eng-thank-you"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW834",
@@ -3822,6 +4196,11 @@
       "t"
     ],
     "correctAnswer": "tomato",
+    "image": {
+      "type": "image",
+      "source": "eng-tomato"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW862",
@@ -3874,6 +4253,11 @@
       "l"
     ],
     "correctAnswer": "towel",
+    "image": {
+      "type": "image",
+      "source": "eng-towel"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW868",
@@ -3926,6 +4310,11 @@
       "a"
     ],
     "correctAnswer": "veena",
+    "image": {
+      "type": "image",
+      "source": "eng-veena"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW902",
@@ -3983,6 +4372,11 @@
       "l"
     ],
     "correctAnswer": "violet",
+    "image": {
+      "type": "image",
+      "source": "eng-violet"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW906",
@@ -4035,6 +4429,11 @@
       "s"
     ],
     "correctAnswer": "wings",
+    "image": {
+      "type": "image",
+      "source": "eng-wings"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW935",
@@ -4056,33 +4455,34 @@
     "targetWord": "crack",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "There is a ______ in the wall. Complete the word: Look at the picture and complete the word:",
+    "prompt": "There is a ______ in the wall. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "crack"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "i"
       }
     ],
     "units": [
-      "h",
-      "m",
-      "crack",
-      "r"
+      "o",
+      "e",
+      "a",
+      "i"
     ],
-    "template": "a / o / e",
+    "template": "c r _ c k",
     "correctAnswer": "crack",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW175",
@@ -4104,33 +4504,34 @@
     "targetWord": "deep",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The well is very ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The well is very ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "deep"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "u"
       }
     ],
     "units": [
-      "d",
-      "deep",
-      "h",
-      "m"
+      "a",
+      "e",
+      "o",
+      "u"
     ],
-    "template": "e / a / o",
+    "template": "d e _ p",
     "correctAnswer": "deep",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW208",
@@ -4152,33 +4553,34 @@
     "targetWord": "drink",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ water when we are thirsty. Complete the word: Look at the picture and complete the word:",
+    "prompt": "We ______ water when we are thirsty. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "drink"
+        "label": "i"
       }
     ],
     "units": [
-      "k",
-      "n",
-      "s",
-      "drink"
+      "a",
+      "e",
+      "u",
+      "i"
     ],
-    "template": "i / a / e",
+    "template": "d r _ n k",
     "correctAnswer": "drink",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW239",
@@ -4219,8 +4621,8 @@
         "label": "kit"
       }
     ],
-    "template": "Write the word: _ _ _ | Jumbled letter tiles: w | f | e",
     "correctAnswer": "few",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW283",
@@ -4263,6 +4665,11 @@
       "p"
     ],
     "correctAnswer": "cap",
+    "image": {
+      "type": "image",
+      "source": "eng-cap"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW115",
@@ -4305,6 +4712,11 @@
       "a"
     ],
     "correctAnswer": "hat",
+    "image": {
+      "type": "image",
+      "source": "eng-hat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW377",
@@ -4352,6 +4764,11 @@
       "j"
     ],
     "correctAnswer": "jump",
+    "image": {
+      "type": "image",
+      "source": "eng-jump"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW436",
@@ -4404,6 +4821,11 @@
       "l"
     ],
     "correctAnswer": "lunch",
+    "image": {
+      "type": "image",
+      "source": "eng-lunch"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW488",
@@ -4451,6 +4873,11 @@
       "e"
     ],
     "correctAnswer": "nest",
+    "image": {
+      "type": "image",
+      "source": "eng-nest"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW539",
@@ -4491,8 +4918,8 @@
         "label": "tomato"
       }
     ],
-    "template": "__________________ | Jumbled letter tiles: s | e | r | a | c | e | l",
     "correctAnswer": "cereals",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW128",
@@ -4533,8 +4960,8 @@
         "label": "dew"
       }
     ],
-    "template": "Write the word: _ _ _ | Jumbled letter tiles: w | d | e",
     "correctAnswer": "dew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW217",
@@ -4575,8 +5002,8 @@
         "label": "deep"
       }
     ],
-    "template": "______ | Jumbled letter tiles: l | a | m | e",
     "correctAnswer": "meal",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW498",
@@ -4602,29 +5029,30 @@
     "options": [
       {
         "id": "A",
-        "label": "anything"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "o"
       }
     ],
     "units": [
-      "anything",
-      "w",
-      "d",
-      "h"
+      "i",
+      "e",
+      "a",
+      "o"
     ],
-    "template": "i / e / a",
+    "template": "a n y t h _ n g",
     "correctAnswer": "anything",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW016",
@@ -4687,6 +5115,11 @@
       "a"
     ],
     "correctAnswer": "animals",
+    "image": {
+      "type": "image",
+      "source": "eng-animals"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW012",
@@ -4739,6 +5172,11 @@
       "r"
     ],
     "correctAnswer": "scarf",
+    "image": {
+      "type": "image",
+      "source": "eng-scarf"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW682",
@@ -4791,6 +5229,11 @@
       "c"
     ],
     "correctAnswer": "snack",
+    "image": {
+      "type": "image",
+      "source": "eng-snack"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW741",
@@ -4833,6 +5276,11 @@
       "t"
     ],
     "correctAnswer": "toe",
+    "image": {
+      "type": "image",
+      "source": "eng-toe"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW858",
@@ -4880,6 +5328,11 @@
       "w"
     ],
     "correctAnswer": "wood",
+    "image": {
+      "type": "image",
+      "source": "eng-wood"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW942",
@@ -4967,6 +5420,11 @@
       "r"
     ],
     "correctAnswer": "anjaraipetti",
+    "image": {
+      "type": "image",
+      "source": "eng-anjaraipetti"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW013",
@@ -5034,6 +5492,11 @@
       "u"
     ],
     "correctAnswer": "ash gourd",
+    "image": {
+      "type": "image",
+      "source": "eng-ash-gourd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW020",
@@ -5111,6 +5574,11 @@
       "r"
     ],
     "correctAnswer": "bengal gram",
+    "image": {
+      "type": "image",
+      "source": "eng-bengal-gram"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW053",
@@ -5183,6 +5651,11 @@
       "l"
     ],
     "correctAnswer": "black gram",
+    "image": {
+      "type": "image",
+      "source": "eng-black-gram"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW062",
@@ -5240,6 +5713,11 @@
       "e"
     ],
     "correctAnswer": "cashew",
+    "image": {
+      "type": "image",
+      "source": "eng-cashew"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW121",
@@ -5322,6 +5800,11 @@
       "e"
     ],
     "correctAnswer": "curry leaves",
+    "image": {
+      "type": "image",
+      "source": "eng-curry-leaves"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW195",
@@ -5374,6 +5857,11 @@
       "r"
     ],
     "correctAnswer": "derry",
+    "image": {
+      "type": "image",
+      "source": "eng-derry"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW213",
@@ -5426,6 +5914,11 @@
       "i"
     ],
     "correctAnswer": "dhoti",
+    "image": {
+      "type": "image",
+      "source": "eng-dhoti"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW218",
@@ -5447,7 +5940,7 @@
     "targetWord": "feathers",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. These cover a bird's body. Write the word.",
+    "prompt": "These cover a bird's body. Write the word.",
     "options": [
       {
         "id": "A",
@@ -5493,6 +5986,7 @@
       "f"
     ],
     "correctAnswer": "feathers",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW278",
@@ -5550,6 +6044,11 @@
       "g"
     ],
     "correctAnswer": "finger",
+    "image": {
+      "type": "image",
+      "source": "eng-finger"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW289",
@@ -5612,6 +6111,11 @@
       "n"
     ],
     "correctAnswer": "fingers",
+    "image": {
+      "type": "image",
+      "source": "eng-fingers"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW290",
@@ -5654,6 +6158,11 @@
       "u"
     ],
     "correctAnswer": "bug",
+    "image": {
+      "type": "image",
+      "source": "eng-bug"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW098",
@@ -5696,6 +6205,11 @@
       "m"
     ],
     "correctAnswer": "gem",
+    "image": {
+      "type": "image",
+      "source": "eng-gem"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW332",
@@ -5743,6 +6257,11 @@
       "t"
     ],
     "correctAnswer": "rest",
+    "image": {
+      "type": "image",
+      "source": "eng-rest"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW646",
@@ -5790,6 +6309,11 @@
       "t"
     ],
     "correctAnswer": "seat",
+    "image": {
+      "type": "image",
+      "source": "eng-seat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW691",
@@ -5816,33 +6340,38 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "E"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "P"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "L"
       },
       {
         "id": "E",
-        "label": "a"
+        "label": "P"
       }
     ],
     "units": [
-      "e",
-      "l",
-      "p",
-      "p",
-      "a"
+      "A",
+      "E",
+      "P",
+      "L",
+      "P"
     ],
     "correctAnswer": "apple",
+    "image": {
+      "type": "image",
+      "source": "eng-apple"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW017",
@@ -5869,28 +6398,33 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "B"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "I"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "R"
       }
     ],
     "units": [
-      "r",
-      "i",
-      "b",
-      "d"
+      "B",
+      "I",
+      "D",
+      "R"
     ],
     "correctAnswer": "bird",
+    "image": {
+      "type": "image",
+      "source": "eng-bird"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW060",
@@ -5917,28 +6451,33 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "W"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "O"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "R"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "C"
       }
     ],
     "units": [
-      "c",
-      "o",
-      "w",
-      "r"
+      "W",
+      "O",
+      "R",
+      "C"
     ],
     "correctAnswer": "crow",
+    "image": {
+      "type": "image",
+      "source": "eng-crow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW184",
@@ -5965,28 +6504,33 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "U"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "C"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "R"
       }
     ],
     "units": [
-      "c",
-      "d",
-      "r",
-      "u"
+      "D",
+      "U",
+      "C",
+      "R"
     ],
     "correctAnswer": "curd",
+    "image": {
+      "type": "image",
+      "source": "eng-curd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW194",
@@ -6013,28 +6557,33 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "D"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "H"
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "I"
       }
     ],
     "units": [
-      "i",
-      "d",
-      "h",
-      "s"
+      "D",
+      "S",
+      "H",
+      "I"
     ],
     "correctAnswer": "dish",
+    "image": {
+      "type": "image",
+      "source": "eng-dish"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW226",
@@ -6061,28 +6610,33 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "D"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "O"
       }
     ],
     "units": [
-      "o",
-      "o",
-      "d",
-      "r"
+      "O",
+      "R",
+      "D",
+      "O"
     ],
     "correctAnswer": "door",
+    "image": {
+      "type": "image",
+      "source": "eng-door"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW231",
@@ -6109,28 +6663,33 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "K"
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "C"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "U"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "D"
       }
     ],
     "units": [
-      "c",
-      "k",
-      "u",
-      "d"
+      "K",
+      "C",
+      "U",
+      "D"
     ],
     "correctAnswer": "duck",
+    "image": {
+      "type": "image",
+      "source": "eng-duck"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW245",
@@ -6157,28 +6716,33 @@
     "options": [
       {
         "id": "A",
-        "label": "f"
+        "label": "A"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "F"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "R"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "M"
       }
     ],
     "units": [
-      "f",
-      "m",
-      "r",
-      "a"
+      "A",
+      "F",
+      "R",
+      "M"
     ],
     "correctAnswer": "farm",
+    "image": {
+      "type": "image",
+      "source": "eng-farm"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW272",
@@ -6205,28 +6769,33 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "F"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "S"
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "H"
       }
     ],
     "units": [
-      "i",
-      "s",
-      "f",
-      "h"
+      "F",
+      "S",
+      "I",
+      "H"
     ],
     "correctAnswer": "fish",
+    "image": {
+      "type": "image",
+      "source": "eng-fish"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW294",
@@ -6253,28 +6822,33 @@
     "options": [
       {
         "id": "A",
-        "label": "f"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "F"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "O"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "A"
       }
     ],
     "units": [
-      "f",
-      "a",
-      "o",
-      "l"
+      "L",
+      "F",
+      "O",
+      "A"
     ],
     "correctAnswer": "foal",
+    "image": {
+      "type": "image",
+      "source": "eng-foal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW308",
@@ -6301,33 +6875,38 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "C"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "F"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "K"
       },
       {
         "id": "E",
-        "label": "f"
+        "label": "R"
       }
     ],
     "units": [
-      "o",
-      "r",
-      "c",
-      "k",
-      "f"
+      "O",
+      "C",
+      "F",
+      "K",
+      "R"
     ],
     "correctAnswer": "frock",
+    "image": {
+      "type": "image",
+      "source": "eng-frock"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW319",
@@ -6350,37 +6929,38 @@
     "targetWord": "fruit",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "T"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "R"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "I"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "F"
       },
       {
         "id": "E",
-        "label": "u"
+        "label": "U"
       }
     ],
     "units": [
-      "t",
-      "f",
-      "r",
-      "i",
-      "u"
+      "T",
+      "R",
+      "I",
+      "F",
+      "U"
     ],
     "correctAnswer": "fruit",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW321",
@@ -6407,28 +6987,33 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
+        "label": "O"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "T"
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "A"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "G"
       }
     ],
     "units": [
-      "a",
-      "o",
-      "t",
-      "g"
+      "O",
+      "T",
+      "A",
+      "G"
     ],
     "correctAnswer": "goat",
+    "image": {
+      "type": "image",
+      "source": "eng-goat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW344",
@@ -6451,15 +7036,15 @@
     "targetWord": "about",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The programme is ______ to start. Look at the picture and complete the word:",
+    "prompt": "The programme is ______ to start. and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "p"
       },
       {
         "id": "C",
@@ -6467,17 +7052,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "i"
       }
     ],
     "units": [
-      "i",
-      "e",
+      "w",
+      "p",
       "o",
-      "a"
+      "i"
     ],
-    "template": "a b _ u t | Selectable options: o / a / e",
+    "template": "a b _ u t",
     "correctAnswer": "about",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW001",
@@ -6500,11 +7086,11 @@
     "targetWord": "alphabet",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "z"
       },
       {
         "id": "B",
@@ -6512,21 +7098,22 @@
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "p"
       }
     ],
     "units": [
-      "d",
+      "z",
       "b",
-      "h",
-      "m"
+      "q",
+      "p"
     ],
-    "template": "a l p h a _ e t | Selectable options: b / d / r",
+    "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW008",
@@ -6549,15 +7136,15 @@
     "targetWord": "bee",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "o"
       },
       {
         "id": "C",
@@ -6569,13 +7156,14 @@
       }
     ],
     "units": [
+      "u",
       "o",
-      "i",
       "e",
       "a"
     ],
-    "template": "b _ e | Selectable options: e / a / o",
+    "template": "b _ e",
     "correctAnswer": "bee",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW049",
@@ -6598,11 +7186,11 @@
     "targetWord": "bin",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Put the paper in the ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Put the paper in the ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "c"
       },
       {
         "id": "B",
@@ -6614,17 +7202,18 @@
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "o"
       }
     ],
     "units": [
-      "e",
+      "c",
       "i",
       "a",
-      "u"
+      "o"
     ],
-    "template": "b _ n | Selectable options: i / a / e",
+    "template": "b _ n",
     "correctAnswer": "bin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW059",
@@ -6647,11 +7236,11 @@
     "targetWord": "bring",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Please ______ your book to class. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Please ______ your book to class. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "f"
       },
       {
         "id": "B",
@@ -6659,21 +7248,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
-      "e",
+      "f",
       "i",
-      "a",
-      "u"
+      "w",
+      "e"
     ],
-    "template": "b r _ n g | Selectable options: i / a / e",
+    "template": "b r _ n g",
     "correctAnswer": "bring",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW091",
@@ -6696,7 +7286,7 @@
     "targetWord": "catch",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Try to ______ the ball. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Try to ______ the ball. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6704,25 +7294,26 @@
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "b"
       }
     ],
     "units": [
       "c",
-      "t",
-      "d",
-      "h"
+      "n",
+      "m",
+      "b"
     ],
-    "template": "c a t _ h | Selectable options: c / k / t",
+    "template": "c a t _ h",
     "correctAnswer": "catch",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW124",
@@ -6745,7 +7336,7 @@
     "targetWord": "coop",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Chickens can stay in a ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Chickens can stay in a ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
@@ -6753,25 +7344,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "x"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "a"
       }
     ],
     "units": [
       "o",
-      "a",
-      "u",
-      "i"
+      "x",
+      "q",
+      "a"
     ],
-    "template": "c o _ p | Selectable options: o / a / e",
+    "template": "c o _ p",
     "correctAnswer": "coop",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW168",
@@ -6794,11 +7386,11 @@
     "targetWord": "cry",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The baby may ______ when hungry. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The baby may ______ when hungry. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "j"
       },
       {
         "id": "B",
@@ -6810,17 +7402,18 @@
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "b"
       }
     ],
     "units": [
-      "w",
+      "j",
       "d",
       "y",
-      "h"
+      "b"
     ],
-    "template": "c r _ | Selectable options: y / a / e",
+    "template": "c r _",
     "correctAnswer": "cry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW188",
@@ -6843,11 +7436,11 @@
     "targetWord": "cube",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "A dice is shaped like a ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "A dice is shaped like a ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "f"
       },
       {
         "id": "B",
@@ -6855,21 +7448,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "i"
       }
     ],
     "units": [
-      "i",
+      "f",
       "e",
-      "a",
-      "u"
+      "w",
+      "i"
     ],
-    "template": "c u b _ | Selectable options: e / a / o",
+    "template": "c u b _",
     "correctAnswer": "cube",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW190",
@@ -6892,11 +7486,11 @@
     "targetWord": "dance",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The children like to ______ to music. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The children like to ______ to music. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "o"
       },
       {
         "id": "B",
@@ -6904,21 +7498,22 @@
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "m"
       }
     ],
     "units": [
-      "w",
+      "o",
       "c",
-      "f",
-      "k"
+      "z",
+      "m"
     ],
-    "template": "d a n _ e | Selectable options: c / s / t",
+    "template": "d a n _ e",
     "correctAnswer": "dance",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW202",
@@ -6941,11 +7536,11 @@
     "targetWord": "die",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "One small cube used in a board game is called a ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "One small cube used in a board game is called a ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "w"
       },
       {
         "id": "B",
@@ -6953,21 +7548,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
-      "e",
+      "w",
       "i",
-      "a",
-      "u"
+      "p",
+      "e"
     ],
-    "template": "d _ e | Selectable options: i / a / o",
+    "template": "d _ e",
     "correctAnswer": "die",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW220",
@@ -6990,11 +7586,11 @@
     "targetWord": "dip",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Please ______ the biscuit in the milk. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Please ______ the biscuit in the milk. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "g"
       },
       {
         "id": "B",
@@ -7002,21 +7598,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "o"
       }
     ],
     "units": [
-      "e",
+      "g",
       "i",
-      "a",
-      "u"
+      "e",
+      "o"
     ],
-    "template": "d _ p | Selectable options: i / a / o",
+    "template": "d _ p",
     "correctAnswer": "dip",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW224",
@@ -7039,19 +7636,19 @@
     "targetWord": "drive",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ a car on the road. Complete the word: Look at the picture and complete the word:",
+    "prompt": "We ______ a car on the road. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "f"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "n"
+        "label": "f"
       },
       {
         "id": "D",
@@ -7059,13 +7656,14 @@
       }
     ],
     "units": [
+      "a",
+      "s",
       "f",
-      "k",
-      "n",
       "v"
     ],
-    "template": "d r i _ e | Selectable options: v / f / b",
+    "template": "d r i _ e",
     "correctAnswer": "drive",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW240",
@@ -7088,19 +7686,19 @@
     "targetWord": "away",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "D",
@@ -7108,13 +7706,14 @@
       }
     ],
     "units": [
-      "i",
-      "a",
       "e",
+      "t",
+      "a",
       "u"
     ],
-    "template": "a w _ y | Selectable options: a / e / o",
+    "template": "a w _ y",
     "correctAnswer": "away",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW026",
@@ -7137,33 +7736,34 @@
     "targetWord": "behind",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
-      },
-      {
-        "id": "B",
         "label": "a"
       },
       {
+        "id": "B",
+        "label": "i"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "u"
       }
     ],
     "units": [
-      "i",
       "a",
-      "u",
-      "o"
+      "i",
+      "t",
+      "u"
     ],
-    "template": "b e h _ n d | Selectable options: i / a / e",
+    "template": "b e h _ n d",
     "correctAnswer": "behind",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW050",
@@ -7186,19 +7786,19 @@
     "targetWord": "black",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The cat is ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The cat is ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "a"
-      },
-      {
-        "id": "B",
         "label": "e"
       },
       {
+        "id": "B",
+        "label": "a"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "D",
@@ -7206,13 +7806,14 @@
       }
     ],
     "units": [
-      "a",
       "e",
-      "u",
+      "a",
+      "t",
       "o"
     ],
-    "template": "b l _ c k | Selectable options: a / e / o",
+    "template": "b l _ c k",
     "correctAnswer": "black",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW061",
@@ -7235,7 +7836,7 @@
     "targetWord": "brick",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The wall is made of ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The wall is made of ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
@@ -7243,25 +7844,26 @@
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "o"
       }
     ],
     "units": [
       "e",
+      "t",
       "i",
-      "a",
-      "u"
+      "o"
     ],
-    "template": "b r _ c k | Selectable options: i / a / e",
+    "template": "b r _ c k",
     "correctAnswer": "brick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW088",
@@ -7284,15 +7886,15 @@
     "targetWord": "broom",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We use a ______ to sweep the floor. Complete the word: Look at the picture and complete the word:",
+    "prompt": "We use a ______ to sweep the floor. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
@@ -7300,17 +7902,18 @@
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "a"
       }
     ],
     "units": [
-      "u",
-      "i",
+      "o",
+      "t",
       "e",
-      "o"
+      "a"
     ],
-    "template": "b r _ o m | Selectable options: o / a / e",
+    "template": "b r _ o m",
     "correctAnswer": "broom",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW093",
@@ -7333,11 +7936,11 @@
     "targetWord": "brush",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "I use a ______ to clean my teeth. Complete the word: Look at the picture and complete the word:",
+    "prompt": "I use a ______ to clean my teeth. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "B",
@@ -7345,21 +7948,22 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "u"
       }
     ],
     "units": [
-      "i",
+      "t",
       "e",
-      "u",
-      "a"
+      "a",
+      "u"
     ],
-    "template": "b r _ s h | Selectable options: u / a / o",
+    "template": "b r _ s h",
     "correctAnswer": "brush",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW096",
@@ -7382,33 +7986,34 @@
     "targetWord": "buzz",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "A bee can ______ around a flower. Complete the word: Look at the picture and complete the word:",
+    "prompt": "A bee can ______ around a flower. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "z"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "b"
       }
     ],
     "units": [
-      "w",
+      "e",
+      "t",
       "z",
-      "d",
-      "h"
+      "b"
     ],
-    "template": "b u _ z | Selectable options: z / s / t",
+    "template": "b u _ z",
     "correctAnswer": "buzz",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW110",
@@ -7431,33 +8036,34 @@
     "targetWord": "claps",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "She ______ her hands after the song. Complete the word: Look at the picture and complete the word:",
+    "prompt": "She ______ her hands after the song. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "p"
       }
     ],
     "units": [
-      "g",
-      "l",
-      "p",
-      "r"
+      "e",
+      "t",
+      "h",
+      "p"
     ],
-    "template": "c l a _ s | Selectable options: p / b / t",
+    "template": "c l a _ s",
     "correctAnswer": "claps",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW144",
@@ -7480,33 +8086,34 @@
     "targetWord": "cool",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "The water feels ______. Complete the word: Look at the picture and complete the word:",
+    "prompt": "The water feels ______. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "i"
-      },
-      {
-        "id": "C",
         "label": "e"
       },
       {
+        "id": "C",
+        "label": "t"
+      },
+      {
         "id": "D",
-        "label": "o"
+        "label": "u"
       }
     ],
     "units": [
-      "u",
-      "i",
+      "o",
       "e",
-      "o"
+      "t",
+      "u"
     ],
-    "template": "c _ o l | Selectable options: o / a / e",
+    "template": "c _ o l",
     "correctAnswer": "cool",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW167",
@@ -7529,33 +8136,34 @@
     "targetWord": "count",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Can you ______ the apples? Complete the word: Look at the picture and complete the word:",
+    "prompt": "Can you ______ the apples? Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
-      },
-      {
-        "id": "B",
         "label": "e"
       },
       {
+        "id": "B",
+        "label": "a"
+      },
+      {
         "id": "C",
-        "label": "u"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "u"
       }
     ],
     "units": [
-      "i",
       "e",
-      "u",
-      "a"
+      "a",
+      "o",
+      "u"
     ],
-    "template": "c o _ n t | Selectable options: u / a / o",
+    "template": "c o _ n t",
     "correctAnswer": "count",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW173",
@@ -7578,33 +8186,34 @@
     "targetWord": "fry",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We can ______ an egg in a pan. Complete the word: Look at the picture and complete the word:",
+    "prompt": "We can ______ an egg in a pan. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "y"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "y"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "n"
       }
     ],
     "units": [
+      "t",
       "y",
-      "g",
-      "l",
-      "p"
+      "e",
+      "n"
     ],
-    "template": "f r _ | Selectable options: y / a / e",
+    "template": "f r _",
     "correctAnswer": "fry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW322",
@@ -7627,19 +8236,19 @@
     "targetWord": "mow",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "We ______ the grass to keep it short. Complete the word: Look at the picture and complete the word:",
+    "prompt": "We ______ the grass to keep it short. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "D",
@@ -7647,13 +8256,14 @@
       }
     ],
     "units": [
+      "e",
       "o",
-      "a",
-      "u",
+      "t",
       "i"
     ],
-    "template": "m _ w | Selectable options: o / a / e",
+    "template": "m _ w",
     "correctAnswer": "mow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW520",
@@ -7676,19 +8286,19 @@
     "targetWord": "soak",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Leave the clothes in water to ______ them. Complete the word: Look at the picture and complete the word:",
+    "prompt": "Leave the clothes in water to ______ them. Complete the word: and complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "D",
@@ -7696,13 +8306,14 @@
       }
     ],
     "units": [
-      "i",
-      "a",
+      "t",
       "e",
+      "a",
       "u"
     ],
-    "template": "s o _ k | Selectable options: a / o / e",
+    "template": "s o _ k",
     "correctAnswer": "soak",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW749",
@@ -7741,6 +8352,11 @@
       }
     ],
     "correctAnswer": "almond",
+    "image": {
+      "type": "image",
+      "source": "eng-almond"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW007",

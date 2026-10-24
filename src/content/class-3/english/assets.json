@@ -266,13 +266,10 @@
     "targetWord": "fruit",
     "activityCode": "E01",
     "assetId": "eng-fruit",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
-    "proposedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
-    "reusedFromTamilAssetId": "class3-tamil-picture-q003",
-    "resolvedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Arrange the letters in order and find the word"
   },
   {
     "activityId": "ENG-M1-EW435",
@@ -2167,12 +2164,10 @@
     "targetWord": "barn",
     "activityCode": "E01",
     "assetId": "eng-barn",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. This is a building where farm animals are kept. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-barn.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-barn.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. This is a building where farm animals are kept. Write the word."
   },
   {
     "activityId": "ENG-M4-EW043",
@@ -2375,12 +2370,10 @@
     "targetWord": "skin",
     "activityCode": "E01",
     "assetId": "eng-skin",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word for the part covering the person's hand or arm.",
-    "proposedPath": "/assets/class-3/english/images/eng-skin.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-skin.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Write the word for the part covering the person's hand or arm."
   },
   {
     "activityId": "ENG-M4-EW752",
@@ -2505,12 +2498,10 @@
     "targetWord": "hands",
     "activityCode": "E12",
     "assetId": "eng-hands",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word for these body parts.",
-    "proposedPath": "/assets/class-3/english/images/eng-hands.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-hands.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Write the word for these body parts."
   },
   {
     "activityId": "ENG-M4-EW448",
@@ -2583,12 +2574,10 @@
     "targetWord": "paws",
     "activityCode": "E12",
     "assetId": "eng-paws",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
-    "proposedPath": "/assets/class-3/english/images/eng-paws.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-paws.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Choose the correct word and write it."
   },
   {
     "activityId": "ENG-M4-EW605",
@@ -3049,12 +3038,10 @@
     "targetWord": "feathers",
     "activityCode": "E12",
     "assetId": "eng-feathers",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. These cover a bird's body. Write the word.",
-    "proposedPath": "/assets/class-3/english/images/eng-feathers.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-feathers.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. These cover a bird's body. Write the word."
   },
   {
     "activityId": "ENG-M4-EW289",
@@ -3284,13 +3271,10 @@
     "targetWord": "fruit",
     "activityCode": "E01",
     "assetId": "eng-fruit",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the word.",
-    "proposedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
-    "reusedFromTamilAssetId": "class3-tamil-picture-q003",
-    "resolvedPath": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Write the word."
   },
   {
     "activityId": "ENG-M4-REV-EW344",
@@ -4157,12 +4141,10 @@
     "targetWord": "green gram",
     "activityCode": "E12",
     "assetId": "eng-green-gram",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Write the name of this food grain.",
-    "proposedPath": "/assets/class-3/english/images/eng-green-gram.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-green-gram.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Write the name of this food grain."
   },
   {
     "activityId": "ENG-M5-EW419",
@@ -4300,12 +4282,10 @@
     "targetWord": "talents",
     "activityCode": "E12",
     "assetId": "eng-talents",
-    "required": true,
-    "classification": "REQUIRED",
-    "status": "mapped",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
-    "proposedPath": "/assets/class-3/english/images/eng-talents.jpg",
-    "resolvedPath": "/assets/class-3/english/images/eng-talents.jpg"
+    "required": false,
+    "classification": "TEXT_ONLY",
+    "status": "text_only",
+    "prompt": "Look at the picture. Choose the correct word and write it."
   },
   {
     "activityId": "ENG-M5-EW818",

@@ -262,15 +262,15 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
       }
     }
 
-    expect(mappedCount).toBe(335);
+    expect(mappedCount).toBe(326);
     expect(missingCount).toBe(78);
-    expect(textOnlyCount).toBe(76);
+    expect(textOnlyCount).toBe(85);
 
     // Also verify asset-manifest.json exists and has valid local entries
     const manifestPath = path.join(ENG_DIR, 'asset-manifest.json');
     expect(fs.existsSync(manifestPath)).toBe(true);
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
-    expect(Object.keys(manifest).length).toBe(255);
+    expect(Object.keys(manifest).length).toBe(247);
     for (const [key, entry] of Object.entries(manifest)) {
       expect(key).toMatch(/^eng-/);
       expect((entry as { type: string }).type).toBe('image');

@@ -5,12 +5,6 @@
     "path": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
     "alt": "Apple — ஆப்பிள்"
   },
-  "eng-fruit": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
-    "alt": "Fruit — பழம்"
-  },
   "eng-bag": {
     "type": "image",
     "source": "local",
@@ -223,9 +217,9 @@
   },
   "eng-tail": {
     "type": "image",
-    "path": "/assets/class-3/english/images/eng-dog-tail.jpg",
-    "alt": "tail — English vocabulary image",
-    "source": "local"
+    "source": "local",
+    "path": "/assets/class-3/english/images/eng-tail.jpg",
+    "alt": "tail — English vocabulary image"
   },
   "eng-tent": {
     "type": "image",
@@ -647,12 +641,6 @@
     "path": "/assets/class-3/english/images/eng-map.jpg",
     "alt": "map — English vocabulary image"
   },
-  "eng-barn": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-barn.jpg",
-    "alt": "barn — English vocabulary image"
-  },
   "eng-beak": {
     "type": "image",
     "source": "local",
@@ -743,12 +731,6 @@
     "path": "/assets/class-3/english/images/eng-sink.jpg",
     "alt": "sink — English vocabulary image"
   },
-  "eng-skin": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-skin.jpg",
-    "alt": "skin — English vocabulary image"
-  },
   "eng-sofa": {
     "type": "image",
     "source": "local",
@@ -803,12 +785,6 @@
     "path": "/assets/class-3/english/images/eng-ginger.jpg",
     "alt": "ginger — English vocabulary image"
   },
-  "eng-hands": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-hands.jpg",
-    "alt": "hands — English vocabulary image"
-  },
   "eng-laddus": {
     "type": "image",
     "source": "local",
@@ -838,12 +814,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mixie.jpg",
     "alt": "mixie — English vocabulary image"
-  },
-  "eng-paws": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-paws.jpg",
-    "alt": "paws — English vocabulary image"
   },
   "eng-ponds": {
     "type": "image",
@@ -1030,12 +1000,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dhoti.jpg",
     "alt": "dhoti — English vocabulary image"
-  },
-  "eng-feathers": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-feathers.jpg",
-    "alt": "feathers — English vocabulary image"
   },
   "eng-finger": {
     "type": "image",
@@ -1307,12 +1271,6 @@
     "path": "/assets/class-3/english/images/eng-flowers.jpg",
     "alt": "flowers — English vocabulary image"
   },
-  "eng-green-gram": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-green-gram.jpg",
-    "alt": "green gram — English vocabulary image"
-  },
   "eng-insects": {
     "type": "image",
     "source": "local",
@@ -1372,12 +1330,6 @@
     "source": "local",
     "path": "/assets/class-3/english/images/eng-snake-gourd.jpg",
     "alt": "snake gourd — English vocabulary image"
-  },
-  "eng-talents": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-talents.jpg",
-    "alt": "talents — English vocabulary image"
   },
   "eng-tamarind": {
     "type": "image",

@@ -28,6 +28,7 @@
       }
     ],
     "correctAnswer": "ask",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW021",
@@ -57,7 +58,7 @@
       },
       {
         "id": "B",
-        "label": "bed"
+        "label": "badd"
       },
       {
         "id": "C",
@@ -65,6 +66,7 @@
       }
     ],
     "correctAnswer": "bad",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW030",
@@ -102,6 +104,11 @@
       }
     ],
     "correctAnswer": "big",
+    "image": {
+      "type": "image",
+      "source": "eng-big"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW058",
@@ -144,6 +151,11 @@
       "D"
     ],
     "correctAnswer": "dal",
+    "image": {
+      "type": "image",
+      "source": "eng-dal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW201",
@@ -191,6 +203,11 @@
       "R"
     ],
     "correctAnswer": "bird",
+    "image": {
+      "type": "image",
+      "source": "eng-bird"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW060",
@@ -238,6 +255,11 @@
       "C"
     ],
     "correctAnswer": "crow",
+    "image": {
+      "type": "image",
+      "source": "eng-crow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW184",
@@ -285,6 +307,11 @@
       "R"
     ],
     "correctAnswer": "curd",
+    "image": {
+      "type": "image",
+      "source": "eng-curd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW194",
@@ -332,6 +359,11 @@
       "I"
     ],
     "correctAnswer": "dish",
+    "image": {
+      "type": "image",
+      "source": "eng-dish"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW226",
@@ -379,6 +411,11 @@
       "O"
     ],
     "correctAnswer": "door",
+    "image": {
+      "type": "image",
+      "source": "eng-door"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW231",
@@ -426,6 +463,11 @@
       "D"
     ],
     "correctAnswer": "duck",
+    "image": {
+      "type": "image",
+      "source": "eng-duck"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW245",
@@ -473,6 +515,11 @@
       "M"
     ],
     "correctAnswer": "farm",
+    "image": {
+      "type": "image",
+      "source": "eng-farm"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW272",
@@ -520,6 +567,11 @@
       "H"
     ],
     "correctAnswer": "fish",
+    "image": {
+      "type": "image",
+      "source": "eng-fish"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW294",
@@ -567,6 +619,11 @@
       "A"
     ],
     "correctAnswer": "foal",
+    "image": {
+      "type": "image",
+      "source": "eng-foal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW308",
@@ -614,6 +671,11 @@
       "G"
     ],
     "correctAnswer": "goat",
+    "image": {
+      "type": "image",
+      "source": "eng-goat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW344",
@@ -661,6 +723,11 @@
       "A"
     ],
     "correctAnswer": "hand",
+    "image": {
+      "type": "image",
+      "source": "eng-hand"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW370",
@@ -708,6 +775,11 @@
       "M"
     ],
     "correctAnswer": "lamp",
+    "image": {
+      "type": "image",
+      "source": "eng-lamp"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW451",
@@ -755,6 +827,11 @@
       "N"
     ],
     "correctAnswer": "lion",
+    "image": {
+      "type": "image",
+      "source": "eng-lion"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW473",
@@ -802,6 +879,11 @@
       "E"
     ],
     "correctAnswer": "neck",
+    "image": {
+      "type": "image",
+      "source": "eng-neck"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW534",
@@ -849,6 +931,11 @@
       "P"
     ],
     "correctAnswer": "pole",
+    "image": {
+      "type": "image",
+      "source": "eng-pole"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW601",
@@ -896,6 +983,11 @@
       "O"
     ],
     "correctAnswer": "pond",
+    "image": {
+      "type": "image",
+      "source": "eng-pond"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW604",
@@ -948,6 +1040,11 @@
       "P"
     ],
     "correctAnswer": "apple",
+    "image": {
+      "type": "image",
+      "source": "eng-apple"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW017",
@@ -1000,6 +1097,11 @@
       "R"
     ],
     "correctAnswer": "frock",
+    "image": {
+      "type": "image",
+      "source": "eng-frock"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW319",
@@ -1021,7 +1123,7 @@
     "targetWord": "fruit",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
@@ -1052,6 +1154,7 @@
       "U"
     ],
     "correctAnswer": "fruit",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW321",
@@ -1104,6 +1207,11 @@
       "C"
     ],
     "correctAnswer": "juice",
+    "image": {
+      "type": "image",
+      "source": "eng-juice"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW435",
@@ -1133,25 +1241,26 @@
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "e"
       }
     ],
     "units": [
       "a",
-      "e",
-      "u",
-      "o"
+      "f",
+      "w",
+      "e"
     ],
     "template": "b _ l l",
     "correctAnswer": "ball",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW033",
@@ -1181,25 +1290,26 @@
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "f"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "m"
       }
     ],
     "units": [
       "l",
-      "k",
-      "p",
-      "t"
+      "f",
+      "q",
+      "m"
     ],
     "template": "b e _ l",
     "correctAnswer": "bell",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW051",
@@ -1225,11 +1335,11 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "i"
       },
       {
         "id": "C",
@@ -1241,13 +1351,14 @@
       }
     ],
     "units": [
-      "w",
-      "d",
+      "g",
+      "i",
       "h",
       "n"
     ],
     "template": "b o _ e",
     "correctAnswer": "bone",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW072",
@@ -1273,7 +1384,7 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "y"
       },
       {
         "id": "B",
@@ -1281,21 +1392,22 @@
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "k"
       }
     ],
     "units": [
-      "w",
+      "y",
       "l",
-      "d",
-      "h"
+      "h",
+      "k"
     ],
     "template": "b u _ l",
     "correctAnswer": "bull",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW100",
@@ -1329,7 +1441,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "q"
       },
       {
         "id": "D",
@@ -1339,11 +1451,12 @@
     "units": [
       "i",
       "e",
-      "a",
+      "q",
       "u"
     ],
     "template": "c a k _",
     "correctAnswer": "cake",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW111",
@@ -1391,6 +1504,11 @@
       "C"
     ],
     "correctAnswer": "rice",
+    "image": {
+      "type": "image",
+      "source": "eng-rice"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW648",
@@ -1438,6 +1556,11 @@
       "R"
     ],
     "correctAnswer": "rock",
+    "image": {
+      "type": "image",
+      "source": "eng-rock"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW657",
@@ -1485,6 +1608,11 @@
       "S"
     ],
     "correctAnswer": "salt",
+    "image": {
+      "type": "image",
+      "source": "eng-salt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW672",
@@ -1532,6 +1660,11 @@
       "E"
     ],
     "correctAnswer": "seed",
+    "image": {
+      "type": "image",
+      "source": "eng-seed"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW693",
@@ -1579,6 +1712,11 @@
       "O"
     ],
     "correctAnswer": "snow",
+    "image": {
+      "type": "image",
+      "source": "eng-snow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW747",
@@ -1626,6 +1764,11 @@
       "A"
     ],
     "correctAnswer": "soap",
+    "image": {
+      "type": "image",
+      "source": "eng-soap"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW750",
@@ -1673,6 +1816,11 @@
       "A"
     ],
     "correctAnswer": "star",
+    "image": {
+      "type": "image",
+      "source": "eng-star"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW773",
@@ -1720,6 +1868,11 @@
       "S"
     ],
     "correctAnswer": "swim",
+    "image": {
+      "type": "image",
+      "source": "eng-swim"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW811",
@@ -1767,6 +1920,11 @@
       "L"
     ],
     "correctAnswer": "tail",
+    "image": {
+      "type": "image",
+      "source": "eng-tail"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW815",
@@ -1814,6 +1972,11 @@
       "E"
     ],
     "correctAnswer": "tent",
+    "image": {
+      "type": "image",
+      "source": "eng-tent"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW833",
@@ -1861,6 +2024,11 @@
       "D"
     ],
     "correctAnswer": "toad",
+    "image": {
+      "type": "image",
+      "source": "eng-toad"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW856",
@@ -1901,8 +2069,12 @@
         "label": "toad"
       }
     ],
-    "template": "wish / wash / fish",
     "correctAnswer": "wish",
+    "image": {
+      "type": "image",
+      "source": "eng-wish"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW938",
@@ -1943,8 +2115,12 @@
         "label": "brown"
       }
     ],
-    "template": "worm / warm / word",
     "correctAnswer": "worm",
+    "image": {
+      "type": "image",
+      "source": "eng-worm"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW945",
@@ -1982,6 +2158,7 @@
       }
     ],
     "correctAnswer": "angry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW011",
@@ -2034,6 +2211,11 @@
       "C"
     ],
     "correctAnswer": "match",
+    "image": {
+      "type": "image",
+      "source": "eng-match"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW497",
@@ -2086,6 +2268,11 @@
       "I"
     ],
     "correctAnswer": "rhino",
+    "image": {
+      "type": "image",
+      "source": "eng-rhino"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW647",
@@ -2138,6 +2325,11 @@
       "S"
     ],
     "correctAnswer": "sheep",
+    "image": {
+      "type": "image",
+      "source": "eng-sheep"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW704",
@@ -2190,6 +2382,11 @@
       "I"
     ],
     "correctAnswer": "skirt",
+    "image": {
+      "type": "image",
+      "source": "eng-skirt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW732",
@@ -2242,6 +2439,11 @@
       "K"
     ],
     "correctAnswer": "truck",
+    "image": {
+      "type": "image",
+      "source": "eng-truck"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW880",
@@ -2279,6 +2481,11 @@
       }
     ],
     "correctAnswer": "belt",
+    "image": {
+      "type": "image",
+      "source": "eng-belt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW052",
@@ -2316,6 +2523,7 @@
       }
     ],
     "correctAnswer": "blow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW066",
@@ -2345,25 +2553,26 @@
       },
       {
         "id": "B",
-        "label": "b"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "d"
       }
     ],
     "units": [
       "l",
-      "b",
-      "f",
-      "k"
+      "i",
+      "k",
+      "d"
     ],
     "template": "c _ a p",
     "correctAnswer": "clap",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW143",
@@ -2389,11 +2598,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "j"
       },
       {
         "id": "C",
@@ -2401,17 +2610,22 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
-      "i",
+      "p",
+      "j",
       "a",
-      "e"
+      "o"
     ],
     "template": "c o _ l",
     "correctAnswer": "coal",
+    "image": {
+      "type": "image",
+      "source": "eng-coal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW156",
@@ -2437,15 +2651,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "z"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -2453,13 +2667,14 @@
       }
     ],
     "units": [
+      "z",
+      "p",
       "u",
-      "o",
-      "i",
       "a"
     ],
     "template": "c o _ t",
     "correctAnswer": "coat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW157",
@@ -2485,15 +2700,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "v"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -2501,13 +2716,14 @@
       }
     ],
     "units": [
+      "k",
+      "v",
       "u",
-      "o",
-      "i",
       "e"
     ],
     "template": "c o n _",
     "correctAnswer": "cone",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW164",
@@ -2533,15 +2749,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "u"
       },
       {
         "id": "D",
@@ -2549,13 +2765,14 @@
       }
     ],
     "units": [
+      "s",
+      "p",
       "u",
-      "i",
-      "e",
       "o"
     ],
     "template": "d _ w n",
     "correctAnswer": "down",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW234",
@@ -2581,7 +2798,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "k"
       },
       {
         "id": "B",
@@ -2589,21 +2806,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "x"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
-      "e",
+      "k",
       "o",
-      "a",
-      "u"
+      "x",
+      "e"
     ],
     "template": "f l _ w",
     "correctAnswer": "flow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW302",
@@ -2633,25 +2851,26 @@
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "e"
       }
     ],
     "units": [
       "a",
-      "e",
-      "u",
-      "o"
+      "t",
+      "c",
+      "e"
     ],
     "template": "f o _ m",
     "correctAnswer": "foam",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW309",
@@ -2681,25 +2900,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "v"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "a"
       }
     ],
     "units": [
       "o",
-      "a",
-      "u",
-      "i"
+      "v",
+      "c",
+      "a"
     ],
     "template": "f o _ d",
     "correctAnswer": "food",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW312",
@@ -2725,11 +2945,11 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "d"
       },
       {
         "id": "C",
@@ -2737,17 +2957,18 @@
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "s"
       }
     ],
     "units": [
-      "g",
-      "l",
+      "h",
+      "d",
       "t",
-      "p"
+      "s"
     ],
     "template": "g a _ e",
     "correctAnswer": "gate",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW329",
@@ -2777,25 +2998,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "k"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "a"
       }
     ],
     "units": [
       "o",
-      "a",
-      "u",
-      "i"
+      "m",
+      "k",
+      "a"
     ],
     "template": "g l _ w",
     "correctAnswer": "glow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW341",
@@ -2825,25 +3047,26 @@
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "n"
       }
     ],
     "units": [
       "l",
-      "n",
-      "s",
-      "b"
+      "u",
+      "o",
+      "n"
     ],
     "template": "h e _ p",
     "correctAnswer": "help",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW389",
@@ -2873,25 +3096,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "s"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "a"
       }
     ],
     "units": [
       "i",
-      "a",
-      "u",
-      "o"
+      "n",
+      "s",
+      "a"
     ],
     "template": "h _ l l",
     "correctAnswer": "hill",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW392",
@@ -2934,6 +3158,7 @@
       "cy"
     ],
     "correctAnswer": "bicycle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW057",
@@ -2971,6 +3196,7 @@
       "con"
     ],
     "correctAnswer": "concert",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW162",
@@ -3008,6 +3234,7 @@
       }
     ],
     "correctAnswer": "badge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW031",
@@ -3045,6 +3272,7 @@
       }
     ],
     "correctAnswer": "bleat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW064",
@@ -3082,6 +3310,7 @@
       }
     ],
     "correctAnswer": "board",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW068",
@@ -3119,6 +3348,11 @@
       }
     ],
     "correctAnswer": "bread",
+    "image": {
+      "type": "image",
+      "source": "eng-bread"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW083",
@@ -3156,6 +3390,11 @@
       }
     ],
     "correctAnswer": "brown",
+    "image": {
+      "type": "image",
+      "source": "eng-brown"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW095",
@@ -3198,6 +3437,7 @@
       "na"
     ],
     "correctAnswer": "banana",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW034",
@@ -3235,6 +3475,7 @@
       "for"
     ],
     "correctAnswer": "forest",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW313",
@@ -3292,6 +3533,11 @@
       "J"
     ],
     "correctAnswer": "jungle",
+    "image": {
+      "type": "image",
+      "source": "eng-jungle"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW438",
@@ -3329,6 +3575,7 @@
       }
     ],
     "correctAnswer": "calf",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW112",
@@ -3366,6 +3613,11 @@
       }
     ],
     "correctAnswer": "cold",
+    "image": {
+      "type": "image",
+      "source": "eng-cold"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW160",
@@ -3403,6 +3655,11 @@
       }
     ],
     "correctAnswer": "deer",
+    "image": {
+      "type": "image",
+      "source": "eng-deer"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW209",
@@ -3440,6 +3697,7 @@
       }
     ],
     "correctAnswer": "fast",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW274",
@@ -3477,6 +3735,7 @@
       }
     ],
     "correctAnswer": "head",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW380",
@@ -3514,6 +3773,7 @@
       }
     ],
     "correctAnswer": "lamb",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW450",
@@ -3551,6 +3811,7 @@
       }
     ],
     "correctAnswer": "list",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW475",
@@ -3588,6 +3849,7 @@
       }
     ],
     "correctAnswer": "told",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW861",
@@ -3625,6 +3887,7 @@
       }
     ],
     "correctAnswer": "went",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW924",
@@ -3662,6 +3925,7 @@
       }
     ],
     "correctAnswer": "wind",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW932",
@@ -3724,6 +3988,7 @@
       "e"
     ],
     "correctAnswer": "achieve",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW002",
@@ -3749,15 +4014,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "y"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -3765,13 +4030,14 @@
       }
     ],
     "units": [
+      "y",
+      "w",
       "u",
-      "o",
-      "i",
       "e"
     ],
     "template": "a n o t h _ r",
     "correctAnswer": "another",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW014",
@@ -3797,15 +4063,15 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "l"
       },
       {
         "id": "D",
@@ -3813,13 +4079,14 @@
       }
     ],
     "units": [
-      "n",
-      "t",
-      "c",
+      "p",
+      "o",
+      "l",
       "s"
     ],
     "template": "b e c a u _ e",
     "correctAnswer": "because",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW047",
@@ -3845,7 +4112,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "B",
@@ -3853,21 +4120,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "i"
       }
     ],
     "units": [
-      "i",
+      "c",
       "e",
-      "a",
-      "u"
+      "o",
+      "i"
     ],
     "template": "b e t w _ e n",
     "correctAnswer": "between",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW056",
@@ -3893,15 +4161,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "q"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "u"
       },
       {
         "id": "D",
@@ -3909,13 +4177,14 @@
       }
     ],
     "units": [
+      "p",
+      "q",
       "u",
-      "i",
-      "e",
       "o"
     ],
     "template": "a r _ u n d",
     "correctAnswer": "around",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW018",
@@ -3945,25 +4214,26 @@
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "g"
       }
     ],
     "units": [
       "t",
-      "g",
-      "l",
-      "p"
+      "p",
+      "m",
+      "g"
     ],
     "template": "b o t _ l e",
     "correctAnswer": "bottle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW077",
@@ -3989,11 +4259,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "m"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "j"
       },
       {
         "id": "C",
@@ -4001,17 +4271,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
-      "i",
+      "m",
+      "j",
       "e",
-      "a"
+      "o"
     ],
     "template": "b r e _ z e",
     "correctAnswer": "breeze",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW086",
@@ -4037,15 +4308,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "x"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "u"
       },
       {
         "id": "D",
@@ -4053,13 +4324,14 @@
       }
     ],
     "units": [
+      "d",
+      "x",
       "u",
-      "o",
-      "e",
       "i"
     ],
     "template": "b r _ g h t",
     "correctAnswer": "bright",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW090",
@@ -4085,15 +4357,15 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "g"
       },
       {
         "id": "D",
@@ -4101,13 +4373,14 @@
       }
     ],
     "units": [
+      "d",
       "h",
-      "m",
-      "r",
+      "g",
       "t"
     ],
     "template": "b u t _ e r",
     "correctAnswer": "butter",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW106",
@@ -4133,7 +4406,7 @@
     "options": [
       {
         "id": "A",
-        "label": "s"
+        "label": "k"
       },
       {
         "id": "B",
@@ -4141,21 +4414,22 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "j"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "l"
       }
     ],
     "units": [
-      "s",
+      "k",
       "r",
-      "b",
-      "f"
+      "j",
+      "l"
     ],
     "template": "c a r _ o t",
     "correctAnswer": "carrot",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW119",
@@ -4185,25 +4459,26 @@
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "r"
       }
     ],
     "units": [
       "g",
-      "r",
-      "w",
-      "d"
+      "d",
+      "l",
+      "r"
     ],
     "template": "c h a n _ e",
     "correctAnswer": "change",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW132",
@@ -4241,6 +4516,7 @@
       "gar"
     ],
     "correctAnswer": "garden",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW327",
@@ -4278,6 +4554,7 @@
       "gar"
     ],
     "correctAnswer": "garlic",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW328",
@@ -4315,6 +4592,7 @@
       "ken"
     ],
     "correctAnswer": "kennel",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW440",
@@ -4362,6 +4640,11 @@
       "A"
     ],
     "correctAnswer": "baby",
+    "image": {
+      "type": "image",
+      "source": "eng-baby"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW028",
@@ -4409,6 +4692,11 @@
       "E"
     ],
     "correctAnswer": "ghee",
+    "image": {
+      "type": "image",
+      "source": "eng-ghee"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW335",
@@ -4449,8 +4737,12 @@
         "label": "idli"
       }
     ],
-    "template": "Picture of idli",
     "correctAnswer": "idli",
+    "image": {
+      "type": "image",
+      "source": "eng-idli"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW414",
@@ -4476,11 +4768,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "z"
       },
       {
         "id": "C",
@@ -4488,17 +4780,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
-      "e",
+      "f",
+      "z",
       "i",
-      "a"
+      "o"
     ],
     "template": "c h _ c k",
     "correctAnswer": "chick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW138",
@@ -4524,7 +4817,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "b"
       },
       {
         "id": "B",
@@ -4532,21 +4825,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "f"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "e"
       }
     ],
     "units": [
-      "e",
+      "b",
       "o",
-      "a",
-      "u"
+      "f",
+      "e"
     ],
     "template": "c l _ c k",
     "correctAnswer": "clock",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW151",
@@ -4572,15 +4866,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "h"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -4588,13 +4882,14 @@
       }
     ],
     "units": [
+      "h",
+      "k",
       "u",
-      "o",
-      "i",
       "e"
     ],
     "template": "d a t _ s",
     "correctAnswer": "dates",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW205",
@@ -4647,6 +4942,11 @@
       "T"
     ],
     "correctAnswer": "mouth",
+    "image": {
+      "type": "image",
+      "source": "eng-mouth"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW517",
@@ -4684,6 +4984,11 @@
       }
     ],
     "correctAnswer": "pinky",
+    "image": {
+      "type": "image",
+      "source": "eng-pinky"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW587",
@@ -4746,6 +5051,7 @@
       "a"
     ],
     "correctAnswer": "bandage",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW035",
@@ -4783,6 +5089,11 @@
       }
     ],
     "correctAnswer": "boondhi",
+    "image": {
+      "type": "image",
+      "source": "eng-boondhi"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW074",
@@ -4816,10 +5127,11 @@
       },
       {
         "id": "C",
-        "label": "breath"
+        "label": "breethe"
       }
     ],
     "correctAnswer": "breathe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW085",
@@ -4857,6 +5169,7 @@
       }
     ],
     "correctAnswer": "thought",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW841",
@@ -4914,6 +5227,7 @@
       "t"
     ],
     "correctAnswer": "bucket",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW097",
@@ -4971,6 +5285,11 @@
       "d"
     ],
     "correctAnswer": "cloudy",
+    "image": {
+      "type": "image",
+      "source": "eng-cloudy"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW154",
@@ -5008,6 +5327,11 @@
       }
     ],
     "correctAnswer": "colour",
+    "image": {
+      "type": "image",
+      "source": "eng-colour"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW161",
@@ -5065,6 +5389,7 @@
       "e"
     ],
     "correctAnswer": "dancer",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW203",
@@ -5122,6 +5447,7 @@
       "r"
     ],
     "correctAnswer": "driver",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW241",
@@ -5179,6 +5505,7 @@
       "r"
     ],
     "correctAnswer": "farmer",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW273",
@@ -5216,6 +5543,7 @@
       }
     ],
     "correctAnswer": "friend",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW318",
@@ -5241,7 +5569,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "s"
       },
       {
         "id": "B",
@@ -5257,13 +5585,14 @@
       }
     ],
     "units": [
-      "e",
+      "s",
       "o",
       "a",
       "u"
     ],
     "template": "g r _ u n d",
     "correctAnswer": "ground",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW360",
@@ -5301,6 +5630,7 @@
       }
     ],
     "correctAnswer": "leaves",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW458",
@@ -5326,7 +5656,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "x"
       },
       {
         "id": "B",
@@ -5334,21 +5664,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "i"
       }
     ],
     "units": [
-      "i",
+      "x",
       "e",
-      "a",
-      "u"
+      "z",
+      "i"
     ],
     "template": "s c r _ e n",
     "correctAnswer": "screen",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW687",
@@ -5374,11 +5705,11 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "p"
       },
       {
         "id": "C",
@@ -5386,17 +5717,18 @@
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "m"
       }
     ],
     "units": [
-      "r",
-      "w",
+      "f",
+      "p",
       "l",
-      "d"
+      "m"
     ],
     "template": "s t a b _ e",
     "correctAnswer": "stable",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW769",
@@ -5434,6 +5766,7 @@
       }
     ],
     "correctAnswer": "Sunday",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW800",

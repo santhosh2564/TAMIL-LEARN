@@ -30,8 +30,12 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
   const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
 
   const assetRef = useMemo<AssetReference | null>(() => {
+    if (activity.needsImage === false) return null;
+    if (activity.image?.source) {
+      return { id: activity.image.source, type: 'image' };
+    }
     if (isEnglish) {
-      const isPictureRequired = Boolean(activity.image) || /look at the picture/i.test(activity.prompt || '');
+      const isPictureRequired = Boolean(activity.image) || activity.needsImage === true;
       if (!isPictureRequired) return null;
       const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
       return { id: `eng-${wordKey}`, type: 'image' };
@@ -43,10 +47,9 @@ export function SpellingSelectActivity({ activity, state, onSubmit, onNext }: Ac
   }, [activity, isEnglish]);
 
   const hasImage = useMemo(() => {
-    if (!assetRef) return false;
-    if (isEnglish) return true; // Show image or graceful fallback
+    if (!assetRef || activity.needsImage === false) return false;
     return resolver.resolve(assetRef).status === 'resolved';
-  }, [assetRef, resolver, isEnglish]);
+  }, [assetRef, resolver, activity.needsImage]);
 
   return (
     <ActivityCard>

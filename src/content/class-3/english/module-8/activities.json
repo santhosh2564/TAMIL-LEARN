@@ -16,29 +16,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "oil"
+        "label": "i"
       }
     ],
     "units": [
-      "n",
-      "s",
-      "b",
-      "oil"
+      "o",
+      "l",
+      "a",
+      "i"
     ],
-    "template": "i / o / l",
+    "template": "o _ l",
     "correctAnswer": "oil",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW554",
@@ -64,29 +65,30 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "paint"
+        "label": "i"
       }
     ],
     "units": [
-      "r",
-      "w",
-      "d",
-      "paint"
+      "p",
+      "a",
+      "u",
+      "i"
     ],
-    "template": "i / p / a",
+    "template": "p a _ n t",
     "correctAnswer": "paint",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW565",
@@ -112,29 +114,30 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "d"
       },
       {
         "id": "D",
-        "label": "paste"
+        "label": "s"
       }
     ],
     "units": [
-      "b",
-      "f",
-      "k",
-      "paste"
+      "p",
+      "a",
+      "d",
+      "s"
     ],
-    "template": "s / p / a",
+    "template": "p a _ t e",
     "correctAnswer": "paste",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW569",
@@ -160,29 +163,30 @@
     "options": [
       {
         "id": "A",
-        "label": "please"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "n"
       }
     ],
     "units": [
-      "please",
-      "w",
-      "d",
-      "h"
+      "s",
+      "p",
+      "l",
+      "n"
     ],
-    "template": "s / p / l",
+    "template": "p l e a _ e",
     "correctAnswer": "please",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW595",
@@ -208,29 +212,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
-      },
-      {
-        "id": "B",
-        "label": "sing"
-      },
-      {
-        "id": "C",
         "label": "s"
       },
       {
+        "id": "B",
+        "label": "n"
+      },
+      {
+        "id": "C",
+        "label": "i"
+      },
+      {
         "id": "D",
-        "label": "b"
+        "label": "d"
       }
     ],
     "units": [
-      "n",
-      "sing",
       "s",
-      "b"
+      "n",
+      "i",
+      "d"
     ],
-    "template": "n / s / i",
+    "template": "s i _ g",
     "correctAnswer": "sing",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW725",
@@ -256,29 +261,30 @@
     "options": [
       {
         "id": "A",
-        "label": "m"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "k"
       },
       {
         "id": "C",
-        "label": "sky"
+        "label": "y"
       },
       {
         "id": "D",
-        "label": "w"
+        "label": "h"
       }
     ],
     "units": [
-      "m",
-      "r",
-      "sky",
-      "w"
+      "s",
+      "k",
+      "y",
+      "h"
     ],
-    "template": "y / s / k",
+    "template": "s k _",
     "correctAnswer": "sky",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW733",
@@ -304,29 +310,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
-      },
-      {
-        "id": "B",
         "label": "s"
       },
       {
+        "id": "B",
+        "label": "l"
+      },
+      {
         "id": "C",
-        "label": "b"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "sleep"
+        "label": "e"
       }
     ],
     "units": [
-      "n",
       "s",
-      "b",
-      "sleep"
+      "l",
+      "u",
+      "e"
     ],
-    "template": "e / s / l",
+    "template": "s l _ e p",
     "correctAnswer": "sleep",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW734",
@@ -352,29 +359,30 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "soil"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "w"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "d"
+        "label": "u"
       }
     ],
     "units": [
-      "r",
-      "soil",
-      "w",
-      "d"
+      "s",
+      "i",
+      "o",
+      "u"
     ],
-    "template": "i / s / o",
+    "template": "s o _ l",
     "correctAnswer": "soil",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW754",
@@ -400,29 +408,30 @@
     "options": [
       {
         "id": "A",
-        "label": "sound"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "i"
       }
     ],
     "units": [
-      "sound",
-      "w",
-      "d",
-      "h"
+      "u",
+      "s",
+      "o",
+      "i"
     ],
-    "template": "u / s / o",
+    "template": "s o _ n d",
     "correctAnswer": "sound",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW757",
@@ -448,29 +457,30 @@
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "spoon"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "e"
       }
     ],
     "units": [
-      "t",
-      "spoon",
-      "c",
-      "g"
+      "s",
+      "o",
+      "p",
+      "e"
     ],
-    "template": "o / s / p",
+    "template": "s p _ o n",
     "correctAnswer": "spoon",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW765",
@@ -496,7 +506,7 @@
     "options": [
       {
         "id": "A",
-        "label": "sweet"
+        "label": "e"
       },
       {
         "id": "B",
@@ -504,21 +514,22 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "a"
       }
     ],
     "units": [
-      "sweet",
+      "e",
       "s",
-      "b",
-      "f"
+      "w",
+      "a"
     ],
-    "template": "e / s / w",
+    "template": "s w _ e t",
     "correctAnswer": "sweet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW809",
@@ -544,29 +555,30 @@
     "options": [
       {
         "id": "A",
-        "label": "treat"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "e"
       }
     ],
     "units": [
-      "treat",
-      "f",
-      "k",
-      "n"
+      "a",
+      "t",
+      "r",
+      "e"
     ],
-    "template": "a / t / r",
+    "template": "t r e _ t",
     "correctAnswer": "treat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW878",
@@ -592,29 +604,30 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "tune"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "k"
       }
     ],
     "units": [
-      "d",
-      "tune",
-      "h",
-      "m"
+      "t",
+      "n",
+      "u",
+      "k"
     ],
-    "template": "n / t / u",
+    "template": "t u _ e",
     "correctAnswer": "tune",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW886",
@@ -640,29 +653,30 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "turn"
+        "label": "r"
       }
     ],
     "units": [
-      "g",
-      "l",
-      "p",
-      "turn"
+      "t",
+      "u",
+      "m",
+      "r"
     ],
-    "template": "r / t / u",
+    "template": "t u _ n",
     "correctAnswer": "turn",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW888",
@@ -682,29 +696,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "park",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "road"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "tree"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "park"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "sour"
+        "label": "k"
       }
     ],
-    "template": "Picture of a children's park",
+    "units": [
+      "p",
+      "a",
+      "r",
+      "k"
+    ],
     "correctAnswer": "park",
+    "image": {
+      "type": "image",
+      "source": "eng-park"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW568",
@@ -724,29 +748,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "road",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "road"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "sing"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "treat"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "shop"
+        "label": "d"
       }
     ],
-    "template": "Picture of a road.",
+    "units": [
+      "r",
+      "o",
+      "a",
+      "d"
+    ],
     "correctAnswer": "road",
+    "image": {
+      "type": "image",
+      "source": "eng-road"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW654",
@@ -766,29 +800,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "sand",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "grandpa"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "raincoat"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "underground"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "sand"
+        "label": "d"
       }
     ],
-    "template": "Picture of sand.",
+    "units": [
+      "s",
+      "a",
+      "n",
+      "d"
+    ],
     "correctAnswer": "sand",
+    "image": {
+      "type": "image",
+      "source": "eng-sand"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW675",
@@ -808,29 +852,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "shed",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "butterfly"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "shed"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "stop"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "sing"
+        "label": "d"
       }
     ],
-    "template": "Picture of a garden shed.",
+    "units": [
+      "s",
+      "h",
+      "e",
+      "d"
+    ],
     "correctAnswer": "shed",
+    "image": {
+      "type": "image",
+      "source": "eng-shed"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW703",
@@ -850,29 +904,44 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "shirt",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "shop"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "shirt"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "screw"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "until"
+        "label": "r"
+      },
+      {
+        "id": "E",
+        "label": "t"
       }
     ],
-    "template": "Picture of a shirt.",
+    "units": [
+      "s",
+      "h",
+      "i",
+      "r",
+      "t"
+    ],
     "correctAnswer": "shirt",
+    "image": {
+      "type": "image",
+      "source": "eng-shirt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW710",
@@ -892,29 +961,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "shop",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "recite"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "shop"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "spoil"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "plumber"
+        "label": "p"
       }
     ],
-    "template": "Picture of a shop.",
+    "units": [
+      "s",
+      "h",
+      "o",
+      "p"
+    ],
     "correctAnswer": "shop",
+    "image": {
+      "type": "image",
+      "source": "eng-shop"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW714",
@@ -934,29 +1013,34 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "tea",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "starfish"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "tea"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "plain"
-      },
-      {
-        "id": "D",
-        "label": "tape"
+        "label": "a"
       }
     ],
-    "template": "Picture of a cup of tea.",
+    "units": [
+      "t",
+      "e",
+      "a"
+    ],
     "correctAnswer": "tea",
+    "image": {
+      "type": "image",
+      "source": "eng-tea"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW824",
@@ -976,29 +1060,44 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "train",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "oil"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "train"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "soil"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "park"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "n"
       }
     ],
-    "template": "Picture clearly showing a train.",
+    "units": [
+      "t",
+      "r",
+      "a",
+      "i",
+      "n"
+    ],
     "correctAnswer": "train",
+    "image": {
+      "type": "image",
+      "source": "eng-train"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW875",
@@ -1018,29 +1117,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "tree",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sing"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "tree"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "treat"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "shirt"
+        "label": "e"
       }
     ],
-    "template": "Picture clearly showing a tree.",
+    "units": [
+      "t",
+      "r",
+      "e",
+      "e"
+    ],
     "correctAnswer": "tree",
+    "image": {
+      "type": "image",
+      "source": "eng-tree"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW879",
@@ -1066,29 +1175,30 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "recite"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "u"
       }
     ],
     "units": [
-      "h",
-      "recite",
-      "m",
-      "r"
+      "r",
+      "i",
+      "e",
+      "u"
     ],
-    "template": "i / r / e",
+    "template": "r e c _ t e",
     "correctAnswer": "recite",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW640",
@@ -1114,29 +1224,30 @@
     "options": [
       {
         "id": "A",
-        "label": "rude"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "s"
       }
     ],
     "units": [
-      "rude",
-      "s",
-      "b",
-      "f"
+      "d",
+      "r",
+      "u",
+      "s"
     ],
-    "template": "d / r / u",
+    "template": "r u _ e",
     "correctAnswer": "rude",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW665",
@@ -1162,29 +1273,30 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "scream"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "o"
       }
     ],
     "units": [
-      "w",
-      "d",
-      "scream",
-      "h"
+      "s",
+      "c",
+      "e",
+      "o"
     ],
-    "template": "e / s / c",
+    "template": "s c r _ a m",
     "correctAnswer": "scream",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW685",
@@ -1210,29 +1322,30 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "screw"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "i"
       }
     ],
     "units": [
-      "d",
-      "screw",
-      "h",
-      "m"
+      "s",
+      "e",
+      "c",
+      "i"
     ],
-    "template": "e / s / c",
+    "template": "s c r _ w",
     "correctAnswer": "screw",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW688",
@@ -1258,29 +1371,30 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "h"
       },
       {
         "id": "C",
-        "label": "shine"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "t"
       }
     ],
     "units": [
-      "p",
-      "t",
-      "shine",
-      "c"
+      "s",
+      "h",
+      "n",
+      "t"
     ],
-    "template": "n / s / h",
+    "template": "s h i _ e",
     "correctAnswer": "shine",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW708",
@@ -1306,7 +1420,7 @@
     "options": [
       {
         "id": "A",
-        "label": "snort"
+        "label": "o"
       },
       {
         "id": "B",
@@ -1314,21 +1428,22 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "a"
       }
     ],
     "units": [
-      "snort",
+      "o",
       "s",
-      "b",
-      "f"
+      "n",
+      "a"
     ],
-    "template": "o / s / n",
+    "template": "s n _ r t",
     "correctAnswer": "snort",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW746",
@@ -1354,29 +1469,30 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "sour"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "e"
       }
     ],
     "units": [
-      "c",
-      "g",
-      "sour",
-      "l"
+      "s",
+      "o",
+      "u",
+      "e"
     ],
-    "template": "u / s / o",
+    "template": "s o _ r",
     "correctAnswer": "sour",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW759",
@@ -1402,7 +1518,7 @@
     "options": [
       {
         "id": "A",
-        "label": "spoil"
+        "label": "o"
       },
       {
         "id": "B",
@@ -1410,21 +1526,22 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "a"
       }
     ],
     "units": [
-      "spoil",
+      "o",
       "s",
-      "b",
-      "f"
+      "p",
+      "a"
     ],
-    "template": "o / s / p",
+    "template": "s p _ i l",
     "correctAnswer": "spoil",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW764",
@@ -1450,29 +1567,30 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "q"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "squeeze"
+        "label": "e"
       }
     ],
     "units": [
-      "b",
-      "f",
-      "k",
-      "squeeze"
+      "s",
+      "q",
+      "u",
+      "e"
     ],
-    "template": "e / s / q",
+    "template": "s q u e _ z e",
     "correctAnswer": "squeeze",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW767",
@@ -1498,29 +1616,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "toil"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "a"
       }
     ],
     "units": [
-      "n",
-      "toil",
-      "s",
-      "b"
+      "t",
+      "i",
+      "o",
+      "a"
     ],
-    "template": "i / t / o",
+    "template": "t o _ l",
     "correctAnswer": "toil",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW860",
@@ -1546,29 +1665,30 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "until"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "e"
       }
     ],
     "units": [
-      "g",
-      "until",
-      "l",
-      "p"
+      "u",
+      "i",
+      "n",
+      "e"
     ],
-    "template": "i / u / n",
+    "template": "u n t _ l",
     "correctAnswer": "until",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW897",
@@ -1594,29 +1714,30 @@
     "options": [
       {
         "id": "A",
-        "label": "way"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "y"
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "e"
       }
     ],
     "units": [
-      "way",
+      "a",
+      "y",
       "w",
-      "d",
-      "h"
+      "e"
     ],
-    "template": "y / w / a",
+    "template": "w _ y",
     "correctAnswer": "way",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW919",
@@ -1642,7 +1763,7 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "e"
       },
       {
         "id": "B",
@@ -1650,21 +1771,22 @@
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "h"
       },
       {
         "id": "D",
-        "label": "whale"
+        "label": "a"
       }
     ],
     "units": [
-      "r",
+      "e",
       "w",
-      "d",
-      "whale"
+      "h",
+      "a"
     ],
-    "template": "e / w / h",
+    "template": "w h _ l e",
     "correctAnswer": "whale",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW925",
@@ -1690,29 +1812,30 @@
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "while"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "h"
       }
     ],
     "units": [
-      "t",
-      "while",
-      "c",
-      "g"
+      "e",
+      "i",
+      "w",
+      "h"
     ],
-    "template": "e / w / h",
+    "template": "w h _ l e",
     "correctAnswer": "while",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW927",
@@ -1755,6 +1878,7 @@
       "plu"
     ],
     "correctAnswer": "plumber",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW598",
@@ -1797,6 +1921,7 @@
       "por"
     ],
     "correctAnswer": "porridge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW608",
@@ -1839,6 +1964,7 @@
       "ul"
     ],
     "correctAnswer": "poultry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW613",
@@ -1876,6 +2002,7 @@
       "pump"
     ],
     "correctAnswer": "pumpkin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW621",
@@ -1913,6 +2040,7 @@
       "pur"
     ],
     "correctAnswer": "purple",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW624",
@@ -1955,6 +2083,7 @@
       "mem"
     ],
     "correctAnswer": "remember",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW644",
@@ -1992,6 +2121,7 @@
       "shel"
     ],
     "correctAnswer": "shelter",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW706",
@@ -2029,6 +2159,7 @@
       "shep"
     ],
     "correctAnswer": "shepherd",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW707",
@@ -2066,6 +2197,7 @@
       "shi"
     ],
     "correctAnswer": "shiver",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW711",
@@ -2108,6 +2240,7 @@
       "ul"
     ],
     "correctAnswer": "shoulder",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW720",
@@ -2145,6 +2278,7 @@
       "sis"
     ],
     "correctAnswer": "sister",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW729",
@@ -2182,6 +2316,7 @@
       "squir"
     ],
     "correctAnswer": "squirrel",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW768",
@@ -2224,6 +2359,7 @@
       "tho"
     ],
     "correctAnswer": "stethoscope",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW777",
@@ -2266,6 +2402,7 @@
       "den"
     ],
     "correctAnswer": "suddenly",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW796",
@@ -2308,6 +2445,7 @@
       "tele"
     ],
     "correctAnswer": "telephone",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW829",
@@ -2350,6 +2488,7 @@
       "tele"
     ],
     "correctAnswer": "television",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW830",
@@ -2397,6 +2536,7 @@
       "ture"
     ],
     "correctAnswer": "temperature",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW831",
@@ -2439,6 +2579,7 @@
       "un"
     ],
     "correctAnswer": "thunder",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW847",
@@ -2481,6 +2622,7 @@
       "er"
     ],
     "correctAnswer": "together",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW859",
@@ -2518,6 +2660,7 @@
       "trum"
     ],
     "correctAnswer": "trumpet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW881",
@@ -2560,6 +2703,7 @@
       "tur"
     ],
     "correctAnswer": "turmeric",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW887",
@@ -2602,6 +2746,7 @@
       "bre"
     ],
     "correctAnswer": "umbrella",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW890",
@@ -2644,6 +2789,7 @@
       "ta"
     ],
     "correctAnswer": "vegetable",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW903",
@@ -2681,6 +2827,7 @@
       "vil"
     ],
     "correctAnswer": "village",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW905",
@@ -2718,6 +2865,7 @@
       "chick"
     ],
     "correctAnswer": "chickpeas",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW139",
@@ -2755,6 +2903,7 @@
       "class"
     ],
     "correctAnswer": "classroom",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW145",
@@ -2792,6 +2941,7 @@
       "drum"
     ],
     "correctAnswer": "drumstick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW243",
@@ -2829,6 +2979,7 @@
       "dust"
     ],
     "correctAnswer": "dustbin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW248",
@@ -2866,6 +3017,7 @@
       "every"
     ],
     "correctAnswer": "everyone",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW263",
@@ -2903,6 +3055,7 @@
       "fire"
     ],
     "correctAnswer": "firefighter",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW292",
@@ -2940,6 +3093,7 @@
       "grand"
     ],
     "correctAnswer": "grandma",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW349",
@@ -2977,6 +3131,7 @@
       "grand"
     ],
     "correctAnswer": "grandpa",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW350",
@@ -3014,6 +3169,11 @@
       "grass"
     ],
     "correctAnswer": "grasshopper",
+    "image": {
+      "type": "image",
+      "source": "eng-grasshopper"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW353",
@@ -3051,6 +3211,7 @@
       "ground"
     ],
     "correctAnswer": "groundnut",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW361",
@@ -3093,6 +3254,7 @@
       "no"
     ],
     "correctAnswer": "nothing",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW547",
@@ -3130,6 +3292,7 @@
       "out"
     ],
     "correctAnswer": "outline",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW558",
@@ -3167,6 +3330,7 @@
       "pitter"
     ],
     "correctAnswer": "pitter-patter",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW588",
@@ -3204,6 +3368,7 @@
       "rain"
     ],
     "correctAnswer": "rainbow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW631",
@@ -3241,6 +3406,7 @@
       "rain"
     ],
     "correctAnswer": "raincoat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW632",
@@ -3283,6 +3449,7 @@
       "re"
     ],
     "correctAnswer": "scarecrow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW680",
@@ -3325,6 +3492,7 @@
       "shop"
     ],
     "correctAnswer": "shopkeeper",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW715",
@@ -3367,6 +3535,7 @@
       "some"
     ],
     "correctAnswer": "something",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW755",
@@ -3409,6 +3578,7 @@
       "star"
     ],
     "correctAnswer": "starfish",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW774",
@@ -3451,6 +3621,7 @@
       "sun"
     ],
     "correctAnswer": "sunglasses",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW801",
@@ -3493,6 +3664,7 @@
       "mor"
     ],
     "correctAnswer": "tomorrow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW863",
@@ -3535,6 +3707,7 @@
       "un"
     ],
     "correctAnswer": "underground",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW892",
@@ -3577,6 +3750,7 @@
       "wash"
     ],
     "correctAnswer": "washbasin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW914",
@@ -3614,6 +3788,7 @@
       "water"
     ],
     "correctAnswer": "waterfall",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW916",
@@ -3661,6 +3836,7 @@
       "ter"
     ],
     "correctAnswer": "watermelon",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW917",
@@ -3686,29 +3862,30 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "plain"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "i"
       }
     ],
     "units": [
-      "d",
-      "plain",
-      "h",
-      "m"
+      "p",
+      "a",
+      "l",
+      "i"
     ],
-    "template": "a / p / l",
+    "template": "p l _ i n",
     "correctAnswer": "plain",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW589",
@@ -3734,29 +3911,30 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "p"
       },
       {
         "id": "B",
-        "label": "plier"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "i"
       }
     ],
     "units": [
-      "b",
-      "plier",
-      "f",
-      "k"
+      "p",
+      "e",
+      "l",
+      "i"
     ],
-    "template": "e / p / l",
+    "template": "p l i _ r",
     "correctAnswer": "plier",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW596",
@@ -3782,29 +3960,30 @@
     "options": [
       {
         "id": "A",
-        "label": "m"
-      },
-      {
-        "id": "B",
         "label": "r"
       },
       {
+        "id": "B",
+        "label": "i"
+      },
+      {
         "id": "C",
-        "label": "ripe"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "w"
+        "label": "d"
       }
     ],
     "units": [
-      "m",
       "r",
-      "ripe",
-      "w"
+      "i",
+      "p",
+      "d"
     ],
-    "template": "p / r / i",
+    "template": "r i _ e",
     "correctAnswer": "ripe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW652",
@@ -3830,29 +4009,30 @@
     "options": [
       {
         "id": "A",
-        "label": "safe"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "g"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "c"
       }
     ],
     "units": [
-      "safe",
-      "c",
-      "g",
-      "l"
+      "f",
+      "s",
+      "a",
+      "c"
     ],
-    "template": "f / s / a",
+    "template": "s a _ e",
     "correctAnswer": "safe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW669",
@@ -3878,29 +4058,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
-      },
-      {
-        "id": "B",
-        "label": "spade"
-      },
-      {
-        "id": "C",
         "label": "s"
       },
       {
+        "id": "B",
+        "label": "a"
+      },
+      {
+        "id": "C",
+        "label": "p"
+      },
+      {
         "id": "D",
-        "label": "b"
+        "label": "i"
       }
     ],
     "units": [
-      "n",
-      "spade",
       "s",
-      "b"
+      "a",
+      "p",
+      "i"
     ],
-    "template": "a / s / p",
+    "template": "s p _ d e",
     "correctAnswer": "spade",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW761",
@@ -3926,29 +4107,30 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "q"
       },
       {
         "id": "C",
-        "label": "squeal"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "o"
       }
     ],
     "units": [
-      "w",
-      "d",
-      "squeal",
-      "h"
+      "s",
+      "q",
+      "e",
+      "o"
     ],
-    "template": "e / s / q",
+    "template": "s q u _ a l",
     "correctAnswer": "squeal",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW766",
@@ -3974,29 +4156,30 @@
     "options": [
       {
         "id": "A",
-        "label": "stitch"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "a"
       }
     ],
     "units": [
-      "stitch",
-      "f",
-      "k",
-      "n"
+      "i",
+      "s",
+      "t",
+      "a"
     ],
-    "template": "i / s / t",
+    "template": "s t _ t c h",
     "correctAnswer": "stitch",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW779",
@@ -4022,29 +4205,30 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "tape"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "n"
       }
     ],
     "units": [
-      "h",
-      "tape",
-      "m",
-      "r"
+      "t",
+      "p",
+      "a",
+      "n"
     ],
-    "template": "p / t / a",
+    "template": "t a _ e",
     "correctAnswer": "tape",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW820",
@@ -4070,29 +4254,30 @@
     "options": [
       {
         "id": "A",
-        "label": "s"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "b"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "track"
+        "label": "c"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "l"
       }
     ],
     "units": [
-      "s",
-      "b",
-      "track",
-      "f"
+      "t",
+      "r",
+      "c",
+      "l"
     ],
-    "template": "c / t / r",
+    "template": "t r a _ k",
     "correctAnswer": "track",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW872",
@@ -4118,29 +4303,30 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "h"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "tray"
+        "label": "a"
       }
     ],
     "units": [
-      "d",
-      "h",
-      "m",
-      "tray"
+      "t",
+      "r",
+      "u",
+      "a"
     ],
-    "template": "a / t / r",
+    "template": "t r _ y",
     "correctAnswer": "tray",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW877",
@@ -4166,29 +4352,30 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "w"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "u"
       },
       {
         "id": "D",
-        "label": "wait"
+        "label": "a"
       }
     ],
     "units": [
-      "h",
-      "m",
-      "r",
-      "wait"
+      "i",
+      "w",
+      "u",
+      "a"
     ],
-    "template": "i / w / a",
+    "template": "w _ i t",
     "correctAnswer": "wait",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW910",
@@ -4226,6 +4413,7 @@
       "tic"
     ],
     "correctAnswer": "plastic",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW590",
@@ -4268,6 +4456,7 @@
       "po"
     ],
     "correctAnswer": "police",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW602",
@@ -4320,6 +4509,7 @@
       "ra"
     ],
     "correctAnswer": "refrigerator",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW643",
@@ -4357,6 +4547,7 @@
       "re"
     ],
     "correctAnswer": "repair",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW645",
@@ -4399,6 +4590,7 @@
       "g"
     ],
     "correctAnswer": "signal",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW724",
@@ -4441,6 +4633,7 @@
       "sta"
     ],
     "correctAnswer": "station",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW776",
@@ -4478,6 +4671,7 @@
       "sus"
     ],
     "correctAnswer": "sustain",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW806",
@@ -4515,6 +4709,7 @@
       "traf"
     ],
     "correctAnswer": "traffic",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW874",
@@ -4552,6 +4747,7 @@
       "vehi"
     ],
     "correctAnswer": "vehicle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW904",
@@ -4594,6 +4790,7 @@
       "vol"
     ],
     "correctAnswer": "volcano",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW908",
@@ -4631,6 +4828,7 @@
       "air"
     ],
     "correctAnswer": "airport",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW006",
@@ -4673,6 +4871,7 @@
       "ter"
     ],
     "correctAnswer": "butterfly",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW107",
@@ -4715,6 +4914,11 @@
       "on"
     ],
     "correctAnswer": "dragonfly",
+    "image": {
+      "type": "image",
+      "source": "eng-dragonfly"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW236",
@@ -4757,6 +4961,7 @@
       "plat"
     ],
     "correctAnswer": "platform",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW592",
@@ -4799,6 +5004,7 @@
       "post"
     ],
     "correctAnswer": "post office",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW609",
@@ -4841,6 +5047,7 @@
       "screw"
     ],
     "correctAnswer": "screwdriver",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW689",
@@ -4883,6 +5090,7 @@
       "seat"
     ],
     "correctAnswer": "seatbelt",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW692",
@@ -4902,29 +5110,44 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "snail",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "snail"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "seatbelt"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "please"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "sweet"
+        "label": "i"
+      },
+      {
+        "id": "E",
+        "label": "l"
       }
     ],
-    "template": "Picture of a snail.",
+    "units": [
+      "s",
+      "n",
+      "a",
+      "i",
+      "l"
+    ],
     "correctAnswer": "snail",
+    "image": {
+      "type": "image",
+      "source": "eng-snail"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW742",
@@ -4944,29 +5167,39 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "stop",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sing"
+        "label": "s"
       },
       {
         "id": "B",
-        "label": "stop"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "treat"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "shirt"
+        "label": "p"
       }
     ],
-    "template": "Picture clearly showing a child stopping while walking or running.",
+    "units": [
+      "s",
+      "t",
+      "o",
+      "p"
+    ],
     "correctAnswer": "stop",
+    "image": {
+      "type": "image",
+      "source": "eng-stop"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW783",
@@ -4986,29 +5219,44 @@
     "level": 2,
     "sourceDifficulty": "Unclassified",
     "targetWord": "trash",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "paint"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "sound"
+        "label": "r"
       },
       {
         "id": "C",
-        "label": "trash"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "road"
+        "label": "s"
+      },
+      {
+        "id": "E",
+        "label": "h"
       }
     ],
-    "template": "Picture clearly showing discarded waste/trash in a bin or container.",
+    "units": [
+      "t",
+      "r",
+      "a",
+      "s",
+      "h"
+    ],
     "correctAnswer": "trash",
+    "image": {
+      "type": "image",
+      "source": "eng-trash"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW876",
@@ -5049,8 +5297,12 @@
         "label": "wrench"
       }
     ],
-    "template": "wrench / branch / bench",
     "correctAnswer": "wrench",
+    "image": {
+      "type": "image",
+      "source": "eng-wrench"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW947",
@@ -5089,6 +5341,7 @@
       }
     ],
     "correctAnswer": "angry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW011",
@@ -5127,6 +5380,7 @@
       }
     ],
     "correctAnswer": "ask",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW021",
@@ -5157,7 +5411,7 @@
       },
       {
         "id": "B",
-        "label": "bed"
+        "label": "badd"
       },
       {
         "id": "C",
@@ -5165,6 +5419,7 @@
       }
     ],
     "correctAnswer": "bad",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW030",
@@ -5203,6 +5458,7 @@
       }
     ],
     "correctAnswer": "badge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW031",
@@ -5241,6 +5497,11 @@
       }
     ],
     "correctAnswer": "belt",
+    "image": {
+      "type": "image",
+      "source": "eng-belt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW052",
@@ -5279,6 +5540,11 @@
       }
     ],
     "correctAnswer": "big",
+    "image": {
+      "type": "image",
+      "source": "eng-big"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW058",
@@ -5352,6 +5618,7 @@
       "e"
     ],
     "correctAnswer": "aeroplane",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW004",
@@ -5415,6 +5682,7 @@
       "t"
     ],
     "correctAnswer": "blanket",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW063",
@@ -5466,10 +5734,6 @@
       {
         "id": "G",
         "label": "n"
-      },
-      {
-        "id": "H",
-        "label": "g"
       }
     ],
     "units": [
@@ -5479,10 +5743,10 @@
       "e",
       "n",
       "i",
-      "n",
-      "g"
+      "n"
     ],
     "correctAnswer": "evening",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW262",
@@ -5542,6 +5806,7 @@
       "f"
     ],
     "correctAnswer": "fluffy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW305",
@@ -5595,6 +5860,7 @@
       "e"
     ],
     "correctAnswer": "honey",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW399",
@@ -5653,6 +5919,7 @@
       "t"
     ],
     "correctAnswer": "letter",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW464",
@@ -5691,6 +5958,11 @@
       }
     ],
     "correctAnswer": "almond",
+    "image": {
+      "type": "image",
+      "source": "eng-almond"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW007",
@@ -5729,6 +6001,7 @@
       }
     ],
     "correctAnswer": "axe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW027",
@@ -5767,6 +6040,7 @@
       }
     ],
     "correctAnswer": "beach",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW042",
@@ -5805,6 +6079,7 @@
       }
     ],
     "correctAnswer": "beat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW045",
@@ -5843,6 +6118,7 @@
       }
     ],
     "correctAnswer": "best",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW054",
@@ -5881,6 +6157,7 @@
       }
     ],
     "correctAnswer": "blew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW065",
@@ -5907,7 +6184,7 @@
     "options": [
       {
         "id": "A",
-        "label": "a"
+        "label": "o"
       },
       {
         "id": "B",
@@ -5915,21 +6192,22 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "i"
       }
     ],
     "units": [
-      "a",
+      "o",
       "e",
-      "u",
-      "o"
+      "a",
+      "i"
     ],
-    "template": "c r _ c k | Options: a / o / e",
+    "template": "c r _ c k",
     "correctAnswer": "crack",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW175",
@@ -5956,29 +6234,30 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "u"
       }
     ],
     "units": [
-      "u",
+      "a",
+      "e",
       "o",
-      "i",
-      "e"
+      "u"
     ],
-    "template": "d e _ p | Options: e / a / o",
+    "template": "d e _ p",
     "correctAnswer": "deep",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW208",
@@ -6005,29 +6284,30 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
-      },
-      {
-        "id": "B",
-        "label": "i"
-      },
-      {
-        "id": "C",
         "label": "a"
       },
       {
-        "id": "D",
+        "id": "B",
+        "label": "e"
+      },
+      {
+        "id": "C",
         "label": "u"
+      },
+      {
+        "id": "D",
+        "label": "i"
       }
     ],
     "units": [
-      "e",
-      "i",
       "a",
-      "u"
+      "e",
+      "u",
+      "i"
     ],
-    "template": "d r _ n k | Options: i / a / e",
+    "template": "d r _ n k",
     "correctAnswer": "drink",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW239",
@@ -6054,29 +6334,30 @@
     "options": [
       {
         "id": "A",
-        "label": "g"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "anything"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "p"
+        "label": "o"
       }
     ],
     "units": [
-      "g",
-      "l",
-      "anything",
-      "p"
+      "i",
+      "e",
+      "a",
+      "o"
     ],
-    "template": "a | n | y | t | h | i | n | g",
+    "template": "a n y t h _ n g",
     "correctAnswer": "anything",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW016",
@@ -6115,6 +6396,11 @@
       }
     ],
     "correctAnswer": "anjaraipetti",
+    "image": {
+      "type": "image",
+      "source": "eng-anjaraipetti"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW013",
@@ -6153,6 +6439,11 @@
       }
     ],
     "correctAnswer": "ash gourd",
+    "image": {
+      "type": "image",
+      "source": "eng-ash-gourd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW020",
@@ -6191,6 +6482,11 @@
       }
     ],
     "correctAnswer": "day",
+    "image": {
+      "type": "image",
+      "source": "eng-day"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW206",
@@ -6229,6 +6525,11 @@
       }
     ],
     "correctAnswer": "desert",
+    "image": {
+      "type": "image",
+      "source": "eng-desert"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW215",
@@ -6267,6 +6568,7 @@
       }
     ],
     "correctAnswer": "fibre",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW284",
@@ -6305,6 +6607,7 @@
       }
     ],
     "correctAnswer": "go",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW343",
@@ -6343,6 +6646,7 @@
       }
     ],
     "correctAnswer": "iron",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW423",
@@ -6381,6 +6685,7 @@
       }
     ],
     "correctAnswer": "island",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW424",
@@ -6439,6 +6744,7 @@
       "s"
     ],
     "correctAnswer": "basket",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW039",
@@ -6492,6 +6798,7 @@
       "y"
     ],
     "correctAnswer": "curvy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW197",
@@ -6550,6 +6857,7 @@
       "r"
     ],
     "correctAnswer": "dinner",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW223",
@@ -6603,6 +6911,7 @@
       "x"
     ],
     "correctAnswer": "fixed",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW298",
@@ -6666,6 +6975,7 @@
       "g"
     ],
     "correctAnswer": "hanging",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW373",
@@ -6704,6 +7014,7 @@
       }
     ],
     "correctAnswer": "practise",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW615",
@@ -6742,6 +7053,7 @@
       }
     ],
     "correctAnswer": "scissors",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW684",
@@ -6780,6 +7092,7 @@
       }
     ],
     "correctAnswer": "thrown",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW846",
@@ -6818,6 +7131,7 @@
       }
     ],
     "correctAnswer": "whoosh",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW930",
@@ -6891,6 +7205,7 @@
       "k"
     ],
     "correctAnswer": "breakfast",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_8_Picture_and_Options_Support_Corrected_v1_FULL_WORD_LIST.xlsx",
       "ewId": "EW084",

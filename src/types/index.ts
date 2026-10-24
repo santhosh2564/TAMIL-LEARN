@@ -68,6 +68,7 @@ export interface Activity {
   template?: string;
   correctAnswer: string | string[];
   image?: ContentAsset;
+  needsImage?: boolean;
   audio?: ContentAsset;
   learningObjective?: string;
   interactionDetail?: string;

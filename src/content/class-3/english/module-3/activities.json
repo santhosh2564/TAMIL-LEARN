@@ -28,6 +28,11 @@
       }
     ],
     "correctAnswer": "bow",
+    "image": {
+      "type": "image",
+      "source": "eng-bow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW078",
@@ -65,6 +70,7 @@
       }
     ],
     "correctAnswer": "buy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW109",
@@ -102,6 +108,7 @@
       }
     ],
     "correctAnswer": "cut",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW198",
@@ -139,6 +146,7 @@
       }
     ],
     "correctAnswer": "did",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW219",
@@ -176,6 +184,7 @@
       }
     ],
     "correctAnswer": "end",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW256",
@@ -213,6 +222,11 @@
       }
     ],
     "correctAnswer": "eye",
+    "image": {
+      "type": "image",
+      "source": "eng-eye"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW267",
@@ -250,6 +264,7 @@
       }
     ],
     "correctAnswer": "fat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW275",
@@ -287,6 +302,7 @@
       }
     ],
     "correctAnswer": "fit",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW296",
@@ -324,6 +340,7 @@
       }
     ],
     "correctAnswer": "get",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW334",
@@ -361,6 +378,7 @@
       }
     ],
     "correctAnswer": "got",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW347",
@@ -398,6 +416,7 @@
       }
     ],
     "correctAnswer": "had",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW367",
@@ -435,6 +454,7 @@
       }
     ],
     "correctAnswer": "has",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW376",
@@ -472,6 +492,7 @@
       }
     ],
     "correctAnswer": "hit",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW394",
@@ -509,6 +530,7 @@
       }
     ],
     "correctAnswer": "hot",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW406",
@@ -546,6 +568,7 @@
       }
     ],
     "correctAnswer": "it",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW425",
@@ -583,6 +606,7 @@
       }
     ],
     "correctAnswer": "let",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW463",
@@ -620,6 +644,7 @@
       }
     ],
     "correctAnswer": "men",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW501",
@@ -657,6 +682,7 @@
       }
     ],
     "correctAnswer": "my",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW528",
@@ -694,6 +720,7 @@
       }
     ],
     "correctAnswer": "new",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW542",
@@ -731,6 +758,7 @@
       }
     ],
     "correctAnswer": "put",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW625",
@@ -768,6 +796,7 @@
       }
     ],
     "correctAnswer": "row",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW663",
@@ -805,6 +834,7 @@
       }
     ],
     "correctAnswer": "Roy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW664",
@@ -842,6 +872,7 @@
       }
     ],
     "correctAnswer": "run",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW666",
@@ -879,6 +910,7 @@
       }
     ],
     "correctAnswer": "saw",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW678",
@@ -916,6 +948,7 @@
       }
     ],
     "correctAnswer": "say",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW679",
@@ -953,6 +986,7 @@
       }
     ],
     "correctAnswer": "soy",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW760",
@@ -990,6 +1024,7 @@
       }
     ],
     "correctAnswer": "two",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW889",
@@ -1027,6 +1062,7 @@
       }
     ],
     "correctAnswer": "up",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW898",
@@ -1060,21 +1096,22 @@
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "n"
       }
     ],
     "units": [
       "t",
       "y",
-      "c",
-      "g"
+      "e",
+      "n"
     ],
     "template": "f r _",
     "correctAnswer": "fry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW322",
@@ -1108,21 +1145,22 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "i"
       }
     ],
     "units": [
       "e",
       "o",
-      "a",
-      "u"
+      "t",
+      "i"
     ],
     "template": "m _ w",
     "correctAnswer": "mow",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW520",
@@ -1148,11 +1186,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "e"
       },
       {
         "id": "C",
@@ -1160,17 +1198,18 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "u"
       }
     ],
     "units": [
-      "o",
-      "i",
+      "t",
+      "e",
       "a",
-      "e"
+      "u"
     ],
     "template": "s o _ k",
     "correctAnswer": "soak",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW749",
@@ -1208,6 +1247,7 @@
       }
     ],
     "correctAnswer": "both",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW076",
@@ -1245,6 +1285,11 @@
       }
     ],
     "correctAnswer": "bowl",
+    "image": {
+      "type": "image",
+      "source": "eng-bowl"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW079",
@@ -1282,6 +1327,7 @@
       }
     ],
     "correctAnswer": "bray",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW082",
@@ -1319,6 +1365,7 @@
       }
     ],
     "correctAnswer": "build",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW099",
@@ -1356,6 +1403,7 @@
       }
     ],
     "correctAnswer": "chalk",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW130",
@@ -1393,6 +1441,7 @@
       }
     ],
     "correctAnswer": "chef",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW135",
@@ -1430,6 +1479,7 @@
       }
     ],
     "correctAnswer": "city",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW142",
@@ -1467,6 +1517,7 @@
       }
     ],
     "correctAnswer": "claws",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW146",
@@ -1504,6 +1555,7 @@
       }
     ],
     "correctAnswer": "feet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW280",
@@ -1541,6 +1593,11 @@
       }
     ],
     "correctAnswer": "field",
+    "image": {
+      "type": "image",
+      "source": "eng-field"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW285",
@@ -1578,6 +1635,7 @@
       }
     ],
     "correctAnswer": "fifth",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW286",
@@ -1615,6 +1673,7 @@
       }
     ],
     "correctAnswer": "first",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW293",
@@ -1652,6 +1711,7 @@
       }
     ],
     "correctAnswer": "found",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW315",
@@ -1689,6 +1749,7 @@
       }
     ],
     "correctAnswer": "gave",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW331",
@@ -1726,6 +1787,7 @@
       }
     ],
     "correctAnswer": "good",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW345",
@@ -1763,6 +1825,7 @@
       }
     ],
     "correctAnswer": "great",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW354",
@@ -1800,6 +1863,7 @@
       }
     ],
     "correctAnswer": "grey",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW357",
@@ -1837,6 +1901,7 @@
       }
     ],
     "correctAnswer": "hear",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW383",
@@ -1874,6 +1939,7 @@
       }
     ],
     "correctAnswer": "heard",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW384",
@@ -1895,7 +1961,7 @@
     "targetWord": "hoof",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.A horse has a hard foot called a ______. Choose the correct spelling:",
+    "prompt": "A horse has a hard foot called a ______. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -1911,6 +1977,7 @@
       }
     ],
     "correctAnswer": "hoof",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW400",
@@ -1948,6 +2015,7 @@
       }
     ],
     "correctAnswer": "hurt",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW411",
@@ -1985,6 +2053,7 @@
       }
     ],
     "correctAnswer": "knife",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW447",
@@ -2022,6 +2091,7 @@
       }
     ],
     "correctAnswer": "laugh",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW453",
@@ -2059,6 +2129,7 @@
       }
     ],
     "correctAnswer": "left",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW459",
@@ -2096,6 +2167,7 @@
       }
     ],
     "correctAnswer": "light",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW469",
@@ -2133,6 +2205,7 @@
       }
     ],
     "correctAnswer": "neigh",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW537",
@@ -2170,6 +2243,7 @@
       }
     ],
     "correctAnswer": "night",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW543",
@@ -2207,6 +2281,7 @@
       }
     ],
     "correctAnswer": "right",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW650",
@@ -2244,6 +2319,7 @@
       }
     ],
     "correctAnswer": "short",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW717",
@@ -2281,6 +2357,7 @@
       }
     ],
     "correctAnswer": "soft",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW753",
@@ -2318,6 +2395,7 @@
       }
     ],
     "correctAnswer": "swift",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW810",
@@ -2355,6 +2433,7 @@
       }
     ],
     "correctAnswer": "teach",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW825",
@@ -2392,6 +2471,7 @@
       }
     ],
     "correctAnswer": "teeth",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW828",
@@ -2429,6 +2509,7 @@
       }
     ],
     "correctAnswer": "thin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW836",
@@ -2466,6 +2547,7 @@
       }
     ],
     "correctAnswer": "third",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW838",
@@ -2503,6 +2585,7 @@
       }
     ],
     "correctAnswer": "this",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW840",
@@ -2540,6 +2623,7 @@
       }
     ],
     "correctAnswer": "throw",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW845",
@@ -2577,6 +2661,7 @@
       }
     ],
     "correctAnswer": "tight",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW852",
@@ -2614,6 +2699,7 @@
       }
     ],
     "correctAnswer": "walk",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW911",
@@ -2651,6 +2737,7 @@
       }
     ],
     "correctAnswer": "weigh",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW922",
@@ -2688,6 +2775,7 @@
       }
     ],
     "correctAnswer": "write",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW948",
@@ -2725,6 +2813,7 @@
       }
     ],
     "correctAnswer": "wrong",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW949",
@@ -2762,6 +2851,7 @@
       }
     ],
     "correctAnswer": "yours",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW954",
@@ -2787,11 +2877,11 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
@@ -2799,17 +2889,18 @@
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "u"
       }
     ],
     "units": [
-      "o",
-      "i",
+      "e",
+      "t",
       "a",
-      "e"
+      "u"
     ],
     "template": "a w _ y",
     "correctAnswer": "away",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW026",
@@ -2831,11 +2922,11 @@
     "targetWord": "black",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.The cat is ______. Complete the word:",
+    "prompt": "The cat is ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "e"
       },
       {
         "id": "B",
@@ -2843,21 +2934,22 @@
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "o"
       }
     ],
     "units": [
-      "i",
-      "a",
       "e",
-      "u"
+      "a",
+      "t",
+      "o"
     ],
     "template": "b l _ c k",
     "correctAnswer": "black",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW061",
@@ -2879,19 +2971,19 @@
     "targetWord": "brush",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.I use a ______ to clean my teeth. Complete the word:",
+    "prompt": "I use a ______ to clean my teeth. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "D",
@@ -2899,13 +2991,14 @@
       }
     ],
     "units": [
-      "o",
-      "i",
+      "t",
       "e",
+      "a",
       "u"
     ],
     "template": "b r _ s h",
     "correctAnswer": "brush",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW096",
@@ -2927,15 +3020,15 @@
     "targetWord": "buzz",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.A bee can ______ around a flower. Complete the word:",
+    "prompt": "A bee can ______ around a flower. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "m"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "r"
+        "label": "t"
       },
       {
         "id": "C",
@@ -2943,17 +3036,18 @@
       },
       {
         "id": "D",
-        "label": "w"
+        "label": "b"
       }
     ],
     "units": [
-      "m",
-      "r",
+      "e",
+      "t",
       "z",
-      "w"
+      "b"
     ],
     "template": "b u _ z",
     "correctAnswer": "buzz",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW110",
@@ -2979,11 +3073,11 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "t"
       },
       {
         "id": "C",
@@ -2995,13 +3089,14 @@
       }
     ],
     "units": [
-      "w",
-      "d",
+      "e",
+      "t",
       "h",
       "p"
     ],
     "template": "c l a _ s",
     "correctAnswer": "claps",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW144",
@@ -3031,25 +3126,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "u"
       }
     ],
     "units": [
       "o",
-      "a",
-      "u",
-      "i"
+      "e",
+      "t",
+      "u"
     ],
     "template": "c _ o l",
     "correctAnswer": "cool",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW167",
@@ -3075,15 +3171,15 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "o"
       },
       {
         "id": "D",
@@ -3091,13 +3187,14 @@
       }
     ],
     "units": [
-      "o",
-      "i",
       "e",
+      "a",
+      "o",
       "u"
     ],
     "template": "c o _ n t",
     "correctAnswer": "count",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW173",
@@ -3135,6 +3232,7 @@
       }
     ],
     "correctAnswer": "blew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW065",
@@ -3172,6 +3270,11 @@
       }
     ],
     "correctAnswer": "bridge",
+    "image": {
+      "type": "image",
+      "source": "eng-bridge"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW089",
@@ -3209,6 +3312,7 @@
       }
     ],
     "correctAnswer": "bureau",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW103",
@@ -3246,6 +3350,11 @@
       }
     ],
     "correctAnswer": "castle",
+    "image": {
+      "type": "image",
+      "source": "eng-castle"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW122",
@@ -3283,6 +3392,7 @@
       }
     ],
     "correctAnswer": "children",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW140",
@@ -3320,6 +3430,7 @@
       }
     ],
     "correctAnswer": "crew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW180",
@@ -3357,6 +3468,7 @@
       }
     ],
     "correctAnswer": "cupboard",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW193",
@@ -3394,6 +3506,11 @@
       }
     ],
     "correctAnswer": "dairy",
+    "image": {
+      "type": "image",
+      "source": "eng-dairy"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW200",
@@ -3431,6 +3548,7 @@
       }
     ],
     "correctAnswer": "drew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW237",
@@ -3468,6 +3586,7 @@
       }
     ],
     "correctAnswer": "enough",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW258",
@@ -3505,6 +3624,11 @@
       }
     ],
     "correctAnswer": "goose",
+    "image": {
+      "type": "image",
+      "source": "eng-goose"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW346",
@@ -3526,7 +3650,7 @@
     "targetWord": "heart",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Your ______ beats inside your chest. Choose the correct spelling:",
+    "prompt": "Your ______ beats inside your chest. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3542,6 +3666,7 @@
       }
     ],
     "correctAnswer": "heart",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW385",
@@ -3563,7 +3688,7 @@
     "targetWord": "judge",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.A person who decides cases in a court is a ______. Choose the correct spelling:",
+    "prompt": "A person who decides cases in a court is a ______. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3579,6 +3704,7 @@
       }
     ],
     "correctAnswer": "judge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW433",
@@ -3600,7 +3726,7 @@
     "targetWord": "knee",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Your leg bends at the ______. Choose the correct spelling:",
+    "prompt": "Your leg bends at the ______. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3616,6 +3742,7 @@
       }
     ],
     "correctAnswer": "knee",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW446",
@@ -3637,7 +3764,7 @@
     "targetWord": "plough",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.A farmer uses this tool to prepare the soil. Choose the correct spelling:",
+    "prompt": "A farmer uses this tool to prepare the soil. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3653,6 +3780,7 @@
       }
     ],
     "correctAnswer": "plough",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW597",
@@ -3690,6 +3818,7 @@
       }
     ],
     "correctAnswer": "ran",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW634",
@@ -3711,7 +3840,7 @@
     "targetWord": "read",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Choose the correct spelling:",
+    "prompt": "Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3727,6 +3856,7 @@
       }
     ],
     "correctAnswer": "read",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW636",
@@ -3764,6 +3894,7 @@
       }
     ],
     "correctAnswer": "shook",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW713",
@@ -3801,6 +3932,7 @@
       }
     ],
     "correctAnswer": "should",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW719",
@@ -3822,7 +3954,7 @@
     "targetWord": "straight",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.The road is not curved. Choose the correct spelling:",
+    "prompt": "The road is not curved. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3838,6 +3970,7 @@
       }
     ],
     "correctAnswer": "straight",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW788",
@@ -3875,6 +4008,7 @@
       }
     ],
     "correctAnswer": "such",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW795",
@@ -3912,6 +4046,7 @@
       }
     ],
     "correctAnswer": "thread",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW842",
@@ -3933,7 +4068,7 @@
     "targetWord": "threw",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Ravi ______ the ball to his friend. Choose the correct spelling:",
+    "prompt": "Ravi ______ the ball to his friend. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -3949,6 +4084,7 @@
       }
     ],
     "correctAnswer": "threw",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW843",
@@ -3986,6 +4122,7 @@
       }
     ],
     "correctAnswer": "through",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW844",
@@ -4007,7 +4144,7 @@
     "targetWord": "too",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "I want ______ to play. Choose the correct spelling:",
+    "prompt": "I want to play ______. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4023,6 +4160,7 @@
       }
     ],
     "correctAnswer": "too",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW864",
@@ -4044,7 +4182,7 @@
     "targetWord": "whistle",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture and choose the correctly spelled word.",
+    "prompt": "And choose the correctly spelled word.",
     "options": [
       {
         "id": "A",
@@ -4060,6 +4198,7 @@
       }
     ],
     "correctAnswer": "whistle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW928",
@@ -4097,6 +4236,7 @@
       }
     ],
     "correctAnswer": "woollen",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW944",
@@ -4118,11 +4258,11 @@
     "targetWord": "behind",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
@@ -4130,7 +4270,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "t"
       },
       {
         "id": "D",
@@ -4138,13 +4278,14 @@
       }
     ],
     "units": [
-      "e",
-      "i",
       "a",
+      "i",
+      "t",
       "u"
     ],
     "template": "b e h _ n d",
     "correctAnswer": "behind",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW050",
@@ -4166,15 +4307,15 @@
     "targetWord": "brick",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.The wall is made of ______. Complete the word:",
+    "prompt": "The wall is made of ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "t"
       },
       {
         "id": "C",
@@ -4182,17 +4323,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
       "e",
+      "t",
       "i",
-      "a"
+      "o"
     ],
     "template": "b r _ c k",
     "correctAnswer": "brick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW088",
@@ -4222,25 +4364,26 @@
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "a"
       }
     ],
     "units": [
       "o",
-      "a",
-      "u",
-      "i"
+      "t",
+      "e",
+      "a"
     ],
     "template": "b r _ o m",
     "correctAnswer": "broom",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW093",
@@ -4278,6 +4421,11 @@
       }
     ],
     "correctAnswer": "almond",
+    "image": {
+      "type": "image",
+      "source": "eng-almond"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW007",
@@ -4299,7 +4447,7 @@
     "targetWord": "axe",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Choose the correct spelling:",
+    "prompt": "Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4315,6 +4463,7 @@
       }
     ],
     "correctAnswer": "axe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW027",
@@ -4336,7 +4485,7 @@
     "targetWord": "beach",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Choose the correct spelling:",
+    "prompt": "Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4352,6 +4501,7 @@
       }
     ],
     "correctAnswer": "beach",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW042",
@@ -4389,6 +4539,7 @@
       }
     ],
     "correctAnswer": "beat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW045",
@@ -4426,6 +4577,7 @@
       }
     ],
     "correctAnswer": "best",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW054",
@@ -4463,6 +4615,11 @@
       }
     ],
     "correctAnswer": "bolt",
+    "image": {
+      "type": "image",
+      "source": "eng-bolt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW071",
@@ -4500,6 +4657,11 @@
       }
     ],
     "correctAnswer": "chair",
+    "image": {
+      "type": "image",
+      "source": "eng-chair"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW129",
@@ -4521,7 +4683,7 @@
     "targetWord": "climb",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.We use our hands and feet to ______ a tree. Choose the correct spelling:",
+    "prompt": "We use our hands and feet to ______ a tree. Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4537,6 +4699,7 @@
       }
     ],
     "correctAnswer": "climb",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW149",
@@ -4574,6 +4737,11 @@
       }
     ],
     "correctAnswer": "cloth",
+    "image": {
+      "type": "image",
+      "source": "eng-cloth"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW152",
@@ -4596,7 +4764,7 @@
     "targetWord": "achieve",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.Put the letters in the correct order:",
+    "prompt": "Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -4637,6 +4805,7 @@
       "e"
     ],
     "correctAnswer": "achieve",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW002",
@@ -4659,7 +4828,7 @@
     "targetWord": "angry",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "Look at the picture.Choose the correct spelling:",
+    "prompt": "Choose the correct spelling:",
     "options": [
       {
         "id": "A",
@@ -4675,6 +4844,7 @@
       }
     ],
     "correctAnswer": "angry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW011",
@@ -4701,15 +4871,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -4717,13 +4887,14 @@
       }
     ],
     "units": [
-      "u",
-      "o",
       "i",
+      "s",
+      "u",
       "e"
     ],
     "template": "a n o t h _ r",
     "correctAnswer": "another",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW014",
@@ -4777,6 +4948,11 @@
       "a"
     ],
     "correctAnswer": "apple",
+    "image": {
+      "type": "image",
+      "source": "eng-apple"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW017",
@@ -4803,15 +4979,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "D",
@@ -4819,13 +4995,14 @@
       }
     ],
     "units": [
-      "u",
-      "i",
       "e",
+      "t",
+      "a",
       "o"
     ],
     "template": "a r _ u n d",
     "correctAnswer": "around",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW018",
@@ -4864,6 +5041,7 @@
       }
     ],
     "correctAnswer": "ask",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW021",
@@ -4912,6 +5090,11 @@
       "b"
     ],
     "correctAnswer": "baby",
+    "image": {
+      "type": "image",
+      "source": "eng-baby"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW028",
@@ -4942,7 +5125,7 @@
       },
       {
         "id": "B",
-        "label": "bed"
+        "label": "badd"
       },
       {
         "id": "C",
@@ -4950,6 +5133,7 @@
       }
     ],
     "correctAnswer": "bad",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW030",
@@ -4988,6 +5172,7 @@
       }
     ],
     "correctAnswer": "badge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW031",
@@ -5010,7 +5195,7 @@
     "targetWord": "ball",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
@@ -5022,21 +5207,22 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "i"
       }
     ],
     "units": [
       "a",
       "e",
-      "u",
-      "o"
+      "t",
+      "i"
     ],
     "template": "b _ l l",
     "correctAnswer": "ball",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW033",
@@ -5059,7 +5245,7 @@
     "targetWord": "banana",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.Put the word parts in the correct order:",
+    "prompt": "Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5080,6 +5266,7 @@
       "na"
     ],
     "correctAnswer": "banana",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW034",
@@ -5102,7 +5289,7 @@
     "targetWord": "bandage",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. You put this on a small cut or wound.",
+    "prompt": "You put this on a small cut or wound.",
     "options": [
       {
         "id": "A",
@@ -5143,6 +5330,7 @@
       "a"
     ],
     "correctAnswer": "bandage",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW035",
@@ -5169,15 +5357,15 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "l"
+        "label": "w"
       },
       {
         "id": "D",
@@ -5185,13 +5373,14 @@
       }
     ],
     "units": [
-      "c",
-      "g",
-      "l",
+      "o",
+      "t",
+      "w",
       "s"
     ],
     "template": "b e c a u _ e",
     "correctAnswer": "because",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW047",
@@ -5214,7 +5403,7 @@
     "targetWord": "bell",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Choose the missing letter to complete the word.",
+    "prompt": "Choose the missing letter to complete the word.",
     "options": [
       {
         "id": "A",
@@ -5226,21 +5415,22 @@
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "s"
       }
     ],
     "units": [
       "l",
       "t",
-      "c",
-      "g"
+      "a",
+      "s"
     ],
     "template": "b e _ l",
     "correctAnswer": "bell",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW051",
@@ -5279,6 +5469,11 @@
       }
     ],
     "correctAnswer": "belt",
+    "image": {
+      "type": "image",
+      "source": "eng-belt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW052",
@@ -5305,7 +5500,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "a"
       },
       {
         "id": "B",
@@ -5313,7 +5508,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "o"
       },
       {
         "id": "D",
@@ -5321,13 +5516,14 @@
       }
     ],
     "units": [
-      "i",
-      "e",
       "a",
+      "e",
+      "o",
       "u"
     ],
     "template": "b e t w _ e n",
     "correctAnswer": "between",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW056",
@@ -5350,7 +5546,7 @@
     "targetWord": "bicycle",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.Put the word parts in the correct order:",
+    "prompt": "Put the word parts in the correct order:",
     "options": [
       {
         "id": "A",
@@ -5371,6 +5567,7 @@
       "cy"
     ],
     "correctAnswer": "bicycle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW057",
@@ -5409,6 +5606,11 @@
       }
     ],
     "correctAnswer": "big",
+    "image": {
+      "type": "image",
+      "source": "eng-big"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW058",
@@ -5450,8 +5652,12 @@
         "label": "bring"
       }
     ],
-    "template": "Picture",
     "correctAnswer": "bird",
+    "image": {
+      "type": "image",
+      "source": "eng-bird"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW060",
@@ -5490,6 +5696,7 @@
       }
     ],
     "correctAnswer": "bleat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW064",
@@ -5516,29 +5723,30 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "e"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "a"
       }
     ],
     "units": [
-      "i",
+      "u",
+      "o",
       "e",
-      "a",
-      "u"
+      "a"
     ],
     "template": "b _ e",
     "correctAnswer": "bee",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW049",
@@ -5561,19 +5769,19 @@
     "targetWord": "bin",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.Put the paper in the ______. Complete the word:",
+    "prompt": "Put the paper in the ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "D",
@@ -5581,13 +5789,14 @@
       }
     ],
     "units": [
+      "c",
       "i",
       "a",
-      "u",
       "o"
     ],
     "template": "b _ n",
     "correctAnswer": "bin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW059",
@@ -5610,33 +5819,34 @@
     "targetWord": "cry",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.The baby may ______ when hungry. Complete the word:",
+    "prompt": "The baby may ______ when hungry. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "j"
       },
       {
         "id": "B",
-        "label": "y"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "y"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "b"
       }
     ],
     "units": [
+      "j",
       "d",
       "y",
-      "h",
-      "m"
+      "b"
     ],
     "template": "c r _",
     "correctAnswer": "cry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW188",
@@ -5659,33 +5869,34 @@
     "targetWord": "die",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.One small cube used in a board game is called a ______. Complete the word:",
+    "prompt": "One small cube used in a board game is called a ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "p"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "e"
       }
     ],
     "units": [
+      "w",
       "i",
-      "a",
-      "u",
-      "o"
+      "p",
+      "e"
     ],
     "template": "d _ e",
     "correctAnswer": "die",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW220",
@@ -5708,19 +5919,19 @@
     "targetWord": "dip",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.Please ______ the biscuit in the milk. Complete the word:",
+    "prompt": "Please ______ the biscuit in the milk. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
@@ -5728,13 +5939,14 @@
       }
     ],
     "units": [
+      "g",
       "i",
-      "a",
-      "u",
+      "e",
       "o"
     ],
     "template": "d _ p",
     "correctAnswer": "dip",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW224",
@@ -5761,29 +5973,30 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "l"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "q"
       },
       {
         "id": "C",
-        "label": "y"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "y"
       }
     ],
     "units": [
-      "p",
-      "t",
-      "y",
-      "c"
+      "l",
+      "q",
+      "m",
+      "y"
     ],
     "template": "d r _",
     "correctAnswer": "dry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW244",
@@ -5810,29 +6023,30 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "j"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "e"
+        "label": "a"
       }
     ],
     "units": [
+      "j",
       "o",
       "i",
-      "a",
-      "e"
+      "a"
     ],
-    "template": "e | _ | t",
+    "template": "e _ t",
     "correctAnswer": "eat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW251",
@@ -5855,33 +6069,34 @@
     "targetWord": "egg",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.A hen lays an ______. Complete the word:",
+    "prompt": "A hen lays an ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "f"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "n"
       }
     ],
     "units": [
-      "f",
-      "l",
-      "p",
-      "g"
+      "g",
+      "o",
+      "z",
+      "n"
     ],
-    "template": "e | g | _",
+    "template": "e _ g",
     "correctAnswer": "egg",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW252",
@@ -5908,29 +6123,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "y"
+        "label": "x"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "y"
       },
       {
         "id": "D",
-        "label": "b"
+        "label": "k"
       }
     ],
     "units": [
-      "n",
+      "r",
+      "x",
       "y",
-      "s",
-      "b"
+      "k"
     ],
     "template": "f l _",
     "correctAnswer": "fly",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW306",
@@ -5957,29 +6173,34 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "g"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "u"
       },
       {
         "id": "C",
-        "label": "o"
+        "label": "b"
       },
       {
         "id": "D",
-        "label": "i"
+        "label": "e"
       }
     ],
     "units": [
+      "g",
       "u",
-      "a",
-      "o",
-      "i"
+      "b",
+      "e"
     ],
-    "template": "f | _ | n",
+    "template": "f _ n",
     "correctAnswer": "fun",
+    "image": {
+      "type": "image",
+      "source": "eng-fun"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW323",
@@ -6006,29 +6227,30 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "u"
+        "label": "i"
       }
     ],
     "units": [
-      "e",
+      "w",
+      "p",
       "o",
-      "a",
-      "u"
+      "i"
     ],
     "template": "a b _ u t",
     "correctAnswer": "about",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW001",
@@ -6051,7 +6273,7 @@
     "targetWord": "aeroplane",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.Put the letters in the correct order:",
+    "prompt": "Put the letters in the correct order:",
     "options": [
       {
         "id": "A",
@@ -6102,6 +6324,7 @@
       "e"
     ],
     "correctAnswer": "aeroplane",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW004",
@@ -6124,7 +6347,7 @@
     "targetWord": "baton",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.A small stick used by a person leading a musical group.",
+    "prompt": "A small stick used by a person leading a musical group.",
     "options": [
       {
         "id": "A",
@@ -6140,6 +6363,7 @@
       "ba"
     ],
     "correctAnswer": "baton",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW041",
@@ -6166,29 +6390,30 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "f"
       },
       {
         "id": "B",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "e"
       }
     ],
     "units": [
+      "f",
       "i",
-      "a",
-      "u",
-      "o"
+      "w",
+      "e"
     ],
     "template": "b r _ n g",
     "correctAnswer": "bring",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW091",
@@ -6215,11 +6440,11 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "h"
+        "label": "n"
       },
       {
         "id": "C",
@@ -6227,17 +6452,18 @@
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "b"
       }
     ],
     "units": [
-      "d",
-      "h",
+      "c",
+      "n",
       "m",
-      "c"
+      "b"
     ],
     "template": "c a t _ h",
     "correctAnswer": "catch",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW124",
@@ -6260,33 +6486,34 @@
     "targetWord": "coop",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture. Chickens can stay in a ______. Complete the word:",
+    "prompt": "Chickens can stay in a ______. Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "i"
+        "label": "x"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "o"
+        "label": "a"
       }
     ],
     "units": [
-      "u",
-      "i",
-      "e",
-      "o"
+      "o",
+      "x",
+      "q",
+      "a"
     ],
     "template": "c o _ p",
     "correctAnswer": "coop",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW168",
@@ -6313,29 +6540,30 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "m"
       }
     ],
     "units": [
+      "o",
       "c",
-      "f",
-      "k",
-      "n"
+      "z",
+      "m"
     ],
     "template": "d a n _ e",
     "correctAnswer": "dance",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW202",
@@ -6358,7 +6586,7 @@
     "targetWord": "agriculture",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture.This means farming.",
+    "prompt": "This means farming.",
     "options": [
       {
         "id": "A",
@@ -6379,6 +6607,7 @@
       "cul"
     ],
     "correctAnswer": "agriculture",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW005",
@@ -6401,33 +6630,34 @@
     "targetWord": "alphabet",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the picture.Complete the word:",
+    "prompt": "Complete the word:",
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "z"
       },
       {
         "id": "B",
-        "label": "h"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "p"
       }
     ],
     "units": [
+      "z",
       "b",
-      "h",
-      "m",
-      "r"
+      "q",
+      "p"
     ],
     "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW008",
@@ -6450,7 +6680,7 @@
     "targetWord": "blanket",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Put the letters in the correct order to make the word.",
+    "prompt": "Put the letters in the correct order to make the word.",
     "options": [
       {
         "id": "A",
@@ -6491,6 +6721,7 @@
       "t"
     ],
     "correctAnswer": "blanket",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_3_All_160_Questions_Options_for_Validation.xlsx",
       "ewId": "EW063",

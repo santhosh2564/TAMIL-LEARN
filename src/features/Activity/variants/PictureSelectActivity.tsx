@@ -1,4 +1,6 @@
+import { useMemo } from 'react';
 import { ActivityComponentProps } from '../../../engine';
+import { AssetResolver } from '../../../engine/assets';
 import { 
   ActivityCard, 
   ActivityPrompt, 
@@ -24,18 +26,29 @@ export function PictureSelectActivity({ activity, state, onSubmit, onNext }: Act
     handleNext,
   } = useSelectableRetry({ activity, status: state.status, onSubmit, onNext });
 
+  const resolver = useMemo(() => new AssetResolver(), []);
   const isEnglish = activity.subject === 'English' || activity.language?.startsWith('en');
-  const assetId = isEnglish
-    ? (activity.image?.source || `eng-${activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase()}`)
-    : `class3-tamil-picture-${activity.id.toLowerCase()}`;
+  const assetId = activity.image?.source
+    || (activity.needsImage === false
+      ? null
+      : (isEnglish
+          ? `eng-${activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase()}`
+          : `class3-tamil-picture-${activity.id.toLowerCase()}`));
+
+  const hasImage = useMemo(() => {
+    if (!assetId || activity.needsImage === false) return false;
+    return resolver.resolve({ id: assetId, type: 'image' }).status === 'resolved';
+  }, [activity.needsImage, assetId, resolver]);
 
   return (
     <ActivityCard>
       <ActivityPrompt prompt={activity.prompt} />
       
-      <div className="mb-6">
-        <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
-      </div>
+      {hasImage && assetId && (
+        <div className="mb-6">
+          <ActivityAsset assetRef={{ id: assetId, type: 'image' }} language={isEnglish ? 'english' : 'tamil'} alt={activity.template || undefined} />
+        </div>
+      )}
       
       <ActivityOptionGrid>
         {shuffledOptions.map((opt) => (

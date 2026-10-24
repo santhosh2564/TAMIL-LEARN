@@ -33,6 +33,11 @@
       "y"
     ],
     "correctAnswer": "yam",
+    "image": {
+      "type": "image",
+      "source": "eng-yam"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW950",
@@ -52,29 +57,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "wheat"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "mat"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "peanuts"
-      },
-      {
-        "id": "D",
-        "label": "talents"
+        "label": "m"
       }
     ],
-    "template": "Picture of a mat",
+    "units": [
+      "a",
+      "t",
+      "m"
+    ],
     "correctAnswer": "mat",
+    "image": {
+      "type": "image",
+      "source": "eng-mat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW496",
@@ -94,29 +104,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mom",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "mom"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "salad"
+        "label": "m"
       },
       {
         "id": "C",
-        "label": "wheat"
-      },
-      {
-        "id": "D",
-        "label": "peanuts"
+        "label": "m"
       }
     ],
-    "template": "Picture of a mother",
+    "units": [
+      "o",
+      "m",
+      "m"
+    ],
     "correctAnswer": "mom",
+    "image": {
+      "type": "image",
+      "source": "eng-mom"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW510",
@@ -136,29 +151,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mop",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "cradle"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "green gram"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "samosa"
-      },
-      {
-        "id": "D",
-        "label": "mop"
+        "label": "m"
       }
     ],
-    "template": "Picture of a mop",
+    "units": [
+      "o",
+      "p",
+      "m"
+    ],
     "correctAnswer": "mop",
+    "image": {
+      "type": "image",
+      "source": "eng-mop"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW513",
@@ -178,29 +198,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mud",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "mud"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "zebra"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "yam"
-      },
-      {
-        "id": "D",
-        "label": "nut"
+        "label": "m"
       }
     ],
-    "template": "Picture of mud",
+    "units": [
+      "u",
+      "d",
+      "m"
+    ],
     "correctAnswer": "mud",
+    "image": {
+      "type": "image",
+      "source": "eng-mud"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW521",
@@ -220,29 +245,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "mug",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "day"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "mug"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "mat"
-      },
-      {
-        "id": "D",
-        "label": "owl"
+        "label": "m"
       }
     ],
-    "template": "Picture of a mug",
+    "units": [
+      "u",
+      "g",
+      "m"
+    ],
     "correctAnswer": "mug",
+    "image": {
+      "type": "image",
+      "source": "eng-mug"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW522",
@@ -262,29 +292,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "nap",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "tin"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "yum"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "glue"
-      },
-      {
-        "id": "D",
-        "label": "nap"
+        "label": "n"
       }
     ],
-    "template": "Picture of a child taking a nap",
+    "units": [
+      "a",
+      "p",
+      "n"
+    ],
     "correctAnswer": "nap",
+    "image": {
+      "type": "image",
+      "source": "eng-nap"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW531",
@@ -304,29 +339,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "net",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "shore"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "net"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "stick"
-      },
-      {
-        "id": "D",
-        "label": "tick"
+        "label": "n"
       }
     ],
-    "template": "Picture of a net",
+    "units": [
+      "e",
+      "t",
+      "n"
+    ],
     "correctAnswer": "net",
+    "image": {
+      "type": "image",
+      "source": "eng-net"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW540",
@@ -346,29 +386,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "nut",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "storm"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "week"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "nut"
-      },
-      {
-        "id": "D",
-        "label": "potato"
+        "label": "n"
       }
     ],
-    "template": "Picture of a nut",
+    "units": [
+      "u",
+      "t",
+      "n"
+    ],
     "correctAnswer": "nut",
+    "image": {
+      "type": "image",
+      "source": "eng-nut"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW549",
@@ -388,29 +433,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "owl",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "go"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "mud"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "pea"
-      },
-      {
-        "id": "D",
-        "label": "owl"
+        "label": "o"
       }
     ],
-    "template": "Picture of an owl",
+    "units": [
+      "w",
+      "l",
+      "o"
+    ],
     "correctAnswer": "owl",
+    "image": {
+      "type": "image",
+      "source": "eng-owl"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW560",
@@ -430,29 +480,29 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ox",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "ox"
+        "label": "x"
       },
       {
         "id": "B",
-        "label": "iron"
-      },
-      {
-        "id": "C",
-        "label": "mug"
-      },
-      {
-        "id": "D",
-        "label": "pen"
+        "label": "o"
       }
     ],
-    "template": "Picture of an ox",
+    "units": [
+      "x",
+      "o"
+    ],
     "correctAnswer": "ox",
+    "image": {
+      "type": "image",
+      "source": "eng-ox"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW561",
@@ -472,29 +522,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pan",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "mud"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "pea"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "pan"
-      },
-      {
-        "id": "D",
-        "label": "red"
+        "label": "p"
       }
     ],
-    "template": "Picture of a cooking pan",
+    "units": [
+      "a",
+      "n",
+      "p"
+    ],
     "correctAnswer": "pan",
+    "image": {
+      "type": "image",
+      "source": "eng-pan"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW567",
@@ -514,29 +569,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pea",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "pea"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "win"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "glass"
-      },
-      {
-        "id": "D",
-        "label": "hole"
+        "label": "p"
       }
     ],
-    "template": "Picture of a pea",
+    "units": [
+      "e",
+      "a",
+      "p"
+    ],
     "correctAnswer": "pea",
+    "image": {
+      "type": "image",
+      "source": "eng-pea"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW572",
@@ -556,29 +616,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pen",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fill"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "grass"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "mend"
-      },
-      {
-        "id": "D",
-        "label": "pen"
+        "label": "p"
       }
     ],
-    "template": "Picture of a pen",
+    "units": [
+      "e",
+      "n",
+      "p"
+    ],
     "correctAnswer": "pen",
+    "image": {
+      "type": "image",
+      "source": "eng-pen"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW575",
@@ -598,29 +663,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pig",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "stick"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "tick"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "music"
-      },
-      {
-        "id": "D",
-        "label": "pig"
+        "label": "p"
       }
     ],
-    "template": "Picture of a pig",
+    "units": [
+      "i",
+      "g",
+      "p"
+    ],
     "correctAnswer": "pig",
+    "image": {
+      "type": "image",
+      "source": "eng-pig"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW582",
@@ -640,29 +710,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pin",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "strong"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "cumin"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "rupee"
-      },
-      {
-        "id": "D",
-        "label": "pin"
+        "label": "p"
       }
     ],
-    "template": "Picture of a pin",
+    "units": [
+      "i",
+      "n",
+      "p"
+    ],
     "correctAnswer": "pin",
+    "image": {
+      "type": "image",
+      "source": "eng-pin"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW586",
@@ -682,29 +757,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pot",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "green gram"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "samosa"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "pot"
-      },
-      {
-        "id": "D",
-        "label": "tender coconut"
+        "label": "p"
       }
     ],
-    "template": "Picture of a pot.",
+    "units": [
+      "o",
+      "t",
+      "p"
+    ],
     "correctAnswer": "pot",
+    "image": {
+      "type": "image",
+      "source": "eng-pot"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW611",
@@ -724,29 +804,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "pup",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "mop"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "ox"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "pup"
-      },
-      {
-        "id": "D",
-        "label": "rat"
+        "label": "p"
       }
     ],
-    "template": "Picture of a young dog.",
+    "units": [
+      "u",
+      "p",
+      "p"
+    ],
     "correctAnswer": "pup",
+    "image": {
+      "type": "image",
+      "source": "eng-pup"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW622",
@@ -766,29 +851,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "rat",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "rat"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "glass"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "hole"
-      },
-      {
-        "id": "D",
-        "label": "quick"
+        "label": "r"
       }
     ],
-    "template": "Picture of a rat.",
+    "units": [
+      "a",
+      "t",
+      "r"
+    ],
     "correctAnswer": "rat",
+    "image": {
+      "type": "image",
+      "source": "eng-rat"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW635",
@@ -808,29 +898,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "red",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "stream"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "white"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "recipe"
-      },
-      {
-        "id": "D",
-        "label": "red"
+        "label": "r"
       }
     ],
-    "template": "Picture showing the colour red.",
+    "units": [
+      "e",
+      "d",
+      "r"
+    ],
     "correctAnswer": "red",
+    "image": {
+      "type": "image",
+      "source": "eng-red"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW641",
@@ -850,29 +945,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "sad",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sad"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "pig"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "sit"
-      },
-      {
-        "id": "D",
-        "label": "van"
+        "label": "s"
       }
     ],
-    "template": "Picture showing a child with a sad facial expression.",
+    "units": [
+      "a",
+      "d",
+      "s"
+    ],
     "correctAnswer": "sad",
+    "image": {
+      "type": "image",
+      "source": "eng-sad"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW668",
@@ -913,8 +1013,12 @@
         "label": "cradle"
       }
     ],
-    "template": "she",
     "correctAnswer": "she",
+    "image": {
+      "type": "image",
+      "source": "eng-she"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW702",
@@ -934,29 +1038,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "sit",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for what the child is doing.",
     "options": [
       {
         "id": "A",
-        "label": "sit"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "grunt"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "nurse"
-      },
-      {
-        "id": "D",
-        "label": "sick"
+        "label": "s"
       }
     ],
-    "template": "Picture clearly showing a child sitting on a chair, with the seated position prominently visible.",
+    "units": [
+      "i",
+      "t",
+      "s"
+    ],
     "correctAnswer": "sit",
+    "image": {
+      "type": "image",
+      "source": "eng-sit"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW730",
@@ -976,29 +1085,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "sun",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "iron"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "mug"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "pea"
-      },
-      {
-        "id": "D",
-        "label": "sun"
+        "label": "s"
       }
     ],
-    "template": "Picture clearly showing the sun in the sky.",
+    "units": [
+      "u",
+      "n",
+      "s"
+    ],
     "correctAnswer": "sun",
+    "image": {
+      "type": "image",
+      "source": "eng-sun"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW799",
@@ -1018,29 +1132,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tap",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "tap"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "go"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "mud"
-      },
-      {
-        "id": "D",
-        "label": "pan"
+        "label": "t"
       }
     ],
-    "template": "Picture of a water tap.",
+    "units": [
+      "a",
+      "p",
+      "t"
+    ],
     "correctAnswer": "tap",
+    "image": {
+      "type": "image",
+      "source": "eng-tap"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW819",
@@ -1060,29 +1179,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tin",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fibre"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "mop"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "tin"
-      },
-      {
-        "id": "D",
-        "label": "ox"
+        "label": "t"
       }
     ],
-    "template": "Picture of a metal tin/container.",
+    "units": [
+      "i",
+      "n",
+      "t"
+    ],
     "correctAnswer": "tin",
+    "image": {
+      "type": "image",
+      "source": "eng-tin"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW853",
@@ -1102,29 +1226,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "top",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "top"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "win"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "glass"
-      },
-      {
-        "id": "D",
-        "label": "hole"
+        "label": "t"
       }
     ],
-    "template": "Picture clearly showing the top part of an object.",
+    "units": [
+      "o",
+      "p",
+      "t"
+    ],
     "correctAnswer": "top",
+    "image": {
+      "type": "image",
+      "source": "eng-top"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW866",
@@ -1144,29 +1273,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "toy",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "sick"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "toy"
+        "label": "y"
       },
       {
         "id": "C",
-        "label": "stool"
-      },
-      {
-        "id": "D",
-        "label": "trace"
+        "label": "t"
       }
     ],
-    "template": "Picture clearly showing a child's toy.",
+    "units": [
+      "o",
+      "y",
+      "t"
+    ],
     "correctAnswer": "toy",
+    "image": {
+      "type": "image",
+      "source": "eng-toy"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW870",
@@ -1186,29 +1320,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "tub",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "flowers"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "saffron"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "tears"
-      },
-      {
-        "id": "D",
-        "label": "tub"
+        "label": "t"
       }
     ],
-    "template": "Picture clearly showing a small tub/container.",
+    "units": [
+      "u",
+      "b",
+      "t"
+    ],
     "correctAnswer": "tub",
+    "image": {
+      "type": "image",
+      "source": "eng-tub"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW883",
@@ -1249,8 +1388,12 @@
         "label": "snake gourd"
       }
     ],
-    "template": "van / fan / can",
     "correctAnswer": "van",
+    "image": {
+      "type": "image",
+      "source": "eng-van"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW901",
@@ -1291,8 +1434,12 @@
         "label": "web"
       }
     ],
-    "template": "web / wet / wig",
     "correctAnswer": "web",
+    "image": {
+      "type": "image",
+      "source": "eng-web"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW920",
@@ -1333,8 +1480,12 @@
         "label": "win"
       }
     ],
-    "template": "win / run / sit",
     "correctAnswer": "win",
+    "image": {
+      "type": "image",
+      "source": "eng-win"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW931",
@@ -1375,8 +1526,12 @@
         "label": "she"
       }
     ],
-    "template": "yum / yawn / jump",
     "correctAnswer": "yum",
+    "image": {
+      "type": "image",
+      "source": "eng-yum"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW955",
@@ -1417,8 +1572,12 @@
         "label": "tap"
       }
     ],
-    "template": "zoo / zero / zoom",
     "correctAnswer": "zoo",
+    "image": {
+      "type": "image",
+      "source": "eng-zoo"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW958",
@@ -1448,7 +1607,7 @@
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "n"
       },
       {
         "id": "C",
@@ -1456,17 +1615,18 @@
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "d"
       }
     ],
     "units": [
       "t",
-      "c",
+      "n",
       "l",
-      "g"
+      "d"
     ],
-    "template": "f i _ l | Selectable options: l / t / n",
+    "template": "f i _ l",
     "correctAnswer": "fill",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW288",
@@ -1500,7 +1660,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
@@ -1510,11 +1670,12 @@
     "units": [
       "i",
       "a",
-      "u",
+      "e",
       "o"
     ],
-    "template": "f _ x | Selectable options: i / a / e",
+    "template": "f _ x",
     "correctAnswer": "fix",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW297",
@@ -1540,15 +1701,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "u"
       },
       {
         "id": "D",
@@ -1556,13 +1717,14 @@
       }
     ],
     "units": [
-      "u",
-      "o",
+      "a",
       "e",
+      "u",
       "i"
     ],
-    "template": "f l _ c k | Selectable options: i / a / e",
+    "template": "f l _ c k",
     "correctAnswer": "flick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW300",
@@ -1588,7 +1750,7 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "t"
       },
       {
         "id": "B",
@@ -1596,21 +1758,22 @@
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "c"
       }
     ],
     "units": [
-      "w",
+      "t",
       "s",
-      "d",
-      "h"
+      "n",
+      "c"
     ],
-    "template": "f r e _ h | Selectable options: s / t / n",
+    "template": "f r e _ h",
     "correctAnswer": "fresh",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW317",
@@ -1636,15 +1799,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "i"
+        "label": "u"
       },
       {
         "id": "D",
@@ -1652,13 +1815,14 @@
       }
     ],
     "units": [
-      "u",
-      "o",
+      "e",
       "i",
+      "u",
       "a"
     ],
-    "template": "g l _ s s | Selectable options: a / e / i",
+    "template": "g l _ s s",
     "correctAnswer": "glass",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW340",
@@ -1684,7 +1848,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
@@ -1692,7 +1856,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "D",
@@ -1700,13 +1864,14 @@
       }
     ],
     "units": [
-      "e",
-      "u",
       "a",
+      "u",
+      "e",
       "o"
     ],
-    "template": "g l _ e | Selectable options: u / a / e",
+    "template": "g l _ e",
     "correctAnswer": "glue",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW342",
@@ -1732,15 +1897,15 @@
     "options": [
       {
         "id": "A",
-        "label": "h"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "m"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "w"
       },
       {
         "id": "D",
@@ -1748,13 +1913,18 @@
       }
     ],
     "units": [
-      "h",
-      "m",
-      "s",
+      "t",
+      "n",
+      "w",
       "p"
     ],
-    "template": "g r a _ e | Selectable options: p / t / n",
+    "template": "g r a _ e",
     "correctAnswer": "grape",
+    "image": {
+      "type": "image",
+      "source": "eng-grape"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW351",
@@ -1784,7 +1954,7 @@
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "t"
       },
       {
         "id": "C",
@@ -1792,17 +1962,18 @@
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "b"
       }
     ],
     "units": [
       "s",
-      "k",
+      "t",
       "n",
-      "t"
+      "b"
     ],
-    "template": "g r a _ s | Selectable options: s / t / n",
+    "template": "g r a _ s",
     "correctAnswer": "grass",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW352",
@@ -1828,7 +1999,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "a"
       },
       {
         "id": "B",
@@ -1840,17 +2011,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "i"
       }
     ],
     "units": [
-      "i",
+      "a",
       "e",
       "u",
-      "a"
+      "i"
     ],
-    "template": "g r _ n t | Selectable options: u / a / e",
+    "template": "g r _ n t",
     "correctAnswer": "grunt",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW365",
@@ -1876,29 +2048,34 @@
     "options": [
       {
         "id": "A",
-        "label": "d"
+        "label": "e"
       },
       {
         "id": "B",
-        "label": "b"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "g"
+        "label": "t"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "n"
       }
     ],
     "units": [
+      "e",
       "d",
-      "b",
-      "g",
-      "l"
+      "t",
+      "n"
     ],
-    "template": "h | e | a | _ | s | Selectable options: d / t / n",
+    "template": "h _ a d s",
     "correctAnswer": "heads",
+    "image": {
+      "type": "image",
+      "source": "eng-heads"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW381",
@@ -1924,11 +2101,11 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "n"
       },
       {
         "id": "C",
@@ -1940,13 +2117,14 @@
       }
     ],
     "units": [
-      "p",
       "t",
+      "n",
       "c",
       "v"
     ],
-    "template": "h i _ e | Selectable options: v / t / n",
+    "template": "h i _ e",
     "correctAnswer": "hive",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW395",
@@ -1980,7 +2158,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "i"
       },
       {
         "id": "D",
@@ -1990,11 +2168,12 @@
     "units": [
       "e",
       "a",
-      "u",
+      "i",
       "o"
     ],
-    "template": "h o l _ | Selectable options: e / a / i",
+    "template": "h o l _",
     "correctAnswer": "hole",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW396",
@@ -2020,7 +2199,7 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "n"
       },
       {
         "id": "B",
@@ -2028,21 +2207,22 @@
       },
       {
         "id": "C",
-        "label": "g"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "p"
       }
     ],
     "units": [
-      "c",
+      "n",
       "t",
-      "g",
-      "l"
+      "r",
+      "p"
     ],
-    "template": "k i _ e | Selectable options: t / n / r",
+    "template": "k i _ e",
     "correctAnswer": "kite",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW445",
@@ -2068,11 +2248,11 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "n"
       },
       {
         "id": "C",
@@ -2080,17 +2260,18 @@
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "d"
       }
     ],
     "units": [
-      "l",
-      "p",
+      "t",
+      "n",
       "k",
-      "t"
+      "d"
     ],
-    "template": "l i _ e | Selectable options: k / t / n",
+    "template": "l i _ e",
     "correctAnswer": "like",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW471",
@@ -2116,15 +2297,15 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
-      },
-      {
-        "id": "B",
         "label": "t"
       },
       {
+        "id": "B",
+        "label": "r"
+      },
+      {
         "id": "C",
-        "label": "c"
+        "label": "f"
       },
       {
         "id": "D",
@@ -2132,13 +2313,14 @@
       }
     ],
     "units": [
-      "p",
       "t",
-      "c",
+      "r",
+      "f",
       "n"
     ],
-    "template": "m e _ d | Selectable options: n / t / r",
+    "template": "m e _ d",
     "correctAnswer": "mend",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW502",
@@ -2164,7 +2346,7 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "t"
       },
       {
         "id": "B",
@@ -2172,21 +2354,22 @@
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "h"
+        "label": "c"
       }
     ],
     "units": [
-      "w",
+      "t",
       "s",
-      "d",
-      "h"
+      "n",
+      "c"
     ],
-    "template": "n u r _ e | Selectable options: s / t / n",
+    "template": "n u r _ e",
     "correctAnswer": "nurse",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW548",
@@ -2212,7 +2395,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "e"
       },
       {
         "id": "B",
@@ -2220,7 +2403,7 @@
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "i"
       },
       {
         "id": "D",
@@ -2228,13 +2411,14 @@
       }
     ],
     "units": [
-      "i",
-      "a",
       "e",
+      "a",
+      "i",
       "u"
     ],
-    "template": "p l _ t e | Selectable options: a / e / i",
+    "template": "p l _ t e",
     "correctAnswer": "plate",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW591",
@@ -2260,11 +2444,11 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "n"
       },
       {
         "id": "C",
@@ -2276,13 +2460,14 @@
       }
     ],
     "units": [
-      "b",
-      "f",
+      "t",
+      "n",
       "l",
       "k"
     ],
-    "template": "p u _ l | Selectable options: l / t / n",
+    "template": "p u _ l",
     "correctAnswer": "pull",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW619",
@@ -2308,15 +2493,15 @@
     "options": [
       {
         "id": "A",
-        "label": "u"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "o"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "e"
+        "label": "u"
       },
       {
         "id": "D",
@@ -2324,13 +2509,14 @@
       }
     ],
     "units": [
-      "u",
-      "o",
+      "a",
       "e",
+      "u",
       "i"
     ],
-    "template": "q u _ c k | Selectable options: i / a / e",
+    "template": "q u _ c k",
     "correctAnswer": "quick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW627",
@@ -2360,7 +2546,7 @@
       },
       {
         "id": "B",
-        "label": "c"
+        "label": "n"
       },
       {
         "id": "C",
@@ -2368,17 +2554,18 @@
       },
       {
         "id": "D",
-        "label": "g"
+        "label": "k"
       }
     ],
     "units": [
       "t",
-      "c",
+      "n",
       "m",
-      "g"
+      "k"
     ],
-    "template": "s a _ e | Selectable options: m / t / n",
+    "template": "s a _ e",
     "correctAnswer": "same",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW673",
@@ -2408,11 +2595,11 @@
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "n"
       },
       {
         "id": "D",
@@ -2421,12 +2608,13 @@
     ],
     "units": [
       "k",
+      "t",
       "n",
-      "s",
       "b"
     ],
-    "template": "s h a _ e | Selectable options: k / t / n",
+    "template": "s h a _ e",
     "correctAnswer": "shake",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW697",
@@ -2460,7 +2648,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
@@ -2470,11 +2658,12 @@
     "units": [
       "o",
       "a",
-      "u",
+      "e",
       "i"
     ],
-    "template": "s h _ r e | Selectable options: o / a / e",
+    "template": "s h _ r e",
     "correctAnswer": "shore",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW716",
@@ -2504,25 +2693,26 @@
       },
       {
         "id": "B",
-        "label": "l"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "p"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "p"
       }
     ],
     "units": [
       "c",
-      "l",
-      "p",
-      "t"
+      "t",
+      "n",
+      "p"
     ],
-    "template": "s i _ k | Selectable options: c / t / n",
+    "template": "s i _ k",
     "correctAnswer": "sick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW723",
@@ -2548,7 +2738,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "a"
       },
       {
         "id": "B",
@@ -2556,7 +2746,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "D",
@@ -2564,13 +2754,14 @@
       }
     ],
     "units": [
-      "i",
-      "e",
       "a",
+      "e",
+      "i",
       "u"
     ],
-    "template": "s m _ l l | Selectable options: e / a / i",
+    "template": "s m _ l l",
     "correctAnswer": "smell",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW739",
@@ -2596,15 +2787,15 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
-      },
-      {
-        "id": "B",
         "label": "t"
       },
       {
+        "id": "B",
+        "label": "n"
+      },
+      {
         "id": "C",
-        "label": "c"
+        "label": "m"
       },
       {
         "id": "D",
@@ -2612,13 +2803,14 @@
       }
     ],
     "units": [
-      "p",
       "t",
-      "c",
+      "n",
+      "m",
       "l"
     ],
-    "template": "s m i _ e | Selectable options: l / t / n",
+    "template": "s m i _ e",
     "correctAnswer": "smile",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW740",
@@ -2648,25 +2840,26 @@
       },
       {
         "id": "B",
-        "label": "h"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "m"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "r"
+        "label": "h"
       }
     ],
     "units": [
       "c",
-      "h",
-      "m",
-      "r"
+      "t",
+      "n",
+      "h"
     ],
-    "template": "s t a _ k | Selectable options: c / t / n",
+    "template": "s t a _ k",
     "correctAnswer": "stack",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW770",
@@ -2692,7 +2885,7 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "t"
       },
       {
         "id": "B",
@@ -2704,17 +2897,18 @@
       },
       {
         "id": "D",
-        "label": "s"
+        "label": "k"
       }
     ],
     "units": [
-      "k",
+      "t",
       "g",
       "n",
-      "s"
+      "k"
     ],
-    "template": "s t a _ e | Selectable options: g / t / n",
+    "template": "s t a _ e",
     "correctAnswer": "stage",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW771",
@@ -2740,7 +2934,7 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "t"
       },
       {
         "id": "B",
@@ -2748,21 +2942,22 @@
       },
       {
         "id": "C",
-        "label": "t"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "c"
+        "label": "p"
       }
     ],
     "units": [
-      "n",
-      "r",
       "t",
-      "c"
+      "r",
+      "n",
+      "p"
     ],
-    "template": "s t a _ t | Selectable options: r / t / n",
+    "template": "s t a _ t",
     "correctAnswer": "start",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW775",
@@ -2796,7 +2991,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
@@ -2806,11 +3001,12 @@
     "units": [
       "i",
       "a",
-      "u",
+      "e",
       "o"
     ],
-    "template": "s t _ c k | Selectable options: i / a / e",
+    "template": "s t _ c k",
     "correctAnswer": "stick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW778",
@@ -2836,7 +3032,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
@@ -2844,7 +3040,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "D",
@@ -2852,13 +3048,14 @@
       }
     ],
     "units": [
-      "e",
-      "o",
       "a",
+      "o",
+      "e",
       "u"
     ],
-    "template": "s t _ o l | Selectable options: o / a / e",
+    "template": "s t _ o l",
     "correctAnswer": "stool",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW782",
@@ -2892,7 +3089,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "e"
       },
       {
         "id": "D",
@@ -2902,11 +3099,12 @@
     "units": [
       "o",
       "a",
-      "u",
+      "e",
       "i"
     ],
-    "template": "s t _ r m | Selectable options: o / a / e",
+    "template": "s t _ r m",
     "correctAnswer": "storm",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW785",
@@ -2932,7 +3130,7 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "a"
       },
       {
         "id": "B",
@@ -2944,17 +3142,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
+      "a",
       "i",
       "e",
-      "a"
+      "o"
     ],
-    "template": "s t r _ a m | Selectable options: e / a / i",
+    "template": "s t r _ a m",
     "correctAnswer": "stream",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW790",
@@ -2980,7 +3179,7 @@
     "options": [
       {
         "id": "A",
-        "label": "e"
+        "label": "a"
       },
       {
         "id": "B",
@@ -2988,7 +3187,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "e"
       },
       {
         "id": "D",
@@ -2996,13 +3195,14 @@
       }
     ],
     "units": [
-      "e",
-      "o",
       "a",
+      "o",
+      "e",
       "u"
     ],
-    "template": "s t r _ n g | Selectable options: o / a / e",
+    "template": "s t r _ n g",
     "correctAnswer": "strong",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW793",
@@ -3028,15 +3228,15 @@
     "options": [
       {
         "id": "A",
-        "label": "w"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "f"
       },
       {
         "id": "D",
@@ -3044,13 +3244,14 @@
       }
     ],
     "units": [
-      "w",
-      "d",
-      "h",
+      "t",
+      "n",
+      "f",
       "l"
     ],
-    "template": "t a b _ e | Selectable options: l / t / n",
+    "template": "t a b _ e",
     "correctAnswer": "table",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW814",
@@ -3076,7 +3277,7 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "t"
       },
       {
         "id": "B",
@@ -3088,17 +3289,18 @@
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "k"
       }
     ],
     "units": [
-      "k",
+      "t",
       "n",
       "r",
-      "t"
+      "k"
     ],
-    "template": "t h e _ e | Selectable options: r / t / n",
+    "template": "t h e _ e",
     "correctAnswer": "there",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW835",
@@ -3132,7 +3334,7 @@
       },
       {
         "id": "C",
-        "label": "d"
+        "label": "n"
       },
       {
         "id": "D",
@@ -3142,11 +3344,12 @@
     "units": [
       "c",
       "t",
-      "d",
+      "n",
       "h"
     ],
-    "template": "t i _ k | Selectable options: c / t / n",
+    "template": "t i _ k",
     "correctAnswer": "tick",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW848",
@@ -3172,11 +3375,11 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "n"
       },
       {
         "id": "C",
@@ -3188,13 +3391,14 @@
       }
     ],
     "units": [
-      "b",
-      "g",
+      "t",
+      "n",
       "c",
       "l"
     ],
-    "template": "t r a _ e | Selectable options: c / t / n",
+    "template": "t r a _ e",
     "correctAnswer": "trace",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW871",
@@ -3228,7 +3432,7 @@
       },
       {
         "id": "C",
-        "label": "u"
+        "label": "i"
       },
       {
         "id": "D",
@@ -3238,11 +3442,12 @@
     "units": [
       "e",
       "a",
-      "u",
+      "i",
       "o"
     ],
-    "template": "w | _ | e | k | Selectable options: e / a / i",
+    "template": "w _ e k",
     "correctAnswer": "week",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW921",
@@ -3268,29 +3473,30 @@
     "options": [
       {
         "id": "A",
-        "label": "t"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "d"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "h"
+        "label": "n"
       },
       {
         "id": "D",
-        "label": "m"
+        "label": "r"
       }
     ],
     "units": [
+      "i",
       "t",
-      "d",
-      "h",
-      "m"
+      "n",
+      "r"
     ],
-    "template": "w | h | i | _ | e | Selectable options: t / n / r",
+    "template": "w h _ t e",
     "correctAnswer": "white",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW929",
@@ -3328,6 +3534,7 @@
       "cu"
     ],
     "correctAnswer": "cumin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW191",
@@ -3365,6 +3572,7 @@
       "hel"
     ],
     "correctAnswer": "hello",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW387",
@@ -3402,6 +3610,7 @@
       "hel"
     ],
     "correctAnswer": "helmet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW388",
@@ -3439,6 +3648,7 @@
       "mu"
     ],
     "correctAnswer": "music",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW526",
@@ -3476,6 +3686,7 @@
       "on"
     ],
     "correctAnswer": "onion",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW555",
@@ -3518,6 +3729,7 @@
       "ta"
     ],
     "correctAnswer": "potato",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW612",
@@ -3555,6 +3767,7 @@
       "rec"
     ],
     "correctAnswer": "recipe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW639",
@@ -3597,6 +3810,7 @@
       "ru"
     ],
     "correctAnswer": "rupee",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW667",
@@ -3639,6 +3853,7 @@
       "sa"
     ],
     "correctAnswer": "salad",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW671",
@@ -3676,6 +3891,7 @@
       "spi"
     ],
     "correctAnswer": "spider",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW763",
@@ -3713,6 +3929,7 @@
       "tai"
     ],
     "correctAnswer": "tailor",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW816",
@@ -3750,6 +3967,11 @@
       }
     ],
     "correctAnswer": "cradle",
+    "image": {
+      "type": "image",
+      "source": "eng-cradle"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW176",
@@ -3769,29 +3991,39 @@
     "level": 2,
     "sourceDifficulty": "Mixed",
     "targetWord": "dosa",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "iron"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "dosa"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "mug"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "pea"
+        "label": "d"
       }
     ],
-    "template": "Picture of dosa",
+    "units": [
+      "o",
+      "s",
+      "a",
+      "d"
+    ],
     "correctAnswer": "dosa",
+    "image": {
+      "type": "image",
+      "source": "eng-dosa"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW232",
@@ -3829,6 +4061,11 @@
       }
     ],
     "correctAnswer": "orange",
+    "image": {
+      "type": "image",
+      "source": "eng-orange"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW557",
@@ -3866,6 +4103,7 @@
       }
     ],
     "correctAnswer": "school",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW683",
@@ -3903,6 +4141,7 @@
       }
     ],
     "correctAnswer": "wheat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW926",
@@ -3928,7 +4167,7 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "t"
       },
       {
         "id": "B",
@@ -3936,7 +4175,7 @@
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "m"
       },
       {
         "id": "D",
@@ -3944,13 +4183,14 @@
       }
     ],
     "units": [
-      "k",
+      "t",
       "n",
-      "s",
+      "m",
       "c"
     ],
-    "template": "b a _ k | Selectable options: c / t / n",
+    "template": "b a _ k",
     "correctAnswer": "back",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW029",
@@ -3970,29 +4210,54 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "flowers",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. These are colourful parts of plants. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "fix"
+        "label": "l"
       },
       {
         "id": "B",
-        "label": "grunt"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "nurse"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "flowers"
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "f"
       }
     ],
-    "template": "Picture of flowers",
+    "units": [
+      "l",
+      "o",
+      "w",
+      "e",
+      "r",
+      "s",
+      "f"
+    ],
     "correctAnswer": "flowers",
+    "image": {
+      "type": "image",
+      "source": "eng-flowers"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW304",
@@ -4012,29 +4277,60 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "green gram",
-    "category": "picture-recognition",
-    "variant": "word-entry",
-    "prompt": "Look at the picture. Write the name of this food grain.",
+    "category": "arrange-word",
+    "variant": "arrange",
+    "prompt": "Write the name of this food grain.",
     "options": [
       {
         "id": "A",
-        "label": "green gram"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "cumin"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "rupee"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "school"
+        "label": "n"
+      },
+      {
+        "id": "E",
+        "label": "g"
+      },
+      {
+        "id": "F",
+        "label": "r"
+      },
+      {
+        "id": "G",
+        "label": "a"
+      },
+      {
+        "id": "H",
+        "label": "m"
+      },
+      {
+        "id": "I",
+        "label": "g"
       }
     ],
-    "template": "Picture of green gram",
+    "units": [
+      "r",
+      "e",
+      "e",
+      "n",
+      "g",
+      "r",
+      "a",
+      "m",
+      "g"
+    ],
     "correctAnswer": "green gram",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW356",
@@ -4054,29 +4350,54 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "insects",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word for these small creatures.",
     "options": [
       {
         "id": "A",
-        "label": "insects"
+        "label": "n"
       },
       {
         "id": "B",
-        "label": "rupee"
+        "label": "s"
       },
       {
         "id": "C",
-        "label": "school"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "peanuts"
+        "label": "c"
+      },
+      {
+        "id": "E",
+        "label": "t"
+      },
+      {
+        "id": "F",
+        "label": "s"
+      },
+      {
+        "id": "G",
+        "label": "i"
       }
     ],
-    "template": "Picture showing several insects",
+    "units": [
+      "n",
+      "s",
+      "e",
+      "c",
+      "t",
+      "s",
+      "i"
+    ],
     "correctAnswer": "insects",
+    "image": {
+      "type": "image",
+      "source": "eng-insects"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW419",
@@ -4096,29 +4417,54 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "jaggery",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this sweet food.",
     "options": [
       {
         "id": "A",
-        "label": "jaggery"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "chest"
+        "label": "g"
       },
       {
         "id": "C",
-        "label": "fibre"
+        "label": "g"
       },
       {
         "id": "D",
-        "label": "mop"
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
+      },
+      {
+        "id": "F",
+        "label": "y"
+      },
+      {
+        "id": "G",
+        "label": "j"
       }
     ],
-    "template": "Picture of jaggery",
+    "units": [
+      "a",
+      "g",
+      "g",
+      "e",
+      "r",
+      "y",
+      "j"
+    ],
     "correctAnswer": "jaggery",
+    "image": {
+      "type": "image",
+      "source": "eng-jaggery"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW426",
@@ -4138,29 +4484,39 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "jute",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this natural fibre.",
     "options": [
       {
         "id": "A",
-        "label": "sun"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "web"
+        "label": "t"
       },
       {
         "id": "C",
-        "label": "jute"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "fresh"
+        "label": "j"
       }
     ],
-    "template": "Picture of jute",
+    "units": [
+      "u",
+      "t",
+      "e",
+      "j"
+    ],
     "correctAnswer": "jute",
+    "image": {
+      "type": "image",
+      "source": "eng-jute"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW439",
@@ -4198,6 +4554,11 @@
       }
     ],
     "correctAnswer": "peanuts",
+    "image": {
+      "type": "image",
+      "source": "eng-peanuts"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW573",
@@ -4235,6 +4596,11 @@
       }
     ],
     "correctAnswer": "reefs",
+    "image": {
+      "type": "image",
+      "source": "eng-reefs"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW642",
@@ -4272,6 +4638,11 @@
       }
     ],
     "correctAnswer": "saffron",
+    "image": {
+      "type": "image",
+      "source": "eng-saffron"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW670",
@@ -4309,6 +4680,11 @@
       }
     ],
     "correctAnswer": "samosa",
+    "image": {
+      "type": "image",
+      "source": "eng-samosa"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW674",
@@ -4346,6 +4722,11 @@
       }
     ],
     "correctAnswer": "seasons",
+    "image": {
+      "type": "image",
+      "source": "eng-seasons"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW690",
@@ -4383,6 +4764,11 @@
       }
     ],
     "correctAnswer": "shovel",
+    "image": {
+      "type": "image",
+      "source": "eng-shovel"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW721",
@@ -4420,6 +4806,11 @@
       }
     ],
     "correctAnswer": "snake gourd",
+    "image": {
+      "type": "image",
+      "source": "eng-snake-gourd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW744",
@@ -4441,7 +4832,7 @@
     "targetWord": "talents",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "Look at the picture. Choose the correct word and write it.",
+    "prompt": "Choose the correct word and write it.",
     "options": [
       {
         "id": "A",
@@ -4457,6 +4848,7 @@
       }
     ],
     "correctAnswer": "talents",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW817",
@@ -4494,6 +4886,11 @@
       }
     ],
     "correctAnswer": "tamarind",
+    "image": {
+      "type": "image",
+      "source": "eng-tamarind"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW818",
@@ -4531,6 +4928,11 @@
       }
     ],
     "correctAnswer": "tears",
+    "image": {
+      "type": "image",
+      "source": "eng-tears"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW827",
@@ -4568,6 +4970,11 @@
       }
     ],
     "correctAnswer": "tender coconut",
+    "image": {
+      "type": "image",
+      "source": "eng-tender-coconut"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW832",
@@ -4593,11 +5000,11 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "t"
       },
       {
         "id": "B",
-        "label": "w"
+        "label": "n"
       },
       {
         "id": "C",
@@ -4609,13 +5016,14 @@
       }
     ],
     "units": [
-      "r",
-      "w",
+      "t",
+      "n",
       "d",
       "y"
     ],
-    "template": "c a r r _ | Selectable options: y / t / n",
+    "template": "c a r r _",
     "correctAnswer": "carry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW120",
@@ -4641,7 +5049,7 @@
     "options": [
       {
         "id": "A",
-        "label": "r"
+        "label": "n"
       },
       {
         "id": "B",
@@ -4649,21 +5057,22 @@
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "r"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "h"
       }
     ],
     "units": [
-      "r",
+      "n",
       "t",
-      "b",
-      "f"
+      "r",
+      "h"
     ],
-    "template": "c a t _ l e | Selectable options: t / n / r",
+    "template": "c a t _ l e",
     "correctAnswer": "cattle",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW126",
@@ -4689,7 +5098,7 @@
     "options": [
       {
         "id": "A",
-        "label": "o"
+        "label": "a"
       },
       {
         "id": "B",
@@ -4701,17 +5110,18 @@
       },
       {
         "id": "D",
-        "label": "a"
+        "label": "o"
       }
     ],
     "units": [
-      "o",
+      "a",
       "i",
       "e",
-      "a"
+      "o"
     ],
-    "template": "c h _ e k | Selectable options: e / a / i",
+    "template": "c h _ e k",
     "correctAnswer": "cheek",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW134",
@@ -4737,7 +5147,7 @@
     "options": [
       {
         "id": "A",
-        "label": "i"
+        "label": "a"
       },
       {
         "id": "B",
@@ -4745,7 +5155,7 @@
       },
       {
         "id": "C",
-        "label": "a"
+        "label": "i"
       },
       {
         "id": "D",
@@ -4753,13 +5163,14 @@
       }
     ],
     "units": [
-      "i",
-      "e",
       "a",
+      "e",
+      "i",
       "u"
     ],
-    "template": "c h _ s t | Selectable options: e / a / i",
+    "template": "c h _ s t",
     "correctAnswer": "chest",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW137",
@@ -4812,6 +5223,11 @@
       "b"
     ],
     "correctAnswer": "barfi",
+    "image": {
+      "type": "image",
+      "source": "eng-barfi"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW037",
@@ -4849,6 +5265,11 @@
       }
     ],
     "correctAnswer": "shadow",
+    "image": {
+      "type": "image",
+      "source": "eng-shadow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW696",
@@ -4886,6 +5307,11 @@
       }
     ],
     "correctAnswer": "shells",
+    "image": {
+      "type": "image",
+      "source": "eng-shells"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW705",
@@ -4938,6 +5364,11 @@
       "z"
     ],
     "correctAnswer": "zebra",
+    "image": {
+      "type": "image",
+      "source": "eng-zebra"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW957",
@@ -4975,6 +5406,11 @@
       }
     ],
     "correctAnswer": "day",
+    "image": {
+      "type": "image",
+      "source": "eng-day"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW206",
@@ -5012,6 +5448,11 @@
       }
     ],
     "correctAnswer": "desert",
+    "image": {
+      "type": "image",
+      "source": "eng-desert"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW215",
@@ -5049,6 +5490,7 @@
       }
     ],
     "correctAnswer": "fibre",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW284",
@@ -5086,6 +5528,7 @@
       }
     ],
     "correctAnswer": "go",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW343",
@@ -5123,6 +5566,7 @@
       }
     ],
     "correctAnswer": "iron",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW423",
@@ -5160,6 +5604,7 @@
       }
     ],
     "correctAnswer": "island",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW424",
@@ -5180,28 +5625,39 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "baby",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "baby"
+        "label": "B"
       },
       {
         "id": "B",
-        "label": "cheek"
+        "label": "B"
       },
       {
         "id": "C",
-        "label": "desert"
+        "label": "Y"
       },
       {
         "id": "D",
-        "label": "mom"
+        "label": "A"
       }
     ],
+    "units": [
+      "B",
+      "B",
+      "Y",
+      "A"
+    ],
     "correctAnswer": "baby",
+    "image": {
+      "type": "image",
+      "source": "eng-baby"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW028",
@@ -5240,6 +5696,11 @@
       }
     ],
     "correctAnswer": "boondhi",
+    "image": {
+      "type": "image",
+      "source": "eng-boondhi"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW074",
@@ -5260,29 +5721,34 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "dal",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This food is made from lentils. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "grass"
+        "label": "L"
       },
       {
         "id": "B",
-        "label": "dal"
+        "label": "A"
       },
       {
         "id": "C",
-        "label": "mend"
-      },
-      {
-        "id": "D",
-        "label": "shore"
+        "label": "D"
       }
     ],
-    "template": "Picture of dal",
+    "units": [
+      "L",
+      "A",
+      "D"
+    ],
     "correctAnswer": "dal",
+    "image": {
+      "type": "image",
+      "source": "eng-dal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW201",
@@ -5303,29 +5769,39 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "ghee",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. This is a yellow food used in cooking. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "red"
+        "label": "H"
       },
       {
         "id": "B",
-        "label": "top"
+        "label": "G"
       },
       {
         "id": "C",
-        "label": "zoo"
+        "label": "E"
       },
       {
         "id": "D",
-        "label": "ghee"
+        "label": "E"
       }
     ],
-    "template": "Picture of ghee",
+    "units": [
+      "H",
+      "G",
+      "E",
+      "E"
+    ],
     "correctAnswer": "ghee",
+    "image": {
+      "type": "image",
+      "source": "eng-ghee"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW335",
@@ -5346,29 +5822,39 @@
     "level": 1,
     "sourceDifficulty": "Easy",
     "targetWord": "idli",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the name of this food.",
     "options": [
       {
         "id": "A",
-        "label": "onion"
+        "label": "d"
       },
       {
         "id": "B",
-        "label": "idli"
+        "label": "l"
       },
       {
         "id": "C",
-        "label": "cradle"
+        "label": "i"
       },
       {
         "id": "D",
-        "label": "green gram"
+        "label": "i"
       }
     ],
-    "template": "Picture of idli",
+    "units": [
+      "d",
+      "l",
+      "i",
+      "i"
+    ],
     "correctAnswer": "idli",
+    "image": {
+      "type": "image",
+      "source": "eng-idli"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW414",
@@ -5407,6 +5893,11 @@
       }
     ],
     "correctAnswer": "pinky",
+    "image": {
+      "type": "image",
+      "source": "eng-pinky"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW587",
@@ -5445,6 +5936,7 @@
       }
     ],
     "correctAnswer": "angry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW011",
@@ -5483,6 +5975,7 @@
       }
     ],
     "correctAnswer": "ask",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW021",
@@ -5513,7 +6006,7 @@
       },
       {
         "id": "B",
-        "label": "bed"
+        "label": "badd"
       },
       {
         "id": "C",
@@ -5521,6 +6014,7 @@
       }
     ],
     "correctAnswer": "bad",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW030",
@@ -5559,6 +6053,7 @@
       }
     ],
     "correctAnswer": "badge",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW031",
@@ -5585,29 +6080,30 @@
     "options": [
       {
         "id": "A",
-        "label": "n"
+        "label": "w"
       },
       {
         "id": "B",
-        "label": "s"
+        "label": "p"
       },
       {
         "id": "C",
-        "label": "b"
+        "label": "o"
       },
       {
         "id": "D",
-        "label": "about"
+        "label": "i"
       }
     ],
     "units": [
-      "n",
-      "s",
-      "b",
-      "about"
+      "w",
+      "p",
+      "o",
+      "i"
     ],
-    "template": "o   /   w   /   p",
+    "template": "a b _ u t",
     "correctAnswer": "about",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW001",
@@ -5634,29 +6130,30 @@
     "options": [
       {
         "id": "A",
-        "label": "c"
+        "label": "z"
       },
       {
         "id": "B",
-        "label": "g"
+        "label": "b"
       },
       {
         "id": "C",
-        "label": "alphabet"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "l"
+        "label": "p"
       }
     ],
     "units": [
-      "c",
-      "g",
-      "alphabet",
-      "l"
+      "z",
+      "b",
+      "q",
+      "p"
     ],
-    "template": "b   /   z   /   q",
+    "template": "a l p h a _ e t",
     "correctAnswer": "alphabet",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW008",
@@ -5683,29 +6180,30 @@
     "options": [
       {
         "id": "A",
-        "label": "k"
+        "label": "u"
       },
       {
         "id": "B",
-        "label": "n"
+        "label": "o"
       },
       {
         "id": "C",
-        "label": "s"
+        "label": "e"
       },
       {
         "id": "D",
-        "label": "bee"
+        "label": "a"
       }
     ],
     "units": [
-      "k",
-      "n",
-      "s",
-      "bee"
+      "u",
+      "o",
+      "e",
+      "a"
     ],
-    "template": "u   /   o   /   e",
+    "template": "b _ e",
     "correctAnswer": "bee",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW049",
@@ -5732,29 +6230,30 @@
     "options": [
       {
         "id": "A",
-        "label": "l"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "p"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "bin"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "t"
+        "label": "o"
       }
     ],
     "units": [
-      "l",
-      "p",
-      "bin",
-      "t"
+      "c",
+      "i",
+      "a",
+      "o"
     ],
-    "template": "i   /   c   /   a",
+    "template": "b _ n",
     "correctAnswer": "bin",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW059",
@@ -5785,25 +6284,26 @@
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "i"
       },
       {
         "id": "C",
-        "label": "bring"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "e"
       }
     ],
     "units": [
       "f",
-      "k",
-      "bring",
-      "n"
+      "i",
+      "w",
+      "e"
     ],
-    "template": "f   /   i   /   w",
+    "template": "b r _ n g",
     "correctAnswer": "bring",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW091",
@@ -5830,29 +6330,30 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "c"
       },
       {
         "id": "B",
-        "label": "catch"
+        "label": "n"
       },
       {
         "id": "C",
-        "label": "f"
+        "label": "m"
       },
       {
         "id": "D",
-        "label": "k"
+        "label": "b"
       }
     ],
     "units": [
-      "b",
-      "catch",
-      "f",
-      "k"
+      "c",
+      "n",
+      "m",
+      "b"
     ],
-    "template": "n   /   m   /   c",
+    "template": "c a t _ h",
     "correctAnswer": "catch",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW124",
@@ -5879,29 +6380,30 @@
     "options": [
       {
         "id": "A",
-        "label": "m"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "coop"
+        "label": "x"
       },
       {
         "id": "C",
-        "label": "r"
+        "label": "q"
       },
       {
         "id": "D",
-        "label": "w"
+        "label": "a"
       }
     ],
     "units": [
-      "m",
-      "coop",
-      "r",
-      "w"
+      "o",
+      "x",
+      "q",
+      "a"
     ],
-    "template": "o   /   x   /   q",
+    "template": "c o _ p",
     "correctAnswer": "coop",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW168",
@@ -5928,29 +6430,30 @@
     "options": [
       {
         "id": "A",
-        "label": "p"
+        "label": "j"
       },
       {
         "id": "B",
-        "label": "t"
+        "label": "d"
       },
       {
         "id": "C",
-        "label": "c"
+        "label": "y"
       },
       {
         "id": "D",
-        "label": "cry"
+        "label": "b"
       }
     ],
     "units": [
-      "p",
-      "t",
-      "c",
-      "cry"
+      "j",
+      "d",
+      "y",
+      "b"
     ],
-    "template": "y   /   j   /   d",
+    "template": "c r _",
     "correctAnswer": "cry",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW188",
@@ -5981,25 +6484,26 @@
       },
       {
         "id": "B",
-        "label": "k"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "cube"
+        "label": "w"
       },
       {
         "id": "D",
-        "label": "n"
+        "label": "i"
       }
     ],
     "units": [
       "f",
-      "k",
-      "cube",
-      "n"
+      "e",
+      "w",
+      "i"
     ],
-    "template": "f   /   w   /   e",
+    "template": "c u b _",
     "correctAnswer": "cube",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW190",
@@ -6026,29 +6530,30 @@
     "options": [
       {
         "id": "A",
-        "label": "s"
+        "label": "o"
       },
       {
         "id": "B",
-        "label": "b"
+        "label": "c"
       },
       {
         "id": "C",
-        "label": "dance"
+        "label": "z"
       },
       {
         "id": "D",
-        "label": "f"
+        "label": "m"
       }
     ],
     "units": [
-      "s",
-      "b",
-      "dance",
-      "f"
+      "o",
+      "c",
+      "z",
+      "m"
     ],
-    "template": "o   /   c   /   z",
+    "template": "d a n _ e",
     "correctAnswer": "dance",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW202",
@@ -6087,6 +6592,11 @@
       }
     ],
     "correctAnswer": "almond",
+    "image": {
+      "type": "image",
+      "source": "eng-almond"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW007",
@@ -6125,6 +6635,7 @@
       }
     ],
     "correctAnswer": "axe",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW027",
@@ -6163,6 +6674,7 @@
       }
     ],
     "correctAnswer": "beach",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW042",
@@ -6201,6 +6713,7 @@
       }
     ],
     "correctAnswer": "beat",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW045",
@@ -6239,6 +6752,7 @@
       }
     ],
     "correctAnswer": "best",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW054",
@@ -6277,6 +6791,7 @@
       }
     ],
     "correctAnswer": "blew",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW065",
@@ -6315,6 +6830,11 @@
       }
     ],
     "correctAnswer": "bolt",
+    "image": {
+      "type": "image",
+      "source": "eng-bolt"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW071",
@@ -6353,6 +6873,7 @@
       }
     ],
     "correctAnswer": "both",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW076",
@@ -6391,6 +6912,11 @@
       }
     ],
     "correctAnswer": "bow",
+    "image": {
+      "type": "image",
+      "source": "eng-bow"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW078",
@@ -6429,6 +6955,11 @@
       }
     ],
     "correctAnswer": "bowl",
+    "image": {
+      "type": "image",
+      "source": "eng-bowl"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW079",
@@ -6455,29 +6986,30 @@
     "options": [
       {
         "id": "A",
-        "label": "b"
+        "label": "i"
       },
       {
         "id": "B",
-        "label": "f"
+        "label": "e"
       },
       {
         "id": "C",
-        "label": "k"
+        "label": "a"
       },
       {
         "id": "D",
-        "label": "anything"
+        "label": "o"
       }
     ],
     "units": [
-      "b",
-      "f",
-      "k",
-      "anything"
+      "i",
+      "e",
+      "a",
+      "o"
     ],
-    "template": "i / e / a",
+    "template": "a n y t h _ n g",
     "correctAnswer": "anything",
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW016",
@@ -6516,6 +7048,11 @@
       }
     ],
     "correctAnswer": "anjaraipetti",
+    "image": {
+      "type": "image",
+      "source": "eng-anjaraipetti"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW013",
@@ -6554,6 +7091,11 @@
       }
     ],
     "correctAnswer": "ash gourd",
+    "image": {
+      "type": "image",
+      "source": "eng-ash-gourd"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW020",
@@ -6574,28 +7116,39 @@
     "level": 2,
     "sourceDifficulty": "Medium",
     "targetWord": "aval",
-    "category": "picture-recognition",
-    "variant": "word-entry",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "tender coconut"
+        "label": "a"
       },
       {
         "id": "B",
-        "label": "aval"
+        "label": "a"
       },
       {
         "id": "C",
-        "label": "shells"
+        "label": "l"
       },
       {
         "id": "D",
-        "label": "island"
+        "label": "v"
       }
     ],
+    "units": [
+      "a",
+      "a",
+      "l",
+      "v"
+    ],
     "correctAnswer": "aval",
+    "image": {
+      "type": "image",
+      "source": "eng-aval"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW025",
@@ -6634,6 +7187,11 @@
       }
     ],
     "correctAnswer": "bengal gram",
+    "image": {
+      "type": "image",
+      "source": "eng-bengal-gram"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW053",
@@ -6672,6 +7230,11 @@
       }
     ],
     "correctAnswer": "black gram",
+    "image": {
+      "type": "image",
+      "source": "eng-black-gram"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW062",
@@ -6710,6 +7273,11 @@
       }
     ],
     "correctAnswer": "brinjal",
+    "image": {
+      "type": "image",
+      "source": "eng-brinjal"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW092",
@@ -6748,6 +7316,11 @@
       }
     ],
     "correctAnswer": "cashew",
+    "image": {
+      "type": "image",
+      "source": "eng-cashew"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW121",
@@ -6786,6 +7359,11 @@
       }
     ],
     "correctAnswer": "curry leaves",
+    "image": {
+      "type": "image",
+      "source": "eng-curry-leaves"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW195",
@@ -6806,20 +7384,44 @@
     "level": 3,
     "sourceDifficulty": "Hard",
     "targetWord": "derry",
-    "category": "picture-recognition",
-    "variant": "select",
+    "category": "arrange-word",
+    "variant": "arrange",
     "prompt": "Look at the picture. Write the word.",
     "options": [
       {
         "id": "A",
-        "label": "Picture"
+        "label": "r"
       },
       {
         "id": "B",
-        "label": "context from source"
+        "label": "y"
+      },
+      {
+        "id": "C",
+        "label": "d"
+      },
+      {
+        "id": "D",
+        "label": "e"
+      },
+      {
+        "id": "E",
+        "label": "r"
       }
     ],
+    "units": [
+      "r",
+      "y",
+      "d",
+      "e",
+      "r"
+    ],
     "correctAnswer": "derry",
+    "image": {
+      "type": "image",
+      "source": "eng-derry"
+    },
+    "needsImage": true,
     "source": {
       "workbook": "English_Module_5_Picture_and_Options_Support_Corrected_v1.xlsx",
       "ewId": "EW213",

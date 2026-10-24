@@ -233,14 +233,10 @@ function normalizeActivityMapping(
  */
 function parseOptionsOrUnits(
   variant: ActivityVariant,
-  rawStr: string | undefined,
-  proposedOptions?: string
+  rawStr: string | undefined
 ): { options?: ActivityOption[]; units?: string[]; template?: string } {
-  // Prefer proposedOptions for word-completion (E05) when available
-  const effectiveStr = (variant === 'missing-unit' && proposedOptions) ? proposedOptions : rawStr;
-
-  if (!effectiveStr) return {};
-  const trimmed = effectiveStr.trim();
+  if (!rawStr) return {};
+  const trimmed = rawStr.trim();
 
   if (variant === 'select') {
     // Slash-delimited or pipe-delimited options
@@ -267,11 +263,27 @@ function parseOptionsOrUnits(
     }
 
     const delimiter = cleaned.includes('|') ? '|' : (cleaned.includes('/') ? '/' : '|');
-    const units = cleaned.split(delimiter).map(p => p.trim()).filter(p => p && p !== '_');
+    const rawUnits = cleaned.split(delimiter).map(p => p.trim()).filter(p => p && p !== '_');
+    const units: string[] = [];
+    for (const u of rawUnits) {
+      if (u.includes(' ')) {
+        units.push(...u.split(/\s+/).filter(Boolean));
+      } else {
+        units.push(u);
+      }
+    }
     if (units.length === 0) {
       // Fallback: try original rawStr
       const fallback = (rawStr || '').replace(/^.*?[:：]\s*/i, '');
-      const fb = fallback.split(/[|/]/).map(p => p.trim()).filter(p => p && p !== '_');
+      const fbRaw = fallback.split(/[|/]/).map(p => p.trim()).filter(p => p && p !== '_');
+      const fb: string[] = [];
+      for (const u of fbRaw) {
+        if (u.includes(' ')) {
+          fb.push(...u.split(/\s+/).filter(Boolean));
+        } else {
+          fb.push(u);
+        }
+      }
       if (fb.length > 0) {
         const options: ActivityOption[] = fb.map((label, idx) => ({
           id: String.fromCharCode(65 + idx),
@@ -287,8 +299,16 @@ function parseOptionsOrUnits(
     return { units, options };
   }
 
-  // For missing-unit and word-entry: use as template
-  return { template: trimmed };
+  if (variant === 'missing-unit') {
+    const clean = trimmed
+      .replace(/\s*\|.*$/, '')
+      .replace(/\s*(?:selectable options|jumbled letter tiles|options)\s*:.*$/i, '')
+      .trim();
+    return { template: clean };
+  }
+
+  // For word-entry: questions show full-word buttons, remove template entirely
+  return {};
 }
 
 // ── Letter and word distractor generators (unchanged from original) ──────────────
@@ -308,9 +328,11 @@ function extractMissingLetter(template?: string, targetWord?: string, answer?: s
   return missing.toLowerCase() || (answer || '').toLowerCase();
 }
 
-function generateLetterDistractors(letter: string, seedStr: string): string[] {
+function generateLetterDistractors(letter: string, seedStr: string, exclude: string[] = []): string[] {
   const isVowel = VOWELS.includes(letter);
-  const pool = isVowel ? VOWELS.filter(v => v !== letter) : CONSONANTS.filter(c => c !== letter);
+  const pool = isVowel
+    ? VOWELS.filter(v => v !== letter && !exclude.includes(v))
+    : CONSONANTS.filter(c => c !== letter && !exclude.includes(c));
   let hash = 0;
   for (let i = 0; i < seedStr.length; i++) {
     hash = (hash * 31 + seedStr.charCodeAt(i)) >>> 0;
@@ -326,7 +348,203 @@ function generateLetterDistractors(letter: string, seedStr: string): string[] {
     if (!picked.includes(pool[i])) picked.push(pool[i]);
     i++;
   }
+  if (picked.length < 3) {
+    const backupPool = isVowel ? CONSONANTS : VOWELS;
+    for (const c of backupPool) {
+      if (picked.length >= 3) break;
+      if (!picked.includes(c) && !exclude.includes(c) && c !== letter) {
+        picked.push(c);
+      }
+    }
+  }
   return picked;
+}
+
+function parseWordCompletion(
+  targetWord: string,
+  rawStr: string | undefined,
+  proposedOptions: string | undefined,
+  runtimeId: string
+): { options: ActivityOption[]; units: string[]; template: string } {
+  const target = (targetWord || '').toLowerCase().trim();
+
+  // 1. Template: extract pattern containing '_'
+  let cleanPattern = (rawStr || '')
+    .replace(/\s*\|.*$/, '')
+    .replace(/\s*(?:selectable options|jumbled letter tiles|options)\s*:.*$/i, '')
+    .replace(/\|/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // If rawStr didn't have '_', check proposedOptions
+  if (!cleanPattern.includes('_') && proposedOptions && proposedOptions.includes('_')) {
+    cleanPattern = proposedOptions
+      .replace(/\s*\|.*$/, '')
+      .replace(/\s*(?:selectable options|jumbled letter tiles|options)\s*:.*$/i, '')
+      .replace(/\|/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  const withoutSpaces = cleanPattern.replace(/\s+/g, '').toLowerCase();
+  let template = '';
+  let missingLetter = '';
+
+  if (withoutSpaces.includes('_') && withoutSpaces.length === target.length) {
+    let underscoreIdx = withoutSpaces.indexOf('_');
+    // Ensure we do NOT remove the first letter!
+    if (underscoreIdx === 0 && target.length > 1) {
+      let altIdx = 1;
+      for (let i = 1; i < target.length; i++) {
+        if (VOWELS.includes(target[i])) {
+          altIdx = i;
+          break;
+        }
+      }
+      underscoreIdx = altIdx;
+      missingLetter = target[underscoreIdx];
+      const chars = target.split('');
+      chars[underscoreIdx] = '_';
+      template = chars.join(' ');
+    } else {
+      missingLetter = target[underscoreIdx];
+      template = withoutSpaces.split('').join(' ');
+    }
+  } else {
+    // Pick missing letter from target (never index 0)
+    let missIdx = 1;
+    for (let i = 1; i < target.length; i++) {
+      if (VOWELS.includes(target[i])) {
+        missIdx = i;
+        break;
+      }
+    }
+    missingLetter = target[missIdx];
+    const chars = target.split('');
+    chars[missIdx] = '_';
+    template = chars.join(' ');
+  }
+
+  // 2. Distractor options: extract letters from proposedOptions and/or options clause
+  const distractorText = `${proposedOptions || ''} ${rawStr?.match(/(?:selectable options|options)\s*:\s*([^|]+)/i)?.[1] || ''}`;
+  const rawLetters = distractorText
+    .split(/[/|,\s]+/)
+    .map(s => s.trim().toLowerCase())
+    .filter(s => s.length === 1 && /^[a-z]$/.test(s) && s !== missingLetter);
+
+  const uniqueDistractors = Array.from(new Set(rawLetters));
+  if (uniqueDistractors.length < 3) {
+    const fallbacks = generateLetterDistractors(missingLetter, runtimeId, [missingLetter, ...uniqueDistractors]);
+    for (const fb of fallbacks) {
+      if (uniqueDistractors.length < 3 && !uniqueDistractors.includes(fb) && fb !== missingLetter) {
+        uniqueDistractors.push(fb);
+      }
+    }
+  }
+  const distractors = uniqueDistractors.slice(0, 3);
+
+  // Combine missingLetter + 3 distractors deterministically
+  let hash = 0;
+  for (let i = 0; i < runtimeId.length; i++) {
+    hash = (hash * 31 + runtimeId.charCodeAt(i)) >>> 0;
+  }
+  const pos = hash % 4;
+  const labels = [...distractors];
+  labels.splice(pos, 0, missingLetter);
+
+  const options: ActivityOption[] = labels.map((label, idx) => ({
+    id: String.fromCharCode(65 + idx),
+    label
+  }));
+
+  return {
+    template,
+    options,
+    units: options.map(o => o.label)
+  };
+}
+
+function reconcileArrangeTiles(
+  currentTiles: string[],
+  targetWord: string,
+  correctAnswer: string,
+  runtimeId: string
+): { options: ActivityOption[]; units: string[] } {
+  const targetClean = (correctAnswer || targetWord || '').replace(/[\s\-_]/g, '').toLowerCase();
+
+  // 1. Flatten and ensure no tile label contains spaces
+  const flattened: string[] = [];
+  for (const t of currentTiles) {
+    const trimmed = String(t || '').trim();
+    if (trimmed.includes(' ')) {
+      flattened.push(...trimmed.split(/\s+/).filter(Boolean));
+    } else if (trimmed) {
+      flattened.push(trimmed);
+    }
+  }
+
+  // 2. Multiset check: letters in flattened tiles vs letters in targetClean
+  const targetCounts: Record<string, number> = {};
+  for (const ch of targetClean) {
+    targetCounts[ch] = (targetCounts[ch] || 0) + 1;
+  }
+
+  const currentCounts: Record<string, number> = {};
+  for (const u of flattened) {
+    for (const ch of u.toLowerCase()) {
+      currentCounts[ch] = (currentCounts[ch] || 0) + 1;
+    }
+  }
+
+  let matches = true;
+  for (const ch of Object.keys(targetCounts)) {
+    if (currentCounts[ch] !== targetCounts[ch]) {
+      matches = false;
+      break;
+    }
+  }
+  for (const ch of Object.keys(currentCounts)) {
+    if (currentCounts[ch] !== targetCounts[ch]) {
+      matches = false;
+      break;
+    }
+  }
+
+  let finalTiles = flattened;
+
+  if (!matches) {
+    const remainingNeeded = { ...targetCounts };
+    const filtered: string[] = [];
+
+    // Keep valid single-letter tiles that are needed
+    for (const u of flattened) {
+      const lower = u.toLowerCase();
+      if (lower.length === 1 && (remainingNeeded[lower] || 0) > 0) {
+        filtered.push(lower);
+        remainingNeeded[lower]--;
+      }
+    }
+
+    // Append any missing letters needed to complete the multiset
+    for (const ch of Object.keys(remainingNeeded)) {
+      while (remainingNeeded[ch] > 0) {
+        filtered.push(ch);
+        remainingNeeded[ch]--;
+      }
+    }
+
+    finalTiles = filtered;
+  }
+
+  const options: ActivityOption[] = finalTiles.map((label, idx) => ({
+    id: String.fromCharCode(65 + idx),
+    label
+  }));
+
+  return {
+    options,
+    units: options.map(o => o.label)
+  };
 }
 
 function generateWordDistractors(targetWord: string, pool: string[], seedStr: string): string[] {
@@ -367,7 +585,6 @@ function createActivityOptions(correctLabel: string, distractors: string[], seed
 
 const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; alt: string }> = {
   'apple': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Apple — ஆப்பிள்' },
-  'fruit': { tamilAssetId: 'class3-tamil-picture-q003', path: '/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg', alt: 'Fruit — பழம்' },
   'bag': { tamilAssetId: 'class3-tamil-picture-q104', path: '/assets/class-3/tamil/term-1/images/Q104_Pai.jpg', alt: 'Bag — பை' },
   'box': { tamilAssetId: 'class3-tamil-picture-q101', path: '/assets/class-3/tamil/term-1/images/Q101_Petti.jpg', alt: 'Box — பெட்டி' },
   'dog': { tamilAssetId: 'class3-tamil-picture-q005', path: '/assets/class-3/tamil/term-1/images/Q005_Naai.jpg', alt: 'Dog — நாய்' },
@@ -377,6 +594,66 @@ const EXACT_TAMIL_MATCHES: Record<string, { tamilAssetId: string; path: string; 
   'colour': { tamilAssetId: 'class3-tamil-picture-q014', path: '/assets/class-3/tamil/term-1/images/Q014_Vannangal.jpg', alt: 'Colour — வண்ணங்கள்' }
 };
 
+// Words that should NOT receive an image because the candidate image depicts another word:
+// fun = hands = talents -> image depicts fun; hands & talents are text-only
+// field = green gram -> green gram is text-only (swatches of green does not depict food grain)
+// farm = barn -> image depicts farm; barn is text-only
+// fur = paws -> image depicts fur; paws is text-only
+// skin = legs -> image depicts human body/legs; skin is text-only
+// bird = feathers -> image depicts bird; feathers is text-only
+// apple vs fruit -> image depicts apple; fruit is text-only
+const EXCLUDED_IMAGE_WORDS = new Set<string>([
+  'hands',
+  'talents',
+  'green gram',
+  'barn',
+  'paws',
+  'skin',
+  'feathers',
+  'fruit'
+]);
+
+function isPictureIntended(actCode: string, prompt: string): boolean {
+  if (actCode === 'E01' || actCode === 'E12') return true;
+  return /look at the picture/i.test(prompt);
+}
+
+function scanSourceImages(): Map<string, string> {
+  const sourceImageMap = new Map<string, string>(); // ewId -> source absolute path
+  for (let m = 1; m <= 8; m++) {
+    const modDir = path.join(ENG_IMAGES_ROOT, `Module_${m}`);
+    if (fs.existsSync(modDir)) {
+      const files = fs.readdirSync(modDir).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
+      // First pass: prefer _1 variants
+      for (const f of files) {
+        if (f.includes('_1.')) {
+          const m2 = f.match(/^(EW\d+)_/i);
+          if (m2) sourceImageMap.set(m2[1].toUpperCase(), path.join(modDir, f));
+        }
+      }
+      // Second pass: fallback
+      for (const f of files) {
+        const m2 = f.match(/^(EW\d+)_/i);
+        if (m2) {
+          const ewId = m2[1].toUpperCase();
+          if (!sourceImageMap.has(ewId)) sourceImageMap.set(ewId, path.join(modDir, f));
+        }
+      }
+    }
+  }
+  return sourceImageMap;
+}
+
+function hasAvailableImage(ewId: string, targetWord: string, sourceImageMap: Map<string, string>): boolean {
+  const word = targetWord.toLowerCase().trim();
+  if (EXCLUDED_IMAGE_WORDS.has(word)) return false;
+  const wordKey = word.replace(/[^a-z0-9]/g, '-');
+  if (EXACT_TAMIL_MATCHES[word]) return true;
+  if (sourceImageMap.has(ewId.toUpperCase())) return true;
+  if (fs.existsSync(path.join(PUBLIC_IMAGES_DIR, `eng-${wordKey}.jpg`))) return true;
+  return false;
+}
+
 function requiresPictureAsset(actCode: string, prompt: string, originalActivity: string): boolean {
   if (actCode === 'E01' || actCode === 'E12') return true;
   const lower = (prompt + ' ' + originalActivity).toLowerCase();
@@ -384,12 +661,14 @@ function requiresPictureAsset(actCode: string, prompt: string, originalActivity:
 }
 
 function createAssetRequirement(activityId: string, ewId: string, targetWord: string, activityCode: string, prompt: string) {
-  const wordKey = targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-');
+  const word = targetWord.toLowerCase().trim();
+  const wordKey = word.replace(/[^a-z0-9]/g, '-');
   const assetId = `eng-${wordKey}`;
   const lowerPrompt = prompt.toLowerCase();
 
   let isTextOnly = false;
-  if (activityCode === 'E04') isTextOnly = true;
+  if (EXCLUDED_IMAGE_WORDS.has(word)) isTextOnly = true;
+  else if (activityCode === 'E04') isTextOnly = true;
   else if (activityCode === 'E06' && !lowerPrompt.includes('look at the picture')) isTextOnly = true;
   else if (activityCode === 'E08' && !lowerPrompt.includes('look at the picture')) isTextOnly = true;
   else if (activityCode === 'E05' && !lowerPrompt.includes('look at the picture')) isTextOnly = true;
@@ -461,13 +740,14 @@ function normalizeM1Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
 
     const correctAnswer = String(r['Correct Answer (reviewer only)'] || '').trim();
     const difficulty = r['Difficulty'];
+    const proposedOptions = String(r['Proposed Missing-Letter Options (E05 only)'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
     // No Day column in M1 — assign 24 per day (rows 0-23 → day 1, etc.)
     const day = Math.min(5, Math.floor(idx / 24) + 1);
 
     return {
       ewId, targetWord, difficulty, activityCode, rawActivity,
       prompt, rawOptions: rawOptions || undefined, correctAnswer,
-      day, role: 'new'
+      day, role: 'new', proposedOptions
     };
   });
 }
@@ -551,6 +831,7 @@ function normalizeM3Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
     const activityCode = actCode || extractActivityCode(rawActivity);
     const prompt = String(r['Child-Facing Instruction / Clue'] || '').trim();
     const rawOptions = String(r['Letters / Options / Word Parts'] || r['Proposed Letters / Options'] || '').trim() || undefined;
+    const proposedOptions = String(r['Proposed Letters / Options'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
     const correctAnswer = String(r['Answer'] || '').trim();
     const difficulty = r['Difficulty Evidence'] || r['Difficulty'];
     const day = Number(r['Day'] || 1);
@@ -560,7 +841,8 @@ function normalizeM3Rows(rows: Record<string, unknown>[]): NormalizedRow[] {
 
     return {
       ewId, targetWord, difficulty, activityCode, rawActivity,
-      prompt, rawOptions, correctAnswer, day, role, reviewSourceModule
+      prompt, rawOptions, correctAnswer, day, role, reviewSourceModule,
+      proposedOptions
     };
   });
 }
@@ -580,9 +862,12 @@ function normalizeM4PlusNewRows(rows: Record<string, unknown>[]): NormalizedRow[
     const prompt = String(r['Child-Facing Instruction / Clue'] || '').trim();
 
     // Prefer Proposed Letters / Options for E05 activities when available
-    const proposedOptions = String(r['E05 Missing-Letter Options (Proposed)'] || r['E05 Options (Proposed)'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
+    const proposedOptions = String(r['E05 Missing-Letter Options (Proposed)'] || r['E05 Options (Proposed)'] || r['Proposed Missing-Letter Options'] || r['Proposed Letters / Options'] || '').trim() || undefined;
     const rawOptionsRaw = String(r['Letters / Options / Word Parts'] || r['Proposed Letters / Options'] || '').trim();
-    const rawOptions = rawOptionsRaw || undefined;
+    let rawOptions = rawOptionsRaw || undefined;
+    if ((!rawOptions || /^picture\b/i.test(rawOptions)) && proposedOptions) {
+      rawOptions = proposedOptions;
+    }
 
     const correctAnswer = String(r['Answer'] || r['Answer (Adult Key)'] || '').trim();
     const difficulty = r['Difficulty'];
@@ -605,9 +890,13 @@ function normalizeM4PlusReviewRows(rows: Record<string, unknown>[], moduleNum: n
 
     const proposedOptions = String(r['Proposed Letters / Options'] || r['Proposed Missing-Letter Options'] || '').trim() || undefined;
     const rawOptionsRaw = String(r['Letters / Options / Word Parts'] || '').trim();
-    const rawOptions = rawOptionsRaw || undefined;
+    let rawOptions = rawOptionsRaw || undefined;
+    if ((!rawOptions || /^picture\b/i.test(rawOptions)) && proposedOptions) {
+      rawOptions = proposedOptions;
+    }
 
     const correctAnswer = String(r['Answer'] || r['Answer (Adult Key)'] || '').trim();
+
     const difficulty = r['Difficulty'];
     const day = Number(r['Day'] || 1);
 
@@ -648,6 +937,11 @@ export interface IngestedEnglishContent {
     reusedFromTamilAssetId?: string;
     resolvedPath?: string;
   }[];
+  missingImagesList: {
+    id: string;
+    targetWord: string;
+    prompt: string;
+  }[];
 }
 
 export function importEnglishContent(): IngestedEnglishContent {
@@ -682,6 +976,8 @@ export function importEnglishContent(): IngestedEnglishContent {
   const moduleActivities: Record<number, Activity[]> = {};
   const moduleManifests: Record<number, EnglishModuleManifest> = {};
   const assetRequirements: IngestedEnglishContent['assetRequirements'] = [];
+  const missingImagesList: IngestedEnglishContent['missingImagesList'] = [];
+  const sourceImageMap = scanSourceImages();
 
   const overallDifficultyBreakdown: EnglishDifficultyBreakdown = {
     easy: 0, medium: 0, hard: 0, mixed: 0, unclassified: 0
@@ -741,10 +1037,22 @@ export function importEnglishContent(): IngestedEnglishContent {
         overallDifficultyBreakdown[sourceDifficulty.toLowerCase() as keyof EnglishDifficultyBreakdown]++;
       }
 
-      const { category, variant } = normalizeActivityMapping(activityCode, rawOptions);
-      categoriesSet.add(category);
+      let effectivePrompt = prompt;
+      let effectiveRawOptions = rawOptions;
 
-      const parsed = parseOptionsOrUnits(variant, rawOptions, proposedOptions);
+      // Targeted content fixes
+      if (ewId === 'EW864') {
+        effectivePrompt = 'I want to play ______. Choose the correct spelling:';
+      }
+      if (ewId === 'EW030' && effectiveRawOptions) {
+        effectiveRawOptions = effectiveRawOptions.replace(/\bbed\b/g, 'badd');
+      }
+      if (ewId === 'EW085' && effectiveRawOptions) {
+        effectiveRawOptions = effectiveRawOptions.replace(/\bbreath\b/g, 'breethe');
+      }
+
+      const { category, variant } = normalizeActivityMapping(activityCode, effectiveRawOptions);
+      categoriesSet.add(category);
 
       const dayAlloc = daysMap.get(day);
       if (dayAlloc) {
@@ -756,10 +1064,47 @@ export function importEnglishContent(): IngestedEnglishContent {
         ? `ENG-M${cfg.module}-${ewId}`
         : `ENG-M${cfg.module}-REV-${ewId}`;
 
+      let parsed: { options?: ActivityOption[]; units?: string[]; template?: string };
+      if (category === 'word-completion') {
+        parsed = parseWordCompletion(targetWord, effectiveRawOptions, proposedOptions, runtimeId);
+      } else {
+        parsed = parseOptionsOrUnits(variant, effectiveRawOptions);
+      }
+
       const isAnomaly = ewId in SOURCE_ANOMALIES;
 
       let options = parsed.options;
       let units = parsed.units;
+
+      // Review copies (REV): generate from the corrected original activity from origin module
+      if (role === 'review') {
+        const originMod = reviewSourceModule ?? wordOriginModuleMap.get(ewId);
+        if (originMod && moduleActivities[originMod]) {
+          const originalAct = moduleActivities[originMod].find(
+            a => a.source?.ewId === ewId && a.role === 'new'
+          );
+          if (originalAct && originalAct.category === category && originalAct.variant === variant) {
+            if (originalAct.options && originalAct.options.length > 0) {
+              options = originalAct.options.map(o => ({ ...o }));
+            }
+            if (originalAct.units && originalAct.units.length > 0) {
+              units = [...originalAct.units];
+            }
+            if (originalAct.template !== undefined) {
+              parsed.template = originalAct.template;
+            }
+          }
+        }
+      }
+
+      // Reconcile arrange-word activities:
+      // Tile labels never contain spaces and tile multiset always equals answer letters
+      if (category === 'arrange-word') {
+        const rawTileList = units || options?.map(o => o.label) || [];
+        const reconciled = reconcileArrangeTiles(rawTileList, targetWord, correctAnswer, runtimeId);
+        options = reconciled.options;
+        units = reconciled.units;
+      }
 
       // Auto-generate options when missing
       if (!options || options.length === 0) {
@@ -777,6 +1122,43 @@ export function importEnglishContent(): IngestedEnglishContent {
 
       const originModule = role === 'review' ? (reviewSourceModule ?? wordOriginModuleMap.get(ewId)) : undefined;
 
+      const finalCorrectAnswer: string | string[] = correctAnswer;
+
+      const pictureIntended = isPictureIntended(activityCode, effectivePrompt);
+      let finalPrompt = effectivePrompt;
+      let activityImage: { type: 'image'; source: string } | undefined = undefined;
+      let activityNeedsImage = false;
+
+      if (pictureIntended) {
+        const wordKey = targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-');
+        const imageExists = hasAvailableImage(ewId, targetWord, sourceImageMap);
+        if (imageExists) {
+          activityNeedsImage = true;
+          activityImage = {
+            type: 'image',
+            source: `eng-${wordKey}`
+          };
+        } else {
+          activityNeedsImage = false;
+          // Genuine picture question but has no image: remove "Look at the picture."
+          let cleaned = prompt
+            .replace(/look at the picture\.?\s*/i, '')
+            .replace(/^[\s,.-]+/, '')
+            .trim();
+          if (cleaned) {
+            cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+          }
+          finalPrompt = cleaned || prompt;
+          missingImagesList.push({
+            id: runtimeId,
+            targetWord,
+            prompt
+          });
+        }
+      } else {
+        activityNeedsImage = false;
+      }
+
       const activity: Activity = {
         id: runtimeId,
         classLevel: 3,
@@ -791,11 +1173,22 @@ export function importEnglishContent(): IngestedEnglishContent {
         targetWord,
         category,
         variant,
-        prompt,
+        prompt: finalPrompt,
         options,
         units,
-        template: parsed.template,
-        correctAnswer,
+        template: (() => {
+          if (variant === 'word-entry') return undefined;
+          if (!parsed.template) return undefined;
+          const cleaned = parsed.template
+            .replace(/\s*\|.*$/, '')
+            .replace(/\s*(?:selectable options|jumbled letter tiles|options)\s*:.*$/i, '')
+            .trim();
+          return cleaned || undefined;
+        })(),
+        correctAnswer: finalCorrectAnswer,
+        image: activityImage,
+        needsImage: activityNeedsImage,
+
         source: {
           workbook: cfg.filename,
           ewId,
@@ -872,7 +1265,8 @@ export function importEnglishContent(): IngestedEnglishContent {
     curriculumManifest,
     moduleManifests,
     moduleActivities,
-    assetRequirements
+    assetRequirements,
+    missingImagesList
   };
 }
 
@@ -920,28 +1314,7 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
   }
 
   // Scan available English source images
-  const sourceImageMap = new Map<string, string>(); // ewId -> source absolute path
-  for (let m = 1; m <= 8; m++) {
-    const modDir = path.join(ENG_IMAGES_ROOT, `Module_${m}`);
-    if (fs.existsSync(modDir)) {
-      const files = fs.readdirSync(modDir).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f));
-      // First pass: prefer _1 variants
-      for (const f of files) {
-        if (f.includes('_1.')) {
-          const m2 = f.match(/^(EW\d+)_/i);
-          if (m2) sourceImageMap.set(m2[1].toUpperCase(), path.join(modDir, f));
-        }
-      }
-      // Second pass: fallback
-      for (const f of files) {
-        const m2 = f.match(/^(EW\d+)_/i);
-        if (m2) {
-          const ewId = m2[1].toUpperCase();
-          if (!sourceImageMap.has(ewId)) sourceImageMap.set(ewId, path.join(modDir, f));
-        }
-      }
-    }
-  }
+  const sourceImageMap = scanSourceImages();
 
   // Resolve required assets
   const processedAssetIds = new Set<string>();
@@ -957,7 +1330,9 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
       } else {
         const sourcePath = sourceImageMap.get(entry.ewId);
         if (sourcePath) {
-          fs.copyFileSync(sourcePath, destPath);
+          if (!fs.existsSync(destPath)) {
+            fs.copyFileSync(sourcePath, destPath);
+          }
           manifestEntries[entry.assetId] = {
             type: 'image',
             source: 'local',
@@ -987,11 +1362,26 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
     'utf-8'
   );
 
+  // Write missing images CSV
+  const docsDir = path.resolve('docs');
+  fs.mkdirSync(docsDir, { recursive: true });
+  const csvRows = [
+    'id,targetWord,prompt',
+    ...ingested.missingImagesList.map(item => {
+      const escapedPrompt = item.prompt.includes(',') || item.prompt.includes('"') || item.prompt.includes('\n')
+        ? `"${item.prompt.replace(/"/g, '""')}"`
+        : item.prompt;
+      return `${item.id},${item.targetWord},${escapedPrompt}`;
+    })
+  ];
+  fs.writeFileSync(path.join(docsDir, 'missing-images.csv'), csvRows.join('\n') + '\n', 'utf-8');
+
   console.log(`\nSuccessfully written English content to ${OUT_DIR}`);
   console.log(`  Total Unique Words: ${ingested.curriculumManifest.totalUniqueWords}`);
   console.log(`  Total Review Instances: ${ingested.curriculumManifest.totalReviewInstances}`);
   console.log(`  Total Activities: ${ingested.curriculumManifest.totalActivities}`);
   console.log(`  Visual Asset Requirements: ${ingested.assetRequirements.length}`);
+  console.log(`  Missing Images Catalogued: ${ingested.missingImagesList.length} -> docs/missing-images.csv`);
 }
 
 // ── CLI entry point ───────────────────────────────────────────────────────────

@@ -41,15 +41,16 @@ function WordEntryOptionsMode({
   const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
 
   const hasImage =
-    activity.category === 'picture-recognition' ||
-    Boolean(activity.image) ||
-    /picture|look at the picture/i.test(activity.prompt || '');
+    activity.needsImage === true ||
+    (activity.needsImage !== false && (Boolean(activity.image) || activity.category === 'picture-recognition'));
 
   const semanticKey = activity.targetWord
     ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}`
     : (activity.source?.ewId ? `eng-${activity.source.ewId.toLowerCase()}` : 'unknown');
 
-  const assetId = activity.image?.source || semanticKey;
+  const assetId = (activity.targetWord && activity.image?.source.startsWith('eng-'))
+    ? semanticKey
+    : (activity.image?.source || semanticKey);
 
   return (
     <ActivityCard className="max-w-xl mx-auto">
@@ -172,15 +173,16 @@ function WordEntryInputMode({
 
   // Determine if this activity requires an image display
   const hasImage =
-    activity.category === 'picture-recognition' ||
-    Boolean(activity.image) ||
-    /picture|look at the picture/i.test(activity.prompt || '');
+    activity.needsImage === true ||
+    (activity.needsImage !== false && (Boolean(activity.image) || activity.category === 'picture-recognition'));
 
   const semanticKey = activity.targetWord
     ? `eng-${activity.targetWord.toLowerCase().replace(/[^a-z0-9]/g, '-')}`
     : (activity.source?.ewId ? `eng-${activity.source.ewId.toLowerCase()}` : 'unknown');
 
-  const assetId = activity.image?.source || semanticKey;
+  const assetId = (activity.targetWord && activity.image?.source.startsWith('eng-'))
+    ? semanticKey
+    : (activity.image?.source || semanticKey);
 
   return (
     <ActivityCard className="max-w-xl mx-auto">
