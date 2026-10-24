@@ -1,5 +1,6 @@
 import { Activity } from '../../types';
 import { ActivityEvaluation, ActivityEvaluator } from '../types';
+import { getGraphemes } from '../../utils/tamil';
 
 export class WordCompletionEvaluator implements ActivityEvaluator<string> {
   evaluate(activity: Activity, input: string): ActivityEvaluation {
@@ -21,9 +22,10 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
 
     // 1. Multiple-choice selection (Tamil pattern or choice-based)
     if (activity.options && activity.options.length > 0) {
-      const selectedOption = activity.options.find(
-        opt => opt.id.toLowerCase() === trimmedInput.toLowerCase() || opt.label.trim().toLowerCase() === trimmedInput.toLowerCase()
-      );
+      const selectedOption = activity.options.find(opt => opt.id === trimmedInput)
+        || activity.options.find(opt => opt.label.trim().toLowerCase() === trimmedInput.toLowerCase())
+        || activity.options.find(opt => opt.id.toLowerCase() === trimmedInput.toLowerCase());
+
       
       if (!selectedOption) {
         return {
@@ -44,16 +46,29 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
       if (activity.template && targetWord) {
         const cleanedTemplate = activity.template.replace(/[|\s]/g, '');
         const cleanedTarget = targetWord.replace(/\s+/g, '');
-        for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
-          if (cleanedTemplate[i] === '_') {
-            expectedLetters += cleanedTarget[i];
+        const locale = isEnglish ? 'en' : 'ta';
+        const tGraphemes = getGraphemes(cleanedTemplate, locale);
+        const wGraphemes = getGraphemes(cleanedTarget, locale);
+        for (let i = 0; i < tGraphemes.length && i < wGraphemes.length; i++) {
+          if (tGraphemes[i] === '_') {
+            expectedLetters += wGraphemes[i];
           }
         }
       }
       const expectedUnit = (expectedLetters || targetAns).trim().toLowerCase();
       const selectedLabel = selectedOption.label.trim().toLowerCase();
 
-      const isCorrect = selectedLabel === expectedUnit || selectedLabel === targetAns;
+      // Check if inserting selectedLabel into template completes targetWord or targetAns
+      const completedWord = (activity.template && activity.template.includes('_'))
+        ? activity.template.replace(/[|\s]/g, '').replace('_', selectedLabel).trim().toLowerCase()
+        : '';
+
+
+      const isCorrect = (
+        selectedLabel === expectedUnit ||
+        selectedLabel === targetAns ||
+        (completedWord.length > 0 && (completedWord === targetWord || completedWord === targetAns))
+      );
 
       return {
         correct: isCorrect,
@@ -72,14 +87,17 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
     const lowerInput = trimmedInput.toLowerCase();
     const targetWord = (activity.targetWord || (Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : activity.correctAnswer) || '').toLowerCase().trim();
 
-    // Extract missing letter(s) from template and targetWord
+    // Extract missing letter(s) from template and targetWord using Unicode graphemes
     let expectedLetters = '';
     if (activity.template && targetWord) {
       const cleanedTemplate = activity.template.replace(/[|\s]/g, '');
       const cleanedTarget = targetWord.replace(/\s+/g, '');
-      for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
-        if (cleanedTemplate[i] === '_') {
-          expectedLetters += cleanedTarget[i];
+      const locale = isEnglish ? 'en' : 'ta';
+      const tGraphemes = getGraphemes(cleanedTemplate, locale);
+      const wGraphemes = getGraphemes(cleanedTarget, locale);
+      for (let i = 0; i < tGraphemes.length && i < wGraphemes.length; i++) {
+        if (tGraphemes[i] === '_') {
+          expectedLetters += wGraphemes[i];
         }
       }
     }
@@ -93,6 +111,7 @@ export class WordCompletionEvaluator implements ActivityEvaluator<string> {
     const isCorrect = expectedUnit.length > 0 && lowerInput === expectedUnit;
 
     return {
+
       correct: isCorrect,
       completed: isCorrect,
       attempts: 1,

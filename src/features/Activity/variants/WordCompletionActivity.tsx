@@ -12,6 +12,7 @@ import {
   ActivityAsset, 
   useSelectableRetry 
 } from '../components';
+import { getGraphemes } from '../../../utils/tamil';
 
 export function WordCompletionActivity({ activity, state, onSubmit, onNext }: ActivityComponentProps<string>) {
   const isEnglish = activity.language?.startsWith('en') || activity.subject === 'English';
@@ -45,11 +46,12 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
   const selectedOption = options.find(o => o.id === selectedId);
 
   const assetRef = useMemo<AssetReference | null>(() => {
+    if (activity.needsImage === false) return null;
     if (activity.image?.source) {
       return { id: activity.image.source, type: 'image' };
     }
     if (isEnglish) {
-      const isPictureRequired = Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+      const isPictureRequired = Boolean(activity.image) || activity.needsImage === true;
       if (!isPictureRequired) return null;
       const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
       return { id: `eng-${wordKey}`, type: 'image' };
@@ -61,10 +63,10 @@ function WordCompletionOptionsMode({ activity, state, onSubmit, onNext, isEnglis
   }, [activity, isEnglish]);
 
   const hasImage = useMemo(() => {
-    if (!assetRef) return false;
-    if (isEnglish) return Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+    if (!assetRef || activity.needsImage === false) return false;
     return resolver.resolve(assetRef).status === 'resolved';
-  }, [assetRef, resolver, isEnglish]);
+  }, [assetRef, resolver, activity.needsImage]);
+
 
   // Normalize bracketed blanks like [____] or [blank] to [blank]
   const withNormalizedBlanks = activity.prompt.replace(/\[_+\]/g, '[blank]');
@@ -154,14 +156,17 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
 
   const targetWord = (activity.targetWord || (Array.isArray(activity.correctAnswer) ? activity.correctAnswer[0] : activity.correctAnswer) || '').toLowerCase().trim();
 
-  // Extract expected missing letter(s)
+  // Extract expected missing letter(s) using Unicode graphemes
   let expectedLetters = '';
   if (activity.template && targetWord) {
     const cleanedTemplate = activity.template.replace(/[|\s]/g, '');
     const cleanedTarget = targetWord.replace(/\s+/g, '');
-    for (let i = 0; i < cleanedTemplate.length && i < cleanedTarget.length; i++) {
-      if (cleanedTemplate[i] === '_') {
-        expectedLetters += cleanedTarget[i];
+    const locale = isEnglish ? 'en' : 'ta';
+    const tGraphemes = getGraphemes(cleanedTemplate, locale);
+    const wGraphemes = getGraphemes(cleanedTarget, locale);
+    for (let i = 0; i < tGraphemes.length && i < wGraphemes.length; i++) {
+      if (tGraphemes[i] === '_') {
+        expectedLetters += wGraphemes[i];
       }
     }
   }
@@ -201,11 +206,12 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
   const canCheck = inputValue.trim().length > 0 && !submitted && !isCompleted;
   const resolver = useMemo(() => new AssetResolver(), []);
   const inputAssetRef = useMemo<AssetReference | null>(() => {
+    if (activity.needsImage === false) return null;
     if (activity.image?.source) {
       return { id: activity.image.source, type: 'image' };
     }
     if (isEnglish) {
-      const isPictureRequired = Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+      const isPictureRequired = Boolean(activity.image) || activity.needsImage === true;
       if (!isPictureRequired) return null;
       const wordKey = activity.targetWord?.toLowerCase().replace(/[^a-z0-9]/g, '-') || activity.id.toLowerCase();
       return { id: `eng-${wordKey}`, type: 'image' };
@@ -217,10 +223,10 @@ function WordCompletionInputMode({ activity, state, onSubmit, onNext, isEnglish 
   }, [activity, isEnglish]);
 
   const hasImage = useMemo(() => {
-    if (!inputAssetRef) return false;
-    if (isEnglish) return Boolean(activity.image) || /look at the picture|picture/i.test(activity.prompt || '');
+    if (!inputAssetRef || activity.needsImage === false) return false;
     return resolver.resolve(inputAssetRef).status === 'resolved';
-  }, [inputAssetRef, resolver, isEnglish]);
+  }, [inputAssetRef, resolver, activity.needsImage]);
+
 
   return (
     <ActivityCard className="max-w-xl mx-auto">
