@@ -104,4 +104,19 @@ describe('SessionActivitySelector', () => {
     // Original array must not be altered by Fisher-Yates
     expect(original.map(a => a.id)).toEqual(mockActivities.map(a => a.id));
   });
+
+  it('preserves sequential curriculum order when module is specified', async () => {
+    mockRepo.getActivities.mockResolvedValue(mockActivities);
+
+    const config: SessionConfig = {
+      classId: '3',
+      subjectId: 'tamil',
+      category: null,
+      module: 1,
+      size: { mode: 'all' }
+    };
+
+    const selected = await selector.selectActivities(config);
+    expect(selected.map(a => a.id)).toEqual(mockActivities.map(a => a.id));
+  });
 });

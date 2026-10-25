@@ -45,15 +45,17 @@ export class SessionActivitySelector {
     }
 
 
-    // Shuffle valid activities (creates a new array)
-    const shuffled = this.shuffle(loadedActivities);
+    // For curriculum module / day sessions, preserve curriculum sequence (Position in Module / Day order).
+    // For freeform practice or category drills (no module specified), shuffle for varied practice.
+    const shouldShuffle = config.module === undefined && config.day === undefined;
+    const activities = shouldShuffle ? this.shuffle(loadedActivities) : [...loadedActivities];
 
     // Apply session size constraints
     if (config.size.mode === 'fixed') {
-      return shuffled.slice(0, config.size.count);
+      return activities.slice(0, config.size.count);
     }
     
     // mode === 'all'
-    return shuffled;
+    return activities;
   }
 }
