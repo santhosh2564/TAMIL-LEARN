@@ -1014,11 +1014,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q090",
-      "originalActivity": "English Meaning → Tamil Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "English Meaning → Tamil Word"
     },
     "metadata": {
       "positionInModule": 20,
@@ -1878,7 +1874,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0696",
       "ftsId": "FTS0696",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 37,
@@ -1891,17 +1891,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பரை"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பரம்"
+        "id": "tile-2",
+        "label": "ர"
+      },
+      {
+        "id": "tile-3",
+        "label": "ம்"
+      },
+      {
+        "id": "tile-4",
+        "label": "ப"
+      },
+      {
+        "id": "tile-5",
+        "label": "ரை"
       }
     ],
     "units": [
-      "பரை",
-      "பரம்"
+      "ப",
+      "ர",
+      "ம்",
+      "ப",
+      "ரை"
     ]
   },
   {
@@ -3214,7 +3229,7 @@
     "targetWord": "பழங்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் பொருட்களின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் பொருட்களின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழங்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for பழங்கள்",
     "source": {
@@ -3224,7 +3239,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3247,17 +3263,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழங்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "கள்"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ங்"
+      },
+      {
+        "id": "tile-4",
+        "label": "க"
+      },
+      {
+        "id": "tile-5",
+        "label": "ள்"
       }
     ],
     "units": [
-      "பழங்",
-      "கள்"
+      "ப",
+      "ழ",
+      "ங்",
+      "க",
+      "ள்"
     ],
     "image": {
       "type": "image",
@@ -3276,7 +3307,7 @@
     "targetWord": "பழச்சாறு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் பானத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் பானத்தின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழச்சாறு",
     "learningObjective": "Picture → Arrange recognition and practice for பழச்சாறு",
     "source": {
@@ -3286,7 +3317,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3309,17 +3341,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழச்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "சாறு"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ச்"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "று"
       }
     ],
     "units": [
-      "பழச்",
-      "சாறு"
+      "ப",
+      "ழ",
+      "ச்",
+      "சா",
+      "று"
     ],
     "image": {
       "type": "image",
@@ -3338,7 +3385,7 @@
     "targetWord": "பழப்பாகு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் இனிப்புப் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் இனிப்புப் பொருளின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழப்பாகு",
     "learningObjective": "Picture → Arrange recognition and practice for பழப்பாகு",
     "source": {
@@ -3348,7 +3395,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3371,17 +3419,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழப்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பாகு"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பா"
+      },
+      {
+        "id": "tile-5",
+        "label": "கு"
       }
     ],
     "units": [
-      "பழப்",
-      "பாகு"
+      "ப",
+      "ழ",
+      "ப்",
+      "பா",
+      "கு"
     ],
     "image": {
       "type": "image",
@@ -3458,14 +3521,18 @@
     "targetWord": "பாகற்காய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் காயின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் காயின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பாகற்காய்",
     "learningObjective": "Arrange Tamil Units recognition and practice for பாகற்காய்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0722",
       "ftsId": "FTS0722",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 66,
@@ -3523,11 +3590,7 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0723",
       "ftsId": "FTS0723",
-      "originalActivity": "Picture → Arrange",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Picture → Arrange"
     },
     "metadata": {
       "positionInModule": 67,
@@ -3549,16 +3612,21 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பாக்"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
+        "id": "tile-2",
+        "label": "க்"
+      },
+      {
+        "id": "tile-3",
         "label": "ஸ்"
       }
     ],
     "units": [
-      "பாக்",
+      "பா",
+      "க்",
       "ஸ்"
     ],
     "image": {
@@ -3796,7 +3864,7 @@
     "targetWord": "பாட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் குடும்ப உறவின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் குடும்ப உறவின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பாட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for பாட்டி",
     "source": {
@@ -3806,7 +3874,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3829,16 +3898,21 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பாட்"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
         "label": "டி"
       }
     ],
     "units": [
-      "பாட்",
+      "பா",
+      "ட்",
       "டி"
     ],
     "image": {
@@ -4706,7 +4780,7 @@
     "targetWord": "பார்வையாளர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நிகழ்ச்சியைப் பார்க்க வந்தவரைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நிகழ்ச்சியைப் பார்க்க வந்தவரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பார்வையாளர்",
     "learningObjective": "Picture → Arrange recognition and practice for பார்வையாளர்",
     "source": {
@@ -4716,7 +4790,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -4739,17 +4814,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பார்வை"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
-        "label": "யாளர்"
+        "id": "tile-2",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வை"
+      },
+      {
+        "id": "tile-4",
+        "label": "யா"
+      },
+      {
+        "id": "tile-5",
+        "label": "ள"
+      },
+      {
+        "id": "tile-6",
+        "label": "ர்"
       }
     ],
     "units": [
-      "பார்வை",
-      "யாளர்"
+      "பா",
+      "ர்",
+      "வை",
+      "யா",
+      "ள",
+      "ர்"
     ],
     "image": {
       "type": "image",
@@ -5841,17 +5936,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "புத்தி"
+        "id": "tile-1",
+        "label": "பு"
       },
       {
-        "id": "2",
-        "label": "சாலி"
+        "id": "tile-2",
+        "label": "த்"
+      },
+      {
+        "id": "tile-3",
+        "label": "தி"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "லி"
       }
     ],
     "units": [
-      "புத்தி",
-      "சாலி"
+      "பு",
+      "த்",
+      "தி",
+      "சா",
+      "லி"
     ],
     "image": {
       "type": "image",
@@ -6334,7 +6444,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0770",
       "ftsId": "FTS0770",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 120,
@@ -6347,17 +6461,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ப்பு"
+        "id": "tile-1",
+        "label": "பு"
       },
       {
-        "id": "2",
-        "label": "புளி"
+        "id": "tile-2",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பு"
       }
     ],
     "units": [
-      "ப்பு",
-      "புளி"
+      "பு",
+      "ளி",
+      "ப்",
+      "பு"
     ]
   },
   {
@@ -7579,7 +7703,7 @@
     "targetWord": "பெரியப்பா",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "பெரியப்பா",
     "learningObjective": "Correct Spelling recognition and practice for பெரியப்பா",
     "source": {
@@ -7589,7 +7713,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {

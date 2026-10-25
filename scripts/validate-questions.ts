@@ -120,6 +120,9 @@ export interface ValidationSummary {
   ANSWER_IN_PROMPT: string[];
   PROVENANCE_UNVERIFIED: string[];
   SYNONYM_DISTRACTOR: string[];
+  DUPLICATE_OPTIONS: string[];
+  INSTRUCTION_MISMATCH: string[];
+  TOO_FEW_TILES: string[];
 }
 
 /**
@@ -244,7 +247,22 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     ANSWER_IN_PROMPT: [],
     PROVENANCE_UNVERIFIED: [],
     SYNONYM_DISTRACTOR: [],
+    DUPLICATE_OPTIONS: [],
+    INSTRUCTION_MISMATCH: [],
+    TOO_FEW_TILES: [],
   };
+
+  const ALLOWED_TWO_TILE_WORDS = new Set([
+    'Q007',
+    'FTS0076',
+    'FTS0553',
+    'FTS0554',
+    'FTS0644',
+    'FTS0645',
+    'FTS0656',
+    'FTS0810',
+    'FTS0908'
+  ]);
 
   // Load Tamil synonyms map for SYNONYM_DISTRACTOR check
   const tamilSynonymsPath = path.resolve('docs/tamil-synonyms.csv');
@@ -586,6 +604,45 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
         }
       }
     }
+
+    // Check DUPLICATE_OPTIONS: two options with the same label after trimming, outside arrange-word
+    if (act.category !== 'arrange-word' && Array.isArray(act.options) && act.options.length > 1) {
+      const seenLabels = new Set<string>();
+      for (const opt of act.options) {
+        const label = String((opt as any).label || (opt as any).text || opt).trim();
+        if (seenLabels.has(label)) {
+          summary.DUPLICATE_OPTIONS.push(act.id);
+          console.warn(`[DUPLICATE_OPTIONS] ${act.id}: Duplicate option label '${label}'`);
+          break;
+        }
+        seenLabels.add(label);
+      }
+    }
+
+    // Check INSTRUCTION_MISMATCH: Tamil prompts saying உருவாக்கு / அமைக்கவும் / அமைத்து on non-arrange, and தேர்ந்தெடு on arrange
+    if (act.subject === 'Tamil') {
+      const p = act.prompt || '';
+      if (act.category !== 'arrange-word') {
+        if (/உருவாக்கு|அமைக்கவும்|அமைத்து/.test(p)) {
+          summary.INSTRUCTION_MISMATCH.push(act.id);
+          console.warn(`[INSTRUCTION_MISMATCH] ${act.id} (${act.category}): Non-arrange prompt contains arrange keyword: '${p}'`);
+        }
+      } else {
+        if (/தேர்ந்தெடு/.test(p)) {
+          summary.INSTRUCTION_MISMATCH.push(act.id);
+          console.warn(`[INSTRUCTION_MISMATCH] ${act.id} (${act.category}): Arrange prompt contains select keyword: '${p}'`);
+        }
+      }
+    }
+
+    // Check TOO_FEW_TILES: Tamil arrange questions with fewer than 3 tiles (failing check, except allowed 2-grapheme words)
+    if (act.subject === 'Tamil' && act.category === 'arrange-word') {
+      const tileCount = act.options?.length || act.units?.length || 0;
+      if (tileCount < 3 && !ALLOWED_TWO_TILE_WORDS.has(act.id)) {
+        summary.TOO_FEW_TILES.push(act.id);
+        console.warn(`[TOO_FEW_TILES] ${act.id}: Arrange question has fewer than 3 tiles (${tileCount} tiles)`);
+      }
+    }
   }
 
 function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): boolean {
@@ -745,7 +802,10 @@ async function main() {
     'UNLICENSED_IMAGE',
     'ANSWER_IN_PROMPT',
     'PROVENANCE_UNVERIFIED',
-    'SYNONYM_DISTRACTOR'
+    'SYNONYM_DISTRACTOR',
+    'DUPLICATE_OPTIONS',
+    'INSTRUCTION_MISMATCH',
+    'TOO_FEW_TILES'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');

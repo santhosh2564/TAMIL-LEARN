@@ -261,7 +261,7 @@
     "targetWord": "துடைக்க",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“மேசையில் உள்ள தூசியைத் துணியால் ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "“மேசையில் உள்ள தூசியைத் துணியால் [blank].” சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "துடைக்க",
     "learningObjective": "Correct Spelling recognition and practice for துடைக்க",
     "source": {
@@ -271,7 +271,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -630,17 +631,47 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "துள்ளிக்"
+        "id": "tile-1",
+        "label": "து"
       },
       {
-        "id": "2",
-        "label": "குதித்து"
+        "id": "tile-2",
+        "label": "ள்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-4",
+        "label": "க்"
+      },
+      {
+        "id": "tile-5",
+        "label": "கு"
+      },
+      {
+        "id": "tile-6",
+        "label": "தி"
+      },
+      {
+        "id": "tile-7",
+        "label": "த்"
+      },
+      {
+        "id": "tile-8",
+        "label": "து"
       }
     ],
     "units": [
-      "துள்ளிக்",
-      "குதித்து"
+      "து",
+      "ள்",
+      "ளி",
+      "க்",
+      "கு",
+      "தி",
+      "த்",
+      "து"
     ]
   },
   {
@@ -653,7 +684,7 @@
     "targetWord": "துவைக்க",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“அம்மா அழுக்கான துணிகளை ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "“அம்மா அழுக்கான துணிகளை [blank].” சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "துவைக்க",
     "learningObjective": "Correct Spelling recognition and practice for துவைக்க",
     "source": {
@@ -663,7 +694,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -704,7 +736,7 @@
     "targetWord": "தூங்கு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தூங்கு",
     "learningObjective": "Correct Spelling recognition and practice for தூங்கு",
     "source": {
@@ -714,7 +746,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -1053,7 +1086,7 @@
     "targetWord": "தெய்வம்",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "God என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "prompt": "God என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தெய்வம்",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for தெய்வம்",
     "source": {
@@ -1063,7 +1096,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -1935,11 +1969,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q073",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 39,
@@ -2032,7 +2062,7 @@
     "targetWord": "தொட்டனைத்து",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தொட்டனைத்து",
     "learningObjective": "Correct Spelling recognition and practice for தொட்டனைத்து",
     "source": {
@@ -2042,7 +2072,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -2083,14 +2114,18 @@
     "targetWord": "தொட்டாச்சிணுங்கி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள செடிக்குப் பெயர் என்ன? படத்துடன் பொருந்தும் சொல்லைத் தேர்ந்தெடுத்து எழுத்து அலகுகளை அமைக்கவும்。",
+    "prompt": "படத்தில் உள்ள செடிக்குப் பெயர் என்ன? படத்துடன் பொருந்தும் சொல்லின் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தொட்டாச்சிணுங்கி",
     "learningObjective": "Picture → Arrange recognition and practice for தொட்டாச்சிணுங்கி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0568",
       "ftsId": "FTS0568",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 42,
@@ -2152,14 +2187,19 @@
     "targetWord": "தொட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "படத்தில் உள்ள பொருளின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தொட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for தொட்டி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0569",
       "ftsId": "FTS0569",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options",
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 43,
@@ -2181,17 +2221,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்டி"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "தொ"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டி"
       }
     ],
     "units": [
-      "ட்டி",
-      "தொ"
+      "தொ",
+      "ட்",
+      "டி"
     ],
     "image": {
       "type": "image",
@@ -2217,7 +2262,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0570",
       "ftsId": "FTS0570",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 44,
@@ -2230,17 +2279,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்டு"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "தொ"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டு"
       }
     ],
     "units": [
-      "ட்டு",
-      "தொ"
+      "தொ",
+      "ட்",
+      "டு"
     ]
   },
   {
@@ -2260,7 +2314,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0571",
       "ftsId": "FTS0571",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Correct Spelling",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 45,
@@ -2286,7 +2344,7 @@
       },
       {
         "id": "D",
-        "label": "தொலைக்காச்சி"
+        "label": "தொலைகாச்சி"
       }
     ]
   },
@@ -2348,7 +2406,7 @@
     "targetWord": "தொலைந்துவிட்டால்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தொலைந்துவிட்டால்",
     "learningObjective": "Correct Spelling recognition and practice for தொலைந்துவிட்டால்",
     "source": {
@@ -2358,7 +2416,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5693,7 +5752,7 @@
     "targetWord": "நீந்து",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“Swim” என்பதைக் குறிக்கும் சொல்லின் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "prompt": "“Swim” என்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "நீந்து",
     "learningObjective": "Correct Spelling recognition and practice for நீந்து",
     "source": {
@@ -5703,7 +5762,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -6753,7 +6813,7 @@
     "targetWord": "நேர்பட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "நேர்பட",
     "learningObjective": "Arrange Tamil Units recognition and practice for நேர்பட",
     "source": {
@@ -7187,17 +7247,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வர்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பகை"
+        "id": "tile-2",
+        "label": "கை"
+      },
+      {
+        "id": "tile-3",
+        "label": "வ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "வர்",
-      "பகை"
+      "ப",
+      "கை",
+      "வ",
+      "ர்"
     ],
     "needsImage": false
   },

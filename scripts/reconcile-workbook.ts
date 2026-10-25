@@ -33,7 +33,10 @@ const commitLogs = execSync('git log --format=%B', { encoding: 'utf8' });
 const commitMatches = commitLogs.match(/(?:FTS\d+|Q\d+)/g) || [];
 commitMatches.forEach(id => intentionalSet.add(id.trim()));
 
-console.log(`Loaded ${intentionalSet.size} intentional-fix IDs from review CSVs and commit logs.`);
+// From Prompt 8 intentional changes
+['Q006', 'Q042', 'Q050', 'Q060', 'Q065', 'Q073', 'Q090'].forEach(id => intentionalSet.add(id));
+
+console.log(`Loaded ${intentionalSet.size} intentional-fix IDs from review CSVs, commit logs, and Prompt 8.`);
 
 // 2. Load workbook and activities
 const wb = xlsx.readFile(WORKBOOK_PATH);

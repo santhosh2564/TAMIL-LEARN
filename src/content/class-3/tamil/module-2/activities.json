@@ -560,7 +560,7 @@
     "targetWord": "உயர்ந்த",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "Tall / High என்பதைக் குறிக்கும் சொல்லைத் சரியாக அமைக்கவும்.",
+    "prompt": "Tall / High என்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உயர்ந்த",
     "learningObjective": "Context → Select/Drag recognition and practice for உயர்ந்த",
     "source": {
@@ -570,7 +570,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -611,7 +612,7 @@
     "targetWord": "உயர்வு",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "Rise / High status என்பதற்கான  தமிழ்ச் சொல்லைத் சரியாக அமைக்கவும்.",
+    "prompt": "Rise / High status என்பதற்கான  தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உயர்வு",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for உயர்வு",
     "source": {
@@ -621,7 +622,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3141,7 +3143,7 @@
     "targetWord": "ஏன்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "எழுத்துகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.: “நீ ______?” வரவில்லை?",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்: “நீ ______?” வரவில்லை?",
     "correctAnswer": "ஏன்",
     "learningObjective": "Context → Select/Drag recognition and practice for ஏன்",
     "source": {
@@ -3151,7 +3153,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -3411,7 +3414,7 @@
     "targetWord": "ஏறு",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "படிக்கட்டில் மேலே செல்ல : ஏ[blank].சரியான சொல்லை அமைக்கவும்",
+    "prompt": "படிக்கட்டில் மேலே செல்ல : ஏ[blank].சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஏறு",
     "learningObjective": "Missing Letter recognition and practice for ஏறு",
     "source": {
@@ -6602,7 +6605,11 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q028",
-      "originalActivity": "English Meaning → Arrange Tamil Word"
+      "originalActivity": "English Meaning → Arrange Tamil Word",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 127,
@@ -6615,17 +6622,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "தொலை"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "பேசி"
+        "id": "tile-2",
+        "label": "லை"
+      },
+      {
+        "id": "tile-3",
+        "label": "பே"
+      },
+      {
+        "id": "tile-4",
+        "label": "சி"
       }
     ],
     "units": [
-      "தொலை",
-      "பேசி"
+      "தொ",
+      "லை",
+      "பே",
+      "சி"
     ]
   },
   {
@@ -6730,17 +6747,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "கரிக்"
+        "id": "tile-1",
+        "label": "க"
       },
       {
-        "id": "2",
-        "label": "கோல்"
+        "id": "tile-2",
+        "label": "ரி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "கோ"
+      },
+      {
+        "id": "tile-5",
+        "label": "ல்"
       }
     ],
     "units": [
-      "கரிக்",
-      "கோல்"
+      "க",
+      "ரி",
+      "க்",
+      "கோ",
+      "ல்"
     ],
     "image": {
       "type": "image",

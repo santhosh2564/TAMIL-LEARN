@@ -273,7 +273,7 @@
     "targetWord": "கழுத்துப்பட்டி",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "கழுத்துப்பட்டி",
     "learningObjective": "Correct Spelling recognition and practice for கழுத்துப்பட்டி",
     "source": {
@@ -283,7 +283,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -621,7 +622,7 @@
     "targetWord": "கவிதை",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "கவிதை",
     "learningObjective": "Correct Spelling recognition and practice for கவிதை",
     "source": {
@@ -631,7 +632,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -4538,11 +4540,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q042",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 87,
@@ -5727,7 +5725,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0364",
       "ftsId": "FTS0364",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 109,
@@ -5750,17 +5752,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "லம்"
+        "id": "tile-1",
+        "label": "கோ"
       },
       {
-        "id": "2",
-        "label": "கோ"
+        "id": "tile-2",
+        "label": "ல"
+      },
+      {
+        "id": "tile-3",
+        "label": "ம்"
       }
     ],
     "units": [
-      "லம்",
-      "கோ"
+      "கோ",
+      "ல",
+      "ம்"
     ],
     "image": {
       "type": "image",
@@ -7237,11 +7244,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q050",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 136,

@@ -792,7 +792,7 @@
     "targetWord": "சிறிய",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "சிறிய",
     "learningObjective": "Context → Select/Drag recognition and practice for சிறிய",
     "source": {
@@ -802,7 +802,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -844,14 +845,18 @@
     "targetWord": "சிறுத்தை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "சிறுத்தை",
     "learningObjective": "Picture → Arrange recognition and practice for சிறுத்தை",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0414",
       "ftsId": "FTS0414",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 17,
@@ -1478,7 +1483,7 @@
       },
       {
         "id": "C",
-        "label": "தூய்மை"
+        "label": "அமைதி"
       },
       {
         "id": "D",
@@ -2446,14 +2451,18 @@
     "targetWord": "சூரியகாந்தி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் மலரின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் மலரின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "சூரியகாந்தி",
     "learningObjective": "Picture → Arrange recognition and practice for சூரியகாந்தி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0441",
       "ftsId": "FTS0441",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 47,
@@ -2770,14 +2779,18 @@
     "targetWord": "செய்தித்தாள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "செய்தித்தாள்",
     "learningObjective": "Picture → Arrange recognition and practice for செய்தித்தாள்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0446",
       "ftsId": "FTS0446",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 53,
@@ -3742,7 +3755,7 @@
     "targetWord": "சோம்பல்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "சோம்பல்",
     "learningObjective": "Correct Spelling recognition and practice for சோம்பல்",
     "source": {
@@ -3752,7 +3765,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -4061,7 +4075,7 @@
     "targetWord": "ஜவஹர்லால்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "இந்தியாவின் முதல் பிரதமரான …......... பெயரைச் சரியான சொல்லை உருவாக்க எழுத்து அலகுகளை அமைக்கவும்.",
+    "prompt": "இந்தியாவின் முதல் பிரதமரின் பெயரைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஜவஹர்லால்",
     "learningObjective": "Context → Select/Drag recognition and practice for ஜவஹர்லால்",
     "source": {
@@ -4071,7 +4085,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -4603,12 +4618,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q060",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options",
-        "prompt"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 88,
@@ -4707,7 +4717,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0479",
       "ftsId": "FTS0479",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 90,
@@ -4720,17 +4734,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மாற்றம்"
+        "id": "tile-1",
+        "label": "த"
       },
       {
-        "id": "2",
-        "label": "தடு"
+        "id": "tile-2",
+        "label": "டு"
+      },
+      {
+        "id": "tile-3",
+        "label": "மா"
+      },
+      {
+        "id": "tile-4",
+        "label": "ற்"
+      },
+      {
+        "id": "tile-5",
+        "label": "ற"
+      },
+      {
+        "id": "tile-6",
+        "label": "ம்"
       }
     ],
     "units": [
-      "மாற்றம்",
-      "தடு"
+      "த",
+      "டு",
+      "மா",
+      "ற்",
+      "ற",
+      "ம்"
     ]
   },
   {
@@ -4743,7 +4777,7 @@
     "targetWord": "தட்டு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தட்டு",
     "learningObjective": "Correct Spelling recognition and practice for தட்டு",
     "source": {
@@ -4753,7 +4787,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5760,7 +5795,7 @@
     "targetWord": "தலைநகர்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "ஒரு நாட்டின் முக்கிய நிர்வாக நகரத்தைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "ஒரு நாட்டின் முக்கிய நிர்வாக நகரத்தைக் குறிக்கும் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தலைநகர்",
     "learningObjective": "Correct Spelling recognition and practice for தலைநகர்",
     "source": {
@@ -5770,7 +5805,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -6123,11 +6159,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q065",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 117,
@@ -6534,7 +6566,7 @@
     "targetWord": "தார்ச்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கருப்பு நிறப் பசையால் தரை பூசப்பட்டு வாகனங்கள் செல்ல உறுதியாக அமைக்கப்பட்ட தரைவழிப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கருப்பு நிறப் பசையால் தரை பூசப்பட்டு வாகனங்கள் செல்ல உறுதியாக அமைக்கப்பட்ட தரைவழிப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தார்ச்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for தார்ச்சாலை",
     "source": {
@@ -6564,17 +6596,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "தார்ச்"
+        "id": "tile-1",
+        "label": "தா"
       },
       {
-        "id": "2",
-        "label": "சாலை"
+        "id": "tile-2",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ச்"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "லை"
       }
     ],
     "units": [
-      "தார்ச்",
-      "சாலை"
+      "தா",
+      "ர்",
+      "ச்",
+      "சா",
+      "லை"
     ],
     "needsImage": false
   },

@@ -3128,11 +3128,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q006",
-      "originalActivity": "Correct Spelling",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Correct Spelling"
     },
     "metadata": {
       "positionInModule": 59,
@@ -3814,7 +3810,7 @@
     "targetWord": "அழைப்பு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அழைப்பு",
     "learningObjective": "Correct Spelling recognition and practice for அழைப்பு",
     "source": {
@@ -3824,7 +3820,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5728,7 +5725,7 @@
     "targetWord": "இனிது",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "இனிது",
     "learningObjective": "Correct Spelling recognition and practice for இனிது",
     "source": {
@@ -5738,7 +5735,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5854,7 +5852,7 @@
     "targetWord": "இனிப்பு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "இனிப்பு",
     "learningObjective": "Correct Spelling recognition and practice for இனிப்பு",
     "source": {
@@ -5864,7 +5862,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -6103,12 +6102,7 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0101",
       "ftsId": "FTS0101",
-      "originalActivity": "English Meaning → Tamil Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options",
-        "prompt"
-      ]
+      "originalActivity": "English Meaning → Tamil Word"
     },
     "metadata": {
       "positionInModule": 112,
@@ -7226,7 +7220,7 @@
     "targetWord": "ஈக்கள்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஈக்கள்",
     "learningObjective": "Picture → Select recognition and practice for ஈக்கள்",
     "source": {
@@ -7236,7 +7230,8 @@
       "originalActivity": "Picture → Select",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -8657,7 +8652,7 @@
     "targetWord": "உயர்ந்த",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "Tall / High என்பதைக் குறிக்கும் சொல்லைத் சரியாக அமைக்கவும்.",
+    "prompt": "Tall / High என்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உயர்ந்த",
     "learningObjective": "Context → Select/Drag recognition and practice for உயர்ந்த",
     "source": {
@@ -8667,7 +8662,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -8708,7 +8704,7 @@
     "targetWord": "உயர்வு",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "Rise / High status என்பதற்கான  தமிழ்ச் சொல்லைத் சரியாக அமைக்கவும்.",
+    "prompt": "Rise / High status என்பதற்கான  தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "உயர்வு",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for உயர்வு",
     "source": {
@@ -8718,7 +8714,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -11238,7 +11235,7 @@
     "targetWord": "ஏன்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "எழுத்துகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.: “நீ ______?” வரவில்லை?",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்: “நீ ______?” வரவில்லை?",
     "correctAnswer": "ஏன்",
     "learningObjective": "Context → Select/Drag recognition and practice for ஏன்",
     "source": {
@@ -11248,7 +11245,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -11508,7 +11506,7 @@
     "targetWord": "ஏறு",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "படிக்கட்டில் மேலே செல்ல : ஏ[blank].சரியான சொல்லை அமைக்கவும்",
+    "prompt": "படிக்கட்டில் மேலே செல்ல : ஏ[blank].சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஏறு",
     "learningObjective": "Missing Letter recognition and practice for ஏறு",
     "source": {
@@ -14699,7 +14697,11 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q028",
-      "originalActivity": "English Meaning → Arrange Tamil Word"
+      "originalActivity": "English Meaning → Arrange Tamil Word",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 127,
@@ -14712,17 +14714,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "தொலை"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "பேசி"
+        "id": "tile-2",
+        "label": "லை"
+      },
+      {
+        "id": "tile-3",
+        "label": "பே"
+      },
+      {
+        "id": "tile-4",
+        "label": "சி"
       }
     ],
     "units": [
-      "தொலை",
-      "பேசி"
+      "தொ",
+      "லை",
+      "பே",
+      "சி"
     ]
   },
   {
@@ -14827,17 +14839,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "கரிக்"
+        "id": "tile-1",
+        "label": "க"
       },
       {
-        "id": "2",
-        "label": "கோல்"
+        "id": "tile-2",
+        "label": "ரி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "கோ"
+      },
+      {
+        "id": "tile-5",
+        "label": "ல்"
       }
     ],
     "units": [
-      "கரிக்",
-      "கோல்"
+      "க",
+      "ரி",
+      "க்",
+      "கோ",
+      "ல்"
     ],
     "image": {
       "type": "image",
@@ -16115,7 +16142,7 @@
     "targetWord": "கழுத்துப்பட்டி",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "கழுத்துப்பட்டி",
     "learningObjective": "Correct Spelling recognition and practice for கழுத்துப்பட்டி",
     "source": {
@@ -16125,7 +16152,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -16463,7 +16491,7 @@
     "targetWord": "கவிதை",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சேர்த்து சரியான சொல்லை அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "கவிதை",
     "learningObjective": "Correct Spelling recognition and practice for கவிதை",
     "source": {
@@ -16473,7 +16501,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -20380,11 +20409,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q042",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 87,
@@ -21569,7 +21594,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0364",
       "ftsId": "FTS0364",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 109,
@@ -21592,17 +21621,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "லம்"
+        "id": "tile-1",
+        "label": "கோ"
       },
       {
-        "id": "2",
-        "label": "கோ"
+        "id": "tile-2",
+        "label": "ல"
+      },
+      {
+        "id": "tile-3",
+        "label": "ம்"
       }
     ],
     "units": [
-      "லம்",
-      "கோ"
+      "கோ",
+      "ல",
+      "ம்"
     ],
     "image": {
       "type": "image",
@@ -23079,11 +23113,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q050",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 136,
@@ -24505,7 +24535,7 @@
     "targetWord": "சிறிய",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "சிறிய",
     "learningObjective": "Context → Select/Drag recognition and practice for சிறிய",
     "source": {
@@ -24515,7 +24545,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -24557,14 +24588,18 @@
     "targetWord": "சிறுத்தை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் விலங்கின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "சிறுத்தை",
     "learningObjective": "Picture → Arrange recognition and practice for சிறுத்தை",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0414",
       "ftsId": "FTS0414",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 17,
@@ -25191,7 +25226,7 @@
       },
       {
         "id": "C",
-        "label": "தூய்மை"
+        "label": "அமைதி"
       },
       {
         "id": "D",
@@ -26159,14 +26194,18 @@
     "targetWord": "சூரியகாந்தி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் மலரின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் மலரின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "சூரியகாந்தி",
     "learningObjective": "Picture → Arrange recognition and practice for சூரியகாந்தி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0441",
       "ftsId": "FTS0441",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 47,
@@ -26483,14 +26522,18 @@
     "targetWord": "செய்தித்தாள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "படத்தில் காணப்படும் பொருளின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "செய்தித்தாள்",
     "learningObjective": "Picture → Arrange recognition and practice for செய்தித்தாள்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0446",
       "ftsId": "FTS0446",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 53,
@@ -27455,7 +27498,7 @@
     "targetWord": "சோம்பல்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "சோம்பல்",
     "learningObjective": "Correct Spelling recognition and practice for சோம்பல்",
     "source": {
@@ -27465,7 +27508,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -27774,7 +27818,7 @@
     "targetWord": "ஜவஹர்லால்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "இந்தியாவின் முதல் பிரதமரான …......... பெயரைச் சரியான சொல்லை உருவாக்க எழுத்து அலகுகளை அமைக்கவும்.",
+    "prompt": "இந்தியாவின் முதல் பிரதமரின் பெயரைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஜவஹர்லால்",
     "learningObjective": "Context → Select/Drag recognition and practice for ஜவஹர்லால்",
     "source": {
@@ -27784,7 +27828,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -28316,12 +28361,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q060",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options",
-        "prompt"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 88,
@@ -28420,7 +28460,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0479",
       "ftsId": "FTS0479",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 90,
@@ -28433,17 +28477,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மாற்றம்"
+        "id": "tile-1",
+        "label": "த"
       },
       {
-        "id": "2",
-        "label": "தடு"
+        "id": "tile-2",
+        "label": "டு"
+      },
+      {
+        "id": "tile-3",
+        "label": "மா"
+      },
+      {
+        "id": "tile-4",
+        "label": "ற்"
+      },
+      {
+        "id": "tile-5",
+        "label": "ற"
+      },
+      {
+        "id": "tile-6",
+        "label": "ம்"
       }
     ],
     "units": [
-      "மாற்றம்",
-      "தடு"
+      "த",
+      "டு",
+      "மா",
+      "ற்",
+      "ற",
+      "ம்"
     ]
   },
   {
@@ -28456,7 +28520,7 @@
     "targetWord": "தட்டு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கீழே உள்ள எழுத்து அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தட்டு",
     "learningObjective": "Correct Spelling recognition and practice for தட்டு",
     "source": {
@@ -28466,7 +28530,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -29473,7 +29538,7 @@
     "targetWord": "தலைநகர்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "ஒரு நாட்டின் முக்கிய நிர்வாக நகரத்தைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "ஒரு நாட்டின் முக்கிய நிர்வாக நகரத்தைக் குறிக்கும் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தலைநகர்",
     "learningObjective": "Correct Spelling recognition and practice for தலைநகர்",
     "source": {
@@ -29483,7 +29548,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -29836,11 +29902,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q065",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 117,
@@ -30247,7 +30309,7 @@
     "targetWord": "தார்ச்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கருப்பு நிறப் பசையால் தரை பூசப்பட்டு வாகனங்கள் செல்ல உறுதியாக அமைக்கப்பட்ட தரைவழிப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கருப்பு நிறப் பசையால் தரை பூசப்பட்டு வாகனங்கள் செல்ல உறுதியாக அமைக்கப்பட்ட தரைவழிப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தார்ச்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for தார்ச்சாலை",
     "source": {
@@ -30277,17 +30339,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "தார்ச்"
+        "id": "tile-1",
+        "label": "தா"
       },
       {
-        "id": "2",
-        "label": "சாலை"
+        "id": "tile-2",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ச்"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "லை"
       }
     ],
     "units": [
-      "தார்ச்",
-      "சாலை"
+      "தா",
+      "ர்",
+      "ச்",
+      "சா",
+      "லை"
     ],
     "needsImage": false
   },
@@ -31671,7 +31748,7 @@
     "targetWord": "துடைக்க",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“மேசையில் உள்ள தூசியைத் துணியால் ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "“மேசையில் உள்ள தூசியைத் துணியால் [blank].” சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "துடைக்க",
     "learningObjective": "Correct Spelling recognition and practice for துடைக்க",
     "source": {
@@ -31681,7 +31758,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -32040,17 +32118,47 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "துள்ளிக்"
+        "id": "tile-1",
+        "label": "து"
       },
       {
-        "id": "2",
-        "label": "குதித்து"
+        "id": "tile-2",
+        "label": "ள்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-4",
+        "label": "க்"
+      },
+      {
+        "id": "tile-5",
+        "label": "கு"
+      },
+      {
+        "id": "tile-6",
+        "label": "தி"
+      },
+      {
+        "id": "tile-7",
+        "label": "த்"
+      },
+      {
+        "id": "tile-8",
+        "label": "து"
       }
     ],
     "units": [
-      "துள்ளிக்",
-      "குதித்து"
+      "து",
+      "ள்",
+      "ளி",
+      "க்",
+      "கு",
+      "தி",
+      "த்",
+      "து"
     ]
   },
   {
@@ -32063,7 +32171,7 @@
     "targetWord": "துவைக்க",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“அம்மா அழுக்கான துணிகளை ______.”சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "“அம்மா அழுக்கான துணிகளை [blank].” சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "துவைக்க",
     "learningObjective": "Correct Spelling recognition and practice for துவைக்க",
     "source": {
@@ -32073,7 +32181,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -32114,7 +32223,7 @@
     "targetWord": "தூங்கு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கொடுக்கப்பட்டுள்ள தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தூங்கு",
     "learningObjective": "Correct Spelling recognition and practice for தூங்கு",
     "source": {
@@ -32124,7 +32233,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -32463,7 +32573,7 @@
     "targetWord": "தெய்வம்",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "God என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "prompt": "God என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தெய்வம்",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for தெய்வம்",
     "source": {
@@ -32473,7 +32583,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -33345,11 +33456,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q073",
-      "originalActivity": "Context → Drag Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Context → Drag Word"
     },
     "metadata": {
       "positionInModule": 39,
@@ -33442,7 +33549,7 @@
     "targetWord": "தொட்டனைத்து",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தொட்டனைத்து",
     "learningObjective": "Correct Spelling recognition and practice for தொட்டனைத்து",
     "source": {
@@ -33452,7 +33559,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -33493,14 +33601,18 @@
     "targetWord": "தொட்டாச்சிணுங்கி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள செடிக்குப் பெயர் என்ன? படத்துடன் பொருந்தும் சொல்லைத் தேர்ந்தெடுத்து எழுத்து அலகுகளை அமைக்கவும்。",
+    "prompt": "படத்தில் உள்ள செடிக்குப் பெயர் என்ன? படத்துடன் பொருந்தும் சொல்லின் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தொட்டாச்சிணுங்கி",
     "learningObjective": "Picture → Arrange recognition and practice for தொட்டாச்சிணுங்கி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0568",
       "ftsId": "FTS0568",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 42,
@@ -33562,14 +33674,19 @@
     "targetWord": "தொட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் உள்ள பொருளின் பெயரைத் தேர்ந்தெடுத்து, அதன் தமிழ் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "படத்தில் உள்ள பொருளின் பெயரைக் குறிக்கும் எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "தொட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for தொட்டி",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0569",
       "ftsId": "FTS0569",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options",
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 43,
@@ -33591,17 +33708,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்டி"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "தொ"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டி"
       }
     ],
     "units": [
-      "ட்டி",
-      "தொ"
+      "தொ",
+      "ட்",
+      "டி"
     ],
     "image": {
       "type": "image",
@@ -33627,7 +33749,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0570",
       "ftsId": "FTS0570",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 44,
@@ -33640,17 +33766,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்டு"
+        "id": "tile-1",
+        "label": "தொ"
       },
       {
-        "id": "2",
-        "label": "தொ"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டு"
       }
     ],
     "units": [
-      "ட்டு",
-      "தொ"
+      "தொ",
+      "ட்",
+      "டு"
     ]
   },
   {
@@ -33670,7 +33801,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0571",
       "ftsId": "FTS0571",
-      "originalActivity": "Correct Spelling"
+      "originalActivity": "Correct Spelling",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 45,
@@ -33696,7 +33831,7 @@
       },
       {
         "id": "D",
-        "label": "தொலைக்காச்சி"
+        "label": "தொலைகாச்சி"
       }
     ]
   },
@@ -33758,7 +33893,7 @@
     "targetWord": "தொலைந்துவிட்டால்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்து அலகுகளைச் சரியான வரிசையில் அமைக்கவும்。",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "தொலைந்துவிட்டால்",
     "learningObjective": "Correct Spelling recognition and practice for தொலைந்துவிட்டால்",
     "source": {
@@ -33768,7 +33903,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -37103,7 +37239,7 @@
     "targetWord": "நீந்து",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "“Swim” என்பதைக் குறிக்கும் சொல்லின் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கவும்.",
+    "prompt": "“Swim” என்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "நீந்து",
     "learningObjective": "Correct Spelling recognition and practice for நீந்து",
     "source": {
@@ -37113,7 +37249,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -38163,7 +38300,7 @@
     "targetWord": "நேர்பட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "நேர்பட",
     "learningObjective": "Arrange Tamil Units recognition and practice for நேர்பட",
     "source": {
@@ -38597,17 +38734,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வர்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பகை"
+        "id": "tile-2",
+        "label": "கை"
+      },
+      {
+        "id": "tile-3",
+        "label": "வ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "வர்",
-      "பகை"
+      "ப",
+      "கை",
+      "வ",
+      "ர்"
     ],
     "needsImage": false
   },
@@ -39931,11 +40078,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q090",
-      "originalActivity": "English Meaning → Tamil Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "English Meaning → Tamil Word"
     },
     "metadata": {
       "positionInModule": 20,
@@ -40795,7 +40938,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0696",
       "ftsId": "FTS0696",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 37,
@@ -40808,17 +40955,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பரை"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பரம்"
+        "id": "tile-2",
+        "label": "ர"
+      },
+      {
+        "id": "tile-3",
+        "label": "ம்"
+      },
+      {
+        "id": "tile-4",
+        "label": "ப"
+      },
+      {
+        "id": "tile-5",
+        "label": "ரை"
       }
     ],
     "units": [
-      "பரை",
-      "பரம்"
+      "ப",
+      "ர",
+      "ம்",
+      "ப",
+      "ரை"
     ]
   },
   {
@@ -42131,7 +42293,7 @@
     "targetWord": "பழங்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் பொருட்களின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் பொருட்களின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழங்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for பழங்கள்",
     "source": {
@@ -42141,7 +42303,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -42164,17 +42327,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழங்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "கள்"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ங்"
+      },
+      {
+        "id": "tile-4",
+        "label": "க"
+      },
+      {
+        "id": "tile-5",
+        "label": "ள்"
       }
     ],
     "units": [
-      "பழங்",
-      "கள்"
+      "ப",
+      "ழ",
+      "ங்",
+      "க",
+      "ள்"
     ],
     "image": {
       "type": "image",
@@ -42193,7 +42371,7 @@
     "targetWord": "பழச்சாறு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் பானத்தின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் பானத்தின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழச்சாறு",
     "learningObjective": "Picture → Arrange recognition and practice for பழச்சாறு",
     "source": {
@@ -42203,7 +42381,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -42226,17 +42405,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழச்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "சாறு"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ச்"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "று"
       }
     ],
     "units": [
-      "பழச்",
-      "சாறு"
+      "ப",
+      "ழ",
+      "ச்",
+      "சா",
+      "று"
     ],
     "image": {
       "type": "image",
@@ -42255,7 +42449,7 @@
     "targetWord": "பழப்பாகு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் இனிப்புப் பொருளின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் இனிப்புப் பொருளின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பழப்பாகு",
     "learningObjective": "Picture → Arrange recognition and practice for பழப்பாகு",
     "source": {
@@ -42265,7 +42459,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -42288,17 +42483,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பழப்"
+        "id": "tile-1",
+        "label": "ப"
       },
       {
-        "id": "2",
-        "label": "பாகு"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பா"
+      },
+      {
+        "id": "tile-5",
+        "label": "கு"
       }
     ],
     "units": [
-      "பழப்",
-      "பாகு"
+      "ப",
+      "ழ",
+      "ப்",
+      "பா",
+      "கு"
     ],
     "image": {
       "type": "image",
@@ -42375,14 +42585,18 @@
     "targetWord": "பாகற்காய்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் காயின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் காயின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பாகற்காய்",
     "learningObjective": "Arrange Tamil Units recognition and practice for பாகற்காய்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0722",
       "ftsId": "FTS0722",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 66,
@@ -42440,11 +42654,7 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0723",
       "ftsId": "FTS0723",
-      "originalActivity": "Picture → Arrange",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Picture → Arrange"
     },
     "metadata": {
       "positionInModule": 67,
@@ -42466,16 +42676,21 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பாக்"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
+        "id": "tile-2",
+        "label": "க்"
+      },
+      {
+        "id": "tile-3",
         "label": "ஸ்"
       }
     ],
     "units": [
-      "பாக்",
+      "பா",
+      "க்",
       "ஸ்"
     ],
     "image": {
@@ -42713,7 +42928,7 @@
     "targetWord": "பாட்டி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காட்டப்படும் குடும்ப உறவின் பெயரைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் குடும்ப உறவின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பாட்டி",
     "learningObjective": "Picture → Arrange recognition and practice for பாட்டி",
     "source": {
@@ -42723,7 +42938,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -42746,16 +42962,21 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பாட்"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
         "label": "டி"
       }
     ],
     "units": [
-      "பாட்",
+      "பா",
+      "ட்",
       "டி"
     ],
     "image": {
@@ -43623,7 +43844,7 @@
     "targetWord": "பார்வையாளர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நிகழ்ச்சியைப் பார்க்க வந்தவரைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "நிகழ்ச்சியைப் பார்க்க வந்தவரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "பார்வையாளர்",
     "learningObjective": "Picture → Arrange recognition and practice for பார்வையாளர்",
     "source": {
@@ -43633,7 +43854,8 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -43656,17 +43878,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "பார்வை"
+        "id": "tile-1",
+        "label": "பா"
       },
       {
-        "id": "2",
-        "label": "யாளர்"
+        "id": "tile-2",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வை"
+      },
+      {
+        "id": "tile-4",
+        "label": "யா"
+      },
+      {
+        "id": "tile-5",
+        "label": "ள"
+      },
+      {
+        "id": "tile-6",
+        "label": "ர்"
       }
     ],
     "units": [
-      "பார்வை",
-      "யாளர்"
+      "பா",
+      "ர்",
+      "வை",
+      "யா",
+      "ள",
+      "ர்"
     ],
     "image": {
       "type": "image",
@@ -44758,17 +45000,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "புத்தி"
+        "id": "tile-1",
+        "label": "பு"
       },
       {
-        "id": "2",
-        "label": "சாலி"
+        "id": "tile-2",
+        "label": "த்"
+      },
+      {
+        "id": "tile-3",
+        "label": "தி"
+      },
+      {
+        "id": "tile-4",
+        "label": "சா"
+      },
+      {
+        "id": "tile-5",
+        "label": "லி"
       }
     ],
     "units": [
-      "புத்தி",
-      "சாலி"
+      "பு",
+      "த்",
+      "தி",
+      "சா",
+      "லி"
     ],
     "image": {
       "type": "image",
@@ -45251,7 +45508,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0770",
       "ftsId": "FTS0770",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 120,
@@ -45264,17 +45525,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ப்பு"
+        "id": "tile-1",
+        "label": "பு"
       },
       {
-        "id": "2",
-        "label": "புளி"
+        "id": "tile-2",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பு"
       }
     ],
     "units": [
-      "ப்பு",
-      "புளி"
+      "பு",
+      "ளி",
+      "ப்",
+      "பு"
     ]
   },
   {
@@ -46496,7 +46767,7 @@
     "targetWord": "பெரியப்பா",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "பெரியப்பா",
     "learningObjective": "Correct Spelling recognition and practice for பெரியப்பா",
     "source": {
@@ -46506,7 +46777,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -46847,7 +47119,7 @@
     "targetWord": "பேச்சு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கொடுக்கப்பட்ட தமிழ் அலகுகளைச் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "பேச்சு",
     "learningObjective": "Correct Spelling recognition and practice for பேச்சு",
     "source": {
@@ -46857,7 +47129,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -47346,7 +47619,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0805",
       "ftsId": "FTS0805",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 12,
@@ -47359,17 +47636,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "விழா"
+        "id": "tile-1",
+        "label": "பொ"
       },
       {
-        "id": "2",
-        "label": "பொன்"
+        "id": "tile-2",
+        "label": "ன்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வி"
+      },
+      {
+        "id": "tile-4",
+        "label": "ழா"
       }
     ],
     "units": [
-      "விழா",
-      "பொன்"
+      "பொ",
+      "ன்",
+      "வி",
+      "ழா"
     ]
   },
   {
@@ -47412,17 +47699,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மை"
+        "id": "tile-1",
+        "label": "பொ"
       },
       {
-        "id": "2",
-        "label": "பொம்"
+        "id": "tile-2",
+        "label": "ம்"
+      },
+      {
+        "id": "tile-3",
+        "label": "மை"
       }
     ],
     "units": [
-      "மை",
-      "பொம்"
+      "பொ",
+      "ம்",
+      "மை"
     ],
     "needsImage": false
   },
@@ -47669,14 +47961,18 @@
     "targetWord": "போ",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "“Go” என்பதற்கான சரியான தமிழ்ச் சொல்லை அமைக்கவும்.",
+    "prompt": "“Go” என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "போ",
     "learningObjective": "Missing Letter recognition and practice for போ",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0812",
       "ftsId": "FTS0812",
-      "originalActivity": "Missing Letter"
+      "originalActivity": "Missing Letter",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 19,
@@ -47904,17 +48200,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வை"
+        "id": "tile-1",
+        "label": "போ"
       },
       {
-        "id": "2",
-        "label": "போர்"
+        "id": "tile-2",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வை"
       }
     ],
     "units": [
-      "வை",
-      "போர்"
+      "போ",
+      "ர்",
+      "வை"
     ],
     "needsImage": false
   },
@@ -48375,7 +48676,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0824",
       "ftsId": "FTS0824",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 33,
@@ -48388,17 +48693,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "கணினி"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "மடிக்"
+        "id": "tile-2",
+        "label": "டி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "க"
+      },
+      {
+        "id": "tile-5",
+        "label": "ணி"
+      },
+      {
+        "id": "tile-6",
+        "label": "னி"
       }
     ],
     "units": [
-      "கணினி",
-      "மடிக்"
+      "ம",
+      "டி",
+      "க்",
+      "க",
+      "ணி",
+      "னி"
     ]
   },
   {
@@ -48435,17 +48760,37 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மடிக்க"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "லாம்"
+        "id": "tile-2",
+        "label": "டி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "க"
+      },
+      {
+        "id": "tile-5",
+        "label": "லா"
+      },
+      {
+        "id": "tile-6",
+        "label": "ம்"
       }
     ],
     "units": [
-      "மடிக்க",
-      "லாம்"
+      "ம",
+      "டி",
+      "க்",
+      "க",
+      "லா",
+      "ம்"
     ]
   },
   {
@@ -48468,6 +48813,7 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
+        "options",
         "prompt"
       ]
     },
@@ -48483,17 +48829,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "சாலை"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "மண்"
+        "id": "tile-2",
+        "label": "ண்"
+      },
+      {
+        "id": "tile-3",
+        "label": "சா"
+      },
+      {
+        "id": "tile-4",
+        "label": "லை"
       }
     ],
     "units": [
-      "சாலை",
-      "மண்"
+      "ம",
+      "ண்",
+      "சா",
+      "லை"
     ]
   },
   {
@@ -48513,7 +48869,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0827",
       "ftsId": "FTS0827",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 36,
@@ -48526,17 +48886,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "புழு"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "மண்"
+        "id": "tile-2",
+        "label": "ண்"
+      },
+      {
+        "id": "tile-3",
+        "label": "பு"
+      },
+      {
+        "id": "tile-4",
+        "label": "ழு"
       }
     ],
     "units": [
-      "புழு",
-      "மண்"
+      "ம",
+      "ண்",
+      "பு",
+      "ழு"
     ]
   },
   {
@@ -48746,7 +49116,7 @@
     "targetWord": "மத்து",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "சரியான எழுத்துப்பிழையற்ற சொல்லைத்  அமைக்கவும்.",
+    "prompt": "சரியான எழுத்துப்பிழையற்ற சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "மத்து",
     "learningObjective": "Correct Spelling recognition and practice for மத்து",
     "source": {
@@ -48756,7 +49126,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -48902,6 +49273,7 @@
       "originalActivity": "Picture → Arrange",
       "divergesFromWorkbook": true,
       "divergentFields": [
+        "options",
         "prompt"
       ]
     },
@@ -48917,17 +49289,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "தர்"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "மனி"
+        "id": "tile-2",
+        "label": "னி"
+      },
+      {
+        "id": "tile-3",
+        "label": "த"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "தர்",
-      "மனி"
+      "ம",
+      "னி",
+      "த",
+      "ர்"
     ]
   },
   {
@@ -49338,7 +49720,7 @@
     "targetWord": "மருத்துவர்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "சரியான எழுத்துப்பிழையற்ற சொல்லை அமைக்கவும்.",
+    "prompt": "சரியான எழுத்துப்பிழையற்ற சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "மருத்துவர்",
     "learningObjective": "Correct Spelling recognition and practice for மருத்துவர்",
     "source": {
@@ -49348,7 +49730,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -49490,7 +49873,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0844",
       "ftsId": "FTS0844",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 55,
@@ -49503,17 +49890,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ப்பு"
+        "id": "tile-1",
+        "label": "ம"
       },
       {
-        "id": "2",
-        "label": "மறு"
+        "id": "tile-2",
+        "label": "று"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பு"
       }
     ],
     "units": [
-      "ப்பு",
-      "மறு"
+      "ம",
+      "று",
+      "ப்",
+      "பு"
     ]
   },
   {
@@ -49573,7 +49970,7 @@
     "targetWord": "மறைந்திருந்தவை",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "சொல்லைச் சரியான வரிசையில் அமைக்கவும்.",
+    "prompt": "சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "மறைந்திருந்தவை",
     "learningObjective": "Correct Spelling recognition and practice for மறைந்திருந்தவை",
     "source": {
@@ -49583,7 +49980,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -50078,6 +50476,7 @@
       "originalActivity": "Missing Letter",
       "divergesFromWorkbook": true,
       "divergentFields": [
+        "options",
         "prompt"
       ]
     },
@@ -50105,7 +50504,7 @@
       },
       {
         "id": "D",
-        "label": "ல்"
+        "label": "ர்"
       }
     ],
     "template": "மா_"
@@ -50127,7 +50526,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0856",
       "ftsId": "FTS0856",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 68,
@@ -50150,17 +50553,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மாண"
+        "id": "tile-1",
+        "label": "மா"
       },
       {
-        "id": "2",
-        "label": "வர்"
+        "id": "tile-2",
+        "label": "ண"
+      },
+      {
+        "id": "tile-3",
+        "label": "வ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "மாண",
-      "வர்"
+      "மா",
+      "ண",
+      "வ",
+      "ர்"
     ],
     "image": {
       "type": "image",
@@ -50654,7 +51067,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0865",
       "ftsId": "FTS0865",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 78,
@@ -50677,17 +51094,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "டாய்"
+        "id": "tile-1",
+        "label": "மி"
       },
       {
-        "id": "2",
-        "label": "மிட்"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டா"
+      },
+      {
+        "id": "tile-4",
+        "label": "ய்"
       }
     ],
     "units": [
-      "டாய்",
-      "மிட்"
+      "மி",
+      "ட்",
+      "டா",
+      "ய்"
     ],
     "image": {
       "type": "image",
@@ -51065,14 +51492,18 @@
     "targetWord": "மீன்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "படத்திற்கான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "மீன்",
     "learningObjective": "Picture → Select recognition and practice for மீன்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0872",
       "ftsId": "FTS0872",
-      "originalActivity": "Picture → Select"
+      "originalActivity": "Picture → Select",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 86,
@@ -51135,7 +51566,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0873",
       "ftsId": "FTS0873",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 87,
@@ -51158,17 +51593,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மீன்"
+        "id": "tile-1",
+        "label": "மீ"
       },
       {
-        "id": "2",
-        "label": "கள்"
+        "id": "tile-2",
+        "label": "ன்"
+      },
+      {
+        "id": "tile-3",
+        "label": "க"
+      },
+      {
+        "id": "tile-4",
+        "label": "ள்"
       }
     ],
     "units": [
-      "மீன்",
-      "கள்"
+      "மீ",
+      "ன்",
+      "க",
+      "ள்"
     ],
     "image": {
       "type": "image",
@@ -51217,17 +51662,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மூடி"
+        "id": "tile-1",
+        "label": "மு"
       },
       {
-        "id": "2",
-        "label": "முக"
+        "id": "tile-2",
+        "label": "க"
+      },
+      {
+        "id": "tile-3",
+        "label": "மூ"
+      },
+      {
+        "id": "tile-4",
+        "label": "டி"
       }
     ],
     "units": [
-      "மூடி",
-      "முக"
+      "மு",
+      "க",
+      "மூ",
+      "டி"
     ],
     "needsImage": false
   },
@@ -51293,14 +51748,18 @@
     "targetWord": "முகம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்திற்கான சொல்லை உருவாக்கு.",
+    "prompt": "படத்திற்கான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "முகம்",
     "learningObjective": "Picture → Select recognition and practice for முகம்",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0875",
       "ftsId": "FTS0875",
-      "originalActivity": "Picture → Select"
+      "originalActivity": "Picture → Select",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 90,
@@ -51666,7 +52125,7 @@
     "targetWord": "முத்துசாமி",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "பாடலின் ஆசிரியராகக் குறிப்பிடப்பட்டவரின் பெயரைத் சரியான வரிசையில் அமைத்து சொல்லை உருவாக்கு.",
+    "prompt": "பாடலின் ஆசிரியராகக் குறிப்பிடப்பட்டவரின் பெயரைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "முத்துசாமி",
     "learningObjective": "Context → Select/Drag recognition and practice for முத்துசாமி",
     "source": {
@@ -51676,7 +52135,8 @@
       "originalActivity": "Context → Select/Drag",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -51770,7 +52230,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0883",
       "ftsId": "FTS0883",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 99,
@@ -51783,17 +52247,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "னறி"
+        "id": "tile-1",
+        "label": "மு"
       },
       {
-        "id": "2",
-        "label": "முன்"
+        "id": "tile-2",
+        "label": "ன்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ன"
+      },
+      {
+        "id": "tile-4",
+        "label": "றி"
       }
     ],
     "units": [
-      "னறி",
-      "முன்"
+      "மு",
+      "ன்",
+      "ன",
+      "றி"
     ]
   },
   {
@@ -51806,7 +52280,7 @@
     "targetWord": "முன்னேற்றம்",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "“Progress” என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "prompt": "“Progress” என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "முன்னேற்றம்",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for முன்னேற்றம்",
     "source": {
@@ -51816,7 +52290,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -51839,7 +52314,7 @@
       },
       {
         "id": "C",
-        "label": "வளர்ச்சி"
+        "label": "தயக்கம்"
       },
       {
         "id": "D",
@@ -52329,6 +52804,7 @@
       "originalActivity": "Missing Letter",
       "divergesFromWorkbook": true,
       "divergentFields": [
+        "options",
         "prompt"
       ]
     },
@@ -52356,7 +52832,7 @@
       },
       {
         "id": "D",
-        "label": "ல்"
+        "label": "ர்"
       }
     ],
     "template": "மூ_"
@@ -52615,7 +53091,7 @@
     "targetWord": "மெய்",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "“Truth” என்பதற்கான சரியான தமிழ்ச் சொல்லை உருவாக்கு.",
+    "prompt": "“Truth” என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "மெய்",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for மெய்",
     "source": {
@@ -52625,7 +53101,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -52648,11 +53125,11 @@
       },
       {
         "id": "C",
-        "label": "வாய்மை"
+        "label": "கோபம்"
       },
       {
         "id": "D",
-        "label": "உண்மை"
+        "label": "அச்சம்"
       }
     ]
   },
@@ -53842,7 +54319,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0919",
       "ftsId": "FTS0919",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 139,
@@ -53855,17 +54336,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்டு"
+        "id": "tile-1",
+        "label": "மொ"
       },
       {
-        "id": "2",
-        "label": "மொ"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "டு"
       }
     ],
     "units": [
-      "ட்டு",
-      "மொ"
+      "மொ",
+      "ட்",
+      "டு"
     ]
   },
   {
@@ -54550,7 +55036,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0931",
       "ftsId": "FTS0931",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 5,
@@ -54572,17 +55062,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ப்பு"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வகு"
+        "id": "tile-2",
+        "label": "கு"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-4",
+        "label": "பு"
       }
     ],
     "units": [
-      "ப்பு",
-      "வகு"
+      "வ",
+      "கு",
+      "ப்",
+      "பு"
     ],
     "image": {
       "type": "image",
@@ -54712,7 +55212,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0934",
       "ftsId": "FTS0934",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 8,
@@ -54725,17 +55229,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "டம்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வட்"
+        "id": "tile-2",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-3",
+        "label": "ட"
+      },
+      {
+        "id": "tile-4",
+        "label": "ம்"
       }
     ],
     "units": [
-      "டம்",
-      "வட்"
+      "வ",
+      "ட்",
+      "ட",
+      "ம்"
     ]
   },
   {
@@ -54917,17 +55431,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "கர்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வணி"
+        "id": "tile-2",
+        "label": "ணி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "கர்",
-      "வணி"
+      "வ",
+      "ணி",
+      "க",
+      "ர்"
     ],
     "needsImage": false
   },
@@ -55169,17 +55693,42 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வம்புப்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "பேச்சு"
+        "id": "tile-2",
+        "label": "ம்"
+      },
+      {
+        "id": "tile-3",
+        "label": "பு"
+      },
+      {
+        "id": "tile-4",
+        "label": "ப்"
+      },
+      {
+        "id": "tile-5",
+        "label": "பே"
+      },
+      {
+        "id": "tile-6",
+        "label": "ச்"
+      },
+      {
+        "id": "tile-7",
+        "label": "சு"
       }
     ],
     "units": [
-      "வம்புப்",
-      "பேச்சு"
+      "வ",
+      "ம்",
+      "பு",
+      "ப்",
+      "பே",
+      "ச்",
+      "சு"
     ]
   },
   {
@@ -55199,7 +55748,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0943",
       "ftsId": "FTS0943",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 18,
@@ -55212,17 +55765,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "லாறு"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வர"
+        "id": "tile-2",
+        "label": "ர"
+      },
+      {
+        "id": "tile-3",
+        "label": "லா"
+      },
+      {
+        "id": "tile-4",
+        "label": "று"
       }
     ],
     "units": [
-      "லாறு",
-      "வர"
+      "வ",
+      "ர",
+      "லா",
+      "று"
     ]
   },
   {
@@ -55480,7 +56043,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0948",
       "ftsId": "FTS0948",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 24,
@@ -55493,17 +56060,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ந்து"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வரை"
+        "id": "tile-2",
+        "label": "ரை"
+      },
+      {
+        "id": "tile-3",
+        "label": "ந்"
+      },
+      {
+        "id": "tile-4",
+        "label": "து"
       }
     ],
     "units": [
-      "ந்து",
-      "வரை"
+      "வ",
+      "ரை",
+      "ந்",
+      "து"
     ]
   },
   {
@@ -55545,17 +56122,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "படம்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வரை"
+        "id": "tile-2",
+        "label": "ரை"
+      },
+      {
+        "id": "tile-3",
+        "label": "ப"
+      },
+      {
+        "id": "tile-4",
+        "label": "ட"
+      },
+      {
+        "id": "tile-5",
+        "label": "ம்"
       }
     ],
     "units": [
-      "படம்",
-      "வரை"
+      "வ",
+      "ரை",
+      "ப",
+      "ட",
+      "ம்"
     ],
     "needsImage": false
   },
@@ -55576,7 +56168,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0950",
       "ftsId": "FTS0950",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 26,
@@ -55598,17 +56194,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மெழுகு"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வரை"
+        "id": "tile-2",
+        "label": "ரை"
+      },
+      {
+        "id": "tile-3",
+        "label": "மெ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ழு"
+      },
+      {
+        "id": "tile-5",
+        "label": "கு"
       }
     ],
     "units": [
-      "மெழுகு",
-      "வரை"
+      "வ",
+      "ரை",
+      "மெ",
+      "ழு",
+      "கு"
     ],
     "image": {
       "type": "image",
@@ -55735,7 +56346,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0953",
       "ftsId": "FTS0953",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 29,
@@ -55748,17 +56363,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ட்சி"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வற"
+        "id": "tile-2",
+        "label": "ற"
+      },
+      {
+        "id": "tile-3",
+        "label": "ட்"
+      },
+      {
+        "id": "tile-4",
+        "label": "சி"
       }
     ],
     "units": [
-      "ட்சி",
-      "வற"
+      "வ",
+      "ற",
+      "ட்",
+      "சி"
     ]
   },
   {
@@ -55871,7 +56496,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0955",
       "ftsId": "FTS0955",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 32,
@@ -55893,17 +56522,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வல்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வறு"
+        "id": "tile-2",
+        "label": "று"
+      },
+      {
+        "id": "tile-3",
+        "label": "வ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ல்"
       }
     ],
     "units": [
-      "வல்",
-      "வறு"
+      "வ",
+      "று",
+      "வ",
+      "ல்"
     ],
     "image": {
       "type": "image",
@@ -56215,7 +56854,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0962",
       "ftsId": "FTS0962",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 39,
@@ -56228,17 +56871,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "யல்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வளை"
+        "id": "tile-2",
+        "label": "ளை"
+      },
+      {
+        "id": "tile-3",
+        "label": "ய"
+      },
+      {
+        "id": "tile-4",
+        "label": "ல்"
       }
     ],
     "units": [
-      "யல்",
-      "வளை"
+      "வ",
+      "ளை",
+      "ய",
+      "ல்"
     ]
   },
   {
@@ -56405,7 +57058,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0965",
       "ftsId": "FTS0965",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 43,
@@ -56418,17 +57075,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "க்கு"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வழ"
+        "id": "tile-2",
+        "label": "ழ"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "கு"
       }
     ],
     "units": [
-      "க்கு",
-      "வழ"
+      "வ",
+      "ழ",
+      "க்",
+      "கு"
     ]
   },
   {
@@ -56642,7 +57309,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0970",
       "ftsId": "FTS0970",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 48,
@@ -56664,17 +57335,42 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மரம்"
+        "id": "tile-1",
+        "label": "வ"
       },
       {
-        "id": "2",
-        "label": "வழுக்கு"
+        "id": "tile-2",
+        "label": "ழு"
+      },
+      {
+        "id": "tile-3",
+        "label": "க்"
+      },
+      {
+        "id": "tile-4",
+        "label": "கு"
+      },
+      {
+        "id": "tile-5",
+        "label": "ம"
+      },
+      {
+        "id": "tile-6",
+        "label": "ர"
+      },
+      {
+        "id": "tile-7",
+        "label": "ம்"
       }
     ],
     "units": [
-      "மரம்",
-      "வழுக்கு"
+      "வ",
+      "ழு",
+      "க்",
+      "கு",
+      "ம",
+      "ர",
+      "ம்"
     ],
     "image": {
       "type": "image",
@@ -56953,17 +57649,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "கர்"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வாச"
+        "id": "tile-2",
+        "label": "ச"
+      },
+      {
+        "id": "tile-3",
+        "label": "க"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "கர்",
-      "வாச"
+      "வா",
+      "ச",
+      "க",
+      "ர்"
     ],
     "needsImage": false
   },
@@ -57184,7 +57890,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0979",
       "ftsId": "FTS0979",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 58,
@@ -57197,17 +57907,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "ணிகம்"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வா"
+        "id": "tile-2",
+        "label": "ணி"
+      },
+      {
+        "id": "tile-3",
+        "label": "க"
+      },
+      {
+        "id": "tile-4",
+        "label": "ம்"
       }
     ],
     "units": [
-      "ணிகம்",
-      "வா"
+      "வா",
+      "ணி",
+      "க",
+      "ம்"
     ]
   },
   {
@@ -57320,7 +58040,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0981",
       "ftsId": "FTS0981",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 61,
@@ -57342,17 +58066,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "த்து"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வா"
+        "id": "tile-2",
+        "label": "த்"
+      },
+      {
+        "id": "tile-3",
+        "label": "து"
       }
     ],
     "units": [
-      "த்து",
-      "வா"
+      "வா",
+      "த்",
+      "து"
     ],
     "image": {
       "type": "image",
@@ -57425,7 +58154,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0983",
       "ftsId": "FTS0983",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 63,
@@ -57447,17 +58180,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "னூர்தி"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வா"
+        "id": "tile-2",
+        "label": "னூ"
+      },
+      {
+        "id": "tile-3",
+        "label": "ர்"
+      },
+      {
+        "id": "tile-4",
+        "label": "தி"
       }
     ],
     "units": [
-      "னூர்தி",
-      "வா"
+      "வா",
+      "னூ",
+      "ர்",
+      "தி"
     ],
     "image": {
       "type": "image",
@@ -57593,7 +58336,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0986",
       "ftsId": "FTS0986",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 66,
@@ -57606,17 +58353,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வண்டி"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வான்"
+        "id": "tile-2",
+        "label": "ன்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ண்"
+      },
+      {
+        "id": "tile-5",
+        "label": "டி"
       }
     ],
     "units": [
-      "வண்டி",
-      "வான்"
+      "வா",
+      "ன்",
+      "வ",
+      "ண்",
+      "டி"
     ]
   },
   {
@@ -57636,7 +58398,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0987",
       "ftsId": "FTS0987",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 67,
@@ -57658,17 +58424,42 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "காவலர்"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வாயிற்"
+        "id": "tile-2",
+        "label": "யி"
+      },
+      {
+        "id": "tile-3",
+        "label": "ற்"
+      },
+      {
+        "id": "tile-4",
+        "label": "கா"
+      },
+      {
+        "id": "tile-5",
+        "label": "வ"
+      },
+      {
+        "id": "tile-6",
+        "label": "ல"
+      },
+      {
+        "id": "tile-7",
+        "label": "ர்"
       }
     ],
     "units": [
-      "காவலர்",
-      "வாயிற்"
+      "வா",
+      "யி",
+      "ற்",
+      "கா",
+      "வ",
+      "ல",
+      "ர்"
     ],
     "image": {
       "type": "image",
@@ -57887,7 +58678,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0991",
       "ftsId": "FTS0991",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 72,
@@ -57909,17 +58704,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "இதழ்"
+        "id": "tile-1",
+        "label": "வா"
       },
       {
-        "id": "2",
-        "label": "வார"
+        "id": "tile-2",
+        "label": "ர"
+      },
+      {
+        "id": "tile-3",
+        "label": "இ"
+      },
+      {
+        "id": "tile-4",
+        "label": "த"
+      },
+      {
+        "id": "tile-5",
+        "label": "ழ்"
       }
     ],
     "units": [
-      "இதழ்",
-      "வார"
+      "வா",
+      "ர",
+      "இ",
+      "த",
+      "ழ்"
     ],
     "image": {
       "type": "image",
@@ -58626,7 +59436,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1004",
       "ftsId": "FTS1004",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 86,
@@ -58639,17 +59453,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வெளி"
+        "id": "tile-1",
+        "label": "வி"
       },
       {
-        "id": "2",
-        "label": "விண்"
+        "id": "tile-2",
+        "label": "ண்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வெ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ளி"
       }
     ],
     "units": [
-      "வெளி",
-      "விண்"
+      "வி",
+      "ண்",
+      "வெ",
+      "ளி"
     ]
   },
   {
@@ -59466,14 +60290,18 @@
     "targetWord": "விளக்கு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "இருளில் ஒளி தரும் பொருளின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "prompt": "இருளில் ஒளி தரும் பொருளின் பெயரைக் குறிக்கும் எழுத்துகளைச் சரியான வரிசையில் அமைக்கவும்.",
     "correctAnswer": "விளக்கு",
     "learningObjective": "Arrange Tamil Units recognition and practice for விளக்கு",
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1018",
       "ftsId": "FTS1018",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "prompt"
+      ]
     },
     "metadata": {
       "positionInModule": 102,
@@ -60097,7 +60925,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1029",
       "ftsId": "FTS1029",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 114,
@@ -60110,17 +60942,32 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "வாதம்"
+        "id": "tile-1",
+        "label": "வீ"
       },
       {
-        "id": "2",
-        "label": "வீண்"
+        "id": "tile-2",
+        "label": "ண்"
+      },
+      {
+        "id": "tile-3",
+        "label": "வா"
+      },
+      {
+        "id": "tile-4",
+        "label": "த"
+      },
+      {
+        "id": "tile-5",
+        "label": "ம்"
       }
     ],
     "units": [
-      "வாதம்",
-      "வீண்"
+      "வீ",
+      "ண்",
+      "வா",
+      "த",
+      "ம்"
     ]
   },
   {
@@ -60306,7 +61153,7 @@
     "targetWord": "வீரர்கள்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "நாட்டுக்காகப் போரிடும் துணிச்சலான பல படைக்காவலர்களைக் குறிக்கும் சொல்லை உருவாக்குக.",
+    "prompt": "நாட்டுக்காகப் போரிடும் துணிச்சலான பல படைக்காவலர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடுக்கவும்.க.",
     "correctAnswer": "வீரர்கள்",
     "learningObjective": "Correct Spelling recognition and practice for வீரர்கள்",
     "source": {
@@ -60411,7 +61258,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1034",
       "ftsId": "FTS1034",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 120,
@@ -60424,17 +61275,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "குளி"
+        "id": "tile-1",
+        "label": "வெ"
       },
       {
-        "id": "2",
-        "label": "வெ"
+        "id": "tile-2",
+        "label": "கு"
+      },
+      {
+        "id": "tile-3",
+        "label": "ளி"
       }
     ],
     "units": [
-      "குளி",
-      "வெ"
+      "வெ",
+      "கு",
+      "ளி"
     ]
   },
   {
@@ -60495,7 +61351,7 @@
     "targetWord": "வெட்ட",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "கத்தி அல்லது கத்தரிக்கோலால் துண்டிப்பதைக் குறிக்கும் சொல்லின் சரியான எழுத்து அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கத்தி அல்லது கத்தரிக்கோலால் துண்டிப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "வெட்ட",
     "learningObjective": "Correct Spelling recognition and practice for வெட்ட",
     "source": {
@@ -60505,7 +61361,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -60670,7 +61527,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1039",
       "ftsId": "FTS1039",
-      "originalActivity": "Picture → Arrange"
+      "originalActivity": "Picture → Arrange",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 125,
@@ -60684,17 +61545,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "யூர்"
+        "id": "tile-1",
+        "label": "வெ"
       },
       {
-        "id": "2",
-        "label": "வெளி"
+        "id": "tile-2",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-3",
+        "label": "யூ"
+      },
+      {
+        "id": "tile-4",
+        "label": "ர்"
       }
     ],
     "units": [
-      "யூர்",
-      "வெளி"
+      "வெ",
+      "ளி",
+      "யூ",
+      "ர்"
     ]
   },
   {
@@ -60714,7 +61585,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1040",
       "ftsId": "FTS1040",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 126,
@@ -60727,17 +61602,22 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "யே"
+        "id": "tile-1",
+        "label": "வெ"
       },
       {
-        "id": "2",
-        "label": "வெளி"
+        "id": "tile-2",
+        "label": "ளி"
+      },
+      {
+        "id": "tile-3",
+        "label": "யே"
       }
     ],
     "units": [
-      "யே",
-      "வெளி"
+      "வெ",
+      "ளி",
+      "யே"
     ]
   },
   {
@@ -60909,7 +61789,11 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS1043",
       "ftsId": "FTS1043",
-      "originalActivity": "Arrange Tamil Units"
+      "originalActivity": "Arrange Tamil Units",
+      "divergesFromWorkbook": true,
+      "divergentFields": [
+        "options"
+      ]
     },
     "metadata": {
       "positionInModule": 130,
@@ -60922,17 +61806,27 @@
     },
     "options": [
       {
-        "id": "1",
-        "label": "மாக"
+        "id": "tile-1",
+        "label": "வே"
       },
       {
-        "id": "2",
-        "label": "வேக"
+        "id": "tile-2",
+        "label": "க"
+      },
+      {
+        "id": "tile-3",
+        "label": "மா"
+      },
+      {
+        "id": "tile-4",
+        "label": "க"
       }
     ],
     "units": [
-      "மாக",
-      "வேக"
+      "வே",
+      "க",
+      "மா",
+      "க"
     ]
   },
   {

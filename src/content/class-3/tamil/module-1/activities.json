@@ -3128,11 +3128,7 @@
     "source": {
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "Q006",
-      "originalActivity": "Correct Spelling",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options"
-      ]
+      "originalActivity": "Correct Spelling"
     },
     "metadata": {
       "positionInModule": 59,
@@ -3814,7 +3810,7 @@
     "targetWord": "அழைப்பு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அழைப்பு",
     "learningObjective": "Correct Spelling recognition and practice for அழைப்பு",
     "source": {
@@ -3824,7 +3820,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5728,7 +5725,7 @@
     "targetWord": "இனிது",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "இனிது",
     "learningObjective": "Correct Spelling recognition and practice for இனிது",
     "source": {
@@ -5738,7 +5735,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -5854,7 +5852,7 @@
     "targetWord": "இனிப்பு",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "இனிப்பு",
     "learningObjective": "Correct Spelling recognition and practice for இனிப்பு",
     "source": {
@@ -5864,7 +5862,8 @@
       "originalActivity": "Correct Spelling",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -6103,12 +6102,7 @@
       "workbook": "Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx",
       "questionId": "FTS0101",
       "ftsId": "FTS0101",
-      "originalActivity": "English Meaning → Tamil Word",
-      "divergesFromWorkbook": true,
-      "divergentFields": [
-        "options",
-        "prompt"
-      ]
+      "originalActivity": "English Meaning → Tamil Word"
     },
     "metadata": {
       "positionInModule": 112,
@@ -7226,7 +7220,7 @@
     "targetWord": "ஈக்கள்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "எழுத்துத் துண்டுகளைச் சரியாக அமைக்கவும்.",
+    "prompt": "சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "ஈக்கள்",
     "learningObjective": "Picture → Select recognition and practice for ஈக்கள்",
     "source": {
@@ -7236,7 +7230,8 @@
       "originalActivity": "Picture → Select",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
