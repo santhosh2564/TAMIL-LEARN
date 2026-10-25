@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { createRequire } from 'module';
 import {
   Activity,
   ActivityCategory,
@@ -8,10 +9,15 @@ import {
   ContentManifest
 } from '../src/types';
 
+const require = createRequire(import.meta.url);
+const xlsx = require('xlsx');
+
+const WORKBOOK_FILE = path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx');
 const SOURCE_DIR = path.resolve('tamil_json_by_module_activity');
 const INDEX_FILE = path.join(SOURCE_DIR, 'index.json');
 const OUT_DIR = path.resolve('src/content/class-3/tamil');
 const TERM1_ASSETS_FILE = path.resolve('src/content/class-3/tamil/term-1/assets.json');
+const EXISTING_ACTIVITIES_FILE = path.join(OUT_DIR, 'activities.json');
 
 interface RawRecord {
   'Target Word'?: string;
@@ -265,79 +271,100 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
 }
 
 export function importTamilContent() {
-  console.log('Loading Tamil dataset from:', SOURCE_DIR);
+  console.log('Loading Tamil dataset with main source workbook:', WORKBOOK_FILE);
 
-  // Verify index file exists
-  if (!fs.existsSync(INDEX_FILE)) {
-    throw new Error(`index.json not found at ${INDEX_FILE}`);
+  if (!fs.existsSync(WORKBOOK_FILE)) {
+    throw new Error(`Main source workbook not found at ${WORKBOOK_FILE}`);
   }
-  const moduleDirs = fs.readdirSync(SOURCE_DIR).filter(d => {
-    return fs.statSync(path.join(SOURCE_DIR, d)).isDirectory() && d.startsWith('Module_');
-  }).sort();
 
+  // Load existing activities to preserve verified prompt rewrites, distractors, and needsImage overrides
+  const existingActivitiesMap = new Map<string, Activity>();
+  if (fs.existsSync(EXISTING_ACTIVITIES_FILE)) {
+    try {
+      const existing: Activity[] = JSON.parse(fs.readFileSync(EXISTING_ACTIVITIES_FILE, 'utf8'));
+      for (const act of existing) {
+        existingActivitiesMap.set(act.id, act);
+      }
+    } catch (e) {
+      console.warn('Could not read existing activities for overrides preservation:', e);
+    }
+  }
+
+  // Load asset manifest from existing verified asset-manifest.json
+  const assetManifest: Record<string, { type: 'image' | 'audio'; source: 'local'; path: string; alt?: string; [k: string]: unknown }> = {};
+  const currentAssetManifestFile = path.join(OUT_DIR, 'asset-manifest.json');
+  if (fs.existsSync(currentAssetManifestFile)) {
+    const curManifest = JSON.parse(fs.readFileSync(currentAssetManifestFile, 'utf8'));
+    Object.assign(assetManifest, curManifest);
+  }
+
+  const wb = xlsx.readFile(WORKBOOK_FILE);
   const allActivities: Activity[] = [];
   const moduleActivitiesMap = new Map<number, Activity[]>();
-  const assetManifest: Record<string, { type: 'image' | 'audio'; source: 'local'; path: string; alt?: string }> = {};
 
-  // Also include existing term-1 assets so both new and legacy Q-assets resolve
-  if (fs.existsSync(TERM1_ASSETS_FILE)) {
-    const term1Assets = JSON.parse(fs.readFileSync(TERM1_ASSETS_FILE, 'utf8'));
-    Object.assign(assetManifest, term1Assets);
-  }
-
-  const auditCsvPath = path.resolve('docs/image-visual-audit.csv');
-  const blockedImageFiles = new Set<string>();
-  if (fs.existsSync(auditCsvPath)) {
-    const auditLines = fs.readFileSync(auditCsvPath, 'utf8').trim().split('\n').slice(1);
-    for (const line of auditLines) {
-      const match = line.match(/^"([^"]+)"/) || line.match(/^([^,]+)/);
-      if (match) {
-        blockedImageFiles.add(path.basename(match[1].trim()).toLowerCase());
-      }
+  // Process all 8 modules in strict curriculum sequence (Position in Module 1..N from workbook sheets)
+  for (let modNum = 1; modNum <= 8; modNum++) {
+    const sheetName = `Module ${modNum}`;
+    const ws = wb.Sheets[sheetName];
+    if (!ws) {
+      throw new Error(`Sheet ${sheetName} not found in workbook ${WORKBOOK_FILE}`);
     }
-  }
-
-  // 1. Pre-collect all image assets from records so manifest is complete
-  for (const modDir of moduleDirs) {
-    const files = fs.readdirSync(path.join(SOURCE_DIR, modDir)).filter(f => f.endsWith('.json')).sort();
-    for (const f of files) {
-      const fullPath = path.join(SOURCE_DIR, modDir, f);
-      const rawRecords: RawRecord[] = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-      for (const rec of rawRecords) {
-        const sourceId = rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`;
-        if (rec.image?.path) {
-          const fn = path.basename(rec.image.path).toLowerCase();
-          if (blockedImageFiles.has(fn)) continue;
-          const assetKey = `class3-tamil-picture-${sourceId.toLowerCase()}`;
-          assetManifest[assetKey] = {
-            type: 'image',
-            source: 'local',
-            path: rec.image.path,
-            alt: rec['Target Word']?.trim(),
-            ...(rec.image.creator ? { creator: rec.image.creator } : {}),
-            ...(rec.image.license ? { license: rec.image.license } : {}),
-            ...(rec.image.sourcePageUrl ? { sourcePageUrl: rec.image.sourcePageUrl } : {})
-          };
-          assetManifest[sourceId.toLowerCase()] = assetManifest[assetKey];
-        }
-      }
-    }
-  }
-
-  // 2. Normalize records with full assetManifest
-  for (const modDir of moduleDirs) {
-    const modNum = parseModuleNumber(modDir);
+    const rows: RawRecord[] = xlsx.utils.sheet_to_json(ws);
     const modActivities: Activity[] = [];
-    const files = fs.readdirSync(path.join(SOURCE_DIR, modDir)).filter(f => f.endsWith('.json')).sort();
 
-    for (const f of files) {
-      const fullPath = path.join(SOURCE_DIR, modDir, f);
-      const rawRecords: RawRecord[] = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+    for (let pos = 0; pos < rows.length; pos++) {
+      const row = rows[pos];
+      const sourceId = (row['Source ID'] || row['Question ID'] || row['FTS ID'] || `REC_${row['Master Sequence']}`) as string;
+      const existing = existingActivitiesMap.get(sourceId);
 
-      for (const rec of rawRecords) {
-        const activity = normalizeRecord(rec, assetManifest);
-        allActivities.push(activity);
-        modActivities.push(activity);
+      if (existing) {
+        // Update module & workbook metadata from current workbook sheet row
+        const updatedActivity: Activity = {
+          ...existing,
+          module: modNum,
+          source: {
+            ...existing.source,
+            workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx',
+            questionId: (row['Question ID'] || sourceId) as string,
+            ftsId: (row['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
+            originalActivity: ((row['Activity'] as string) || '').trim()
+          },
+          metadata: {
+            ...existing.metadata,
+            positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
+            masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
+            sourceBatch: row['Source Batch'] as string | undefined,
+            sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
+            sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
+            pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
+            verificationFlag: (row['Verification Flag'] ?? null) as string | null
+          }
+        };
+
+        modActivities.push(updatedActivity);
+        allActivities.push(updatedActivity);
+      } else {
+        const normalized = normalizeRecord(row, assetManifest);
+        normalized.module = modNum;
+        normalized.source = {
+          ...normalized.source,
+          workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx',
+          questionId: (row['Question ID'] || sourceId) as string,
+          ftsId: (row['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
+          originalActivity: ((row['Activity'] as string) || '').trim()
+        };
+        normalized.metadata = {
+          ...normalized.metadata,
+          positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
+          masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
+          sourceBatch: row['Source Batch'] as string | undefined,
+          sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
+          sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
+          pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
+          verificationFlag: (row['Verification Flag'] ?? null) as string | null
+        };
+        modActivities.push(normalized);
+        allActivities.push(normalized);
       }
     }
 
@@ -372,7 +399,7 @@ export function importTamilContent() {
     subject: 'Tamil',
     language: 'ta-IN',
     version: '2.0.0',
-    sourceVersion: 'Tamil Fresh Source Word List Final 1059 / Consolidated FTS Bank',
+    sourceVersion: 'Tamil Fresh Source Word List Final 1059 (Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx)',
     generatedDate: new Date().toISOString(),
     activityCount: allActivities.length,
     supportedCategories: [
@@ -418,6 +445,8 @@ export function importTamilContent() {
   return { allActivities, manifest, assetManifest };
 }
 
-if (process.argv[1]?.endsWith('import-tamil.ts')) {
+// Execute if run directly from CLI
+const isDirectRun = process.argv[1]?.replace(/\\/g, '/').endsWith('scripts/import-tamil.ts');
+if (isDirectRun) {
   importTamilContent();
 }

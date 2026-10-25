@@ -92,6 +92,8 @@ export interface Activity {
     originalActivity?: string;
     hasSourceAnomaly?: boolean;
     anomalyNote?: string;
+    divergesFromWorkbook?: boolean;
+    divergentFields?: string[];
   };
   metadata?: {
     imageMeta?: ActivityImageMeta | null;
