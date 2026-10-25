@@ -1968,7 +1968,7 @@
     "targetWord": "பயன்பாடு",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "ஒரு பொருளை எதற்குப் பயன்படுத்துகிறோம் என்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "ஒரு பொருளால் விளையும் நன்மை அல்லது தேவையை நிறைவேற்றும் செயல்திறனைத் தேர்ந்தெடு.",
     "correctAnswer": "பயன்பாடு",
     "learningObjective": "Context → Select/Drag recognition and practice for பயன்பாடு",
     "source": {
@@ -4625,7 +4625,7 @@
     "targetWord": "பல",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "ஒன்றுக்கு மேற்பட்ட பலவற்றைக் குறிக்கும் சொல்லை முடிக்கவும்: ப[blank].",
+    "prompt": "ஒன்றுக்கு மேற்பட்ட எண்ணிக்கையைக் குறிக்கும் சொல்லை முடிக்கவும்: ப[blank].",
     "correctAnswer": "பல",
     "learningObjective": "Missing Letter recognition and practice for பல",
     "source": {
@@ -5887,7 +5887,7 @@
     "targetWord": "புகைப்படம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கேமரா மூலம் எடுக்கப்படும் நிழற்படம் அல்லது படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கேமராவின் ஒளிப்பதிவு மூலம் காட்சிகளைத் தாளில் பதிவு செய்யும் நிழலுருவம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "புகைப்படம்",
     "learningObjective": "Picture → Arrange recognition and practice for புகைப்படம்",
     "source": {
@@ -6143,7 +6143,7 @@
     "targetWord": "பூங்கொத்து",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பல வண்ண மலர்களை ஒன்றாகச் சேர்த்து கட்டப்பட்ட அழகிய மலர்க்கொத்து ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பல்வேறு வண்ண மலர்களை ஒன்றாக அழகாக இணைத்துக் கட்டிய அன்பளிப்புத் தொகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூங்கொத்து",
     "learningObjective": "Picture → Arrange recognition and practice for பூங்கொத்து",
     "source": {
@@ -6330,7 +6330,7 @@
     "targetWord": "பூட்டு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கதவைப் பூட்டிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கதவை மூடிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூட்டு",
     "learningObjective": "Picture → Arrange recognition and practice for பூட்டு",
     "source": {
@@ -6453,7 +6453,7 @@
     "targetWord": "பெட்டிகள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பொருட்களை அடுக்கி வைத்துப் பாதுகாக்கப் பயன்படும் பல பெட்டிகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பொருட்களை உள்ளே அடுக்கி வைத்துப் பாதுகாக்க உதவும் பல செவ்வக வடிவக் கொள்கலன்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெட்டிகள்",
     "learningObjective": "Picture → Arrange recognition and practice for பெட்டிகள்",
     "source": {
@@ -6886,7 +6886,7 @@
     "targetWord": "பணிவுடைமை",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "மற்றவர்களிடம் பணிவுடன் நடக்கும் நற்பண்பைச் சுட்டும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "எல்லோரிடமும் அடக்கமாகவும் மரியாதையுடனும் பழகும் சிறந்த நற்பண்பைச் சுட்டும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "பணிவுடைமை",
     "learningObjective": "Picture → Select recognition and practice for பணிவுடைமை",
     "source": {
@@ -7775,7 +7775,7 @@
     "targetWord": "பை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "புத்தகங்கள் அல்லது பொருட்களை வைத்து எடுத்துச் செல்லப் பயன்படும் பை எது?",
+    "prompt": "புத்தகங்கள் அல்லது பொருட்களை உள்ளே வைத்து எடுத்துச் செல்ல உதவும் பொருள் எது?",
     "correctAnswer": "பை",
     "learningObjective": "Picture → Select recognition and practice for பை",
     "source": {

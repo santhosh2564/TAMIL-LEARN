@@ -6,7 +6,7 @@ import { LocalContentRepository } from '../src/repositories/implementations/Loca
 import { activityRegistry } from '../src/engine/ActivityRegistry';
 import { registerCoreActivities } from '../src/features/Activity/registerActivities';
 import { AssetResolver, getDefaultManifest } from '../src/engine/assets/AssetResolver';
-import { combineTamilSandhi, matchesTamilOrTarget } from '../src/utils/tamil';
+import { combineTamilSandhi, matchesTamilOrTarget, getGraphemes } from '../src/utils/tamil';
 import { Activity } from '../src/types';
 
 const require = createRequire(import.meta.url);
@@ -57,6 +57,40 @@ function hasMeaningClue(prompt: string): boolean {
   return clean.length >= 10;
 }
 
+export function tamilSubstrMatch(text: string, sub: string): boolean {
+  if (!text || !sub) return false;
+  let idx = 0;
+  while ((idx = text.indexOf(sub, idx)) !== -1) {
+    const nextChar = text[idx + sub.length];
+    // In Tamil, if followed by combining vowel sign or virama, it's not a complete grapheme boundary
+    if (nextChar && /[\u0BBE-\u0BCD\u0BD7]/.test(nextChar)) {
+      idx += 1;
+      continue;
+    }
+    return true;
+  }
+  return false;
+}
+
+export function cleanPromptForCheck(prompt: string): string {
+  return prompt
+    // remove fill-in blanks like [blank], ______, etc. and any preceding incomplete prefix like வி[blank] or வட்[blank]
+    .replace(/[^\s—–]+\[blank\]/g, '')
+    .replace(/\[blank\]/g, '')
+    .replace(/_{2,}/g, '')
+    .replace(/_[^\s]+/g, '')
+    // remove standard trailing activity boilerplate
+    .replace(/எழுத்து(?:களை| அலகுகளை)ச் சரியான வரிசையில் அமைத்துச் சொல்லை (?:உருவாக்கு|உருவாக்குக|அமைக்கவும்)\.?/g, '')
+    .replace(/சரியான சொல்லைத் தேர்ந்தெ(?:டு|டுக்கவும்)\.?/g, '')
+    .replace(/சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்\.?/g, '')
+    .replace(/சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு\.?/g, '')
+    .replace(/படத்திற்கான சொல்லை உருவாக்கு\.?/g, '')
+    .replace(/Look at the picture\.?/gi, '')
+    .replace(/Complete the word:?/gi, '')
+    .replace(/Choose the correct (?:word|spelling)\.?:?/gi, '')
+    .trim();
+}
+
 // Register core activities in the activity registry
 registerCoreActivities();
 
@@ -83,6 +117,7 @@ export interface ValidationSummary {
   MISSING_ATTRIBUTION: string[];
   BLOCKED_IMAGE: string[];
   UNLICENSED_IMAGE: string[];
+  ANSWER_IN_PROMPT: string[];
 }
 
 /**
@@ -204,6 +239,7 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     MISSING_ATTRIBUTION: [],
     BLOCKED_IMAGE: [],
     UNLICENSED_IMAGE: [],
+    ANSWER_IN_PROMPT: [],
   };
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
@@ -430,6 +466,83 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
         }
       }
     }
+
+    // Check ANSWER_IN_PROMPT: correctAnswer (or for Tamil, its stem with last 1-2 graphemes removed, or 3+ consecutive tiles joined) appears in prompt
+    const rawPrompt = act.prompt?.trim();
+    if (rawPrompt) {
+      const isTamil = act.subject === 'Tamil' || (act.language && act.language.startsWith('ta'));
+      const prompt = cleanPromptForCheck(rawPrompt);
+      if (prompt) {
+        let targetAns = (act.category === 'word-completion' ? (act.targetWord || act.correctAnswer) : (act.correctAnswer || act.targetWord));
+        if (Array.isArray(targetAns)) targetAns = targetAns[0];
+        const ans = (targetAns || '').trim();
+
+        if (ans) {
+          let hasAnswerInPrompt = false;
+
+          if (isTamil) {
+            // 1. Direct answer in prompt
+            if (tamilSubstrMatch(prompt, ans)) {
+              hasAnswerInPrompt = true;
+            } else {
+              const graphemes = getGraphemes(ans);
+
+              // 2. Stem with last 1-2 graphemes removed (stem must have >= 3 graphemes)
+              if (graphemes.length >= 4) {
+                const stem1 = graphemes.slice(0, -1).join('');
+                if (getGraphemes(stem1).length >= 3 && tamilSubstrMatch(prompt, stem1)) {
+                  hasAnswerInPrompt = true;
+                } else if (graphemes.length >= 5) {
+                  const stem2 = graphemes.slice(0, -2).join('');
+                  if (getGraphemes(stem2).length >= 3 && tamilSubstrMatch(prompt, stem2)) {
+                    hasAnswerInPrompt = true;
+                  }
+                }
+              }
+
+              // Special check for noun plural marker -ர்கள் / -கள் (e.g. மாணவர்கள் -> மாணவ)
+              if (!hasAnswerInPrompt && ans.endsWith('ர்கள்') && graphemes.length >= 4) {
+                const stemPlural = ans.slice(0, -'ர்கள்'.length);
+                if (getGraphemes(stemPlural).length >= 3 && tamilSubstrMatch(prompt, stemPlural)) {
+                  hasAnswerInPrompt = true;
+                }
+              }
+              if (!hasAnswerInPrompt && ans.endsWith('கள்') && graphemes.length >= 4) {
+                const stemPlural = ans.slice(0, -'கள்'.length);
+                if (getGraphemes(stemPlural).length >= 3 && tamilSubstrMatch(prompt, stemPlural)) {
+                  hasAnswerInPrompt = true;
+                }
+              }
+
+              // 3. 3+ consecutive tiles joined (for arrange-word questions)
+              if (!hasAnswerInPrompt && act.category === 'arrange-word') {
+                const tiles = act.units || (act.options ? act.options.map((o: any) => o.label) : []);
+                if (tiles.length >= 3) {
+                  for (let i = 0; i <= tiles.length - 3; i++) {
+                    const joined = tiles.slice(i, i + 3).join('');
+                    if (getGraphemes(joined).length >= 3 && tamilSubstrMatch(prompt, joined)) {
+                      hasAnswerInPrompt = true;
+                      break;
+                    }
+                  }
+                }
+              }
+            }
+          } else {
+            // English: whole-word case-insensitive match
+            const escaped = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`\\b${escaped}\\b`, 'i');
+            if (regex.test(prompt)) {
+              hasAnswerInPrompt = true;
+            }
+          }
+
+          if (hasAnswerInPrompt) {
+            summary.ANSWER_IN_PROMPT.push(act.id);
+          }
+        }
+      }
+    }
   }
 
 function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): boolean {
@@ -523,7 +636,8 @@ async function main() {
     'ANAGRAM_ALTERNATIVE',
     'MISSING_ATTRIBUTION',
     'BLOCKED_IMAGE',
-    'UNLICENSED_IMAGE'
+    'UNLICENSED_IMAGE',
+    'ANSWER_IN_PROMPT'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');

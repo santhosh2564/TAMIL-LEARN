@@ -3844,7 +3844,7 @@
     "targetWord": "உறவுமுறை",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "அம்மா, அப்பா, அத்தை, மாமா போன்ற குடும்ப உறவுகளை அழைக்கும் முறையை ______ என்போம்.",
+    "prompt": "அம்மா, அப்பா, அத்தை, மாமா போன்ற சுற்றத்தாரை முறைப்படி அழைக்கும் வழக்கத்தை ______ என்போம்.",
     "correctAnswer": "உறவுமுறை",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for உறவுமுறை",
     "source": {
@@ -7703,7 +7703,7 @@
     "targetWord": "கரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நமது கையின் மற்றொரு தூய தமிழ்ப் பெயர் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கையைக் குறிக்கும் மற்றொரு சொல் எது?",
     "correctAnswer": "கரம்",
     "learningObjective": "Picture → Select recognition and practice for கரம்",
     "source": {

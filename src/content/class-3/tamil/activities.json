@@ -1953,7 +1953,7 @@
     "targetWord": "இல்லை",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "ஒரு பொருள் இல்லை என்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுத்து இடத்தில் வைக்கவும்.",
+    "prompt": "ஒரு பொருள் நம்மிடம் அற்றுப்போன நிலையைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுத்து இடத்தில் வைக்கவும்.",
     "correctAnswer": "இல்லை",
     "learningObjective": "Context → Select/Drag recognition and practice for இல்லை",
     "source": {
@@ -2625,7 +2625,7 @@
     "targetWord": "அப்பா",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "அப்பாவைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "தந்தையைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அப்பா",
     "learningObjective": "Correct Spelling recognition and practice for அப்பா",
     "source": {
@@ -6851,7 +6851,7 @@
     "targetWord": "அட்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "புத்தகத்தின் தடித்த மேலட்டை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "புத்தகத்தின் தடித்த வெளி உறை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அட்டை",
     "learningObjective": "Picture → Select recognition and practice for அட்டை",
     "source": {
@@ -11905,7 +11905,7 @@
     "targetWord": "உறவுமுறை",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "அம்மா, அப்பா, அத்தை, மாமா போன்ற குடும்ப உறவுகளை அழைக்கும் முறையை ______ என்போம்.",
+    "prompt": "அம்மா, அப்பா, அத்தை, மாமா போன்ற சுற்றத்தாரை முறைப்படி அழைக்கும் வழக்கத்தை ______ என்போம்.",
     "correctAnswer": "உறவுமுறை",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for உறவுமுறை",
     "source": {
@@ -15764,7 +15764,7 @@
     "targetWord": "கரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நமது கையின் மற்றொரு தூய தமிழ்ப் பெயர் ______. சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கையைக் குறிக்கும் மற்றொரு சொல் எது?",
     "correctAnswer": "கரம்",
     "learningObjective": "Picture → Select recognition and practice for கரம்",
     "source": {
@@ -16389,7 +16389,7 @@
     "targetWord": "கேழ்வரகு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கேழ்வரகால் செய்யப்படும் உணவைப் பற்றிய சொல்லை அமைக்கவும்.",
+    "prompt": "கூழ், களி செய்யப் பயன்படும் ஊட்டச்சத்து நிறைந்த சிவப்பு நிறச் சிறுதானியப் பெயர் எது?",
     "correctAnswer": "கேழ்வரகு",
     "learningObjective": "Arrange Tamil Units recognition and practice for கேழ்வரகு",
     "source": {
@@ -18321,7 +18321,7 @@
     "targetWord": "குளிர்ந்த",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "சூடு இல்லாமல் குளிர்ச்சியாக இருப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வெப்பம் தணிந்து பனிக்கட்டி போல ஜில்லென்று இருக்கும் தன்மையைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "குளிர்ந்த",
     "learningObjective": "Correct Spelling recognition and practice for குளிர்ந்த",
     "source": {
@@ -18992,7 +18992,7 @@
     "targetWord": "கிராமசபை",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "ஒரு கிராமத்தில் உள்ள மக்கள் ஒன்றாகக் கூடி, ஊரின் தேவைகளைப் பற்றிப் பேசும் கூட்டத்தை ______ என்போம்.",
+    "prompt": "ஊராட்சிக்கு உட்பட்ட சிற்றூர் மக்கள் கூடி, ஊரின் வளர்ச்சி பற்றி முடிவெடுக்கும் கூட்டத்தை ______ என்போம்.",
     "correctAnswer": "கிராமசபை",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for கிராமசபை",
     "source": {
@@ -19568,7 +19568,7 @@
     "targetWord": "சரி",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "Correct என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "Correct என்பதற்கான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "சரி",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for சரி",
     "source": {
@@ -20335,7 +20335,7 @@
     "targetWord": "குறை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "ஒரு பொருளில் இருக்கும் குறைபாட்டைக் குறிக்கும் சொல்லை முடிக்கவும்: கு[blank].",
+    "prompt": "ஒரு பொருளில் இருக்கும் பிழையைக் குறிக்கும் சொல்லை முடிக்கவும்: கு[blank].",
     "correctAnswer": "குறை",
     "learningObjective": "Missing Letter recognition and practice for குறை",
     "source": {
@@ -25871,7 +25871,7 @@
     "targetWord": "திரை",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "திரையரங்கில் திரைப்படம் பார்க்கும்போது படம் காட்டப்படும் பெரிய வெள்ளைப் பரப்பை ______ என்போம்.",
+    "prompt": "சினிமா பார்க்கும்போது அரங்கில் படம் ஒளிபரப்பப்படும் பெரிய வெள்ளைப் பரப்பை ______ என்போம்.",
     "correctAnswer": "திரை",
     "learningObjective": "Context → Select/Drag recognition and practice for திரை",
     "source": {
@@ -28838,7 +28838,7 @@
     "targetWord": "சொல்",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "வாயால் பேசுவதைக் குறிக்கும் சொல்லை முடிக்கவும்: சொ[blank].",
+    "prompt": "வாயால் பேசுவதைக் குறிக்கும் பதத்தை முடிக்கவும்: சொ[blank].",
     "correctAnswer": "சொல்",
     "learningObjective": "Missing Letter recognition and practice for சொல்",
     "source": {
@@ -29328,7 +29328,7 @@
     "targetWord": "திற",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "கதவைத் திறக்கச் சொல்லும்போது பயன்படுத்தும் சொல்லை முடிக்கவும்: தி[blank].",
+    "prompt": "மூடிய கதவை விலக்க உதவும் சொல்லை முடிக்கவும்: தி[blank].",
     "correctAnswer": "திற",
     "learningObjective": "Missing Letter recognition and practice for திற",
     "source": {
@@ -29649,7 +29649,7 @@
     "targetWord": "செல்வர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "அதிக செல்வமும் பணமும் படைத்த பணக்காரர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நிறையப் பணமும் சொத்துகளும் கொண்ட வசதியான நபர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "செல்வர்",
     "learningObjective": "Picture → Arrange recognition and practice for செல்வர்",
     "source": {
@@ -29979,7 +29979,7 @@
     "targetWord": "தார்ச்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கருப்பு நிறத் தார் பூசி உறுதியாக அமைக்கப்பட்ட தரைவழிச் சாலை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "கருப்பு நிறப் பசையால் தரை பூசப்பட்டு வாகனங்கள் செல்ல உறுதியாக அமைக்கப்பட்ட தரைவழிப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "தார்ச்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for தார்ச்சாலை",
     "source": {
@@ -30227,7 +30227,7 @@
     "targetWord": "சிரம்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நமது தலையைக் குறிக்கும் மற்றொரு தூய தமிழ்ச் சொல் எது?",
+    "prompt": "தலையைக் குறிக்கும் மற்றொரு சொல் எது?",
     "correctAnswer": "சிரம்",
     "learningObjective": "Picture → Select recognition and practice for சிரம்",
     "source": {
@@ -30285,7 +30285,7 @@
     "targetWord": "சிறகு",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "பறவைகள் வானில் சிறகடித்துப் பறப்பதற்கு உதவும் இறக்கை உறுப்பு எது?",
+    "prompt": "பறவைகள் வானில் உயரே பறப்பதற்கு உதவும் இறக்கை உறுப்பு எது?",
     "correctAnswer": "சிறகு",
     "learningObjective": "Picture → Select recognition and practice for சிறகு",
     "source": {
@@ -30586,7 +30586,7 @@
     "targetWord": "சுழல்",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் தண்ணீர் சுற்றிச் சுழல்வதைக் காணலாம். அதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் நீர் வட்டமாக வேகமாகச் சுற்றுவதைக் காணலாம். அதற்கான சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "சுழல்",
     "learningObjective": "Picture → Select recognition and practice for சுழல்",
     "source": {
@@ -33223,7 +33223,7 @@
     "targetWord": "நேர்பட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "உண்மையை மறைக்காமல் நேர்மையாகச் செயல்படுவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "நேர்பட",
     "learningObjective": "Arrange Tamil Units recognition and practice for நேர்பட",
     "source": {
@@ -33607,7 +33607,7 @@
     "targetWord": "நண்பர்கள்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "பல நண்பர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "prompt": "நம்முடன் அன்போடு பழகும் தோழர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
     "correctAnswer": "நண்பர்கள்",
     "learningObjective": "Context → Select/Drag recognition and practice for நண்பர்கள்",
     "source": {
@@ -36826,7 +36826,7 @@
     "targetWord": "நாளை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "இன்றைக்கு அடுத்த நாளைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
+    "prompt": "இன்றைக்கு அடுத்த பொழுதைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
     "correctAnswer": "நாளை",
     "learningObjective": "Missing Letter recognition and practice for நாளை",
     "source": {
@@ -37071,7 +37071,7 @@
     "targetWord": "துருவி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பென்சிலின் முனையைச் சீவ அல்லது காய்களைத் துருவப் பயன்படும் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "தேங்காயைத் துருவப் பயன்படும் சமையலறைக் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "துருவி",
     "learningObjective": "Picture → Arrange recognition and practice for துருவி",
     "source": {
@@ -37500,7 +37500,7 @@
     "targetWord": "நீதிபதி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நீதிமன்றத்தில் வழக்குகளை விசாரித்து நேர்மையாகத் தீர்ப்பு வழங்கும் அதிகாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "வழக்குகளைச் சட்டப்படி விசாரித்து நடுநிலையோடு தீர்ப்பு வழங்கும் உயர்ந்த அலுவலர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நீதிபதி",
     "learningObjective": "Picture → Arrange recognition and practice for நீதிபதி",
     "source": {
@@ -37688,7 +37688,7 @@
     "targetWord": "நூலகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நூலகத்தில் புத்தகங்களைப் பராமரிக்கும் நபரின் பெயரை அமைக்கவும்.",
+    "prompt": "படத்தில் புத்தகங்களைப் பராமரித்து வாசகர்களுக்கு வழங்கும் பொறுப்பாளரின் பெயரை அமைக்கவும்.",
     "correctAnswer": "நூலகர்",
     "learningObjective": "Picture → Arrange recognition and practice for நூலகர்",
     "source": {
@@ -37757,7 +37757,7 @@
     "targetWord": "பகைவர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நண்பருக்கு மாறாக நம்முடன் பகையும் விரோதமும் கொண்டு செயல்படுபவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "நண்பருக்கு மாறாக நம்முடன் எதிர்ப்பும் விரோதமும் கொண்டு செயல்படும் எதிராளி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பகைவர்",
     "learningObjective": "Picture → Arrange recognition and practice for பகைவர்",
     "source": {
@@ -38616,7 +38616,7 @@
     "targetWord": "நோக்கி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் திசையை நோக்கிச் செல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் ஒரு குறிப்பிட்ட திசையை முன்னிட்டுச் செல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "நோக்கி",
     "learningObjective": "Picture → Select recognition and practice for நோக்கி",
     "source": {
@@ -40873,7 +40873,7 @@
     "targetWord": "பயன்பாடு",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "ஒரு பொருளை எதற்குப் பயன்படுத்துகிறோம் என்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "ஒரு பொருளால் விளையும் நன்மை அல்லது தேவையை நிறைவேற்றும் செயல்திறனைத் தேர்ந்தெடு.",
     "correctAnswer": "பயன்பாடு",
     "learningObjective": "Context → Select/Drag recognition and practice for பயன்பாடு",
     "source": {
@@ -43530,7 +43530,7 @@
     "targetWord": "பல",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "ஒன்றுக்கு மேற்பட்ட பலவற்றைக் குறிக்கும் சொல்லை முடிக்கவும்: ப[blank].",
+    "prompt": "ஒன்றுக்கு மேற்பட்ட எண்ணிக்கையைக் குறிக்கும் சொல்லை முடிக்கவும்: ப[blank].",
     "correctAnswer": "பல",
     "learningObjective": "Missing Letter recognition and practice for பல",
     "source": {
@@ -44792,7 +44792,7 @@
     "targetWord": "புகைப்படம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கேமரா மூலம் எடுக்கப்படும் நிழற்படம் அல்லது படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கேமராவின் ஒளிப்பதிவு மூலம் காட்சிகளைத் தாளில் பதிவு செய்யும் நிழலுருவம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "புகைப்படம்",
     "learningObjective": "Picture → Arrange recognition and practice for புகைப்படம்",
     "source": {
@@ -45048,7 +45048,7 @@
     "targetWord": "பூங்கொத்து",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பல வண்ண மலர்களை ஒன்றாகச் சேர்த்து கட்டப்பட்ட அழகிய மலர்க்கொத்து ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பல்வேறு வண்ண மலர்களை ஒன்றாக அழகாக இணைத்துக் கட்டிய அன்பளிப்புத் தொகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூங்கொத்து",
     "learningObjective": "Picture → Arrange recognition and practice for பூங்கொத்து",
     "source": {
@@ -45235,7 +45235,7 @@
     "targetWord": "பூட்டு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கதவைப் பூட்டிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கதவை மூடிப் பாதுகாக்க சாவியுடன் பயன்படும் இரும்புச் சாதனம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பூட்டு",
     "learningObjective": "Picture → Arrange recognition and practice for பூட்டு",
     "source": {
@@ -45358,7 +45358,7 @@
     "targetWord": "பெட்டிகள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பொருட்களை அடுக்கி வைத்துப் பாதுகாக்கப் பயன்படும் பல பெட்டிகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பொருட்களை உள்ளே அடுக்கி வைத்துப் பாதுகாக்க உதவும் பல செவ்வக வடிவக் கொள்கலன்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெட்டிகள்",
     "learningObjective": "Picture → Arrange recognition and practice for பெட்டிகள்",
     "source": {
@@ -45791,7 +45791,7 @@
     "targetWord": "பணிவுடைமை",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "மற்றவர்களிடம் பணிவுடன் நடக்கும் நற்பண்பைச் சுட்டும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "எல்லோரிடமும் அடக்கமாகவும் மரியாதையுடனும் பழகும் சிறந்த நற்பண்பைச் சுட்டும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "பணிவுடைமை",
     "learningObjective": "Picture → Select recognition and practice for பணிவுடைமை",
     "source": {
@@ -46680,7 +46680,7 @@
     "targetWord": "பை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "புத்தகங்கள் அல்லது பொருட்களை வைத்து எடுத்துச் செல்லப் பயன்படும் பை எது?",
+    "prompt": "புத்தகங்கள் அல்லது பொருட்களை உள்ளே வைத்து எடுத்துச் செல்ல உதவும் பொருள் எது?",
     "correctAnswer": "பை",
     "learningObjective": "Picture → Select recognition and practice for பை",
     "source": {
@@ -51554,7 +51554,7 @@
     "targetWord": "பெற்றோர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நம்மைப் பெற்றெடுத்த தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நமக்கு உயிரும் அன்பும் தந்து பேணி வளர்க்கும் தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெற்றோர்",
     "learningObjective": "Picture → Arrange recognition and practice for பெற்றோர்",
     "source": {
@@ -51795,7 +51795,7 @@
     "targetWord": "போர்வை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "குளிர்காலத்தில் இரவில் உடம்பைப் போர்த்திக் கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "குளிர்காலத்தில் இரவில் உடம்பின் மேல் மூடிக்கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "போர்வை",
     "learningObjective": "Picture → Arrange recognition and practice for போர்வை",
     "source": {
@@ -51849,7 +51849,7 @@
     "targetWord": "மண்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மண்சாலைக்கான சொல்லை உருவாக்கு.",
+    "prompt": "தார் அல்லது கற்கள் இல்லாமல் வெறும் தரையால் அமைந்த கிராமத்துப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மண்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for மண்சாலை",
     "source": {
@@ -51893,7 +51893,7 @@
     "targetWord": "மனிதர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மனிதருக்கான சொல்லை உருவாக்கு.",
+    "prompt": "சிந்தனை ஆற்றலும் பேசும் திறனும் கொண்ட மாந்தரைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மனிதர்",
     "learningObjective": "Picture → Arrange recognition and practice for மனிதர்",
     "source": {
@@ -51986,7 +51986,7 @@
     "targetWord": "மரங்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் ஒன்றுக்கு மேற்பட்ட மரங்களுக்கான சொல்லை உருவாக்கு.",
+    "prompt": "படத்தில் காணப்படும் பல பெரிய தாவரங்களை ஒன்றாகக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மரங்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for மரங்கள்",
     "source": {
@@ -52050,7 +52050,7 @@
     "targetWord": "மரத்தடி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மரத்தின் கீழ் உள்ள இடத்தைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "பெரிய தாவரத்தின் நிழல் தரும் கீழ்நிலையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மரத்தடி",
     "learningObjective": "Picture → Arrange recognition and practice for மரத்தடி",
     "source": {
@@ -52114,7 +52114,7 @@
     "targetWord": "மல்லிகை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மல்லிகைப் பூவிற்கான சொல்லை உருவாக்கு.",
+    "prompt": "நல்ல நறுமணம் தரும் வெள்ளை நிற மாலை மலரின் பெயர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மல்லிகை",
     "learningObjective": "Picture → Arrange recognition and practice for மல்லிகை",
     "source": {
@@ -52222,7 +52222,7 @@
     "targetWord": "மாணவர்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் மாணவச் செல்வங்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் பிள்ளைகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மாணவர்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for மாணவர்கள்",
     "source": {
@@ -52586,7 +52586,7 @@
     "targetWord": "முகமூடி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "முகத்தில் அணிந்து கொண்டு விளையாடும் உருவ அட்டை அல்லது மூடி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "வேடிக்கைக்காகத் தலையிலும் தோற்றத்திலும் அணிந்துகொள்ளும் உருவ அட்டை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "முகமூடி",
     "learningObjective": "Picture → Arrange recognition and practice for முகமூடி",
     "source": {
@@ -52940,7 +52940,7 @@
     "targetWord": "மைதானம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் திறந்தவெளி மைதானம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் பரந்த திறந்தவெளிப் பரப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மைதானம்",
     "learningObjective": "Picture → Arrange recognition and practice for மைதானம்",
     "source": {
@@ -53836,7 +53836,7 @@
     "targetWord": "மேடை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த மேடைத் தளம் எது?",
+    "prompt": "நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த தளம் எது?",
     "correctAnswer": "மேடை",
     "learningObjective": "Picture → Select recognition and practice for மேடை",
     "source": {
@@ -56594,7 +56594,7 @@
     "targetWord": "விளையாட்டு",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "குழந்தைகள் விதிகளுடன் ஓடி, பந்து விளையாடி மகிழும் செயலுக்கான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "குழந்தைகள் உற்சாகமாக ஓடி ஆடி மகிழும் பொழுதுபோக்கு உடற்பயிற்சிச் செயல் எது?",
     "correctAnswer": "விளையாட்டு",
     "learningObjective": "Context → Select/Drag recognition and practice for விளையாட்டு",
     "source": {
@@ -57842,7 +57842,7 @@
     "targetWord": "விழுந்தாள்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "ஒரு பெண் கீழே விழுந்ததைச் சொல்லும் சொல்லின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "prompt": "ஒரு சிறுமி தடுமாறித் தரையில் சாய்ந்ததைச் சொல்லும் சொல்லின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
     "correctAnswer": "விழுந்தாள்",
     "learningObjective": "Correct Spelling recognition and practice for விழுந்தாள்",
     "source": {
@@ -57890,7 +57890,7 @@
     "targetWord": "வீரர்கள்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "பல வீரர்களைக் குறிக்கும் சொல்லின் சரியான  வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நாட்டுக்காகப் போரிடும் துணிச்சலான பல படைக்காவலர்களைக் குறிக்கும் சொல்லை உருவாக்குக.",
     "correctAnswer": "வீரர்கள்",
     "learningObjective": "Correct Spelling recognition and practice for வீரர்கள்",
     "source": {
@@ -59604,7 +59604,7 @@
     "targetWord": "விதை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "மண்ணில் விதைக்கப்படும் சிறிய பொருளின் பெயரை முடிக்கவும்: வி[blank]",
+    "prompt": "மண்ணில் ஊன்றிச் செடி வளர்க்க உதவும் சிறிய மணியின் பெயரை முடிக்கவும்: வி[blank]",
     "correctAnswer": "விதை",
     "learningObjective": "Missing Letter recognition and practice for விதை",
     "source": {
@@ -59702,7 +59702,7 @@
     "targetWord": "விழு",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "கீழே விழுவதைக் குறிக்கும் சொல்லை முடிக்கவும்: வி_",
+    "prompt": "உயரத்திலிருந்து தரையில் சாய்வதைக் குறிக்கும் சொல்லை முடிக்கவும்: வி_",
     "correctAnswer": "விழு",
     "learningObjective": "Missing Letter recognition and practice for விழு",
     "source": {
@@ -60021,7 +60021,7 @@
     "targetWord": "வண்ணமிடப்பட்ட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "அழகிய பல வண்ணங்களால் நிறம் தீட்டப்பட்ட நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "அழகிய பல நிறங்கள் தீட்டப்பட்ட எழிலான நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வண்ணமிடப்பட்ட",
     "learningObjective": "Picture → Arrange recognition and practice for வண்ணமிடப்பட்ட",
     "source": {
@@ -60080,7 +60080,7 @@
     "targetWord": "வரைபடம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் அமைப்பைக் காட்டும் படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் இருப்பிடத்தைத் தாளில் விளக்கிக் காட்டும் வரைவு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வரைபடம்",
     "learningObjective": "Picture → Arrange recognition and practice for வரைபடம்",
     "source": {
@@ -60375,7 +60375,7 @@
     "targetWord": "வாசகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வமாக வாசிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வத்துடன் படிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வாசகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வாசகர்",
     "source": {
@@ -60547,7 +60547,7 @@
     "targetWord": "வான்கோழி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பெரிய உடலும் வண்ண விசிறி போன்ற வாலும் கொண்ட ஒரு பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கழுத்தில் சிவப்புத் தொங்கு சதை உள்ள பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வான்கோழி",
     "learningObjective": "Picture → Arrange recognition and practice for வான்கோழி",
     "source": {
@@ -60857,7 +60857,7 @@
     "targetWord": "விளையாட்டுத்திடல்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "ஓடி ஆடி பல்வேறு விளையாட்டுப் போட்டிகளை விளையாடும் பெரிய திடல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "ஓடி ஆடிப் பல்வேறு போட்டிகளை நடத்த உதவும் அகன்ற திறந்தவெளி மைதானப் பகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "விளையாட்டுத்திடல்",
     "learningObjective": "Picture → Arrange recognition and practice for விளையாட்டுத்திடல்",
     "source": {
@@ -61098,7 +61098,7 @@
     "targetWord": "வயல்வெளிகள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் வயல்வெளிகளைக் குறிக்கும் சொல்லை உருவாக்கவும்.",
+    "prompt": "படத்தில் நெல் விளையும் பசுமையான பரந்த நிலப்பரப்புகளைக் குறிக்கும் சொல்லை உருவாக்கவும்.",
     "correctAnswer": "வயல்வெளிகள்",
     "learningObjective": "Picture → Arrange recognition and practice for வயல்வெளிகள்",
     "source": {

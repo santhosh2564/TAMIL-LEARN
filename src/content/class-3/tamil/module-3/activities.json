@@ -514,7 +514,7 @@
     "targetWord": "கேழ்வரகு",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "கேழ்வரகால் செய்யப்படும் உணவைப் பற்றிய சொல்லை அமைக்கவும்.",
+    "prompt": "கூழ், களி செய்யப் பயன்படும் ஊட்டச்சத்து நிறைந்த சிவப்பு நிறச் சிறுதானியப் பெயர் எது?",
     "correctAnswer": "கேழ்வரகு",
     "learningObjective": "Arrange Tamil Units recognition and practice for கேழ்வரகு",
     "source": {
@@ -2446,7 +2446,7 @@
     "targetWord": "குளிர்ந்த",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "சூடு இல்லாமல் குளிர்ச்சியாக இருப்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வெப்பம் தணிந்து பனிக்கட்டி போல ஜில்லென்று இருக்கும் தன்மையைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "குளிர்ந்த",
     "learningObjective": "Correct Spelling recognition and practice for குளிர்ந்த",
     "source": {
@@ -3117,7 +3117,7 @@
     "targetWord": "கிராமசபை",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "ஒரு கிராமத்தில் உள்ள மக்கள் ஒன்றாகக் கூடி, ஊரின் தேவைகளைப் பற்றிப் பேசும் கூட்டத்தை ______ என்போம்.",
+    "prompt": "ஊராட்சிக்கு உட்பட்ட சிற்றூர் மக்கள் கூடி, ஊரின் வளர்ச்சி பற்றி முடிவெடுக்கும் கூட்டத்தை ______ என்போம்.",
     "correctAnswer": "கிராமசபை",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for கிராமசபை",
     "source": {
@@ -3693,7 +3693,7 @@
     "targetWord": "சரி",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "Correct என்பதற்கான சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "Correct என்பதற்கான தமிழ்ச் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "சரி",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for சரி",
     "source": {
@@ -4460,7 +4460,7 @@
     "targetWord": "குறை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "ஒரு பொருளில் இருக்கும் குறைபாட்டைக் குறிக்கும் சொல்லை முடிக்கவும்: கு[blank].",
+    "prompt": "ஒரு பொருளில் இருக்கும் பிழையைக் குறிக்கும் சொல்லை முடிக்கவும்: கு[blank].",
     "correctAnswer": "குறை",
     "learningObjective": "Missing Letter recognition and practice for குறை",
     "source": {

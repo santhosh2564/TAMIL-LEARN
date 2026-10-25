@@ -4826,7 +4826,7 @@
     "targetWord": "பெற்றோர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நம்மைப் பெற்றெடுத்த தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நமக்கு உயிரும் அன்பும் தந்து பேணி வளர்க்கும் தாய் மற்றும் தந்தையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "பெற்றோர்",
     "learningObjective": "Picture → Arrange recognition and practice for பெற்றோர்",
     "source": {
@@ -5067,7 +5067,7 @@
     "targetWord": "போர்வை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "குளிர்காலத்தில் இரவில் உடம்பைப் போர்த்திக் கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "குளிர்காலத்தில் இரவில் உடம்பின் மேல் மூடிக்கொள்ளப் பயன்படும் தடித்த துணி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "போர்வை",
     "learningObjective": "Picture → Arrange recognition and practice for போர்வை",
     "source": {
@@ -5121,7 +5121,7 @@
     "targetWord": "மண்சாலை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மண்சாலைக்கான சொல்லை உருவாக்கு.",
+    "prompt": "தார் அல்லது கற்கள் இல்லாமல் வெறும் தரையால் அமைந்த கிராமத்துப் பாதை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மண்சாலை",
     "learningObjective": "Picture → Arrange recognition and practice for மண்சாலை",
     "source": {
@@ -5165,7 +5165,7 @@
     "targetWord": "மனிதர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மனிதருக்கான சொல்லை உருவாக்கு.",
+    "prompt": "சிந்தனை ஆற்றலும் பேசும் திறனும் கொண்ட மாந்தரைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மனிதர்",
     "learningObjective": "Picture → Arrange recognition and practice for மனிதர்",
     "source": {
@@ -5258,7 +5258,7 @@
     "targetWord": "மரங்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் ஒன்றுக்கு மேற்பட்ட மரங்களுக்கான சொல்லை உருவாக்கு.",
+    "prompt": "படத்தில் காணப்படும் பல பெரிய தாவரங்களை ஒன்றாகக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மரங்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for மரங்கள்",
     "source": {
@@ -5322,7 +5322,7 @@
     "targetWord": "மரத்தடி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மரத்தின் கீழ் உள்ள இடத்தைக் குறிக்கும் சொல்லை உருவாக்கு.",
+    "prompt": "பெரிய தாவரத்தின் நிழல் தரும் கீழ்நிலையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மரத்தடி",
     "learningObjective": "Picture → Arrange recognition and practice for மரத்தடி",
     "source": {
@@ -5386,7 +5386,7 @@
     "targetWord": "மல்லிகை",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "மல்லிகைப் பூவிற்கான சொல்லை உருவாக்கு.",
+    "prompt": "நல்ல நறுமணம் தரும் வெள்ளை நிற மாலை மலரின் பெயர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மல்லிகை",
     "learningObjective": "Picture → Arrange recognition and practice for மல்லிகை",
     "source": {
@@ -5494,7 +5494,7 @@
     "targetWord": "மாணவர்கள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் மாணவச் செல்வங்கள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "பள்ளிக்கூடத்தில் ஆசிரியரிடம் பாடம் கற்கும் பிள்ளைகள் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மாணவர்கள்",
     "learningObjective": "Picture → Arrange recognition and practice for மாணவர்கள்",
     "source": {
@@ -5858,7 +5858,7 @@
     "targetWord": "முகமூடி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "முகத்தில் அணிந்து கொண்டு விளையாடும் உருவ அட்டை அல்லது மூடி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "வேடிக்கைக்காகத் தலையிலும் தோற்றத்திலும் அணிந்துகொள்ளும் உருவ அட்டை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "முகமூடி",
     "learningObjective": "Picture → Arrange recognition and practice for முகமூடி",
     "source": {
@@ -6212,7 +6212,7 @@
     "targetWord": "மைதானம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் திறந்தவெளி மைதானம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "குழந்தைகள் விளையாடவும் உடற்பயிற்சி செய்யவும் பயன்படும் பரந்த திறந்தவெளிப் பரப்பு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "மைதானம்",
     "learningObjective": "Picture → Arrange recognition and practice for மைதானம்",
     "source": {
@@ -7108,7 +7108,7 @@
     "targetWord": "மேடை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த மேடைத் தளம் எது?",
+    "prompt": "நாடகம் அல்லது பள்ளி விழாக்கள் நடத்த அமைக்கப்படும் உயர்ந்த தளம் எது?",
     "correctAnswer": "மேடை",
     "learningObjective": "Picture → Select recognition and practice for மேடை",
     "source": {

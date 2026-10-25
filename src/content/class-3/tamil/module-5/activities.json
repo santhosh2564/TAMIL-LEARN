@@ -1852,7 +1852,7 @@
     "targetWord": "நேர்பட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "உண்மையை மறைக்காமல் நேர்மையாகச் செயல்படுவதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "வளைந்து செல்லாமல் உண்மை நெறியோடு சரியாக நடப்பதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "நேர்பட",
     "learningObjective": "Arrange Tamil Units recognition and practice for நேர்பட",
     "source": {
@@ -2236,7 +2236,7 @@
     "targetWord": "நண்பர்கள்",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "பல நண்பர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
+    "prompt": "நம்முடன் அன்போடு பழகும் தோழர்களைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு。",
     "correctAnswer": "நண்பர்கள்",
     "learningObjective": "Context → Select/Drag recognition and practice for நண்பர்கள்",
     "source": {
@@ -5455,7 +5455,7 @@
     "targetWord": "நாளை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "இன்றைக்கு அடுத்த நாளைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
+    "prompt": "இன்றைக்கு அடுத்த பொழுதைக் குறிக்கும் சொல்லை முடிக்கவும்: நா[blank].",
     "correctAnswer": "நாளை",
     "learningObjective": "Missing Letter recognition and practice for நாளை",
     "source": {
@@ -5700,7 +5700,7 @@
     "targetWord": "துருவி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பென்சிலின் முனையைச் சீவ அல்லது காய்களைத் துருவப் பயன்படும் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "தேங்காயைத் துருவப் பயன்படும் சமையலறைக் கருவி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "துருவி",
     "learningObjective": "Picture → Arrange recognition and practice for துருவி",
     "source": {
@@ -6129,7 +6129,7 @@
     "targetWord": "நீதிபதி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நீதிமன்றத்தில் வழக்குகளை விசாரித்து நேர்மையாகத் தீர்ப்பு வழங்கும் அதிகாரி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "வழக்குகளைச் சட்டப்படி விசாரித்து நடுநிலையோடு தீர்ப்பு வழங்கும் உயர்ந்த அலுவலர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "நீதிபதி",
     "learningObjective": "Picture → Arrange recognition and practice for நீதிபதி",
     "source": {
@@ -6317,7 +6317,7 @@
     "targetWord": "நூலகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் நூலகத்தில் புத்தகங்களைப் பராமரிக்கும் நபரின் பெயரை அமைக்கவும்.",
+    "prompt": "படத்தில் புத்தகங்களைப் பராமரித்து வாசகர்களுக்கு வழங்கும் பொறுப்பாளரின் பெயரை அமைக்கவும்.",
     "correctAnswer": "நூலகர்",
     "learningObjective": "Picture → Arrange recognition and practice for நூலகர்",
     "source": {
@@ -6386,7 +6386,7 @@
     "targetWord": "பகைவர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நண்பருக்கு மாறாக நம்முடன் பகையும் விரோதமும் கொண்டு செயல்படுபவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
+    "prompt": "நண்பருக்கு மாறாக நம்முடன் எதிர்ப்பும் விரோதமும் கொண்டு செயல்படும் எதிராளி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை அமைக்கவும்.",
     "correctAnswer": "பகைவர்",
     "learningObjective": "Picture → Arrange recognition and practice for பகைவர்",
     "source": {
@@ -7245,7 +7245,7 @@
     "targetWord": "நோக்கி",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "படத்தில் காட்டப்படும் திசையை நோக்கிச் செல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "படத்தில் காட்டப்படும் ஒரு குறிப்பிட்ட திசையை முன்னிட்டுச் செல்வதைக் குறிக்கும் சொல்லைத் தேர்ந்தெடு.",
     "correctAnswer": "நோக்கி",
     "learningObjective": "Picture → Select recognition and practice for நோக்கி",
     "source": {

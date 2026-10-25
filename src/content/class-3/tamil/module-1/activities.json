@@ -1953,7 +1953,7 @@
     "targetWord": "இல்லை",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "ஒரு பொருள் இல்லை என்பதைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுத்து இடத்தில் வைக்கவும்.",
+    "prompt": "ஒரு பொருள் நம்மிடம் அற்றுப்போன நிலையைக் குறிக்கும் சரியான சொல்லைத் தேர்ந்தெடுத்து இடத்தில் வைக்கவும்.",
     "correctAnswer": "இல்லை",
     "learningObjective": "Context → Select/Drag recognition and practice for இல்லை",
     "source": {
@@ -2625,7 +2625,7 @@
     "targetWord": "அப்பா",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "அப்பாவைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "தந்தையைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அப்பா",
     "learningObjective": "Correct Spelling recognition and practice for அப்பா",
     "source": {
@@ -6851,7 +6851,7 @@
     "targetWord": "அட்டை",
     "category": "picture-recognition",
     "variant": "select",
-    "prompt": "புத்தகத்தின் தடித்த மேலட்டை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
+    "prompt": "புத்தகத்தின் தடித்த வெளி உறை அல்லது இரத்தத்தை உறிஞ்சும் சிறிய உயிரி ______. சரியான சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "அட்டை",
     "learningObjective": "Picture → Select recognition and practice for அட்டை",
     "source": {

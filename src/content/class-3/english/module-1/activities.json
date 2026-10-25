@@ -4781,7 +4781,7 @@
     "targetWord": "clock",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "Look at the clock. Complete the word:",
+    "prompt": "It hangs on a wall and shows the time. Complete the word:",
     "options": [
       {
         "id": "A",

@@ -2338,7 +2338,7 @@
     "targetWord": "விளையாட்டு",
     "category": "context-choice",
     "variant": "fill-blank",
-    "prompt": "குழந்தைகள் விதிகளுடன் ஓடி, பந்து விளையாடி மகிழும் செயலுக்கான சொல்லைத் தேர்ந்தெடு.",
+    "prompt": "குழந்தைகள் உற்சாகமாக ஓடி ஆடி மகிழும் பொழுதுபோக்கு உடற்பயிற்சிச் செயல் எது?",
     "correctAnswer": "விளையாட்டு",
     "learningObjective": "Context → Select/Drag recognition and practice for விளையாட்டு",
     "source": {
@@ -3586,7 +3586,7 @@
     "targetWord": "விழுந்தாள்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "ஒரு பெண் கீழே விழுந்ததைச் சொல்லும் சொல்லின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
+    "prompt": "ஒரு சிறுமி தடுமாறித் தரையில் சாய்ந்ததைச் சொல்லும் சொல்லின் சரியான எழுத்து வடிவத்தைத் தேர்ந்தெடு.",
     "correctAnswer": "விழுந்தாள்",
     "learningObjective": "Correct Spelling recognition and practice for விழுந்தாள்",
     "source": {
@@ -3634,7 +3634,7 @@
     "targetWord": "வீரர்கள்",
     "category": "spelling-choice",
     "variant": "select",
-    "prompt": "பல வீரர்களைக் குறிக்கும் சொல்லின் சரியான  வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நாட்டுக்காகப் போரிடும் துணிச்சலான பல படைக்காவலர்களைக் குறிக்கும் சொல்லை உருவாக்குக.",
     "correctAnswer": "வீரர்கள்",
     "learningObjective": "Correct Spelling recognition and practice for வீரர்கள்",
     "source": {
@@ -5348,7 +5348,7 @@
     "targetWord": "விதை",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "மண்ணில் விதைக்கப்படும் சிறிய பொருளின் பெயரை முடிக்கவும்: வி[blank]",
+    "prompt": "மண்ணில் ஊன்றிச் செடி வளர்க்க உதவும் சிறிய மணியின் பெயரை முடிக்கவும்: வி[blank]",
     "correctAnswer": "விதை",
     "learningObjective": "Missing Letter recognition and practice for விதை",
     "source": {
@@ -5446,7 +5446,7 @@
     "targetWord": "விழு",
     "category": "word-completion",
     "variant": "missing-unit",
-    "prompt": "கீழே விழுவதைக் குறிக்கும் சொல்லை முடிக்கவும்: வி_",
+    "prompt": "உயரத்திலிருந்து தரையில் சாய்வதைக் குறிக்கும் சொல்லை முடிக்கவும்: வி_",
     "correctAnswer": "விழு",
     "learningObjective": "Missing Letter recognition and practice for விழு",
     "source": {
@@ -5765,7 +5765,7 @@
     "targetWord": "வண்ணமிடப்பட்ட",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "அழகிய பல வண்ணங்களால் நிறம் தீட்டப்பட்ட நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "அழகிய பல நிறங்கள் தீட்டப்பட்ட எழிலான நிலைமையைக் குறிக்கும் சொல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வண்ணமிடப்பட்ட",
     "learningObjective": "Picture → Arrange recognition and practice for வண்ணமிடப்பட்ட",
     "source": {
@@ -5824,7 +5824,7 @@
     "targetWord": "வரைபடம்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் அமைப்பைக் காட்டும் படம் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "நாடுகள், ஆறுகள், நகரங்களின் இருப்பிடத்தைத் தாளில் விளக்கிக் காட்டும் வரைவு ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வரைபடம்",
     "learningObjective": "Picture → Arrange recognition and practice for வரைபடம்",
     "source": {
@@ -6119,7 +6119,7 @@
     "targetWord": "வாசகர்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வமாக வாசிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "புத்தகம், நாளிதழ் அல்லது கதைகளை ஆர்வத்துடன் படிப்பவர் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வாசகர்",
     "learningObjective": "Picture → Arrange recognition and practice for வாசகர்",
     "source": {
@@ -6291,7 +6291,7 @@
     "targetWord": "வான்கோழி",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "பெரிய உடலும் வண்ண விசிறி போன்ற வாலும் கொண்ட ஒரு பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "கழுத்தில் சிவப்புத் தொங்கு சதை உள்ள பெரிய வளர்ப்புப் பறவை ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "வான்கோழி",
     "learningObjective": "Picture → Arrange recognition and practice for வான்கோழி",
     "source": {
@@ -6601,7 +6601,7 @@
     "targetWord": "விளையாட்டுத்திடல்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "ஓடி ஆடி பல்வேறு விளையாட்டுப் போட்டிகளை விளையாடும் பெரிய திடல் ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
+    "prompt": "ஓடி ஆடிப் பல்வேறு போட்டிகளை நடத்த உதவும் அகன்ற திறந்தவெளி மைதானப் பகுதி ______. எழுத்துகளைச் சரியான வரிசையில் அமைத்துச் சொல்லை உருவாக்கு.",
     "correctAnswer": "விளையாட்டுத்திடல்",
     "learningObjective": "Picture → Arrange recognition and practice for விளையாட்டுத்திடல்",
     "source": {
@@ -6842,7 +6842,7 @@
     "targetWord": "வயல்வெளிகள்",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "படத்தில் காணப்படும் வயல்வெளிகளைக் குறிக்கும் சொல்லை உருவாக்கவும்.",
+    "prompt": "படத்தில் நெல் விளையும் பசுமையான பரந்த நிலப்பரப்புகளைக் குறிக்கும் சொல்லை உருவாக்கவும்.",
     "correctAnswer": "வயல்வெளிகள்",
     "learningObjective": "Picture → Arrange recognition and practice for வயல்வெளிகள்",
     "source": {
