@@ -6205,7 +6205,7 @@
     "targetWord": "bird",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Write the word.",
+    "prompt": "An animal with feathers and wings that can fly. Write the word.",
     "options": [
       {
         "id": "A",
@@ -6231,11 +6231,7 @@
       "R"
     ],
     "correctAnswer": "bird",
-    "image": {
-      "type": "image",
-      "source": "eng-bird"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_4_Picture_Support_Corrected_v2.xlsx",
       "ewId": "EW060",

@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-foal",
+  "retrievalDate": "2026-10-25T06:34:19.422Z",
+  "sourceUrl": "https://www.flickr.com/photos/65798313@N06/7454212716",
+  "platform": "flickr",
+  "liveLicense": "cc0",
+  "liveLicenseRaw": "Public Domain Dedication (CC0)",
+  "liveCreator": "Picdrome Public Domain Pictures",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "A horse foal resting by a stream",
+    "author_name": "Picdrome Public Domain Pictures",
+    "author_url": "https://www.flickr.com/photos/65798313@N06/",
+    "width": 1000,
+    "height": 667,
+    "url": "https://live.staticflickr.com/7257/7454212716_dd7c215b57_b.jpg",
+    "web_page": "https://www.flickr.com/photos/65798313@N06/7454212716/",
+    "thumbnail_url": "https://live.staticflickr.com/7257/7454212716_dd7c215b57_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/cmGMJU",
+    "license": "Public Domain Dedication (CC0)",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_id": "9",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/65798313@N06/7454212716/\" title=\"A horse foal resting by a stream by Picdrome Public Domain Pictures, on Flickr\"><img src=\"https://live.staticflickr.com/7257/7454212716_dd7c215b57_b.jpg\" width=\"1000\" height=\"667\" alt=\"A horse foal resting by a stream\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

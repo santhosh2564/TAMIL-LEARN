@@ -612,39 +612,15 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
 
   // Check PROVENANCE_UNVERIFIED:
   // Fail if an image's manifest provenance isn't backed by a hash match to a candidate whose metadata records that license and creator.
-  // Save the hash in provenance.sha256.
-  const candidateIndex = new Map<string, { word: string; candidateId: string; creator: string; license: string; sourceUrl: string }>();
-  const candidatesBaseDir = path.resolve('docs/image-candidates');
-  if (fs.existsSync(candidatesBaseDir)) {
-    const wordDirs = fs.readdirSync(candidatesBaseDir);
-    for (const wd of wordDirs) {
-      const fullWd = path.join(candidatesBaseDir, wd);
-      if (fs.statSync(fullWd).isDirectory()) {
-        const metaPath = path.join(fullWd, 'metadata.json');
-        if (fs.existsSync(metaPath)) {
-          try {
-            const metaList = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
-            for (const cand of metaList) {
-              const candFile = cand.filename || `${cand.candidateId}.jpg`;
-              const fullCandPath = path.join(fullWd, candFile);
-              if (fs.existsSync(fullCandPath)) {
-                const buf = fs.readFileSync(fullCandPath);
-                const h = crypto.createHash('sha256').update(buf).digest('hex');
-                candidateIndex.set(h, {
-                  word: wd,
-                  candidateId: cand.candidateId || candFile,
-                  creator: cand.creator || '',
-                  license: cand.license || '',
-                  sourceUrl: cand.sourceUrl || ''
-                });
-              }
-            }
-          } catch {}
-        }
-      }
-    }
-  }
-
+  // 17. PROVENANCE_UNVERIFIED check
+  // Check against docs/license-evidence/*.json (from the real live source).
+  // Fails if:
+  // - Image file on disk missing or hash doesn't match provenance.sha256
+  // - docs/license-evidence/<assetId>.json missing
+  // - Live license has NC or ND, or is not in allowed list
+  // - Manifest creator does not match liveCreator
+  // - Manifest license does not match liveLicense
+  const evidenceBaseDir = path.resolve('docs/license-evidence');
   const engManifestPath = path.resolve('src/content/class-3/english/asset-manifest.json');
   if (fs.existsSync(engManifestPath)) {
     const engManifest = JSON.parse(fs.readFileSync(engManifestPath, 'utf8'));
@@ -664,20 +640,33 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
           continue;
         }
 
-        const matchedCand = candidateIndex.get(actualHash);
-        if (!matchedCand) {
-          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (sha256 ${actualHash.slice(0, 8)} has no matching candidate file in docs/image-candidates)`);
+        const evidencePath = path.join(evidenceBaseDir, `${assetId}.json`);
+        if (!fs.existsSync(evidencePath)) {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (missing live license evidence in docs/license-evidence/${assetId}.json)`);
           continue;
         }
 
-        const expectedCreator = (matchedCand.creator || '').trim();
-        const actualCreator = (prov.creator || '').trim();
-        const expectedLicense = (matchedCand.license || '').trim().toLowerCase();
-        const actualLicense = (prov.license || '').trim().toLowerCase();
+        let evidence: any;
+        try {
+          evidence = JSON.parse(fs.readFileSync(evidencePath, 'utf8'));
+        } catch {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (corrupt license evidence in docs/license-evidence/${assetId}.json)`);
+          continue;
+        }
+
+        if (!evidence.isAllowedLicense || evidence.liveLicense?.includes('nc') || evidence.liveLicense?.includes('nd')) {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (disallowed license ${evidence.liveLicense}: ${evidence.disallowedReason || 'NC/ND license'})`);
+          continue;
+        }
+
+        const expectedCreator = (evidence.liveCreator || '').trim();
+        const actualCreator = (prov.creator || asset.creator || '').trim();
+        const expectedLicense = (evidence.liveLicense || '').trim().toLowerCase();
+        const actualLicense = (prov.license || asset.license || '').trim().toLowerCase();
 
         if (expectedCreator !== actualCreator || expectedLicense !== actualLicense) {
           summary.PROVENANCE_UNVERIFIED.push(
-            `${assetId} (provenance mismatch: candidate metadata has creator="${expectedCreator}", license="${expectedLicense}"; manifest has creator="${actualCreator}", license="${actualLicense}")`
+            `${assetId} (provenance mismatch with live source: live evidence has creator="${expectedCreator}", license="${expectedLicense}"; manifest has creator="${actualCreator}", license="${actualLicense}")`
           );
         }
       }

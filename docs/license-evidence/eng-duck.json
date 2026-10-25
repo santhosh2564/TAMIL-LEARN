@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-duck",
+  "retrievalDate": "2026-10-25T06:34:15.835Z",
+  "sourceUrl": "https://www.flickr.com/photos/22490717@N02/12171596574",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "Dennis Jarvis",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Netherlands-4654 - Common White Duck",
+    "author_name": "dgjarvis10@gmail.com",
+    "author_url": "https://www.flickr.com/photos/archer10/",
+    "width": 1024,
+    "height": 683,
+    "url": "https://live.staticflickr.com/2807/12171596574_c0181a7163_b.jpg",
+    "web_page": "https://www.flickr.com/photos/archer10/12171596574/",
+    "thumbnail_url": "https://live.staticflickr.com/2807/12171596574_c0181a7163_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/jxyBBm",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/archer10/12171596574/\" title=\"Netherlands-4654 - Common White Duck by dgjarvis10@gmail.com, on Flickr\"><img src=\"https://live.staticflickr.com/2807/12171596574_c0181a7163_b.jpg\" width=\"1024\" height=\"683\" alt=\"Netherlands-4654 - Common White Duck\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

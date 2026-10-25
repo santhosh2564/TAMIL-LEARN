@@ -1,0 +1,105 @@
+{
+  "assetId": "eng-boondhi",
+  "retrievalDate": "2026-10-25T06:34:28.357Z",
+  "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=15336516",
+  "platform": "wikimedia",
+  "liveLicense": "cc-by-sa-3.0",
+  "liveLicenseRaw": "CC BY-SA 3.0",
+  "liveCreator": "PrasadGondi",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "15336516": {
+          "pageid": 15336516,
+          "ns": 6,
+          "title": "File:Boondi Mithai.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Boondi_Mithai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boondi_Mithai.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15336516",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-05-29 04:10:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Boondi Mithai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS 500D|Boondi|Self-published work|Rhombic food",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Boondi Mithai, A Common Andhra Indian Festival Sweet Snack",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2011-05-28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PrasadGondi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PrasadGondi (page does not exist)\">PrasadGondi</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

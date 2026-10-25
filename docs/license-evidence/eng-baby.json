@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-baby",
+  "retrievalDate": "2026-10-25T06:34:24.643Z",
+  "sourceUrl": "https://www.flickr.com/photos/51449066@N06/15951762719",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "Jerry Lai",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "baby smile",
+    "author_name": "JerryLai0208",
+    "author_url": "https://www.flickr.com/photos/jerrylai0208/",
+    "width": 1024,
+    "height": 683,
+    "url": "https://live.staticflickr.com/8597/15951762719_1d66c07f34_b.jpg",
+    "web_page": "https://www.flickr.com/photos/jerrylai0208/15951762719/",
+    "thumbnail_url": "https://live.staticflickr.com/8597/15951762719_1d66c07f34_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/qiAXiH",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/jerrylai0208/15951762719/\" title=\"baby smile by JerryLai0208, on Flickr\"><img src=\"https://live.staticflickr.com/8597/15951762719_1d66c07f34_b.jpg\" width=\"1024\" height=\"683\" alt=\"baby smile\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

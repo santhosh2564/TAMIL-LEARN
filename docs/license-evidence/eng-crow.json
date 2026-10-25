@@ -1,0 +1,105 @@
+{
+  "assetId": "eng-crow",
+  "retrievalDate": "2026-10-25T06:34:14.276Z",
+  "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=567752",
+  "platform": "wikimedia",
+  "liveLicense": "cc-by-2.5",
+  "liveLicenseRaw": "CC BY 2.5",
+  "liveCreator": "Duncan Wright",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "567752": {
+          "pageid": 567752,
+          "ns": 6,
+          "title": "File:House Crow.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/House_Crow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:House_Crow.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=567752",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2006-02-11 13:17:42",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "House Crow",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Corvus splendens|GFDL|Files with no machine-readable source|License migration redundant|Self-published work|Assumed own work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p><a href=\"//commons.wikimedia.org/wiki/Corvus_splendens\" title=\"Corvus splendens\">House Crow</a>\n</p>\n<ul><li>Taken by <a href=\"//commons.wikimedia.org/wiki/User:Sabine%27s_Sunbird\" title=\"User:Sabine's Sunbird\">Duncan Wright</a> in <a href=\"//commons.wikimedia.org/w/index.php?title=Sariska_National_Park&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Sariska National Park (page does not exist)\">Sariska National Park</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "11 February 2006 (original upload date)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Sabine%27s_Sunbird\" title=\"User:Sabine's Sunbird\">Sabine's Sunbird</a> assumed (based on copyright claims).",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

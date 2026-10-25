@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-idli",
+  "retrievalDate": "2026-10-25T06:34:26.715Z",
+  "sourceUrl": "https://www.flickr.com/photos/10559879@N00/359315772",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "Alpha",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Idli with Sambar and Chutney - Chennai Banana Leaf, Syndal",
+    "author_name": "avlxyz",
+    "author_url": "https://www.flickr.com/photos/avlxyz/",
+    "width": 640,
+    "height": 480,
+    "url": "https://live.staticflickr.com/152/359315772_38ce4ac81c_z.jpg",
+    "web_page": "https://www.flickr.com/photos/avlxyz/359315772/",
+    "thumbnail_url": "https://live.staticflickr.com/152/359315772_38ce4ac81c_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/xKA4w",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/avlxyz/359315772/\" title=\"Idli with Sambar and Chutney - Chennai Banana Leaf, Syndal by avlxyz, on Flickr\"><img src=\"https://live.staticflickr.com/152/359315772_38ce4ac81c_z.jpg\" width=\"640\" height=\"480\" alt=\"Idli with Sambar and Chutney - Chennai Banana Leaf, Syndal\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

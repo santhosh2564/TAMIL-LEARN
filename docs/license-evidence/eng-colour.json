@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-colour",
+  "retrievalDate": "2026-10-25T06:34:13.128Z",
+  "sourceUrl": "https://www.flickr.com/photos/75055133@N03/6938341145",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "Phillip Taylor",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Colouring Pencils ",
+    "author_name": "Golden_Ribbon",
+    "author_url": "https://www.flickr.com/photos/golden_ribbon/",
+    "width": 1024,
+    "height": 640,
+    "url": "https://live.staticflickr.com/7037/6938341145_e4462bb7eb_b.jpg",
+    "web_page": "https://www.flickr.com/photos/golden_ribbon/6938341145/",
+    "thumbnail_url": "https://live.staticflickr.com/7037/6938341145_e4462bb7eb_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/bz7P6t",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/golden_ribbon/6938341145/\" title=\"Colouring Pencils  by Golden_Ribbon, on Flickr\"><img src=\"https://live.staticflickr.com/7037/6938341145_e4462bb7eb_b.jpg\" width=\"1024\" height=\"640\" alt=\"Colouring Pencils \"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

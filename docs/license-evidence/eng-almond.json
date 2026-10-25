@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-almond",
+  "retrievalDate": "2026-10-25T06:34:30.072Z",
+  "sourceUrl": "https://www.flickr.com/photos/60879087@N02/5605239684",
+  "platform": "flickr",
+  "liveLicense": "cc-by-2.0",
+  "liveLicenseRaw": "CC BY 2.0",
+  "liveCreator": "HealthAliciousNess",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Almonds",
+    "author_name": "HealthAliciousNess",
+    "author_url": "https://www.flickr.com/photos/healthaliciousness/",
+    "width": 1024,
+    "height": 768,
+    "url": "https://live.staticflickr.com/5102/5605239684_ee76ba7f79_b.jpg",
+    "web_page": "https://www.flickr.com/photos/healthaliciousness/5605239684/",
+    "thumbnail_url": "https://live.staticflickr.com/5102/5605239684_ee76ba7f79_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/9xjjtw",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "license_id": "4",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/healthaliciousness/5605239684/\" title=\"Almonds by HealthAliciousNess, on Flickr\"><img src=\"https://live.staticflickr.com/5102/5605239684_ee76ba7f79_b.jpg\" width=\"1024\" height=\"768\" alt=\"Almonds\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

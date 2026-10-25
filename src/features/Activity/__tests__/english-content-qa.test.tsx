@@ -274,7 +274,7 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
     expect(img?.getAttribute('src')).toBe('/assets/class-3/tamil/term-1/images/Q013_Eli.jpg');
 
     // 2. Missing asset (bird) -> must render graceful fallback
-    const birdAct = { ...allActivities.find(a => a.targetWord?.toLowerCase() === 'bird')!, category: 'picture-recognition' as const, variant: 'word-entry' as const, targetWord: 'nonexistentbird' };
+    const birdAct = { ...allActivities.find(a => a.targetWord?.toLowerCase() === 'bird')!, needsImage: true, category: 'picture-recognition' as const, variant: 'word-entry' as const, targetWord: 'nonexistentbird' };
     expect(birdAct).toBeDefined();
 
     const birdDef = activityRegistry.getDefinition(birdAct.category, birdAct.variant)!;

@@ -173,7 +173,7 @@
     "targetWord": "bird",
     "category": "arrange-word",
     "variant": "arrange",
-    "prompt": "Look at the picture. Arrange the letters in order and find the word",
+    "prompt": "An animal with feathers and wings that can fly. Arrange the letters in order and find the word",
     "options": [
       {
         "id": "A",
@@ -199,11 +199,7 @@
       "R"
     ],
     "correctAnswer": "bird",
-    "image": {
-      "type": "image",
-      "source": "eng-bird"
-    },
-    "needsImage": true,
+    "needsImage": false,
     "source": {
       "workbook": "English_Module_1_Module1_All_120_Questions_Options_for_Validation.xlsx",
       "ewId": "EW060",

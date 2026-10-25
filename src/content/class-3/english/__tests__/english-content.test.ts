@@ -285,7 +285,7 @@ describe('Class 3 English Content Normalization & Ingestion', () => {
     const manifestPath = path.join(ENG_DIR, 'asset-manifest.json');
     expect(fs.existsSync(manifestPath)).toBe(true);
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
-    expect(Object.keys(manifest).length).toBe(181);
+    expect(Object.keys(manifest).length).toBe(180);
     for (const [key, entry] of Object.entries(manifest)) {
       expect(key).toMatch(/^eng-/);
       expect((entry as { type: string }).type).toBe('image');

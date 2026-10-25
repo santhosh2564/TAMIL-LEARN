@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-bowl",
+  "retrievalDate": "2026-10-25T06:34:28.585Z",
+  "sourceUrl": "https://www.flickr.com/photos/88995347@N00/4646071226",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "quasilaur",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Raku Ceramic Bowl",
+    "author_name": "quasilaur",
+    "author_url": "https://www.flickr.com/photos/quasilaur/",
+    "width": 1024,
+    "height": 768,
+    "url": "https://live.staticflickr.com/4028/4646071226_79013a514c_b.jpg",
+    "web_page": "https://www.flickr.com/photos/quasilaur/4646071226/",
+    "thumbnail_url": "https://live.staticflickr.com/4028/4646071226_79013a514c_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/85yk7j",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/quasilaur/4646071226/\" title=\"Raku Ceramic Bowl by quasilaur, on Flickr\"><img src=\"https://live.staticflickr.com/4028/4646071226_79013a514c_b.jpg\" width=\"1024\" height=\"768\" alt=\"Raku Ceramic Bowl\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

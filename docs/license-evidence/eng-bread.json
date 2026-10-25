@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-bread",
+  "retrievalDate": "2026-10-25T06:34:23.148Z",
+  "sourceUrl": "https://www.flickr.com/photos/44124401501@N01/6205281783",
+  "platform": "flickr",
+  "liveLicense": "cc-by-2.0",
+  "liveLicenseRaw": "CC BY 2.0",
+  "liveCreator": "sylvar",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Tonight's loaf of bread",
+    "author_name": "sylvar",
+    "author_url": "https://www.flickr.com/photos/sylvar/",
+    "width": 1024,
+    "height": 768,
+    "url": "https://live.staticflickr.com/6176/6205281783_da4434a3c0_b.jpg",
+    "web_page": "https://www.flickr.com/photos/sylvar/6205281783/",
+    "thumbnail_url": "https://live.staticflickr.com/6176/6205281783_da4434a3c0_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/askG5X",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "license_id": "4",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/sylvar/6205281783/\" title=\"Tonight&apos;s loaf of bread by sylvar, on Flickr\"><img src=\"https://live.staticflickr.com/6176/6205281783_da4434a3c0_b.jpg\" width=\"1024\" height=\"768\" alt=\"Tonight&apos;s loaf of bread\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}

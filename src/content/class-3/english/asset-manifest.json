@@ -95,11 +95,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "Golden_Ribbon",
+      "creator": "Phillip Taylor",
       "sourceUrl": "https://www.flickr.com/photos/75055133@N03/6938341145",
       "sha256": "79deee8d42b0d06b4b42558d24fb191f902df4d13817a4b71daddd9864218627"
     },
-    "creator": "Golden_Ribbon",
+    "creator": "Phillip Taylor",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/75055133@N03/6938341145"
   },
@@ -115,22 +115,6 @@
       "sourceUrl": null
     }
   },
-  "eng-bird": {
-    "type": "image",
-    "source": "local",
-    "path": "/assets/class-3/english/images/eng-bird.jpg",
-    "alt": "bird — English vocabulary image",
-    "provenance": {
-      "source": "openverse",
-      "license": "cc-by-2.0",
-      "creator": "Charlie From Bristol",
-      "sourceUrl": "https://www.flickr.com/photos/100915417@N07/51288774362",
-      "sha256": "2dd9bbf74a9339c2b901dfccdbbc53fdfc74b34e4186a94550b641212c9ccfb6"
-    },
-    "creator": "Charlie From Bristol",
-    "license": "cc-by-2.0",
-    "sourcePageUrl": "https://www.flickr.com/photos/100915417@N07/51288774362"
-  },
   "eng-crow": {
     "type": "image",
     "source": "local",
@@ -139,11 +123,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-2.5",
-      "creator": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+      "creator": "Duncan Wright",
       "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=567752",
       "sha256": "25a3a0f19ed7b6c991d88fb0bfadd0718ef7e63f635c9a81b9a3874a1df40ba3"
     },
-    "creator": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+    "creator": "Duncan Wright",
     "license": "cc-by-2.5",
     "sourcePageUrl": "https://commons.wikimedia.org/w/index.php?curid=567752"
   },
@@ -191,11 +175,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "archer10 (Dennis)",
+      "creator": "Dennis Jarvis",
       "sourceUrl": "https://www.flickr.com/photos/22490717@N02/12171596574",
       "sha256": "0bc01744a5e46524baf6160ff3caad899fa544fc125822642dfe7514e964e9b2"
     },
-    "creator": "archer10 (Dennis)",
+    "creator": "Dennis Jarvis",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/22490717@N02/12171596574"
   },
@@ -515,11 +499,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "blmurch",
+      "creator": "Beatrice Murch",
       "sourceUrl": "https://www.flickr.com/photos/82439748@N00/428349468",
       "sha256": "bdfba97f573ef6bb280f029461c4eb35352b7441c3376d3104794c69e6ce5ff3"
     },
-    "creator": "blmurch",
+    "creator": "Beatrice Murch",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/82439748@N00/428349468"
   },
@@ -583,11 +567,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "JerryLai0208",
+      "creator": "Jerry Lai",
       "sourceUrl": "https://www.flickr.com/photos/51449066@N06/15951762719",
       "sha256": "1d614e57ccca72a8cabfe886a9ec436ae9735f608dab15282b2a15e29c17652e"
     },
-    "creator": "JerryLai0208",
+    "creator": "Jerry Lai",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/51449066@N06/15951762719"
   },
@@ -611,11 +595,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "avlxyz",
+      "creator": "Alpha",
       "sourceUrl": "https://www.flickr.com/photos/10559879@N00/359315772",
       "sha256": "8c40023408c822a73d21617aa8e682fcfe840921bf399c5218c86953c177b110"
     },
-    "creator": "avlxyz",
+    "creator": "Alpha",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/10559879@N00/359315772"
   },
@@ -679,11 +663,11 @@
     "provenance": {
       "source": "openverse",
       "license": "cc-by-sa-2.0",
-      "creator": "ironheadjane",
+      "creator": "quasilaur",
       "sourceUrl": "https://www.flickr.com/photos/88995347@N00/4646071226",
       "sha256": "cf10de73ed8857e6bf8f728a666a3fb22005e657d4af1605cb5b753b11e3f1bf"
     },
-    "creator": "ironheadjane",
+    "creator": "quasilaur",
     "license": "cc-by-sa-2.0",
     "sourcePageUrl": "https://www.flickr.com/photos/88995347@N00/4646071226"
   },

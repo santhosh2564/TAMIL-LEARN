@@ -1,0 +1,33 @@
+{
+  "assetId": "eng-farm",
+  "retrievalDate": "2026-10-25T06:34:17.249Z",
+  "sourceUrl": "https://www.flickr.com/photos/34920308@N07/8354396854",
+  "platform": "flickr",
+  "liveLicense": "cc-by-sa-2.0",
+  "liveLicenseRaw": "CC BY-SA 2.0",
+  "liveCreator": "Artur Staszewski",
+  "isAllowedLicense": true,
+  "rawResponse": {
+    "type": "photo",
+    "flickr_type": "photo",
+    "title": "Farm in Late Summer",
+    "author_name": "Artur Staszewski",
+    "author_url": "https://www.flickr.com/photos/arturstaszewski/",
+    "width": 1024,
+    "height": 683,
+    "url": "https://live.staticflickr.com/8368/8354396854_6b5dca8126_b.jpg",
+    "web_page": "https://www.flickr.com/photos/arturstaszewski/8354396854/",
+    "thumbnail_url": "https://live.staticflickr.com/8368/8354396854_6b5dca8126_q.jpg",
+    "thumbnail_width": 150,
+    "thumbnail_height": 150,
+    "web_page_short_url": "http://flic.kr/p/dJft85",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_id": "5",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/arturstaszewski/8354396854/\" title=\"Farm in Late Summer by Artur Staszewski, on Flickr\"><img src=\"https://live.staticflickr.com/8368/8354396854_6b5dca8126_b.jpg\" width=\"1024\" height=\"683\" alt=\"Farm in Late Summer\"></a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+    "version": "1.0",
+    "cache_age": 3600,
+    "provider_name": "Flickr",
+    "provider_url": "https://www.flickr.com/"
+  }
+}
