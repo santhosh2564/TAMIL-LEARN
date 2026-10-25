@@ -119,6 +119,7 @@ export interface ValidationSummary {
   UNLICENSED_IMAGE: string[];
   ANSWER_IN_PROMPT: string[];
   PROVENANCE_UNVERIFIED: string[];
+  SYNONYM_DISTRACTOR: string[];
 }
 
 /**
@@ -242,7 +243,31 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     UNLICENSED_IMAGE: [],
     ANSWER_IN_PROMPT: [],
     PROVENANCE_UNVERIFIED: [],
+    SYNONYM_DISTRACTOR: [],
   };
+
+  // Load Tamil synonyms map for SYNONYM_DISTRACTOR check
+  const tamilSynonymsPath = path.resolve('docs/tamil-synonyms.csv');
+  const tamilSynonymsMap = new Map<string, Set<string>>();
+  if (fs.existsSync(tamilSynonymsPath)) {
+    const lines = fs.readFileSync(tamilSynonymsPath, 'utf8').split(/\r?\n/);
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+      // Parse CSV line (e.g. "word","syn1; syn2","notes")
+      const match = trimmed.match(/^"([^"]+)"(?:\s*,\s*"([^"]*)")?/);
+      if (match) {
+        const word = match[1].trim();
+        const synList = match[2] ? match[2].split(/[;,|]/).map(s => s.trim()).filter(Boolean) : [];
+        if (!tamilSynonymsMap.has(word)) tamilSynonymsMap.set(word, new Set());
+        for (const s of synList) {
+          tamilSynonymsMap.get(word)!.add(s);
+          if (!tamilSynonymsMap.has(s)) tamilSynonymsMap.set(s, new Set());
+          tamilSynonymsMap.get(s)!.add(word);
+        }
+      }
+    }
+  }
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
   const missingImagesSet = new Set<string>();
@@ -545,6 +570,22 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
         }
       }
     }
+
+    // Check SYNONYM_DISTRACTOR: for Tamil meaning-match and context-choice questions, flag any question where a distractor is listed as a synonym of the answer
+    if (act.subject === 'Tamil' && (act.category === 'meaning-match' || act.category === 'context-choice')) {
+      const ans = String(act.correctAnswer || act.targetWord || '').trim();
+      const synonyms = tamilSynonymsMap.get(ans);
+      if (synonyms && synonyms.size > 0 && Array.isArray(act.options)) {
+        for (const opt of act.options) {
+          const optLabel = String((opt as any).label || (opt as any).text || opt).trim();
+          if (optLabel && optLabel !== ans && synonyms.has(optLabel)) {
+            summary.SYNONYM_DISTRACTOR.push(act.id);
+            console.warn(`[SYNONYM_DISTRACTOR] ${act.id} (${act.category}): Target answer '${ans}' has synonym distractor '${optLabel}'`);
+            break;
+          }
+        }
+      }
+    }
   }
 
 function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): boolean {
@@ -703,7 +744,8 @@ async function main() {
     'BLOCKED_IMAGE',
     'UNLICENSED_IMAGE',
     'ANSWER_IN_PROMPT',
-    'PROVENANCE_UNVERIFIED'
+    'PROVENANCE_UNVERIFIED',
+    'SYNONYM_DISTRACTOR'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');

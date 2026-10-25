@@ -6096,7 +6096,7 @@
     "targetWord": "இன்பம்",
     "category": "meaning-match",
     "variant": "translate-select",
-    "prompt": "Joy / Pleasure என்பதற்கான சரியான தமிழ்ச் சொல்லைத் சரியாக அமைக்கவும்.",
+    "prompt": "“Joy / Pleasure” என்பதைக் குறிக்கும் சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.",
     "correctAnswer": "இன்பம்",
     "learningObjective": "English Meaning → Tamil Word recognition and practice for இன்பம்",
     "source": {
@@ -6106,7 +6106,8 @@
       "originalActivity": "English Meaning → Tamil Word",
       "divergesFromWorkbook": true,
       "divergentFields": [
-        "options"
+        "options",
+        "prompt"
       ]
     },
     "metadata": {
@@ -6133,7 +6134,7 @@
       },
       {
         "id": "D",
-        "label": "மகிழ்ச்சி"
+        "label": "கோபம்"
       }
     ]
   },
