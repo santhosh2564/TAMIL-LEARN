@@ -72,7 +72,8 @@ export class AssetResolver {
         alt: entry.alt,
         creator: entry.creator,
         license: entry.license,
-        sourcePageUrl: entry.sourcePageUrl
+        sourcePageUrl: entry.sourcePageUrl,
+        provenance: entry.provenance
       }
     };
   }

@@ -82,6 +82,7 @@ export interface ValidationSummary {
   ANAGRAM_ALTERNATIVE: string[];
   MISSING_ATTRIBUTION: string[];
   BLOCKED_IMAGE: string[];
+  UNLICENSED_IMAGE: string[];
 }
 
 /**
@@ -202,6 +203,7 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     ANAGRAM_ALTERNATIVE: [],
     MISSING_ATTRIBUTION: [],
     BLOCKED_IMAGE: [],
+    UNLICENSED_IMAGE: [],
   };
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
@@ -361,6 +363,13 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
             summary.MISSING_ATTRIBUTION.push(act.id);
           }
         }
+
+        // Check UNLICENSED_IMAGE: every image in use with source "unknown"
+        if (asset?.provenance?.source === 'unknown') {
+          if (!summary.UNLICENSED_IMAGE.includes(asset.id)) {
+            summary.UNLICENSED_IMAGE.push(asset.id);
+          }
+        }
       }
     }
 
@@ -486,7 +495,9 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
     }
   }
 
-  const totalIssues = Object.values(summary).reduce((acc, list) => acc + list.length, 0);
+  const totalIssues = Object.entries(summary)
+    .filter(([category]) => category !== 'UNLICENSED_IMAGE')
+    .reduce((acc, [, list]) => acc + list.length, 0);
   return { summary, totalIssues };
 }
 
@@ -511,13 +522,15 @@ async function main() {
     'PROMPT_MENTIONS_PICTURE',
     'ANAGRAM_ALTERNATIVE',
     'MISSING_ATTRIBUTION',
-    'BLOCKED_IMAGE'
+    'BLOCKED_IMAGE',
+    'UNLICENSED_IMAGE'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');
   for (const cat of categories) {
     const ids = summary[cat];
-    console.log(`[${cat}]: ${ids.length} issues`);
+    const label = cat === 'UNLICENSED_IMAGE' ? 'in-use images (non-failing advisory)' : 'issues';
+    console.log(`[${cat}]: ${ids.length} ${label}`);
     if (ids.length > 0) {
       const preview = ids.length <= 15 ? ids.join(', ') : `${ids.slice(0, 15).join(', ')} ... (+${ids.length - 15} more)`;
       console.log(`  IDs: ${preview}`);

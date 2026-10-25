@@ -285,6 +285,18 @@ export function importTamilContent() {
     Object.assign(assetManifest, term1Assets);
   }
 
+  const auditCsvPath = path.resolve('docs/image-visual-audit.csv');
+  const blockedImageFiles = new Set<string>();
+  if (fs.existsSync(auditCsvPath)) {
+    const auditLines = fs.readFileSync(auditCsvPath, 'utf8').trim().split('\n').slice(1);
+    for (const line of auditLines) {
+      const match = line.match(/^"([^"]+)"/) || line.match(/^([^,]+)/);
+      if (match) {
+        blockedImageFiles.add(path.basename(match[1].trim()).toLowerCase());
+      }
+    }
+  }
+
   // 1. Pre-collect all image assets from records so manifest is complete
   for (const modDir of moduleDirs) {
     const files = fs.readdirSync(path.join(SOURCE_DIR, modDir)).filter(f => f.endsWith('.json')).sort();
@@ -294,6 +306,8 @@ export function importTamilContent() {
       for (const rec of rawRecords) {
         const sourceId = rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`;
         if (rec.image?.path) {
+          const fn = path.basename(rec.image.path).toLowerCase();
+          if (blockedImageFiles.has(fn)) continue;
           const assetKey = `class3-tamil-picture-${sourceId.toLowerCase()}`;
           assetManifest[assetKey] = {
             type: 'image',

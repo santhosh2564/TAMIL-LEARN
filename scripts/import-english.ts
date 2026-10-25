@@ -662,7 +662,71 @@ const EXCLUDED_IMAGE_WORDS = new Set<string>([
   'skin',
   'legs',
   'feathers',
-  'fruit'
+  'fruit',
+  // 63 failing visual audit images
+  'aval',
+  'bat',
+  'beak',
+  'bengal gram',
+  'big',
+  'black gram',
+  'bolt',
+  'bow',
+  'boy',
+  'brown',
+  'coil',
+  'cold',
+  'cop',
+  'cradle',
+  'curry leaves',
+  'dad',
+  'den',
+  'ear',
+  'eye',
+  'finger',
+  'fingers',
+  'gem',
+  'hat',
+  'he',
+  'heads',
+  'hop',
+  'insects',
+  'kid',
+  'laddus',
+  'leg',
+  'lift',
+  'lunch',
+  'man',
+  'map',
+  'match',
+  'mom',
+  'mouth',
+  'mud',
+  'neck',
+  'nut',
+  'pinky',
+  'red',
+  'rest',
+  'ring',
+  'seasons',
+  'seat',
+  'shadow',
+  'she',
+  'shells',
+  'shovel',
+  'sit',
+  'swim',
+  'tap',
+  'tender coconut',
+  'thank you',
+  'toe',
+  'tool',
+  'town',
+  'train',
+  'truck',
+  'web',
+  'wings',
+  'wish'
 ]);
 
 const CUSTOM_MEANING_CLUES: Record<string, string> = {
@@ -1403,14 +1467,20 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
   fs.mkdirSync(PUBLIC_IMAGES_DIR, { recursive: true });
 
   // Build Tamil baseline
-  const manifestEntries: Record<string, { type: string; source: string; path: string; alt: string }> = {};
+  const manifestEntries: Record<string, any> = {};
   for (const [word, match] of Object.entries(EXACT_TAMIL_MATCHES)) {
     const key = `eng-${word}`;
     manifestEntries[key] = {
       type: 'image',
       source: 'local',
       path: match.path,
-      alt: match.alt
+      alt: match.alt,
+      provenance: {
+        source: 'unknown',
+        license: null,
+        creator: null,
+        sourceUrl: null
+      }
     };
   }
 
@@ -1438,7 +1508,13 @@ export function writeIngestedContent(ingested: IngestedEnglishContent): void {
             type: 'image',
             source: 'local',
             path: publicPath,
-            alt: `${entry.targetWord} — English vocabulary image`
+            alt: `${entry.targetWord} — English vocabulary image`,
+            provenance: {
+              source: 'unknown',
+              license: null,
+              creator: null,
+              sourceUrl: null
+            }
           };
           entry.status = 'mapped';
           entry.resolvedPath = publicPath;

@@ -3,1086 +3,2172 @@
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
-    "alt": "Apple — ஆப்பிள்"
+    "alt": "Apple — ஆப்பிள்",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bag": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q104_Pai.jpg",
-    "alt": "Bag — பை"
+    "alt": "Bag — பை",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-box": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q101_Petti.jpg",
-    "alt": "Box — பெட்டி"
+    "alt": "Box — பெட்டி",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dog": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q005_Naai.jpg",
-    "alt": "Dog — நாய்"
+    "alt": "Dog — நாய்",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-rabbit": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q001_Muyal.jpg",
-    "alt": "Rabbit — முயல்"
+    "alt": "Rabbit — முயல்",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-rat": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q013_Eli.jpg",
-    "alt": "Rat — எலி"
+    "alt": "Rat — எலி",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-shop": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q034_Kadai.jpg",
-    "alt": "Shop — கடை"
+    "alt": "Shop — கடை",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-colour": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/tamil/term-1/images/Q014_Vannangal.jpg",
-    "alt": "Colour — வண்ணங்கள்"
+    "alt": "Colour — வண்ணங்கள்",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dal": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dal.jpg",
-    "alt": "dal — English vocabulary image"
+    "alt": "dal — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bird": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bird.jpg",
-    "alt": "bird — English vocabulary image"
+    "alt": "bird — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-crow": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-crow.jpg",
-    "alt": "crow — English vocabulary image"
+    "alt": "crow — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-curd": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-curd.jpg",
-    "alt": "curd — English vocabulary image"
+    "alt": "curd — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dish": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dish.jpg",
-    "alt": "dish — English vocabulary image"
+    "alt": "dish — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-door": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-door.jpg",
-    "alt": "door — English vocabulary image"
+    "alt": "door — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-duck": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-duck.jpg",
-    "alt": "duck — English vocabulary image"
+    "alt": "duck — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-farm": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-farm.jpg",
-    "alt": "farm — English vocabulary image"
+    "alt": "farm — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fish": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fish.jpg",
-    "alt": "fish — English vocabulary image"
+    "alt": "fish — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-foal": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-foal.jpg",
-    "alt": "foal — English vocabulary image"
+    "alt": "foal — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-goat": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-goat.jpg",
-    "alt": "goat — English vocabulary image"
+    "alt": "goat — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-hand": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-hand.jpg",
-    "alt": "hand — English vocabulary image"
+    "alt": "hand — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-lamp": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lamp.jpg",
-    "alt": "lamp — English vocabulary image"
+    "alt": "lamp — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-lion": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lion.jpg",
-    "alt": "lion — English vocabulary image"
+    "alt": "lion — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pole": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pole.jpg",
-    "alt": "pole — English vocabulary image"
+    "alt": "pole — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pond": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pond.jpg",
-    "alt": "pond — English vocabulary image"
+    "alt": "pond — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-frock": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-frock.jpg",
-    "alt": "frock — English vocabulary image"
+    "alt": "frock — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-juice": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-juice.jpg",
-    "alt": "juice — English vocabulary image"
+    "alt": "juice — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-rice": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-rice.jpg",
-    "alt": "rice — English vocabulary image"
+    "alt": "rice — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-rock": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-rock.jpg",
-    "alt": "rock — English vocabulary image"
+    "alt": "rock — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-salt": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-salt.jpg",
-    "alt": "salt — English vocabulary image"
+    "alt": "salt — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-seed": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-seed.jpg",
-    "alt": "seed — English vocabulary image"
+    "alt": "seed — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-snow": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-snow.jpg",
-    "alt": "snow — English vocabulary image"
+    "alt": "snow — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-soap": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-soap.jpg",
-    "alt": "soap — English vocabulary image"
+    "alt": "soap — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-star": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-star.jpg",
-    "alt": "star — English vocabulary image"
+    "alt": "star — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tail": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tail.jpg",
-    "alt": "tail — English vocabulary image"
+    "alt": "tail — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tent": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tent.jpg",
-    "alt": "tent — English vocabulary image"
+    "alt": "tent — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-toad": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-toad.jpg",
-    "alt": "toad — English vocabulary image"
+    "alt": "toad — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-worm": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-worm.jpg",
-    "alt": "worm — English vocabulary image"
+    "alt": "worm — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-rhino": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-rhino.jpg",
-    "alt": "rhino — English vocabulary image"
+    "alt": "rhino — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sheep": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sheep.jpg",
-    "alt": "sheep — English vocabulary image"
+    "alt": "sheep — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-skirt": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-skirt.jpg",
-    "alt": "skirt — English vocabulary image"
+    "alt": "skirt — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-belt": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-belt.jpg",
-    "alt": "belt — English vocabulary image"
+    "alt": "belt — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-coal": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-coal.jpg",
-    "alt": "coal — English vocabulary image"
+    "alt": "coal — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bread": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bread.jpg",
-    "alt": "bread — English vocabulary image"
+    "alt": "bread — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jungle": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jungle.jpg",
-    "alt": "jungle — English vocabulary image"
+    "alt": "jungle — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-deer": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-deer.jpg",
-    "alt": "deer — English vocabulary image"
+    "alt": "deer — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-baby": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-baby.jpg",
-    "alt": "baby — English vocabulary image"
+    "alt": "baby — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ghee": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ghee.jpg",
-    "alt": "ghee — English vocabulary image"
+    "alt": "ghee — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-idli": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-idli.jpg",
-    "alt": "idli — English vocabulary image"
+    "alt": "idli — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-boondhi": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-boondhi.jpg",
-    "alt": "boondhi — English vocabulary image"
+    "alt": "boondhi — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cloudy": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cloudy.jpg",
-    "alt": "cloudy — English vocabulary image"
+    "alt": "cloudy — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-eyelash": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-eyelash.jpg",
-    "alt": "eyelash — English vocabulary image"
+    "alt": "eyelash — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fun": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fun.jpg",
-    "alt": "fun — English vocabulary image"
+    "alt": "fun — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bowl": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bowl.jpg",
-    "alt": "bowl — English vocabulary image"
+    "alt": "bowl — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bridge": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bridge.jpg",
-    "alt": "bridge — English vocabulary image"
+    "alt": "bridge — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-castle": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-castle.jpg",
-    "alt": "castle — English vocabulary image"
+    "alt": "castle — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dairy": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dairy.jpg",
-    "alt": "dairy — English vocabulary image"
+    "alt": "dairy — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-goose": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-goose.jpg",
-    "alt": "goose — English vocabulary image"
+    "alt": "goose — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-almond": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-almond.jpg",
-    "alt": "almond — English vocabulary image"
+    "alt": "almond — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-chair": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-chair.jpg",
-    "alt": "chair — English vocabulary image"
+    "alt": "chair — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cloth": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cloth.jpg",
-    "alt": "cloth — English vocabulary image"
+    "alt": "cloth — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ant": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ant.jpg",
-    "alt": "ant — English vocabulary image"
+    "alt": "ant — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bed": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bed.jpg",
-    "alt": "bed — English vocabulary image"
+    "alt": "bed — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bun": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bun.jpg",
-    "alt": "bun — English vocabulary image"
+    "alt": "bun — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bus": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bus.jpg",
-    "alt": "bus — English vocabulary image"
+    "alt": "bus — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-car": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-car.jpg",
-    "alt": "car — English vocabulary image"
+    "alt": "car — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cat": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cat.jpg",
-    "alt": "cat — English vocabulary image"
+    "alt": "cat — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cot": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cot.jpg",
-    "alt": "cot — English vocabulary image"
+    "alt": "cot — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cow": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cow.jpg",
-    "alt": "cow — English vocabulary image"
+    "alt": "cow — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cup": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cup.jpg",
-    "alt": "cup — English vocabulary image"
+    "alt": "cup — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fan": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fan.jpg",
-    "alt": "fan — English vocabulary image"
+    "alt": "fan — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fig": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fig.jpg",
-    "alt": "fig — English vocabulary image"
+    "alt": "fig — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fox": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fox.jpg",
-    "alt": "fox — English vocabulary image"
+    "alt": "fox — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ham": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ham.jpg",
-    "alt": "ham — English vocabulary image"
+    "alt": "ham — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-hen": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-hen.jpg",
-    "alt": "hen — English vocabulary image"
+    "alt": "hen — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jam": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jam.jpg",
-    "alt": "jam — English vocabulary image"
+    "alt": "jam — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jar": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jar.jpg",
-    "alt": "jar — English vocabulary image"
+    "alt": "jar — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jet": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jet.jpg",
-    "alt": "jet — English vocabulary image"
+    "alt": "jet — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jug": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jug.jpg",
-    "alt": "jug — English vocabulary image"
+    "alt": "jug — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-kit": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-kit.jpg",
-    "alt": "kit — English vocabulary image"
+    "alt": "kit — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-lap": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lap.jpg",
-    "alt": "lap — English vocabulary image"
+    "alt": "lap — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-lip": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lip.jpg",
-    "alt": "lip — English vocabulary image"
+    "alt": "lip — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bean": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bean.jpg",
-    "alt": "bean — English vocabulary image"
+    "alt": "bean — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-corn": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-corn.jpg",
-    "alt": "corn — English vocabulary image"
+    "alt": "corn — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-desk": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-desk.jpg",
-    "alt": "desk — English vocabulary image"
+    "alt": "desk — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-drum": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-drum.jpg",
-    "alt": "drum — English vocabulary image"
+    "alt": "drum — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fins": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fins.jpg",
-    "alt": "fins — English vocabulary image"
+    "alt": "fins — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fork": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fork.jpg",
-    "alt": "fork — English vocabulary image"
+    "alt": "fork — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-fur": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-fur.jpg",
-    "alt": "fur — English vocabulary image"
+    "alt": "fur — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-gun": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-gun.jpg",
-    "alt": "gun — English vocabulary image"
+    "alt": "gun — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-horn": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-horn.jpg",
-    "alt": "horn — English vocabulary image"
+    "alt": "horn — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-leaf": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-leaf.jpg",
-    "alt": "leaf — English vocabulary image"
+    "alt": "leaf — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ship": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ship.jpg",
-    "alt": "ship — English vocabulary image"
+    "alt": "ship — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sink": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sink.jpg",
-    "alt": "sink — English vocabulary image"
+    "alt": "sink — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sofa": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sofa.jpg",
-    "alt": "sofa — English vocabulary image"
+    "alt": "sofa — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-wing": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-wing.jpg",
-    "alt": "wing — English vocabulary image"
+    "alt": "wing — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-brinjal": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-brinjal.jpg",
-    "alt": "brinjal — English vocabulary image"
+    "alt": "brinjal — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-flower": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-flower.jpg",
-    "alt": "flower — English vocabulary image"
+    "alt": "flower — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-gaur": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-gaur.jpg",
-    "alt": "gaur — English vocabulary image"
+    "alt": "gaur — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ginger": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ginger.jpg",
-    "alt": "ginger — English vocabulary image"
+    "alt": "ginger — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-lemon": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-lemon.jpg",
-    "alt": "lemon — English vocabulary image"
+    "alt": "lemon — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-mango": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mango.jpg",
-    "alt": "mango — English vocabulary image"
+    "alt": "mango — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-mixie": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mixie.jpg",
-    "alt": "mixie — English vocabulary image"
+    "alt": "mixie — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ponds": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ponds.jpg",
-    "alt": "ponds — English vocabulary image"
+    "alt": "ponds — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-puppy": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-puppy.jpg",
-    "alt": "puppy — English vocabulary image"
+    "alt": "puppy — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-saree": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-saree.jpg",
-    "alt": "saree — English vocabulary image"
+    "alt": "saree — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-seeds": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-seeds.jpg",
-    "alt": "seeds — English vocabulary image"
+    "alt": "seeds — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-shorts": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-shorts.jpg",
-    "alt": "shorts — English vocabulary image"
+    "alt": "shorts — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-socks": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-socks.jpg",
-    "alt": "socks — English vocabulary image"
+    "alt": "socks — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tabla": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tabla.jpg",
-    "alt": "tabla — English vocabulary image"
+    "alt": "tabla — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tomato": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tomato.jpg",
-    "alt": "tomato — English vocabulary image"
+    "alt": "tomato — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-towel": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-towel.jpg",
-    "alt": "towel — English vocabulary image"
+    "alt": "towel — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-veena": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-veena.jpg",
-    "alt": "veena — English vocabulary image"
+    "alt": "veena — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-violet": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-violet.jpg",
-    "alt": "violet — English vocabulary image"
+    "alt": "violet — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cap": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cap.jpg",
-    "alt": "cap — English vocabulary image"
+    "alt": "cap — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jump": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jump.jpg",
-    "alt": "jump — English vocabulary image"
+    "alt": "jump — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-nest": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-nest.jpg",
-    "alt": "nest — English vocabulary image"
+    "alt": "nest — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-animals": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-animals.jpg",
-    "alt": "animals — English vocabulary image"
+    "alt": "animals — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-scarf": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-scarf.jpg",
-    "alt": "scarf — English vocabulary image"
+    "alt": "scarf — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-snack": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-snack.jpg",
-    "alt": "snack — English vocabulary image"
+    "alt": "snack — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-wood": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-wood.jpg",
-    "alt": "wood — English vocabulary image"
+    "alt": "wood — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-anjaraipetti": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-anjaraipetti.jpg",
-    "alt": "anjaraipetti — English vocabulary image"
+    "alt": "anjaraipetti — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ash-gourd": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ash-gourd.jpg",
-    "alt": "ash gourd — English vocabulary image"
+    "alt": "ash gourd — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cashew": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cashew.jpg",
-    "alt": "cashew — English vocabulary image"
+    "alt": "cashew — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dhoti": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dhoti.jpg",
-    "alt": "dhoti — English vocabulary image"
+    "alt": "dhoti — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-bug": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-bug.jpg",
-    "alt": "bug — English vocabulary image"
+    "alt": "bug — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-yam": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-yam.jpg",
-    "alt": "yam — English vocabulary image"
+    "alt": "yam — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-mat": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mat.jpg",
-    "alt": "mat — English vocabulary image"
+    "alt": "mat — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-mop": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mop.jpg",
-    "alt": "mop — English vocabulary image"
+    "alt": "mop — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-mug": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-mug.jpg",
-    "alt": "mug — English vocabulary image"
+    "alt": "mug — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-nap": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-nap.jpg",
-    "alt": "nap — English vocabulary image"
+    "alt": "nap — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-net": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-net.jpg",
-    "alt": "net — English vocabulary image"
+    "alt": "net — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-owl": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-owl.jpg",
-    "alt": "owl — English vocabulary image"
+    "alt": "owl — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-ox": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-ox.jpg",
-    "alt": "ox — English vocabulary image"
+    "alt": "ox — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pan": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pan.jpg",
-    "alt": "pan — English vocabulary image"
+    "alt": "pan — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pea": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pea.jpg",
-    "alt": "pea — English vocabulary image"
+    "alt": "pea — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pen": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pen.jpg",
-    "alt": "pen — English vocabulary image"
+    "alt": "pen — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pig": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pig.jpg",
-    "alt": "pig — English vocabulary image"
+    "alt": "pig — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pin": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pin.jpg",
-    "alt": "pin — English vocabulary image"
+    "alt": "pin — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pot": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pot.jpg",
-    "alt": "pot — English vocabulary image"
+    "alt": "pot — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-pup": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-pup.jpg",
-    "alt": "pup — English vocabulary image"
+    "alt": "pup — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sad": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sad.jpg",
-    "alt": "sad — English vocabulary image"
+    "alt": "sad — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sun": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sun.jpg",
-    "alt": "sun — English vocabulary image"
+    "alt": "sun — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tin": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tin.jpg",
-    "alt": "tin — English vocabulary image"
+    "alt": "tin — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-top": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-top.jpg",
-    "alt": "top — English vocabulary image"
+    "alt": "top — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-toy": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-toy.jpg",
-    "alt": "toy — English vocabulary image"
+    "alt": "toy — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tub": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tub.jpg",
-    "alt": "tub — English vocabulary image"
+    "alt": "tub — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-van": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-van.jpg",
-    "alt": "van — English vocabulary image"
+    "alt": "van — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-win": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-win.jpg",
-    "alt": "win — English vocabulary image"
+    "alt": "win — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-yum": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-yum.jpg",
-    "alt": "yum — English vocabulary image"
+    "alt": "yum — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-zoo": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-zoo.jpg",
-    "alt": "zoo — English vocabulary image"
+    "alt": "zoo — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-grape": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-grape.jpg",
-    "alt": "grape — English vocabulary image"
+    "alt": "grape — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dosa": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dosa.jpg",
-    "alt": "dosa — English vocabulary image"
+    "alt": "dosa — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-orange": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-orange.jpg",
-    "alt": "orange — English vocabulary image"
+    "alt": "orange — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-flowers": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-flowers.jpg",
-    "alt": "flowers — English vocabulary image"
+    "alt": "flowers — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jaggery": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jaggery.jpg",
-    "alt": "jaggery — English vocabulary image"
+    "alt": "jaggery — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-jute": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-jute.jpg",
-    "alt": "jute — English vocabulary image"
+    "alt": "jute — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-peanuts": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-peanuts.jpg",
-    "alt": "peanuts — English vocabulary image"
+    "alt": "peanuts — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-reefs": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-reefs.jpg",
-    "alt": "reefs — English vocabulary image"
+    "alt": "reefs — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-saffron": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-saffron.jpg",
-    "alt": "saffron — English vocabulary image"
+    "alt": "saffron — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-samosa": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-samosa.jpg",
-    "alt": "samosa — English vocabulary image"
+    "alt": "samosa — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-snake-gourd": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-snake-gourd.jpg",
-    "alt": "snake gourd — English vocabulary image"
+    "alt": "snake gourd — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tamarind": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tamarind.jpg",
-    "alt": "tamarind — English vocabulary image"
+    "alt": "tamarind — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tears": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tears.jpg",
-    "alt": "tears — English vocabulary image"
+    "alt": "tears — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-barfi": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-barfi.jpg",
-    "alt": "barfi — English vocabulary image"
+    "alt": "barfi — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-zebra": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-zebra.jpg",
-    "alt": "zebra — English vocabulary image"
+    "alt": "zebra — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-day": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-day.jpg",
-    "alt": "day — English vocabulary image"
+    "alt": "day — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-desert": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-desert.jpg",
-    "alt": "desert — English vocabulary image"
+    "alt": "desert — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-cloud": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-cloud.jpg",
-    "alt": "cloud — English vocabulary image"
+    "alt": "cloud — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-park": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-park.jpg",
-    "alt": "park — English vocabulary image"
+    "alt": "park — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-road": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-road.jpg",
-    "alt": "road — English vocabulary image"
+    "alt": "road — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-sand": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-sand.jpg",
-    "alt": "sand — English vocabulary image"
+    "alt": "sand — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-shed": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-shed.jpg",
-    "alt": "shed — English vocabulary image"
+    "alt": "shed — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-shirt": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-shirt.jpg",
-    "alt": "shirt — English vocabulary image"
+    "alt": "shirt — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tea": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tea.jpg",
-    "alt": "tea — English vocabulary image"
+    "alt": "tea — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-tree": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-tree.jpg",
-    "alt": "tree — English vocabulary image"
+    "alt": "tree — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-grasshopper": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-grasshopper.jpg",
-    "alt": "grasshopper — English vocabulary image"
+    "alt": "grasshopper — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-dragonfly": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-dragonfly.jpg",
-    "alt": "dragonfly — English vocabulary image"
+    "alt": "dragonfly — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-snail": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-snail.jpg",
-    "alt": "snail — English vocabulary image"
+    "alt": "snail — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-stop": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-stop.jpg",
-    "alt": "stop — English vocabulary image"
+    "alt": "stop — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-trash": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-trash.jpg",
-    "alt": "trash — English vocabulary image"
+    "alt": "trash — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   },
   "eng-wrench": {
     "type": "image",
     "source": "local",
     "path": "/assets/class-3/english/images/eng-wrench.jpg",
-    "alt": "wrench — English vocabulary image"
+    "alt": "wrench — English vocabulary image",
+    "provenance": {
+      "source": "unknown",
+      "license": null,
+      "creator": null,
+      "sourceUrl": null
+    }
   }
 }

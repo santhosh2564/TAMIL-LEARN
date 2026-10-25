@@ -1,5 +1,20 @@
 export type AssetType = 'image' | 'audio';
 
+export type ImageProvenanceSource =
+  | 'openverse'
+  | 'wikimedia'
+  | 'self-made'
+  | 'ai-generated'
+  | 'licensed-pack'
+  | 'unknown';
+
+export interface ImageProvenance {
+  source: ImageProvenanceSource;
+  license?: string | null;
+  creator?: string | null;
+  sourceUrl?: string | null;
+}
+
 export interface AssetReference {
   id: string;
   type: AssetType;
@@ -14,6 +29,7 @@ export interface ResolvedAsset {
   creator?: string;
   license?: string;
   sourcePageUrl?: string;
+  provenance?: ImageProvenance;
 }
 
 export type AssetResolutionState = 
@@ -30,6 +46,7 @@ export interface AssetManifestEntry {
   creator?: string;
   license?: string;
   sourcePageUrl?: string;
+  provenance?: ImageProvenance;
 }
 
 export interface AssetManifest {
