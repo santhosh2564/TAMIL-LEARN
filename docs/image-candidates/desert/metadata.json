@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Riding sand dunes, Desert Safari Dubai",
+    "creator": "Vignesh Ananth",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/65884118@N06/15367430814",
+    "imageUrl": "https://live.staticflickr.com/7548/15367430814_3f09a9073c_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Free sand dunes, desert image",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/5916961/image-public-domain-free-landscape",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2lzMTM4ODgtaW1hZ2Uta3d2d3RnYXkuanBn.jpg",
+    "width": 5000,
+    "height": 3333
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Free sand dunes, desert image",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/5917297/image-public-domain-free-landscape",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2lzMTQxNjgtaW1hZ2Uta3d2d3Uyc2suanBn.jpg",
+    "width": 5000,
+    "height": 3333
+  }
+]

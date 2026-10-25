@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Farm in Late Summer",
+    "creator": "Artur Staszewski",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/34920308@N07/8354396854",
+    "imageUrl": "https://live.staticflickr.com/8368/8354396854_6b5dca8126_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Farm",
+    "creator": "Me in ME",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/12357841@N02/9864580774",
+    "imageUrl": "https://live.staticflickr.com/5464/9864580774_272a31e916_b.jpg",
+    "width": 1024,
+    "height": 635
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Intercourse, Pennsylvania",
+    "creator": "Dougtone",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/7327243@N05/4036347859",
+    "imageUrl": "https://live.staticflickr.com/2431/4036347859_ace43fd1a3_b.jpg",
+    "width": 768,
+    "height": 1024
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Cashews ready for harvest",
+    "creator": "Young in Panama",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/20214151@N00/132058216",
+    "imageUrl": "https://live.staticflickr.com/55/132058216_cf0ece32c6_m.jpg",
+    "width": 240,
+    "height": 161
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Cashew Apple or Marañon",
+    "creator": "Young in Panama",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/20214151@N00/132032069",
+    "imageUrl": "https://live.staticflickr.com/56/132032069_6fd3ca0374.jpg",
+    "width": 500,
+    "height": 375
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Twin Cashews",
+    "creator": "Abhishek Jacob",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/35580185@N08/3453745219",
+    "imageUrl": "https://live.staticflickr.com/3356/3453745219_00966e290d_b.jpg",
+    "width": 1024,
+    "height": 801
+  }
+]

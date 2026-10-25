@@ -2,14 +2,18 @@
   "eng-apple": {
     "type": "image",
     "source": "local",
-    "path": "/assets/class-3/tamil/term-1/images/Q003_Pazham.jpg",
+    "path": "/assets/class-3/english/images/eng-apple.jpg",
     "alt": "Apple — ஆப்பிள்",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc0",
+      "creator": "rawpixel",
+      "sourceUrl": "https://www.rawpixel.com/image/6041947/photo-image-public-domain-fruit-red",
+      "sha256": "98f1c04bd31ffc24b1b2501e59fc37493c149fada86bac244f7bd790422cec4e"
+    },
+    "creator": "rawpixel",
+    "license": "cc0",
+    "sourcePageUrl": "https://www.rawpixel.com/image/6041947/photo-image-public-domain-fruit-red"
   },
   "eng-bag": {
     "type": "image",
@@ -86,14 +90,18 @@
   "eng-colour": {
     "type": "image",
     "source": "local",
-    "path": "/assets/class-3/tamil/term-1/images/Q014_Vannangal.jpg",
+    "path": "/assets/class-3/english/images/eng-colour.jpg",
     "alt": "Colour — வண்ணங்கள்",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "Golden_Ribbon",
+      "sourceUrl": "https://www.flickr.com/photos/75055133@N03/6938341145",
+      "sha256": "79deee8d42b0d06b4b42558d24fb191f902df4d13817a4b71daddd9864218627"
+    },
+    "creator": "Golden_Ribbon",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/75055133@N03/6938341145"
   },
   "eng-dal": {
     "type": "image",
@@ -113,11 +121,15 @@
     "path": "/assets/class-3/english/images/eng-bird.jpg",
     "alt": "bird — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-2.0",
+      "creator": "Charlie From Bristol",
+      "sourceUrl": "https://www.flickr.com/photos/100915417@N07/51288774362",
+      "sha256": "2dd9bbf74a9339c2b901dfccdbbc53fdfc74b34e4186a94550b641212c9ccfb6"
+    },
+    "creator": "Charlie From Bristol",
+    "license": "cc-by-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/100915417@N07/51288774362"
   },
   "eng-crow": {
     "type": "image",
@@ -125,11 +137,15 @@
     "path": "/assets/class-3/english/images/eng-crow.jpg",
     "alt": "crow — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-2.5",
+      "creator": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=567752",
+      "sha256": "25a3a0f19ed7b6c991d88fb0bfadd0718ef7e63f635c9a81b9a3874a1df40ba3"
+    },
+    "creator": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+    "license": "cc-by-2.5",
+    "sourcePageUrl": "https://commons.wikimedia.org/w/index.php?curid=567752"
   },
   "eng-curd": {
     "type": "image",
@@ -173,11 +189,15 @@
     "path": "/assets/class-3/english/images/eng-duck.jpg",
     "alt": "duck — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "archer10 (Dennis)",
+      "sourceUrl": "https://www.flickr.com/photos/22490717@N02/12171596574",
+      "sha256": "0bc01744a5e46524baf6160ff3caad899fa544fc125822642dfe7514e964e9b2"
+    },
+    "creator": "archer10 (Dennis)",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/22490717@N02/12171596574"
   },
   "eng-farm": {
     "type": "image",
@@ -185,11 +205,15 @@
     "path": "/assets/class-3/english/images/eng-farm.jpg",
     "alt": "farm — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "Artur Staszewski",
+      "sourceUrl": "https://www.flickr.com/photos/34920308@N07/8354396854",
+      "sha256": "08f0183fa73a58458efb9f1fe8ccbed7e3d2ff82ddadaac01cf531b61282f401"
+    },
+    "creator": "Artur Staszewski",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/34920308@N07/8354396854"
   },
   "eng-fish": {
     "type": "image",
@@ -209,11 +233,15 @@
     "path": "/assets/class-3/english/images/eng-foal.jpg",
     "alt": "foal — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc0",
+      "creator": "Picdrome Public Domain Pictures",
+      "sourceUrl": "https://www.flickr.com/photos/65798313@N06/7454212716",
+      "sha256": "52fcbac6cdfce511b9834a142420f94453e9bfe23fcdb4564a31c6754c84d61e"
+    },
+    "creator": "Picdrome Public Domain Pictures",
+    "license": "cc0",
+    "sourcePageUrl": "https://www.flickr.com/photos/65798313@N06/7454212716"
   },
   "eng-goat": {
     "type": "image",
@@ -485,11 +513,15 @@
     "path": "/assets/class-3/english/images/eng-belt.jpg",
     "alt": "belt — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "blmurch",
+      "sourceUrl": "https://www.flickr.com/photos/82439748@N00/428349468",
+      "sha256": "bdfba97f573ef6bb280f029461c4eb35352b7441c3376d3104794c69e6ce5ff3"
+    },
+    "creator": "blmurch",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/82439748@N00/428349468"
   },
   "eng-coal": {
     "type": "image",
@@ -509,11 +541,15 @@
     "path": "/assets/class-3/english/images/eng-bread.jpg",
     "alt": "bread — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-2.0",
+      "creator": "sylvar",
+      "sourceUrl": "https://www.flickr.com/photos/44124401501@N01/6205281783",
+      "sha256": "6183526f5f1b40e69855ad2169da072de49f57d6b1750e4364664bcccbe17705"
+    },
+    "creator": "sylvar",
+    "license": "cc-by-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/44124401501@N01/6205281783"
   },
   "eng-jungle": {
     "type": "image",
@@ -545,11 +581,15 @@
     "path": "/assets/class-3/english/images/eng-baby.jpg",
     "alt": "baby — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "JerryLai0208",
+      "sourceUrl": "https://www.flickr.com/photos/51449066@N06/15951762719",
+      "sha256": "1d614e57ccca72a8cabfe886a9ec436ae9735f608dab15282b2a15e29c17652e"
+    },
+    "creator": "JerryLai0208",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/51449066@N06/15951762719"
   },
   "eng-ghee": {
     "type": "image",
@@ -569,11 +609,15 @@
     "path": "/assets/class-3/english/images/eng-idli.jpg",
     "alt": "idli — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "avlxyz",
+      "sourceUrl": "https://www.flickr.com/photos/10559879@N00/359315772",
+      "sha256": "8c40023408c822a73d21617aa8e682fcfe840921bf399c5218c86953c177b110"
+    },
+    "creator": "avlxyz",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/10559879@N00/359315772"
   },
   "eng-boondhi": {
     "type": "image",
@@ -581,11 +625,15 @@
     "path": "/assets/class-3/english/images/eng-boondhi.jpg",
     "alt": "boondhi — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-3.0",
+      "creator": "PrasadGondi",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=15336516",
+      "sha256": "a9ee4ca80fbf7fccd92bfcd8bbeb3367183e30d836a0e1cf8af377507b771499"
+    },
+    "creator": "PrasadGondi",
+    "license": "cc-by-sa-3.0",
+    "sourcePageUrl": "https://commons.wikimedia.org/w/index.php?curid=15336516"
   },
   "eng-cloudy": {
     "type": "image",
@@ -629,11 +677,15 @@
     "path": "/assets/class-3/english/images/eng-bowl.jpg",
     "alt": "bowl — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-sa-2.0",
+      "creator": "ironheadjane",
+      "sourceUrl": "https://www.flickr.com/photos/88995347@N00/4646071226",
+      "sha256": "cf10de73ed8857e6bf8f728a666a3fb22005e657d4af1605cb5b753b11e3f1bf"
+    },
+    "creator": "ironheadjane",
+    "license": "cc-by-sa-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/88995347@N00/4646071226"
   },
   "eng-bridge": {
     "type": "image",
@@ -689,11 +741,15 @@
     "path": "/assets/class-3/english/images/eng-almond.jpg",
     "alt": "almond — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc-by-2.0",
+      "creator": "HealthAliciousNess",
+      "sourceUrl": "https://www.flickr.com/photos/60879087@N02/5605239684",
+      "sha256": "97abd5a57c410d26e3e74af760f17c4d43598960064ea3675e13b4ab2d06c297"
+    },
+    "creator": "HealthAliciousNess",
+    "license": "cc-by-2.0",
+    "sourcePageUrl": "https://www.flickr.com/photos/60879087@N02/5605239684"
   },
   "eng-chair": {
     "type": "image",
@@ -1997,11 +2053,15 @@
     "path": "/assets/class-3/english/images/eng-desert.jpg",
     "alt": "desert — English vocabulary image",
     "provenance": {
-      "source": "unknown",
-      "license": null,
-      "creator": null,
-      "sourceUrl": null
-    }
+      "source": "openverse",
+      "license": "cc0",
+      "creator": "rawpixel",
+      "sourceUrl": "https://www.rawpixel.com/image/5916961/image-public-domain-free-landscape",
+      "sha256": "cd0b19edafcbe632d8a8657728b577bfabb647e95832975b085ac06afefb7d49"
+    },
+    "creator": "rawpixel",
+    "license": "cc0",
+    "sourcePageUrl": "https://www.rawpixel.com/image/5916961/image-public-domain-free-landscape"
   },
   "eng-cloud": {
     "type": "image",

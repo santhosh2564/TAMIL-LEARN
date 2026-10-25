@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Spice box",
+    "creator": "Denna Jones",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/95267793@N00/3689842026",
+    "imageUrl": "https://live.staticflickr.com/2449/3689842026_47007ee557_b.jpg",
+    "width": 1024,
+    "height": 667
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Spice box",
+    "creator": "Robbie1",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/85278812@N00/3722356324",
+    "imageUrl": "https://live.staticflickr.com/2627/3722356324_15c12ebb7d_b.jpg",
+    "width": 1024,
+    "height": 997
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Spice Box and Lid LACMA M.87.12a-b",
+    "creator": "Fæ",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/50398299@N08/15821990763",
+    "imageUrl": "https://live.staticflickr.com/8580/15821990763_1f6b883954_b.jpg",
+    "width": 1024,
+    "height": 980
+  }
+]

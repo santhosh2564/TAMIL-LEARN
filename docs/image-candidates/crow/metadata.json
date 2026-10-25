@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "House Crow",
+    "creator": "No machine-readable author provided. Sabine's Sunbird assumed (based on copyright claims).",
+    "license": "cc-by-2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=567752",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/House_Crow.jpg",
+    "width": 870,
+    "height": 558
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "House Crows (Corvus splendens) grooming in Kolkata I IMG 4324",
+    "creator": "J.M.Garg",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=3002441",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/House_Crows_%28Corvus_splendens%29_grooming_in_Kolkata_I_IMG_4324.jpg",
+    "width": 789,
+    "height": 600
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "House Crow eggs I IMG 1890",
+    "creator": "J.M.Garg",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2878206",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/House_Crow_eggs_I_IMG_1890.jpg",
+    "width": 800,
+    "height": 600
+  }
+]

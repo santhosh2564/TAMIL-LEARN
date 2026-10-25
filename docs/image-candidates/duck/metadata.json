@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Netherlands-4654 - Common White Duck",
+    "creator": "archer10 (Dennis)",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/22490717@N02/12171596574",
+    "imageUrl": "https://live.staticflickr.com/2807/12171596574_c0181a7163_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "White ducks",
+    "creator": "Infomastern",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/55856449@N04/9917952154",
+    "imageUrl": "https://live.staticflickr.com/5530/9917952154_29219242a4_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "white duck toy (original)",
+    "creator": "g4ll4is",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/77281252@N02/7171888162",
+    "imageUrl": "https://live.staticflickr.com/7080/7171888162_e1ef3c11ba_b.jpg",
+    "width": 1024,
+    "height": 1024
+  }
+]

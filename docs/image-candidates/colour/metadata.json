@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Colouring Pencils",
+    "creator": "Golden_Ribbon",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/75055133@N03/6938341145",
+    "imageUrl": "https://live.staticflickr.com/7037/6938341145_e4462bb7eb_b.jpg",
+    "width": 1024,
+    "height": 640
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Colour Pencils-3",
+    "creator": "David Blaikie",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/12568962@N00/3267139809",
+    "imageUrl": "https://live.staticflickr.com/3062/3267139809_6a0bbaae07_b.jpg",
+    "width": 1024,
+    "height": 685
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Coloured pencil",
+    "creator": "nojhan",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/25891376@N00/3391216263",
+    "imageUrl": "https://live.staticflickr.com/3655/3391216263_72d7467d45_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

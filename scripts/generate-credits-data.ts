@@ -84,6 +84,41 @@ export function generateCredits(): ImageCredit[] {
     }
   }
 
+  // Harvest credited images from English asset manifest
+  const engManifestPath = path.resolve('src/content/class-3/english/asset-manifest.json');
+  if (fs.existsSync(engManifestPath)) {
+    const manifest = JSON.parse(fs.readFileSync(engManifestPath, 'utf8'));
+    for (const [id, entry] of Object.entries<any>(manifest)) {
+      if (entry && entry.path) {
+        const lic = (entry.license || entry.provenance?.license || '').toLowerCase();
+        if (lic.startsWith('cc-by') || lic.startsWith('cc by') || lic.includes('cc-by') || lic.includes('cc by')) {
+          const p = entry.path;
+          const word = entry.alt ? entry.alt.split('—')[0].trim() : id.replace(/^eng-/, '');
+          const creator = (entry.creator || entry.provenance?.creator || '').trim();
+          const effLic = entry.license || entry.provenance?.license || '';
+          const sourceUrl = entry.sourcePageUrl || entry.provenance?.sourceUrl || '';
+          if (!pathToCredits.has(p)) {
+            pathToCredits.set(p, {
+              id,
+              word,
+              path: p,
+              creator,
+              license: effLic,
+              licenseName: formatLicenseName(effLic),
+              licenseUrl: getLicenseUrl(effLic),
+              sourcePageUrl: sourceUrl
+            });
+          } else {
+            const existing = pathToCredits.get(p)!;
+            if (word && !existing.word.split(', ').includes(word)) {
+              existing.word += `, ${word}`;
+            }
+          }
+        }
+      }
+    }
+  }
+
   const credits = Array.from(pathToCredits.values()).sort((a, b) => a.word.localeCompare(b.word, 'ta'));
   return credits;
 }

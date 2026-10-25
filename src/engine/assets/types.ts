@@ -13,6 +13,7 @@ export interface ImageProvenance {
   license?: string | null;
   creator?: string | null;
   sourceUrl?: string | null;
+  sha256?: string | null;
 }
 
 export interface AssetReference {

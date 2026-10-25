@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Clouds over the Sahara Desert",
+    "creator": "NASA Goddard Photo and Video",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/24662369@N07/6918421203",
+    "imageUrl": "https://live.staticflickr.com/7202/6918421203_2f040d88af_b.jpg",
+    "width": 1024,
+    "height": 781
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "After Snowstorm",
+    "creator": "SurFeRGiRL30",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/33143245@N02/11799112343",
+    "imageUrl": "https://live.staticflickr.com/3693/11799112343_607c7d0476_b.jpg",
+    "width": 1024,
+    "height": 911
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Da wife again",
+    "creator": "DKG Images",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/130493898@N08/15892235303",
+    "imageUrl": "https://live.staticflickr.com/7316/15892235303_1cd9c56ba8_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

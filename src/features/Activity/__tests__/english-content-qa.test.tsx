@@ -240,7 +240,7 @@ describe('Phase D: English Visual Assets & Activity Content QA', () => {
       const res = resolver.resolve({ id: key, type: 'image' });
       expect(res.status, `Asset ${key} should resolve`).toBe('resolved');
       if (res.status === 'resolved') {
-        expect(res.asset.path).toMatch(/^\/assets\/class-3\/tamil\/term-1\/images\//);
+        expect(res.asset.path).toMatch(/^\/assets\/class-3\/(tamil\/term-1|english)\/images\//);
         const diskPath = path.resolve('public', res.asset.path.replace(/^\//, ''));
         expect(fs.existsSync(diskPath), `Physical file ${diskPath} must exist`).toBe(true);
       }

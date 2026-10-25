@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "HK Fortress 建華街 30 Kin Wah Street Saint Jude's Catholic Church wooden door entrance Jan-2013",
+    "creator": "Fotcheunghong",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=23655854",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/HK_Fortress_%E5%BB%BA%E8%8F%AF%E8%A1%97_30_Kin_Wah_Street_Saint_Jude%27s_Catholic_Church_wooden_door_entrance_Jan-2013.JPG",
+    "width": 3648,
+    "height": 2736
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "2009_06_17",
+    "creator": "sporkist",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/17879025@N00/3636954401",
+    "imageUrl": "https://live.staticflickr.com/3318/3636954401_09c009d3ef_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "door",
+    "creator": "Paul Keller",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/18259771@N00/2060468574",
+    "imageUrl": "https://live.staticflickr.com/2043/2060468574_f68b30dadb_b.jpg",
+    "width": 1024,
+    "height": 685
+  }
+]

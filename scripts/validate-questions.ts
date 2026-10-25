@@ -118,6 +118,7 @@ export interface ValidationSummary {
   BLOCKED_IMAGE: string[];
   UNLICENSED_IMAGE: string[];
   ANSWER_IN_PROMPT: string[];
+  PROVENANCE_UNVERIFIED: string[];
 }
 
 /**
@@ -240,6 +241,7 @@ export async function validateQuestions(): Promise<{ summary: ValidationSummary;
     BLOCKED_IMAGE: [],
     UNLICENSED_IMAGE: [],
     ANSWER_IN_PROMPT: [],
+    PROVENANCE_UNVERIFIED: [],
   };
 
   const missingImagesPath = path.resolve('docs/missing-images.csv');
@@ -608,6 +610,80 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
     }
   }
 
+  // Check PROVENANCE_UNVERIFIED:
+  // Fail if an image's manifest provenance isn't backed by a hash match to a candidate whose metadata records that license and creator.
+  // Save the hash in provenance.sha256.
+  const candidateIndex = new Map<string, { word: string; candidateId: string; creator: string; license: string; sourceUrl: string }>();
+  const candidatesBaseDir = path.resolve('docs/image-candidates');
+  if (fs.existsSync(candidatesBaseDir)) {
+    const wordDirs = fs.readdirSync(candidatesBaseDir);
+    for (const wd of wordDirs) {
+      const fullWd = path.join(candidatesBaseDir, wd);
+      if (fs.statSync(fullWd).isDirectory()) {
+        const metaPath = path.join(fullWd, 'metadata.json');
+        if (fs.existsSync(metaPath)) {
+          try {
+            const metaList = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+            for (const cand of metaList) {
+              const candFile = cand.filename || `${cand.candidateId}.jpg`;
+              const fullCandPath = path.join(fullWd, candFile);
+              if (fs.existsSync(fullCandPath)) {
+                const buf = fs.readFileSync(fullCandPath);
+                const h = crypto.createHash('sha256').update(buf).digest('hex');
+                candidateIndex.set(h, {
+                  word: wd,
+                  candidateId: cand.candidateId || candFile,
+                  creator: cand.creator || '',
+                  license: cand.license || '',
+                  sourceUrl: cand.sourceUrl || ''
+                });
+              }
+            }
+          } catch {}
+        }
+      }
+    }
+  }
+
+  const engManifestPath = path.resolve('src/content/class-3/english/asset-manifest.json');
+  if (fs.existsSync(engManifestPath)) {
+    const engManifest = JSON.parse(fs.readFileSync(engManifestPath, 'utf8'));
+    for (const [assetId, asset] of Object.entries<any>(engManifest)) {
+      const prov = asset?.provenance;
+      if (prov && prov.source && prov.source !== 'unknown') {
+        const imgPath = asset.path ? path.resolve('public', asset.path.replace(/^\//, '')) : '';
+        if (!imgPath || !fs.existsSync(imgPath)) {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (file missing on disk)`);
+          continue;
+        }
+
+        const actualHash = crypto.createHash('sha256').update(fs.readFileSync(imgPath)).digest('hex');
+
+        if (!prov.sha256 || prov.sha256.toLowerCase() !== actualHash.toLowerCase()) {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (provenance.sha256 missing or does not match disk hash ${actualHash.slice(0, 8)})`);
+          continue;
+        }
+
+        const matchedCand = candidateIndex.get(actualHash);
+        if (!matchedCand) {
+          summary.PROVENANCE_UNVERIFIED.push(`${assetId} (sha256 ${actualHash.slice(0, 8)} has no matching candidate file in docs/image-candidates)`);
+          continue;
+        }
+
+        const expectedCreator = (matchedCand.creator || '').trim();
+        const actualCreator = (prov.creator || '').trim();
+        const expectedLicense = (matchedCand.license || '').trim().toLowerCase();
+        const actualLicense = (prov.license || '').trim().toLowerCase();
+
+        if (expectedCreator !== actualCreator || expectedLicense !== actualLicense) {
+          summary.PROVENANCE_UNVERIFIED.push(
+            `${assetId} (provenance mismatch: candidate metadata has creator="${expectedCreator}", license="${expectedLicense}"; manifest has creator="${actualCreator}", license="${actualLicense}")`
+          );
+        }
+      }
+    }
+  }
+
   const totalIssues = Object.entries(summary)
     .filter(([category]) => category !== 'UNLICENSED_IMAGE')
     .reduce((acc, [, list]) => acc + list.length, 0);
@@ -637,7 +713,8 @@ async function main() {
     'MISSING_ATTRIBUTION',
     'BLOCKED_IMAGE',
     'UNLICENSED_IMAGE',
-    'ANSWER_IN_PROMPT'
+    'ANSWER_IN_PROMPT',
+    'PROVENANCE_UNVERIFIED'
   ];
 
   console.log('--- VALIDATION SUMMARY BY CATEGORY ---');
