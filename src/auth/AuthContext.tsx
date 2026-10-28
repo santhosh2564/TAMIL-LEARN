@@ -4,7 +4,6 @@ import { AuthService } from './AuthService';
 import { LocalAuthRepository } from './LocalAuthRepository';
 import { can as canCheck, hasRole as hasRoleCheck } from './rules';
 import { AuthContext, AuthContextValue } from './AuthContextInstance';
-export { useAuth } from './useAuth';
 
 export function AuthProvider({
   children,

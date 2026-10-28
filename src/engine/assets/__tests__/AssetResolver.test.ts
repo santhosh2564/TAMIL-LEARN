@@ -91,4 +91,33 @@ describe('AssetResolver', () => {
     const res = resolver.resolve(ref);
     expect(res.status).toBe('invalid');
   });
+
+  it('normalizes case when resolving asset ID', () => {
+    const ref: AssetReference = { id: 'VALID-IMAGE', type: 'image' };
+    const res = resolver.resolve(ref);
+    expect(res.status).toBe('resolved');
+  });
+
+  it('resolves discrete Source ID alias from class3-tamil-picture-<id>', () => {
+    const customResolver = new AssetResolver({
+      'class3-tamil-picture-fts0014': {
+        type: 'image',
+        source: 'local',
+        path: '/images/tamil-vocabulary/FTS0014.jpg',
+        alt: 'அணில்'
+      }
+    });
+
+    const res1 = customResolver.resolve({ id: 'class3-tamil-picture-FTS0014', type: 'image' });
+    expect(res1.status).toBe('resolved');
+    if (res1.status === 'resolved') {
+      expect(res1.asset.path).toBe('/images/tamil-vocabulary/FTS0014.jpg');
+    }
+
+    const res2 = customResolver.resolve({ id: 'FTS0014', type: 'image' });
+    expect(res2.status).toBe('resolved');
+
+    const resMissing = customResolver.resolve({ id: 'FTS9999', type: 'image' });
+    expect(resMissing.status).toBe('missing');
+  });
 });

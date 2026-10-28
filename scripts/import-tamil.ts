@@ -8,15 +8,17 @@ import {
   ActivityOption,
   ContentManifest
 } from '../src/types';
+import { extractSourceId } from '../src/engine/assets/sourceIdExtractor';
+import { ingestTamilImages } from './ingest-tamil-images';
 
 const require = createRequire(import.meta.url);
 const xlsx = require('xlsx');
 
-const WORKBOOK_FILE = path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx');
-const SOURCE_DIR = path.resolve('tamil_json_by_module_activity');
-const INDEX_FILE = path.join(SOURCE_DIR, 'index.json');
+const WORKBOOK_FILE = fs.existsSync(path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx'))
+  ? path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx')
+  : path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx');
+
 const OUT_DIR = path.resolve('src/content/class-3/tamil');
-const TERM1_ASSETS_FILE = path.resolve('src/content/class-3/tamil/term-1/assets.json');
 const EXISTING_ACTIVITIES_FILE = path.join(OUT_DIR, 'activities.json');
 
 interface RawRecord {
@@ -81,6 +83,7 @@ export function normalizeTamilCategory(original: string): { category: ActivityCa
     case 'Context → Drag Word':
     case 'Context → Select/Drag':
     case 'Context → Select':
+    case 'Context → Select/Drag ':
       return { category: 'context-choice', variant: 'fill-blank' };
 
     case 'English Meaning → Tamil Word':
@@ -109,19 +112,29 @@ function parseModuleNumber(modStr?: string | null): number {
 
 function splitDelimited(str?: string): string[] {
   if (!str) return [];
-  // Split by pipe or slash if pipe is absent
   const delimiter = str.includes('|') ? '|' : (str.includes('/') ? '/' : '|');
   return str.split(delimiter).map(s => s.trim()).filter(Boolean);
 }
 
-export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknown>): Activity {
-  const sourceId = rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`;
+export function normalizeRecord(
+  rec: RawRecord,
+  availableImageIds: Set<string>,
+  manifest?: Record<string, unknown>
+): Activity {
+  const sourceId = (rec['Source ID'] || rec['Question ID'] || rec['FTS ID'] || `REC_${rec['Master Sequence']}`).trim().toUpperCase();
   const rawActivity = (rec['Activity'] || '').trim();
+  const pr = (rec['Picture Required'] || '').trim().toLowerCase();
   let { category, variant } = normalizeTamilCategory(rawActivity);
-  if (category === 'picture-recognition' && !rec.image?.path && (rec['Picture Required'] || '').toLowerCase() === 'no') {
+
+  // Exceptions where no image exists
+  const isExplicitNoImageException = ['FTS0080', 'FTS0903', 'FTS0500', 'FTS0552', 'FTS0553', 'FTS0554'].includes(sourceId);
+
+  // If activity is marked picture-recognition but no picture exists or PR is no, fallback to spelling-choice
+  if ((category === 'picture-recognition' && pr === 'no') || (isExplicitNoImageException && category === 'picture-recognition')) {
     category = 'spelling-choice';
     variant = 'select';
   }
+
   const moduleNum = parseModuleNumber(rec['Module']);
   const levelNum = parseLevel(rec['Level']);
   const targetWord = rec['Target Word']?.trim() || '';
@@ -172,12 +185,10 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
   }
 
   if (category === 'word-completion') {
-    // If prompt has __ but no [blank], replace underscores with [blank]
     if (prompt.includes('__') && !prompt.includes('[blank]')) {
       prompt = prompt.replace(/_{2,}/g, '[blank]');
     }
 
-    // Set template for WordCompletionEvaluator
     const matchingOption = tokens.find(t => targetWord.includes(t));
     if (matchingOption) {
       template = targetWord.replace(matchingOption, '_');
@@ -194,28 +205,24 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
 
   if (category === 'arrange-word') {
     units = tokens;
-    // Map units to numbered option tokens for ArrangeWordActivity
     options = units.map((u, i) => ({
       id: String(i + 1),
       label: u
     }));
   } else {
-    // Multiple-choice options
     options = tokens.map((optText, i) => ({
       id: String.fromCharCode(65 + i),
       label: optText
     }));
   }
 
-  // Image handling
+  // Image handling: strict Source ID resolution
   let imageAssetId: string | undefined;
-  const picAssetId = `class3-tamil-picture-${sourceId.toLowerCase()}`;
-  if (rec.image?.path) {
-    imageAssetId = picAssetId;
-  } else if (rawActivity.includes('Picture') || prompt.includes('படத்தில்') || category === 'picture-recognition') {
-    if (manifest && (manifest[picAssetId] || manifest[sourceId.toLowerCase()])) {
-      imageAssetId = picAssetId;
-    }
+  const hasImageInArchive = availableImageIds.has(sourceId);
+  const isPictureRequired = (rawActivity.startsWith('Picture →') || pr === 'yes') && !isExplicitNoImageException;
+
+  if (hasImageInArchive && isPictureRequired) {
+    imageAssetId = `class3-tamil-picture-${sourceId.toLowerCase()}`;
   }
 
   const activity: Activity = {
@@ -232,9 +239,9 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
     correctAnswer,
     learningObjective: `${rawActivity} recognition and practice for ${targetWord}`,
     source: {
-      workbook: rec['Source File'] || 'tamil_json_by_module_activity',
-      questionId: rec['Question ID'] || sourceId,
-      ftsId: rec['FTS ID'] || undefined,
+      workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx',
+      questionId: (rec['Question ID'] || sourceId) as string,
+      ftsId: (rec['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
       originalActivity: rawActivity
     },
     metadata: {
@@ -245,7 +252,7 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
       sourceReferenceContext: rec['Source Reference / Context'],
       pictureSpecification: rec['Picture Specification'],
       verificationFlag: rec['Verification Flag'],
-      imageMeta: rec.image || null
+      imageMeta: imageAssetId ? { path: `/images/tamil-vocabulary/${sourceId}.jpg` } : null
     }
   };
 
@@ -265,44 +272,56 @@ export function normalizeRecord(rec: RawRecord, manifest?: Record<string, unknow
       alt: targetWord
     };
     activity.needsImage = true;
+  } else {
+    activity.needsImage = false;
   }
 
   return activity;
 }
 
 export function importTamilContent() {
-  console.log('Loading Tamil dataset with main source workbook:', WORKBOOK_FILE);
+  console.log('=== Ingesting Tamil Assets & Regenerating Content ===');
+  
+  // Step 1: Ingest images from archive to public and generate asset-manifest.json
+  const ingestionResult = ingestTamilImages();
+  console.log(`Ingestion complete: ${ingestionResult.mappedSourceIds} images mapped to Source IDs.`);
 
+  // Load updated asset manifest
+  const assetManifestFile = path.join(OUT_DIR, 'asset-manifest.json');
+  const assetManifest: Record<string, unknown> = fs.existsSync(assetManifestFile)
+    ? JSON.parse(fs.readFileSync(assetManifestFile, 'utf8'))
+    : {};
+
+  // Find all available Source IDs
+  const availableImageIds = new Set<string>();
+  const idRegex = /(?:^|[^A-Za-z0-9])(FTS\d{4}|Q\d{3})(?:[^A-Za-z0-9]|$)/i;
+  for (const k of Object.keys(assetManifest)) {
+    const m = k.match(idRegex);
+    if (m) availableImageIds.add(m[1].toUpperCase());
+  }
+
+  // Step 2: Load workbook
+  console.log('Loading Tamil dataset with main source workbook:', WORKBOOK_FILE);
   if (!fs.existsSync(WORKBOOK_FILE)) {
     throw new Error(`Main source workbook not found at ${WORKBOOK_FILE}`);
   }
 
-  // Load existing activities to preserve verified prompt rewrites, distractors, and needsImage overrides
   const existingActivitiesMap = new Map<string, Activity>();
   if (fs.existsSync(EXISTING_ACTIVITIES_FILE)) {
     try {
       const existing: Activity[] = JSON.parse(fs.readFileSync(EXISTING_ACTIVITIES_FILE, 'utf8'));
       for (const act of existing) {
-        existingActivitiesMap.set(act.id, act);
+        existingActivitiesMap.set(act.id.toUpperCase(), act);
       }
     } catch (e) {
       console.warn('Could not read existing activities for overrides preservation:', e);
     }
   }
 
-  // Load asset manifest from existing verified asset-manifest.json
-  const assetManifest: Record<string, { type: 'image' | 'audio'; source: 'local'; path: string; alt?: string; [k: string]: unknown }> = {};
-  const currentAssetManifestFile = path.join(OUT_DIR, 'asset-manifest.json');
-  if (fs.existsSync(currentAssetManifestFile)) {
-    const curManifest = JSON.parse(fs.readFileSync(currentAssetManifestFile, 'utf8'));
-    Object.assign(assetManifest, curManifest);
-  }
-
   const wb = xlsx.readFile(WORKBOOK_FILE);
   const allActivities: Activity[] = [];
   const moduleActivitiesMap = new Map<number, Activity[]>();
 
-  // Process all 8 modules in strict curriculum sequence (Position in Module 1..N from workbook sheets)
   for (let modNum = 1; modNum <= 8; modNum++) {
     const sheetName = `Module ${modNum}`;
     const ws = wb.Sheets[sheetName];
@@ -314,65 +333,39 @@ export function importTamilContent() {
 
     for (let pos = 0; pos < rows.length; pos++) {
       const row = rows[pos];
-      const sourceId = (row['Source ID'] || row['Question ID'] || row['FTS ID'] || `REC_${row['Master Sequence']}`) as string;
-      const existing = existingActivitiesMap.get(sourceId);
+      const normalized = normalizeRecord(row, availableImageIds, assetManifest);
+      normalized.module = modNum;
+      normalized.metadata = {
+        ...normalized.metadata,
+        positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
+        masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
+        sourceBatch: row['Source Batch'] as string | undefined,
+        sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
+        sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
+        pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
+        verificationFlag: (row['Verification Flag'] ?? null) as string | null
+      };
 
+      // Preserve existing verified distractor tokens / template overrides if compatible
+      const sid = normalized.id.toUpperCase();
+      const existing = existingActivitiesMap.get(sid);
       if (existing) {
-        // Update module & workbook metadata from current workbook sheet row
-        const updatedActivity: Activity = {
-          ...existing,
-          module: modNum,
-          source: {
-            ...existing.source,
-            workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx',
-            questionId: (row['Question ID'] || sourceId) as string,
-            ftsId: (row['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
-            originalActivity: ((row['Activity'] as string) || '').trim()
-          },
-          metadata: {
-            ...existing.metadata,
-            positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
-            masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
-            sourceBatch: row['Source Batch'] as string | undefined,
-            sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
-            sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
-            pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
-            verificationFlag: (row['Verification Flag'] ?? null) as string | null
-          }
-        };
-
-        modActivities.push(updatedActivity);
-        allActivities.push(updatedActivity);
-      } else {
-        const normalized = normalizeRecord(row, assetManifest);
-        normalized.module = modNum;
-        normalized.source = {
-          ...normalized.source,
-          workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx',
-          questionId: (row['Question ID'] || sourceId) as string,
-          ftsId: (row['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
-          originalActivity: ((row['Activity'] as string) || '').trim()
-        };
-        normalized.metadata = {
-          ...normalized.metadata,
-          positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
-          masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
-          sourceBatch: row['Source Batch'] as string | undefined,
-          sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
-          sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
-          pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
-          verificationFlag: (row['Verification Flag'] ?? null) as string | null
-        };
-        modActivities.push(normalized);
-        allActivities.push(normalized);
+        if (existing.template) normalized.template = existing.template;
+        if (existing.options && existing.options.length > 0 && normalized.category === existing.category) {
+          normalized.options = existing.options;
+        }
       }
+
+      modActivities.push(normalized);
+      allActivities.push(normalized);
     }
 
     moduleActivitiesMap.set(modNum, modActivities);
   }
 
   console.log(`Total normalized Tamil activities: ${allActivities.length}`);
-  console.log(`Total image assets registered in manifest: ${Object.keys(assetManifest).length}`);
+  const withImages = allActivities.filter(a => a.needsImage);
+  console.log(`Activities with verified Source-ID images: ${withImages.length}`);
 
   // Write output files
   if (!fs.existsSync(OUT_DIR)) {
@@ -386,20 +379,13 @@ export function importTamilContent() {
     'utf8'
   );
 
-  // 2. Asset manifest
-  fs.writeFileSync(
-    path.join(OUT_DIR, 'asset-manifest.json'),
-    JSON.stringify(assetManifest, null, 2),
-    'utf8'
-  );
-
-  // 3. Curriculum manifest
+  // 2. Curriculum manifest
   const manifest: ContentManifest = {
     classLevel: 3,
     subject: 'Tamil',
     language: 'ta-IN',
     version: '2.0.0',
-    sourceVersion: 'Tamil Fresh Source Word List Final 1059 (Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx)',
+    sourceVersion: 'Tamil Fresh Source Word List Final 1059 (Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx)',
     generatedDate: new Date().toISOString(),
     activityCount: allActivities.length,
     supportedCategories: [
@@ -418,7 +404,7 @@ export function importTamilContent() {
     'utf8'
   );
 
-  // 4. Per-module folders
+  // 3. Per-module folders
   for (const [modNum, acts] of moduleActivitiesMap.entries()) {
     const modDir = path.join(OUT_DIR, `module-${modNum}`);
     if (!fs.existsSync(modDir)) {

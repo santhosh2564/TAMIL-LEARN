@@ -79,8 +79,10 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
           await rBtn.click();
         }
       }
+      await page.locator('button', { hasText: 'தொடர்க' }).click();
     } else {
       // If first was accidentally correct, test retry on Q013
+      await page.locator('button', { hasText: 'தொடர்க' }).click();
       await page.goto('/session/3/tamil/play?activityId=Q013');
       const optButtonsC = page.locator('button[lang="ta"]');
       await optButtonsC.first().click();
@@ -89,8 +91,19 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
         await page.locator('button', { hasText: 'மீண்டும் முயற்சி செய்' }).click();
         await optButtonsC.nth(1).click();
         await page.locator('button', { hasText: 'விடையைச் சரிபார்' }).click();
+        await page.locator('button', { hasText: 'தொடர்க' }).click();
       }
     }
+
+    // 4. Question C (English Activity: ENG-M1-EW021): Complete correctly on FIRST attempt
+    await page.goto('/session/3/english/play?activityId=ENG-M1-EW021');
+    const exactAskOption = page.getByRole('button', { name: 'ask', exact: true });
+    await expect(exactAskOption).toBeVisible({ timeout: 5000 });
+    // Click option with exact label "ask"
+    await exactAskOption.click();
+    await page.click('button:has-text("Check Answer")');
+    await expect(page.locator('text=Correct!')).toBeVisible({ timeout: 3000 });
+    await page.click('button:has-text("Continue")');
 
     // Refresh browser and verify progress persists in localStorage
     await page.reload();
@@ -187,6 +200,21 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
     await expect(page.getByText('First-Attempt Correct').first()).toBeVisible();
     await expect(page.getByText('Progress by Learning Category').first()).toBeVisible();
     await expect(page.getByText('Question & Attempt History').first()).toBeVisible();
+
+    // Verify questions appear in question history (both Tamil and English)
+    await expect(page.getByText('Q010').first()).toBeVisible();
+    await expect(page.getByText('ENG-M1-EW021').first()).toBeVisible();
+
+    // Verify struggle / retry filter
+    const struggleCheckbox = page.locator('input[type="checkbox"]');
+    await struggleCheckbox.check();
+    // When filtered for struggles, first-attempt correct English question is filtered out
+    await expect(page.locator('text=ENG-M1-EW021')).not.toBeVisible();
+
+    // Uncheck struggle filter
+    await struggleCheckbox.uncheck();
+    await expect(page.getByText('ENG-M1-EW021').first()).toBeVisible();
+
     await page.screenshot({ path: 'test-results/admin-student-details-desktop.png', fullPage: true });
 
     // =========================================================================
@@ -204,6 +232,11 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
   });
 
   test('Responsive Viewport Check: Mobile 375x667', async ({ page }) => {
+    // Seed a student and progress so mobile dashboard renders content
+    await page.goto('/students');
+    await page.fill('#student-name-input', 'MobileLearner');
+    await page.click('button:has-text("Start Learning")');
+
     await page.setViewportSize({ width: 375, height: 667 });
 
     // Login page on mobile
@@ -219,6 +252,18 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
     await expect(page).toHaveURL(/\/admin\/dashboard/);
     await expect(page.getByText('Sara Admin')).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Learning Progress Overview' })).toBeVisible();
+    await expect(page.getByText('MobileLearner').first()).toBeVisible();
+
+    // Check student detail on mobile
+    await page.click('button[aria-label="View progress for MobileLearner"]');
+    await expect(page).toHaveURL(/\/admin\/students\//);
+    await expect(page.getByRole('heading', { name: 'MobileLearner' })).toBeVisible();
+    await expect(page.getByText('Progress by Learning Category').first()).toBeVisible();
+
+    // Verify document width is contained within mobile viewport
+    const overflowWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+    expect(overflowWidth).toBeLessThanOrEqual(380);
+
     await page.screenshot({ path: 'test-results/admin-dashboard-mobile.png', fullPage: true });
   });
 });

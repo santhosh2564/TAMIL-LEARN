@@ -45,7 +45,8 @@
         "id": "D",
         "label": "அஞ்சல்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0002",
@@ -93,7 +94,8 @@
         "id": "D",
         "label": "அககா"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0003",
@@ -123,14 +125,7 @@
       "pictureSpecification": "Picture: அங்காடி; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0003.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_White_House_Black_Market_store_at_an_outdoor_shopping_center_in_Delaware.jpg",
-        "license": "cc-by-4.0",
-        "creator": "Harrison Keely",
-        "attribution": "Harrison Keely / cc-by-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_01_FTS0003.jpg"
       }
     },
     "options": [
@@ -158,6 +153,7 @@
       "ங்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0003",
       "type": "image",
       "source": "class3-tamil-picture-fts0003",
       "alt": "அங்காடி"
@@ -210,7 +206,8 @@
         "id": "D",
         "label": "அங்கேம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0005",
@@ -258,7 +255,8 @@
         "id": "D",
         "label": "அஞ்சால்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0006",
@@ -306,7 +304,8 @@
         "id": "D",
         "label": "அடக்கம்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0007",
@@ -354,7 +353,8 @@
         "id": "D",
         "label": "அடர்ந்த்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0008",
@@ -407,7 +407,8 @@
         "label": "டீ"
       }
     ],
-    "template": "அ_"
+    "template": "அ_",
+    "needsImage": false
   },
   {
     "id": "FTS0009",
@@ -455,7 +456,8 @@
         "id": "D",
         "label": "அடிக்கடிம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q001",
@@ -483,14 +485,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q001.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rabbit_den_hole_in_Parco_Alto_Milanese_-_Busto_Arsizio,_Lombardy,_Italy_-_2021-04-05.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Mænsard vokser",
-        "attribution": "Mænsard vokser / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q001_Muyal.jpg"
       }
     },
     "options": [
@@ -511,7 +506,13 @@
         "label": "நாய்"
       }
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-q001",
+      "type": "image",
+      "source": "class3-tamil-picture-q001",
+      "alt": "முயல்"
+    }
   },
   {
     "id": "FTS0010",
@@ -559,7 +560,8 @@
         "id": "D",
         "label": "அடிமைம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0011",
@@ -589,14 +591,7 @@
       "pictureSpecification": "Picture: அடுப்பு; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0011.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cooking_Stove_SAAM-2011.37.16A-D_1.jpg",
-        "license": "cc0",
-        "creator": "William H. Allen / James Slocum",
-        "attribution": "William H. Allen / James Slocum / cc0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_02_FTS0011.jpg"
       }
     },
     "options": [
@@ -624,6 +619,7 @@
       "ப்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0011",
       "type": "image",
       "source": "class3-tamil-picture-fts0011",
       "alt": "அடுப்பு"
@@ -682,7 +678,8 @@
       "டை",
       "ழி",
       "மொ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0013",
@@ -712,14 +709,7 @@
       "pictureSpecification": "Picture: அட்டை — source-supported referent; use a clear child-friendly illustration.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0013.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Macrocilix_maia_(Leech,_1888)_in_black_-_iNaturalist.jpg",
-        "license": "cc-by-4.0",
-        "creator": "dhfischer",
-        "attribution": "dhfischer / cc-by-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_03_FTS0013.jpg"
       }
     },
     "options": [
@@ -740,7 +730,13 @@
         "label": "அங்காடி"
       }
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-fts0013",
+      "type": "image",
+      "source": "class3-tamil-picture-fts0013",
+      "alt": "அட்டை"
+    }
   },
   {
     "id": "FTS0014",
@@ -770,14 +766,7 @@
       "pictureSpecification": "Picture: அணில் — source-supported referent; use a clear child-friendly illustration.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0014.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Grey_squirrel_(Sciurus_carolinensis)_02.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Charles J. Sharp",
-        "attribution": "Charles J. Sharp / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_04_FTS0014.jpg"
       }
     },
     "options": [
@@ -799,6 +788,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0014",
       "type": "image",
       "source": "class3-tamil-picture-fts0014",
       "alt": "அணில்"
@@ -862,7 +852,8 @@
       "த",
       "ல்",
       "த்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0016",
@@ -910,7 +901,8 @@
         "id": "D",
         "label": "அன்னா"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0017",
@@ -958,7 +950,8 @@
         "id": "D",
         "label": "அதிகம்ம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0018",
@@ -1022,7 +1015,8 @@
       "பு",
       "க",
       "ரி"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q002",
@@ -1069,7 +1063,8 @@
         "label": "து"
       }
     ],
-    "template": "கு_"
+    "template": "கு_",
+    "needsImage": false
   },
   {
     "id": "FTS0019",
@@ -1133,7 +1128,8 @@
       "து",
       "ர்",
       "ந்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0020",
@@ -1181,7 +1177,8 @@
         "id": "D",
         "label": "அத்த"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0021",
@@ -1229,7 +1226,8 @@
         "id": "D",
         "label": "அனுபவம்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0022",
@@ -1277,7 +1275,8 @@
         "id": "D",
         "label": "அனுமதிய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0023",
@@ -1325,7 +1324,8 @@
         "id": "D",
         "label": "அன்னைம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0024",
@@ -1373,7 +1373,8 @@
         "id": "D",
         "label": "அம்பு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0025",
@@ -1421,7 +1422,8 @@
         "id": "D",
         "label": "அன்புசெய்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0026",
@@ -1480,7 +1482,8 @@
       "த",
       "ம்",
       "ரா"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q003",
@@ -1508,14 +1511,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q003.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fragaria_vesca_fruit_-_Keila.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "\nIvar Leidus",
-        "attribution": "\nIvar Leidus / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q003_Pazham.jpg"
       }
     },
     "options": [
@@ -1537,6 +1533,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-q003",
       "type": "image",
       "source": "class3-tamil-picture-q003",
       "alt": "பழம்"
@@ -1589,7 +1586,8 @@
         "id": "D",
         "label": "அபாயம்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0028",
@@ -1619,14 +1617,7 @@
       "pictureSpecification": "Picture: அப்பளம்; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0028.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Papad_(roasted).jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Navaneeth Krishnan S",
-        "attribution": "Navaneeth Krishnan S / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_05_FTS0028.jpg"
       }
     },
     "options": [
@@ -1659,6 +1650,7 @@
       "ப"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0028",
       "type": "image",
       "source": "class3-tamil-picture-fts0028",
       "alt": "அப்பளம்"
@@ -1715,7 +1707,8 @@
         "id": "D",
         "label": "அப்போ"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0030",
@@ -1763,7 +1756,8 @@
         "label": "முந"
       }
     ],
-    "template": "அ_தன்"
+    "template": "அ_தன்",
+    "needsImage": false
   },
   {
     "id": "FTS0031",
@@ -1811,7 +1805,8 @@
         "id": "D",
         "label": "அமுதம்ம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0032",
@@ -1859,7 +1854,8 @@
         "id": "D",
         "label": "அமைத"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0033",
@@ -1907,7 +1903,8 @@
         "id": "D",
         "label": "அம்மி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0034",
@@ -1955,7 +1952,8 @@
         "id": "D",
         "label": "அரசுன்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0035",
@@ -2003,7 +2001,8 @@
         "id": "D",
         "label": "அரசற"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q004",
@@ -2050,7 +2049,8 @@
       "ப",
       "ட",
       "ம்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0036",
@@ -2098,7 +2098,8 @@
         "id": "D",
         "label": "அரசுய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0037",
@@ -2128,14 +2129,7 @@
       "pictureSpecification": "Picture: அரண்மனை; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0037.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dornoch_Castle.jpg",
-        "license": "cc-by-sa-2.0",
-        "creator": "Tom Pennington",
-        "attribution": "Tom Pennington / cc-by-sa-2.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_06_FTS0037.jpg"
       }
     },
     "options": [
@@ -2168,6 +2162,7 @@
       "ண்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0037",
       "type": "image",
       "source": "class3-tamil-picture-fts0037",
       "alt": "அரண்மனை"
@@ -2220,7 +2215,8 @@
         "id": "D",
         "label": "அரிசு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0039",
@@ -2274,7 +2270,8 @@
       "ரு",
       "ல்",
       "கி"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0040",
@@ -2322,7 +2319,8 @@
         "id": "D",
         "label": "அறை"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0041",
@@ -2370,7 +2368,8 @@
         "id": "D",
         "label": "அறம்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0042",
@@ -2400,14 +2399,7 @@
       "pictureSpecification": "Picture: அறிஞர்; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0042.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Learned_Hand_in_Greensboro_Daily_News_Sun_Sep_7_1958.jpg",
-        "license": "pd",
-        "creator": "Unknown authorUnknown author",
-        "attribution": "Unknown authorUnknown author / pd",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_07_FTS0042.jpg"
       }
     },
     "options": [
@@ -2435,6 +2427,7 @@
       "ஞ"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0042",
       "type": "image",
       "source": "class3-tamil-picture-fts0042",
       "alt": "அறிஞர்"
@@ -2487,7 +2480,8 @@
         "id": "D",
         "label": "அறிமுகம்ய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0044",
@@ -2535,7 +2529,8 @@
         "id": "D",
         "label": "அறியாமைய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q005",
@@ -2563,14 +2558,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q005.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:DSC09611a_Search_and_Rescue_Dog,_Austrian_Red_Cross_Perchtoldsdorf,_2024-10.jpg",
-        "license": "cc-by-4.0",
-        "creator": "Aciarium",
-        "attribution": "Aciarium / cc-by-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q005_Naai.jpg"
       }
     },
     "options": [
@@ -2592,6 +2580,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-q005",
       "type": "image",
       "source": "class3-tamil-picture-q005",
       "alt": "நாய்"
@@ -2644,7 +2633,8 @@
         "id": "D",
         "label": "அறிவிப்பூ"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0046",
@@ -2692,7 +2682,8 @@
         "id": "D",
         "label": "அறிவியல்ம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0047",
@@ -2740,7 +2731,8 @@
         "id": "D",
         "label": "அறிவுய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0048",
@@ -2788,7 +2780,8 @@
         "id": "D",
         "label": "அறிவுரைய்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0049",
@@ -2841,7 +2834,8 @@
         "label": "லை"
       }
     ],
-    "template": "அ_"
+    "template": "அ_",
+    "needsImage": false
   },
   {
     "id": "FTS0050",
@@ -2871,14 +2865,7 @@
       "pictureSpecification": "Picture: அலமாரி; arrange the explicitly stored Tamil orthographic units.",
       "verificationFlag": null,
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0050.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Canopy_bed_and_wardrobes_in_Khan_Pool_Suite_at_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Basile Morin",
-        "attribution": "Basile Morin / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_08_FTS0050.jpg"
       }
     },
     "options": [
@@ -2906,6 +2893,7 @@
       "மா"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0050",
       "type": "image",
       "source": "class3-tamil-picture-fts0050",
       "alt": "அலமாரி"
@@ -2940,14 +2928,7 @@
       "pictureSpecification": "Picture should show a clearly recognisable office.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0051.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:More_London_Office_Development_at_Dusk,_London,_UK_-_Diliff.jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "Diliff",
-        "attribution": "Diliff / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_01_FTS0051.jpg"
       }
     },
     "options": [
@@ -2985,6 +2966,7 @@
       "ல"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0051",
       "type": "image",
       "source": "class3-tamil-picture-fts0051",
       "alt": "அலுவலகம்"
@@ -3041,7 +3023,8 @@
         "id": "D",
         "label": "அங்காடி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0053",
@@ -3071,14 +3054,7 @@
       "pictureSpecification": "Picture should show a mobile phone.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0053.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Blackview_A60_Smartphone_Android_mobile_phone_and_folio_case.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Acabashi",
-        "attribution": "Acabashi / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_02_FTS0053.jpg"
       }
     },
     "options": [
@@ -3106,6 +3082,7 @@
       "லை"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0053",
       "type": "image",
       "source": "class3-tamil-picture-fts0053",
       "alt": "அலைபேசி"
@@ -3156,7 +3133,8 @@
         "id": "D",
         "label": "மன"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0054",
@@ -3204,7 +3182,8 @@
         "id": "D",
         "label": "அலலது"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0055",
@@ -3283,7 +3262,8 @@
       "ம்",
       "ப",
       "டு"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0056",
@@ -3336,7 +3316,8 @@
         "label": "வா"
       }
     ],
-    "template": "அள_"
+    "template": "அள_",
+    "needsImage": false
   },
   {
     "id": "FTS0057",
@@ -3384,7 +3365,8 @@
         "id": "D",
         "label": "அழகாக்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0058",
@@ -3437,7 +3419,8 @@
         "label": "ழு"
       }
     ],
-    "template": "அழ_"
+    "template": "அழ_",
+    "needsImage": false
   },
   {
     "id": "FTS0059",
@@ -3467,14 +3450,7 @@
       "pictureSpecification": "Picture should clearly show an eraser.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0059.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_Fish_Rubber_(Eraser).jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Waderwoder",
-        "attribution": "Waderwoder / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_03_FTS0059.jpg"
       }
     },
     "options": [
@@ -3507,6 +3483,7 @@
       "ப்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0059",
       "type": "image",
       "source": "class3-tamil-picture-fts0059",
       "alt": "அழிப்பான்"
@@ -3559,7 +3536,8 @@
         "id": "D",
         "label": "ஆழுகி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0061",
@@ -3628,7 +3606,8 @@
       "ழு",
       "வி",
       "து"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0062",
@@ -3687,7 +3666,8 @@
       "தா",
       "ழை",
       "ல்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q007",
@@ -3729,7 +3709,8 @@
     "units": [
       "க",
       "ல்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0063",
@@ -3798,7 +3779,8 @@
       "ழை",
       "க",
       "ப்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0064",
@@ -3851,7 +3833,8 @@
         "id": "D",
         "label": "அழைபு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0065",
@@ -3899,7 +3882,8 @@
         "id": "D",
         "label": "ஆகசுட்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0066",
@@ -3947,7 +3931,8 @@
         "id": "D",
         "label": "ஆககம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0067",
@@ -3977,14 +3962,7 @@
       "pictureSpecification": "Picture should clearly depict a teacher.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0067.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg",
-        "license": "cc-by-4.0",
-        "creator": "Harrison Keely",
-        "attribution": "Harrison Keely / cc-by-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_04_FTS0067.jpg"
       }
     },
     "options": [
@@ -4017,6 +3995,7 @@
       "ய"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0067",
       "type": "image",
       "source": "class3-tamil-picture-fts0067",
       "alt": "ஆசிரியர்"
@@ -4074,7 +4053,8 @@
         "label": "சே"
       }
     ],
-    "template": "ஆ_"
+    "template": "ஆ_",
+    "needsImage": false
   },
   {
     "id": "FTS0069",
@@ -4138,7 +4118,8 @@
       "ம்",
       "ச",
       "ரி"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0070",
@@ -4191,7 +4172,8 @@
         "label": "டு"
       }
     ],
-    "template": "ஆ_"
+    "template": "ஆ_",
+    "needsImage": false
   },
   {
     "id": "FTS0071",
@@ -4221,14 +4203,7 @@
       "pictureSpecification": "Picture must depict goat, not dance.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0071.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Baby_Goat_in_Margarita_Island,_Venezuela.jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "Béria Lima de Rodríguez",
-        "attribution": "Béria Lima de Rodríguez / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_05_FTS0071.jpg"
       }
     },
     "options": [
@@ -4250,6 +4225,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0071",
       "type": "image",
       "source": "class3-tamil-picture-fts0071",
       "alt": "ஆடு"
@@ -4301,7 +4277,8 @@
       "ம",
       "ல",
       "ர்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0072",
@@ -4331,14 +4308,7 @@
       "pictureSpecification": "Picture should clearly show a garment shop.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0072.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E6%9D%B1%E8%8E%9E_Guangguan_%E8%99%8E%E9%96%80_Humen_Town_%E8%90%AC%E9%81%94%E5%BB%A3%E5%A0%B4_Wanda_Plaza_mall_shop_clothing_December_2025_N13P_09.jpg",
-        "license": "cc0",
-        "creator": "HSOMWEI mATIWM Uatnm LUNGA",
-        "attribution": "HSOMWEI mATIWM Uatnm LUNGA / cc0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_06_FTS0072.jpg"
       }
     },
     "options": [
@@ -4370,7 +4340,13 @@
       "ய",
       "க"
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-fts0072",
+      "type": "image",
+      "source": "class3-tamil-picture-fts0072",
+      "alt": "ஆடையகம்"
+    }
   },
   {
     "id": "FTS0073",
@@ -4422,7 +4398,8 @@
         "id": "D",
         "label": "ஆட்டம"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0074",
@@ -4471,7 +4448,8 @@
         "label": "ணா"
       }
     ],
-    "template": "ஆ_"
+    "template": "ஆ_",
+    "needsImage": false
   },
   {
     "id": "FTS0075",
@@ -4520,7 +4498,8 @@
         "label": "ற"
       }
     ],
-    "template": "ஆ_ரி"
+    "template": "ஆ_ரி",
+    "needsImage": false
   },
   {
     "id": "FTS0076",
@@ -4563,7 +4542,8 @@
     "units": [
       "தி",
       "ஆ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0077",
@@ -4615,7 +4595,8 @@
         "id": "D",
         "label": "அஞ்சல்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0078",
@@ -4645,14 +4626,7 @@
       "pictureSpecification": "Picture should clearly depict an owl.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0078.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_screech_owl_rehabilitated_after_eye_injury_(44333).jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Rhododendrites",
-        "attribution": "Rhododendrites / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_07_FTS0078.jpg"
       }
     },
     "options": [
@@ -4674,6 +4648,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0078",
       "type": "image",
       "source": "class3-tamil-picture-fts0078",
       "alt": "ஆந்தை"
@@ -4726,7 +4701,8 @@
         "id": "D",
         "label": "ஆமை"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q009",
@@ -4754,14 +4730,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q009.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sea_foam_at_Ocean_Beach_in_San_Francisco_-1_on_3-25-11.jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "Brocken Inaglory",
-        "attribution": "Brocken Inaglory / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q009_Kadal.jpg"
       }
     },
     "options": [
@@ -4783,6 +4752,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-q009",
       "type": "image",
       "source": "class3-tamil-picture-q009",
       "alt": "கடல்"
@@ -4839,7 +4809,8 @@
         "id": "D",
         "label": "ஆலமரம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0081",
@@ -4869,14 +4840,7 @@
       "pictureSpecification": "Picture should clearly depict a turtle.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0081.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Green_Sea_Turtle_grazing_seagrass.jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "P.Lindgren",
-        "attribution": "P.Lindgren / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_08_FTS0081.jpg"
       }
     },
     "options": [
@@ -4898,6 +4862,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0081",
       "type": "image",
       "source": "class3-tamil-picture-fts0081",
       "alt": "ஆமை"
@@ -4950,7 +4915,8 @@
         "id": "D",
         "label": "ஆயினால்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0083",
@@ -4998,7 +4964,8 @@
         "id": "D",
         "label": "ஆயூள்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0084",
@@ -5028,14 +4995,7 @@
       "pictureSpecification": "Picture should clearly depict a river.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0084.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Desna_river_Vinn_meadow_2019_G01.jpg",
-        "license": "pd",
-        "creator": "George Chernilevsky",
-        "attribution": "George Chernilevsky / pd",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_09_FTS0084.jpg"
       }
     },
     "options": [
@@ -5057,6 +5017,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0084",
       "type": "image",
       "source": "class3-tamil-picture-fts0084",
       "alt": "ஆறு"
@@ -5091,14 +5052,7 @@
       "pictureSpecification": "Picture should clearly depict a banyan tree.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0085.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Banyan_tree_2024.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Unnikannan7",
-        "attribution": "Unnikannan7 / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_10_FTS0085.jpg"
       }
     },
     "options": [
@@ -5131,6 +5085,7 @@
       "ம்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0085",
       "type": "image",
       "source": "class3-tamil-picture-fts0085",
       "alt": "ஆலமரம்"
@@ -5199,7 +5154,8 @@
       "க",
       "லோ",
       "ள்"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0087",
@@ -5247,7 +5203,8 @@
         "id": "D",
         "label": "ஆறு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0088",
@@ -5295,7 +5252,8 @@
         "id": "D",
         "label": "இக்ங்கே"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q010",
@@ -5346,7 +5304,8 @@
         "label": "னி"
       }
     ],
-    "template": "பள்_"
+    "template": "பள்_",
+    "needsImage": false
   },
   {
     "id": "FTS0089",
@@ -5400,7 +5359,8 @@
       "டை",
       "ளை",
       "வே"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0090",
@@ -5430,14 +5390,7 @@
       "pictureSpecification": "Picture should clearly depict idli.",
       "verificationFlag": "Revised – options/units rearranged; pending substantive verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0090.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Idli_(South_Indian_cuisine).jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "SwatiGupta1986",
-        "attribution": "SwatiGupta1986 / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_11_FTS0090.jpg"
       }
     },
     "options": [
@@ -5459,6 +5412,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0090",
       "type": "image",
       "source": "class3-tamil-picture-fts0090",
       "alt": "இட்லி"
@@ -5511,7 +5465,8 @@
         "id": "D",
         "label": "இணைபேன்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0092",
@@ -5565,7 +5520,8 @@
       "ணை",
       "ம்",
       "ய"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0093",
@@ -5595,14 +5551,7 @@
       "pictureSpecification": "Picture should show magazines as the intended object.",
       "verificationFlag": "Revised – options/units rearranged; pending substantive verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0093.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Journals_and_magazines_at_Kikandwa_Environment_Association,_Kikandwa,_Mityana_district.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Catherine Amia",
-        "attribution": "Catherine Amia / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_12_FTS0093.jpg"
       }
     },
     "options": [
@@ -5635,6 +5584,7 @@
       "ழ்"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0093",
       "type": "image",
       "source": "class3-tamil-picture-fts0093",
       "alt": "இதழ்கள்"
@@ -5713,7 +5663,8 @@
       "ன",
       "எ",
       "ழு"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0095",
@@ -5766,7 +5717,8 @@
         "id": "D",
         "label": "இணிது"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0096",
@@ -5796,14 +5748,7 @@
       "pictureSpecification": "Picture should clearly show a sweet shop.",
       "verificationFlag": "Constructed – pending verification",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0096.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Japanese_candy_store_in_%22The_Great_Buddha_Sweet_Shop%22_from_Akizato_Rito%27s_Miyako_meisho_zue_(1787)_part_2.jpg",
-        "license": "pd",
-        "creator": "\nShunchosai Takehara Nobushige",
-        "attribution": "\nShunchosai Takehara Nobushige / pd",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Picture_13_FTS0096.jpg"
       }
     },
     "options": [
@@ -5840,7 +5785,13 @@
       "ம்",
       "இ"
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-fts0096",
+      "type": "image",
+      "source": "class3-tamil-picture-fts0096",
+      "alt": "இனிப்பகம்"
+    }
   },
   {
     "id": "FTS0097",
@@ -5893,7 +5844,8 @@
         "id": "D",
         "label": "இனீப்பு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q011",
@@ -5939,7 +5891,8 @@
         "id": "D",
         "label": "மானி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0098",
@@ -5987,7 +5940,8 @@
         "id": "D",
         "label": "இன்னா"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0099",
@@ -6035,7 +5989,8 @@
         "id": "D",
         "label": "இனிது"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0100",
@@ -6083,7 +6038,8 @@
         "id": "D",
         "label": "இனிப்பு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0101",
@@ -6130,7 +6086,8 @@
         "id": "D",
         "label": "கோபம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0102",
@@ -6177,7 +6134,8 @@
         "id": "D",
         "label": "இன்றும்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0103",
@@ -6224,7 +6182,8 @@
         "id": "D",
         "label": "இமா"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0104",
@@ -6271,7 +6230,8 @@
         "id": "D",
         "label": "இயற்கம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0105",
@@ -6318,7 +6278,8 @@
         "id": "D",
         "label": "இரவலி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0106",
@@ -6370,7 +6331,8 @@
         "label": "ராறு"
       }
     ],
-    "template": "இ_"
+    "template": "இ_",
+    "needsImage": false
   },
   {
     "id": "Q012",
@@ -6421,7 +6383,8 @@
         "label": "ரி"
       }
     ],
-    "template": "பு_"
+    "template": "பு_",
+    "needsImage": false
   },
   {
     "id": "FTS0107",
@@ -6468,7 +6431,8 @@
         "id": "D",
         "label": "இட்டால்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0108",
@@ -6515,7 +6479,8 @@
         "id": "D",
         "label": "இருபக்கள்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0109",
@@ -6578,7 +6543,8 @@
       "க",
       "ம்",
       "இ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0110",
@@ -6608,14 +6574,7 @@
       "pictureSpecification": "Picture should clearly represent இறகு.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0110.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Feather_of_male_Pavo_cristatus_(Indian_peafowl).jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "MichaelMaggs",
-        "attribution": "MichaelMaggs / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0110.jpg"
       }
     },
     "options": [
@@ -6637,6 +6596,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0110",
       "type": "image",
       "source": "class3-tamil-picture-fts0110",
       "alt": "இறகு"
@@ -6688,7 +6648,8 @@
         "id": "D",
         "label": "இறை"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0112",
@@ -6740,7 +6701,8 @@
         "label": "லை"
       }
     ],
-    "template": "இ_"
+    "template": "இ_",
+    "needsImage": false
   },
   {
     "id": "FTS0113",
@@ -6787,7 +6749,8 @@
         "id": "D",
         "label": "இறங்க"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0114",
@@ -6817,14 +6780,7 @@
       "pictureSpecification": "Picture should clearly represent இலை.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0114.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Taro_leaf_underside,_backlit_by_sun_-_edit.jpg",
-        "license": "cc-by-sa-3.0",
-        "creator": "Taro_leaf_underside,_backlit_by_sun.jpg: Avenue\nDerivative work: Avenue (talk)",
-        "attribution": "Taro_leaf_underside,_backlit_by_sun.jpg: Avenue\nDerivative work: Avenue (talk) / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0114.jpg"
       }
     },
     "options": [
@@ -6846,6 +6802,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0114",
       "type": "image",
       "source": "class3-tamil-picture-fts0114",
       "alt": "இலை"
@@ -6897,7 +6854,8 @@
         "id": "D",
         "label": "இளமை"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q013",
@@ -6925,14 +6883,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q013.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dog_rat_mouse_skulls.JPG",
-        "license": "cc-by-sa-3.0",
-        "creator": "Mirta12",
-        "attribution": "Mirta12 / cc-by-sa-3.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q013_Eli.jpg"
       }
     },
     "options": [
@@ -6953,7 +6904,13 @@
         "label": "எரி"
       }
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-q013",
+      "type": "image",
+      "source": "class3-tamil-picture-q013",
+      "alt": "எலி"
+    }
   },
   {
     "id": "FTS0116",
@@ -7000,7 +6957,8 @@
         "id": "D",
         "label": "இல்லாமல்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0117",
@@ -7051,7 +7009,8 @@
         "id": "D",
         "label": "இல்லறம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0118",
@@ -7098,7 +7057,8 @@
         "id": "D",
         "label": "இளமி"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0119",
@@ -7128,14 +7088,7 @@
       "pictureSpecification": "Picture should clearly represent ஈ.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0119.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Housefly_on_a_leaf_crop.jpg",
-        "license": "unknown",
-        "creator": "Muhammad Mahdi Karim",
-        "attribution": "Muhammad Mahdi Karim / unknown",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0119.jpg"
       }
     },
     "options": [
@@ -7157,6 +7110,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0119",
       "type": "image",
       "source": "class3-tamil-picture-fts0119",
       "alt": "ஈ"
@@ -7208,7 +7162,8 @@
         "id": "D",
         "label": "ஈசல்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0121",
@@ -7243,14 +7198,7 @@
       "pictureSpecification": "Picture should clearly represent ஈக்கள்.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0121.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Common_green_bottle_flies_(Lucilia_sericata)_female_left_and_male_B%C3%BCrgerpark.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Charles J. Sharp",
-        "attribution": "Charles J. Sharp / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0121.jpg"
       }
     },
     "options": [
@@ -7272,6 +7220,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0121",
       "type": "image",
       "source": "class3-tamil-picture-fts0121",
       "alt": "ஈக்கள்"
@@ -7306,14 +7255,7 @@
       "pictureSpecification": "Picture should clearly represent ஈச்சமரம்.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0122.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Phoenix_dactylifera,_date_palm_7026.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "ImagePerson",
-        "attribution": "ImagePerson / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0122.jpg"
       }
     },
     "options": [
@@ -7351,6 +7293,7 @@
       "ஈ"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0122",
       "type": "image",
       "source": "class3-tamil-picture-fts0122",
       "alt": "ஈச்சமரம்"
@@ -7408,7 +7351,8 @@
       "பா",
       "டு",
       "ஈ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0124",
@@ -7455,7 +7399,8 @@
         "id": "D",
         "label": "ஈம்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q014",
@@ -7483,14 +7428,7 @@
       "sourceReferenceContext": null,
       "verificationFlag": "Retained from earlier question bank",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/Q014.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:London_King%27s_Cross_rainbow_light_tunnel_-_2023-06-25.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "The wub",
-        "attribution": "The wub / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/Q014_Vannangal.jpg"
       }
     },
     "options": [
@@ -7512,6 +7450,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-q014",
       "type": "image",
       "source": "class3-tamil-picture-q014",
       "alt": "வண்ணங்கள்"
@@ -7563,7 +7502,8 @@
         "id": "D",
         "label": "உண்டு"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0126",
@@ -7621,7 +7561,8 @@
       "பா",
       "டு",
       "உ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0127",
@@ -7651,14 +7592,7 @@
       "pictureSpecification": "Picture should clearly represent உடம்பு.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0127.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Human_faces.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Autisticeditor 20",
-        "attribution": "Autisticeditor 20 / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0127.jpg"
       }
     },
     "options": [
@@ -7685,7 +7619,13 @@
       "பு",
       "உ"
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-fts0127",
+      "type": "image",
+      "source": "class3-tamil-picture-fts0127",
+      "alt": "உடம்பு"
+    }
   },
   {
     "id": "FTS0128",
@@ -7715,14 +7655,7 @@
       "pictureSpecification": "Picture should clearly represent உடல்.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0128.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Human_faces.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Autisticeditor 20",
-        "attribution": "Autisticeditor 20 / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0128.jpg"
       }
     },
     "options": [
@@ -7743,7 +7676,13 @@
         "label": "உதவி"
       }
     ],
-    "needsImage": false
+    "needsImage": true,
+    "image": {
+      "id": "class3-tamil-picture-fts0128",
+      "type": "image",
+      "source": "class3-tamil-picture-fts0128",
+      "alt": "உடல்"
+    }
   },
   {
     "id": "FTS0129",
@@ -7806,7 +7745,8 @@
       "ல",
       "ம்",
       "உ"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0130",
@@ -7853,7 +7793,8 @@
         "id": "D",
         "label": "உதவும்"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0131",
@@ -7883,14 +7824,7 @@
       "pictureSpecification": "Picture should clearly represent உடை.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_select/FTS0131.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:02018_0584_reconstructed_Viking_Age_male_or_female_clothing_dress_etc.jpg",
-        "license": "cc-by-sa-4.0",
-        "creator": "Silar",
-        "attribution": "Silar / cc-by-sa-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0131.jpg"
       }
     },
     "options": [
@@ -7912,6 +7846,7 @@
       }
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0131",
       "type": "image",
       "source": "class3-tamil-picture-fts0131",
       "alt": "உடை"
@@ -7963,7 +7898,8 @@
         "id": "D",
         "label": "உமை"
       }
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "Q015",
@@ -8015,7 +7951,8 @@
       "ழ",
       "ங்",
       "கு"
-    ]
+    ],
+    "needsImage": false
   },
   {
     "id": "FTS0133",
@@ -8045,14 +7982,7 @@
       "pictureSpecification": "Picture should clearly represent உணவகம்.",
       "verificationFlag": "Constructed – pending verification. Target-specific draft; verify options, distractors, and clue before approval. Picture requirement retained from verified mapping.",
       "imageMeta": {
-        "path": "/images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0133.jpg",
-        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_modern_Burger_King_fast_food_restaurant_in_Ooltewah,_Tennessee.jpg",
-        "license": "cc-by-4.0",
-        "creator": "Harrison Keely",
-        "attribution": "Harrison Keely / cc-by-4.0",
-        "imageSource": "wikimedia",
-        "status": "downloaded",
-        "reviewStatus": "pending"
+        "path": "/images/tamil-vocabulary/FTS0133.jpg"
       }
     },
     "options": [
@@ -8085,6 +8015,7 @@
       "உ"
     ],
     "image": {
+      "id": "class3-tamil-picture-fts0133",
       "type": "image",
       "source": "class3-tamil-picture-fts0133",
       "alt": "உணவகம்"

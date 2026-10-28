@@ -262,6 +262,118 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       expect(metrics.questionsRetried).toBe(1);
       expect(metrics.totalRetries).toBe(1);
     });
+    it('aggregates correctly across multiple students with different progress profiles (Section 14 Audit)', async () => {
+      const { studentService, progressService, adminService } = createServices();
+
+      // Student A: 5 completed, 5 first-attempt successes, 0 retries
+      const studentA = await studentService.createStudent('Student A');
+      for (let i = 1; i <= 5; i++) {
+        await progressService.recordAttempt({
+          studentId: studentA.id,
+          activityId: `Q_A_${i}`,
+          category: 'picture-recognition',
+          isCorrect: true,
+          isCompleted: true,
+        });
+      }
+
+      // Student B: 5 completed, 2 first-attempt successes, 3 questions retried, 5 total retries
+      const studentB = await studentService.createStudent('Student B');
+      // Q1 & Q2: First-attempt success
+      for (let i = 1; i <= 2; i++) {
+        await progressService.recordAttempt({
+          studentId: studentB.id,
+          activityId: `Q_B_${i}`,
+          category: 'spelling-choice',
+          isCorrect: true,
+          isCompleted: true,
+        });
+      }
+      // Q3: 1 retry (1 wrong -> 1 correct)
+      await progressService.recordAttempt({
+        studentId: studentB.id,
+        activityId: 'Q_B_3',
+        category: 'spelling-choice',
+        isCorrect: false,
+        isCompleted: false,
+      });
+      await progressService.recordAttempt({
+        studentId: studentB.id,
+        activityId: 'Q_B_3',
+        category: 'spelling-choice',
+        isCorrect: true,
+        isCompleted: true,
+      });
+
+      // Q4: 1 retry (1 wrong -> 1 correct)
+      await progressService.recordAttempt({
+        studentId: studentB.id,
+        activityId: 'Q_B_4',
+        category: 'arrange-word',
+        isCorrect: false,
+        isCompleted: false,
+      });
+      await progressService.recordAttempt({
+        studentId: studentB.id,
+        activityId: 'Q_B_4',
+        category: 'arrange-word',
+        isCorrect: true,
+        isCompleted: true,
+      });
+
+      // Q5: 3 retries (3 wrong -> 1 correct = 4 attempts)
+      for (let k = 0; k < 3; k++) {
+        await progressService.recordAttempt({
+          studentId: studentB.id,
+          activityId: 'Q_B_5',
+          category: 'meaning-match',
+          isCorrect: false,
+          isCompleted: false,
+        });
+      }
+      await progressService.recordAttempt({
+        studentId: studentB.id,
+        activityId: 'Q_B_5',
+        category: 'meaning-match',
+        isCorrect: true,
+        isCompleted: true,
+      });
+
+      // Student C: 0 completed, 0 attempts
+      const studentC = await studentService.createStudent('Student C');
+
+      // Verify individual summaries
+      const summaries = await adminService.getStudentSummaries();
+      expect(summaries.length).toBe(3);
+
+      const summaryA = summaries.find((s) => s.studentId === studentA.id)!;
+      expect(summaryA.questionsCompleted).toBe(5);
+      expect(summaryA.firstAttemptCorrectCount).toBe(5);
+      expect(summaryA.questionsRetriedCount).toBe(0);
+      expect(summaryA.totalRetriesCount).toBe(0);
+
+      const summaryB = summaries.find((s) => s.studentId === studentB.id)!;
+      expect(summaryB.questionsCompleted).toBe(5);
+      expect(summaryB.firstAttemptCorrectCount).toBe(2);
+      expect(summaryB.questionsRetriedCount).toBe(3);
+      expect(summaryB.totalRetriesCount).toBe(5);
+
+      const summaryC = summaries.find((s) => s.studentId === studentC.id)!;
+      expect(summaryC.questionsCompleted).toBe(0);
+      expect(summaryC.totalQuestionsAttempted).toBe(0);
+      expect(summaryC.firstAttemptCorrectCount).toBe(0);
+      expect(summaryC.questionsRetriedCount).toBe(0);
+      expect(summaryC.totalRetriesCount).toBe(0);
+
+      // Verify Dashboard Metrics Aggregation Across All Students
+      const metrics = await adminService.getDashboardMetrics();
+      expect(metrics.totalStudents).toBe(3);
+      expect(metrics.activeStudents).toBe(2);
+      expect(metrics.totalQuestionsCompleted).toBe(10);
+      expect(metrics.firstAttemptSuccesses).toBe(7);
+      expect(metrics.questionsRetried).toBe(3);
+      expect(metrics.totalRetries).toBe(5);
+    });
   });
 
   describe('Student Detail & Category Mastery', () => {

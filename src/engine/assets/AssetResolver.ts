@@ -1,4 +1,5 @@
 import { AssetReference, AssetResolutionState, AssetManifest } from './types';
+import { extractSourceId } from './sourceIdExtractor';
 import class3TamilAssets from '../../content/class-3/tamil/asset-manifest.json';
 import class3TamilTerm1Assets from '../../content/class-3/tamil/term-1/assets.json';
 import class3EnglishAssets from '../../content/class-3/english/asset-manifest.json';
@@ -42,7 +43,24 @@ export class AssetResolver {
     }
 
     const manifest = this.customManifest || getDefaultManifest();
-    const entry = manifest[ref.id];
+    let entry = manifest[ref.id];
+
+    // Case normalization and Source ID alias lookup
+    if (!entry) {
+      entry = manifest[ref.id.toLowerCase()];
+    }
+    if (!entry) {
+      entry = manifest[ref.id.toUpperCase()];
+    }
+    if (!entry) {
+      const extracted = extractSourceId(ref.id);
+      if (extracted) {
+        entry = manifest[`class3-tamil-picture-${extracted.toLowerCase()}`] ||
+                manifest[`class3-tamil-picture-${extracted.toUpperCase()}`] ||
+                manifest[extracted.toLowerCase()] ||
+                manifest[extracted.toUpperCase()];
+      }
+    }
 
     if (!entry) {
       return { status: 'missing', id: ref.id };

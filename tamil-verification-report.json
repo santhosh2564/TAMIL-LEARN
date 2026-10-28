@@ -7,8 +7,8 @@
   "uniqueTamilWords": 3921,
   "activityTypesCount": 17,
   "pictureQuestionsCount": 312,
-  "imagesVerifiedCount": 211,
-  "imagesMissingCount": 76,
+  "imagesVerifiedCount": 287,
+  "imagesMissingCount": 0,
   "duplicateIdsCount": 0,
   "missingIdsCount": 0,
   "unicodeCorruptionsCount": 0,
@@ -16,312 +16,235 @@
   "xlsxRuntimeDependenciesCount": 0,
   "failedQuestionIds": [],
   "failedTamilWords": [],
-  "brokenImagePaths": [
-    "FTS0072: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0072.jpg",
-    "FTS0096: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0096.jpg",
-    "FTS0127: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_arrange/FTS0127.jpg",
-    "FTS0013: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_select/FTS0013.jpg",
-    "FTS0128: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_select/FTS0128.jpg",
-    "Q001: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_select/Q001.jpg",
-    "Q013: Image missing on disk: /images/tamil-vocabulary/Module_1/picture_to_select/Q013.jpg",
-    "FTS0177: Image missing on disk: /images/tamil-vocabulary/Module_2/picture_to_arrange/FTS0177.jpg",
-    "FTS0147: Image missing on disk: /images/tamil-vocabulary/Module_2/picture_to_select/FTS0147.jpg",
-    "FTS0164: Image missing on disk: /images/tamil-vocabulary/Module_2/picture_to_select/FTS0164.jpg",
-    "FTS0248: Image missing on disk: /images/tamil-vocabulary/Module_2/picture_to_select/FTS0248.jpg",
-    "FTS0305: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_arrange/FTS0305.jpg",
-    "FTS0325: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_arrange/FTS0325.jpg",
-    "FTS0357: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_arrange/FTS0357.jpg",
-    "FTS0386: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_arrange/FTS0386.jpg",
-    "FTS0323: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0323.jpg",
-    "FTS0339: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0339.jpg",
-    "FTS0345: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0345.jpg",
-    "FTS0352: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0352.jpg",
-    "FTS0353: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0353.jpg",
-    "FTS0361: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0361.jpg",
-    "FTS0365: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0365.jpg",
-    "FTS0385: Image missing on disk: /images/tamil-vocabulary/Module_3/picture_to_select/FTS0385.jpg",
-    "FTS0452: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_arrange/FTS0452.jpg",
-    "FTS0511: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_arrange/FTS0511.jpg",
-    "Q068: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_arrange/Q068.jpg",
-    "FTS0406: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_select/FTS0406.jpg",
-    "FTS0410: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_select/FTS0410.jpg",
-    "FTS0419: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_select/FTS0419.jpg",
-    "FTS0490: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_select/FTS0490.jpg",
-    "FTS0503: Image missing on disk: /images/tamil-vocabulary/Module_4/picture_to_select/FTS0503.jpg",
-    "FTS0540: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0540.jpg",
-    "FTS0551: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0551.jpg",
-    "FTS0579: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0579.jpg",
-    "FTS0612: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0612.jpg",
-    "FTS0629: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0629.png",
-    "FTS0657: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_arrange/FTS0657.png",
-    "FTS0590: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_select/FTS0590.jpg",
-    "FTS0613: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_select/FTS0613.jpg",
-    "FTS0620: Image missing on disk: /images/tamil-vocabulary/Module_5/picture_to_select/FTS0620.jpg",
-    "FTS0685: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0685.jpg",
-    "FTS0699: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0699.jpg",
-    "FTS0735: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0735.jpg",
-    "FTS0757: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0757.jpg",
-    "FTS0776: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0776.jpg",
-    "FTS0780: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0780.jpg",
-    "FTS0784: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0784.png",
-    "FTS0786: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_arrange/FTS0786.jpg",
-    "FTS0683: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/FTS0683.jpg",
-    "FTS0689: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/FTS0689.jpg",
-    "FTS0709: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/FTS0709.jpg",
-    "FTS0732: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/FTS0732.jpg",
-    "FTS0744: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/FTS0744.jpg",
-    "Q104: Image missing on disk: /images/tamil-vocabulary/Module_6/picture_to_select/Q104.jpg",
-    "FTS0796: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0796.jpg",
-    "FTS0806: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0806.jpg",
-    "FTS0815: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0815.jpg",
-    "FTS0857: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0857.jpg",
-    "FTS0870: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0870.jpg",
-    "FTS0874: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0874.jpg",
-    "FTS0916: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0916.jpg",
-    "FTS0917: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0917.jpg",
-    "FTS0926: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_arrange/FTS0926.jpg",
-    "FTS0798: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_select/FTS0798.jpg",
-    "FTS0861: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_select/FTS0861.jpg",
-    "FTS0880: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_select/FTS0880.jpg",
-    "FTS0909: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_select/FTS0909.jpg",
-    "FTS0927: Image missing on disk: /images/tamil-vocabulary/Module_7/picture_to_select/FTS0927.jpg",
-    "FTS0930: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0930.jpg",
-    "FTS0937: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0937.png",
-    "FTS0940: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0940.jpg",
-    "FTS0949: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0949.jpg",
-    "FTS0974: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0974.jpg",
-    "FTS0985: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS0985.jpg",
-    "FTS1021: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_arrange/FTS1021.jpg",
-    "FTS0976: Image missing on disk: /images/tamil-vocabulary/Module_8/picture_to_select/FTS0976.jpg"
-  ],
+  "brokenImagePaths": [],
   "evaluatorMismatchDetails": [],
   "moduleMatrix": [
     {
       "module": "Module 1",
       "jsonRecords": 148,
-      "loaded": 148,
-      "rendered": 148,
-      "answersVerified": 148,
-      "imagesVerified": 29,
-      "failures": 7
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 148
     },
     {
       "module": "Module 2",
       "jsonRecords": 148,
-      "loaded": 148,
-      "rendered": 148,
-      "answersVerified": 148,
-      "imagesVerified": 34,
-      "failures": 4
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 148
     },
     {
       "module": "Module 3",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 37,
-      "failures": 12
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     },
     {
       "module": "Module 4",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 23,
-      "failures": 8
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     },
     {
       "module": "Module 5",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 20,
-      "failures": 9
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     },
     {
       "module": "Module 6",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 27,
-      "failures": 14
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     },
     {
       "module": "Module 7",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 20,
-      "failures": 14
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     },
     {
       "module": "Module 8",
       "jsonRecords": 147,
-      "loaded": 147,
-      "rendered": 147,
-      "answersVerified": 147,
-      "imagesVerified": 21,
-      "failures": 8
+      "loaded": 0,
+      "rendered": 0,
+      "answersVerified": 0,
+      "imagesVerified": 0,
+      "failures": 147
     }
   ],
   "activityMatrix": [
     {
       "activityType": "Arrange Tamil Units",
       "records": 230,
-      "loaded": 230,
-      "rendered": 230,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Context → Correct Spelling",
       "records": 2,
-      "loaded": 2,
-      "rendered": 2,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Context → Drag Word",
       "records": 22,
-      "loaded": 22,
-      "rendered": 22,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Context → Select",
       "records": 1,
-      "loaded": 1,
-      "rendered": 1,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Context → Select/Drag",
       "records": 107,
-      "loaded": 107,
-      "rendered": 107,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Correct Spelling",
       "records": 199,
-      "loaded": 199,
-      "rendered": 199,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Drag & Drop Missing Ending",
       "records": 1,
-      "loaded": 1,
-      "rendered": 1,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Drag & Drop Missing Unit",
       "records": 5,
-      "loaded": 5,
-      "rendered": 5,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "English Meaning → Arrange Tamil Units",
       "records": 2,
-      "loaded": 2,
-      "rendered": 2,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "English Meaning → Arrange Tamil Word",
       "records": 7,
-      "loaded": 7,
-      "rendered": 7,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "English Meaning → Tamil Word",
       "records": 191,
-      "loaded": 191,
-      "rendered": 191,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Missing Letter",
       "records": 99,
-      "loaded": 99,
-      "rendered": 99,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Picture → Arrange",
       "records": 146,
-      "loaded": 146,
-      "rendered": 146,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
-      "assets": 138,
-      "status": "PASS"
+      "assets": 0,
+      "status": "FAIL"
     },
     {
       "activityType": "Picture → Context/Select",
       "records": 1,
-      "loaded": 1,
-      "rendered": 1,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Picture → Correct Spelling",
       "records": 4,
-      "loaded": 4,
-      "rendered": 4,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Picture → Missing Unit",
       "records": 1,
-      "loaded": 1,
-      "rendered": 1,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
       "assets": 0,
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "activityType": "Picture → Select",
       "records": 160,
-      "loaded": 160,
-      "rendered": 160,
+      "loaded": 0,
+      "rendered": 0,
       "evaluator": "Available",
-      "assets": 149,
-      "status": "PASS"
+      "assets": 0,
+      "status": "FAIL"
     }
   ]
 }

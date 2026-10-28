@@ -6,7 +6,7 @@ import { LocalContentRepository } from '../src/repositories/implementations/Loca
 import { activityRegistry } from '../src/engine/ActivityRegistry';
 import { registerCoreActivities } from '../src/features/Activity/registerActivities';
 import { AssetResolver, getDefaultManifest } from '../src/engine/assets/AssetResolver';
-import { combineTamilSandhi, matchesTamilOrTarget, getGraphemes } from '../src/utils/tamil';
+import { combineTamilSandhi, getGraphemes } from '../src/utils/tamil';
 import { Activity } from '../src/types';
 
 const require = createRequire(import.meta.url);
@@ -664,6 +664,13 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
     ['மீன்', 'மீன்கள்'],
     ['பரிசு', 'வாரஇதழ்'],
     ['grape', 'கொத்து'],
+    ['rabbit', 'முயல்'],
+    ['dog', 'நாய்'],
+    ['rat', 'எலி'],
+    ['box', 'பெட்டி'],
+    ['bag', 'பை'],
+    ['shop', 'அங்காடி'],
+    ['shop', 'கடை'],
   ];
   for (const pair of tamilAllowedPairs) {
     if (wordArr.length === 2 && wordArr.includes(pair[0]) && wordArr.includes(pair[1])) {
@@ -689,21 +696,28 @@ function isIgnoredDuplicateGroup(words: Set<string>, activities: string[]): bool
 
   // Check BLOCKED_IMAGE: any filename listed in docs/image-visual-audit.csv is referenced by the manifest
   const auditCsvPath = path.resolve('docs/image-visual-audit.csv');
-  const blockedImageFiles = new Set<string>();
+  const blockedImagePaths = new Set<string>();
+  const blockedEnglishFiles = new Set<string>();
   if (fs.existsSync(auditCsvPath)) {
     const auditLines = fs.readFileSync(auditCsvPath, 'utf8').trim().split('\n').slice(1);
     for (const line of auditLines) {
       const match = line.match(/^"([^"]+)"/) || line.match(/^([^,]+)/);
       if (match) {
-        blockedImageFiles.add(path.basename(match[1].trim()).toLowerCase());
+        const fullRelPath = match[1].trim().replace(/\\/g, '/');
+        const webPath = fullRelPath.replace(/^public/, '').toLowerCase();
+        blockedImagePaths.add(webPath);
+        if (webPath.includes('english')) {
+          blockedEnglishFiles.add(path.basename(webPath).toLowerCase());
+        }
       }
     }
   }
 
   const manifest = getDefaultManifest();
   for (const [assetId, asset] of Object.entries(manifest)) {
+    const p = (asset.path || '').replace(/\\/g, '/').toLowerCase();
     const fn = path.basename(asset.path || '').toLowerCase();
-    if (blockedImageFiles.has(fn)) {
+    if (blockedImagePaths.has(p) || (p.includes('english') && blockedEnglishFiles.has(fn))) {
       summary.BLOCKED_IMAGE.push(`${assetId} (${fn})`);
     }
   }
