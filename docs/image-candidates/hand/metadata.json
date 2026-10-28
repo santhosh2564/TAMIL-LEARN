@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "baby opossums",
+    "creator": "kthypryn",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/44603071@N00/4514644423",
+    "imageUrl": "https://live.staticflickr.com/2678/4514644423_20fb861fdf.jpg",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Happy Ramadhan, Eid Mubarak - عيد فطر مبارك",
+    "creator": "Hamed Saber",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/44124425616@N01/277221852",
+    "imageUrl": "https://live.staticflickr.com/82/277221852_476e8916f0_b.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Cat Processing 101",
+    "creator": "rikkis_refuge",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/60109376@N00/2181340072",
+    "imageUrl": "https://live.staticflickr.com/2371/2181340072_ab77361408_m.jpg",
+    "width": 240,
+    "height": 222
+  }
+]

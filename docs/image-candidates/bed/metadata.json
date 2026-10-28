@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Double Guest Bedroom",
+    "creator": "EcoIslandLife",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/89484852@N06/8142721452",
+    "imageUrl": "https://live.staticflickr.com/8329/8142721452_f637c6746c_b.jpg",
+    "width": 669,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Louisbourg-02450 - Governor's Bedroom",
+    "creator": "archer10 (Dennis)",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/22490717@N02/8623307019",
+    "imageUrl": "https://live.staticflickr.com/8381/8623307019_177b1e4294_b.jpg",
+    "width": 1024,
+    "height": 693
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "living room",
+    "creator": "::coco Rina::",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/64019131@N00/3464391170",
+    "imageUrl": "https://live.staticflickr.com/3564/3464391170_5aee729ab3_b.jpg",
+    "width": 1024,
+    "height": 768
+  }
+]

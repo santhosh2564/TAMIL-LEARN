@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Stone bridge, River Ebbw, Station Road, Crumlin - geograph.org.uk - 4793253",
+    "creator": "M J Roscoe",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=132118643",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Stone_bridge%2C_River_Ebbw%2C_Station_Road%2C_Crumlin_-_geograph.org.uk_-_4793253.jpg",
+    "width": 5179,
+    "height": 3451
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Stone Bridge, River North Esk - geograph.org.uk - 1836630",
+    "creator": "Andreas Wilhelm",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=102458235",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Stone_Bridge%2C_River_North_Esk_-_geograph.org.uk_-_1836630.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Green stone bridge river",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/6027528/photo-image-public-domain-trees-green",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZyYnJpZGdlX3JpdmVyX3N0b25lX2JyaWRnZS1pbWFnZS1reWJienZrbS5qcGc.jpg",
+    "width": 4952,
+    "height": 4000
+  }
+]

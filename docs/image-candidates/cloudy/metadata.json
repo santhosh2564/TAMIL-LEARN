@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Wave pattern on a patch of old dirty snow",
+    "creator": "Horia Varlan",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/10361931@N06/4944051699",
+    "imageUrl": "https://live.staticflickr.com/4093/4944051699_496c2274da_b.jpg",
+    "width": 680,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Crazy Sky",
+    "creator": "Diego3336",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/31018257@N00/11178898976",
+    "imageUrl": "https://live.staticflickr.com/3755/11178898976_0db9cc8fee_b.jpg",
+    "width": 1024,
+    "height": 640
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Crazy Sky",
+    "creator": "Diego3336",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/31018257@N00/11179039083",
+    "imageUrl": "https://live.staticflickr.com/5529/11179039083_9377e902cb_b.jpg",
+    "width": 1024,
+    "height": 768
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "A bowl of white rice served with crispy chicken in sauce, topped with green onions and sesame seeds.",
+    "creator": "Alina Kakshapati",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://wordpress.org/photos/photo/32869496d0/",
+    "imageUrl": "https://pd.w.org/2025/12/32869496d062b5935.47359715-1536x2048.jpeg",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "A table setting featuring a variety of dishes: a bowl of white rice, a bowl of light soup with green onions and shredded ingredients, and several small bowls containing side dishes including vegetables and sauces. In the background, there is a wooden tray with additional small bowls, likely for condiments.",
+    "creator": "Anil Gurung",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://wordpress.org/photos/photo/4386807311/",
+    "imageUrl": "https://pd.w.org/2025/04/43868073111b82264.50780435-2048x1536.jpeg",
+    "width": 2048,
+    "height": 1536
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Bowl of white rice 02",
+    "creator": "Douglas Perkins",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=46049806",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Bowl_of_white_rice_02.jpg",
+    "width": 2956,
+    "height": 2940
+  }
+]

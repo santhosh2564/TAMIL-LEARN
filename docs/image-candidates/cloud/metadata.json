@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "White Cumulus Clouds against Blue Sky (2)",
+    "creator": "Lance Vanlewen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=127243049",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/White_Cumulus_Clouds_against_Blue_Sky_%282%29.jpg",
+    "width": 4032,
+    "height": 2268
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "White Cumulus Clouds against Blue Sky (4)",
+    "creator": "Lance Vanlewen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=127243053",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/White_Cumulus_Clouds_against_Blue_Sky_%284%29.jpg",
+    "width": 3523,
+    "height": 2268
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "White Cumulus Clouds against Blue Sky (3)",
+    "creator": "Lance Vanlewen",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=127243050",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/White_Cumulus_Clouds_against_Blue_Sky_%283%29.jpg",
+    "width": 4032,
+    "height": 2268
+  }
+]

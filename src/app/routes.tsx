@@ -13,6 +13,13 @@ import { SettingsPage } from '../features/Settings/SettingsPage';
 import { StudentSelectionPage } from '../features/Student/StudentSelectionPage';
 import { CreditsPage } from '../features/Credits/CreditsPage';
 
+// Admin Features & Security
+import { AdminLoginPage } from '../features/Admin/AdminLoginPage';
+import { AdminLayout } from '../features/Admin/AdminLayout';
+import { AdminDashboardPage } from '../features/Admin/AdminDashboardPage';
+import { AdminStudentDetailPage } from '../features/Admin/AdminStudentDetailPage';
+import { AdminRoute } from '../auth/AdminRoute';
+
 export const router = createBrowserRouter([
   {
     path: '/',
@@ -69,6 +76,36 @@ export const router = createBrowserRouter([
       {
         path: 'credits',
         element: <CreditsPage />,
+      },
+      {
+        path: 'admin/login',
+        element: <AdminLoginPage />,
+      },
+      {
+        path: 'admin',
+        element: (
+          <AdminRoute>
+            <AdminLayout />
+          </AdminRoute>
+        ),
+        children: [
+          {
+            index: true,
+            element: <Navigate to="/admin/dashboard" replace />,
+          },
+          {
+            path: 'dashboard',
+            element: <AdminDashboardPage />,
+          },
+          {
+            path: 'students',
+            element: <Navigate to="/admin/dashboard" replace />,
+          },
+          {
+            path: 'students/:studentId',
+            element: <AdminStudentDetailPage />,
+          },
+        ],
       },
       {
         path: '*',

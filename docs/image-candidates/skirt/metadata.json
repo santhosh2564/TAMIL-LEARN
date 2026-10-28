@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Black pleated skirt from Forever 21 - 2004",
+    "creator": "m01229",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/39908901@N06/6881991364",
+    "imageUrl": "https://live.staticflickr.com/7240/6881991364_e1460eb7ca_m.jpg",
+    "width": 240,
+    "height": 239
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Two women in pleated skirts",
+    "creator": "simpleinsomnia",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/95329455@N02/18362157170",
+    "imageUrl": "https://live.staticflickr.com/8893/18362157170_169fec0b81_b.jpg",
+    "width": 748,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Pleated Skirt Black Dress with Cape",
+    "creator": "University of Salford",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/32104790@N02/8290513397",
+    "imageUrl": "https://live.staticflickr.com/8076/8290513397_1abb3a3f85_b.jpg",
+    "width": 683,
+    "height": 1024
+  }
+]

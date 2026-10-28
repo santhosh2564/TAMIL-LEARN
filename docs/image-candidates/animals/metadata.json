@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Grand Canyon Raven at Hopi Point 0081",
+    "creator": "Grand Canyon NPS",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/50693818@N08/5735021613",
+    "imageUrl": "https://live.staticflickr.com/2696/5735021613_8264492b6b_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Group photo....",
+    "creator": "Navaneeth K N",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/59768604@N03/8463605535",
+    "imageUrl": "https://live.staticflickr.com/8372/8463605535_60f76e65e9_b.jpg",
+    "width": 1024,
+    "height": 567
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Galapagos Hawk",
+    "creator": "A.Davey",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/40595948@N00/4146737203",
+    "imageUrl": "https://live.staticflickr.com/2644/4146737203_832b11b2d0_b.jpg",
+    "width": 1024,
+    "height": 662
+  }
+]

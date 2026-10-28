@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Rhinoceros",
+    "creator": "JOHN K THORNE",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.flickr.com/photos/89918055@N05/51440031630",
+    "imageUrl": "https://live.staticflickr.com/65535/51440031630_e80923607c_b.jpg",
+    "width": 1024,
+    "height": 692
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Just a Rhinoceros on a Roof in London - June 2018",
+    "creator": "Gareth1953 All Right Now",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/40837632@N05/43172712280",
+    "imageUrl": "https://live.staticflickr.com/1935/43172712280_1025b24566_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Rhinoceros Hornbill Portrait",
+    "creator": "Charles Patrick Ewing",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/132033298@N04/24658208691",
+    "imageUrl": "https://live.staticflickr.com/1694/24658208691_b14dbb3965_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

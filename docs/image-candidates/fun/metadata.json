@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Think Outside Photo Contest Entry from Bear Creek Lake State Park 2017",
+    "creator": "vastateparksstaff",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/37922399@N05/37200098460",
+    "imageUrl": "https://live.staticflickr.com/4486/37200098460_3b47b10710_b.jpg",
+    "width": 960,
+    "height": 866
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Dinosaur Adventure",
+    "creator": "Dave Catchpole",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/52957117@N04/7197846552",
+    "imageUrl": "https://live.staticflickr.com/7226/7197846552_da4cf5d182_b.jpg",
+    "width": 683,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Dinosaur Adventure",
+    "creator": "Dave Catchpole",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/52957117@N04/7197825844",
+    "imageUrl": "https://live.staticflickr.com/7239/7197825844_f16172a32a_b.jpg",
+    "width": 683,
+    "height": 1024
+  }
+]

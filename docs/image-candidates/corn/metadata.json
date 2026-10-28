@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Corn on the cob",
+    "creator": "andrewmalone",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/41894170049@N01/1728461908",
+    "imageUrl": "https://live.staticflickr.com/2378/1728461908_57a92b9789_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Corn on the Cob! 1",
+    "creator": "Monkey Mash Button",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/62698615@N08/5925943652",
+    "imageUrl": "https://live.staticflickr.com/6124/5925943652_9ace9d65de_b.jpg",
+    "width": 683,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Corn on the Cob [193/366]",
+    "creator": "timsackton",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/43581314@N08/7559623962",
+    "imageUrl": "https://live.staticflickr.com/7107/7559623962_84416070db_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

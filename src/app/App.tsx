@@ -1,11 +1,14 @@
 import { RouterProvider } from 'react-router-dom';
 import { router } from './routes';
 import { StudentProvider } from '../student';
+import { AuthProvider } from '../auth';
 
 export const App = () => {
   return (
-    <StudentProvider>
-      <RouterProvider router={router} />
-    </StudentProvider>
+    <AuthProvider>
+      <StudentProvider>
+        <RouterProvider router={router} />
+      </StudentProvider>
+    </AuthProvider>
   );
 };

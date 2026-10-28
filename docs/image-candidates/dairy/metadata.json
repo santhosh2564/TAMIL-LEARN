@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Yes. (except for the enriched white bread and other grains) 'Poster promoting consumption of healthy foods, showing dairy products (milk, cheese), eggs, fruit, vegetables, bread and cereal, and meat. - NYC : NYC WPA War Services, [between 1941 and 1943]'",
+    "creator": "tedeytan",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/22526649@N03/48930054246",
+    "imageUrl": "https://live.staticflickr.com/65535/48930054246_9754cb2ecb.jpg",
+    "width": 400,
+    "height": 500
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Cheeses",
+    "creator": "Smabs Sputzer (1956-2017)",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/10413717@N08/4935996570",
+    "imageUrl": "https://live.staticflickr.com/4073/4935996570_f62c6dc4fd_b.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "cheeses",
+    "creator": "_gee_",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/32426344@N00/4090407169",
+    "imageUrl": "https://live.staticflickr.com/2691/4090407169_5d9f3ff593_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

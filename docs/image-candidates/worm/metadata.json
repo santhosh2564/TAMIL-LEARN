@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Earthworm",
+    "creator": "pfly",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/24934185@N00/128621319",
+    "imageUrl": "https://live.staticflickr.com/50/128621319_103029c14e_b.jpg",
+    "width": 1024,
+    "height": 912
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Earthworm",
+    "creator": "Peter O'Connor aka anemoneprojectors",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/58414938@N00/9212338957",
+    "imageUrl": "https://live.staticflickr.com/7379/9212338957_a544fa1a73_b.jpg",
+    "width": 1024,
+    "height": 767
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Annelid",
+    "creator": "Smabs Sputzer (1956-2017)",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/10413717@N08/6935317800",
+    "imageUrl": "https://live.staticflickr.com/7071/6935317800_3dfdb99d2c_b.jpg",
+    "width": 1024,
+    "height": 770
+  }
+]

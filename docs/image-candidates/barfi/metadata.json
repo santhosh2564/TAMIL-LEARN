@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Kolkata's favourite...sweets",
+    "creator": "Dipanker Dutta",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/8927987@N04/2597298187",
+    "imageUrl": "https://live.staticflickr.com/3006/2597298187_ca8f2e6977_b.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Barfi-Diwali sweet",
+    "creator": "Afsana Samad",
+    "license": "cc-by-sa-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=40934374",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Barfi-Diwali_sweet.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "20130625-117-of-365",
+    "creator": "Wilson Hui",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/51942038@N04/9141508975",
+    "imageUrl": "https://live.staticflickr.com/2856/9141508975_a60c04e689_b.jpg",
+    "width": 1024,
+    "height": 768
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Baby Goat Standing in the Bright Sun",
+    "creator": "Eric Kilby",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/8749778@N06/25608988772",
+    "imageUrl": "https://live.staticflickr.com/1657/25608988772_e21489b2dc_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Baby Goat Standing by Wood Wall",
+    "creator": "Eric Kilby",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/8749778@N06/25703932316",
+    "imageUrl": "https://live.staticflickr.com/1617/25703932316_7703b92bfc_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Baby Goat Standing with Ears Out",
+    "creator": "Eric Kilby",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/8749778@N06/25703936516",
+    "imageUrl": "https://live.staticflickr.com/1593/25703936516_77d4b333b2_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

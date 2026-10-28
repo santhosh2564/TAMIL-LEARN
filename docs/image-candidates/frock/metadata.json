@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "04-29-1960_17224 Brigitte Bardot verkiezing",
+    "creator": "IISG",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/29780762@N07/4304193899",
+    "imageUrl": "https://live.staticflickr.com/4049/4304193899_48f2490c41_b.jpg",
+    "width": 1024,
+    "height": 813
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "At Mikulov castle",
+    "creator": "Debarshi Ray",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/39423133@N04/9411646151",
+    "imageUrl": "https://live.staticflickr.com/3830/9411646151_50f494b4ee_b.jpg",
+    "width": 1024,
+    "height": 633
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Jessie texting friends in her cream colored lace day frock, sun, sunglasses and pearls, wedding day, from the back seat of her fiancé Chris's classic car, Fairbanks, Alaska, USA",
+    "creator": "Wonderlane",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.flickr.com/photos/71401718@N00/8643591597",
+    "imageUrl": "https://live.staticflickr.com/8537/8643591597_781e0e41b7_b.jpg",
+    "width": 1024,
+    "height": 776
+  }
+]

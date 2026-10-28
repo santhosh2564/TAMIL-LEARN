@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Image as ImageIcon } from 'lucide-react';
+import { Image as ImageIcon, ShieldCheck } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -21,6 +21,14 @@ export function Footer() {
             className="hover:text-text font-medium transition-colors"
           >
             Settings (அமைப்புகள்)
+          </Link>
+          <Link
+            to="/admin/login"
+            className="inline-flex items-center gap-1.5 hover:text-primary-700 font-medium transition-colors text-text-muted"
+            aria-label="Admin Portal"
+          >
+            <ShieldCheck size={15} className="text-primary-600" />
+            <span>Admin</span>
           </Link>
         </div>
       </div>

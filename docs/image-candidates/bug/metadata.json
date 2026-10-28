@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Ladybug Insect",
+    "creator": "Ryan McGuire",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://stocksnap.io/photo/ladybug-insect-70635A9A0E",
+    "imageUrl": "https://cdn.stocksnap.io/img-thumbs/960w/70635A9A0E.jpg",
+    "width": 4502,
+    "height": 3001
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "ladybug insect on tomato plant",
+    "creator": "watts photos1",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/44905642@N04/49973198908",
+    "imageUrl": "https://live.staticflickr.com/65535/49973198908_caf96efb7c_b.jpg",
+    "width": 1024,
+    "height": 777
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "ladybug insect on tomato plant",
+    "creator": "watts photos1",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/44905642@N04/49973716336",
+    "imageUrl": "https://live.staticflickr.com/65535/49973716336_97db3b13c4_b.jpg",
+    "width": 1024,
+    "height": 846
+  }
+]

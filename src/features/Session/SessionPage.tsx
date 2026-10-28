@@ -173,7 +173,10 @@ export function SessionPage() {
 
       setCurrentActivityState(nextState);
 
-      const studentId = activeStudent?.id;
+      const studentId =
+        activeStudent?.id ||
+        (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null) ||
+        undefined;
 
       // Persist individual attempt to isolated student tracking
       if (studentId) {
@@ -208,6 +211,11 @@ export function SessionPage() {
           englishProgressService.recordActivityCompletion(activityResult, activity).catch(() => {
             // Storage failures are non-fatal: session continues normally
           });
+          if (studentId) {
+            tamilProgressService.recordCompletion(activityResult, activity.category, studentId).catch(() => {
+              // Storage failures are non-fatal: session continues normally
+            });
+          }
         } else if (studentId) {
           tamilProgressService.recordCompletion(activityResult, activity.category, studentId).catch(() => {
             // Storage failures are non-fatal: session continues normally

@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Dog tail erect",
+    "creator": "Kreuzschnabel",
+    "license": "cc-by-sa-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=85600216",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dog_tail_erect.jpg",
+    "width": 4608,
+    "height": 3456
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Slugs and snails and puppy dog tails",
+    "creator": "Scott Cresswell",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/49404637@N03/11896712505",
+    "imageUrl": "https://live.staticflickr.com/5540/11896712505_0f7951fdba_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "USAF F-86L 'Sabre Dog' tail",
+    "creator": "5of7",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/53936799@N05/7044989003",
+    "imageUrl": "https://live.staticflickr.com/5342/7044989003_434458c7c0_b.jpg",
+    "width": 1024,
+    "height": 683
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "File:Popova Shapka winter snow landscape 23.JPG",
+    "creator": "Bogoevski",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=40340361",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Popova_Shapka_winter_snow_landscape_23.JPG",
+    "width": 3008,
+    "height": 2000
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "File:Popova Shapka winter snow landscape 06.JPG",
+    "creator": "Bogoevski",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=40340323",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Popova_Shapka_winter_snow_landscape_06.JPG",
+    "width": 3008,
+    "height": 2000
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "File:Popova Shapka winter snow landscape 18.JPG",
+    "creator": "Bogoevski",
+    "license": "cc-by-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=40340350",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Popova_Shapka_winter_snow_landscape_18.JPG",
+    "width": 3008,
+    "height": 2000
+  }
+]

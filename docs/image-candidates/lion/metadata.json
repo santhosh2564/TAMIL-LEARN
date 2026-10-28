@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Male lion portrait, carnivore wildlife",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/11189370/male-lion-portrait-carnivore-wildlife",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2ZsNTE2NDY4Njc2NjItaW1hZ2UuanBn.jpg",
+    "width": 5562,
+    "height": 3708
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Male lion portrait, carnivore wildlife",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/11189408/male-lion-portrait-carnivore-wildlife",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2ZsNTE2NDY4NTEwNjctaW1hZ2UuanBn.jpg",
+    "width": 6000,
+    "height": 4000
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Male lion portrait, carnivore wildlife",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/11189636/male-lion-portrait-carnivore-wildlife",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2ZsNTE2NDg1MTU2NzUtaW1hZ2UuanBn.jpg",
+    "width": 3593,
+    "height": 5390
+  }
+]

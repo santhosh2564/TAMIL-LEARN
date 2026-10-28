@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "What's In My Bag",
+    "creator": "jonolist",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/46635911@N00/1303703595",
+    "imageUrl": "https://live.staticflickr.com/1107/1303703595_8de830bb71_b.jpg",
+    "width": 1024,
+    "height": 711
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Has school supplies shopping become a chore ?",
+    "creator": "goatling",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/32907326@N00/1078101024",
+    "imageUrl": "https://live.staticflickr.com/1433/1078101024_579588e076_b.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Whats in your bag?",
+    "creator": "dshock_",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/29271471@N00/4077541674",
+    "imageUrl": "https://live.staticflickr.com/2755/4077541674_c63cda3ba8.jpg",
+    "width": 500,
+    "height": 375
+  }
+]

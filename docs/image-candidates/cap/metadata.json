@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Polo Sport Baseball Cap / Hat",
+    "creator": "Menswear Market",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/85546319@N04/15938417431",
+    "imageUrl": "https://live.staticflickr.com/7491/15938417431_06a05f8712_b.jpg",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "back to school snacks granola balls and baseball cap hat",
+    "creator": "PersonalCreations.com",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/127294011@N07/20681308232",
+    "imageUrl": "https://live.staticflickr.com/5722/20681308232_a22b056efe_b.jpg",
+    "width": 798,
+    "height": 1024
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Back to school snacks granola balls and baseball cap hat (20681308232)",
+    "creator": "Personal Creations",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=148028473",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Back_to_school_snacks_granola_balls_and_baseball_cap_hat_%2820681308232%29.jpg",
+    "width": 3360,
+    "height": 4311
+  }
+]

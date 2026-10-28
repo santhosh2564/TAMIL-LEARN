@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Naughty Puppy Mauling Teddy Bear #Flickr12Days",
+    "creator": "Cindy Sue Causey",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/94012640@N00/11524478853",
+    "imageUrl": "https://live.staticflickr.com/7405/11524478853_bf33f238b1_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "living room cutaway decoration - Christmas Tree",
+    "creator": "tsayrate",
+    "license": "cc-by-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/35535885@N03/6438510747",
+    "imageUrl": "https://live.staticflickr.com/7028/6438510747_c0be123a30_b.jpg",
+    "width": 1024,
+    "height": 683
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Church Street, Bilston - Women's Work",
+    "creator": "ell brown",
+    "license": "cc-by-sa-2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/39415781@N06/27915052339",
+    "imageUrl": "https://live.staticflickr.com/4768/27915052339_aa99a480ea_b.jpg",
+    "width": 768,
+    "height": 1024
+  }
+]

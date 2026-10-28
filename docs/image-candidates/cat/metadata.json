@@ -1,0 +1,41 @@
+[
+  {
+    "candidateId": "candidate_1",
+    "filename": "candidate_1.jpg",
+    "source": "openverse",
+    "title": "Domestic cat sitting carpet",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/3370599/free-photo-image-afternoon-animal-carpet",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwyNDI5NjQzNzg4Ni1pbWFnZS1rcHFrN2RyMy5qcGc.jpg",
+    "width": 3342,
+    "height": 5013
+  },
+  {
+    "candidateId": "candidate_2",
+    "filename": "candidate_2.jpg",
+    "source": "openverse",
+    "title": "Domestic cat sitting sidewalk people",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/3293737/free-photo-image-istanbul-abyssinian-adorable",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzQ5ODU0LXdpa2ltZWRpYS1pbWFnZS1rb3dsbHVtZS5qcGc.jpg",
+    "width": 4243,
+    "height": 2829
+  },
+  {
+    "candidateId": "candidate_3",
+    "filename": "candidate_3.jpg",
+    "source": "openverse",
+    "title": "Domestic cat sitting sidewalk people",
+    "creator": "rawpixel",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.rawpixel.com/image/3282380/free-photo-image-cat-animal-kitten",
+    "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS91cHdrOTk0ODMyMjYtd2lraW1lZGlhLWltYWdlLWtvd2F4MzJhLmpwZw.jpg",
+    "width": 1556,
+    "height": 1557
+  }
+]
