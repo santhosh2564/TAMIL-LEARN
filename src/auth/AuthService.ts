@@ -1,3 +1,14 @@
+/**
+ * AuthService — client-side authentication service.
+ *
+ * All credential verification happens server-side via:
+ *   POST /api/admin/login   → sets httpOnly session cookie
+ *   POST /api/admin/logout  → clears cookie
+ *   GET  /api/admin/session → returns current user from cookie
+ *
+ * The client never sees or stores the raw password.
+ * Session state is held server-side in a signed JWT cookie.
+ */
 import {
   AuthSession,
   AuthUser,
@@ -6,199 +17,121 @@ import {
   UserRole,
   Permission,
 } from './types';
-import { AuthRepository } from './AuthRepository';
-import { LocalAuthRepository } from './LocalAuthRepository';
 import { can, hasRole } from './rules';
 
-/**
- * SHA-256 hash calculation using Web Crypto API when available,
- * with a deterministic fallback for Node/testing environments.
- */
-export async function sha256(message: string): Promise<string> {
-  if (typeof crypto !== 'undefined' && crypto.subtle && typeof TextEncoder !== 'undefined') {
-    try {
-      const msgUint8 = new TextEncoder().encode(message);
-      const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('');
-    } catch {
-      // Fall through to fallback
-    }
-  }
+// ── Server-side credential validator ─────────────────────────────────────────
 
-  // Simple deterministic digest fallback for environments without crypto.subtle (e.g. tests)
-  let h1 = 0xdeadbeef ^ 0;
-  let h2 = 0x41c64e6d ^ 0;
-  for (let i = 0; i < message.length; i++) {
-    const ch = message.charCodeAt(i);
-    h1 = Math.imul(h1 ^ ch, 2654435761);
-    h2 = Math.imul(h2 ^ ch, 1597334677);
-  }
-  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
-  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
-  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(16).padStart(64, '0');
+export interface ServerSessionUser {
+  id: string;
+  username: string;
+  role: 'super_admin' | 'school_admin';
+  schoolId: string | null;
 }
 
-/**
- * Credential validator interface allowing pluggable verification strategies
- * (e.g. Local Demo Validator, Backend API Validator, Neon Auth).
- */
-export interface CredentialValidator {
-  validate(credentials: LoginCredentials): Promise<{ valid: boolean; user?: AuthUser; error?: string }>;
+/** Maps the server user shape to the client AuthUser shape. */
+function toAuthUser(serverUser: ServerSessionUser): AuthUser {
+  return {
+    id: serverUser.id,
+    username: serverUser.username,
+    displayName: serverUser.username,
+    // Treat both super_admin and school_admin as 'admin' for existing UI guards
+    role: 'admin',
+  };
 }
 
-/**
- * Default Development & Demo Admin Credential Validator.
- *
- * SECURITY NOTICE:
- * In a purely static or offline-first single page application without a secure backend server,
- * client-side credential verification provides UI protection and role separation, but cannot
- * prevent inspection by a technically capable user with dev tools access.
- * For production deployments with strict multi-user requirements, this validator should be
- * replaced with a backend authentication endpoint (e.g. Neon Auth, Better Auth, or Firebase).
- */
-export class LocalAdminCredentialValidator implements CredentialValidator {
-  // Precomputed SHA-256 hash for default dev password: "saraAdmin2026!"
-  // echo -n "saraAdmin2026!" | sha256sum
-  // 68a2d3fe35f768bb1d8a9b1c7dc5c1798e4d2bfb990da759b661d4a04ca536ee
-  private readonly validUsername: string;
-  private readonly validPasswordHash: string;
-  private readonly defaultTestPassword = 'saraAdmin2026!';
+// ── AuthService ──────────────────────────────────────────────────────────────
 
-  constructor(
-    customUsername?: string,
-    customPasswordHash?: string
-  ) {
-    this.validUsername =
-      customUsername ||
-      (typeof process !== 'undefined' && process.env?.VITE_ADMIN_USERNAME) ||
-      'admin';
-
-    this.validPasswordHash =
-      customPasswordHash ||
-      (typeof process !== 'undefined' && process.env?.VITE_ADMIN_PASSWORD_HASH) ||
-      '68a2d3fe35f768bb1d8a9b1c7dc5c1798e4d2bfb990da759b661d4a04ca536ee';
-  }
-
-  async validate(credentials: LoginCredentials): Promise<{ valid: boolean; user?: AuthUser; error?: string }> {
-    const inputUsername = credentials.username.trim();
-    if (!inputUsername || !credentials.password) {
-      return { valid: false, error: 'Username and password are required' };
-    }
-
-    if (inputUsername.toLowerCase() !== this.validUsername.toLowerCase()) {
-      return { valid: false, error: 'Invalid admin credentials' };
-    }
-
-    // Verify hash or plain match for default password in test environment
-    const inputHash = await sha256(credentials.password);
-    const defaultTestHash = await sha256(this.defaultTestPassword);
-
-    const matchesHash =
-      inputHash === this.validPasswordHash ||
-      inputHash === defaultTestHash ||
-      credentials.password === this.defaultTestPassword;
-
-    if (!matchesHash) {
-      return { valid: false, error: 'Invalid admin credentials' };
-    }
-
-    const adminUser: AuthUser = {
-      id: 'usr_admin_default',
-      username: this.validUsername,
-      displayName: 'System Administrator',
-      role: 'admin',
-    };
-
-    return { valid: true, user: adminUser };
-  }
-}
-
-/**
- * Centralized Authentication & Authorization Service.
- */
 export class AuthService {
-  constructor(
-    private readonly repository: AuthRepository = new LocalAuthRepository(),
-    private readonly validator: CredentialValidator = new LocalAdminCredentialValidator()
-  ) {}
-
-  /**
-   * Authenticates admin credentials and creates an active session.
-   */
+  /** POST /api/admin/login — returns a session on success */
   async login(credentials: LoginCredentials): Promise<AuthResult> {
     try {
-      const result = await this.validator.validate(credentials);
-      if (!result.valid || !result.user) {
-        return {
-          success: false,
-          error: result.error || 'Authentication failed',
-        };
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin', // send/receive cookies
+        body: JSON.stringify(credentials),
+      });
+
+      if (res.status === 401) {
+        const data = (await res.json().catch(() => ({}))) as { error?: string };
+        return { success: false, error: data.error || 'Invalid username or password' };
       }
 
-      // Generate session token with 8 hours lifespan
-      const token = `tok_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 12)}`;
-      const expiresAt = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString();
+      if (!res.ok) {
+        return { success: false, error: 'Login failed. Please try again.' };
+      }
 
+      const data = (await res.json()) as { user: ServerSessionUser };
+      const user = toAuthUser(data.user);
+
+      // Build a lightweight client-side session object.
+      // The real session lives in the httpOnly cookie — this is just for the
+      // AuthContext to know who's logged in without another round-trip.
       const session: AuthSession = {
-        token,
-        user: result.user,
-        expiresAt,
+        token: 'httponly-cookie', // opaque placeholder; real token is in the cookie
+        user,
+        expiresAt: new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString(),
       };
 
-      await this.repository.saveSession(session);
-
-      return {
-        success: true,
-        session,
-      };
+      return { success: true, session };
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : 'Login failed';
       return { success: false, error: message };
     }
   }
 
-  /**
-   * Logs out the current user and clears active session.
-   */
+  /** POST /api/admin/logout — clears the httpOnly cookie */
   async logout(): Promise<void> {
-    await this.repository.clearSession();
+    try {
+      await fetch('/api/admin/logout', {
+        method: 'POST',
+        credentials: 'same-origin',
+      });
+    } catch {
+      // Best-effort; the cookie will expire on its own
+    }
   }
 
   /**
-   * Retrieves active session if valid.
+   * GET /api/admin/session — checks if the current cookie is still valid.
+   * Called on page load to rehydrate auth state.
+   * Returns null if unauthenticated.
    */
   async getSession(): Promise<AuthSession | null> {
-    return this.repository.getSession();
+    try {
+      const res = await fetch('/api/admin/session', {
+        credentials: 'same-origin',
+      });
+      if (!res.ok) return null;
+
+      const data = (await res.json()) as { user: ServerSessionUser };
+      const user = toAuthUser(data.user);
+
+      return {
+        token: 'httponly-cookie',
+        user,
+        expiresAt: new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString(),
+      };
+    } catch {
+      return null;
+    }
   }
 
-  /**
-   * Retrieves current authenticated user or null.
-   */
   async getCurrentUser(): Promise<AuthUser | null> {
     const session = await this.getSession();
-    return session ? session.user : null;
+    return session?.user ?? null;
   }
 
-  /**
-   * Checks if user is authenticated with an unexpired session.
-   */
   async isAuthenticated(): Promise<boolean> {
     const session = await this.getSession();
     return session !== null;
   }
 
-  /**
-   * Checks if the active user possesses a specific role.
-   */
   async hasRole(role: UserRole): Promise<boolean> {
     const user = await this.getCurrentUser();
     return hasRole(user, role);
   }
 
-  /**
-   * Checks if the active user possesses permission for the requested action.
-   */
   async can(permission: Permission): Promise<boolean> {
     const user = await this.getCurrentUser();
     return can(user, permission);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { ShieldCheck, Lock, User, ArrowLeft, AlertCircle, Info } from 'lucide-react';
+import { ShieldCheck, Lock, User, ArrowLeft, AlertCircle } from 'lucide-react';
 import { useAuth } from '../../auth';
 import { Button } from '../../components/ui/Button';
 
@@ -145,22 +145,6 @@ export function AdminLoginPage() {
             </Button>
           </form>
 
-          {/* Development / Demo credentials info card */}
-          <div className="p-4 bg-primary-50/70 border border-primary-200/80 rounded-2xl text-xs text-primary-900 space-y-1.5">
-            <div className="flex items-center gap-1.5 font-bold">
-              <Info className="w-4 h-4 text-primary-700 shrink-0" />
-              <span>Development / Test Admin Access</span>
-            </div>
-            <p className="text-primary-800">
-              Default test admin credentials:
-            </p>
-            <div className="font-mono text-[11px] bg-white/80 p-2 rounded-xl border border-primary-200 text-primary-950 select-all">
-              Username: <span className="font-bold">admin</span> | Password: <span className="font-bold">saraAdmin2026!</span>
-            </div>
-            <p className="text-[11px] text-text-muted mt-1 leading-normal">
-              Notice: Production deployment requires a secure backend authentication server (e.g. Neon Auth). Client-side credentials in offline SPA mode provide access controls for local review only.
-            </p>
-          </div>
         </div>
       </div>
 

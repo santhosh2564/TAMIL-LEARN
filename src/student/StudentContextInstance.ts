@@ -13,6 +13,8 @@ export interface StudentContextValue {
   clearActiveStudentProgress: () => Promise<void>;
   clearAllStudentsData: () => Promise<void>;
   refreshStudents: () => Promise<void>;
+  logout: () => Promise<void>;
+  setActiveStudentFromServer: (student: StudentProfile) => void;
 }
 
 export const StudentContext = createContext<StudentContextValue | undefined>(undefined);

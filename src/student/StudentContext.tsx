@@ -24,6 +24,30 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
 
   const loadData = useCallback(async () => {
     try {
+      // 1. Check server student session first
+      try {
+        const res = await fetch('/api/student/session');
+        if (res.ok) {
+          const data = await res.json();
+          if (data?.student) {
+            const serverProfile: StudentProfile = {
+              id: data.student.id,
+              name: data.student.name,
+              avatar: data.student.avatar,
+              classId: data.student.classId,
+              schoolId: data.student.schoolId,
+              createdAt: new Date().toISOString(),
+              lastActiveAt: new Date().toISOString(),
+            };
+            setActiveStudent(serverProfile);
+            setIsLoading(false);
+            return;
+          }
+        }
+      } catch {
+        // Network or offline, fallback to local storage
+      }
+
       const allStudents = await studentService.listStudents();
       setStudents(allStudents);
 
@@ -41,6 +65,51 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     loadData();
   }, [loadData]);
+
+  const logout = useCallback(async () => {
+    try {
+      await fetch('/api/student/logout', { method: 'POST' });
+    } catch {
+      // Ignore network error on logout
+    }
+    // Shared desktop hygiene: clear all student data from browser storage on logout
+    try {
+      localStorage.clear();
+      sessionStorage.clear();
+    } catch {
+      // Ignore storage errors
+    }
+    setActiveStudent(null);
+    setStudents([]);
+  }, []);
+
+  const setActiveStudentFromServer = useCallback((student: StudentProfile) => {
+    setActiveStudent(student);
+  }, []);
+
+  // Auto-logout after 5 idle minutes on shared desktops
+  useEffect(() => {
+    if (!activeStudent) return;
+    const IDLE_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
+    let timeoutId = setTimeout(() => {
+      logout();
+    }, IDLE_TIMEOUT_MS);
+
+    const resetTimer = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        logout();
+      }, IDLE_TIMEOUT_MS);
+    };
+
+    const events = ['mousemove', 'mousedown', 'keydown', 'touchstart', 'scroll', 'click'];
+    events.forEach((evt) => window.addEventListener(evt, resetTimer, { passive: true }));
+
+    return () => {
+      clearTimeout(timeoutId);
+      events.forEach((evt) => window.removeEventListener(evt, resetTimer));
+    };
+  }, [activeStudent, logout]);
 
   const selectStudent = useCallback(
     async (id: string) => {
@@ -107,6 +176,8 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
       clearActiveStudentProgress,
       clearAllStudentsData,
       refreshStudents: loadData,
+      logout,
+      setActiveStudentFromServer,
     }),
     [
       activeStudent,
@@ -119,6 +190,8 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
       clearActiveStudentProgress,
       clearAllStudentsData,
       loadData,
+      logout,
+      setActiveStudentFromServer,
     ]
   );
 

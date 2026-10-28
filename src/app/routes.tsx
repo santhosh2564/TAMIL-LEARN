@@ -20,11 +20,19 @@ import { AdminDashboardPage } from '../features/Admin/AdminDashboardPage';
 import { AdminStudentDetailPage } from '../features/Admin/AdminStudentDetailPage';
 import { AdminRoute } from '../auth/AdminRoute';
 
+// Student Class Roster & Picture PIN
+import { ClassRosterPage } from '../features/Student/ClassRosterPage';
+import { PrintClassCardsPage } from '../features/Admin/PrintClassCardsPage';
+
 export const router = createBrowserRouter([
   {
     path: '/',
     errorElement: <div className="p-8 text-center text-red-500 font-bold">App Error</div>,
     children: [
+      {
+        path: 'c/:classCode',
+        element: <ClassRosterPage />,
+      },
       {
         index: true,
         element: <HomePage />,
@@ -104,6 +112,10 @@ export const router = createBrowserRouter([
           {
             path: 'students/:studentId',
             element: <AdminStudentDetailPage />,
+          },
+          {
+            path: 'classes/:classId/print',
+            element: <PrintClassCardsPage />,
           },
         ],
       },

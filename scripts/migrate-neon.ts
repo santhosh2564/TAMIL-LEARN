@@ -1,3 +1,13 @@
+import dotenv from 'dotenv';
+import path from 'path';
+import fs from 'fs';
+
+// Load .env.local if DATABASE_URL is not set
+const envPath = path.resolve(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  dotenv.config({ path: envPath });
+}
+
 import { runMigrations, getDb } from '../server/db';
 
 async function main() {

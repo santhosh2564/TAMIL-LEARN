@@ -21,6 +21,8 @@ export function useStudent(): StudentContextValue {
       clearActiveStudentProgress: async () => {},
       clearAllStudentsData: async () => {},
       refreshStudents: async () => {},
+      logout: async () => {},
+      setActiveStudentFromServer: () => {},
     };
   }
   return context;

@@ -4,6 +4,7 @@ import { AdminProgressService } from '../../admin/AdminProgressService';
 import { AdminDashboardMetrics, StudentProgressSummary } from '../../admin/types';
 import { SummaryCards } from './components/SummaryCards';
 import { StudentTable } from './components/StudentTable';
+import { ClassManagementSection } from './components/ClassManagementSection';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { Button } from '../../components/ui/Button';
 
@@ -84,6 +85,9 @@ export function AdminDashboardPage() {
 
       {/* Summary Cards */}
       {metrics && <SummaryCards metrics={metrics} />}
+
+      {/* Class & Student Card Management */}
+      <ClassManagementSection />
 
       {/* Student Table */}
       <StudentTable students={students} />

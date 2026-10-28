@@ -1,4 +1,4 @@
-import { ArrowLeft, Settings, Home, User } from 'lucide-react';
+import { ArrowLeft, Settings, Home, User, LogOut } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Button } from './Button';
 import { useStudent } from '../../student';
@@ -6,9 +6,14 @@ import { useStudent } from '../../student';
 export function Header() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { activeStudent } = useStudent();
+  const { activeStudent, logout } = useStudent();
   const isHome = location.pathname === '/';
   const isStudentsPage = location.pathname === '/students';
+
+  const handleDoneLogout = async () => {
+    await logout();
+    navigate('/');
+  };
 
   return (
     <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-surface-raised px-2 sm:px-4 py-2 sm:py-3 md:px-8">
@@ -31,6 +36,20 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-1.5 sm:gap-3">
+          {/* Big "I'm Done" Logout button for shared desktop hygiene */}
+          {activeStudent && (
+            <button
+              onClick={handleDoneLogout}
+              className="flex items-center gap-1.5 px-2.5 py-1 sm:px-4 sm:py-2 bg-rose-600 hover:bg-rose-700 active:scale-95 text-white font-bold rounded-2xl shadow-sm hover:shadow transition-all text-xs sm:text-sm cursor-pointer"
+              aria-label="முடித்துவிட்டேன் / I'm done"
+              title="முடித்துவிட்டேன் / I'm done"
+            >
+              <LogOut className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <span className="hidden sm:inline">முடித்துவிட்டேன் / </span>
+              <span>I'm Done</span>
+            </button>
+          )}
+
           {/* Active Student Pill / Selector */}
           {!isStudentsPage && (
             <button
