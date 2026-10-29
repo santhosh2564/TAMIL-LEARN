@@ -9,16 +9,23 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { IncomingMessage, ServerResponse } from 'http';
 
+let mockCounts: Record<string, number> = {};
+
 vi.mock('../db', () => ({
   getDb: vi.fn(),
   getClassByCode: vi.fn(),
   getStudentsForClassRoster: vi.fn().mockResolvedValue([]),
   checkAndRecordClassLookupRateLimit: vi.fn(),
-  checkAndIncrementClassLookupRateLimit: vi.fn().mockResolvedValue({ allowed: true, remaining: 19 }),
+  checkAndIncrementClassLookupRateLimit: vi.fn().mockImplementation((ip: string, kind: 'invalid' | 'valid') => {
+    const key = `${ip}:${kind}`;
+    mockCounts[key] = (mockCounts[key] || 0) + 1;
+    const max = kind === 'invalid' ? 10 : 300;
+    return Promise.resolve({ allowed: mockCounts[key] <= max, remaining: Math.max(0, max - mockCounts[key]) });
+  }),
 }));
 
 import * as db from '../db';
-import { handleApiRequest, resetClassLookupRateLimits } from '../apiHandler';
+import { handleApiRequest } from '../apiHandler';
 
 interface MockRes {
   statusCode: number;
@@ -55,7 +62,7 @@ describe('T1: Class lookup rate limit specification', () => {
   beforeEach(() => {
     process.env.SESSION_SECRET = 'a'.repeat(32);
     process.env.DATABASE_URL = 'postgresql://fake:fake@fake/fake';
-    resetClassLookupRateLimits();
+    mockCounts = {};
     vi.clearAllMocks();
   });
 

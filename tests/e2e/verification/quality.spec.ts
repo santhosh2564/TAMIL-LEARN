@@ -63,7 +63,7 @@ test.describe('E. Quality, Accessibility & Resilience Verification', () => {
 
   // ── Item 23 ─────────────────────────────────────────────────────────────────
   test('Item 23: Accessibility audit using axe-core across 7 key screens', async ({ page }) => {
-    const screens = [
+    const studentScreens = [
       { name: 'Home', url: '/' },
       { name: 'Join', url: '/join' },
       { name: 'Class Roster', url: `/c/${seeded.classCode}` },
@@ -76,7 +76,7 @@ test.describe('E. Quality, Accessibility & Resilience Verification', () => {
 
     const a11ySummary: Record<string, { critical: number; serious: number; moderate: number; minor: number }> = {};
 
-    for (const screen of screens) {
+    for (const screen of studentScreens) {
       await page.goto(screen.url);
       await page.waitForLoadState('domcontentloaded');
       // allow small delay for hydration
@@ -95,6 +95,70 @@ test.describe('E. Quality, Accessibility & Resilience Verification', () => {
       }
       a11ySummary[screen.name] = counts;
       console.log(`[Item 23 Axe] ${screen.name}:`, counts);
+    }
+
+    // Now audit admin screens (Login and Dashboard)
+    const adminScreens = [
+      { name: 'Admin Login', url: '/admin/login' },
+      { name: 'Admin Dashboard', url: '/admin/dashboard' },
+    ];
+
+    await loginAdmin(page, seeded);
+
+    for (const screen of adminScreens) {
+      if (screen.url === '/admin/login') {
+        // Visit login without auth or directly
+        const anonContext = await page.context().browser()!.newContext();
+        const anonPage = await anonContext.newPage();
+        await anonPage.goto(screen.url);
+        await anonPage.waitForLoadState('domcontentloaded');
+        await anonPage.waitForTimeout(500);
+
+        const results = await new AxeBuilder({ page: anonPage })
+          .disableRules(['color-contrast'])
+          .analyze();
+
+        const counts = { critical: 0, serious: 0, moderate: 0, minor: 0 };
+        for (const v of results.violations) {
+          if (v.impact === 'critical') counts.critical += v.nodes.length;
+          if (v.impact === 'serious') {
+            counts.serious += v.nodes.length;
+            console.log(`[Serious Axe Violation on ${screen.name}]`, v.id, v.help, v.nodes.map(n => n.html));
+          }
+          if (v.impact === 'moderate') counts.moderate += v.nodes.length;
+          if (v.impact === 'minor') counts.minor += v.nodes.length;
+        }
+        a11ySummary[screen.name] = counts;
+        console.log(`[Item 23 Axe] ${screen.name}:`, counts);
+        await anonContext.close();
+      } else {
+        await page.goto(screen.url);
+        await page.waitForLoadState('domcontentloaded');
+        await page.waitForTimeout(500);
+
+        const results = await new AxeBuilder({ page })
+          .disableRules(['color-contrast'])
+          .analyze();
+
+        const counts = { critical: 0, serious: 0, moderate: 0, minor: 0 };
+        for (const v of results.violations) {
+          if (v.impact === 'critical') counts.critical += v.nodes.length;
+          if (v.impact === 'serious') {
+            counts.serious += v.nodes.length;
+            console.log(`[Serious Axe Violation on ${screen.name}]`, v.id, v.help, v.nodes.map(n => n.html));
+          }
+          if (v.impact === 'moderate') counts.moderate += v.nodes.length;
+          if (v.impact === 'minor') counts.minor += v.nodes.length;
+        }
+        a11ySummary[screen.name] = counts;
+        console.log(`[Item 23 Axe] ${screen.name}:`, counts);
+      }
+    }
+
+    // Assert 0 critical and 0 serious violations across all 7 screens
+    for (const [screenName, counts] of Object.entries(a11ySummary)) {
+      expect(counts.critical, `${screenName} has critical a11y violations`).toBe(0);
+      expect(counts.serious, `${screenName} has serious a11y violations`).toBe(0);
     }
 
     // Save summary for report

@@ -331,7 +331,7 @@ export function StudentTable({ students }: StudentTableProps) {
                         type="button"
                         onClick={() => navigate(`/admin/students/${encodeURIComponent(student.studentId)}`)}
                         className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-primary-50 text-primary-700 font-bold text-xs hover:bg-primary-100 border border-primary-200 transition-colors cursor-pointer"
-                        aria-label={`View progress for ${student.studentName}`}
+                        aria-label={`Details for ${student.studentName}`}
                       >
                         <span>Details</span>
                         <ChevronRight className="w-3.5 h-3.5" />

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
-import { seedClass, cleanupClass, SeededClass, TEST_PIN } from '../helpers/loginStudent';
+import { seedClass, cleanupClass, testDb, SeededClass, TEST_PIN } from '../helpers/loginStudent';
 
 test.describe('D. Security Verification', () => {
   test.use({ storageState: { cookies: [], origins: [] } });
@@ -125,22 +125,27 @@ test.describe('D. Security Verification', () => {
   });
 
   // ── Item 21 ─────────────────────────────────────────────────────────────────
-  test('Item 21: Rate limiting: valid logins succeed, 11th unknown code lookup from one IP gets 429', async ({ request }) => {
-    // 1. Unknown class code lookups: 10 allowed, 11th returns 429
-    let got429 = false;
-    for (let i = 1; i <= 15; i++) {
-      const res = await request.get(`/api/classes/by-code/UNKNOWN${i}`);
-      if (res.status() === 429) {
-        got429 = true;
-        break;
-      }
-    }
-    expect(got429).toBe(true);
+  test('Item 21: Rate limiting: 40 valid lookups all succeed, 11th invalid lookup gets 429', async ({ request }) => {
+    // Clear rate limit table first
+    await testDb().query('DELETE FROM class_lookup_rate_limits;').catch(() => {});
 
-    // 2. Valid lookups succeed
-    const validRes = await request.get(`/api/classes/by-code/${seeded.classCode}`);
-    // If invalid rate limit doesn't block valid rate limit:
-    expect([200, 429]).toContain(validRes.status());
+    // 1. All 40 valid lookups must succeed with 200
+    for (let i = 1; i <= 40; i++) {
+      const res = await request.get(`/api/classes/by-code/${seeded.classCode}`);
+      expect(res.status(), `Valid lookup #${i} should be 200`).toBe(200);
+    }
+
+    // 2. Unknown class code lookups: 10 allowed, 11th returns 429
+    for (let i = 1; i <= 10; i++) {
+      const res = await request.get(`/api/classes/by-code/BADCODE${i}`);
+      expect(res.status(), `Invalid lookup #${i} should be 404`).toBe(404);
+    }
+    const res11 = await request.get('/api/classes/by-code/BADCODE11');
+    expect(res11.status(), '11th invalid lookup should be 429').toBe(429);
+
+    // 3. After invalid rate limit is hit, valid lookups STILL succeed
+    const validAfter = await request.get(`/api/classes/by-code/${seeded.classCode}`);
+    expect(validAfter.status(), 'Valid lookup after invalid limit hit should still be 200').toBe(200);
   });
 });
 

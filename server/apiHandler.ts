@@ -47,6 +47,9 @@ import {
   getActiveSessionForStudentFromDb,
   upsertActiveSessionInDb,
   updateSessionProgressInDb,
+  getAdminDashboardMetrics,
+  getAdminStudentSummaries,
+  getAdminStudentDetail,
   type StudentRow,
   type SessionRow,
 } from './db';
@@ -80,40 +83,6 @@ import {
 import bcrypt from 'bcryptjs';
 
 // ── Client IP Helper ──────────────────────────────────────────────────────────
-const classLookupInvalidAttempts = new Map<string, { count: number; windowStart: number }>();
-const classLookupValidAttempts = new Map<string, { count: number; windowStart: number }>();
-
-export function resetClassLookupRateLimits(): void {
-  classLookupInvalidAttempts.clear();
-  classLookupValidAttempts.clear();
-}
-
-function checkClassLookupRateLimit(ip: string, type: 'invalid' | 'valid'): { allowed: boolean; remaining: number } {
-  const map = type === 'invalid' ? classLookupInvalidAttempts : classLookupValidAttempts;
-  const maxLimit = type === 'invalid' ? 10 : 300;
-  const windowMs = 10 * 60 * 1000;
-  const now = Date.now();
-
-  const record = map.get(ip);
-  if (!record || now - record.windowStart > windowMs) {
-    return { allowed: true, remaining: maxLimit };
-  }
-  return { allowed: record.count < maxLimit, remaining: Math.max(0, maxLimit - record.count) };
-}
-
-function recordClassLookupAttempt(ip: string, type: 'invalid' | 'valid'): void {
-  const map = type === 'invalid' ? classLookupInvalidAttempts : classLookupValidAttempts;
-  const windowMs = 10 * 60 * 1000;
-  const now = Date.now();
-
-  const record = map.get(ip);
-  if (!record || now - record.windowStart > windowMs) {
-    map.set(ip, { count: 1, windowStart: now });
-  } else {
-    record.count += 1;
-  }
-}
-
 function getClientIp(req: IncomingMessage): string {
   const forwarded = req.headers['x-forwarded-for'];
   if (typeof forwarded === 'string') {
@@ -268,36 +237,20 @@ export async function handleApiRequest(
       const classCode = decodeURIComponent(getClassByCodeMatch[1]).trim().toUpperCase();
       const ip = getClientIp(req);
 
-      const invalidLimit = checkClassLookupRateLimit(ip, 'invalid');
-      if (!invalidLimit.allowed) {
-        sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
-        return true;
-      }
-
-      const validLimit = checkClassLookupRateLimit(ip, 'valid');
-      if (!validLimit.allowed) {
-        sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
-        return true;
-      }
-
-      try {
-        const dbRateLimit = await checkAndIncrementClassLookupRateLimit(ip);
-        if (dbRateLimit && !dbRateLimit.allowed) {
-          sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
-          return true;
-        }
-      } catch {
-        // Fallback
-      }
-
       const cls = await getClassByCode(classCode);
-      if (!cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || Boolean(cls.archived_at)) {
-        recordClassLookupAttempt(ip, 'invalid');
+      const isInvalid = !cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || Boolean(cls.archived_at);
+      const kind: 'invalid' | 'valid' = isInvalid ? 'invalid' : 'valid';
+
+      const dbRateLimit = await checkAndIncrementClassLookupRateLimit(ip, kind);
+      if (!dbRateLimit.allowed) {
+        sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
+        return true;
+      }
+
+      if (isInvalid) {
         sendJson(res, 404, { error: 'Class not found' });
         return true;
       }
-
-      recordClassLookupAttempt(ip, 'valid');
 
       const students = await getStudentsForClassRoster(cls.id);
       sendJson(res, 200, {
@@ -311,7 +264,6 @@ export async function handleApiRequest(
       });
       return true;
     }
-
     // ── PUBLIC: POST /api/student/login ───────────────────────────────────────
     if (pathname === '/api/student/login' && req.method === 'POST') {
       const parsed = await parseBody(req, res, StudentLoginSchema);
@@ -573,6 +525,39 @@ export async function handleApiRequest(
     // ── Enforce school_admin scope: missing school_id must DENY (403) ──────────
     if (session.role === 'school_admin' && !session.schoolId) {
       sendJson(res, 403, { error: 'Access denied: school_admin has no assigned school scope' });
+      return true;
+    }
+
+    // ── GET /api/admin/metrics ────────────────────────────────────────────────
+    if (pathname === '/api/admin/metrics' && req.method === 'GET') {
+      const schoolScope = session.role === 'school_admin' ? (session.schoolId ?? undefined) : undefined;
+      const metrics = await getAdminDashboardMetrics(schoolScope);
+      sendJson(res, 200, { metrics });
+      return true;
+    }
+
+    // ── GET /api/admin/reports/students ────────────────────────────────────────
+    if (pathname === '/api/admin/reports/students' && req.method === 'GET') {
+      const schoolScope = session.role === 'school_admin' ? (session.schoolId ?? undefined) : undefined;
+      const students = await getAdminStudentSummaries(schoolScope);
+      sendJson(res, 200, { students });
+      return true;
+    }
+
+    // ── GET /api/admin/students/:studentId/detail ─────────────────────────────
+    const getStudentDetailMatch = pathname.match(/^\/api\/admin\/students\/([^/]+)\/detail$/);
+    if (getStudentDetailMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getStudentDetailMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+      const detail = await getAdminStudentDetail(studentId);
+      if (!detail) {
+        sendJson(res, 404, { error: 'Student not found' });
+        return true;
+      }
+      sendJson(res, 200, { detail });
       return true;
     }
 

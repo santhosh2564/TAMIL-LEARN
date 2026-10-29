@@ -2,7 +2,15 @@ import { neon, NeonQueryFunction } from '@neondatabase/serverless';
 import fs from 'fs';
 import path from 'path';
 import { generateClassCode } from './classCode';
-import { lookupActivityMetadata } from './activityCatalog';
+import { lookupActivityMetadata, allActivityMetadata } from './activityCatalog';
+import type {
+  AdminDashboardMetrics,
+  StudentProgressSummary,
+  StudentDetailedProgress,
+  StudentCategoryMastery,
+  QuestionAttemptDetail,
+} from '../src/admin/types';
+import type { ActivityCategory } from '../src/types';
 
 // ── Connection ────────────────────────────────────────────────────────────────
 let sqlInstance: NeonQueryFunction<false, false> | null = null;
@@ -292,22 +300,23 @@ export async function getStudentsForClassRoster(
 }
 
 export async function checkAndIncrementClassLookupRateLimit(
-  ip: string
+  ip: string,
+  kind: 'invalid' | 'valid'
 ): Promise<{ allowed: boolean; remaining: number }> {
   const sql = getDb();
   const windowMs = 10 * 60 * 1000; // 10 minutes
   const windowStart = new Date(Math.floor(Date.now() / windowMs) * windowMs).toISOString();
+  const maxLimit = kind === 'invalid' ? 10 : 300;
 
   const rows = (await sql.query(
-    `INSERT INTO class_lookup_rate_limits (ip, window_start, count)
-     VALUES ($1, $2, 1)
-     ON CONFLICT (ip, window_start) DO UPDATE SET count = class_lookup_rate_limits.count + 1
+    `INSERT INTO class_lookup_rate_limits (ip, kind, window_start, count)
+     VALUES ($1, $2, $3, 1)
+     ON CONFLICT (ip, kind, window_start) DO UPDATE SET count = class_lookup_rate_limits.count + 1
      RETURNING count;`,
-    [ip, windowStart]
+    [ip, kind, windowStart]
   )) as Array<{ count: number }>;
 
   const count = rows[0]?.count ?? 1;
-  const maxLimit = 20;
   if (count > maxLimit) {
     return { allowed: false, remaining: 0 };
   }
@@ -800,3 +809,246 @@ export async function updateSessionProgressInDb(params: {
   }
   return row;
 }
+
+// ── Admin Dashboard & Progress Aggregations (School-Scoped SQL) ───────────────
+export const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
+  'picture-recognition': 'படம் பார்த்து சொல் (Picture Recognition)',
+  'word-completion': 'சொல் நிரப்புக (Word Completion)',
+  'arrange-word': 'சொல் உருவாக்குக (Arrange Word)',
+  'spelling-choice': 'சரியான எழுத்துக்கூட்டல் (Spelling Choice)',
+  'context-choice': 'வாக்கியப் பயிற்சி (Context Choice)',
+  'meaning-match': 'பொருள் அறிவோம் (Meaning Match)',
+};
+
+export async function getAdminDashboardMetrics(schoolId?: string): Promise<AdminDashboardMetrics> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `WITH scoped_students AS (
+       SELECT id
+       FROM students
+       WHERE archived_at IS NULL
+         AND ($1::text IS NULL OR school_id = $1::text)
+     ),
+     student_metrics AS (
+       SELECT
+         ap.student_id,
+         COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.attempts > 0 OR ap.completed) AS questions_attempted,
+         COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.completed) AS questions_completed,
+         COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.completed AND ap.first_attempt_correct = TRUE) AS first_attempt_successes,
+         COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.retry_count > 0) AS questions_retried,
+         COALESCE(SUM(ap.retry_count), 0) AS total_retries
+       FROM activity_progress ap
+       JOIN scoped_students s ON s.id = ap.student_id
+       GROUP BY ap.student_id
+     )
+     SELECT
+       (SELECT COUNT(*)::int FROM scoped_students) AS total_students,
+       COALESCE((SELECT COUNT(*)::int FROM student_metrics WHERE questions_attempted > 0), 0) AS active_students,
+       COALESCE(SUM(questions_completed), 0)::int AS total_activities_completed,
+       COALESCE(SUM(questions_completed), 0)::int AS total_questions_completed,
+       COALESCE(SUM(first_attempt_successes), 0)::int AS first_attempt_successes,
+       COALESCE(SUM(questions_retried), 0)::int AS questions_retried,
+       COALESCE(SUM(total_retries), 0)::int AS total_retries
+     FROM student_metrics;`,
+    [schoolId ?? null]
+  )) as Array<{
+    total_students: number;
+    active_students: number;
+    total_activities_completed: number;
+    total_questions_completed: number;
+    first_attempt_successes: number;
+    questions_retried: number;
+    total_retries: number;
+  }>;
+
+  const r = rows[0] || {
+    total_students: 0,
+    active_students: 0,
+    total_activities_completed: 0,
+    total_questions_completed: 0,
+    first_attempt_successes: 0,
+    questions_retried: 0,
+    total_retries: 0,
+  };
+
+  return {
+    totalStudents: Number(r.total_students) || 0,
+    activeStudents: Number(r.active_students) || 0,
+    totalActivitiesCompleted: Number(r.total_activities_completed) || 0,
+    totalQuestionsCompleted: Number(r.total_questions_completed) || 0,
+    firstAttemptSuccesses: Number(r.first_attempt_successes) || 0,
+    questionsRetried: Number(r.questions_retried) || 0,
+    totalRetries: Number(r.total_retries) || 0,
+  };
+}
+
+export async function getAdminStudentSummaries(schoolId?: string): Promise<StudentProgressSummary[]> {
+  const sql = getDb();
+  const totalActivities = allActivityMetadata().length || 1;
+
+  const rows = (await sql.query(
+    `SELECT
+       s.id AS student_id,
+       s.name AS student_name,
+       s.created_at,
+       s.last_active_at,
+       COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.completed)::int AS activities_completed,
+       COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.attempts > 0 OR ap.completed)::int AS total_questions_attempted,
+       COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.completed)::int AS questions_completed,
+       COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.completed AND ap.first_attempt_correct = TRUE)::int AS first_attempt_correct_count,
+       COUNT(DISTINCT ap.activity_id) FILTER (WHERE ap.retry_count > 0)::int AS questions_retried_count,
+       COALESCE(SUM(ap.retry_count), 0)::int AS total_retries_count
+     FROM students s
+     LEFT JOIN activity_progress ap ON ap.student_id = s.id
+     WHERE s.archived_at IS NULL
+       AND ($1::text IS NULL OR s.school_id = $1::text)
+     GROUP BY s.id, s.name, s.created_at, s.last_active_at
+     ORDER BY s.last_active_at DESC, s.name ASC;`,
+    [schoolId ?? null]
+  )) as Array<{
+    student_id: string;
+    student_name: string;
+    created_at: string;
+    last_active_at: string;
+    activities_completed: number;
+    total_questions_attempted: number;
+    questions_completed: number;
+    first_attempt_correct_count: number;
+    questions_retried_count: number;
+    total_retries_count: number;
+  }>;
+
+  return rows.map((r) => {
+    const completed = Number(r.activities_completed) || 0;
+    const completionPercentage = Math.min(100, Math.round((completed / totalActivities) * 100));
+    return {
+      studentId: r.student_id,
+      studentName: r.student_name,
+      createdAt: r.created_at,
+      lastActiveAt: r.last_active_at,
+      activitiesCompleted: completed,
+      totalQuestionsAttempted: Number(r.total_questions_attempted) || 0,
+      questionsCompleted: Number(r.questions_completed) || 0,
+      firstAttemptCorrectCount: Number(r.first_attempt_correct_count) || 0,
+      questionsRetriedCount: Number(r.questions_retried_count) || 0,
+      totalRetriesCount: Number(r.total_retries_count) || 0,
+      completionPercentage,
+    };
+  });
+}
+
+export async function getAdminStudentDetail(studentId: string): Promise<StudentDetailedProgress | null> {
+  const sql = getDb();
+  const student = await getStudentById(studentId);
+  if (!student) return null;
+
+  const summaries = await getAdminStudentSummaries(student.school_id);
+  const summary = summaries.find((s) => s.studentId === studentId) || {
+    studentId: student.id,
+    studentName: student.name,
+    createdAt: student.created_at,
+    lastActiveAt: student.last_active_at,
+    activitiesCompleted: 0,
+    totalQuestionsAttempted: 0,
+    questionsCompleted: 0,
+    firstAttemptCorrectCount: 0,
+    questionsRetriedCount: 0,
+    totalRetriesCount: 0,
+    completionPercentage: 0,
+  };
+
+  const progressRows = (await sql.query(
+    `SELECT
+       activity_id,
+       category,
+       completed,
+       correct,
+       attempts,
+       retry_count,
+       first_attempt_correct,
+       last_completed_at,
+       last_attempted_at
+     FROM activity_progress
+     WHERE student_id = $1;`,
+    [studentId]
+  )) as Array<{
+    activity_id: string;
+    category: string;
+    completed: boolean;
+    correct: boolean;
+    attempts: number;
+    retry_count: number;
+    first_attempt_correct: boolean | null;
+    last_completed_at: string | null;
+    last_attempted_at: string;
+  }>;
+
+  const categories: ActivityCategory[] = [
+    'picture-recognition',
+    'word-completion',
+    'arrange-word',
+    'spelling-choice',
+    'context-choice',
+    'meaning-match',
+  ];
+
+  const categoryMastery: StudentCategoryMastery[] = categories.map((cat) => {
+    const catRows = progressRows.filter((p) => p.category === cat);
+    const completed = catRows.filter((p) => p.completed).length;
+    const firstAttemptCorrect = catRows.filter((p) => p.completed && p.first_attempt_correct === true).length;
+    const retried = catRows.filter((p) => p.retry_count > 0).length;
+    const totalRetries = catRows.reduce((acc, p) => acc + (p.retry_count || 0), 0);
+    const totalAvailable = Math.max(catRows.length, 1);
+    return {
+      category: cat,
+      categoryTitle: CATEGORY_DISPLAY_NAMES[cat] || cat,
+      totalAvailable,
+      completed,
+      firstAttemptCorrect,
+      retried,
+      totalRetries,
+      completionPercentage: Math.round((completed / totalAvailable) * 100),
+    };
+  });
+
+  const questions: QuestionAttemptDetail[] = progressRows.map((p) => {
+    const meta = lookupActivityMetadata(p.activity_id);
+    const category = (p.category || 'spelling-choice') as ActivityCategory;
+    const status: 'completed' | 'in-progress' | 'not-started' = p.completed
+      ? 'completed'
+      : p.attempts > 0
+      ? 'in-progress'
+      : 'not-started';
+
+    return {
+      questionId: p.activity_id,
+      activityTitle: `Activity ${p.activity_id}`,
+      category,
+      categoryTitle: CATEGORY_DISPLAY_NAMES[category] || String(category),
+      subject: meta?.subject || (p.activity_id.startsWith('E') || p.activity_id.startsWith('class3-english') ? 'English' : 'Tamil'),
+      attempts: p.attempts || 0,
+      retries: p.retry_count || 0,
+      firstAttemptCorrect: p.first_attempt_correct ?? false,
+      status,
+      lastAttemptAt: p.last_attempted_at,
+      completedAt: p.last_completed_at || undefined,
+    };
+  });
+
+  questions.sort((a, b) => {
+    const tA = a.lastAttemptAt ? new Date(a.lastAttemptAt).getTime() : 0;
+    const tB = b.lastAttemptAt ? new Date(b.lastAttemptAt).getTime() : 0;
+    return tB - tA;
+  });
+
+  return {
+    studentId: student.id,
+    studentName: student.name,
+    createdAt: student.created_at,
+    lastActiveAt: student.last_active_at,
+    summary,
+    categoryMastery,
+    questions,
+  };
+}
+

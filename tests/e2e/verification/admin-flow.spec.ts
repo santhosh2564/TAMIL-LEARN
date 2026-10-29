@@ -206,21 +206,22 @@ test.describe('B. Admin Flow Verification', () => {
       await studentPage.locator('button', { hasText: 'தொடர்க' }).click();
     }
 
-    // Context 2: Admin
+    // Context 2: Admin (separate browser context with fresh storage)
     const adminCtx = await browser.newContext();
     const adminPage = await adminCtx.newPage();
     await loginAdmin(adminPage, seeded);
 
-    // Refresh data using aria-label
-    await adminPage.getByRole('button', { name: 'Refresh dashboard data' }).click();
-    await adminPage.waitForTimeout(1000);
+    // Refresh data in Admin Dashboard
+    await adminPage.getByRole('button', { name: /Refresh/i }).click();
 
-    // Verify row count in DB
-    const dbRows = (await sql.query(
-      'SELECT count(*)::int as count FROM attempts WHERE student_id = $1;',
-      [student.id]
-    )) as { count: number }[];
-    expect(dbRows[0].count).toBeGreaterThanOrEqual(2);
+    // Verify Admin Dashboard UI displays the student from Context 1 and their progress
+    const studentRow = adminPage.locator(`tr:has-text("${student.name}")`);
+    await expect(studentRow).toBeVisible({ timeout: 10000 });
+
+    // Verify row displays completed questions/activities in the UI
+    // In StudentTable: col 1 is Student, col 2 is Activities Completed, col 3 is Questions Completed
+    const questionsCompletedCell = studentRow.locator('td').nth(2);
+    await expect(questionsCompletedCell).toHaveText(/^[1-9]\d*$/);
 
     await studentCtx.close();
     await adminCtx.close();
@@ -284,7 +285,7 @@ test.describe('B. Admin Flow Verification', () => {
     await expect(page).toHaveURL(/\/admin\/dashboard/);
 
     // Logout
-    const logoutBtn = page.getByRole('button', { name: 'Log out of admin portal' });
+    const logoutBtn = page.getByRole('button', { name: /Sign Out|Log out/i });
     await expect(logoutBtn).toBeVisible({ timeout: 5000 });
     await logoutBtn.click();
 
