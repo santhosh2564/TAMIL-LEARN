@@ -6,7 +6,7 @@ import path from 'path';
 
 /**
  * T10. Cross-desktop session resume and offline outbox, against the TEST database only.
- * Run with playwright.cross-desktop.config.ts (vite preview with DATABASE_URL = TEST_DATABASE_URL).
+ * Runs under playwright.config.ts (vite preview with DATABASE_URL = TEST_DATABASE_URL).
  *
  * (a) Desktop A answers 3 questions and taps "I'm done".
  * (b) Desktop B, a fresh browser context, logs in and resumes at question 4.

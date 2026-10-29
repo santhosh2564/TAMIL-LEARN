@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('verifies Q110 displays the image of soil (மண்) and interactive word completion', async ({ page }) => {
-  await page.goto('http://localhost:5173/session/3/tamil/play?activityId=Q110');
+  await page.goto('/session/3/tamil/play?activityId=Q110');
 
   // Verify the image is present and visible
   const image = page.locator('img[data-testid="activity-asset-image"]');

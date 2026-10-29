@@ -37,28 +37,10 @@ async function checkActivityImage(page: Page, context: string): Promise<ImageChe
 test.describe('Phase H — English Activity Visual Asset QA', () => {
   test.setTimeout(120_000);
 
-  test.beforeEach(async ({ page }) => {
-    await page.addInitScript(() => {
-      try {
-        localStorage.setItem('sa.activeStudentId.v1', 'qa-english-student');
-        localStorage.setItem('sa.students.v1', JSON.stringify({
-          version: 1,
-          updatedAt: new Date().toISOString(),
-          students: [{
-            id: 'qa-english-student',
-            name: 'Sara QA',
-            createdAt: new Date().toISOString(),
-            lastActiveAt: new Date().toISOString()
-          }]
-        }));
-      } catch {
-        // ignore
-      }
-    });
-  });
+  // Runs as the student logged in through /c/:code + PIN in global setup (default storageState).
 
   test('Module 1: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M1');
     console.log('M1 result:', JSON.stringify(result));
@@ -68,7 +50,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   });
 
   test('Module 2: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=2');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=2');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M2');
     console.log('M2 result:', JSON.stringify(result));
@@ -77,7 +59,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   });
 
   test('Module 3: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=3');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=3');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M3');
     console.log('M3 result:', JSON.stringify(result));
@@ -86,7 +68,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   });
 
   test('Module 4: Day 1 session renders and loads assets/fallbacks cleanly', async ({ page }) => {
-    await page.goto('http://localhost:5173/session/3/english/play?module=4&day=1');
+    await page.goto('/session/3/english/play?module=4&day=1');
     await page.waitForSelector('h2, [data-testid="activity-card"]', { timeout: 20000 });
     const invalidFallbacks = page.locator('[data-testid="asset-fallback-invalid"]');
     expect(await invalidFallbacks.count()).toBe(0);
@@ -106,7 +88,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
     ];
 
     for (const imgPath of compoundPaths) {
-      const resp = await page.request.get(`http://localhost:5173${imgPath}`);
+      const resp = await page.request.get(`${imgPath}`);
       expect(resp.status(), `Expected 200 for ${imgPath}`).toBe(200);
       const contentType = resp.headers()['content-type'] || '';
       expect(contentType, `Expected image content-type for ${imgPath}`).toContain('image');
@@ -127,7 +109,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
     ];
 
     for (const imgPath of tamilReusedPaths) {
-      const resp = await page.request.get(`http://localhost:5173${imgPath}`);
+      const resp = await page.request.get(`${imgPath}`);
       expect(resp.status(), `Expected 200 for ${imgPath}`).toBe(200);
       console.log(`Tamil reuse ${imgPath}: HTTP ${resp.status()}`);
     }
@@ -135,7 +117,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Image sizing: activity image is not clipped or overflowing on desktop', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 800 });
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
 
     const img = page.locator('[data-testid="activity-asset-image"]').first();
@@ -153,7 +135,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Image sizing: activity image is touch-friendly on mobile (375x667)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 667 });
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
 
     const img = page.locator('[data-testid="activity-asset-image"]').first();
@@ -169,7 +151,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Text-only activities do not render broken image fallback', async ({ page }) => {
     // Module 6, which is text-based, should not show asset-fallback-invalid
-    await page.goto('http://localhost:5173/classes/3/subjects/english/modules/6');
+    await page.goto('/classes/3/subjects/english/modules/6');
     await page.waitForSelector('text=Day 1 Practice', { timeout: 15000 });
     await page.getByRole('button', { name: 'Start' }).first().click();
     await page.waitForTimeout(3000);
@@ -185,16 +167,16 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
     // Module 2, Day 1 contains review activities from Module 1
     // The review acts should resolve the same assetId as the original new-word act
     // We verify by checking HTTP response for the expected image path
-    const resp = await page.request.get('http://localhost:5173/assets/class-3/english/images/eng-bird.jpg');
+    const resp = await page.request.get('/assets/class-3/english/images/eng-bird.jpg');
     expect(resp.status()).toBe(200);  // eng-bird is a Module 1 new word, reused in M2 reviews
-    const resp2 = await page.request.get('http://localhost:5173/assets/class-3/english/images/eng-big.jpg');
+    const resp2 = await page.request.get('/assets/class-3/english/images/eng-big.jpg');
     expect(resp2.status()).toBe(200);
     console.log('Review asset reuse check: eng-bird OK, eng-big OK');
   });
 
   test('Phase I: verify no "Picture of ..." visible text is rendered on picture activities', async ({ page }) => {
     // 1. Native English picture activity
-    await page.goto('http://localhost:5173/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
     
     // Instruction prompt is present
