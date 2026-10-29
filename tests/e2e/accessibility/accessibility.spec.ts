@@ -35,8 +35,6 @@ test.describe('Accessibility & Responsive Viewport Verification', () => {
 
   test('verifies keyboard navigation on activity cards', async ({ page }) => {
     await page.goto('/session/3/tamil/play?activityId=Q010');
-    // The page first restores the student session, so wait for the question itself.
-    await page.locator('button[lang="ta"]').first().waitFor();
 
     // Tab through interactive elements
     await page.keyboard.press('Tab');

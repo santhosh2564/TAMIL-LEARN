@@ -1,12 +1,30 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
-  // Runs as the student logged in through /c/:code + PIN in global setup (default storageState).
+  test.beforeEach(async ({ page }) => {
+    await page.addInitScript(() => {
+      try {
+        localStorage.setItem('sa.activeStudentId.v1', 'qa-english-student');
+        localStorage.setItem('sa.students.v1', JSON.stringify({
+          version: 1,
+          updatedAt: new Date().toISOString(),
+          students: [{
+            id: 'qa-english-student',
+            name: 'Sara QA',
+            createdAt: new Date().toISOString(),
+            lastActiveAt: new Date().toISOString()
+          }]
+        }));
+      } catch {
+        // ignore
+      }
+    });
+  });
 
   test('Complete Flow: Home -> Classes -> Class 3 -> English -> Module 1 -> Day 1 -> Practice -> Exit', async ({ page }) => {
     // 1. Home
 
-    await page.goto('/');
+    await page.goto('http://localhost:5173/');
     const startLearningBtn = page.getByRole('button', { name: /Start Learning/i });
     await expect(startLearningBtn).toBeVisible();
     await startLearningBtn.click();
@@ -66,14 +84,14 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects\/english\/modules\/1/);
 
     // 8. Test Module 2 (reviews check)
-    await page.goto('/classes/3/subjects/english/modules/2');
+    await page.goto('http://localhost:5173/classes/3/subjects/english/modules/2');
     await expect(page.getByText('Module 2 - Phonemic Building & Core Vocabulary')).toBeVisible();
     await expect(page.getByText('120 New Words')).toBeVisible();
     await expect(page.getByText('40 Review Activities')).toBeVisible();
     await expect(page.getByText('5 Days (160 Total Activities)')).toBeVisible();
 
     // 9. Test Invalid Module (Error Handling)
-    await page.goto('/classes/3/subjects/english/modules/9');
+    await page.goto('http://localhost:5173/classes/3/subjects/english/modules/9');
     await expect(page.getByText('Module not found')).toBeVisible();
     const backBtn = page.getByRole('button', { name: 'Back to Modules' });
     await expect(backBtn).toBeVisible();
@@ -81,7 +99,7 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects\/english/);
 
     // 10. Tamil Regression Check
-    await page.goto('/classes/3/subjects/tamil');
+    await page.goto('http://localhost:5173/classes/3/subjects/tamil');
     await expect(page.getByText('தமிழ் கற்றல் பகுதி')).toBeVisible();
     await expect(page.getByText('கலப்பு பயிற்சி')).toBeVisible();
   });
@@ -90,7 +108,7 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     await page.setViewportSize({ width: 375, height: 667 });
 
     // English Learning Area on mobile
-    await page.goto('/classes/3/subjects/english');
+    await page.goto('http://localhost:5173/classes/3/subjects/english');
     await page.waitForLoadState('networkidle');
 
     const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
@@ -98,7 +116,7 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     expect(scrollWidth).toBeLessThanOrEqual(clientWidth + 1); // No horizontal overflow
 
     // Module detail on mobile
-    await page.goto('/classes/3/subjects/english/modules/1');
+    await page.goto('http://localhost:5173/classes/3/subjects/english/modules/1');
     await page.waitForLoadState('networkidle');
 
     const mScrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);

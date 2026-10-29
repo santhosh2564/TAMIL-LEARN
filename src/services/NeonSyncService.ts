@@ -1,5 +1,6 @@
+import { StudentProfile } from '../student/types';
+import { ActivityProgress } from '../progress/types';
 import { AttemptRecord } from '../attempts/types';
-import { offlineOutbox } from './OfflineOutboxQueue';
 
 export interface NeonCloudStatus {
   connected: boolean;
@@ -48,31 +49,71 @@ export class NeonSyncService {
     return this.status;
   }
 
-  async syncAttempt(attempt: AttemptRecord): Promise<boolean> {
-    // Outbox-first: persist to offline storage BEFORE dispatching network call
-    await offlineOutbox.enqueue(attempt);
+  async syncStudent(student: StudentProfile): Promise<boolean> {
+    try {
+      const res = await fetch('/api/students', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(student)
+      });
+      return res.ok;
+    } catch {
+      // Offline fallback: fail silently to preserve local experience
+      return false;
+    }
+  }
 
+  async deleteStudent(studentId: string): Promise<boolean> {
+    try {
+      const res = await fetch(`/api/students/${encodeURIComponent(studentId)}`, {
+        method: 'DELETE'
+      });
+      return res.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  async syncProgress(progress: ActivityProgress): Promise<boolean> {
+    if (!progress.studentId) return false;
+    try {
+      const res = await fetch(`/api/students/${encodeURIComponent(progress.studentId)}/progress`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(progress)
+      });
+      return res.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  async syncAttempt(attempt: AttemptRecord): Promise<boolean> {
     try {
       const res = await fetch(`/api/students/${encodeURIComponent(attempt.studentId)}/attempts`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        credentials: 'same-origin',
         body: JSON.stringify(attempt)
       });
-      if (res.ok) {
-        // Successfully recorded: dequeue from active outbox
-        await offlineOutbox.remove(attempt.id);
-        return true;
-      }
-      if (res.status === 404) {
-        // Student not found / archived / deleted: route to dead-letter queue
-        await offlineOutbox.moveToDeadLetter(attempt);
-        return false;
-      }
-      // Non-2xx/non-404: keep in outbox for subsequent retry
-      return false;
+      return res.ok;
     } catch {
-      // Network failure / offline: keep in outbox
+      return false;
+    }
+  }
+
+  async syncFullLocalState(params: {
+    students: StudentProfile[];
+    progressByStudent: Record<string, ActivityProgress[]>;
+    attemptsByStudent: Record<string, AttemptRecord[]>;
+  }): Promise<boolean> {
+    try {
+      const res = await fetch('/api/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(params)
+      });
+      return res.ok;
+    } catch {
       return false;
     }
   }

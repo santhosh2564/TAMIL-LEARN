@@ -3,9 +3,6 @@ export interface StudentProfile {
   name: string;
   createdAt: string;
   lastActiveAt: string;
-  avatar?: string;
-  classId?: string;
-  schoolId?: string;
 }
 
 export const STUDENT_STORAGE_KEY_V1 = 'sa.students.v1';

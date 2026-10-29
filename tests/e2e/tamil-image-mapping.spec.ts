@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { setupStudentContext } from './helpers/activity-runner';
 
 test.describe('Tamil Image Mapping & Asset Resolution E2E', () => {
-  // Runs as the student logged in through /c/:code + PIN in global setup (default storageState).
+  test.beforeEach(async ({ page }) => {
+    await setupStudentContext(page);
+  });
 
   // 1. High-profile test cases explicitly required by specification
   test.describe('High-Profile Source-ID Mappings', () => {

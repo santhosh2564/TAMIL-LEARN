@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('verifies Q032 options: correct answer is ஒளி and wrong options are ஒளீ, ஔ, ஓளி', async ({ page }) => {
-  await page.goto('/session/3/tamil/play?activityId=Q032');
+  await page.goto('http://localhost:5173/session/3/tamil/play?activityId=Q032');
 
   // Verify prompt
   await expect(page.locator('text=சரியான தமிழ்ச் சொல்லைத் தேர்ந்தெடுக்கவும்.')).toBeVisible();

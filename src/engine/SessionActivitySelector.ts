@@ -58,18 +58,4 @@ export class SessionActivitySelector {
     // mode === 'all'
     return activities;
   }
-
-  /**
-   * Resumes a session by loading the exact ordered activities by ID.
-   */
-  async selectActivitiesByIds(activityIds: string[]): Promise<Activity[]> {
-    const list: Activity[] = [];
-    for (const id of activityIds) {
-      const act = await this.repository.getActivityById(id);
-      if (act) {
-        list.push(act);
-      }
-    }
-    return list;
-  }
 }

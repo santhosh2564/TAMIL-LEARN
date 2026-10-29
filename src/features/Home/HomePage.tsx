@@ -1,15 +1,19 @@
 import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useNavigate } from 'react-router-dom';
-import { useStudent, CLASS_CODE_PATH } from '../../student';
+import { useStudent } from '../../student';
+import { Users } from 'lucide-react';
 
 export function HomePage() {
   const navigate = useNavigate();
   const { activeStudent } = useStudent();
 
-  // Students join through their class link; a child already in a session goes straight to learning.
   const handleStart = () => {
-    navigate(activeStudent ? '/classes/3/subjects' : CLASS_CODE_PATH);
+    if (activeStudent) {
+      navigate('/classes/3/subjects');
+    } else {
+      navigate('/students');
+    }
   };
 
   return (
@@ -28,6 +32,12 @@ export function HomePage() {
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-primary-50 border border-primary-200">
             <span className="text-text-muted font-medium">Learning as:</span>
             <span className="text-primary-700 font-bold text-lg">{activeStudent.name}</span>
+            <button
+              onClick={() => navigate('/students')}
+              className="ml-2 text-sm text-primary-600 hover:text-primary-800 underline font-semibold cursor-pointer"
+            >
+              Switch
+            </button>
           </div>
         )}
 
@@ -40,6 +50,26 @@ export function HomePage() {
           >
             Start Learning
           </Button>
+
+          {!activeStudent ? (
+            <Button
+              size="large"
+              variant="secondary"
+              onClick={() => navigate('/students')}
+              className="w-full sm:w-auto text-xl font-bold px-8 py-6 rounded-full"
+            >
+              <Users className="w-5 h-5 mr-2" /> Who is Learning?
+            </Button>
+          ) : (
+            <Button
+              size="large"
+              variant="secondary"
+              onClick={() => navigate('/students')}
+              className="w-full sm:w-auto text-xl font-bold px-8 py-6 rounded-full"
+            >
+              <Users className="w-5 h-5 mr-2" /> Switch Student
+            </Button>
+          )}
         </div>
       </div>
     </Page>

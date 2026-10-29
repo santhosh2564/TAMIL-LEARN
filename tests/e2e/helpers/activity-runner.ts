@@ -35,6 +35,27 @@ export function findTokenSequence(target: string, availableTokens: string[]): st
   return search(cleanTarget, availableTokens, []);
 }
 
+export async function setupStudentContext(page: Page, studentId = 'qa-audit-student', studentName = 'தணிகைவேல்') {
+  await page.addInitScript(({ id, name }) => {
+    try {
+      if (!localStorage.getItem('sa.activeStudentId.v1')) {
+        localStorage.setItem('sa.activeStudentId.v1', id);
+        localStorage.setItem('sa.students.v1', JSON.stringify({
+          version: 1,
+          students: [{
+            id,
+            name,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString()
+          }]
+        }));
+      }
+    } catch {
+      // ignore
+    }
+  }, { id: studentId, name: studentName });
+}
+
 export async function verifyQuestionInBrowser(
   page: Page,
   item: InventoryItem,

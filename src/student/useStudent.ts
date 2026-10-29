@@ -7,10 +7,20 @@ export function useStudent(): StudentContextValue {
     return {
       activeStudent: null,
       activeStudentId: null,
+      students: [],
       isLoading: false,
+      selectStudent: async () => {},
+      createAndSelectStudent: async (name: string) => ({
+        id: 'test-student-id',
+        name,
+        createdAt: new Date().toISOString(),
+        lastActiveAt: new Date().toISOString(),
+      }),
+      clearActiveStudent: async () => {},
+      deleteStudent: async () => {},
       clearActiveStudentProgress: async () => {},
-      logout: async () => {},
-      setActiveStudentFromServer: () => {},
+      clearAllStudentsData: async () => {},
+      refreshStudents: async () => {},
     };
   }
   return context;

@@ -9,11 +9,10 @@ import { ErrorState } from '../../components/ui/ErrorState';
 import { Activity, ActivityCategory } from '../../types';
 import { ProgressService, LocalProgressRepository, EnglishProgressService, PROGRESS_STORAGE_KEY_V2 } from '../../progress';
 import { useStudent } from '../../student';
-import { sessionSync } from '../../services/SessionSyncService';
 
 export function SessionPage() {
   const navigate = useNavigate();
-  const { activeStudent, isLoading: isStudentLoading } = useStudent();
+  const { activeStudent } = useStudent();
   const { classId, subjectId } = useParams<{ classId: string; subjectId: string }>();
   const [searchParams] = useSearchParams();
   const rawCategory = searchParams.get('category');
@@ -98,44 +97,11 @@ export function SessionPage() {
   }, [session]);
 
   useEffect(() => {
-    // Wait until the student session is restored from the server, otherwise the
-    // server-side learning session can neither be created nor resumed.
-    if (isStudentLoading) return;
-
     async function initSession() {
       try {
         setIsLoading(true);
         const selector = new SessionActivitySelector();
-        const studentId =
-          activeStudent?.id;
-
-        // Resume the server-side session (possibly started on another desktop) when asked to.
-        const resumeSessionId = searchParams.get('resumeSessionId');
-        const activeSess =
-          resumeSessionId && studentId
-            ? await sessionSync.getActiveSession(studentId, isEnglish ? 'english' : 'tamil', category || undefined)
-            : null;
-
-        let selectedActivities: Activity[];
-        let startIndex = 0;
-        let sessionId = 'session-' + Date.now();
-        if (activeSess && activeSess.activityIds.length > 0) {
-          selectedActivities = await selector.selectActivitiesByIds(activeSess.activityIds);
-          startIndex = activeSess.currentIndex;
-          sessionId = activeSess.id;
-        } else {
-          selectedActivities = await selector.selectActivities(config);
-          if (studentId && selectedActivities.length > 0) {
-            const saved = await sessionSync.createOrSaveSession({
-              studentId,
-              subject: isEnglish ? 'english' : 'tamil',
-              categoryOrModule: category || (config.module ? `module-${config.module}` : 'mixed'),
-              activityIds: selectedActivities.map((a) => a.id),
-              currentIndex: 0,
-            });
-            sessionId = saved.id;
-          }
-        }
+        const selectedActivities = await selector.selectActivities(config);
 
         if (selectedActivities.length === 0) {
           setError(
@@ -154,16 +120,14 @@ export function SessionPage() {
 
         setActivities(activityMap);
 
-        const resumedSession = sessionService.resumeSession(
-          sessionId,
-          selectedActivities.map((a) => a.id),
-          startIndex
-        );
-        setSession(resumedSession);
-
-        const currentId = sessionService.getCurrentActivityId(resumedSession);
-        if (currentId && activityMap[currentId]) {
-          setCurrentActivityState(engine.start(activityMap[currentId]));
+        const newSession = sessionService.createSession('session-' + Date.now(), selectedActivities.map(a => a.id));
+        const startedSession = sessionService.startSession(newSession);
+        
+        setSession(startedSession);
+        
+        const firstActivityId = sessionService.getCurrentActivityId(startedSession);
+        if (firstActivityId) {
+          setCurrentActivityState(engine.start(activityMap[firstActivityId]));
         }
 
         setIsLoading(false);
@@ -179,7 +143,7 @@ export function SessionPage() {
 
     initSession();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isStudentLoading, category, levelStr, sizeStr, moduleStr, dayStr]);
+  }, [category, levelStr, sizeStr, moduleStr, dayStr]);
 
   const handleSubmit = useCallback((input: unknown) => {
     if (!session || !currentActivityState) return;
@@ -210,7 +174,9 @@ export function SessionPage() {
       setCurrentActivityState(nextState);
 
       const studentId =
-        activeStudent?.id;
+        activeStudent?.id ||
+        (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null) ||
+        undefined;
 
       // Persist individual attempt to isolated student tracking
       if (studentId) {
@@ -270,17 +236,6 @@ export function SessionPage() {
     
     const advancedSession = sessionService.nextActivity(session);
     setSession(advancedSession);
-
-    const studentId =
-      activeStudent?.id;
-    if (studentId) {
-      sessionSync.updateSessionProgress(
-        session.id,
-        studentId,
-        advancedSession.currentIndex,
-        advancedSession.status === 'completed' ? 'completed' : 'active'
-      );
-    }
 
     if (advancedSession.status === 'completed') {
       setIsNavigatingToResults(true);

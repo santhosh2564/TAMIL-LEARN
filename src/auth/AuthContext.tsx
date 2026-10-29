@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { AuthUser, LoginCredentials, Permission, UserRole } from './types';
 import { AuthService } from './AuthService';
+import { LocalAuthRepository } from './LocalAuthRepository';
 import { can as canCheck, hasRole as hasRoleCheck } from './rules';
 import { AuthContext, AuthContextValue } from './AuthContextInstance';
 
@@ -15,19 +16,14 @@ export function AuthProvider({
   const [isLoading, setIsLoading] = useState(true);
 
   const authService = useMemo(
-    () => authServiceOverride || new AuthService(),
+    () => authServiceOverride || new AuthService(new LocalAuthRepository()),
     [authServiceOverride]
   );
 
-  /**
-   * On mount, call GET /api/admin/session to rehydrate auth state from the
-   * httpOnly cookie. This ensures the admin stays logged in across page
-   * refreshes without storing anything in localStorage.
-   */
   const refreshSession = useCallback(async () => {
     try {
-      const session = await authService.getSession();
-      setUser(session?.user ?? null);
+      const activeUser = await authService.getCurrentUser();
+      setUser(activeUser);
     } catch {
       setUser(null);
     } finally {

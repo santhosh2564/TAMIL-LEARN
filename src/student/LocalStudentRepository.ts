@@ -7,6 +7,24 @@ import {
 } from './types';
 import { StudentRepository } from './StudentRepository';
 
+/**
+ * Generates a collision-resistant unique identifier for student profiles.
+ * Uses crypto.randomUUID() when supported, with a reliable fallback.
+ */
+export function generateStudentId(): string {
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+    try {
+      return crypto.randomUUID();
+    } catch {
+      // Fall through to fallback
+    }
+  }
+  const timestamp = Date.now().toString(36);
+  const randomPart = Math.random().toString(36).substring(2, 12);
+  const counter = Math.floor(Math.random() * 1000000).toString(36);
+  return `stu_${timestamp}_${randomPart}_${counter}`;
+}
+
 export class LocalStudentRepository implements StudentRepository {
   private readonly storageKey: string;
   private readonly activeStudentKey: string;

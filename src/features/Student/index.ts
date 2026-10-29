@@ -1,1 +1,2 @@
-export * from './ClassCodePage';
+export * from './StudentSelectionView';
+export * from './StudentSelectionPage';

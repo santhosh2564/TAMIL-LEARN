@@ -1,20 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { seedClass, cleanupClass, loginStudent, localProgressFor, testDb, SeededClass } from '../helpers/loginStudent';
 
 test.describe('Progress, Evaluator & Retry Logic Verification', () => {
-  // Each test logs in fresh through the class link + picture PIN.
-  test.use({ storageState: { cookies: [], origins: [] } });
-
-  let seeded: SeededClass;
-  test.beforeAll(async () => {
-    seeded = await seedClass({ tag: 'retry', students: ['Retry'] });
-  });
-  test.afterAll(async () => {
-    await cleanupClass(seeded);
-  });
-
   test.beforeEach(async ({ page }) => {
-    await loginStudent(page, seeded, 'Retry');
+    await page.goto('/');
+    await page.evaluate(() => localStorage.clear());
+    // Create QA Student
+    await page.goto('/students');
+    const input = page.locator('#student-name-input');
+    await input.fill('Retry QA Student');
+    await page.click('button:has-text("Start Learning")');
   });
 
   test('verifies Correct first attempt: attempts = 1, retryCount = 0, correct = true', async ({ page }) => {
@@ -55,23 +49,17 @@ test.describe('Progress, Evaluator & Retry Logic Verification', () => {
 
     expect(answered).toBe(true);
 
-    // Verify the local progress record for this student (keyed by the server student id)
-    const record = (await localProgressFor(page, seeded.students[0].id))['Q010'];
+    // Verify localStorage progress record
+    const record = await page.evaluate(() => {
+      const snap = JSON.parse(localStorage.getItem('sa.learning.progress.v2') || '{}');
+      const activeStudent = localStorage.getItem('sa.activeStudentId.v1') || '';
+      const map = (snap.students && activeStudent && snap.students[activeStudent]) ? snap.students[activeStudent] : {};
+      return map['Q010'];
+    });
 
     expect(record).toBeDefined();
     expect(record.completed).toBe(true);
     expect(record.correct).toBe(true);
-
-    // ...and that the server recorded a correct Q010 attempt for this student
-    await expect
-      .poll(async () => {
-        const rows = (await testDb().query(
-          `SELECT count(*)::int AS n FROM attempts WHERE student_id = $1 AND activity_id = 'Q010' AND result = 'correct';`,
-          [seeded.students[0].id]
-        )) as { n: number }[];
-        return rows[0].n;
-      }, { timeout: 15000 })
-      .toBeGreaterThan(0);
   });
 
   test('verifies Incorrect -> Correct retry flow: attempts = 2, retryCount = 1, correct = true', async ({ page }) => {
@@ -154,7 +142,7 @@ test.describe('Progress, Evaluator & Retry Logic Verification', () => {
 
     // Verify Results Page loads
     await expect(page).toHaveURL(/\/session\/results/);
-    await expect(page.getByRole('heading', { name: /Retry/ })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Retry QA Student/ })).toBeVisible();
     await expect(page.locator('button', { hasText: 'கற்றல் பகுதி' })).toBeVisible();
     await expect(page.getByText('செயல்கள்')).toBeVisible();
     await expect(page.getByText('100%')).toBeVisible();

@@ -1,27 +1,28 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { AuthService } from '../AuthService';
 import { LocalAuthRepository } from '../LocalAuthRepository';
 import { can, canRole, hasRole } from '../rules';
-import { AuthSession } from '../types';
-
-// ── Mock fetch for AuthService tests ─────────────────────────────────────────
-// AuthService now calls /api/admin/* endpoints.
-// We mock globalThis.fetch to avoid real network calls.
-
-const mockFetch = vi.fn();
-
-beforeEach(() => {
-  vi.stubGlobal('fetch', mockFetch);
-});
-
-afterEach(() => {
-  vi.restoreAllMocks();
-  mockFetch.mockReset();
-});
-
-// ── Tests ─────────────────────────────────────────────────────────────────────
+import { ADMIN_SESSION_STORAGE_KEY_V1, AuthSession } from '../types';
 
 describe('Auth Domain & AuthService', () => {
+  const store: Record<string, string> = {};
+
+  beforeEach(() => {
+    Object.keys(store).forEach((k) => delete store[k]);
+    vi.stubGlobal('sessionStorage', {
+      getItem: (k: string) => store[k] ?? null,
+      setItem: (k: string, v: string) => {
+        store[k] = v;
+      },
+      removeItem: (k: string) => {
+        delete store[k];
+      },
+      clear: () => {
+        Object.keys(store).forEach((k) => delete store[k]);
+      },
+    });
+  });
+
   describe('Rule-Based Permissions & Role Checking', () => {
     it('grants learning and own progress to student role, but denies admin dashboard and student records', () => {
       expect(canRole('student', 'access:learning')).toBe(true);
@@ -50,153 +51,103 @@ describe('Auth Domain & AuthService', () => {
 
   describe('Admin Login & Session Management', () => {
     it('authenticates valid admin credentials successfully', async () => {
-      mockFetch.mockResolvedValueOnce({
-        ok: true,
-        status: 200,
-        json: async () => ({
-          user: {
-            id: 'adm_1',
-            username: 'admin',
-            role: 'super_admin',
-            schoolId: null,
-          },
-        }),
-      });
+      const authService = new AuthService(new LocalAuthRepository());
 
-      const authService = new AuthService();
       const result = await authService.login({
         username: 'admin',
-        password: 'correctpassword',
+        password: 'saraAdmin2026!',
       });
 
       expect(result.success).toBe(true);
       expect(result.session).toBeDefined();
       expect(result.session!.user.username).toBe('admin');
       expect(result.session!.user.role).toBe('admin');
+
+      const isAuth = await authService.isAuthenticated();
+      expect(isAuth).toBe(true);
+
+      const currentUser = await authService.getCurrentUser();
+      expect(currentUser).not.toBeNull();
+      expect(currentUser!.role).toBe('admin');
+
+      const canAccessAdmin = await authService.can('access:admin_dashboard');
+      expect(canAccessAdmin).toBe(true);
     });
 
-    it('rejects invalid password with generic error message', async () => {
-      mockFetch.mockResolvedValueOnce({
-        ok: false,
-        status: 401,
-        json: async () => ({ error: 'Invalid username or password' }),
-      });
+    it('rejects invalid password', async () => {
+      const authService = new AuthService(new LocalAuthRepository());
 
-      const authService = new AuthService();
       const result = await authService.login({
         username: 'admin',
         password: 'wrongPassword123',
       });
 
       expect(result.success).toBe(false);
-      expect(result.error).toMatch(/Invalid username or password/i);
+      expect(result.error).toMatch(/Invalid admin credentials/i);
+
+      const isAuth = await authService.isAuthenticated();
+      expect(isAuth).toBe(false);
     });
 
-    it('rejects invalid username with same generic message', async () => {
-      mockFetch.mockResolvedValueOnce({
-        ok: false,
-        status: 401,
-        json: async () => ({ error: 'Invalid username or password' }),
-      });
+    it('rejects invalid username', async () => {
+      const authService = new AuthService(new LocalAuthRepository());
 
-      const authService = new AuthService();
       const result = await authService.login({
         username: 'unknown_user',
-        password: 'somepassword',
+        password: 'saraAdmin2026!',
       });
 
       expect(result.success).toBe(false);
-      expect(result.error).toMatch(/Invalid username or password/i);
+      expect(result.error).toMatch(/Invalid admin credentials/i);
+
+      const isAuth = await authService.isAuthenticated();
+      expect(isAuth).toBe(false);
     });
 
-    it('returns error on non-401 server failure', async () => {
-      mockFetch.mockResolvedValueOnce({
-        ok: false,
-        status: 500,
-        json: async () => ({ error: 'Internal server error' }),
-      });
+    it('rejects empty credentials', async () => {
+      const authService = new AuthService(new LocalAuthRepository());
 
-      const authService = new AuthService();
       const result = await authService.login({
-        username: 'admin',
-        password: 'password',
+        username: '   ',
+        password: '',
       });
 
       expect(result.success).toBe(false);
-      expect(result.error).toBeTruthy();
+      expect(result.error).toMatch(/required/i);
     });
 
-    it('returns error when fetch throws (network error)', async () => {
-      mockFetch.mockRejectedValueOnce(new Error('Network error'));
+    it('logs out and clears active admin session', async () => {
+      const authService = new AuthService(new LocalAuthRepository());
 
-      const authService = new AuthService();
-      const result = await authService.login({
+      await authService.login({
         username: 'admin',
-        password: 'password',
+        password: 'saraAdmin2026!',
       });
+      expect(await authService.isAuthenticated()).toBe(true);
 
-      expect(result.success).toBe(false);
-      expect(result.error).toBeTruthy();
+      await authService.logout();
+      expect(await authService.isAuthenticated()).toBe(false);
+      expect(await authService.getCurrentUser()).toBeNull();
     });
 
-    it('logs out without throwing even if server call fails', async () => {
-      mockFetch.mockRejectedValueOnce(new Error('Network gone'));
-
-      const authService = new AuthService();
-      // Should not throw
-      await expect(authService.logout()).resolves.not.toThrow();
-    });
-
-    it('getSession returns null when server returns 401', async () => {
-      mockFetch.mockResolvedValueOnce({ ok: false, status: 401 });
-
-      const authService = new AuthService();
-      const session = await authService.getSession();
-      expect(session).toBeNull();
-    });
-
-    it('getSession returns user when server returns 200', async () => {
-      mockFetch.mockResolvedValueOnce({
-        ok: true,
-        status: 200,
-        json: async () => ({
-          user: {
-            id: 'adm_1',
-            username: 'schooladmin',
-            role: 'school_admin',
-            schoolId: 'sch_1',
-          },
-        }),
-      });
-
-      const authService = new AuthService();
-      const session = await authService.getSession();
-      expect(session).not.toBeNull();
-      expect(session!.user.username).toBe('schooladmin');
-      expect(session!.user.role).toBe('admin'); // mapped from server role
-    });
-  });
-
-  describe('LocalAuthRepository (stub)', () => {
-    it('stores and retrieves a session in memory', async () => {
+    it('invalidates expired sessions automatically', async () => {
       const repo = new LocalAuthRepository();
-      const session: AuthSession = {
-        token: 'httponly-cookie',
+      const expiredSession: AuthSession = {
+        token: 'tok_expired',
         user: {
           id: 'usr_admin',
           username: 'admin',
-          displayName: 'admin',
+          displayName: 'Admin',
           role: 'admin',
         },
-        expiresAt: new Date(Date.now() + 3600 * 1000).toISOString(),
+        // Expired 1 hour ago
+        expiresAt: new Date(Date.now() - 3600 * 1000).toISOString(),
       };
 
-      await repo.saveSession(session);
-      const retrieved = await repo.getSession();
-      expect(retrieved).toEqual(session);
+      store[ADMIN_SESSION_STORAGE_KEY_V1] = JSON.stringify(expiredSession);
 
-      await repo.clearSession();
-      expect(await repo.getSession()).toBeNull();
+      const session = await repo.getSession();
+      expect(session).toBeNull();
     });
   });
 });
