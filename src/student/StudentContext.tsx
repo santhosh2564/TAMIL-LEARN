@@ -5,6 +5,7 @@ import { LocalStudentRepository } from './LocalStudentRepository';
 import { ProgressService } from '../progress/ProgressService';
 import { LocalProgressRepository } from '../progress/LocalProgressRepository';
 import { StudentContext, StudentContextValue } from './StudentContextInstance';
+import { offlineOutbox } from '../services/OfflineOutboxQueue';
 
 export function StudentProvider({ children }: { children: React.ReactNode }) {
   const [students, setStudents] = useState<StudentProfile[]>([]);
@@ -67,24 +68,50 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   }, [loadData]);
 
   const logout = useCallback(async () => {
+    const studentId =
+      activeStudent?.id ||
+      (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null);
+
     try {
       await fetch('/api/student/logout', { method: 'POST' });
     } catch {
       // Ignore network error on logout
     }
-    // Shared desktop hygiene: clear all student data from browser storage on logout
+
+    // Shared desktop hygiene: remove only student session keys.
+    // NEVER call localStorage.clear() or sessionStorage.clear().
     try {
-      localStorage.clear();
-      sessionStorage.clear();
+      if (typeof localStorage !== 'undefined') {
+        localStorage.removeItem('sa.activeStudentId.v1');
+        const keysToRemove: string[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && (studentId ? key.startsWith(`sa.student.${studentId}`) : key.startsWith('sa.student.'))) {
+            keysToRemove.push(key);
+          }
+        }
+        keysToRemove.forEach((k) => localStorage.removeItem(k));
+      }
+      if (typeof sessionStorage !== 'undefined') {
+        const sessionKeysToRemove: string[] = [];
+        for (let i = 0; i < sessionStorage.length; i++) {
+          const key = sessionStorage.key(i);
+          if (key && (studentId ? key.startsWith(`sa.student.${studentId}`) : key.startsWith('sa.student.'))) {
+            sessionKeysToRemove.push(key);
+          }
+        }
+        sessionKeysToRemove.forEach((k) => sessionStorage.removeItem(k));
+      }
     } catch {
       // Ignore storage errors
     }
     setActiveStudent(null);
     setStudents([]);
-  }, []);
+  }, [activeStudent]);
 
   const setActiveStudentFromServer = useCallback((student: StudentProfile) => {
     setActiveStudent(student);
+    offlineOutbox.flush(student.id).catch(() => {});
   }, []);
 
   // Auto-logout after 5 idle minutes on shared desktops

@@ -18,7 +18,7 @@ vi.mock('../db', () => ({
 }));
 
 import * as db from '../db';
-import { handleApiRequest } from '../apiHandler';
+import { handleApiRequest, resetClassLookupRateLimits } from '../apiHandler';
 
 interface MockRes {
   statusCode: number;
@@ -55,6 +55,7 @@ describe('T1: Class lookup rate limit specification', () => {
   beforeEach(() => {
     process.env.SESSION_SECRET = 'a'.repeat(32);
     process.env.DATABASE_URL = 'postgresql://fake:fake@fake/fake';
+    resetClassLookupRateLimits();
     vi.clearAllMocks();
   });
 

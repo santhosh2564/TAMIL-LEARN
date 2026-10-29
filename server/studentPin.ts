@@ -64,10 +64,9 @@ export async function verifyStudentPin(
 
   const student = rows[0];
 
-  // Lockout check: 5 or more failed attempts or locked_until in the future
+  // Lockout check: locked if locked_until is set and is in the future
   const isLocked =
-    student.failed_pin_attempts >= 5 ||
-    (student.locked_until !== null && new Date(student.locked_until) > new Date());
+    student.locked_until !== null && new Date(student.locked_until) > new Date();
 
   if (isLocked) {
     return {
@@ -90,7 +89,7 @@ export async function verifyStudentPin(
       `UPDATE students
        SET failed_pin_attempts = failed_pin_attempts + 1,
            locked_until = CASE
-             WHEN failed_pin_attempts + 1 >= 5 THEN NOW() + INTERVAL '100 years'
+             WHEN failed_pin_attempts + 1 >= 5 THEN NOW() + INTERVAL '10 minutes'
              ELSE locked_until
            END
        WHERE id = $1;`,

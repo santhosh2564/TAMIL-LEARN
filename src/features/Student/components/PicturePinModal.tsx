@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Delete, X, Lock } from 'lucide-react';
-import { PICTURE_PIN_ITEMS, PicturePinItem } from '../../../constants/picturePin';
+import { PICTURE_PIN_ITEMS, PICTURE_PIN_MAP, PicturePinItem } from '../../../constants/picturePin';
 import { useStudent } from '../../../student';
 
 interface PicturePinModalProps {
@@ -106,8 +106,8 @@ export const PicturePinModal: React.FC<PicturePinModalProps> = ({
 
         {/* Student Avatar & Name */}
         <div className="flex flex-col items-center mb-3">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-3xl sm:text-4xl shadow-md mb-2">
-            {student.avatar === 'avatar_sun' ? '☀️' : student.avatar === 'avatar_star' ? '⭐' : '🎒'}
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center p-3 shadow-md mb-2">
+            <img src={PICTURE_PIN_MAP['sun']?.svg} alt="Avatar" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
           </div>
           <h2 id="pin-modal-title" className="text-xl sm:text-2xl font-black text-gray-800">
             வணக்கம் {student.name}!
@@ -147,7 +147,7 @@ export const PicturePinModal: React.FC<PicturePinModalProps> = ({
               >
                 {pick ? (
                   <>
-                    <span className="text-2xl sm:text-3xl">{pick.emoji}</span>
+                    <img src={pick.svg} alt={pick.labelTa} className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
                     <span className="text-[9px] font-bold text-emerald-800 truncate max-w-[50px]">
                       {pick.labelTa}
                     </span>
@@ -181,7 +181,7 @@ export const PicturePinModal: React.FC<PicturePinModalProps> = ({
               className="h-20 sm:h-22 bg-amber-50/60 hover:bg-amber-100/90 active:scale-95 border-2 border-amber-200/80 rounded-2xl flex flex-col items-center justify-center p-1.5 transition-all shadow-sm hover:shadow focus:ring-4 focus:ring-amber-300 outline-none cursor-pointer"
               aria-label={`${item.labelTa} / ${item.labelEn}`}
             >
-              <span className="text-2xl sm:text-3xl mb-0.5">{item.emoji}</span>
+              <img src={item.svg} alt={item.labelTa} className="w-8 h-8 object-contain mb-0.5" />
               <span className="text-[11px] sm:text-xs font-bold text-gray-800 leading-tight">
                 {item.labelTa}
               </span>

@@ -99,6 +99,7 @@ describe('T5: School admin cross-school isolation (403 on foreign school actions
       grade: 'Class 3',
       class_code: 'CLSY01',
       created_at: new Date().toISOString(),
+      archived_at: null,
     });
 
     const req = makeMockReq({
@@ -131,6 +132,7 @@ describe('T5: School admin cross-school isolation (403 on foreign school actions
       pin_hash: 'hash',
       failed_pin_attempts: 0,
       locked_until: null,
+      archived_at: null,
     });
 
     const req = makeMockReq({
@@ -157,6 +159,7 @@ describe('T5: School admin cross-school isolation (403 on foreign school actions
       pin_hash: 'hash',
       failed_pin_attempts: 5,
       locked_until: new Date(Date.now() + 600000).toISOString(),
+      archived_at: null,
     });
 
     const req = makeMockReq({
@@ -177,6 +180,7 @@ describe('T5: School admin cross-school isolation (403 on foreign school actions
       grade: 'Class 3',
       class_code: 'CLSY01',
       created_at: new Date().toISOString(),
+      archived_at: null,
     });
 
     const req = makeMockReq({

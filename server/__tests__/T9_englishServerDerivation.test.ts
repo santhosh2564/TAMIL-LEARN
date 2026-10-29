@@ -61,7 +61,6 @@ describe('T9: Server-side derivation of subject and module_id for attempts', () 
 
     const token = await signStudentSession({
       studentId,
-      name: 'Kavin',
       schoolId: 'school_unassigned',
       classId: 'class_legacy',
     });

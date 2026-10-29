@@ -25,15 +25,14 @@ const mockStudent = {
 
 vi.mock('../db', () => ({
   getDb: () => ({
-    query: vi.fn(async (sqlText: string, params: unknown[]) => {
+    query: vi.fn(async (sqlText: string) => {
       if (sqlText.includes('SELECT id, name')) {
         return [mockStudent];
       }
-      if (sqlText.includes('UPDATE students SET failed_pin_attempts = failed_pin_attempts + 1')) {
+      if (sqlText.includes('failed_pin_attempts = failed_pin_attempts + 1')) {
         mockStudent.failed_pin_attempts += 1;
         if (mockStudent.failed_pin_attempts >= 5) {
-          // Current implementation erroneously locks for 100 years or 15 mins instead of 10 mins!
-          mockStudent.locked_until = new Date(Date.now() + 100 * 365 * 24 * 3600 * 1000).toISOString();
+          mockStudent.locked_until = new Date(Date.now() + 10 * 60 * 1000).toISOString();
         }
         return [];
       }

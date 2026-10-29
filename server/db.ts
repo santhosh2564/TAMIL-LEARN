@@ -228,6 +228,15 @@ export async function getClassByCode(classCode: string): Promise<ClassRow | null
   return rows[0] ?? null;
 }
 
+export async function getClassById(classId: string): Promise<ClassRow | null> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `SELECT * FROM classes WHERE id = $1 AND archived_at IS NULL LIMIT 1;`,
+    [classId]
+  )) as ClassRow[];
+  return rows[0] ?? null;
+}
+
 export async function getClassesForSchool(schoolId?: string | null): Promise<ClassRow[]> {
   const sql = getDb();
   if (schoolId) {
@@ -426,6 +435,9 @@ export async function recordAttemptInDb(attempt: {
   result: string;
   completed: boolean;
   timestamp: string;
+  subject?: string;
+  moduleId?: number;
+  grade?: string;
 }): Promise<{ status: 'recorded' | 'duplicate' | 'not_found' }> {
   const sql = getDb();
 
@@ -615,4 +627,154 @@ export async function upsertAdminInDb(admin: {
        locked_until = NULL;`,
     [admin.id, admin.username, admin.passwordHash, admin.role, admin.schoolId]
   );
+}
+
+// ── Phase 4: Learning Session DB Operations ───────────────────────────────────
+export interface SessionRow {
+  id: string;
+  school_id: string;
+  student_id: string;
+  subject: string;
+  category_or_module: string;
+  activity_ids: string[];
+  current_index: number;
+  status: 'active' | 'completed' | 'abandoned';
+  created_at: string;
+  updated_at: string;
+}
+
+export async function getActiveSessionForStudentFromDb(
+  studentId: string,
+  subject?: string,
+  categoryOrModule?: string
+): Promise<SessionRow | null> {
+  const sql = getDb();
+  let query = 'SELECT * FROM learning_sessions WHERE student_id = $1 AND status = \'active\'';
+  const params: unknown[] = [studentId];
+
+  if (subject) {
+    params.push(subject.toLowerCase());
+    query += ` AND subject = $${params.length}`;
+  }
+  if (categoryOrModule) {
+    params.push(categoryOrModule);
+    query += ` AND category_or_module = $${params.length}`;
+  }
+
+  query += ' ORDER BY updated_at DESC LIMIT 1;';
+  const rows = (await sql.query(query, params)) as SessionRow[];
+  if (!rows[0]) return null;
+
+  const row = { ...rows[0] };
+  if (typeof row.activity_ids === 'string') {
+    row.activity_ids = JSON.parse(row.activity_ids);
+  }
+  return row;
+}
+
+export async function getSessionByIdFromDb(sessionId: string): Promise<SessionRow | null> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    'SELECT * FROM learning_sessions WHERE id = $1 LIMIT 1;',
+    [sessionId]
+  )) as SessionRow[];
+  if (!rows[0]) return null;
+
+  const row = { ...rows[0] };
+  if (typeof row.activity_ids === 'string') {
+    row.activity_ids = JSON.parse(row.activity_ids);
+  }
+  return row;
+}
+
+export async function upsertActiveSessionInDb(params: {
+  id: string;
+  studentId: string;
+  subject: 'tamil' | 'english';
+  categoryOrModule: string;
+  activityIds: string[];
+  currentIndex?: number;
+}): Promise<SessionRow> {
+  const sql = getDb();
+
+  // Derive school_id from student record to enforce integrity
+  const studentRows = (await sql.query(
+    'SELECT school_id FROM students WHERE id = $1 AND archived_at IS NULL LIMIT 1;',
+    [params.studentId]
+  )) as Array<{ school_id: string }>;
+
+  if (!studentRows[0]) {
+    throw new Error('Student not found or archived');
+  }
+  const schoolId = studentRows[0].school_id;
+
+  const activityIdsJson = JSON.stringify(params.activityIds);
+  const currentIndex = params.currentIndex ?? 0;
+
+  const query = `
+    INSERT INTO learning_sessions (
+      id, school_id, student_id, subject, category_or_module, activity_ids, current_index, status, created_at, updated_at
+    ) VALUES ($1, $2, $3, $4, $5, $6::jsonb, $7, 'active', NOW(), NOW())
+    ON CONFLICT (student_id, subject, category_or_module) WHERE status = 'active'
+    DO UPDATE SET
+      activity_ids = EXCLUDED.activity_ids,
+      current_index = EXCLUDED.current_index,
+      updated_at = NOW()
+    RETURNING *;
+  `;
+
+  const rows = (await sql.query(query, [
+    params.id,
+    schoolId,
+    params.studentId,
+    params.subject.toLowerCase(),
+    params.categoryOrModule,
+    activityIdsJson,
+    currentIndex,
+  ])) as SessionRow[];
+
+  const row = { ...rows[0] };
+  if (typeof row.activity_ids === 'string') {
+    row.activity_ids = JSON.parse(row.activity_ids);
+  }
+  return row;
+}
+
+export async function updateSessionProgressInDb(params: {
+  sessionId: string;
+  studentId: string;
+  currentIndex?: number;
+  status?: 'active' | 'completed' | 'abandoned';
+}): Promise<SessionRow | null> {
+  const sql = getDb();
+
+  const updates: string[] = ['updated_at = NOW()'];
+  const values: unknown[] = [params.sessionId, params.studentId];
+
+  if (params.currentIndex !== undefined) {
+    values.push(params.currentIndex);
+    updates.push(`current_index = GREATEST(learning_sessions.current_index, $${values.length})`);
+  }
+  if (params.status !== undefined) {
+    values.push(params.status);
+    updates.push(
+      `status = CASE WHEN learning_sessions.status = 'completed' THEN 'completed' ELSE $${values.length} END`
+    );
+  }
+
+  const query = `
+    UPDATE learning_sessions
+    SET ${updates.join(', ')}
+    WHERE id = $1 AND student_id = $2
+    RETURNING *;
+  `;
+
+  const rows = (await sql.query(query, values)) as SessionRow[];
+  if (!rows[0]) return null;
+
+  const row = { ...rows[0] };
+  if (typeof row.activity_ids === 'string') {
+    row.activity_ids = JSON.parse(row.activity_ids);
+  }
+  return row;
 }

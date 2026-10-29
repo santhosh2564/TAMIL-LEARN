@@ -39,7 +39,7 @@ runOrSkip('T8: Monotonic forward-only current_index & terminal completed status 
   beforeAll(async () => {
     sql = neon(testDatabaseUrl!);
     const { setDb } = await import('../db');
-    setDb(sql);
+    setDb(sql as unknown as Parameters<typeof setDb>[0]);
 
     // Insert student
     await sql`
@@ -67,7 +67,7 @@ runOrSkip('T8: Monotonic forward-only current_index & terminal completed status 
       await sql`DELETE FROM students WHERE id = ${testStudentId};`;
     }
     const { setDb } = await import('../db');
-    setDb(null as any);
+    setDb(null as unknown as Parameters<typeof setDb>[0]);
   });
 
   it('current_index never decreases: update with smaller index leaves it unchanged', async () => {

@@ -37,6 +37,7 @@ import {
   incrementAdminFailedAttempts,
   resetAdminFailedAttempts,
   getClassByCode,
+  getClassById,
   getClassesForSchool,
   createClassWithUniqueCode,
   archiveClassInDb,
@@ -45,8 +46,11 @@ import {
   getStudentById,
   unlockStudentPinInDb,
   updateStudentPinInDb,
-  type ClassRow,
+  getActiveSessionForStudentFromDb,
+  upsertActiveSessionInDb,
+  updateSessionProgressInDb,
   type StudentRow,
+  type SessionRow,
 } from './db';
 import {
   requireAdminSession,
@@ -73,10 +77,46 @@ import {
   CreateClassSchema,
   CreateStudentSchema,
   ResetPinSchema,
+  CreateSessionSchema,
+  UpdateSessionSchema,
 } from './validation';
 import bcrypt from 'bcryptjs';
 
 // ── Client IP Helper ──────────────────────────────────────────────────────────
+const classLookupInvalidAttempts = new Map<string, { count: number; windowStart: number }>();
+const classLookupValidAttempts = new Map<string, { count: number; windowStart: number }>();
+
+export function resetClassLookupRateLimits(): void {
+  classLookupInvalidAttempts.clear();
+  classLookupValidAttempts.clear();
+}
+
+function checkClassLookupRateLimit(ip: string, type: 'invalid' | 'valid'): { allowed: boolean; remaining: number } {
+  const map = type === 'invalid' ? classLookupInvalidAttempts : classLookupValidAttempts;
+  const maxLimit = type === 'invalid' ? 10 : 300;
+  const windowMs = 10 * 60 * 1000;
+  const now = Date.now();
+
+  const record = map.get(ip);
+  if (!record || now - record.windowStart > windowMs) {
+    return { allowed: true, remaining: maxLimit };
+  }
+  return { allowed: record.count < maxLimit, remaining: Math.max(0, maxLimit - record.count) };
+}
+
+function recordClassLookupAttempt(ip: string, type: 'invalid' | 'valid'): void {
+  const map = type === 'invalid' ? classLookupInvalidAttempts : classLookupValidAttempts;
+  const windowMs = 10 * 60 * 1000;
+  const now = Date.now();
+
+  const record = map.get(ip);
+  if (!record || now - record.windowStart > windowMs) {
+    map.set(ip, { count: 1, windowStart: now });
+  } else {
+    record.count += 1;
+  }
+}
+
 function getClientIp(req: IncomingMessage): string {
   const forwarded = req.headers['x-forwarded-for'];
   if (typeof forwarded === 'string') {
@@ -86,6 +126,60 @@ function getClientIp(req: IncomingMessage): string {
     return forwarded[0].split(',')[0].trim();
   }
   return req.socket?.remoteAddress || '127.0.0.1';
+}
+
+export function deriveActivityMetadata(activityId: string): {
+  subject: string;
+  moduleId: number | null;
+  grade?: string;
+} {
+  const lower = (activityId || '').toLowerCase().trim();
+
+  // Pattern 1: e.g. c3-eng-m1-d1-q01, c2-tam-m3-q05
+  const matchFull = lower.match(/^c(\d+)-(eng|tam|english|tamil)-m(\d+)/);
+  if (matchFull) {
+    return {
+      grade: `Class ${matchFull[1]}`,
+      subject: matchFull[2].startsWith('eng') ? 'english' : 'tamil',
+      moduleId: parseInt(matchFull[3], 10),
+    };
+  }
+
+  // Pattern 2: e.g. ENG-M1-EW021
+  const matchEng = lower.match(/^eng-m(\d+)/);
+  if (matchEng) {
+    return {
+      grade: 'Class 3',
+      subject: 'english',
+      moduleId: parseInt(matchEng[1], 10),
+    };
+  }
+
+  // Pattern 3: e.g. TAM-M1
+  const matchTam = lower.match(/^tam-m(\d+)/);
+  if (matchTam) {
+    return {
+      grade: 'Class 3',
+      subject: 'tamil',
+      moduleId: parseInt(matchTam[1], 10),
+    };
+  }
+
+  // Pattern 4: FTS... (Tamil Fresh Source questions)
+  if (lower.startsWith('fts')) {
+    return {
+      grade: 'Class 3',
+      subject: 'tamil',
+      moduleId: 1,
+    };
+  }
+
+  // Default fallback
+  return {
+    subject: lower.includes('eng') ? 'english' : 'tamil',
+    moduleId: 1,
+    grade: 'Class 3',
+  };
 }
 
 // ── Startup validation ────────────────────────────────────────────────────────
@@ -230,17 +324,37 @@ export async function handleApiRequest(
     if (getClassByCodeMatch && req.method === 'GET') {
       const classCode = decodeURIComponent(getClassByCodeMatch[1]).trim().toUpperCase();
       const ip = getClientIp(req);
-      const rateLimit = await checkAndIncrementClassLookupRateLimit(ip);
-      if (!rateLimit.allowed) {
+
+      const invalidLimit = checkClassLookupRateLimit(ip, 'invalid');
+      if (!invalidLimit.allowed) {
         sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
         return true;
       }
 
+      const validLimit = checkClassLookupRateLimit(ip, 'valid');
+      if (!validLimit.allowed) {
+        sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
+        return true;
+      }
+
+      try {
+        const dbRateLimit = await checkAndIncrementClassLookupRateLimit(ip);
+        if (dbRateLimit && !dbRateLimit.allowed) {
+          sendJson(res, 429, { error: 'Too many requests. Please wait before trying again.' });
+          return true;
+        }
+      } catch {
+        // Fallback
+      }
+
       const cls = await getClassByCode(classCode);
-      if (!cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || cls.archived_at !== null) {
+      if (!cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || Boolean(cls.archived_at)) {
+        recordClassLookupAttempt(ip, 'invalid');
         sendJson(res, 404, { error: 'Class not found' });
         return true;
       }
+
+      recordClassLookupAttempt(ip, 'valid');
 
       const students = await getStudentsForClassRoster(cls.id);
       sendJson(res, 200, {
@@ -397,6 +511,8 @@ export async function handleApiRequest(
       if (!parsed.ok) return true;
 
       const a = parsed.data;
+      const derived = deriveActivityMetadata(a.activityId);
+
       const result = await recordAttemptInDb({
         id: a.id ?? `att-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
         studentId,
@@ -406,6 +522,9 @@ export async function handleApiRequest(
         result: a.result,
         completed: a.completed,
         timestamp: a.timestamp ?? new Date().toISOString(),
+        subject: derived.subject,
+        moduleId: derived.moduleId ?? undefined,
+        grade: derived.grade,
       });
 
       if (result.status === 'not_found') {
@@ -414,6 +533,97 @@ export async function handleApiRequest(
       }
 
       sendJson(res, 200, { success: true, status: result.status });
+      return true;
+    }
+
+    // ── Helper to format SessionRow into API response ─────────────────────────
+    function formatSession(r: SessionRow) {
+      return {
+        id: r.id,
+        schoolId: r.school_id,
+        studentId: r.student_id,
+        subject: r.subject,
+        categoryOrModule: r.category_or_module,
+        activityIds: r.activity_ids,
+        currentIndex: r.current_index,
+        status: r.status,
+        createdAt: r.created_at,
+        updatedAt: r.updated_at,
+      };
+    }
+
+    // ── GET /api/students/:studentId/sessions/active ───────────────────────────
+    const getActiveSessionMatch = pathname.match(/^\/api\/students\/([^/]+)\/sessions\/active$/);
+    if (getActiveSessionMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getActiveSessionMatch[1]);
+      const caller = await requireStudentAccess(req, res, studentId);
+      if (!caller) return true;
+
+      const searchParams = new URLSearchParams(url.includes('?') ? url.split('?')[1] : '');
+      const subject = searchParams.get('subject') || undefined;
+      const category = searchParams.get('category') || undefined;
+
+      const sessionRow = await getActiveSessionForStudentFromDb(studentId, subject, category);
+      sendJson(res, 200, { session: sessionRow ? formatSession(sessionRow) : null });
+      return true;
+    }
+
+    // ── POST /api/students/:studentId/sessions ────────────────────────────────
+    const postSessionMatch = pathname.match(/^\/api\/students\/([^/]+)\/sessions$/);
+    if (postSessionMatch && req.method === 'POST') {
+      const studentId = decodeURIComponent(postSessionMatch[1]);
+      const caller = await requireStudentAccess(req, res, studentId);
+      if (!caller) return true;
+
+      const parsed = await parseBody(req, res, CreateSessionSchema);
+      if (!parsed.ok) return true;
+
+      const b = parsed.data;
+      try {
+        const sessionRow = await upsertActiveSessionInDb({
+          id: b.id ?? `sess_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+          studentId,
+          subject: b.subject,
+          categoryOrModule: b.categoryOrModule,
+          activityIds: b.activityIds,
+          currentIndex: b.currentIndex,
+        });
+        sendJson(res, 201, { session: formatSession(sessionRow) });
+        return true;
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        if (msg.includes('Student not found')) {
+          sendJson(res, 404, { error: 'Student not found or archived' });
+          return true;
+        }
+        throw err;
+      }
+    }
+
+    // ── PATCH /api/students/:studentId/sessions/:sessionId ────────────────────
+    const patchSessionMatch = pathname.match(/^\/api\/students\/([^/]+)\/sessions\/([^/]+)$/);
+    if (patchSessionMatch && req.method === 'PATCH') {
+      const studentId = decodeURIComponent(patchSessionMatch[1]);
+      const sessionId = decodeURIComponent(patchSessionMatch[2]);
+      const caller = await requireStudentAccess(req, res, studentId);
+      if (!caller) return true;
+
+      const parsed = await parseBody(req, res, UpdateSessionSchema);
+      if (!parsed.ok) return true;
+
+      const sessionRow = await updateSessionProgressInDb({
+        sessionId,
+        studentId,
+        currentIndex: parsed.data.currentIndex,
+        status: parsed.data.status,
+      });
+
+      if (!sessionRow) {
+        sendJson(res, 404, { error: 'Session not found for student' });
+        return true;
+      }
+
+      sendJson(res, 200, { session: formatSession(sessionRow) });
       return true;
     }
 
@@ -440,7 +650,15 @@ export async function handleApiRequest(
       const parsed = await parseBody(req, res, CreateClassSchema);
       if (!parsed.ok) return true;
 
-      const schoolId = session.role === 'school_admin' ? session.schoolId! : 'school_unassigned';
+      if (session.role === 'school_admin') {
+        const bodySchoolId = parsed.data.schoolId || (req.body as Record<string, unknown> | undefined)?.schoolId;
+        if (bodySchoolId && bodySchoolId !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot create class for another school' });
+          return true;
+        }
+      }
+
+      const schoolId = session.role === 'school_admin' ? session.schoolId! : (parsed.data.schoolId || 'school_unassigned');
       const newClass = await createClassWithUniqueCode({
         id: `cls_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
         schoolId,
@@ -455,6 +673,13 @@ export async function handleApiRequest(
     const deleteClassMatch = pathname.match(/^\/api\/admin\/classes\/([^/]+)$/);
     if (deleteClassMatch && req.method === 'DELETE') {
       const classId = decodeURIComponent(deleteClassMatch[1]);
+      if (session.role === 'school_admin') {
+        const targetClass = await getClassById(classId);
+        if (targetClass && targetClass.school_id !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot delete class belonging to another school' });
+          return true;
+        }
+      }
       await archiveClassInDb(classId);
       sendJson(res, 200, { success: true, archivedClassId: classId });
       return true;
@@ -466,6 +691,15 @@ export async function handleApiRequest(
       if (!parsed.ok) return true;
 
       const { classId, name, rollNo, avatar, pin } = parsed.data;
+
+      if (session.role === 'school_admin') {
+        const targetClass = await getClassById(classId);
+        if (targetClass && targetClass.school_id !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot add student to class of another school' });
+          return true;
+        }
+      }
+
       const schoolId = session.role === 'school_admin' ? session.schoolId! : 'school_unassigned';
       const pinHash = await hashPin(pin);
       const studentId = `stud_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
@@ -491,6 +725,13 @@ export async function handleApiRequest(
     const unlockStudentMatch = pathname.match(/^\/api\/admin\/students\/([^/]+)\/unlock$/);
     if (unlockStudentMatch && req.method === 'POST') {
       const studentId = decodeURIComponent(unlockStudentMatch[1]);
+      if (session.role === 'school_admin') {
+        const student = await getStudentById(studentId);
+        if (student && student.school_id !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot unlock student from another school' });
+          return true;
+        }
+      }
       await unlockStudentPinInDb(studentId);
       sendJson(res, 200, { success: true, unlockedStudentId: studentId });
       return true;
@@ -500,6 +741,13 @@ export async function handleApiRequest(
     const resetPinMatch = pathname.match(/^\/api\/admin\/students\/([^/]+)\/reset-pin$/);
     if (resetPinMatch && req.method === 'POST') {
       const studentId = decodeURIComponent(resetPinMatch[1]);
+      if (session.role === 'school_admin') {
+        const student = await getStudentById(studentId);
+        if (student && student.school_id !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot reset PIN for student from another school' });
+          return true;
+        }
+      }
       const parsed = await parseBody(req, res, ResetPinSchema);
       if (!parsed.ok) return true;
 
@@ -513,16 +761,16 @@ export async function handleApiRequest(
     const classCardsMatch = pathname.match(/^\/api\/admin\/classes\/([^/]+)\/cards$/);
     if (classCardsMatch && req.method === 'GET') {
       const classId = decodeURIComponent(classCardsMatch[1]);
-      const sql = getDb();
-      const classRows = (await sql.query(
-        'SELECT * FROM classes WHERE id = $1 AND archived_at IS NULL LIMIT 1;',
-        [classId]
-      )) as ClassRow[];
-      if (!classRows[0]) {
+      const cls = await getClassById(classId);
+      if (!cls || Boolean(cls.archived_at)) {
         sendJson(res, 404, { error: 'Class not found' });
         return true;
       }
-      const cls = classRows[0];
+      if (session.role === 'school_admin' && cls.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot view cards for another school' });
+        return true;
+      }
+      const sql = getDb();
       const students = (await sql.query(
         'SELECT id, name, roll_no, avatar, failed_pin_attempts, locked_until FROM students WHERE class_id = $1 AND archived_at IS NULL ORDER BY roll_no ASC, name ASC;',
         [classId]

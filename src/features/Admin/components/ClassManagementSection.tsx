@@ -330,10 +330,10 @@ export const ClassManagementSection: React.FC = () => {
                       <div
                         key={idx}
                         className={`w-10 h-10 rounded-lg flex items-center justify-center border text-lg ${
-                          pick ? 'bg-amber-100 border-amber-400' : 'bg-white border-gray-200 text-xs text-gray-400'
+                          pick ? 'bg-amber-100 border-amber-400 p-1' : 'bg-white border-gray-200 text-xs text-gray-400'
                         }`}
                       >
-                        {pick ? pick.emoji : idx + 1}
+                        {pick ? <img src={pick.svg} alt={pick.labelTa} className="w-6 h-6 object-contain" /> : idx + 1}
                       </div>
                     );
                   })}
@@ -352,7 +352,7 @@ export const ClassManagementSection: React.FC = () => {
                       }}
                       className="p-1.5 bg-gray-50 hover:bg-amber-50 border rounded-xl flex items-center gap-1.5 text-xs font-bold"
                     >
-                      <span className="text-lg">{item.emoji}</span>
+                      <img src={item.svg} alt={item.labelTa} className="w-5 h-5 object-contain" />
                       <span className="truncate">{item.labelTa}</span>
                     </button>
                   ))}

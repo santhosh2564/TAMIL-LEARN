@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import QRCode from 'qrcode';
 import { Printer, ArrowLeft, AlertCircle } from 'lucide-react';
+import { PICTURE_PIN_MAP } from '../../constants/picturePin';
 
 interface ClassDetails {
   id: string;
@@ -119,9 +120,6 @@ export const PrintClassCardsPage: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 print:grid-cols-2 print:gap-4">
           {students.map((student) => {
-            const avatarEmoji =
-              student.avatar === 'avatar_sun' ? '☀️' : student.avatar === 'avatar_star' ? '⭐' : '🎒';
-
             return (
               <div
                 key={student.id}
@@ -149,8 +147,8 @@ export const PrintClassCardsPage: React.FC = () => {
                 {/* Card Middle: Student details & QR code */}
                 <div className="flex items-center justify-between gap-3 my-2">
                   <div className="flex items-center gap-3">
-                    <div className="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center text-3xl shadow-inner border border-amber-300">
-                      {avatarEmoji}
+                    <div className="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center p-2 shadow-inner border border-amber-300">
+                      <img src={PICTURE_PIN_MAP['sun']?.svg} alt="Avatar" className="w-9 h-9 object-contain" />
                     </div>
                     <div>
                       <span className="text-[10px] text-gray-500 font-bold block">

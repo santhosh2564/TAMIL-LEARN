@@ -1,6 +1,7 @@
 import { StudentProfile } from '../student/types';
 import { ActivityProgress } from '../progress/types';
 import { AttemptRecord } from '../attempts/types';
+import { offlineOutbox } from './OfflineOutboxQueue';
 
 export interface NeonCloudStatus {
   connected: boolean;
@@ -89,14 +90,30 @@ export class NeonSyncService {
   }
 
   async syncAttempt(attempt: AttemptRecord): Promise<boolean> {
+    // Outbox-first: persist to offline storage BEFORE dispatching network call
+    await offlineOutbox.enqueue(attempt);
+
     try {
       const res = await fetch(`/api/students/${encodeURIComponent(attempt.studentId)}/attempts`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
         body: JSON.stringify(attempt)
       });
-      return res.ok;
+      if (res.ok) {
+        // Successfully recorded: dequeue from active outbox
+        await offlineOutbox.remove(attempt.id);
+        return true;
+      }
+      if (res.status === 404) {
+        // Student not found / archived / deleted: route to dead-letter queue
+        await offlineOutbox.moveToDeadLetter(attempt);
+        return false;
+      }
+      // Non-2xx/non-404: keep in outbox for subsequent retry
+      return false;
     } catch {
+      // Network failure / offline: keep in outbox
       return false;
     }
   }

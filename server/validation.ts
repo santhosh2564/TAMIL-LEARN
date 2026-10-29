@@ -136,6 +136,7 @@ export type StudentLoginInput = z.infer<typeof StudentLoginSchema>;
 export const CreateClassSchema = z.object({
   name: z.string().min(1, 'Class name is required').max(100),
   grade: z.string().min(1, 'Grade is required').max(50),
+  schoolId: z.string().optional(),
 });
 export type CreateClassInput = z.infer<typeof CreateClassSchema>;
 
@@ -152,5 +153,21 @@ export const ResetPinSchema = z.object({
   pin: z.array(z.string()).length(3, 'PIN must be exactly 3 pictures'),
 });
 export type ResetPinInput = z.infer<typeof ResetPinSchema>;
+
+// ── Phase 4 Schemas: Learning Sessions ────────────────────────────────────────
+export const CreateSessionSchema = z.object({
+  id: z.string().min(1).max(64).optional(),
+  subject: z.enum(['tamil', 'english']),
+  categoryOrModule: z.string().min(1).max(64),
+  activityIds: z.array(z.string().min(1)).min(1),
+  currentIndex: z.number().int().min(0).default(0),
+});
+export type CreateSessionInput = z.infer<typeof CreateSessionSchema>;
+
+export const UpdateSessionSchema = z.object({
+  currentIndex: z.number().int().min(0).optional(),
+  status: z.enum(['active', 'completed', 'abandoned']).optional(),
+});
+export type UpdateSessionInput = z.infer<typeof UpdateSessionSchema>;
 
 
