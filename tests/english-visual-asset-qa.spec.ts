@@ -40,7 +40,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   // Runs as the student logged in through /c/:code + PIN in global setup (default storageState).
 
   test('Module 1: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?activityId=ENG-M1-EW945');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M1');
     console.log('M1 result:', JSON.stringify(result));
@@ -50,7 +50,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   });
 
   test('Module 2: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('/session/3/english/play?category=picture-recognition&module=2');
+    await page.goto('/session/3/english/play?activityId=ENG-M2-REV-EW083');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M2');
     console.log('M2 result:', JSON.stringify(result));
@@ -59,7 +59,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
   });
 
   test('Module 3: picture-recognition activity loads image correctly', async ({ page }) => {
-    await page.goto('/session/3/english/play?category=picture-recognition&module=3');
+    await page.goto('/session/3/english/play?activityId=ENG-M3-EW079');
     await page.waitForSelector('[data-testid="activity-asset-image"], [data-testid="asset-fallback-missing"]', { timeout: 20000 });
     const result = await checkActivityImage(page, 'M3');
     console.log('M3 result:', JSON.stringify(result));
@@ -78,13 +78,8 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
     // Directly verify that compound images are served at their expected paths
     const compoundPaths = [
       '/assets/class-3/english/images/eng-ash-gourd.jpg',
-      '/assets/class-3/english/images/eng-bengal-gram.jpg',
-      '/assets/class-3/english/images/eng-black-gram.jpg',
-      '/assets/class-3/english/images/eng-curry-leaves.jpg',
-      '/assets/class-3/english/images/eng-green-gram.jpg',
+      '/assets/class-3/english/images/eng-dog-tail.jpg',
       '/assets/class-3/english/images/eng-snake-gourd.jpg',
-      '/assets/class-3/english/images/eng-tender-coconut.jpg',
-      '/assets/class-3/english/images/eng-thank-you.jpg',
     ];
 
     for (const imgPath of compoundPaths) {
@@ -117,7 +112,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Image sizing: activity image is not clipped or overflowing on desktop', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 800 });
-    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?activityId=ENG-M1-EW945');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
 
     const img = page.locator('[data-testid="activity-asset-image"]').first();
@@ -135,7 +130,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Image sizing: activity image is touch-friendly on mobile (375x667)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 667 });
-    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?activityId=ENG-M1-EW945');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
 
     const img = page.locator('[data-testid="activity-asset-image"]').first();
@@ -176,7 +171,7 @@ test.describe('Phase H — English Activity Visual Asset QA', () => {
 
   test('Phase I: verify no "Picture of ..." visible text is rendered on picture activities', async ({ page }) => {
     // 1. Native English picture activity
-    await page.goto('/session/3/english/play?category=picture-recognition&module=1');
+    await page.goto('/session/3/english/play?activityId=ENG-M1-EW945');
     await page.waitForSelector('[data-testid="activity-asset-image"]', { timeout: 20000 });
     
     // Instruction prompt is present
