@@ -128,60 +128,6 @@ function getClientIp(req: IncomingMessage): string {
   return req.socket?.remoteAddress || '127.0.0.1';
 }
 
-export function deriveActivityMetadata(activityId: string): {
-  subject: string;
-  moduleId: number | null;
-  grade?: string;
-} {
-  const lower = (activityId || '').toLowerCase().trim();
-
-  // Pattern 1: e.g. c3-eng-m1-d1-q01, c2-tam-m3-q05
-  const matchFull = lower.match(/^c(\d+)-(eng|tam|english|tamil)-m(\d+)/);
-  if (matchFull) {
-    return {
-      grade: `Class ${matchFull[1]}`,
-      subject: matchFull[2].startsWith('eng') ? 'english' : 'tamil',
-      moduleId: parseInt(matchFull[3], 10),
-    };
-  }
-
-  // Pattern 2: e.g. ENG-M1-EW021
-  const matchEng = lower.match(/^eng-m(\d+)/);
-  if (matchEng) {
-    return {
-      grade: 'Class 3',
-      subject: 'english',
-      moduleId: parseInt(matchEng[1], 10),
-    };
-  }
-
-  // Pattern 3: e.g. TAM-M1
-  const matchTam = lower.match(/^tam-m(\d+)/);
-  if (matchTam) {
-    return {
-      grade: 'Class 3',
-      subject: 'tamil',
-      moduleId: parseInt(matchTam[1], 10),
-    };
-  }
-
-  // Pattern 4: FTS... (Tamil Fresh Source questions)
-  if (lower.startsWith('fts')) {
-    return {
-      grade: 'Class 3',
-      subject: 'tamil',
-      moduleId: 1,
-    };
-  }
-
-  // Default fallback
-  return {
-    subject: lower.includes('eng') ? 'english' : 'tamil',
-    moduleId: 1,
-    grade: 'Class 3',
-  };
-}
-
 // ── Startup validation ────────────────────────────────────────────────────────
 // Validate env vars eagerly so a misconfigured deployment fails loudly.
 function validateEnv(): void {
@@ -511,7 +457,6 @@ export async function handleApiRequest(
       if (!parsed.ok) return true;
 
       const a = parsed.data;
-      const derived = deriveActivityMetadata(a.activityId);
 
       const result = await recordAttemptInDb({
         id: a.id ?? `att-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
@@ -522,9 +467,6 @@ export async function handleApiRequest(
         result: a.result,
         completed: a.completed,
         timestamp: a.timestamp ?? new Date().toISOString(),
-        subject: derived.subject,
-        moduleId: derived.moduleId ?? undefined,
-        grade: derived.grade,
       });
 
       if (result.status === 'not_found') {

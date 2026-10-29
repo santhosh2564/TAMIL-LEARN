@@ -2,6 +2,7 @@ import { neon, NeonQueryFunction } from '@neondatabase/serverless';
 import fs from 'fs';
 import path from 'path';
 import { generateClassCode } from './classCode';
+import { lookupActivityMetadata } from './activityCatalog';
 
 // ── Connection ────────────────────────────────────────────────────────────────
 let sqlInstance: NeonQueryFunction<false, false> | null = null;
@@ -80,12 +81,17 @@ export function splitSqlStatements(sqlText: string): string[] {
 // ── Migration Runner ──────────────────────────────────────────────────────────
 export async function runMigrations(customDb?: NeonQueryFunction<false, false>): Promise<void> {
   const sql = customDb || getDb();
-  const schemaPath = path.resolve(process.cwd(), 'server', 'schema.sql');
-  const schemaSql = fs.readFileSync(schemaPath, 'utf8');
+  // Schema first, then the manifest-generated attempt metadata backfill.
+  const files = [
+    path.resolve(process.cwd(), 'server', 'schema.sql'),
+    path.resolve(process.cwd(), 'server', 'migrations', 'attempts_metadata_backfill.sql'),
+  ];
 
-  const statements = splitSqlStatements(schemaSql);
-  for (const statement of statements) {
-    await sql.query(statement);
+  for (const file of files) {
+    const statements = splitSqlStatements(fs.readFileSync(file, 'utf8'));
+    for (const statement of statements) {
+      await sql.query(statement);
+    }
   }
 }
 
@@ -162,6 +168,9 @@ export interface AttemptRow {
   result: string;
   completed: boolean;
   timestamp: string;
+  subject: 'english' | 'tamil' | null;
+  module_id: number | null;
+  grade: number | null;
 }
 
 export interface AdminRow {
@@ -435,9 +444,6 @@ export async function recordAttemptInDb(attempt: {
   result: string;
   completed: boolean;
   timestamp: string;
-  subject?: string;
-  moduleId?: number;
-  grade?: string;
 }): Promise<{ status: 'recorded' | 'duplicate' | 'not_found' }> {
   const sql = getDb();
 
@@ -453,11 +459,15 @@ export async function recordAttemptInDb(attempt: {
 
   const schoolId = studentCheck[0].school_id;
 
+  // subject / module_id / grade come only from the content manifests, never from the client.
+  // Unknown activity ids are still recorded, with NULL metadata.
+  const meta = lookupActivityMetadata(attempt.activityId);
+
   const result = (await sql.query(
     `WITH inserted_attempt AS (
-       INSERT INTO attempts (id, student_id, activity_id, category, attempt_number, result, completed, timestamp, school_id)
+       INSERT INTO attempts (id, student_id, activity_id, category, attempt_number, result, completed, timestamp, school_id, subject, module_id, grade)
        VALUES (
-         $1, $2, $3, $4, $5, $6, $7, $8, $9
+         $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12
        )
        ON CONFLICT (id) DO NOTHING
        RETURNING id, student_id, school_id, activity_id, category, attempt_number, result, completed, timestamp
@@ -543,6 +553,9 @@ export async function recordAttemptInDb(attempt: {
       attempt.completed,
       attempt.timestamp,
       schoolId,
+      meta?.subject ?? null,
+      meta?.moduleId ?? null,
+      meta?.grade ?? null,
     ]
   )) as { id: string }[];
 

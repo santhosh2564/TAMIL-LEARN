@@ -265,3 +265,20 @@ CREATE TABLE IF NOT EXISTS class_lookup_rate_limits (
 
 CREATE INDEX IF NOT EXISTS idx_class_lookup_limits_ip ON class_lookup_rate_limits (ip, window_start);
 
+-- ── 10. Attempt metadata (subject / module_id / grade) ────────────────────────
+-- Derived server-side from the content manifests by activity_id (server/activityCatalog.ts).
+-- Additive and nullable: activity ids missing from the manifests keep NULLs.
+-- Existing rows are backfilled by server/migrations/attempts_metadata_backfill.sql.
+ALTER TABLE attempts ADD COLUMN IF NOT EXISTS subject TEXT;
+ALTER TABLE attempts ADD COLUMN IF NOT EXISTS module_id INT;
+ALTER TABLE attempts ADD COLUMN IF NOT EXISTS grade INT;
+
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'chk_attempts_subject') THEN
+    ALTER TABLE attempts ADD CONSTRAINT chk_attempts_subject
+      CHECK (subject IS NULL OR subject IN ('tamil', 'english'));
+  END IF;
+END $$;
+
+CREATE INDEX IF NOT EXISTS idx_attempts_subject_module ON attempts(subject, module_id);

@@ -16,6 +16,22 @@ export class SessionService {
     };
   }
 
+  resumeSession(id: string, activityIds: string[], currentIndex: number): ActivitySession {
+    if (!activityIds || activityIds.length === 0) {
+      throw new Error('Cannot resume session without activities');
+    }
+    const idx = Math.max(0, Math.min(currentIndex, activityIds.length - 1));
+    return {
+      id,
+      activityIds,
+      currentIndex: idx,
+      completedActivityIds: activityIds.slice(0, idx),
+      results: {},
+      status: 'active',
+      startedAt: Date.now(),
+    };
+  }
+
   startSession(session: ActivitySession): ActivitySession {
     if (session.status !== 'not-started') {
       return session; // Or throw, depending on strictness
