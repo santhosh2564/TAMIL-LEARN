@@ -82,22 +82,6 @@ export const StudentUpsertSchema = z.object({
 });
 export type StudentUpsertInput = z.infer<typeof StudentUpsertSchema>;
 
-export const ProgressUpsertSchema = z.object({
-  activityId: z.string().min(1),
-  category: z.string().min(1),
-  completed: z.boolean(),
-  correct: z.boolean(),
-  attempts: z.number().int().min(0),
-  correctAttempts: z.number().int().min(0).optional(),
-  incorrectAttempts: z.number().int().min(0).optional(),
-  retryCount: z.number().int().min(0).optional(),
-  firstAttemptCorrect: z.boolean().optional(),
-  finalCorrect: z.boolean().optional(),
-  lastCompletedAt: z.string().optional(),
-  lastAttemptedAt: z.string().optional(),
-});
-export type ProgressUpsertInput = z.infer<typeof ProgressUpsertSchema>;
-
 export const AttemptRecordSchema = z.object({
   id: z.string().optional(),
   activityId: z.string().min(1),
@@ -108,22 +92,6 @@ export const AttemptRecordSchema = z.object({
   timestamp: z.string().optional(),
 });
 export type AttemptRecordInput = z.infer<typeof AttemptRecordSchema>;
-
-export const SyncBatchSchema = z.object({
-  students: z
-    .array(
-      z.object({
-        id: z.string().min(1),
-        name: z.string().min(1),
-        createdAt: z.string(),
-        lastActiveAt: z.string(),
-      })
-    )
-    .optional(),
-  progressByStudent: z.record(z.string(), z.array(ProgressUpsertSchema)).optional(),
-  attemptsByStudent: z.record(z.string(), z.array(AttemptRecordSchema)).optional(),
-});
-export type SyncBatchInput = z.infer<typeof SyncBatchSchema>;
 
 // ── Phase 3 Schemas ───────────────────────────────────────────────────────────
 export const StudentLoginSchema = z.object({

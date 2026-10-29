@@ -204,17 +204,6 @@ describe('Protected routes — require admin session', () => {
     expect(getStatus(res)).toBe(401);
   });
 
-  it('POST /api/sync returns 401 without cookie', async () => {
-    const req = makeMockReq({
-      method: 'POST',
-      url: '/api/sync',
-      body: {},
-    });
-    const res = makeMockRes();
-    await handleApiRequest(req, res);
-    expect(getStatus(res)).toBe(401);
-  });
-
   it('GET /api/students/:id/progress returns 401 without cookie', async () => {
     const req = makeMockReq({ method: 'GET', url: '/api/students/abc/progress' });
     const res = makeMockRes();

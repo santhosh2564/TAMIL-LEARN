@@ -7,7 +7,7 @@
  * - The same school_admin gets 2xx for a student in its own school.
  * - super_admin gets 2xx for the school Y student.
  * - A student session can read and write only its own data.
- * - Admin bulk routes (POST /api/students, POST /api/sync) reject foreign students.
+ * - POST /api/students rejects foreign students; POST /api/sync no longer exists.
  */
 
 import { describe, it, expect, beforeAll, afterAll, vi } from 'vitest';
@@ -180,16 +180,13 @@ suiteDescribe('T11: /api/students/:id routes are school-scoped (real Postgres)',
     expect(await call('GET', `/api/students/${missingStudent}/progress`, adminXCookie)).toBe(403);
   });
 
-  it('school_admin X gets 403 from POST /api/students and POST /api/sync for a school Y student', async () => {
+  it('school_admin X gets 403 from POST /api/students for a school Y student', async () => {
     expect(await call('POST', '/api/students', adminXCookie, { id: studentY, name: 'Renamed' })).toBe(403);
-    expect(
-      await call('POST', '/api/sync', adminXCookie, {
-        attemptsByStudent: {
-          [studentY]: [{ id: `att_t11_sync_${suffix}`, activityId: 'FTS0147', result: 'correct', completed: true }],
-        },
-      })
-    ).toBe(403);
     await studentYUntouched();
+  });
+
+  it('POST /api/sync no longer exists (404 even for super_admin)', async () => {
+    expect(await call('POST', '/api/sync', superCookie, { students: [] })).toBe(404);
   });
 
   it('school_admin X gets 2xx on every route for its own school X student', async () => {
@@ -214,6 +211,5 @@ suiteDescribe('T11: /api/students/:id routes are school-scoped (real Postgres)',
       expect([401, 403], `${r.method} ${r.url} -> ${status}`).toContain(status);
     }
     expect(await call('POST', '/api/students', studentXCookie, { id: studentY, name: 'Renamed' })).toBe(401);
-    expect(await call('POST', '/api/sync', studentXCookie, { students: [] })).toBe(401);
   });
 });

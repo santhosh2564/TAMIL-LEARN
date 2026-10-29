@@ -18,7 +18,6 @@
  *   POST   /api/students/:id/progress
  *   GET    /api/students/:id/attempts
  *   POST   /api/students/:id/attempts
- *   POST   /api/sync
  *
  * Student-scoped routes (Phase 3 will add student sessions):
  *   All student-related writes currently return 401 until Phase 3.
@@ -73,7 +72,6 @@ import {
   AdminLoginSchema,
   StudentUpsertSchema,
   AttemptRecordSchema,
-  SyncBatchSchema,
   StudentLoginSchema,
   CreateClassSchema,
   CreateStudentSchema,
@@ -616,12 +614,14 @@ export async function handleApiRequest(
     const deleteClassMatch = pathname.match(/^\/api\/admin\/classes\/([^/]+)$/);
     if (deleteClassMatch && req.method === 'DELETE') {
       const classId = decodeURIComponent(deleteClassMatch[1]);
-      if (session.role === 'school_admin') {
-        const targetClass = await getClassById(classId);
-        if (targetClass && targetClass.school_id !== session.schoolId) {
-          sendJson(res, 403, { error: 'Forbidden: Cannot delete class belonging to another school' });
-          return true;
-        }
+      const targetClass = await getClassById(classId);
+      if (!targetClass) {
+        sendJson(res, 404, { error: 'Class not found' });
+        return true;
+      }
+      if (session.role === 'school_admin' && targetClass.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot delete class belonging to another school' });
+        return true;
       }
       await archiveClassInDb(classId);
       sendJson(res, 200, { success: true, archivedClassId: classId });
@@ -635,15 +635,18 @@ export async function handleApiRequest(
 
       const { classId, name, rollNo, avatar, pin } = parsed.data;
 
-      if (session.role === 'school_admin') {
-        const targetClass = await getClassById(classId);
-        if (targetClass && targetClass.school_id !== session.schoolId) {
-          sendJson(res, 403, { error: 'Forbidden: Cannot add student to class of another school' });
-          return true;
-        }
+      const targetClass = await getClassById(classId);
+      if (!targetClass) {
+        sendJson(res, 404, { error: 'Class not found' });
+        return true;
+      }
+      if (session.role === 'school_admin' && targetClass.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot add student to class of another school' });
+        return true;
       }
 
-      const schoolId = session.role === 'school_admin' ? session.schoolId! : 'school_unassigned';
+      // The student belongs to the class's school, for super_admin too.
+      const schoolId = targetClass.school_id;
       const pinHash = await hashPin(pin);
       const studentId = `stud_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
 
@@ -668,12 +671,14 @@ export async function handleApiRequest(
     const unlockStudentMatch = pathname.match(/^\/api\/admin\/students\/([^/]+)\/unlock$/);
     if (unlockStudentMatch && req.method === 'POST') {
       const studentId = decodeURIComponent(unlockStudentMatch[1]);
-      if (session.role === 'school_admin') {
-        const student = await getStudentById(studentId);
-        if (student && student.school_id !== session.schoolId) {
-          sendJson(res, 403, { error: 'Forbidden: Cannot unlock student from another school' });
-          return true;
-        }
+      const student = await getStudentById(studentId);
+      if (!student) {
+        sendJson(res, 404, { error: 'Student not found' });
+        return true;
+      }
+      if (session.role === 'school_admin' && student.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot unlock student from another school' });
+        return true;
       }
       await unlockStudentPinInDb(studentId);
       sendJson(res, 200, { success: true, unlockedStudentId: studentId });
@@ -684,12 +689,14 @@ export async function handleApiRequest(
     const resetPinMatch = pathname.match(/^\/api\/admin\/students\/([^/]+)\/reset-pin$/);
     if (resetPinMatch && req.method === 'POST') {
       const studentId = decodeURIComponent(resetPinMatch[1]);
-      if (session.role === 'school_admin') {
-        const student = await getStudentById(studentId);
-        if (student && student.school_id !== session.schoolId) {
-          sendJson(res, 403, { error: 'Forbidden: Cannot reset PIN for student from another school' });
-          return true;
-        }
+      const student = await getStudentById(studentId);
+      if (!student) {
+        sendJson(res, 404, { error: 'Student not found' });
+        return true;
+      }
+      if (session.role === 'school_admin' && student.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot reset PIN for student from another school' });
+        return true;
       }
       const parsed = await parseBody(req, res, ResetPinSchema);
       if (!parsed.ok) return true;
@@ -780,61 +787,6 @@ export async function handleApiRequest(
       }
       await archiveStudentInDb(studentId);
       sendJson(res, 200, { success: true, deletedStudentId: studentId });
-      return true;
-    }
-
-    // ── POST /api/sync ────────────────────────────────────────────────────────
-    if (pathname === '/api/sync' && req.method === 'POST') {
-      const parsed = await parseBody(req, res, SyncBatchSchema);
-      if (!parsed.ok) return true;
-
-      const body = parsed.data;
-
-      // Check every student in the batch before writing anything.
-      const batchStudentIds = new Set([
-        ...(body.students ?? []).map((st) => st.id),
-        ...Object.keys(body.attemptsByStudent ?? {}),
-        ...Object.keys(body.progressByStudent ?? {}),
-      ]);
-      for (const id of batchStudentIds) {
-        if (!(await adminCanAccessStudent(session, id))) {
-          sendJson(res, 403, { error: 'Forbidden: batch contains a student from another school' });
-          return true;
-        }
-      }
-
-      let syncedStudents = 0;
-      let syncedAttempts = 0;
-
-      if (body.students) {
-        for (const s of body.students) {
-          await upsertStudentInDb(s);
-          syncedStudents++;
-        }
-      }
-
-      if (body.attemptsByStudent) {
-        for (const [sId, attList] of Object.entries(body.attemptsByStudent)) {
-          for (const a of attList) {
-            await recordAttemptInDb({
-              id: a.id ?? `att-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
-              studentId: sId,
-              activityId: a.activityId,
-              category: a.category,
-              attemptNumber: a.attemptNumber ?? 1,
-              result: a.result,
-              completed: a.completed,
-              timestamp: a.timestamp ?? new Date().toISOString(),
-            });
-            syncedAttempts++;
-          }
-        }
-      }
-
-      sendJson(res, 200, {
-        success: true,
-        synced: { students: syncedStudents, attempts: syncedAttempts },
-      });
       return true;
     }
 

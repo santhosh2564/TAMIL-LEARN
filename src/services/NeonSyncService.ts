@@ -117,23 +117,6 @@ export class NeonSyncService {
       return false;
     }
   }
-
-  async syncFullLocalState(params: {
-    students: StudentProfile[];
-    progressByStudent: Record<string, ActivityProgress[]>;
-    attemptsByStudent: Record<string, AttemptRecord[]>;
-  }): Promise<boolean> {
-    try {
-      const res = await fetch('/api/sync', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(params)
-      });
-      return res.ok;
-    } catch {
-      return false;
-    }
-  }
 }
 
 export const neonSync = NeonSyncService.getInstance();

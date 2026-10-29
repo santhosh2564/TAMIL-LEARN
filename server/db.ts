@@ -385,8 +385,8 @@ export async function upsertStudentInDb(student: {
        COALESCE($5, $1),
        COALESCE($6, 'avatar_default'),
        $7,
-       COALESCE($8, $9),
-       COALESCE($9, $8)
+       COALESCE($8::timestamptz, $9::timestamptz),
+       COALESCE($9::timestamptz, $8::timestamptz)
      )
      ON CONFLICT (id) DO UPDATE SET
        name = EXCLUDED.name,
