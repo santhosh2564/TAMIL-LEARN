@@ -1,4 +1,4 @@
-import { test, expect, Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { seedClass, cleanupClass, loginStudent, testDb, SeededClass, TEST_PIN } from '../helpers/loginStudent';
 import { answerTamilQuestion } from '../helpers/answers';
 

@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach, vi, afterEach } from 'vitest';
 import { AdminProgressService } from '../AdminProgressService';
+import type { StudentProgressSummary } from '../types';
 
 describe('AdminProgressService (Server-Backed)', () => {
   let service: AdminProgressService;
@@ -75,7 +76,7 @@ describe('AdminProgressService (Server-Backed)', () => {
       studentName: 'Praveen',
       createdAt: '2026-10-29T00:00:00.000Z',
       lastActiveAt: '2026-10-29T12:00:00.000Z',
-      summary: {} as any,
+      summary: {} as unknown as StudentProgressSummary,
       categoryMastery: [],
       questions: [],
     };

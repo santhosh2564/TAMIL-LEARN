@@ -7,6 +7,7 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     // 1. Home
 
     await page.goto('/');
+    await page.waitForResponse((r) => r.url().includes('/api/student/session')).catch(() => {});
     const startLearningBtn = page.getByRole('button', { name: /Start Learning/i });
     await expect(startLearningBtn).toBeVisible();
     await startLearningBtn.click();
@@ -24,7 +25,7 @@ test.describe('Phase C: English Navigation, Module UI & Browser QA', () => {
     // 4. English Learning Area
     await expect(page).toHaveURL(/.*\/classes\/3\/subjects\/english/);
     await expect(page.getByRole('heading', { name: 'English Modules' })).toBeVisible();
-    await expect(page.getByText('958 Words · 1238 Total Practice Activities')).toBeVisible();
+    await expect(page.getByText('957 Words · 1236 Total Practice Activities')).toBeVisible();
 
     // Verify 8 modules are rendered
     for (let i = 1; i <= 8; i++) {

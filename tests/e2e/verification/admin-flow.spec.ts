@@ -220,8 +220,14 @@ test.describe('B. Admin Flow Verification', () => {
 
     // Verify row displays completed questions/activities in the UI
     // In StudentTable: col 1 is Student, col 2 is Activities Completed, col 3 is Questions Completed
+    const dbRows = (await sql.query(
+      'SELECT count(*)::int as count FROM attempts WHERE student_id = $1;',
+      [student.id]
+    )) as { count: number }[];
+    expect(dbRows[0].count).toBeGreaterThan(0);
+
     const questionsCompletedCell = studentRow.locator('td').nth(2);
-    await expect(questionsCompletedCell).toHaveText(/^[1-9]\d*$/);
+    await expect(questionsCompletedCell).toHaveText(dbRows[0].count.toString());
 
     await studentCtx.close();
     await adminCtx.close();
@@ -247,7 +253,7 @@ test.describe('B. Admin Flow Verification', () => {
       const classesRes = await adminPage.request.get('/api/admin/classes');
       expect(classesRes.status()).toBe(200);
       const classesData = await classesRes.json();
-      const bClassIds = classesData.classes.filter((c: any) => c.school_id === seededB.schoolId);
+      const bClassIds = classesData.classes.filter((c: { school_id: string }) => c.school_id === seededB.schoolId);
       expect(bClassIds.length).toBe(0);
 
       // 3. Admin A tries to view School B student cards -> 403 Forbidden

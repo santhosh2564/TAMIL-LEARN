@@ -264,12 +264,30 @@ END $$;
 -- ── 9. Phase 3: Class Lookup Rate Limits ──────────────────────────────────────
 CREATE TABLE IF NOT EXISTS class_lookup_rate_limits (
   ip TEXT NOT NULL,
+  kind TEXT NOT NULL DEFAULT 'invalid',
   window_start TIMESTAMPTZ NOT NULL,
   count INT NOT NULL DEFAULT 1,
-  PRIMARY KEY (ip, window_start)
+  PRIMARY KEY (ip, kind, window_start)
 );
 
-CREATE INDEX IF NOT EXISTS idx_class_lookup_limits_ip ON class_lookup_rate_limits (ip, window_start);
+DO $$
+BEGIN
+  IF NOT EXISTS (
+    SELECT 1 FROM information_schema.columns
+    WHERE table_name = 'class_lookup_rate_limits' AND column_name = 'kind'
+  ) THEN
+    DROP TABLE IF EXISTS class_lookup_rate_limits;
+    CREATE TABLE class_lookup_rate_limits (
+      ip TEXT NOT NULL,
+      kind TEXT NOT NULL DEFAULT 'invalid',
+      window_start TIMESTAMPTZ NOT NULL,
+      count INT NOT NULL DEFAULT 1,
+      PRIMARY KEY (ip, kind, window_start)
+    );
+  END IF;
+END $$;
+
+CREATE INDEX IF NOT EXISTS idx_class_lookup_limits_ip_kind ON class_lookup_rate_limits (ip, kind, window_start);
 
 -- ── 10. Attempt metadata (subject / module_id / grade) ────────────────────────
 -- Derived server-side from the content manifests by activity_id (server/activityCatalog.ts).

@@ -18,7 +18,7 @@ test.describe('Target 2: Read-Only Vercel Production Verification', () => {
     console.log('[Read-Only Vercel /api/health Status]:', status);
     console.log('[Read-Only Vercel /api/health Response]:', text);
 
-    const findings: Record<string, any> = {
+    const findings: Record<string, unknown> = {
       endpoint: 'https://tamil-learn-alpha.vercel.app/api/health',
       status,
       response: text.slice(0, 500),
@@ -32,8 +32,8 @@ test.describe('Target 2: Read-Only Vercel Production Verification', () => {
         expect(body).toHaveProperty('database');
         expect(body).not.toHaveProperty('branch');
         expect(body).not.toHaveProperty('provider');
-      } catch (e: any) {
-        findings.error = e.message;
+      } catch (e: unknown) {
+        findings.error = (e as Error).message;
       }
     } else {
       findings.failureReason = 'Remote Vercel serverless function crashed with status ' + status + ' (FUNCTION_INVOCATION_FAILED)';
@@ -86,7 +86,7 @@ test.describe('Target 2: Read-Only Vercel Production Verification', () => {
   });
 
   test('Target 2.3: Public pages (/join, /admin/login) load cleanly via GET', async ({ page }) => {
-    const publicResults: Record<string, any> = {};
+    const publicResults: Record<string, unknown> = {};
 
     for (const p of ['/join', '/admin/login']) {
       const res = await page.goto(p);

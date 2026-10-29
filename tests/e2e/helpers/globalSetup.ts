@@ -10,7 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import { seedClass, loginStudent } from './loginStudent';
 
-export const AUTH_DIR = path.resolve(process.cwd(), 'test-results', '.auth');
+export const AUTH_DIR = path.resolve(process.cwd(), '.auth');
 export const STUDENT_STATE = path.join(AUTH_DIR, 'student.json');
 export const SEED_FILE = path.join(AUTH_DIR, 'global-seed.json');
 

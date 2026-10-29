@@ -7,7 +7,7 @@ test.describe('Global Health & Smoke Verification', () => {
     const body = await res.json();
     expect(body.status).toBe('ok');
     expect(body.database).toBe('connected');
-    expect(body.provider).toContain('Neon');
+    expect(body.provider).toBeUndefined();
   });
 
   test('verifies application loads cleanly at root without page errors', async ({ page }) => {

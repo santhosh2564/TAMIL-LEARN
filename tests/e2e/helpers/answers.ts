@@ -21,7 +21,6 @@ export async function answerTamilQuestion(page: Page, activityId: string, isCorr
   const opts = page.locator('button[lang="ta"]');
   await opts.first().waitFor({ timeout: 10000 });
   const checkBtn = page.locator('button', { hasText: 'விடையைச் சரிபார்' });
-  const retryBtn = page.locator('button', { hasText: 'மீண்டும் முயற்சி செய்' });
 
   if (ans) {
     const correctBtn = page

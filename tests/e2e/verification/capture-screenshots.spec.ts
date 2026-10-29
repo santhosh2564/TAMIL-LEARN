@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import { seedClass, cleanupClass, loginStudent, loginAdmin, testDb, SeededClass } from '../helpers/loginStudent';
 import path from 'path';
 import fs from 'fs';

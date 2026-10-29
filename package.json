@@ -23,6 +23,7 @@
     "content:english-validate": "tsx scripts/validate-english.ts",
     "content:english-check": "npm run content:english-validate",
     "db:migrate": "tsx scripts/migrate-neon.ts",
+    "db:migrate:prod": "tsx scripts/migrate-production.ts",
     "db:test": "tsx scripts/test-neon-e2e.ts",
     "admin:create": "tsx scripts/create-admin.ts"
   },

@@ -33,7 +33,7 @@ export default defineConfig({
   globalTeardown: './tests/e2e/helpers/globalTeardown.ts',
   use: {
     baseURL: 'http://localhost:4173',
-    storageState: 'test-results/.auth/student.json',
+    storageState: '.auth/student.json',
     trace: 'retain-on-failure',
   },
   webServer: {

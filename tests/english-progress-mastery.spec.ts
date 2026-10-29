@@ -1,4 +1,40 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { test, expect } from '@playwright/test';
+
+const m1Activities = JSON.parse(
+  fs.readFileSync(
+    path.resolve(process.cwd(), 'src/content/class-3/english/module-1/activities.json'),
+    'utf-8'
+  )
+);
+
+interface RawActivity {
+  id: string;
+  day?: number;
+  category?: string;
+  variant?: string;
+  targetWord?: string;
+  correctAnswer?: string;
+  options?: Array<{ id: string; label: string }>;
+}
+
+interface RawAct {
+  id: string;
+  category?: string;
+  day?: number;
+}
+
+interface ActOption {
+  label: string;
+}
+
+interface ActItem {
+  correctAnswer?: string;
+  options?: ActOption[];
+  targetWord?: string;
+  variant?: string;
+}
 
 test.describe('Phase E: English Learning Progress & Mastery Tracking E2E', () => {
   test.beforeEach(async ({ page }) => {
@@ -15,11 +51,11 @@ test.describe('Phase E: English Learning Progress & Mastery Tracking E2E', () =>
 
     // Overview Header Stats
     await expect(page.getByText('Words Learned')).toBeVisible();
-    await expect(page.getByText('0 / 958').first()).toBeVisible();
+    await expect(page.getByText('0 / 957').first()).toBeVisible();
 
     await expect(page.getByText('Words Mastered')).toBeVisible();
     await expect(page.getByText('Reviews Completed')).toBeVisible();
-    await expect(page.getByText('0 / 280')).toBeVisible();
+    await expect(page.getByText('0 / 279')).toBeVisible();
 
     await expect(page.getByText('Modules Completed')).toBeVisible();
     await expect(page.getByText('0 / 8')).toBeVisible();
@@ -70,20 +106,8 @@ test.describe('Phase E: English Learning Progress & Mastery Tracking E2E', () =>
     await page.goto('/session/3/english/play?category=spelling-choice&module=1&day=1&size=1');
     await page.waitForLoadState('networkidle');
 
-interface RawActivity {
-  id: string;
-  day?: number;
-  category?: string;
-  variant?: string;
-  targetWord?: string;
-  correctAnswer?: string;
-  options?: Array<{ id: string; label: string }>;
-}
-
     // Find the correct answer dynamically for whatever shuffled activity was presented
-    const correctAnswer = await page.evaluate(async () => {
-      const res = await fetch('/src/content/class-3/english/module-1/activities.json');
-      const allActs: RawActivity[] = await res.json();
+    const correctAnswer = await page.evaluate((allActs: RawActivity[]) => {
       const buttonLabels = Array.from(document.querySelectorAll('button[aria-pressed]')).map(
         (b) => b.textContent?.trim() || ''
       );
@@ -100,7 +124,7 @@ interface RawActivity {
         }
       }
       return 'ask';
-    });
+    }, m1Activities);
 
     const wordInput = page.locator('input[aria-label="Word answer input"]');
     if (await wordInput.isVisible()) {
@@ -146,10 +170,7 @@ interface RawActivity {
   }) => {
     // Seed 12 completed activities for Module 1 Day 1 (50% progress) using actual Day 1 activity IDs
     await page.goto('/');
-    await page.evaluate(async () => {
-      // Vite dev server serves src files
-      const res = await fetch('/src/content/class-3/english/module-1/activities.json');
-      const allActs: Array<{ id: string; day: number; category: string }> = await res.json();
+    await page.evaluate((allActs: Array<{ id: string; day: number; category: string }>) => {
       const d1Acts = allActs.filter((a) => a.day === 1);
 
       const activities: Record<string, unknown> = {};
@@ -173,7 +194,7 @@ interface RawActivity {
           activities,
         })
       );
-    });
+    }, m1Activities);
 
     await page.goto('/classes/3/subjects/english/modules/1');
     await page.waitForLoadState('networkidle');
@@ -217,12 +238,7 @@ interface RawActivity {
     await expect(day1Card.getByRole('button', { name: /Start/i })).toBeVisible();
 
     // 3. Complete every activity in Module 1 Day 1 (all 24 activities)
-    await page.evaluate(async () => {
-      interface RawAct {
-        id: string;
-        category?: string;
-        day?: number;
-      }
+    await page.evaluate((allActs: RawAct[]) => {
       interface StoredActProgress {
         activityId: string;
         category?: string;
@@ -234,8 +250,6 @@ interface RawActivity {
         lastCompletedAt: string;
         lastAttemptedAt: string;
       }
-      const res = await fetch('/src/content/class-3/english/module-1/activities.json');
-      const allActs = (await res.json()) as RawAct[];
       const d1Acts = allActs.filter((a) => a.day === 1);
 
       const activities: Record<string, StoredActProgress> = {};
@@ -260,7 +274,7 @@ interface RawActivity {
           activities,
         })
       );
-    });
+    }, m1Activities);
 
     // 4. Reload Module 1 Detail and verify Day 1 shows completed with checkmark state
     await page.reload();
@@ -303,18 +317,7 @@ interface RawActivity {
     await page.waitForLoadState('networkidle');
 
     // Dynamically resolve target answer and a deliberately wrong answer
-    const activityInfo = await page.evaluate(async () => {
-      interface ActOption {
-        label: string;
-      }
-      interface ActItem {
-        correctAnswer?: string;
-        options?: ActOption[];
-        targetWord?: string;
-        variant?: string;
-      }
-      const res = await fetch('/src/content/class-3/english/module-1/activities.json');
-      const allActs = (await res.json()) as ActItem[];
+    const activityInfo = await page.evaluate((allActs: ActItem[]) => {
       const buttonLabels = Array.from(document.querySelectorAll('button[aria-pressed]')).map(
         (b) => b.textContent?.trim() || ''
       );
@@ -334,7 +337,7 @@ interface RawActivity {
         }
       }
       return { correctAnswer: 'ask', wrongAnswer: 'wrongxyz', isSelect: true };
-    });
+    }, m1Activities);
 
     const wordInput = page.locator('input[aria-label="Word answer input"]');
 

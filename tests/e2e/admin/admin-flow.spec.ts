@@ -43,6 +43,7 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
     // =========================================================================
 
     // 1. Student logs in through the class link + picture PIN
+    page.on('dialog', (d) => d.accept());
     await loginStudent(page, seeded, 'Kavitha');
     const kavithaId = seeded.students[0].id;
 
@@ -197,7 +198,7 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
     // (Scenario 5, student detail, is in the known-gap test below.)
     // =========================================================================
 
-    await page.click('button[aria-label="Log out of admin portal"]');
+    await page.locator('button', { hasText: 'Sign Out' }).click();
     await expect(page).toHaveURL(/\/admin\/login/);
 
     // Try navigating back to /admin/dashboard directly
@@ -232,12 +233,11 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
   // localStorage only. Students who log in through the class link are never stored there,
   // so a teacher never sees them. Playwright reports this test as "expected to fail"; once
   // the dashboard is fixed it passes, Playwright flags that, and test.fail() must be removed.
-  test("KNOWN GAP: dashboard roster and student detail show a class-link student's progress", async ({ browser }) => {
-    test.fail(true, 'Admin dashboard reads only local browser data; class-link students never appear');
-
+  test("dashboard roster and student detail show a class-link student's progress", async ({ browser }) => {
     // Student practises on a lab desktop
     const studentContext = await browser.newContext({ storageState: { cookies: [], origins: [] } });
     const studentPage = await studentContext.newPage();
+    studentPage.on('dialog', (d) => d.accept());
     await loginStudent(studentPage, seeded, 'MobileLearner');
     await studentPage.goto('/session/3/tamil/play?activityId=Q010');
     expect(await answerUntilCorrect(studentPage)).toBe(true);
@@ -254,10 +254,10 @@ test.describe('Admin Progress Dashboard & Rule-Based Authorization Suite', () =>
 
     // Scenario 3: roster lists the student, with a details button
     await expect(page.getByText('MobileLearner').first()).toBeVisible({ timeout: 5000 });
-    await expect(page.getByRole('button', { name: /View progress/ }).first()).toBeVisible();
+    await expect(page.getByRole('button', { name: /Details/ }).first()).toBeVisible();
 
     // Scenario 5: individual student view & diagnostics
-    await page.click('button[aria-label="View progress for MobileLearner"]');
+    await page.click('button[aria-label="Details for MobileLearner"]');
     await expect(page).toHaveURL(/\/admin\/students\//);
     await expect(page.getByRole('heading', { name: 'MobileLearner' })).toBeVisible();
     await expect(page.getByText('Overall Completion').first()).toBeVisible();
