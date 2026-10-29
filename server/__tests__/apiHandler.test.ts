@@ -290,7 +290,7 @@ describe('GET /api/admin/session — public', () => {
 });
 
 describe('Validation — malformed bodies', () => {
-  it('POST /api/students with empty body returns 400', async () => {
+  it('POST /api/admin/classes with empty body returns 400', async () => {
     const token = await signAdminSession({
       sub: 'adm_1',
       username: 'admin',
@@ -300,7 +300,7 @@ describe('Validation — malformed bodies', () => {
 
     const req = makeMockReq({
       method: 'POST',
-      url: '/api/students',
+      url: '/api/admin/classes',
       cookie: `sara_admin_session=${token}`,
       body: {},
     });

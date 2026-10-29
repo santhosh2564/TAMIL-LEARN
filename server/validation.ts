@@ -74,14 +74,6 @@ export const AdminLoginSchema = z.object({
 });
 export type AdminLoginInput = z.infer<typeof AdminLoginSchema>;
 
-export const StudentUpsertSchema = z.object({
-  id: z.string().min(1),
-  name: z.string().min(1),
-  createdAt: z.string().optional(),
-  lastActiveAt: z.string().optional(),
-});
-export type StudentUpsertInput = z.infer<typeof StudentUpsertSchema>;
-
 export const AttemptRecordSchema = z.object({
   id: z.string().optional(),
   activityId: z.string().min(1),

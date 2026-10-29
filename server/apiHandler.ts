@@ -12,7 +12,6 @@
  *
  * ADMIN-ONLY routes (require valid admin session cookie):
  *   GET    /api/students
- *   POST   /api/students
  *   DELETE /api/students/:id
  *   GET    /api/students/:id/progress
  *   POST   /api/students/:id/progress
@@ -70,7 +69,6 @@ import {
   sendJson,
   parseBody,
   AdminLoginSchema,
-  StudentUpsertSchema,
   AttemptRecordSchema,
   StudentLoginSchema,
   CreateClassSchema,
@@ -752,28 +750,6 @@ export async function handleApiRequest(
         lastActiveAt: r.last_active_at,
       }));
       sendJson(res, 200, { students });
-      return true;
-    }
-
-    // ── POST /api/students ────────────────────────────────────────────────────
-    if (pathname === '/api/students' && req.method === 'POST') {
-      const parsed = await parseBody(req, res, StudentUpsertSchema);
-      if (!parsed.ok) return true;
-
-      if (!(await adminCanAccessStudent(session, parsed.data.id))) {
-        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
-        return true;
-      }
-
-      const now = new Date().toISOString();
-      const student = {
-        id: parsed.data.id,
-        name: parsed.data.name,
-        createdAt: parsed.data.createdAt || now,
-        lastActiveAt: parsed.data.lastActiveAt || now,
-      };
-      await upsertStudentInDb(student);
-      sendJson(res, 200, { success: true, student });
       return true;
     }
 

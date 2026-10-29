@@ -54,7 +54,6 @@ export class StudentService {
 
     await this.repository.saveStudent(student);
     await this.repository.setActiveStudentId(student.id);
-    neonSync.syncStudent(student).catch(() => {});
 
     return student;
   }

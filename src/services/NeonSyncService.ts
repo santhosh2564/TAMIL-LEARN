@@ -1,4 +1,3 @@
-import { StudentProfile } from '../student/types';
 import { ActivityProgress } from '../progress/types';
 import { AttemptRecord } from '../attempts/types';
 import { offlineOutbox } from './OfflineOutboxQueue';
@@ -48,20 +47,6 @@ export class NeonSyncService {
 
   getStatus(): NeonCloudStatus {
     return this.status;
-  }
-
-  async syncStudent(student: StudentProfile): Promise<boolean> {
-    try {
-      const res = await fetch('/api/students', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(student)
-      });
-      return res.ok;
-    } catch {
-      // Offline fallback: fail silently to preserve local experience
-      return false;
-    }
   }
 
   async deleteStudent(studentId: string): Promise<boolean> {
