@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createBrowserRouter, Navigate, RouteObject } from 'react-router-dom';
 
 // Features
 import { HomePage } from '../features/Home/HomePage';
@@ -10,7 +10,8 @@ import { SessionPage } from '../features/Session/SessionPage';
 import { SessionSetupPage } from '../features/Session/SessionSetupPage';
 import { ResultsPage } from '../features/Session/ResultsPage';
 import { SettingsPage } from '../features/Settings/SettingsPage';
-import { StudentSelectionPage } from '../features/Student/StudentSelectionPage';
+import { ClassCodePage } from '../features/Student/ClassCodePage';
+import { RequireStudent, CLASS_CODE_PATH } from '../student/RequireStudent';
 import { CreditsPage } from '../features/Credits/CreditsPage';
 
 // Admin Features & Security
@@ -24,7 +25,7 @@ import { AdminRoute } from '../auth/AdminRoute';
 import { ClassRosterPage } from '../features/Student/ClassRosterPage';
 import { PrintClassCardsPage } from '../features/Admin/PrintClassCardsPage';
 
-export const router = createBrowserRouter([
+export const routes: RouteObject[] = [
   {
     path: '/',
     errorElement: <div className="p-8 text-center text-red-500 font-bold">App Error</div>,
@@ -38,44 +39,55 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        path: CLASS_CODE_PATH.slice(1),
+        element: <ClassCodePage />,
+      },
+      {
+        // Old local "type your name" screen; students now join through their class link.
         path: 'students',
-        element: <StudentSelectionPage />,
+        element: <Navigate to={CLASS_CODE_PATH} replace />,
       },
       {
-        path: 'classes',
-        element: <Navigate to="/classes/3/subjects" replace />,
-      },
-      {
-        path: 'subjects',
-        element: <Navigate to="/classes/3/subjects" replace />,
-      },
-      {
-        path: 'classes/:classId/subjects',
-        element: <SubjectSelectionPage />,
-      },
-      {
-        path: 'classes/:classId/subjects/english',
-        element: <EnglishLearningAreaPage />,
-      },
-      {
-        path: 'classes/:classId/subjects/english/modules/:moduleId',
-        element: <EnglishModuleDetailPage />,
-      },
-      {
-        path: 'classes/:classId/subjects/:subjectId',
-        element: <LearningAreaPage />,
-      },
-      {
-        path: 'session/:classId/:subjectId/setup',
-        element: <SessionSetupPage />,
-      },
-      {
-        path: 'session/:classId/:subjectId/play',
-        element: <SessionPage />,
-      },
-      {
-        path: 'session/results',
-        element: <ResultsPage />,
+        // Learning pages need a server student session.
+        element: <RequireStudent />,
+        children: [
+          {
+            path: 'classes',
+            element: <Navigate to="/classes/3/subjects" replace />,
+          },
+          {
+            path: 'subjects',
+            element: <Navigate to="/classes/3/subjects" replace />,
+          },
+          {
+            path: 'classes/:classId/subjects',
+            element: <SubjectSelectionPage />,
+          },
+          {
+            path: 'classes/:classId/subjects/english',
+            element: <EnglishLearningAreaPage />,
+          },
+          {
+            path: 'classes/:classId/subjects/english/modules/:moduleId',
+            element: <EnglishModuleDetailPage />,
+          },
+          {
+            path: 'classes/:classId/subjects/:subjectId',
+            element: <LearningAreaPage />,
+          },
+          {
+            path: 'session/:classId/:subjectId/setup',
+            element: <SessionSetupPage />,
+          },
+          {
+            path: 'session/:classId/:subjectId/play',
+            element: <SessionPage />,
+          },
+          {
+            path: 'session/results',
+            element: <ResultsPage />,
+          },
+        ],
       },
       {
         path: 'settings',
@@ -125,4 +137,6 @@ export const router = createBrowserRouter([
       },
     ],
   },
-]);
+];
+
+export const router = createBrowserRouter(routes);

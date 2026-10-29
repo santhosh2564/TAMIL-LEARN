@@ -41,8 +41,20 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       contentRepo
     );
 
+    // Seeds a local profile and marks it active, as the removed local "+ New Student" flow did.
+    let seq = 0;
+    const seedStudent = async (name: string) => {
+      seq++;
+      const at = new Date(Date.UTC(2026, 9, 1, 0, 0, seq)).toISOString();
+      const student = { id: `stu_seed_${seq}`, name, createdAt: at, lastActiveAt: at };
+      await studentRepo.saveStudent(student);
+      await studentRepo.setActiveStudentId(student.id);
+      return student;
+    };
+
     return {
       studentService,
+      seedStudent,
       progressService,
       attemptService,
       adminService,
@@ -51,9 +63,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
 
   describe('Single-Student Attempt & Retry Tracking', () => {
     it('calculates first-attempt correct: attempts = 1, retries = 0, firstAttemptCorrect = true, completed = true', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('Ananya');
+      const student = await seedStudent('Ananya');
 
       await progressService.recordAttempt({
         studentId: student.id,
@@ -76,9 +88,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
     });
 
     it('calculates first attempt incorrect: attempts = 1, retries = 0, firstAttemptCorrect = false, completed = false', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('Kavin');
+      const student = await seedStudent('Kavin');
 
       await progressService.recordAttempt({
         studentId: student.id,
@@ -98,9 +110,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
     });
 
     it('calculates retry then correct: attempts = 2, retries = 1, firstAttemptCorrect = false, completed = true', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('Meera');
+      const student = await seedStudent('Meera');
 
       // Attempt 1: wrong
       await progressService.recordAttempt({
@@ -130,9 +142,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
     });
 
     it('calculates multiple retries: wrong -> wrong -> correct => attempts = 3, retries = 2, firstAttemptCorrect = false, completed = true', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('Suriya');
+      const student = await seedStudent('Suriya');
 
       // Attempt 1: wrong
       await progressService.recordAttempt({
@@ -173,9 +185,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
 
   describe('Multi-Question Verification (Prompt Specification Test)', () => {
     it('matches exact specification: Question A (1 attempt correct) + Question B (wrong then correct) => questionsCompleted=2, firstAttemptSuccesses=1, questionsRetried=1, totalRetries=1', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('TestStudent');
+      const student = await seedStudent('TestStudent');
 
       // Question A: attempt 1 -> correct
       await progressService.recordAttempt({
@@ -222,10 +234,10 @@ describe('AdminProgressService & Metrics Aggregation', () => {
 
   describe('Cross-Student Aggregation', () => {
     it('aggregates correctly across multiple students with varying activity levels', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
       // Student 1: 1 question, 1st attempt correct
-      const s1 = await studentService.createStudent('Student 1');
+      const s1 = await seedStudent('Student 1');
       await progressService.recordAttempt({
         studentId: s1.id,
         activityId: 'Q001',
@@ -235,7 +247,7 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       });
 
       // Student 2: 1 question, 2 attempts (1 retry)
-      const s2 = await studentService.createStudent('Student 2');
+      const s2 = await seedStudent('Student 2');
       await progressService.recordAttempt({
         studentId: s2.id,
         activityId: 'Q001',
@@ -252,7 +264,7 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       });
 
       // Student 3: Registered, but zero attempts
-      await studentService.createStudent('Student 3 (Inactive)');
+      await seedStudent('Student 3 (Inactive)');
 
       const metrics = await adminService.getDashboardMetrics();
       expect(metrics.totalStudents).toBe(3);
@@ -263,10 +275,10 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       expect(metrics.totalRetries).toBe(1);
     });
     it('aggregates correctly across multiple students with different progress profiles (Section 14 Audit)', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
       // Student A: 5 completed, 5 first-attempt successes, 0 retries
-      const studentA = await studentService.createStudent('Student A');
+      const studentA = await seedStudent('Student A');
       for (let i = 1; i <= 5; i++) {
         await progressService.recordAttempt({
           studentId: studentA.id,
@@ -278,7 +290,7 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       }
 
       // Student B: 5 completed, 2 first-attempt successes, 3 questions retried, 5 total retries
-      const studentB = await studentService.createStudent('Student B');
+      const studentB = await seedStudent('Student B');
       // Q1 & Q2: First-attempt success
       for (let i = 1; i <= 2; i++) {
         await progressService.recordAttempt({
@@ -340,7 +352,7 @@ describe('AdminProgressService & Metrics Aggregation', () => {
       });
 
       // Student C: 0 completed, 0 attempts
-      const studentC = await studentService.createStudent('Student C');
+      const studentC = await seedStudent('Student C');
 
       // Verify individual summaries
       const summaries = await adminService.getStudentSummaries();
@@ -378,9 +390,9 @@ describe('AdminProgressService & Metrics Aggregation', () => {
 
   describe('Student Detail & Category Mastery', () => {
     it('returns structured category mastery and chronological question history', async () => {
-      const { studentService, progressService, adminService } = createServices();
+      const { seedStudent, progressService, adminService } = createServices();
 
-      const student = await studentService.createStudent('DeepDive');
+      const student = await seedStudent('DeepDive');
 
       await progressService.recordAttempt({
         studentId: student.id,

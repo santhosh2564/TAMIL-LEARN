@@ -1,14 +1,14 @@
 import { ArrowLeft, Settings, Home, User, LogOut } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Button } from './Button';
-import { useStudent } from '../../student';
+import { useStudent, CLASS_CODE_PATH } from '../../student';
 
 export function Header() {
   const navigate = useNavigate();
   const location = useLocation();
   const { activeStudent, logout } = useStudent();
   const isHome = location.pathname === '/';
-  const isStudentsPage = location.pathname === '/students';
+  const isClassCodePage = location.pathname === CLASS_CODE_PATH;
 
   const handleDoneLogout = async () => {
     await logout();
@@ -51,11 +51,11 @@ export function Header() {
           )}
 
           {/* Active Student Pill / Selector */}
-          {!isStudentsPage && (
+          {!isClassCodePage && (
             <button
-              onClick={() => navigate('/students', { state: { from: location.pathname } })}
+              onClick={() => navigate(CLASS_CODE_PATH)}
               className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1 sm:px-4 sm:py-2 rounded-2xl bg-surface-raised hover:bg-surface-highlight/70 border border-surface-highlight text-text font-bold text-xs sm:text-base transition-colors focus-visible:ring-4 focus-visible:ring-primary-400 outline-none cursor-pointer"
-              aria-label={activeStudent ? `Active student: ${activeStudent.name}. Click to switch.` : 'Select student'}
+              aria-label={activeStudent ? `Active student: ${activeStudent.name}` : 'Select student'}
             >
               <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-lg bg-primary-500 text-white flex items-center justify-center text-[10px] sm:text-xs font-bold">
                 {activeStudent ? activeStudent.name.charAt(0).toUpperCase() : <User size={13} />}

@@ -107,9 +107,7 @@ export function SessionPage() {
         setIsLoading(true);
         const selector = new SessionActivitySelector();
         const studentId =
-          activeStudent?.id ||
-          (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null) ||
-          undefined;
+          activeStudent?.id;
 
         // Resume the server-side session (possibly started on another desktop) when asked to.
         const resumeSessionId = searchParams.get('resumeSessionId');
@@ -212,9 +210,7 @@ export function SessionPage() {
       setCurrentActivityState(nextState);
 
       const studentId =
-        activeStudent?.id ||
-        (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null) ||
-        undefined;
+        activeStudent?.id;
 
       // Persist individual attempt to isolated student tracking
       if (studentId) {
@@ -276,9 +272,7 @@ export function SessionPage() {
     setSession(advancedSession);
 
     const studentId =
-      activeStudent?.id ||
-      (typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') : null) ||
-      undefined;
+      activeStudent?.id;
     if (studentId) {
       sessionSync.updateSessionProgress(
         session.id,

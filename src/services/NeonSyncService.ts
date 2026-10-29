@@ -1,4 +1,3 @@
-import { ActivityProgress } from '../progress/types';
 import { AttemptRecord } from '../attempts/types';
 import { offlineOutbox } from './OfflineOutboxQueue';
 
@@ -47,31 +46,6 @@ export class NeonSyncService {
 
   getStatus(): NeonCloudStatus {
     return this.status;
-  }
-
-  async deleteStudent(studentId: string): Promise<boolean> {
-    try {
-      const res = await fetch(`/api/students/${encodeURIComponent(studentId)}`, {
-        method: 'DELETE'
-      });
-      return res.ok;
-    } catch {
-      return false;
-    }
-  }
-
-  async syncProgress(progress: ActivityProgress): Promise<boolean> {
-    if (!progress.studentId) return false;
-    try {
-      const res = await fetch(`/api/students/${encodeURIComponent(progress.studentId)}/progress`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(progress)
-      });
-      return res.ok;
-    } catch {
-      return false;
-    }
   }
 
   async syncAttempt(attempt: AttemptRecord): Promise<boolean> {

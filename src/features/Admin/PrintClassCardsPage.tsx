@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import QRCode from 'qrcode';
-import { Printer, ArrowLeft, AlertCircle } from 'lucide-react';
+import { Printer, ArrowLeft, AlertCircle, Archive } from 'lucide-react';
 import { PICTURE_PIN_MAP } from '../../constants/picturePin';
 
 interface ClassDetails {
@@ -74,6 +74,21 @@ export const PrintClassCardsPage: React.FC = () => {
 
   const handlePrint = () => {
     window.print();
+  };
+
+  // Archiving is admin-only; the student disappears from the roster and can no longer log in.
+  const handleArchive = async (student: StudentCardItem) => {
+    if (!window.confirm(`${student.name}: காப்பகப்படுத்தவா? / Archive this student?`)) return;
+    try {
+      const res = await fetch(`/api/students/${encodeURIComponent(student.id)}`, { method: 'DELETE' });
+      if (!res.ok) {
+        setError('மாணவரைக் காப்பகப்படுத்த முடியவில்லை / Failed to archive student');
+        return;
+      }
+      setStudents((prev) => prev.filter((s) => s.id !== student.id));
+    } catch {
+      setError('மாணவரைக் காப்பகப்படுத்த முடியவில்லை / Failed to archive student');
+    }
   };
 
   if (isLoading) {
@@ -181,6 +196,15 @@ export const PrintClassCardsPage: React.FC = () => {
                     PIN: Tap your 3 secret pictures to login
                   </span>
                 </div>
+
+                <button
+                  type="button"
+                  onClick={() => handleArchive(student)}
+                  className="print:hidden mt-3 self-end inline-flex items-center gap-1.5 text-xs font-bold text-rose-700 hover:bg-rose-50 border border-rose-200 rounded-xl px-3 py-1.5 cursor-pointer"
+                  aria-label={`Archive ${student.name}`}
+                >
+                  <Archive className="w-3.5 h-3.5" /> காப்பகம் / Archive
+                </button>
               </div>
             );
           })}

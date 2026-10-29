@@ -10,6 +10,8 @@ export class OfflineOutboxQueue {
   private static instance: OfflineOutboxQueue | null = null;
   private isFlushing = false;
   private dbPromise: Promise<IDBDatabase | null> | null = null;
+  /** Student of the current server session; set by StudentProvider. */
+  private sessionStudentId: string | undefined;
 
   static getInstance(): OfflineOutboxQueue {
     if (!this.instance) {
@@ -21,10 +23,13 @@ export class OfflineOutboxQueue {
   constructor() {
     if (typeof window !== 'undefined') {
       window.addEventListener('online', () => {
-        const activeId = typeof localStorage !== 'undefined' ? localStorage.getItem('sa.activeStudentId.v1') || undefined : undefined;
-        this.flush(activeId).catch(() => {});
+        this.flush(this.sessionStudentId).catch(() => {});
       });
     }
+  }
+
+  setSessionStudent(studentId: string | null): void {
+    this.sessionStudentId = studentId ?? undefined;
   }
 
   private async openIdb(): Promise<IDBDatabase | null> {
