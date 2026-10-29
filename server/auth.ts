@@ -7,6 +7,7 @@
 import { SignJWT, jwtVerify, type JWTPayload } from 'jose';
 import { IncomingMessage, ServerResponse } from 'http';
 import { sendJson } from './validation';
+import { getStudentSchoolId } from './db';
 
 // ── Startup secret validation ────────────────────────────────────────────────
 function getSessionSecret(): Uint8Array {
@@ -215,14 +216,24 @@ export async function getCaller(req: IncomingMessage): Promise<RequestCaller | n
 }
 
 /**
+ * Whether an admin may act on a student: super_admin always; school_admin only for an
+ * existing student in its own school (a missing student is denied, not 404, so ids
+ * from other schools cannot be probed).
+ */
+export async function adminCanAccessStudent(admin: AdminSessionPayload, studentId: string): Promise<boolean> {
+  if (admin.role === 'super_admin') return true;
+  if (!admin.schoolId) return false;
+  return (await getStudentSchoolId(studentId)) === admin.schoolId;
+}
+
+/**
  * Authorizes access to a student's data.
- * Checks whether caller is either an authorized admin or the matching student.
+ * Caller must be an admin in scope for the student (see adminCanAccessStudent) or the student itself.
  */
 export async function requireStudentAccess(
   req: IncomingMessage,
   res: ServerResponse,
-  targetStudentId: string,
-  targetSchoolId?: string
+  targetStudentId: string
 ): Promise<RequestCaller | null> {
   const caller = await getCaller(req);
   if (!caller) {
@@ -231,14 +242,11 @@ export async function requireStudentAccess(
   }
 
   if (caller.type === 'admin') {
-    if (caller.admin.role === 'super_admin') {
-      return caller;
-    }
-    if (!caller.admin.schoolId) {
+    if (caller.admin.role === 'school_admin' && !caller.admin.schoolId) {
       sendJson(res, 403, { error: 'Access denied: school_admin has no assigned school' });
       return null;
     }
-    if (targetSchoolId && caller.admin.schoolId !== targetSchoolId) {
+    if (!(await adminCanAccessStudent(caller.admin, targetStudentId))) {
       sendJson(res, 403, { error: 'Access denied: student belongs to different school' });
       return null;
     }

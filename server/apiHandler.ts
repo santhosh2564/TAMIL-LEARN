@@ -64,6 +64,7 @@ import {
   clearStudentCookie,
   getStudentSession,
   requireStudentAccess,
+  adminCanAccessStudent,
 } from './auth';
 import { verifyStudentPin, hashPin } from './studentPin';
 import {
@@ -752,6 +753,11 @@ export async function handleApiRequest(
       const parsed = await parseBody(req, res, StudentUpsertSchema);
       if (!parsed.ok) return true;
 
+      if (!(await adminCanAccessStudent(session, parsed.data.id))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+
       const now = new Date().toISOString();
       const student = {
         id: parsed.data.id,
@@ -768,6 +774,10 @@ export async function handleApiRequest(
     const deleteStudentMatch = pathname.match(/^\/api\/students\/([^/]+)$/);
     if (deleteStudentMatch && req.method === 'DELETE') {
       const studentId = decodeURIComponent(deleteStudentMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
       await archiveStudentInDb(studentId);
       sendJson(res, 200, { success: true, deletedStudentId: studentId });
       return true;
@@ -779,6 +789,20 @@ export async function handleApiRequest(
       if (!parsed.ok) return true;
 
       const body = parsed.data;
+
+      // Check every student in the batch before writing anything.
+      const batchStudentIds = new Set([
+        ...(body.students ?? []).map((st) => st.id),
+        ...Object.keys(body.attemptsByStudent ?? {}),
+        ...Object.keys(body.progressByStudent ?? {}),
+      ]);
+      for (const id of batchStudentIds) {
+        if (!(await adminCanAccessStudent(session, id))) {
+          sendJson(res, 403, { error: 'Forbidden: batch contains a student from another school' });
+          return true;
+        }
+      }
+
       let syncedStudents = 0;
       let syncedAttempts = 0;
 

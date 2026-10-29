@@ -314,6 +314,15 @@ export async function checkAndIncrementClassLookupRateLimit(
   return { allowed: true, remaining: maxLimit - count };
 }
 
+/** School of a student, archived or not; null if the student does not exist. Used for access scoping. */
+export async function getStudentSchoolId(studentId: string): Promise<string | null> {
+  const sql = getDb();
+  const rows = (await sql.query('SELECT school_id FROM students WHERE id = $1 LIMIT 1;', [studentId])) as {
+    school_id: string;
+  }[];
+  return rows[0]?.school_id ?? null;
+}
+
 export async function getStudentById(studentId: string): Promise<StudentRow | null> {
   const sql = getDb();
   const rows = (await sql.query(
