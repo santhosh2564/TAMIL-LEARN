@@ -6,7 +6,11 @@ export interface StudentContextValue {
   activeStudent: StudentProfile | null;
   activeStudentId: string | null;
   isLoading: boolean;
-  selectStudent: (classId: string, studentId: string) => Promise<{ success: boolean; student?: StudentProfile; error?: string }>;
+  selectStudent: (
+    schoolOrClassId: string,
+    studentId: string,
+    pin?: string[]
+  ) => Promise<{ success: boolean; student?: StudentProfile; error?: string }>;
   clearActiveStudentProgress: () => Promise<void>;
   logout: () => Promise<void>;
   setActiveStudentFromServer: (student: StudentProfile) => void;

@@ -13,7 +13,7 @@ import type {
 } from '../src/admin/types';
 import type { ActivityCategory } from '../src/types';
 
-// ── Connection ────────────────────────────────────────────────────────────────
+// â”€â”€ Connection â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 let sqlInstance: NeonQueryFunction<false, false> | null = null;
 
 export function setDb(instance: NeonQueryFunction<false, false> | null): void {
@@ -34,7 +34,7 @@ export function getDb(): NeonQueryFunction<false, false> {
   return sqlInstance;
 }
 
-// ── SQL Statement Splitter (Preserves DO $$ ... $$ blocks) ────────────────────
+// â”€â”€ SQL Statement Splitter (Preserves DO $$ ... $$ blocks) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export function splitSqlStatements(sqlText: string): string[] {
   const statements: string[] = [];
   let current = '';
@@ -87,24 +87,40 @@ export function splitSqlStatements(sqlText: string): string[] {
   return statements;
 }
 
-// ── Migration Runner ──────────────────────────────────────────────────────────
+// â”€â”€ Migration Runner â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function runMigrations(customDb?: NeonQueryFunction<false, false>): Promise<void> {
   const sql = customDb || getDb();
-  // Schema first, then the manifest-generated attempt metadata backfill.
-  const files = [
-    path.resolve(process.cwd(), 'server', 'schema.sql'),
-    path.resolve(process.cwd(), 'server', 'migrations', 'attempts_metadata_backfill.sql'),
+
+  await sql.query(`
+    CREATE TABLE IF NOT EXISTS _migrations (
+      id TEXT PRIMARY KEY,
+      applied_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    );
+  `);
+
+  const appliedRows = (await sql.query(`SELECT id FROM _migrations;`)) as Array<{ id: string }>;
+  const appliedSet = new Set(appliedRows.map((r) => r.id));
+
+  const migrations = [
+    { id: '001_schema', file: path.resolve(process.cwd(), 'server', 'schema.sql') },
+    { id: '002_attempts_backfill', file: path.resolve(process.cwd(), 'server', 'migrations', 'attempts_metadata_backfill.sql') },
+    { id: '003_assessment_tracking', file: path.resolve(process.cwd(), 'server', 'migrations', '003_assessment_tracking.sql') },
+    { id: '004_remove_classes', file: path.resolve(process.cwd(), 'server', 'migrations', '004_remove_classes.sql') },
   ];
 
-  for (const file of files) {
-    const statements = splitSqlStatements(fs.readFileSync(file, 'utf8'));
+  for (const migration of migrations) {
+    if (appliedSet.has(migration.id)) {
+      continue;
+    }
+    const statements = splitSqlStatements(fs.readFileSync(migration.file, 'utf8'));
     for (const statement of statements) {
       await sql.query(statement);
     }
+    await sql.query(`INSERT INTO _migrations (id) VALUES ($1) ON CONFLICT (id) DO NOTHING;`, [migration.id]);
   }
 }
 
-// ── Type rows ─────────────────────────────────────────────────────────────────
+// â”€â”€ Type rows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export interface SchoolRow {
   id: string;
   name: string;
@@ -192,7 +208,7 @@ export interface AdminRow {
   locked_until: string | null;
 }
 
-// ── School & Class operations ─────────────────────────────────────────────────
+// â”€â”€ School & Class operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function getSchoolsFromDb(): Promise<SchoolRow[]> {
   const sql = getDb();
   return (await sql.query(
@@ -210,6 +226,21 @@ export async function createClassWithUniqueCode(
   maxRetries: number = 8
 ): Promise<ClassRow> {
   const sql = getDb();
+
+  // Prevent duplicate active class records within the same school
+  const existing = (await sql.query(
+    `SELECT * FROM classes
+     WHERE school_id = $1
+       AND LOWER(TRIM(name)) = LOWER(TRIM($2))
+       AND LOWER(TRIM(grade)) = LOWER(TRIM($3))
+       AND archived_at IS NULL
+     LIMIT 1;`,
+    [classData.schoolId, classData.name, classData.grade]
+  )) as ClassRow[];
+  if (existing[0]) {
+    return existing[0];
+  }
+
   for (let attempt = 0; attempt < maxRetries; attempt++) {
     const classCode = generateClassCode(6);
     try {
@@ -280,6 +311,54 @@ export async function getClassesForSchool(schoolId?: string | null): Promise<Cla
 export async function archiveClassInDb(classId: string): Promise<void> {
   const sql = getDb();
   await sql.query('UPDATE classes SET archived_at = NOW() WHERE id = $1;', [classId]);
+}
+
+export async function getSchoolById(id: string): Promise<(SchoolRow & { school_name?: string; school_code?: string; academic_year?: string }) | null> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `SELECT *, COALESCE(school_name, name) AS school_name, COALESCE(school_code, id) AS school_code, COALESCE(academic_year, '2026-2027') AS academic_year
+     FROM schools WHERE id = $1 LIMIT 1;`,
+    [id]
+  )) as Array<SchoolRow & { school_name?: string; school_code?: string; academic_year?: string }>;
+  return rows[0] || null;
+}
+
+export async function getActiveSchoolsFromDb(): Promise<Array<{ id: string; name: string; schoolCode: string; academicYear: string }>> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `SELECT id, COALESCE(school_name, name) AS name, COALESCE(school_code, id) AS school_code, COALESCE(academic_year, '2026-2027') AS academic_year
+     FROM schools
+     WHERE archived_at IS NULL AND (is_active IS NULL OR is_active = TRUE)
+     ORDER BY name ASC;`
+  )) as Array<{ id: string; name: string; school_code: string; academic_year: string }>;
+
+  return rows.map((r) => ({
+    id: r.id,
+    name: r.name,
+    schoolCode: r.school_code,
+    academicYear: r.academic_year,
+  }));
+}
+
+export async function getStudentsForSchoolRoster(
+  schoolId: string
+): Promise<Array<{ id: string; name: string; avatar: string; rollNumber: string; hasPin: boolean }>> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `SELECT id, name, avatar, COALESCE(roll_number, roll_no) AS roll_number, (pin_hash IS NOT NULL) AS has_pin
+     FROM students
+     WHERE school_id = $1 AND archived_at IS NULL
+     ORDER BY COALESCE(roll_number, roll_no) ASC, name ASC;`,
+    [schoolId]
+  )) as Array<{ id: string; name: string; avatar: string; roll_number: string; has_pin: boolean }>;
+
+  return rows.map((r) => ({
+    id: r.id,
+    name: r.name,
+    avatar: r.avatar,
+    rollNumber: r.roll_number,
+    hasPin: r.has_pin,
+  }));
 }
 
 export async function getStudentsForClassRoster(
@@ -358,7 +437,7 @@ export async function updateStudentPinInDb(studentId: string, pinHash: string): 
   );
 }
 
-// ── Student operations ────────────────────────────────────────────────────────
+// â”€â”€ Student operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function getStudentsFromDb(schoolId?: string | null): Promise<StudentRow[]> {
   const sql = getDb();
   if (schoolId) {
@@ -376,7 +455,7 @@ export async function upsertStudentInDb(student: {
   id: string;
   name: string;
   schoolId?: string;
-  classId?: string;
+  classId?: string | null;
   rollNo?: string;
   avatar?: string;
   pinHash?: string | null;
@@ -386,23 +465,28 @@ export async function upsertStudentInDb(student: {
   const sql = getDb();
   const now = new Date().toISOString();
   await sql.query(
-    `INSERT INTO students (id, name, school_id, class_id, roll_no, avatar, pin_hash, created_at, last_active_at)
+    `INSERT INTO students (id, name, student_name, school_id, class_id, roll_no, roll_number, avatar, pin_hash, is_active, created_at, last_active_at)
      VALUES (
        $1,
        $2,
+       $2,
        COALESCE($3, 'school_unassigned'),
-       COALESCE($4, 'class_legacy'),
+       $4,
+       COALESCE($5, $1),
        COALESCE($5, $1),
        COALESCE($6, 'avatar_default'),
        $7,
+       TRUE,
        COALESCE($8::timestamptz, $9::timestamptz),
        COALESCE($9::timestamptz, $8::timestamptz)
      )
      ON CONFLICT (id) DO UPDATE SET
        name = EXCLUDED.name,
+       student_name = EXCLUDED.student_name,
        school_id = COALESCE(EXCLUDED.school_id, students.school_id),
-       class_id = COALESCE(EXCLUDED.class_id, students.class_id),
+       class_id = EXCLUDED.class_id,
        roll_no = COALESCE(EXCLUDED.roll_no, students.roll_no),
+       roll_number = COALESCE(EXCLUDED.roll_number, students.roll_number),
        avatar = COALESCE(EXCLUDED.avatar, students.avatar),
        pin_hash = COALESCE(EXCLUDED.pin_hash, students.pin_hash),
        last_active_at = EXCLUDED.last_active_at;`,
@@ -431,7 +515,7 @@ export async function deleteStudentFromDb(id: string): Promise<void> {
   await sql.query('DELETE FROM students WHERE id = $1;', [id]);
 }
 
-// ── Progress operations ───────────────────────────────────────────────────────
+// â”€â”€ Progress operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function getProgressForStudentFromDb(
   studentId: string
 ): Promise<ProgressRow[]> {
@@ -442,7 +526,7 @@ export async function getProgressForStudentFromDb(
   )) as ProgressRow[];
 }
 
-// ── Attempt operations (Single CTE with Idempotent Progress Upsert) ────────────
+// â”€â”€ Attempt operations (Single CTE with Idempotent Progress Upsert) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 /**
  * Records an attempt with client-generated attempt id for idempotency.
  * Executes as ONE atomic SQL statement (a CTE):
@@ -605,13 +689,13 @@ export async function getAttemptsForStudentFromDb(
   )) as AttemptRow[];
 }
 
-// ── Admin operations ──────────────────────────────────────────────────────────
+// â”€â”€ Admin operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function getAdminByUsername(
   username: string
 ): Promise<AdminRow | null> {
   const sql = getDb();
   const rows = (await sql.query(
-    'SELECT * FROM admins WHERE username = $1 LIMIT 1;',
+    'SELECT * FROM admins WHERE username ILIKE $1 LIMIT 1;',
     [username]
   )) as AdminRow[];
   return rows[0] ?? null;
@@ -661,7 +745,7 @@ export async function upsertAdminInDb(admin: {
   );
 }
 
-// ── Phase 4: Learning Session DB Operations ───────────────────────────────────
+// â”€â”€ Phase 4: Learning Session DB Operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export interface SessionRow {
   id: string;
   school_id: string;
@@ -811,14 +895,14 @@ export async function updateSessionProgressInDb(params: {
   return row;
 }
 
-// ── Admin Dashboard & Progress Aggregations (School-Scoped SQL) ───────────────
+// â”€â”€ Admin Dashboard & Progress Aggregations (School-Scoped SQL) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
-  'picture-recognition': 'படம் பார்த்து சொல் (Picture Recognition)',
-  'word-completion': 'சொல் நிரப்புக (Word Completion)',
-  'arrange-word': 'சொல் உருவாக்குக (Arrange Word)',
-  'spelling-choice': 'சரியான எழுத்துக்கூட்டல் (Spelling Choice)',
-  'context-choice': 'வாக்கியப் பயிற்சி (Context Choice)',
-  'meaning-match': 'பொருள் அறிவோம் (Meaning Match)',
+  'picture-recognition': 'à®ªà®Ÿà®®à¯ à®ªà®¾à®°à¯à®¤à¯à®¤à¯ à®šà¯Šà®²à¯ (Picture Recognition)',
+  'word-completion': 'à®šà¯Šà®²à¯ à®¨à®¿à®°à®ªà¯à®ªà¯à®• (Word Completion)',
+  'arrange-word': 'à®šà¯Šà®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®• (Arrange Word)',
+  'spelling-choice': 'à®šà®°à®¿à®¯à®¾à®© à®Žà®´à¯à®¤à¯à®¤à¯à®•à¯à®•à¯‚à®Ÿà¯à®Ÿà®²à¯ (Spelling Choice)',
+  'context-choice': 'à®µà®¾à®•à¯à®•à®¿à®¯à®ªà¯ à®ªà®¯à®¿à®±à¯à®šà®¿ (Context Choice)',
+  'meaning-match': 'à®ªà¯Šà®°à¯à®³à¯ à®…à®±à®¿à®µà¯‹à®®à¯ (Meaning Match)',
 };
 
 export async function getAdminDashboardMetrics(schoolId?: string): Promise<AdminDashboardMetrics> {
@@ -1096,7 +1180,7 @@ export async function getAdminStudentDetail(studentId: string): Promise<StudentD
       const accuracy = attemptedCount > 0 ? Math.round((doneCount / attemptedCount) * 100) : 0;
       return {
         moduleId: mod.moduleId,
-        moduleTitle: `${mod.subject === 'tamil' ? 'தமிழ்' : 'English'} Module ${mod.moduleId}`,
+        moduleTitle: `${mod.subject === 'tamil' ? 'à®¤à®®à®¿à®´à¯' : 'English'} Module ${mod.moduleId}`,
         subject: mod.subject,
         totalAvailable: mod.total,
         completed: doneCount,
@@ -1151,3 +1235,1060 @@ export async function getAdminStudentDetail(studentId: string): Promise<StudentD
   };
 }
 
+// â”€â”€ Phase 2: Assessment Tracking & Multi-School DB Operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+export interface AssessmentSessionRow {
+  id: string;
+  student_id: string;
+  school_id: string;
+  class_id: string;
+  subject_id: 'tamil' | 'english';
+  module_id: number | null;
+  session_status: 'in_progress' | 'completed' | 'abandoned';
+  current_activity_id: string | null;
+  current_question_id: string | null;
+  current_question_index: number;
+  activity_ids: string[];
+  started_at: string;
+  last_activity_at: string;
+  completed_at: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface QuestionAttemptRow {
+  id: string;
+  session_id: string | null;
+  student_id: string;
+  school_id: string;
+  subject_id: string;
+  module_id: number | null;
+  activity_id: string;
+  question_id: string;
+  attempt_number: number;
+  answer_payload: Record<string, unknown>;
+  is_correct: boolean;
+  is_completed: boolean;
+  attempted_at: string;
+  idempotency_key: string;
+}
+
+export interface StudentModuleProgressRow {
+  student_id: string;
+  school_id: string;
+  subject_id: string;
+  module_id: number;
+  questions_attempted: number;
+  total_attempts: number;
+  retried_questions: number;
+  total_retry_attempts: number;
+  first_attempt_correct: number;
+  finally_correct: number;
+  questions_completed: number;
+  last_attempted_at: string;
+  last_completed_at: string | null;
+}
+
+export interface SchoolWithStatsRow {
+  id: string;
+  school_name: string;
+  school_code: string;
+  address: string | null;
+  academic_year: string;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+  total_students: number;
+  total_classes: number;
+}
+
+export async function getSchoolsWithStatsFromDb(): Promise<SchoolWithStatsRow[]> {
+  const sql = getDb();
+  const rows = (await sql.query(`
+    SELECT
+      s.id,
+      COALESCE(s.school_name, s.name) AS school_name,
+      COALESCE(s.school_code, s.id) AS school_code,
+      s.address,
+      COALESCE(s.academic_year, '2026-2027') AS academic_year,
+      COALESCE(s.is_active, s.archived_at IS NULL) AS is_active,
+      s.created_at,
+      COALESCE(s.updated_at, s.created_at) AS updated_at,
+      COUNT(DISTINCT st.id) FILTER (WHERE st.archived_at IS NULL)::int AS total_students,
+      COUNT(DISTINCT c.id) FILTER (WHERE c.archived_at IS NULL AND c.id != 'class_legacy')::int AS total_classes
+    FROM schools s
+    LEFT JOIN students st ON st.school_id = s.id
+    LEFT JOIN classes c ON c.school_id = s.id
+    WHERE s.archived_at IS NULL
+    GROUP BY s.id, s.school_name, s.name, s.school_code, s.address, s.academic_year, s.is_active, s.created_at, s.updated_at
+    ORDER BY s.name ASC;
+  `)) as SchoolWithStatsRow[];
+  return rows;
+}
+
+export async function createSchoolInDb(params: {
+  id?: string;
+  schoolName: string;
+  schoolCode?: string;
+  address?: string;
+  academicYear?: string;
+}): Promise<SchoolWithStatsRow> {
+  const sql = getDb();
+  const id = params.id || `sch_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+  const code = (params.schoolCode || id).toUpperCase().trim();
+  const academicYear = params.academicYear || '2026-2027';
+
+  const rows = (await sql.query(
+    `INSERT INTO schools (id, name, school_name, school_code, address, academic_year, is_active, created_at, updated_at)
+     VALUES ($1, $2, $2, $3, $4, $5, TRUE, NOW(), NOW())
+     RETURNING id, school_name, school_code, address, academic_year, is_active, created_at, updated_at;`,
+    [id, params.schoolName, code, params.address ?? null, academicYear]
+  )) as Array<{
+    id: string;
+    school_name: string;
+    school_code: string;
+    address: string | null;
+    academic_year: string;
+    is_active: boolean;
+    created_at: string;
+    updated_at: string;
+  }>;
+
+  return {
+    ...rows[0],
+    total_students: 0,
+    total_classes: 0,
+  };
+}
+
+export async function updateSchoolInDb(
+  id: string,
+  params: {
+    schoolName?: string;
+    address?: string;
+    academicYear?: string;
+    isActive?: boolean;
+  }
+): Promise<SchoolWithStatsRow | null> {
+  const sql = getDb();
+  const updates: string[] = ['updated_at = NOW()'];
+  const values: unknown[] = [id];
+
+  if (params.schoolName !== undefined) {
+    values.push(params.schoolName);
+    updates.push(`name = $${values.length}`, `school_name = $${values.length}`);
+  }
+  if (params.address !== undefined) {
+    values.push(params.address);
+    updates.push(`address = $${values.length}`);
+  }
+  if (params.academicYear !== undefined) {
+    values.push(params.academicYear);
+    updates.push(`academic_year = $${values.length}`);
+  }
+  if (params.isActive !== undefined) {
+    values.push(params.isActive);
+    updates.push(`is_active = $${values.length}`);
+    if (!params.isActive) {
+      updates.push(`archived_at = NOW()`);
+    } else {
+      updates.push(`archived_at = NULL`);
+    }
+  }
+
+  const query = `
+    UPDATE schools
+    SET ${updates.join(', ')}
+    WHERE id = $1
+    RETURNING id, COALESCE(school_name, name) as school_name, COALESCE(school_code, id) as school_code, address, COALESCE(academic_year, '2026-2027') as academic_year, is_active, created_at, updated_at;
+  `;
+  const rows = (await sql.query(query, values)) as Array<{
+    id: string;
+    school_name: string;
+    school_code: string;
+    address: string | null;
+    academic_year: string;
+    is_active: boolean;
+    created_at: string;
+    updated_at: string;
+  }>;
+
+  if (!rows[0]) return null;
+
+  const stats = (await sql.query(
+    `SELECT
+       COUNT(DISTINCT st.id) FILTER (WHERE st.archived_at IS NULL)::int AS total_students,
+       COUNT(DISTINCT c.id) FILTER (WHERE c.archived_at IS NULL)::int AS total_classes
+     FROM schools s
+     LEFT JOIN students st ON st.school_id = s.id
+     LEFT JOIN classes c ON c.school_id = s.id
+     WHERE s.id = $1
+     GROUP BY s.id;`,
+    [id]
+  )) as Array<{ total_students: number; total_classes: number }>;
+
+  return {
+    ...rows[0],
+    total_students: stats[0]?.total_students ?? 0,
+    total_classes: stats[0]?.total_classes ?? 0,
+  };
+}
+
+export async function getStudentsWithFiltersFromDb(params: {
+  schoolId?: string;
+  classId?: string;
+  section?: string;
+  search?: string;
+  limit?: number;
+  offset?: number;
+  status?: 'active' | 'archived' | 'all';
+}): Promise<{ students: Array<StudentRow & { school_name: string; class_name: string; section: string; roll_number: string; is_active?: boolean }>; total: number }> {
+  const sql = getDb();
+  const conditions: string[] = [];
+  if (params.status === 'archived') {
+    conditions.push('s.archived_at IS NOT NULL');
+  } else if (params.status === 'all') {
+    // include both
+  } else {
+    conditions.push('s.archived_at IS NULL');
+  }
+  const values: unknown[] = [];
+
+  if (params.schoolId) {
+    values.push(params.schoolId);
+    conditions.push(`s.school_id = $${values.length}`);
+  }
+  if (params.classId) {
+    values.push(params.classId);
+    conditions.push(`s.class_id = $${values.length}`);
+  }
+  if (params.section) {
+    values.push(params.section);
+    conditions.push(`COALESCE(s.section, 'A') = $${values.length}`);
+  }
+  if (params.search && params.search.trim()) {
+    values.push(`%${params.search.trim().toLowerCase()}%`);
+    conditions.push(`(LOWER(s.name) LIKE $${values.length} OR LOWER(COALESCE(s.roll_no, '')) LIKE $${values.length})`);
+  }
+
+  const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+
+  const countQuery = `SELECT COUNT(*)::int AS total FROM students s ${whereClause};`;
+  const countResult = (await sql.query(countQuery, values)) as Array<{ total: number }>;
+  const total = countResult[0]?.total ?? 0;
+
+  const limit = Math.min(Math.max(params.limit ?? 50, 1), 500);
+  const offset = Math.max(params.offset ?? 0, 0);
+
+  values.push(limit);
+  const limitIdx = values.length;
+  values.push(offset);
+  const offsetIdx = values.length;
+
+  const dataQuery = `
+    SELECT
+      s.*,
+      COALESCE(s.is_active, s.archived_at IS NULL) AS is_active,
+      COALESCE(s.section, 'A') AS section,
+      COALESCE(s.roll_number, s.roll_no) AS roll_number,
+      COALESCE(sch.school_name, sch.name) AS school_name,
+      COALESCE(c.name, 'Unassigned') AS class_name
+    FROM students s
+    LEFT JOIN schools sch ON sch.id = s.school_id
+    LEFT JOIN classes c ON c.id = s.class_id
+    ${whereClause}
+    ORDER BY s.last_active_at DESC, s.name ASC
+    LIMIT $${limitIdx} OFFSET $${offsetIdx};
+  `;
+
+  const students = (await sql.query(dataQuery, values)) as Array<
+    StudentRow & { school_name: string; class_name: string; section: string; roll_number: string }
+  >;
+
+  return { students, total };
+}
+
+export async function updateStudentInDb(
+  id: string,
+  updates: {
+    name?: string;
+    rollNumber?: string;
+    classId?: string;
+    section?: string;
+    isActive?: boolean;
+    schoolId?: string;
+  }
+): Promise<StudentRow | null> {
+  const sql = getDb();
+  const existing = await getStudentById(id);
+  if (!existing) return null;
+
+  const setClauses: string[] = ['updated_at = NOW()'];
+  const values: unknown[] = [id];
+
+  if (updates.name !== undefined && updates.name.trim()) {
+    values.push(updates.name.trim());
+    setClauses.push(`name = $${values.length}`);
+    setClauses.push(`student_name = $${values.length}`);
+  }
+  if (updates.rollNumber !== undefined) {
+    values.push(updates.rollNumber.trim());
+    setClauses.push(`roll_no = $${values.length}`);
+    setClauses.push(`roll_number = $${values.length}`);
+  }
+  if (updates.classId !== undefined) {
+    const targetClass = await getClassById(updates.classId);
+    if (targetClass) {
+      values.push(targetClass.id);
+      setClauses.push(`class_id = $${values.length}`);
+      values.push(targetClass.school_id);
+      setClauses.push(`school_id = $${values.length}`);
+    }
+  } else if (updates.schoolId !== undefined) {
+    values.push(updates.schoolId);
+    setClauses.push(`school_id = $${values.length}`);
+  }
+  if (updates.section !== undefined && updates.section.trim()) {
+    values.push(updates.section.trim().toUpperCase());
+    setClauses.push(`section = $${values.length}`);
+  }
+  if (updates.isActive !== undefined) {
+    values.push(updates.isActive);
+    setClauses.push(`is_active = $${values.length}`);
+    if (updates.isActive) {
+      setClauses.push(`archived_at = NULL`);
+    } else {
+      setClauses.push(`archived_at = NOW()`);
+    }
+  }
+
+  const query = `
+    UPDATE students
+    SET ${setClauses.join(', ')}
+    WHERE id = $1
+    RETURNING *;
+  `;
+  const rows = (await sql.query(query, values)) as StudentRow[];
+  return rows[0] || null;
+}
+
+export async function updateClassInDb(
+  id: string,
+  updates: {
+    name?: string;
+    grade?: string;
+    schoolId?: string;
+  }
+): Promise<ClassRow | null> {
+  const sql = getDb();
+  const existing = await getClassById(id);
+  if (!existing) return null;
+
+  const setClauses: string[] = [];
+  const values: unknown[] = [id];
+
+  if (updates.name !== undefined && updates.name.trim()) {
+    values.push(updates.name.trim());
+    setClauses.push(`name = $${values.length}`);
+  }
+  if (updates.grade !== undefined && updates.grade.trim()) {
+    values.push(updates.grade.trim());
+    setClauses.push(`grade = $${values.length}`);
+  }
+  if (updates.schoolId !== undefined && updates.schoolId.trim()) {
+    values.push(updates.schoolId.trim());
+    setClauses.push(`school_id = $${values.length}`);
+  }
+
+  if (setClauses.length === 0) return existing;
+
+  const query = `
+    UPDATE classes
+    SET ${setClauses.join(', ')}
+    WHERE id = $1
+    RETURNING *;
+  `;
+  const rows = (await sql.query(query, values)) as ClassRow[];
+  return rows[0] || null;
+}
+
+export async function bulkImportStudentsInDb(params: {
+  classId?: string;
+  schoolId?: string;
+  students: Array<{
+    name: string;
+    section?: string;
+    rollNumber?: string;
+    rollNo?: string;
+    avatar?: string;
+    classId?: string;
+    schoolId?: string;
+    schoolCode?: string;
+    pin?: string[];
+  }>;
+}): Promise<Array<{ id: string; name: string; rollNumber: string; section: string; classId?: string; schoolId: string }>> {
+  const sql = getDb();
+  let defaultClass: ClassRow | null = null;
+  if (params.classId) {
+    defaultClass = await getClassById(params.classId);
+  }
+
+  const created: Array<{ id: string; name: string; rollNumber: string; section: string; classId?: string; schoolId: string }> = [];
+
+  for (const s of params.students) {
+    let schoolId = s.schoolId || params.schoolId || defaultClass?.school_id;
+    if (!schoolId && s.schoolCode) {
+      const schRows = (await sql.query(
+        `SELECT id FROM schools WHERE school_code = $1 OR id = $1 LIMIT 1;`,
+        [s.schoolCode.trim().toUpperCase()]
+      )) as Array<{ id: string }>;
+      if (schRows[0]) schoolId = schRows[0].id;
+    }
+
+    if (!schoolId) {
+      const activeSchools = await getActiveSchoolsFromDb();
+      if (activeSchools.length === 1) {
+        schoolId = activeSchools[0].id;
+      } else {
+        throw new Error(`School not found or specified for student: ${s.name}`);
+      }
+    }
+
+    const rawRoll = s.rollNumber || s.rollNo;
+    const rollNo = rawRoll && rawRoll.trim() ? rawRoll.trim() : `R${Date.now().toString().slice(-4)}${Math.floor(Math.random() * 90 + 10)}`;
+    const section = s.section && s.section.trim() ? s.section.trim().toUpperCase() : 'A';
+    const avatar = s.avatar || 'avatar_default';
+    const targetClassId = s.classId || params.classId || defaultClass?.id || null;
+
+    // Check duplicate roll number in this school
+    const existing = (await sql.query(
+      `SELECT id FROM students
+       WHERE school_id = $1
+         AND (roll_no = $2 OR roll_number = $2)
+         AND archived_at IS NULL
+       LIMIT 1;`,
+      [schoolId, rollNo]
+    )) as Array<{ id: string }>;
+
+    if (existing.length > 0) {
+      throw new Error(`duplicate roll numbers detected: "${rollNo}" already exists in school ${schoolId}`);
+    }
+
+    const id = `stud_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+
+    await sql.query(
+      `INSERT INTO students (id, name, student_name, school_id, class_id, roll_no, roll_number, section, avatar, is_active, created_at, last_active_at)
+       VALUES ($1, $2, $2, $3, $4, $5, $5, $6, $7, TRUE, NOW(), NOW())
+       ON CONFLICT (id) DO UPDATE SET
+         name = EXCLUDED.name,
+         student_name = EXCLUDED.student_name,
+         roll_no = EXCLUDED.roll_no,
+         roll_number = EXCLUDED.roll_number,
+         section = EXCLUDED.section;`,
+      [id, s.name.trim(), schoolId, targetClassId, rollNo, section, avatar]
+    );
+
+    created.push({ id, name: s.name.trim(), rollNumber: rollNo, section, classId: targetClassId || '', schoolId });
+  }
+
+  return created;
+}
+
+// â”€â”€ Assessment Sessions Operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+function formatAssessmentSessionRow(r: AssessmentSessionRow): AssessmentSessionRow {
+  const row = { ...r };
+  if (typeof row.activity_ids === 'string') {
+    try {
+      row.activity_ids = JSON.parse(row.activity_ids);
+    } catch {
+      row.activity_ids = [];
+    }
+  }
+  return row;
+}
+
+export async function createOrGetAssessmentSessionInDb(params: {
+  id?: string;
+  studentId: string;
+  subjectId: 'tamil' | 'english';
+  moduleId?: number | null;
+  activityIds: string[];
+  currentActivityId?: string;
+  currentQuestionId?: string;
+  currentIndex?: number;
+}): Promise<AssessmentSessionRow> {
+  const sql = getDb();
+  const student = await getStudentById(params.studentId);
+  if (!student) {
+    throw new Error('Student not found or archived');
+  }
+
+  const schoolId = student.school_id;
+  const classId = student.class_id;
+
+  if (params.id) {
+    const existing = await getAssessmentSessionByIdFromDb(params.id);
+    if (existing) {
+      return existing;
+    }
+  }
+
+  const id = params.id || `asess_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+  const activityIdsJson = JSON.stringify(params.activityIds);
+  const currentIndex = params.currentIndex ?? 0;
+  const currentActivityId = params.currentActivityId || params.activityIds[currentIndex] || null;
+
+  // Insert session
+  const rows = (await sql.query(
+    `INSERT INTO assessment_sessions (
+       id, student_id, school_id, class_id, subject_id, module_id,
+       session_status, current_activity_id, current_question_id, current_question_index,
+       activity_ids, started_at, last_activity_at, created_at, updated_at
+     ) VALUES (
+       $1, $2, $3, $4, $5, $6,
+       'in_progress', $7, $8, $9,
+       $10::jsonb, NOW(), NOW(), NOW(), NOW()
+     )
+     RETURNING *;`,
+    [
+      id,
+      student.id,
+      schoolId,
+      classId,
+      params.subjectId,
+      params.moduleId ?? null,
+      currentActivityId,
+      params.currentQuestionId ?? null,
+      currentIndex,
+      activityIdsJson,
+    ]
+  )) as AssessmentSessionRow[];
+
+  return formatAssessmentSessionRow(rows[0]);
+}
+
+export async function getAssessmentSessionByIdFromDb(sessionId: string): Promise<AssessmentSessionRow | null> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    'SELECT * FROM assessment_sessions WHERE id = $1 LIMIT 1;',
+    [sessionId]
+  )) as AssessmentSessionRow[];
+
+  if (!rows[0]) return null;
+  return formatAssessmentSessionRow(rows[0]);
+}
+
+export async function getActiveAssessmentSessionForStudentFromDb(
+  studentId: string,
+  subjectId?: string,
+  moduleId?: number | null
+): Promise<AssessmentSessionRow | null> {
+  const sql = getDb();
+  let query = "SELECT * FROM assessment_sessions WHERE student_id = $1 AND session_status = 'in_progress'";
+  const values: unknown[] = [studentId];
+
+  if (subjectId) {
+    values.push(subjectId.toLowerCase());
+    query += ` AND subject_id = $${values.length}`;
+  }
+  if (moduleId !== undefined && moduleId !== null) {
+    values.push(moduleId);
+    query += ` AND module_id = $${values.length}`;
+  }
+
+  query += ' ORDER BY last_activity_at DESC LIMIT 1;';
+  const rows = (await sql.query(query, values)) as AssessmentSessionRow[];
+  if (!rows[0]) return null;
+  return formatAssessmentSessionRow(rows[0]);
+}
+
+export async function updateAssessmentSessionInDb(params: {
+  sessionId: string;
+  studentId: string;
+  currentActivityId?: string;
+  currentQuestionId?: string;
+  currentIndex?: number;
+  sessionStatus?: 'in_progress' | 'completed' | 'abandoned';
+}): Promise<AssessmentSessionRow | null> {
+  const sql = getDb();
+  const updates: string[] = ['last_activity_at = NOW()', 'updated_at = NOW()'];
+  const values: unknown[] = [params.sessionId, params.studentId];
+
+  if (params.currentActivityId !== undefined) {
+    values.push(params.currentActivityId);
+    updates.push(`current_activity_id = $${values.length}`);
+  }
+  if (params.currentQuestionId !== undefined) {
+    values.push(params.currentQuestionId);
+    updates.push(`current_question_id = $${values.length}`);
+  }
+  if (params.currentIndex !== undefined) {
+    values.push(params.currentIndex);
+    updates.push(`current_question_index = GREATEST(assessment_sessions.current_question_index, $${values.length})`);
+  }
+  if (params.sessionStatus !== undefined) {
+    values.push(params.sessionStatus);
+    updates.push(`session_status = $${values.length}`);
+    if (params.sessionStatus === 'completed') {
+      updates.push('completed_at = COALESCE(completed_at, NOW())');
+    }
+  }
+
+  const query = `
+    UPDATE assessment_sessions
+    SET ${updates.join(', ')}
+    WHERE id = $1 AND student_id = $2
+    RETURNING *;
+  `;
+  const rows = (await sql.query(query, values)) as AssessmentSessionRow[];
+  if (!rows[0]) return null;
+  return formatAssessmentSessionRow(rows[0]);
+}
+
+// â”€â”€ Question Attempts Operations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+export async function recordQuestionAttemptInDb(params: {
+  id?: string;
+  sessionId?: string;
+  studentId: string;
+  subjectId: 'tamil' | 'english';
+  moduleId?: number | null;
+  activityId: string;
+  questionId: string;
+  answerPayload?: Record<string, unknown>;
+  isCorrect: boolean;
+  isCompleted: boolean;
+  attemptedAt?: string;
+  idempotencyKey: string;
+}): Promise<{ status: 'recorded' | 'duplicate'; attempt: QuestionAttemptRow }> {
+  const sql = getDb();
+
+  // 1. Idempotency Check
+  const existing = (await sql.query(
+    'SELECT * FROM question_attempts WHERE idempotency_key = $1 LIMIT 1;',
+    [params.idempotencyKey]
+  )) as QuestionAttemptRow[];
+
+  if (existing[0]) {
+    return { status: 'duplicate', attempt: existing[0] };
+  }
+
+  // 2. Student Verification
+  const student = await getStudentById(params.studentId);
+  if (!student) {
+    throw new Error('Student not found or archived');
+  }
+  const schoolId = student.school_id;
+
+  // 3. Session lookup / validation
+  let sessionId = params.sessionId ?? null;
+  if (sessionId) {
+    const sess = await getAssessmentSessionByIdFromDb(sessionId);
+    if (!sess || sess.student_id !== student.id) {
+      sessionId = null;
+    }
+  }
+
+  // 4. Calculate monotonic attempt_number for (session_id, question_id)
+  let attemptNumber = 1;
+  if (sessionId) {
+    const numRows = (await sql.query(
+      `SELECT COALESCE(MAX(attempt_number), 0) + 1 AS next_num
+       FROM question_attempts
+       WHERE session_id = $1 AND question_id = $2;`,
+      [sessionId, params.questionId]
+    )) as Array<{ next_num: number }>;
+    attemptNumber = Number(numRows[0]?.next_num) || 1;
+  } else {
+    const numRows = (await sql.query(
+      `SELECT COALESCE(MAX(attempt_number), 0) + 1 AS next_num
+       FROM question_attempts
+       WHERE student_id = $1 AND question_id = $2;`,
+      [student.id, params.questionId]
+    )) as Array<{ next_num: number }>;
+    attemptNumber = Number(numRows[0]?.next_num) || 1;
+  }
+
+  const id = params.id || `qatt_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+  const attemptedAt = params.attemptedAt || new Date().toISOString();
+  const answerPayloadJson = JSON.stringify(params.answerPayload ?? {});
+
+  // 5. Insert question_attempts row
+  const rows = (await sql.query(
+    `INSERT INTO question_attempts (
+       id, session_id, student_id, school_id, subject_id, module_id,
+       activity_id, question_id, attempt_number, answer_payload,
+       is_correct, is_completed, attempted_at, idempotency_key
+     ) VALUES (
+       $1, $2, $3, $4, $5, $6,
+       $7, $8, $9, $10::jsonb,
+       $11, $12, $13::timestamptz, $14
+     )
+     ON CONFLICT (idempotency_key) DO UPDATE SET idempotency_key = EXCLUDED.idempotency_key
+     RETURNING *;`,
+    [
+      id,
+      sessionId,
+      student.id,
+      schoolId,
+      params.subjectId,
+      params.moduleId ?? null,
+      params.activityId,
+      params.questionId,
+      attemptNumber,
+      answerPayloadJson,
+      params.isCorrect,
+      params.isCompleted,
+      attemptedAt,
+      params.idempotencyKey,
+    ]
+  )) as QuestionAttemptRow[];
+
+  // 6. Update assessment_sessions position if sessionId is provided
+  if (sessionId) {
+    await sql.query(
+      `UPDATE assessment_sessions
+       SET current_activity_id = $1,
+           current_question_id = $2,
+           last_activity_at = NOW(),
+           updated_at = NOW()
+       WHERE id = $3;`,
+      [params.activityId, params.questionId, sessionId]
+    );
+  }
+
+  // 7. Synchronize legacy attempt and progress for existing tests & backward compatibility
+  try {
+    await recordAttemptInDb({
+      id: `legacy_${id}`,
+      studentId: student.id,
+      activityId: params.activityId,
+      category: undefined,
+      attemptNumber,
+      result: params.isCorrect ? 'correct' : 'incorrect',
+      completed: params.isCompleted,
+      timestamp: attemptedAt,
+    });
+  } catch {
+    // Non-fatal legacy sync
+  }
+
+  return { status: 'recorded', attempt: rows[0] };
+}
+
+export async function getQuestionAttemptsForSessionFromDb(sessionId: string): Promise<QuestionAttemptRow[]> {
+  const sql = getDb();
+  return (await sql.query(
+    'SELECT * FROM question_attempts WHERE session_id = $1 ORDER BY attempted_at ASC, attempt_number ASC;',
+    [sessionId]
+  )) as QuestionAttemptRow[];
+}
+
+export async function getQuestionAttemptsForStudentFromDb(studentId: string): Promise<QuestionAttemptRow[]> {
+  const sql = getDb();
+  return (await sql.query(
+    'SELECT * FROM question_attempts WHERE student_id = $1 ORDER BY attempted_at DESC;',
+    [studentId]
+  )) as QuestionAttemptRow[];
+}
+
+// â”€â”€ Admin Institutional Reports â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+export async function getOverallAdminMetrics(): Promise<{
+  totalSchools: number;
+  totalStudents: number;
+  studentsAssessed: number;
+  assessmentSessions: number;
+  modulesAttempted: number;
+  totalQuestionsAttempted: number;
+  totalRetries: number;
+  completedAssessments: number;
+}> {
+  const sql = getDb();
+  const rows = (await sql.query(`
+    SELECT
+      (SELECT COUNT(*)::int FROM schools WHERE archived_at IS NULL) AS total_schools,
+      (SELECT COUNT(*)::int FROM students WHERE archived_at IS NULL) AS total_students,
+      (SELECT COUNT(DISTINCT student_id)::int FROM question_attempts) AS students_assessed,
+      (SELECT COUNT(*)::int FROM assessment_sessions) AS assessment_sessions,
+      (SELECT COUNT(*)::int FROM assessment_sessions WHERE session_status = 'completed') AS completed_assessments,
+      (SELECT COUNT(DISTINCT (subject_id || '-' || COALESCE(module_id::text, '0')))::int FROM question_attempts) AS modules_attempted,
+      (SELECT COUNT(DISTINCT question_id)::int FROM question_attempts) AS total_questions_attempted,
+      COALESCE((SELECT SUM(total_retry_attempts)::int FROM student_module_progress), 0) AS total_retries;
+  `)) as Array<{
+    total_schools: number;
+    total_students: number;
+    students_assessed: number;
+    assessment_sessions: number;
+    completed_assessments: number;
+    modules_attempted: number;
+    total_questions_attempted: number;
+    total_retries: number;
+  }>;
+
+  const r = rows[0] || {
+    total_schools: 0,
+    total_students: 0,
+    students_assessed: 0,
+    assessment_sessions: 0,
+    completed_assessments: 0,
+    modules_attempted: 0,
+    total_questions_attempted: 0,
+    total_retries: 0,
+  };
+
+  return {
+    totalSchools: Number(r.total_schools) || 0,
+    totalStudents: Number(r.total_students) || 0,
+    studentsAssessed: Number(r.students_assessed) || 0,
+    assessmentSessions: Number(r.assessment_sessions) || 0,
+    modulesAttempted: Number(r.modules_attempted) || 0,
+    totalQuestionsAttempted: Number(r.total_questions_attempted) || 0,
+    totalRetries: Number(r.total_retries) || 0,
+    completedAssessments: Number(r.completed_assessments) || 0,
+  };
+}
+
+export async function getSchoolReportFromDb(schoolId: string): Promise<{
+  school: SchoolRow & { school_name: string; school_code: string; academic_year: string };
+  totalStudents: number;
+  studentsAssessed: number;
+  classes: Array<{ classId: string; className: string; grade: string; registeredStudents: number; assessedStudents: number }>;
+  modules: Array<{ subject: string; moduleId: number; questionsAttempted: number; totalAttempts: number; retriedQuestions: number; completedCount: number }>;
+  totalAttempts: number;
+  retriedQuestions: number;
+  completedAssessments: number;
+  tamilProgress: { questionsAttempted: number; completedCount: number };
+  englishProgress: { questionsAttempted: number; completedCount: number };
+} | null> {
+  const sql = getDb();
+  const schoolRows = (await sql.query(
+    `SELECT *, COALESCE(school_name, name) as school_name, COALESCE(school_code, id) as school_code, COALESCE(academic_year, '2026-2027') as academic_year
+     FROM schools WHERE id = $1 AND archived_at IS NULL LIMIT 1;`,
+    [schoolId]
+  )) as Array<SchoolRow & { school_name: string; school_code: string; academic_year: string }>;
+
+  if (!schoolRows[0]) return null;
+  const school = schoolRows[0];
+
+  const totalStudents = Number(
+    ((await sql.query('SELECT COUNT(*)::int as count FROM students WHERE school_id = $1 AND archived_at IS NULL;', [schoolId])) as [{ count: number }])[0]?.count || 0
+  );
+
+  const studentsAssessed = Number(
+    ((await sql.query('SELECT COUNT(DISTINCT student_id)::int as count FROM question_attempts WHERE school_id = $1;', [schoolId])) as [{ count: number }])[0]?.count || 0
+  );
+
+  const completedAssessments = Number(
+    ((await sql.query("SELECT COUNT(*)::int as count FROM assessment_sessions WHERE school_id = $1 AND session_status = 'completed';", [schoolId])) as [{ count: number }])[0]?.count || 0
+  );
+
+  const classRows = (await sql.query(
+    `SELECT
+       c.id AS class_id,
+       c.name AS class_name,
+       c.grade,
+       COUNT(DISTINCT s.id) FILTER (WHERE s.archived_at IS NULL)::int AS registered_students,
+       COUNT(DISTINCT qa.student_id)::int AS assessed_students
+     FROM classes c
+     LEFT JOIN students s ON s.class_id = c.id
+     LEFT JOIN question_attempts qa ON qa.student_id = s.id
+     WHERE c.school_id = $1 AND c.archived_at IS NULL AND c.id != 'class_legacy'
+     GROUP BY c.id, c.name, c.grade
+     ORDER BY c.grade ASC, c.name ASC;`,
+    [schoolId]
+  )) as Array<{ class_id: string; class_name: string; grade: string; registered_students: number; assessed_students: number }>;
+
+  const moduleRows = (await sql.query(
+    `SELECT
+       smp.subject_id AS subject,
+       smp.module_id,
+       SUM(smp.questions_attempted)::int AS questions_attempted,
+       SUM(smp.total_attempts)::int AS total_attempts,
+       SUM(smp.retried_questions)::int AS retried_questions,
+       SUM(smp.questions_completed)::int AS completed_count
+     FROM student_module_progress smp
+     WHERE smp.school_id = $1
+     GROUP BY smp.subject_id, smp.module_id
+     ORDER BY smp.subject_id ASC, smp.module_id ASC;`,
+    [schoolId]
+  )) as Array<{ subject: string; moduleId: number; questions_attempted: number; total_attempts: number; retried_questions: number; completed_count: number }>;
+
+  const totals = (await sql.query(
+    `SELECT
+       COALESCE(SUM(total_attempts), 0)::int AS total_attempts,
+       COALESCE(SUM(retried_questions), 0)::int AS retried_questions
+     FROM student_module_progress
+     WHERE school_id = $1;`,
+    [schoolId]
+  )) as Array<{ total_attempts: number; retried_questions: number }>;
+
+  return {
+    school,
+    totalStudents,
+    studentsAssessed,
+    classes: classRows.map((c) => ({
+      classId: c.class_id,
+      className: c.class_name,
+      grade: c.grade,
+      registeredStudents: Number(c.registered_students) || 0,
+      assessedStudents: Number(c.assessed_students) || 0,
+    })),
+    modules: moduleRows.map((m) => ({
+      subject: m.subject,
+      moduleId: m.moduleId,
+      questionsAttempted: Number(m.questions_attempted) || 0,
+      totalAttempts: Number(m.total_attempts) || 0,
+      retriedQuestions: Number(m.retried_questions) || 0,
+      completedCount: Number(m.completed_count) || 0,
+    })),
+    totalAttempts: Number(totals[0]?.total_attempts) || 0,
+    retriedQuestions: Number(totals[0]?.retried_questions) || 0,
+    completedAssessments,
+    tamilProgress: {
+      questionsAttempted: moduleRows.filter((m) => m.subject === 'tamil').reduce((acc, m) => acc + (Number(m.questions_attempted) || 0), 0),
+      completedCount: moduleRows.filter((m) => m.subject === 'tamil').reduce((acc, m) => acc + (Number(m.completed_count) || 0), 0),
+    },
+    englishProgress: {
+      questionsAttempted: moduleRows.filter((m) => m.subject === 'english').reduce((acc, m) => acc + (Number(m.questions_attempted) || 0), 0),
+      completedCount: moduleRows.filter((m) => m.subject === 'english').reduce((acc, m) => acc + (Number(m.completed_count) || 0), 0),
+    },
+  };
+}
+
+export async function getStudentModuleProgressFromDb(studentId: string): Promise<StudentModuleProgressRow[]> {
+  const sql = getDb();
+  return (await sql.query(
+    'SELECT * FROM student_module_progress WHERE student_id = $1 ORDER BY subject_id ASC, module_id ASC;',
+    [studentId]
+  )) as StudentModuleProgressRow[];
+}
+
+export async function getStudentSessionsReportFromDb(studentId: string): Promise<Array<{
+  sessionId: string;
+  subjectId: string;
+  moduleId: number | null;
+  status: string;
+  startedAt: string;
+  completedAt: string | null;
+  lastActivityAt: string;
+  totalQuestions: number;
+  totalAttempts: number;
+  retriedQuestions: number;
+  durationMinutes: number | null;
+}>> {
+  const sql = getDb();
+  const rows = (await sql.query(
+    `SELECT
+       s.id AS session_id,
+       s.subject_id,
+       s.module_id,
+       s.session_status AS status,
+       s.started_at,
+       s.completed_at,
+       s.last_activity_at,
+       COUNT(DISTINCT qa.question_id)::int AS total_questions,
+       COUNT(qa.id)::int AS total_attempts,
+       COUNT(DISTINCT qa.question_id) FILTER (WHERE (
+         SELECT COUNT(*) FROM question_attempts qa2 WHERE qa2.session_id = s.id AND qa2.question_id = qa.question_id
+       ) > 1)::int AS retried_questions,
+       ROUND(EXTRACT(EPOCH FROM (COALESCE(s.completed_at, s.last_activity_at) - s.started_at)) / 60)::int AS duration_minutes
+     FROM assessment_sessions s
+     LEFT JOIN question_attempts qa ON qa.session_id = s.id
+     WHERE s.student_id = $1
+     GROUP BY s.id, s.subject_id, s.module_id, s.session_status, s.started_at, s.completed_at, s.last_activity_at
+     ORDER BY s.started_at DESC;`,
+    [studentId]
+  )) as Array<{
+    session_id: string;
+    subject_id: string;
+    module_id: number | null;
+    status: string;
+    started_at: string;
+    completed_at: string | null;
+    last_activity_at: string;
+    total_questions: number;
+    total_attempts: number;
+    retried_questions: number;
+    duration_minutes: number | null;
+  }>;
+
+  return rows.map((r) => ({
+    sessionId: r.session_id,
+    subjectId: r.subject_id,
+    moduleId: r.module_id,
+    status: r.status,
+    startedAt: r.started_at,
+    completedAt: r.completed_at,
+    lastActivityAt: r.last_activity_at,
+    totalQuestions: Number(r.total_questions) || 0,
+    totalAttempts: Number(r.total_attempts) || 0,
+    retriedQuestions: Number(r.retried_questions) || 0,
+    durationMinutes: r.duration_minutes !== null ? Number(r.duration_minutes) : null,
+  }));
+}
+
+export async function getSessionDetailReportFromDb(sessionId: string): Promise<{
+  session: AssessmentSessionRow;
+  student: StudentRow;
+  school: SchoolRow;
+  questions: Array<{
+    questionId: string;
+    activityId: string;
+    attempts: number;
+    firstAttemptResult: 'correct' | 'incorrect';
+    finalResult: 'correct' | 'incorrect';
+    isCompleted: boolean;
+    lastAttemptedAt: string;
+  }>;
+} | null> {
+  const sql = getDb();
+  const session = await getAssessmentSessionByIdFromDb(sessionId);
+  if (!session) return null;
+
+  const student = await getStudentById(session.student_id);
+  if (!student) return null;
+
+  const schoolRows = (await sql.query('SELECT * FROM schools WHERE id = $1 LIMIT 1;', [session.school_id])) as SchoolRow[];
+  const school = schoolRows[0];
+
+  const questionStats = (await sql.query(
+    `SELECT
+       question_id,
+       activity_id,
+       COUNT(*)::int AS attempts,
+       (ARRAY_AGG(is_correct ORDER BY attempt_number ASC))[1] AS first_is_correct,
+       (ARRAY_AGG(is_correct ORDER BY attempt_number DESC))[1] AS final_is_correct,
+       BOOL_OR(is_completed) AS is_completed,
+       MAX(attempted_at) AS last_attempted_at
+     FROM question_attempts
+     WHERE session_id = $1
+     GROUP BY question_id, activity_id
+     ORDER BY MIN(attempted_at) ASC;`,
+    [sessionId]
+  )) as Array<{
+    question_id: string;
+    activity_id: string;
+    attempts: number;
+    first_is_correct: boolean;
+    final_is_correct: boolean;
+    is_completed: boolean;
+    last_attempted_at: string;
+  }>;
+
+  return {
+    session,
+    student,
+    school,
+    questions: questionStats.map((q) => ({
+      questionId: q.question_id,
+      activityId: q.activity_id,
+      attempts: Number(q.attempts) || 0,
+      firstAttemptResult: q.first_is_correct ? 'correct' : 'incorrect',
+      finalResult: q.final_is_correct ? 'correct' : 'incorrect',
+      isCompleted: q.is_completed,
+      lastAttemptedAt: q.last_attempted_at,
+    })),
+  };
+}

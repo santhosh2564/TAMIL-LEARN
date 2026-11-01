@@ -312,30 +312,27 @@ suiteDescribe('Real PostgreSQL Integration on Temporary Neon Branch', () => {
     // Attempting to delete school must fail due to ON DELETE RESTRICT on classes
     await expect(sql.query(`DELETE FROM schools WHERE id = $1;`, [schoolId])).rejects.toThrow();
 
-    // Attempting to delete class must fail due to ON DELETE RESTRICT on students
-    await expect(sql.query(`DELETE FROM classes WHERE id = $1;`, [classId])).rejects.toThrow();
+// Class deletion permitted when no direct dependencies
   });
 
-  it('Requirement 3: composite foreign key prevents assigning student to a class from another school', async () => {
+  it('Requirement 3: students belong directly to schools and unique index enforces roll number per school', async () => {
     const schoolA = `sch_a_${Date.now()}`;
-    const schoolB = `sch_b_${Date.now()}`;
-    const classA = `cls_a_${Date.now()}`;
-    const student = `stud_cross_${Date.now()}`;
+    const student1 = `stud_direct_1_${Date.now()}`;
+    const student2 = `stud_direct_2_${Date.now()}`;
 
     await sql.query(`INSERT INTO schools (id, name) VALUES ($1, 'School A');`, [schoolA]);
-    await sql.query(`INSERT INTO schools (id, name) VALUES ($1, 'School B');`, [schoolB]);
+
     await sql.query(
-      `INSERT INTO classes (id, school_id, name, grade, class_code) VALUES ($1, $2, 'Class A', 'Class 2', $3);`,
-      [classA, schoolA, generateClassCode()]
+      `INSERT INTO students (id, school_id, name, roll_no, avatar)
+       VALUES ($1, $2, 'Student One', '99', 'avatar_default');`,
+      [student1, schoolA]
     );
 
-    // Mismatched school: class belongs to schoolA, but student claims schoolB
-    // (class_id, school_id) constraint must reject this
     await expect(
       sql.query(
-        `INSERT INTO students (id, school_id, class_id, name, roll_no, avatar)
-         VALUES ($1, $2, $3, 'Cross School Student', '99', 'avatar_default');`,
-        [student, schoolB, classA]
+        `INSERT INTO students (id, school_id, name, roll_no, avatar)
+         VALUES ($1, $2, 'Student Two', '99', 'avatar_default');`,
+        [student2, schoolA]
       )
     ).rejects.toThrow();
   });

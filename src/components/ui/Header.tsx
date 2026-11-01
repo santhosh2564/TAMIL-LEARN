@@ -24,7 +24,7 @@ export function Header() {
               <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6" />
             </Button>
           )}
-          <button 
+          <button
             onClick={() => navigate('/')}
             className="flex items-center gap-1.5 sm:gap-2 hover:opacity-80 transition-opacity outline-none focus-visible:ring-4 ring-primary-500 rounded-lg p-0.5 sm:p-1"
           >

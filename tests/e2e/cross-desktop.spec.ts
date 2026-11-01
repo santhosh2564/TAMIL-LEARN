@@ -3,9 +3,6 @@ import { neon, NeonQueryFunction } from '@neondatabase/serverless';
 import bcrypt from 'bcryptjs';
 import fs from 'fs';
 import path from 'path';
-import dotenv from 'dotenv';
-
-dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
 /**
  * T10. Cross-desktop session resume and offline outbox, against the TEST database only.

@@ -94,13 +94,17 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const selectStudent = useCallback(
-    async (classId: string, studentId: string) => {
+    async (schoolOrClassId: string, studentId: string, pin?: string[]) => {
       try {
         const res = await fetch('/api/student/select', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'same-origin',
-          body: JSON.stringify({ classId, studentId }),
+          body: JSON.stringify({
+            schoolId: schoolOrClassId,
+            studentId,
+            pin,
+          }),
         });
         if (!res.ok) {
           const err = await res.json().catch(() => ({}));

@@ -5,10 +5,10 @@
 import { z } from 'zod';
 import { IncomingMessage, ServerResponse } from 'http';
 
-// ── Re-export zod so callers don't need to import it separately ──────────────
+// â”€â”€ Re-export zod so callers don't need to import it separately â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export { z };
 
-// ── Generic body parser ──────────────────────────────────────────────────────
+// â”€â”€ Generic body parser â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 /**
  * Reads the request body and validates it against `schema`.
  * Returns `{ ok: true, data }` or sends a 400 and returns `{ ok: false }`.
@@ -59,14 +59,14 @@ function readStream(req: IncomingMessage): Promise<unknown> {
   });
 }
 
-// ── Shared helper (duplicated here to avoid circular imports) ─────────────────
+// â”€â”€ Shared helper (duplicated here to avoid circular imports) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export function sendJson(res: ServerResponse, statusCode: number, data: unknown): void {
   res.statusCode = statusCode;
   res.setHeader('Content-Type', 'application/json');
   res.end(JSON.stringify(data));
 }
 
-// ── Request body schemas ─────────────────────────────────────────────────────
+// â”€â”€ Request body schemas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 export const AdminLoginSchema = z.object({
   username: z.string().min(1, 'Username is required').max(100),
@@ -85,15 +85,19 @@ export const AttemptRecordSchema = z.object({
 });
 export type AttemptRecordInput = z.infer<typeof AttemptRecordSchema>;
 
-// ── Phase 3 Schemas ───────────────────────────────────────────────────────────
+// â”€â”€ Phase 3 Schemas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export const StudentSelectSchema = z.object({
-  classId: z.string().min(1, 'Class ID is required'),
+  schoolId: z.string().optional(),
+  classId: z.string().optional(),
   studentId: z.string().min(1, 'Student ID is required'),
+  pin: z.array(z.string()).optional(),
 });
 export type StudentSelectInput = z.infer<typeof StudentSelectSchema>;
 
 export const StudentLoginSchema = z.object({
-  classCode: z.string().min(1, 'Class code is required'),
+  schoolId: z.string().optional(),
+  schoolCode: z.string().optional(),
+  classCode: z.string().optional(),
   studentId: z.string().min(1, 'Student ID is required'),
   pin: z.array(z.string()).length(3, 'PIN must be exactly 3 pictures'),
 });
@@ -107,20 +111,33 @@ export const CreateClassSchema = z.object({
 export type CreateClassInput = z.infer<typeof CreateClassSchema>;
 
 export const CreateStudentSchema = z.object({
-  classId: z.string().min(1, 'Class ID is required'),
+  schoolId: z.string().optional(),
+  classId: z.string().optional(),
   name: z.string().min(1, 'Name is required').max(100),
   rollNo: z.string().max(50).optional(),
+  rollNumber: z.string().max(50).optional(),
+  section: z.string().max(20).default('A').optional(),
   avatar: z.string().min(1).default('avatar_default').optional(),
   pin: z.array(z.string()).optional(),
 });
 export type CreateStudentInput = z.infer<typeof CreateStudentSchema>;
+
+export const UpdateStudentSchema = z.object({
+  name: z.string().min(1, 'Name cannot be empty').max(100).optional(),
+  rollNumber: z.string().max(50).optional(),
+  schoolId: z.string().optional(),
+  classId: z.string().optional(),
+  section: z.string().max(20).optional(),
+  isActive: z.boolean().optional(),
+});
+export type UpdateStudentInput = z.infer<typeof UpdateStudentSchema>;
 
 export const ResetPinSchema = z.object({
   pin: z.array(z.string()).length(3, 'PIN must be exactly 3 pictures'),
 });
 export type ResetPinInput = z.infer<typeof ResetPinSchema>;
 
-// ── Phase 4 Schemas: Learning Sessions ────────────────────────────────────────
+// â”€â”€ Phase 4 Schemas: Learning Sessions â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export const CreateSessionSchema = z.object({
   id: z.string().min(1).max(64).optional(),
   subject: z.enum(['tamil', 'english']),
@@ -136,4 +153,86 @@ export const UpdateSessionSchema = z.object({
 });
 export type UpdateSessionInput = z.infer<typeof UpdateSessionSchema>;
 
+// â”€â”€ Academic Year Dynamic Helper â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+export function getCurrentAcademicYear(date: Date = new Date()): string {
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1; // 1-12
+  // Standard Indian academic year begins around June (month >= 6)
+  if (month >= 6) {
+    return `${year}-${year + 1}`;
+  }
+  return `${year - 1}-${year}`;
+}
 
+// â”€â”€ Assessment & Multi-School Schemas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+export const CreateSchoolSchema = z.object({
+  schoolName: z.string().min(1, 'School name is required').max(200),
+  schoolCode: z.string().min(1, 'School code is required').max(50).optional(),
+  address: z.string().max(500).optional(),
+  academicYear: z.string().min(4).max(20).optional(),
+});
+export type CreateSchoolInput = z.infer<typeof CreateSchoolSchema>;
+
+export const UpdateSchoolSchema = z.object({
+  schoolName: z.string().min(1).max(200).optional(),
+  address: z.string().max(500).optional(),
+  academicYear: z.string().min(4).max(20).optional(),
+  isActive: z.boolean().optional(),
+});
+export type UpdateSchoolInput = z.infer<typeof UpdateSchoolSchema>;
+
+export const CreateAssessmentSessionSchema = z.object({
+  id: z.string().min(1).max(64).optional(),
+  studentId: z.string().min(1, 'Student ID is required'),
+  subjectId: z.enum(['tamil', 'english']),
+  moduleId: z.number().int().optional().nullable(),
+  activityIds: z.array(z.string().min(1)).min(1),
+  currentActivityId: z.string().optional(),
+  currentQuestionId: z.string().optional(),
+  currentIndex: z.number().int().min(0).default(0),
+});
+export type CreateAssessmentSessionInput = z.infer<typeof CreateAssessmentSessionSchema>;
+
+export const UpdateAssessmentSessionSchema = z.object({
+  currentActivityId: z.string().optional(),
+  currentQuestionId: z.string().optional(),
+  currentIndex: z.number().int().min(0).optional(),
+  sessionStatus: z.enum(['in_progress', 'completed', 'abandoned']).optional(),
+});
+export type UpdateAssessmentSessionInput = z.infer<typeof UpdateAssessmentSessionSchema>;
+
+export const RecordQuestionAttemptSchema = z.object({
+  id: z.string().optional(),
+  sessionId: z.string().min(1, 'Session ID is required'),
+  studentId: z.string().min(1, 'Student ID is required'),
+  subjectId: z.enum(['tamil', 'english']),
+  moduleId: z.number().int().optional().nullable(),
+  activityId: z.string().min(1, 'Activity ID is required'),
+  questionId: z.string().min(1, 'Question ID is required'),
+  answerPayload: z.record(z.string(), z.unknown()).default({}),
+  isCorrect: z.boolean(),
+  isCompleted: z.boolean(),
+  attemptedAt: z.string().optional(),
+  idempotencyKey: z.string().min(1, 'Idempotency key is required'),
+});
+export type RecordQuestionAttemptInput = z.infer<typeof RecordQuestionAttemptSchema>;
+
+export const ImportStudentsSchema = z.object({
+  classId: z.string().optional(),
+  schoolId: z.string().optional(),
+  students: z.array(
+    z.object({
+      name: z.string().min(1, 'Student name is required'),
+      rollNumber: z.string().optional(),
+      rollNo: z.string().optional(),
+      section: z.string().default('A').optional(),
+      avatar: z.string().default('avatar_default').optional(),
+      schoolId: z.string().optional(),
+      schoolCode: z.string().optional(),
+      classId: z.string().optional(),
+      className: z.string().optional(),
+      pin: z.array(z.string()).optional(),
+    })
+  ).min(1, 'At least one student record is required'),
+});
+export type ImportStudentsInput = z.infer<typeof ImportStudentsSchema>;

@@ -19,6 +19,9 @@ import { AdminLoginPage } from '../features/Admin/AdminLoginPage';
 import { AdminLayout } from '../features/Admin/AdminLayout';
 import { AdminDashboardPage } from '../features/Admin/AdminDashboardPage';
 import { AdminStudentDetailPage } from '../features/Admin/AdminStudentDetailPage';
+import { AdminSchoolsPage } from '../features/Admin/AdminSchoolsPage';
+import { AdminStudentsPage } from '../features/Admin/AdminStudentsPage';
+import { AdminReportsPage } from '../features/Admin/AdminReportsPage';
 import { SetupComputerPage } from '../features/Admin/SetupComputerPage';
 import { AdminRoute } from '../auth/AdminRoute';
 
@@ -45,11 +48,31 @@ export const routes: RouteObject[] = [
         children: [
           {
             path: 'classes',
-            element: <Navigate to="/classes/3/subjects" replace />,
+            element: <Navigate to="/subjects" replace />,
           },
           {
             path: 'subjects',
-            element: <Navigate to="/classes/3/subjects" replace />,
+            element: <SubjectSelectionPage />,
+          },
+          {
+            path: 'subjects/english',
+            element: <EnglishLearningAreaPage />,
+          },
+          {
+            path: 'subjects/english/modules/:moduleId',
+            element: <EnglishModuleDetailPage />,
+          },
+          {
+            path: 'subjects/:subjectId',
+            element: <LearningAreaPage />,
+          },
+          {
+            path: 'session/:subjectId/setup',
+            element: <SessionSetupPage />,
+          },
+          {
+            path: 'session/:subjectId/play',
+            element: <SessionPage />,
           },
           {
             path: 'classes/:classId/subjects',
@@ -110,16 +133,28 @@ export const routes: RouteObject[] = [
             element: <AdminDashboardPage />,
           },
           {
-            path: 'setup',
-            element: <SetupComputerPage />,
+            path: 'schools',
+            element: <AdminSchoolsPage />,
+          },
+          {
+            path: 'classes',
+            element: <Navigate to="/admin/schools" replace />,
           },
           {
             path: 'students',
-            element: <Navigate to="/admin/dashboard" replace />,
+            element: <AdminStudentsPage />,
           },
           {
             path: 'students/:studentId',
             element: <AdminStudentDetailPage />,
+          },
+          {
+            path: 'reports',
+            element: <AdminReportsPage />,
+          },
+          {
+            path: 'setup',
+            element: <SetupComputerPage />,
           },
         ],
       },

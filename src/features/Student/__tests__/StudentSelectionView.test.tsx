@@ -11,7 +11,7 @@ describe('StudentSelectionView Component', () => {
     vi.restoreAllMocks();
   });
 
-  it('shows prompt to set up computer when no classId is stored in localStorage', async () => {
+  it('shows prompt to set up computer when no schoolId is stored in localStorage', async () => {
     render(
       <MemoryRouter>
         <StudentProvider>
@@ -21,21 +21,21 @@ describe('StudentSelectionView Component', () => {
     );
 
     await waitFor(() => {
-      expect(screen.getByRole('heading', { name: /Set up this computer/i })).toBeInTheDocument();
-      expect(screen.getByText(/This computer has not been set up with a class yet/i)).toBeInTheDocument();
+      expect(screen.getByRole('heading', { name: /Select Your School/i })).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: /Set up this computer/i })).toBeInTheDocument();
     });
   });
 
-  it('loads and displays student roster when classId is configured', async () => {
-    localStorage.setItem('sara_class_id', 'class-123');
+  it('loads and displays student roster when schoolId is configured', async () => {
+    localStorage.setItem('sara_school_id', 'sch-123');
 
     vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL) => {
       const url = typeof input === 'string' ? input : input.toString();
-      if (url.includes('/api/classes/class-123/roster')) {
+      if (url.includes('/api/schools/sch-123/roster') || url.includes('/api/classes/sch-123/roster')) {
         return Promise.resolve({
           ok: true,
           json: async () => ({
-            class: { id: 'class-123', name: 'Class 3A', grade: 'Class 3' },
+            school: { id: 'sch-123', name: 'Primary School Alpha' },
             students: [
               { id: 's-1', name: 'Kavin', avatar: 'avatar_1' },
               { id: 's-2', name: 'Malar', avatar: 'avatar_2' },
@@ -63,23 +63,23 @@ describe('StudentSelectionView Component', () => {
 
     await waitFor(() => {
       expect(screen.getByText('Who is learning today?')).toBeInTheDocument();
-      expect(screen.getByText('Class 3A')).toBeInTheDocument();
+      expect(screen.getByText('Primary School Alpha')).toBeInTheDocument();
       expect(screen.getByText('Kavin')).toBeInTheDocument();
       expect(screen.getByText('Malar')).toBeInTheDocument();
     });
   });
 
   it('selects student on click and displays Continue card if an active session exists', async () => {
-    localStorage.setItem('sara_class_id', 'class-123');
+    localStorage.setItem('sara_school_id', 'sch-123');
     const user = userEvent.setup();
 
     vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL, init?: RequestInit) => {
       const url = typeof input === 'string' ? input : input.toString();
-      if (url.includes('/api/classes/class-123/roster')) {
+      if (url.includes('/api/schools/sch-123/roster') || url.includes('/api/classes/sch-123/roster')) {
         return Promise.resolve({
           ok: true,
           json: async () => ({
-            class: { id: 'class-123', name: 'Class 3A', grade: 'Class 3' },
+            school: { id: 'sch-123', name: 'Primary School Alpha' },
             students: [{ id: 's-1', name: 'Kavin', avatar: 'avatar_1' }],
           }),
         } as Response);
@@ -89,22 +89,23 @@ describe('StudentSelectionView Component', () => {
           ok: true,
           json: async () => ({
             success: true,
-            student: { id: 's-1', name: 'Kavin', avatar: 'avatar_1', classId: 'class-123', schoolId: 'sch-1' },
+            student: { id: 's-1', name: 'Kavin', avatar: 'avatar_1', schoolId: 'sch-123' },
           }),
         } as Response);
       }
-      if (url.includes('/api/students/s-1/sessions/active')) {
+      if (url.includes('/api/students/s-1/assessment-sessions/active') || url.includes('/api/students/s-1/sessions/active')) {
         return Promise.resolve({
           ok: true,
           json: async () => ({
             session: {
               id: 'sess-active-1',
-              studentId: 's-1',
-              subject: 'tamil',
-              categoryOrModule: 'spelling-choice',
-              activityIds: ['q1', 'q2', 'q3', 'q4', 'q5'],
-              currentIndex: 3,
-              status: 'active',
+              student_id: 's-1',
+              school_id: 'sch-123',
+              subject_id: 'tamil',
+              module_id: 1,
+              activity_ids: ['q1', 'q2', 'q3', 'q4', 'q5'],
+              current_question_index: 3,
+              session_status: 'in_progress',
             },
           }),
         } as Response);

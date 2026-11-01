@@ -50,6 +50,28 @@ import {
   getAdminDashboardMetrics,
   getAdminStudentSummaries,
   getAdminStudentDetail,
+  getSchoolsWithStatsFromDb,
+  getSchoolById,
+  getActiveSchoolsFromDb,
+  getStudentsForSchoolRoster,
+  createSchoolInDb,
+  updateSchoolInDb,
+  getStudentsWithFiltersFromDb,
+  updateStudentInDb,
+  updateClassInDb,
+  bulkImportStudentsInDb,
+  createOrGetAssessmentSessionInDb,
+  getAssessmentSessionByIdFromDb,
+  getActiveAssessmentSessionForStudentFromDb,
+  updateAssessmentSessionInDb,
+  recordQuestionAttemptInDb,
+  getQuestionAttemptsForSessionFromDb,
+  getQuestionAttemptsForStudentFromDb,
+  getOverallAdminMetrics,
+  getSchoolReportFromDb,
+  getStudentModuleProgressFromDb,
+  getStudentSessionsReportFromDb,
+  getSessionDetailReportFromDb,
   type StudentRow,
   type SessionRow,
 } from './db';
@@ -77,9 +99,16 @@ import {
   StudentSelectSchema,
   CreateClassSchema,
   CreateStudentSchema,
+  UpdateStudentSchema,
   ResetPinSchema,
   CreateSessionSchema,
   UpdateSessionSchema,
+  CreateSchoolSchema,
+  UpdateSchoolSchema,
+  CreateAssessmentSessionSchema,
+  UpdateAssessmentSessionSchema,
+  RecordQuestionAttemptSchema,
+  ImportStudentsSchema,
 } from './validation';
 import bcrypt from 'bcryptjs';
 
@@ -102,14 +131,14 @@ function validateEnv(): void {
   if (!dbUrl) {
     throw new Error(
       'DATABASE_URL env var is not set. ' +
-        'The server cannot start without a database connection string.'
+      'The server cannot start without a database connection string.'
     );
   }
   const secret = process.env.SESSION_SECRET;
   if (!secret || secret.length < 32) {
     throw new Error(
       'SESSION_SECRET env var is missing or shorter than 32 characters. ' +
-        'Generate one with: openssl rand -base64 48'
+      'Generate one with: openssl rand -base64 48'
     );
   }
 }
@@ -232,6 +261,34 @@ export async function handleApiRequest(
       return true;
     }
 
+    // ── PUBLIC: GET /api/public/schools ───────────────────────────────────────
+    if (pathname === '/api/public/schools' && req.method === 'GET') {
+      const schools = await getActiveSchoolsFromDb();
+      sendJson(res, 200, { schools });
+      return true;
+    }
+
+    // ── PUBLIC: GET /api/schools/:schoolId/roster ─────────────────────────────
+    const schoolRosterMatch = pathname.match(/^\/api\/schools\/([^/]+)\/roster$/);
+    if (schoolRosterMatch && req.method === 'GET') {
+      const schoolId = decodeURIComponent(schoolRosterMatch[1]);
+      const school = await getSchoolById(schoolId);
+      if (!school || Boolean(school.archived_at)) {
+        sendJson(res, 404, { error: 'School not found' });
+        return true;
+      }
+      const students = await getStudentsForSchoolRoster(school.id);
+      sendJson(res, 200, {
+        school: {
+          id: school.id,
+          name: school.school_name || school.name,
+          schoolCode: school.school_code,
+        },
+        students,
+      });
+      return true;
+    }
+
     // ── PUBLIC: GET /api/classes/:classId/roster ─────────────────────────────
     const classRosterMatch = pathname.match(/^\/api\/classes\/([^/]+)\/roster$/);
     if (classRosterMatch && req.method === 'GET') {
@@ -259,17 +316,30 @@ export async function handleApiRequest(
       const parsed = await parseBody(req, res, StudentSelectSchema);
       if (!parsed.ok) return true;
 
-      const { classId, studentId } = parsed.data;
-      const cls = await getClassById(classId);
-      if (!cls || Boolean(cls.archived_at)) {
-        sendJson(res, 404, { error: 'Class not found' });
+      const { classId, schoolId, studentId, pin } = parsed.data;
+
+      const student = await getStudentById(studentId);
+      if (!student || student.archived_at !== null) {
+        sendJson(res, 404, { error: 'Student not found or archived' });
         return true;
       }
 
-      const student = await getStudentById(studentId);
-      if (!student || student.class_id !== cls.id || student.archived_at !== null) {
+      if (schoolId) {
+        if (student.school_id !== schoolId) {
+          sendJson(res, 404, { error: 'Student not found in this school' });
+          return true;
+        }
+      } else if (classId && student.class_id && student.class_id !== classId) {
         sendJson(res, 404, { error: 'Student not found in this class' });
         return true;
+      }
+
+      if (student.pin_hash && pin) {
+        const pinResult = await verifyStudentPin(studentId, pin);
+        if (!pinResult.success) {
+          sendJson(res, pinResult.locked ? 423 : 401, { error: pinResult.error, locked: pinResult.locked });
+          return true;
+        }
       }
 
       const sql = getDb();
@@ -278,7 +348,7 @@ export async function handleApiRequest(
       const token = await signStudentSession({
         studentId: student.id,
         schoolId: student.school_id,
-        classId: student.class_id,
+        classId: student.class_id || '',
       });
       setStudentCookie(res, token);
 
@@ -288,7 +358,7 @@ export async function handleApiRequest(
           id: student.id,
           name: student.name.trim().split(' ')[0],
           avatar: student.avatar,
-          classId: student.class_id,
+          classId: student.class_id || '',
           schoolId: student.school_id,
         },
       });
@@ -333,17 +403,28 @@ export async function handleApiRequest(
       const parsed = await parseBody(req, res, StudentLoginSchema);
       if (!parsed.ok) return true;
 
-      const { classCode, studentId, pin } = parsed.data;
-      const cls = await getClassByCode(classCode);
-      if (!cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || cls.archived_at !== null) {
-        sendJson(res, 404, { error: 'Class not found' });
+      const { classCode, studentId, pin, schoolId } = parsed.data;
+      const student = await getStudentById(studentId);
+      if (!student || student.archived_at !== null) {
+        sendJson(res, 404, { error: 'Student not found' });
         return true;
       }
 
-      const student = await getStudentById(studentId);
-      if (!student || student.class_id !== cls.id || student.archived_at !== null) {
-        sendJson(res, 404, { error: 'Student not found in this class' });
-        return true;
+      if (classCode) {
+        const cls = await getClassByCode(classCode);
+        if (!cls || cls.id === 'class_legacy' || cls.class_code === 'LEGACY' || cls.archived_at !== null) {
+          sendJson(res, 404, { error: 'Class not found' });
+          return true;
+        }
+        if (student.class_id !== cls.id) {
+          sendJson(res, 404, { error: 'Student not found in this class' });
+          return true;
+        }
+      } else if (schoolId) {
+        if (student.school_id !== schoolId) {
+          sendJson(res, 404, { error: 'Student not found in this school' });
+          return true;
+        }
       }
 
       const pinResult = await verifyStudentPin(studentId, pin);
@@ -582,6 +663,190 @@ export async function handleApiRequest(
       return true;
     }
 
+    // ── ASSESSMENT SESSIONS (STUDENT / ADMIN ACCESSIBLE) ───────────────────────
+    // ── GET /api/students/:studentId/assessment-sessions/active ────────────────
+    const getActiveAssessmentSessionMatch = pathname.match(/^\/api\/students\/([^/]+)\/assessment-sessions\/active$/);
+    if (getActiveAssessmentSessionMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getActiveAssessmentSessionMatch[1]);
+      const caller = await requireStudentAccess(req, res, studentId);
+      if (!caller) return true;
+
+      const searchParams = new URLSearchParams(url.includes('?') ? url.split('?')[1] : '');
+      const subjectId = searchParams.get('subject') || undefined;
+      const moduleIdStr = searchParams.get('module');
+      const moduleId = moduleIdStr ? Number(moduleIdStr) : null;
+
+      const session = await getActiveAssessmentSessionForStudentFromDb(studentId, subjectId, moduleId);
+      sendJson(res, 200, { session });
+      return true;
+    }
+
+    // ── POST /api/assessment-sessions ─────────────────────────────────────────
+    if (pathname === '/api/assessment-sessions' && req.method === 'POST') {
+      const parsed = await parseBody(req, res, CreateAssessmentSessionSchema);
+      if (!parsed.ok) return true;
+
+      const caller = await requireStudentAccess(req, res, parsed.data.studentId);
+      if (!caller) return true;
+
+      try {
+        const session = await createOrGetAssessmentSessionInDb({
+          id: parsed.data.id,
+          studentId: parsed.data.studentId,
+          subjectId: parsed.data.subjectId,
+          moduleId: parsed.data.moduleId,
+          activityIds: parsed.data.activityIds,
+          currentActivityId: parsed.data.currentActivityId,
+          currentQuestionId: parsed.data.currentQuestionId,
+          currentIndex: parsed.data.currentIndex,
+        });
+        sendJson(res, 201, { session });
+        return true;
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        if (msg.includes('Student not found')) {
+          sendJson(res, 404, { error: 'Student not found or archived' });
+          return true;
+        }
+        throw err;
+      }
+    }
+
+    // ── GET /api/assessment-sessions/:sessionId ───────────────────────────────
+    const getAssessmentSessionMatch = pathname.match(/^\/api\/assessment-sessions\/([^/]+)$/);
+    if (getAssessmentSessionMatch && req.method === 'GET') {
+      const sessionId = decodeURIComponent(getAssessmentSessionMatch[1]);
+      const session = await getAssessmentSessionByIdFromDb(sessionId);
+      if (!session) {
+        sendJson(res, 404, { error: 'Assessment session not found' });
+        return true;
+      }
+
+      const caller = await requireStudentAccess(req, res, session.student_id);
+      if (!caller) return true;
+
+      sendJson(res, 200, { session });
+      return true;
+    }
+
+    // ── PATCH /api/assessment-sessions/:sessionId ─────────────────────────────
+    if (getAssessmentSessionMatch && req.method === 'PATCH') {
+      const sessionId = decodeURIComponent(getAssessmentSessionMatch[1]);
+      const existing = await getAssessmentSessionByIdFromDb(sessionId);
+      if (!existing) {
+        sendJson(res, 404, { error: 'Assessment session not found' });
+        return true;
+      }
+
+      const caller = await requireStudentAccess(req, res, existing.student_id);
+      if (!caller) return true;
+
+      const parsed = await parseBody(req, res, UpdateAssessmentSessionSchema);
+      if (!parsed.ok) return true;
+
+      const updated = await updateAssessmentSessionInDb({
+        sessionId,
+        studentId: existing.student_id,
+        currentActivityId: parsed.data.currentActivityId,
+        currentQuestionId: parsed.data.currentQuestionId,
+        currentIndex: parsed.data.currentIndex,
+        sessionStatus: parsed.data.sessionStatus,
+      });
+
+      sendJson(res, 200, { session: updated });
+      return true;
+    }
+
+    // ── POST /api/assessment-sessions/:sessionId/complete ─────────────────────
+    const completeSessionMatch = pathname.match(/^\/api\/assessment-sessions\/([^/]+)\/complete$/);
+    if (completeSessionMatch && req.method === 'POST') {
+      const sessionId = decodeURIComponent(completeSessionMatch[1]);
+      const existing = await getAssessmentSessionByIdFromDb(sessionId);
+      if (!existing) {
+        sendJson(res, 404, { error: 'Assessment session not found' });
+        return true;
+      }
+
+      const caller = await requireStudentAccess(req, res, existing.student_id);
+      if (!caller) return true;
+
+      const updated = await updateAssessmentSessionInDb({
+        sessionId,
+        studentId: existing.student_id,
+        sessionStatus: 'completed',
+      });
+
+      sendJson(res, 200, { session: updated });
+      return true;
+    }
+
+    // ── QUESTION ATTEMPTS (STUDENT / ADMIN ACCESSIBLE) ─────────────────────────
+    // ── POST /api/question-attempts ───────────────────────────────────────────
+    if (pathname === '/api/question-attempts' && req.method === 'POST') {
+      const parsed = await parseBody(req, res, RecordQuestionAttemptSchema);
+      if (!parsed.ok) return true;
+
+      const caller = await requireStudentAccess(req, res, parsed.data.studentId);
+      if (!caller) return true;
+
+      try {
+        const result = await recordQuestionAttemptInDb({
+          id: parsed.data.id,
+          sessionId: parsed.data.sessionId,
+          studentId: parsed.data.studentId,
+          subjectId: parsed.data.subjectId,
+          moduleId: parsed.data.moduleId,
+          activityId: parsed.data.activityId,
+          questionId: parsed.data.questionId,
+          answerPayload: parsed.data.answerPayload as Record<string, unknown>,
+          isCorrect: parsed.data.isCorrect,
+          isCompleted: parsed.data.isCompleted,
+          attemptedAt: parsed.data.attemptedAt,
+          idempotencyKey: parsed.data.idempotencyKey,
+        });
+
+        sendJson(res, result.status === 'duplicate' ? 200 : 201, result);
+        return true;
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        if (msg.includes('Student not found')) {
+          sendJson(res, 404, { error: 'Student not found or archived' });
+          return true;
+        }
+        throw err;
+      }
+    }
+
+    // ── GET /api/assessment-sessions/:sessionId/attempts ──────────────────────
+    const getSessionAttemptsMatch = pathname.match(/^\/api\/assessment-sessions\/([^/]+)\/attempts$/);
+    if (getSessionAttemptsMatch && req.method === 'GET') {
+      const sessionId = decodeURIComponent(getSessionAttemptsMatch[1]);
+      const session = await getAssessmentSessionByIdFromDb(sessionId);
+      if (!session) {
+        sendJson(res, 404, { error: 'Assessment session not found' });
+        return true;
+      }
+
+      const caller = await requireStudentAccess(req, res, session.student_id);
+      if (!caller) return true;
+
+      const attempts = await getQuestionAttemptsForSessionFromDb(sessionId);
+      sendJson(res, 200, { sessionId, attempts });
+      return true;
+    }
+
+    // ── GET /api/students/:studentId/question-attempts ────────────────────────
+    const getStudentQuestionAttemptsMatch = pathname.match(/^\/api\/students\/([^/]+)\/question-attempts$/);
+    if (getStudentQuestionAttemptsMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getStudentQuestionAttemptsMatch[1]);
+      const caller = await requireStudentAccess(req, res, studentId);
+      if (!caller) return true;
+
+      const attempts = await getQuestionAttemptsForStudentFromDb(studentId);
+      sendJson(res, 200, { studentId, attempts });
+      return true;
+    }
+
     // ── All routes below require a valid ADMIN session ────────────────────────
     const session = await requireAdminSession(req, res);
     if (!session) return true; // 401 already sent
@@ -633,6 +898,155 @@ export async function handleApiRequest(
       return true;
     }
 
+    // ── SCHOOLS (ADMIN ONLY) ──────────────────────────────────────────────────
+    // ── GET /api/schools ──────────────────────────────────────────────────────
+    if (pathname === '/api/schools' && req.method === 'GET') {
+      const schools = await getSchoolsWithStatsFromDb();
+      sendJson(res, 200, { schools });
+      return true;
+    }
+
+    // ── POST /api/schools ─────────────────────────────────────────────────────
+    if (pathname === '/api/schools' && req.method === 'POST') {
+      const parsed = await parseBody(req, res, CreateSchoolSchema);
+      if (!parsed.ok) return true;
+
+      const newSchool = await createSchoolInDb({
+        schoolName: parsed.data.schoolName,
+        schoolCode: parsed.data.schoolCode,
+        address: parsed.data.address,
+        academicYear: parsed.data.academicYear,
+      });
+      sendJson(res, 201, { school: newSchool });
+      return true;
+    }
+
+    // ── PATCH /api/schools/:id ────────────────────────────────────────────────
+    const patchSchoolMatch = pathname.match(/^\/api\/schools\/([^/]+)$/);
+    if (patchSchoolMatch && req.method === 'PATCH') {
+      const schoolId = decodeURIComponent(patchSchoolMatch[1]);
+      const parsed = await parseBody(req, res, UpdateSchoolSchema);
+      if (!parsed.ok) return true;
+
+      const updated = await updateSchoolInDb(schoolId, {
+        schoolName: parsed.data.schoolName,
+        address: parsed.data.address,
+        academicYear: parsed.data.academicYear,
+        isActive: parsed.data.isActive,
+      });
+
+      if (!updated) {
+        sendJson(res, 404, { error: 'School not found' });
+        return true;
+      }
+
+      sendJson(res, 200, { school: updated });
+      return true;
+    }
+
+    // ── POST /api/admin/students/import ───────────────────────────────────────
+    if (pathname === '/api/admin/students/import' && req.method === 'POST') {
+      const parsed = await parseBody(req, res, ImportStudentsSchema);
+      if (!parsed.ok) return true;
+
+      let defaultSchoolId = parsed.data.schoolId;
+      if (!defaultSchoolId && parsed.data.classId) {
+        const targetClass = await getClassById(parsed.data.classId);
+        if (targetClass) defaultSchoolId = targetClass.school_id;
+      }
+      if (session.role === 'school_admin') {
+        defaultSchoolId = session.schoolId ?? undefined;
+      }
+
+      try {
+        const imported = await bulkImportStudentsInDb({
+          classId: parsed.data.classId,
+          schoolId: defaultSchoolId,
+          students: parsed.data.students,
+        });
+
+        sendJson(res, 201, {
+          success: true,
+          count: imported.length,
+          importedCount: imported.length,
+          students: imported,
+        });
+        return true;
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : String(err);
+        sendJson(res, 400, { error: `Failed to import: ${message}` });
+        return true;
+      }
+    }
+
+    // ── REPORTS (ADMIN ONLY) ──────────────────────────────────────────────────
+    // ── GET /api/admin/reports/overall ────────────────────────────────────────
+    if (pathname === '/api/admin/reports/overall' && req.method === 'GET') {
+      const metrics = await getOverallAdminMetrics();
+      sendJson(res, 200, { metrics });
+      return true;
+    }
+
+    // ── GET /api/admin/reports/schools/:schoolId ──────────────────────────────
+    const getSchoolReportMatch = pathname.match(/^\/api\/admin\/reports\/schools\/([^/]+)$/);
+    if (getSchoolReportMatch && req.method === 'GET') {
+      const schoolId = decodeURIComponent(getSchoolReportMatch[1]);
+      if (session.role === 'school_admin' && schoolId !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot access report for another school' });
+        return true;
+      }
+      const report = await getSchoolReportFromDb(schoolId);
+      if (!report) {
+        sendJson(res, 404, { error: 'School not found' });
+        return true;
+      }
+      sendJson(res, 200, { report });
+      return true;
+    }
+
+    // ── GET /api/admin/reports/students/:studentId/progress ───────────────────
+    const getStudentProgressReportMatch = pathname.match(/^\/api\/admin\/reports\/students\/([^/]+)\/progress$/);
+    if (getStudentProgressReportMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getStudentProgressReportMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+      const progress = await getStudentModuleProgressFromDb(studentId);
+      sendJson(res, 200, { studentId, progress });
+      return true;
+    }
+
+    // ── GET /api/admin/reports/students/:studentId/sessions ───────────────────
+    const getStudentSessionsReportMatch = pathname.match(/^\/api\/admin\/reports\/students\/([^/]+)\/sessions$/);
+    if (getStudentSessionsReportMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(getStudentSessionsReportMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+      const sessions = await getStudentSessionsReportFromDb(studentId);
+      sendJson(res, 200, { studentId, sessions });
+      return true;
+    }
+
+    // ── GET /api/admin/reports/sessions/:sessionId ────────────────────────────
+    const getSessionReportMatch = pathname.match(/^\/api\/admin\/reports\/sessions\/([^/]+)$/);
+    if (getSessionReportMatch && req.method === 'GET') {
+      const sessionId = decodeURIComponent(getSessionReportMatch[1]);
+      const report = await getSessionDetailReportFromDb(sessionId);
+      if (!report) {
+        sendJson(res, 404, { error: 'Session report not found' });
+        return true;
+      }
+      if (!(await adminCanAccessStudent(session, report.session.student_id))) {
+        sendJson(res, 403, { error: 'Forbidden: session belongs to another school' });
+        return true;
+      }
+      sendJson(res, 200, { report });
+      return true;
+    }
+
     // ── POST /api/admin/classes ───────────────────────────────────────────────
     if (pathname === '/api/admin/classes' && req.method === 'POST') {
       const parsed = await parseBody(req, res, CreateClassSchema);
@@ -654,6 +1068,27 @@ export async function handleApiRequest(
         grade: parsed.data.grade,
       });
       sendJson(res, 201, { class: newClass });
+      return true;
+    }
+
+    // ── PATCH /api/admin/classes/:id ──────────────────────────────────────────
+    const classMatch = pathname.match(/^\/api\/admin\/classes\/([^/]+)$/);
+    if (classMatch && req.method === 'PATCH') {
+      const classId = decodeURIComponent(classMatch[1]);
+      const targetClass = await getClassById(classId);
+      if (!targetClass) {
+        sendJson(res, 404, { error: 'Class not found' });
+        return true;
+      }
+      if (session.role === 'school_admin' && targetClass.school_id !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot edit class belonging to another school' });
+        return true;
+      }
+      const parsed = await parseBody(req, res, CreateClassSchema.partial());
+      if (!parsed.ok) return true;
+
+      const updated = await updateClassInDb(classId, parsed.data);
+      sendJson(res, 200, { class: updated });
       return true;
     }
 
@@ -680,38 +1115,87 @@ export async function handleApiRequest(
       const parsed = await parseBody(req, res, CreateStudentSchema);
       if (!parsed.ok) return true;
 
-      const { classId, name, rollNo, avatar, pin } = parsed.data;
+      const { classId, schoolId: inputSchoolId, name, rollNo, rollNumber, section, avatar, pin } = parsed.data;
 
-      const targetClass = await getClassById(classId);
-      if (!targetClass) {
-        sendJson(res, 404, { error: 'Class not found' });
+      let schoolId = inputSchoolId;
+      if (classId) {
+        const targetClass = await getClassById(classId);
+        if (!targetClass || targetClass.archived_at !== null) {
+          sendJson(res, 404, { error: 'Class not found' });
+          return true;
+        }
+        if (session.role === 'school_admin' && targetClass.school_id !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot add student to another school' });
+          return true;
+        }
+        schoolId = targetClass.school_id;
+      }
+      if (session.role === 'school_admin') {
+        if (inputSchoolId && inputSchoolId !== session.schoolId) {
+          sendJson(res, 403, { error: 'Forbidden: Cannot add student to another school' });
+          return true;
+        }
+        schoolId = session.schoolId ?? undefined;
+      }
+      if (!schoolId) {
+        const activeSchools = await getActiveSchoolsFromDb();
+        if (activeSchools.length === 1) {
+          schoolId = activeSchools[0].id;
+        } else {
+          sendJson(res, 400, { error: 'School ID is required' });
+          return true;
+        }
+      }
+
+      if (session.role === 'school_admin' && schoolId !== session.schoolId) {
+        sendJson(res, 403, { error: 'Forbidden: Cannot add student to another school' });
         return true;
       }
-      if (session.role === 'school_admin' && targetClass.school_id !== session.schoolId) {
-        sendJson(res, 403, { error: 'Forbidden: Cannot add student to class of another school' });
+
+      const rawRoll = rollNumber || rollNo;
+      const studentRollNo = rawRoll && rawRoll.trim() ? rawRoll.trim() : `R${Date.now().toString().slice(-4)}`;
+
+      // Check if roll number already exists in this school
+      const sql = getDb();
+      const existingRoll = await sql.query(
+        `SELECT id FROM students WHERE school_id = $1 AND (roll_no = $2 OR roll_number = $2) AND archived_at IS NULL LIMIT 1;`,
+        [schoolId, studentRollNo]
+      );
+      if (existingRoll.length > 0) {
+        sendJson(res, 400, { error: `Roll number "${studentRollNo}" already exists in this school` });
         return true;
       }
 
-      // The student belongs to the class's school, for super_admin too.
-      const schoolId = targetClass.school_id;
       const pinHash = pin && pin.length === 3 ? await hashPin(pin) : null;
       const studentId = `stud_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
-      const studentRollNo = rollNo && rollNo.trim() ? rollNo.trim() : `R${Date.now().toString().slice(-4)}`;
       const studentAvatar = avatar || 'avatar_default';
+      const studentSection = section && section.trim() ? section.trim().toUpperCase() : 'A';
 
       await upsertStudentInDb({
         id: studentId,
         name,
         schoolId,
-        classId,
+        classId: classId || null,
         rollNo: studentRollNo,
         avatar: studentAvatar,
         pinHash,
       });
 
+      await updateStudentInDb(studentId, { section: studentSection, rollNumber: studentRollNo });
+
       sendJson(res, 201, {
         success: true,
-        student: { id: studentId, name, rollNo: studentRollNo, avatar: studentAvatar, classId, schoolId },
+        student: {
+          id: studentId,
+          name,
+          rollNo: studentRollNo,
+          rollNumber: studentRollNo,
+          roll_number: studentRollNo,
+          section: studentSection,
+          avatar: studentAvatar,
+          classId: classId || '',
+          schoolId,
+        },
       });
       return true;
     }
@@ -792,6 +1276,60 @@ export async function handleApiRequest(
 
     // ── GET /api/students ─────────────────────────────────────────────────────
     if (pathname === '/api/students' && req.method === 'GET') {
+      const searchParams = new URLSearchParams(url.includes('?') ? url.split('?')[1] : '');
+      const schoolParam = searchParams.get('schoolId') || (session.role === 'school_admin' ? (session.schoolId ?? undefined) : undefined);
+      const classParam = searchParams.get('classId') || undefined;
+      const sectionParam = searchParams.get('section') || undefined;
+      const searchStr = searchParams.get('search') || undefined;
+      const statusParam = (searchParams.get('status') as 'active' | 'archived' | 'all') || undefined;
+      const limitStr = searchParams.get('limit') || searchParams.get('pageSize');
+      const offsetStr = searchParams.get('offset');
+      const pageStr = searchParams.get('page');
+
+      // If query parameters or pagination requested, return rich filtered student list
+      if (classParam || sectionParam || searchStr || limitStr || offsetStr || pageStr || statusParam || searchParams.has('paginated')) {
+        const limit = limitStr ? Number(limitStr) : 20;
+        const page = pageStr ? Math.max(Number(pageStr), 1) : 1;
+        const offset = offsetStr ? Number(offsetStr) : (page - 1) * limit;
+
+        const result = await getStudentsWithFiltersFromDb({
+          schoolId: schoolParam ?? undefined,
+          classId: classParam,
+          section: sectionParam,
+          search: searchStr,
+          status: statusParam,
+          limit,
+          offset,
+        });
+
+        const totalPages = Math.ceil(result.total / limit);
+
+        sendJson(res, 200, {
+          students: result.students.map((r) => ({
+            id: r.id,
+            name: r.name,
+            studentName: r.name,
+            rollNumber: r.roll_number,
+            section: r.section,
+            schoolId: r.school_id,
+            schoolName: r.school_name,
+            classId: r.class_id,
+            className: r.class_name,
+            avatar: r.avatar,
+            isActive: (r.is_active !== false && !r.archived_at),
+            is_active: (r.is_active !== false && !r.archived_at),
+            archivedAt: r.archived_at,
+            createdAt: r.created_at,
+            lastActiveAt: r.last_active_at,
+          })),
+          total: result.total,
+          page,
+          pageSize: limit,
+          totalPages,
+        });
+        return true;
+      }
+
       const schoolScope = session.role === 'school_admin' ? session.schoolId : undefined;
       const rows = await getStudentsFromDb(schoolScope);
       const students = rows.map((r) => ({
@@ -804,10 +1342,45 @@ export async function handleApiRequest(
       return true;
     }
 
+    // ── GET /api/students/:studentId ──────────────────────────────────────────
+    const studentMatch = pathname.match(/^\/api\/students\/([^/]+)$/);
+    if (studentMatch && req.method === 'GET') {
+      const studentId = decodeURIComponent(studentMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+      const student = await getStudentById(studentId);
+      if (!student) {
+        sendJson(res, 404, { error: 'Student not found' });
+        return true;
+      }
+      sendJson(res, 200, { student });
+      return true;
+    }
+
+    // ── PATCH /api/students/:studentId ────────────────────────────────────────
+    if (studentMatch && req.method === 'PATCH') {
+      const studentId = decodeURIComponent(studentMatch[1]);
+      if (!(await adminCanAccessStudent(session, studentId))) {
+        sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
+        return true;
+      }
+      const parsed = await parseBody(req, res, UpdateStudentSchema);
+      if (!parsed.ok) return true;
+
+      const updated = await updateStudentInDb(studentId, parsed.data);
+      if (!updated) {
+        sendJson(res, 404, { error: 'Student not found' });
+        return true;
+      }
+      sendJson(res, 200, { student: updated });
+      return true;
+    }
+
     // ── DELETE /api/students/:studentId ───────────────────────────────────────
-    const deleteStudentMatch = pathname.match(/^\/api\/students\/([^/]+)$/);
-    if (deleteStudentMatch && req.method === 'DELETE') {
-      const studentId = decodeURIComponent(deleteStudentMatch[1]);
+    if (studentMatch && req.method === 'DELETE') {
+      const studentId = decodeURIComponent(studentMatch[1]);
       if (!(await adminCanAccessStudent(session, studentId))) {
         sendJson(res, 403, { error: 'Forbidden: student belongs to another school' });
         return true;

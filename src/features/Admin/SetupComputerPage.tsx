@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { Monitor, ArrowLeft, CheckCircle2, ShieldCheck, AlertCircle } from 'lucide-react';
+import { Monitor, ArrowLeft, CheckCircle2, ShieldCheck, AlertCircle, Building2 } from 'lucide-react';
 import { useAuth } from '../../auth';
 import { Button } from '../../components/ui/Button';
 
-interface ClassItem {
+interface SchoolItem {
   id: string;
   name: string;
-  grade: string;
-  class_code: string;
+  school_name?: string;
+  school_code?: string;
+  academic_year?: string;
 }
 
 export function SetupComputerPage() {
@@ -21,55 +22,55 @@ export function SetupComputerPage() {
   const [loginError, setLoginError] = useState<string | null>(null);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
-  // Classes state
-  const [classes, setClasses] = useState<ClassItem[]>([]);
-  const [currentClassId, setCurrentClassId] = useState<string | null>(null);
-  const [selectedClassId, setSelectedClassId] = useState<string>('');
-  const [isLoadingClasses, setIsLoadingClasses] = useState(false);
+  // Schools state
+  const [schools, setSchools] = useState<SchoolItem[]>([]);
+  const [currentSchoolId, setCurrentSchoolId] = useState<string | null>(null);
+  const [selectedSchoolId, setSelectedSchoolId] = useState<string>('');
+  const [isLoadingSchools, setIsLoadingSchools] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const stored = typeof localStorage !== 'undefined' ? localStorage.getItem('sara_class_id') : null;
-    setCurrentClassId(stored);
-    if (stored) setSelectedClassId(stored);
+    const stored = typeof localStorage !== 'undefined' ? localStorage.getItem('sara_school_id') || localStorage.getItem('sara_class_id') : null;
+    setCurrentSchoolId(stored);
+    if (stored) setSelectedSchoolId(stored);
   }, []);
 
   useEffect(() => {
     if (!isAuthenticated) return;
 
     let isMounted = true;
-    async function fetchClasses() {
+    async function fetchSchools() {
       try {
-        setIsLoadingClasses(true);
+        setIsLoadingSchools(true);
         setError(null);
-        const res = await fetch('/api/admin/classes', { credentials: 'same-origin' });
+        const res = await fetch('/api/schools', { credentials: 'same-origin' });
         if (!res.ok) {
-          throw new Error('Failed to load classes from server');
+          throw new Error('Failed to load schools from server');
         }
         const data = await res.json();
         if (isMounted) {
-          const list = (data.classes || []).filter((c: ClassItem & { archived_at?: string | null }) => !c.archived_at);
-          setClasses(list);
-          if (list.length > 0 && !selectedClassId) {
-            setSelectedClassId(list[0].id);
+          const list = data.schools || [];
+          setSchools(list);
+          if (list.length > 0 && !selectedSchoolId) {
+            setSelectedSchoolId(list[0].id);
           }
         }
       } catch (err: unknown) {
         if (isMounted) {
-          setError(err instanceof Error ? err.message : 'Unable to load classes');
+          setError(err instanceof Error ? err.message : 'Unable to load schools');
         }
       } finally {
-        if (isMounted) setIsLoadingClasses(false);
+        if (isMounted) setIsLoadingSchools(false);
       }
     }
 
-    fetchClasses();
+    fetchSchools();
 
     return () => {
       isMounted = false;
     };
-  }, [isAuthenticated, selectedClassId]);
+  }, [isAuthenticated, selectedSchoolId]);
 
   const handleAdminLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -93,22 +94,33 @@ export function SetupComputerPage() {
   };
 
   const handleSaveSetup = () => {
-    if (!selectedClassId) {
-      setError('Please select a class for this computer.');
+    if (!selectedSchoolId) {
+      setError('Please select a school for this computer.');
       return;
     }
     try {
-      localStorage.setItem('sara_class_id', selectedClassId);
-      setCurrentClassId(selectedClassId);
+      const sch = schools.find((s) => s.id === selectedSchoolId);
+      const schoolName = sch?.school_name || sch?.name || 'School';
+
+      localStorage.setItem('sara_school_id', selectedSchoolId);
+      localStorage.setItem('sara_school_name', schoolName);
+      // Also store sara_class_id for backwards compatibility
+      localStorage.setItem('sara_class_id', selectedSchoolId);
+
+      setCurrentSchoolId(selectedSchoolId);
       setSaveSuccess(true);
+      setTimeout(() => {
+        navigate('/students');
+      }, 1500);
     } catch {
-      setError('Unable to save settings to localStorage.');
+      setError('Failed to persist configuration to local storage.');
     }
   };
 
   return (
-    <div className="min-h-screen bg-surface flex flex-col justify-between p-4 sm:p-6 lg:p-8">
-      <header className="max-w-7xl w-full mx-auto flex items-center justify-between">
+    <div className="min-h-screen bg-surface flex flex-col items-center justify-center p-4 sm:p-6 text-text">
+      {/* Top back button */}
+      <div className="w-full max-w-xl mb-4 flex items-center justify-between">
         <Link
           to="/students"
           className="inline-flex items-center gap-2 text-sm font-bold text-text-muted hover:text-text transition-colors"
@@ -116,180 +128,166 @@ export function SetupComputerPage() {
           <ArrowLeft className="w-4 h-4" />
           <span>Student Screen / மாணவர் பக்கம்</span>
         </Link>
-        <span className="text-xs font-mono text-text-muted px-2.5 py-1 rounded-full bg-surface-raised border border-surface-highlight">
+        <span className="text-xs font-mono text-text-muted bg-surface-raised px-2.5 py-1 rounded-full border border-surface-highlight">
           Device Configuration
         </span>
-      </header>
-
-      <div className="w-full max-w-xl mx-auto my-8">
-        <div className="bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-8 animate-in fade-in duration-200">
-          <div className="text-center space-y-2">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary-100 text-primary-600 mb-1">
-              <Monitor className="w-9 h-9" />
-            </div>
-            <h1 className="text-2xl sm:text-3xl font-display font-extrabold text-text">
-              Set up this computer
-            </h1>
-            <p className="text-sm text-text-muted">
-              Select which class will practice on this computer. Only students from this class will appear on this screen.
-            </p>
-          </div>
-
-          {!isAuthenticated ? (
-            <div className="space-y-6 pt-2">
-              <div className="p-4 bg-primary-50/70 border border-primary-200 rounded-2xl flex items-center gap-3 text-xs text-primary-900">
-                <ShieldCheck className="w-5 h-5 text-primary-700 shrink-0" />
-                <span>
-                  Admin authentication required to change this computer's class assignment.
-                </span>
-              </div>
-
-              {loginError && (
-                <div className="p-4 bg-danger-50 border border-danger-200 text-danger-700 text-sm font-semibold rounded-2xl flex items-start gap-2">
-                  <AlertCircle className="w-5 h-5 shrink-0 mt-0.5 text-danger-600" />
-                  <span>{loginError}</span>
-                </div>
-              )}
-
-              <form onSubmit={handleAdminLogin} className="space-y-4">
-                <div className="space-y-1">
-                  <label className="block text-xs font-bold text-text">Admin Username</label>
-                  <input
-                    type="text"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    placeholder="Username"
-                    className="w-full px-4 py-2.5 rounded-xl border border-surface-highlight bg-white text-text text-sm font-medium focus:ring-4 focus:ring-primary-100 focus:outline-none"
-                  />
-                </div>
-                <div className="space-y-1">
-                  <label className="block text-xs font-bold text-text">Admin Password</label>
-                  <input
-                    type="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Password"
-                    className="w-full px-4 py-2.5 rounded-xl border border-surface-highlight bg-white text-text text-sm font-medium focus:ring-4 focus:ring-primary-100 focus:outline-none"
-                  />
-                </div>
-                <Button
-                  type="submit"
-                  variant="primary"
-                  size="large"
-                  disabled={isLoggingIn}
-                  className="w-full py-3.5 text-sm font-bold rounded-2xl cursor-pointer"
-                >
-                  {isLoggingIn ? 'Authenticating...' : 'Sign In as Admin to Setup'}
-                </Button>
-              </form>
-            </div>
-          ) : (
-            <div className="space-y-6">
-              {saveSuccess && (
-                <div className="p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm font-semibold rounded-2xl flex items-center gap-3 animate-in fade-in">
-                  <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                  <span>
-                    Saved! This computer is now set up. Students will see their names when they tap "Who is Learning?".
-                  </span>
-                </div>
-              )}
-
-              {error && (
-                <div className="p-4 bg-danger-50 border border-danger-200 text-danger-700 text-sm font-semibold rounded-2xl">
-                  {error}
-                </div>
-              )}
-
-              {currentClassId && (
-                <div className="p-3 bg-surface border border-surface-highlight rounded-xl text-xs flex items-center justify-between">
-                  <span className="text-text-muted">Current setup on this PC:</span>
-                  <span className="font-bold text-primary-700 font-mono">
-                    {classes.find((c) => c.id === currentClassId)?.name || currentClassId}
-                  </span>
-                </div>
-              )}
-
-              {isLoadingClasses ? (
-                <div className="py-8 text-center text-text-muted animate-pulse">
-                  Loading classes...
-                </div>
-              ) : classes.length === 0 ? (
-                <div className="text-center py-6 space-y-3">
-                  <p className="text-text-muted text-sm">No classes found for your school.</p>
-                  <Button
-                    variant="secondary"
-                    size="normal"
-                    onClick={() => navigate('/admin/dashboard')}
-                  >
-                    Go to Dashboard to Add a Class
-                  </Button>
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  <label className="block text-xs font-bold uppercase tracking-wider text-text-muted">
-                    Choose Class for this Computer:
-                  </label>
-                  <div className="space-y-2 max-h-64 overflow-y-auto px-1 py-1">
-                    {classes.map((cls) => {
-                      const isSelected = selectedClassId === cls.id;
-                      return (
-                        <div
-                          key={cls.id}
-                          onClick={() => {
-                            setSelectedClassId(cls.id);
-                            setSaveSuccess(false);
-                          }}
-                          className={`p-4 rounded-2xl border-2 flex items-center justify-between cursor-pointer transition-all ${
-                            isSelected
-                              ? 'border-primary-500 bg-primary-50/70 shadow-xs'
-                              : 'border-surface-highlight bg-white hover:border-primary-300'
-                          }`}
-                        >
-                          <div>
-                            <div className="font-bold text-text text-base">{cls.name}</div>
-                            <div className="text-xs text-text-muted">{cls.grade}</div>
-                          </div>
-                          {isSelected && (
-                            <div className="w-6 h-6 rounded-full bg-primary-500 text-white flex items-center justify-center">
-                              <CheckCircle2 className="w-4 h-4" />
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-
-                  <div className="pt-4 flex flex-col sm:flex-row gap-3">
-                    <Button
-                      type="button"
-                      variant="primary"
-                      size="large"
-                      onClick={handleSaveSetup}
-                      className="w-full sm:flex-1 py-4 text-base font-bold rounded-2xl shadow-sm cursor-pointer"
-                    >
-                      Save Setup / அமைப்பைச் சேமி
-                    </Button>
-                    <Button
-                      type="button"
-                      variant="secondary"
-                      size="large"
-                      onClick={() => navigate('/students')}
-                      className="w-full sm:w-auto py-4 px-6 text-base font-bold rounded-2xl cursor-pointer"
-                    >
-                      Go to Student Screen
-                    </Button>
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-        </div>
       </div>
 
-      <footer className="text-center text-xs text-text-muted py-2">
-        <span>Sara Learning Platform · Classroom Device Manager</span>
-      </footer>
+      <div className="w-full max-w-xl bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-8 animate-in fade-in duration-200">
+        <div className="text-center space-y-2">
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary-100 text-primary-600 mb-2">
+            <Monitor className="w-8 h-8" />
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-display font-extrabold text-text">
+            Set up this computer
+          </h1>
+          <p className="text-sm sm:text-base text-text-muted">
+            Select which school will practice on this computer. Only students from this school will appear on this screen.
+          </p>
+        </div>
+
+        {/* State A: Admin not logged in */}
+        {!isAuthenticated ? (
+          <form onSubmit={handleAdminLogin} className="space-y-4">
+            <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm flex items-start gap-3">
+              <ShieldCheck className="w-5 h-5 shrink-0 text-emerald-600 mt-0.5" />
+              <span>
+                Admin authentication required to change this computer&apos;s school assignment.
+              </span>
+            </div>
+
+            {loginError && (
+              <div className="p-4 rounded-2xl bg-danger-50 border border-danger-200 text-danger-700 text-sm flex items-center gap-2">
+                <AlertCircle className="w-5 h-5 shrink-0" />
+                <span>{loginError}</span>
+              </div>
+            )}
+
+            <div className="space-y-1">
+              <label className="block text-xs font-bold text-text-muted uppercase">
+                Admin Username
+              </label>
+              <input
+                type="text"
+                required
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder="Enter administrator username"
+                className="w-full px-4 py-3 bg-surface border border-surface-highlight rounded-2xl text-sm text-text focus:outline-hidden focus:ring-2 focus:ring-primary-500 font-medium"
+              />
+            </div>
+
+            <div className="space-y-1">
+              <label className="block text-xs font-bold text-text-muted uppercase">
+                Admin Password
+              </label>
+              <input
+                type="password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="••••••••••••"
+                className="w-full px-4 py-3 bg-surface border border-surface-highlight rounded-2xl text-sm text-text focus:outline-hidden focus:ring-2 focus:ring-primary-500 font-mono"
+              />
+            </div>
+
+            <Button
+              type="submit"
+              size="large"
+              variant="primary"
+              disabled={isLoggingIn}
+              className="w-full py-4 text-base font-bold rounded-2xl cursor-pointer"
+            >
+              {isLoggingIn ? 'Verifying...' : 'Sign In as Admin to Setup'}
+            </Button>
+          </form>
+        ) : (
+          /* State B: Admin authenticated, show School selector */
+          <div className="space-y-6">
+            <div className="p-4 rounded-2xl bg-primary-50 border border-primary-200 text-primary-900 text-xs sm:text-sm flex items-center gap-2">
+              <CheckCircle2 className="w-5 h-5 text-primary-600 shrink-0" />
+              <span>
+                Admin session verified. Select the school to assign to this computer.
+              </span>
+            </div>
+
+            {error && (
+              <div className="p-4 rounded-2xl bg-danger-50 border border-danger-200 text-danger-700 text-sm flex items-center gap-2">
+                <AlertCircle className="w-5 h-5 shrink-0" />
+                <span>{error}</span>
+              </div>
+            )}
+
+            {saveSuccess && (
+              <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm flex items-center gap-2 animate-in zoom-in-95">
+                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                <span>Computer successfully configured! Redirecting to student screen...</span>
+              </div>
+            )}
+
+            <div className="space-y-2">
+              <label className="block text-xs font-bold text-text-muted uppercase">
+                Assigned School
+              </label>
+
+              {isLoadingSchools ? (
+                <div className="p-4 text-center text-text-muted text-sm animate-pulse">
+                  Loading schools list...
+                </div>
+              ) : schools.length === 0 ? (
+                <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-800 text-sm">
+                  No schools registered yet. Please create a school from the Admin portal first.
+                </div>
+              ) : (
+                <select
+                  value={selectedSchoolId}
+                  onChange={(e) => setSelectedSchoolId(e.target.value)}
+                  className="w-full px-4 py-3 bg-surface border border-surface-highlight rounded-2xl text-sm font-semibold text-text focus:outline-hidden focus:ring-2 focus:ring-primary-500"
+                >
+                  {schools.map((s) => (
+                    <option key={s.id} value={s.id}>
+                      {s.school_name || s.name} ({s.school_code || s.id})
+                    </option>
+                  ))}
+                </select>
+              )}
+            </div>
+
+            {currentSchoolId && (
+              <div className="text-xs text-text-muted flex items-center gap-1.5">
+                <Building2 className="w-3.5 h-3.5" />
+                <span>Currently configured school ID: </span>
+                <span className="font-mono font-bold text-text">{currentSchoolId}</span>
+              </div>
+            )}
+
+            <div className="pt-2 flex flex-col gap-3">
+              <Button
+                variant="primary"
+                size="large"
+                onClick={handleSaveSetup}
+                disabled={isLoadingSchools || schools.length === 0 || saveSuccess}
+                className="w-full py-4 text-base font-bold rounded-2xl cursor-pointer"
+              >
+                Save and Launch Student Screen
+              </Button>
+
+              <Button
+                variant="secondary"
+                size="normal"
+                onClick={() => navigate('/admin/dashboard')}
+                className="w-full py-3 text-sm font-bold rounded-2xl cursor-pointer"
+              >
+                Go to Admin Portal
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="mt-8 text-center text-xs text-text-muted">
+        Sara Learning Platform · Classroom Device Manager
+      </div>
     </div>
   );
 }
-

@@ -35,7 +35,7 @@ export function SubjectSelectionPage() {
     <Page>
       <div className="space-y-8">
         <div className="text-center space-y-2">
-          <h1 className="text-4xl md:text-5xl font-display font-bold text-text">வகுப்பு 2 & 3 · பாடங்கள்</h1>
+          <h1 className="text-4xl md:text-5xl font-display font-bold text-text">பாடங்கள் · Subjects</h1>
           <p className="text-xl text-text-muted">இன்று நீங்கள் என்ன பயில விரும்புகிறீர்கள்? · Choose Subject</p>
         </div>
 

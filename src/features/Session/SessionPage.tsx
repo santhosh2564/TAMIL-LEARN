@@ -10,6 +10,7 @@ import { Activity, ActivityCategory } from '../../types';
 import { ProgressService, LocalProgressRepository, EnglishProgressService, PROGRESS_STORAGE_KEY_V2 } from '../../progress';
 import { useStudent } from '../../student';
 import { sessionSync } from '../../services/SessionSyncService';
+import { assessmentTracker } from '../../services/AssessmentTrackingService';
 
 export function SessionPage() {
   const navigate = useNavigate();
@@ -109,8 +110,13 @@ export function SessionPage() {
         const studentId =
           activeStudent?.id;
 
-        // Resume the server-side session (possibly started on another desktop) when asked to.
-        const resumeSessionId = searchParams.get('resumeSessionId');
+        // Resume server-side or local active session across refresh / tab reload
+        const resumeSessionId =
+          searchParams.get('resumeSessionId') ||
+          (typeof sessionStorage !== 'undefined'
+            ? sessionStorage.getItem('sa.activeAssessmentSessionId')
+            : null);
+
         const activeSess =
           resumeSessionId && studentId
             ? await sessionSync.getActiveSession(studentId, isEnglish ? 'english' : 'tamil', category || undefined)
@@ -119,10 +125,12 @@ export function SessionPage() {
         let selectedActivities: Activity[];
         let startIndex = 0;
         let sessionId = 'session-' + Date.now();
-        if (activeSess && activeSess.activityIds.length > 0) {
+        if (activeSess && activeSess.activityIds.length > 0 && activeSess.currentIndex < activeSess.activityIds.length) {
           selectedActivities = await selector.selectActivitiesByIds(activeSess.activityIds);
           startIndex = activeSess.currentIndex;
           sessionId = activeSess.id;
+          // Synchronize historical attempt counts from server for accurate continuation
+          await assessmentTracker.syncAttemptsFromServer(sessionId);
         } else {
           selectedActivities = await selector.selectActivities(config);
           if (studentId && selectedActivities.length > 0) {
@@ -132,9 +140,14 @@ export function SessionPage() {
               categoryOrModule: category || (config.module ? `module-${config.module}` : 'mixed'),
               activityIds: selectedActivities.map((a) => a.id),
               currentIndex: 0,
+              moduleId: config.module ?? null,
             });
             sessionId = saved.id;
           }
+        }
+
+        if (typeof sessionStorage !== 'undefined') {
+          sessionStorage.setItem('sa.activeAssessmentSessionId', sessionId);
         }
 
         if (selectedActivities.length === 0) {
@@ -212,19 +225,36 @@ export function SessionPage() {
       const studentId =
         activeStudent?.id;
 
-      // Persist individual attempt to isolated student tracking
+      // Unified question attempt tracking for Tamil and English
       if (studentId) {
+        assessmentTracker
+          .recordSubmission(
+            {
+              studentId,
+              sessionId: session.id,
+              activity,
+              fallbackModule: config.module,
+              input,
+              isCorrect: evaluation.correct,
+              isCompleted: evaluation.completed,
+              sessionIndex: session.currentIndex,
+            },
+            {
+              progressService: tamilProgressService,
+              englishProgressService: isEnglish ? englishProgressService : undefined,
+            }
+          )
+          .catch(() => {});
+      } else {
         tamilProgressService
           .recordAttempt({
-            studentId,
+            studentId: 'unassigned',
             activityId: activity.id,
             category: activity.category,
             isCorrect: evaluation.correct,
             isCompleted: evaluation.completed,
           })
-          .catch(() => {
-            // Non-fatal
-          });
+          .catch(() => {});
       }
 
       if (evaluation.completed) {
@@ -263,7 +293,7 @@ export function SessionPage() {
     } catch (err) {
       console.error(err);
     }
-  }, [session, currentActivityState, activities, engine, sessionService, isEnglish, englishProgressService, tamilProgressService, activeStudent]);
+  }, [session, currentActivityState, activities, engine, sessionService, isEnglish, englishProgressService, tamilProgressService, activeStudent, config.module]);
 
   const handleNext = useCallback(() => {
     if (!session) return;
@@ -271,18 +301,30 @@ export function SessionPage() {
     const advancedSession = sessionService.nextActivity(session);
     setSession(advancedSession);
 
-    const studentId =
-      activeStudent?.id;
+    const studentId = activeStudent?.id;
+    const nextActivityId = sessionService.getCurrentActivityId(advancedSession);
+    const nextQuestionId =
+      nextActivityId && activities[nextActivityId]
+        ? isEnglish
+          ? activities[nextActivityId].source?.ewId || activities[nextActivityId].id
+          : activities[nextActivityId].source?.questionId || activities[nextActivityId].id
+        : undefined;
+
     if (studentId) {
       sessionSync.updateSessionProgress(
         session.id,
         studentId,
         advancedSession.currentIndex,
-        advancedSession.status === 'completed' ? 'completed' : 'active'
+        advancedSession.status === 'completed' ? 'completed' : 'active',
+        nextActivityId || undefined,
+        nextQuestionId
       );
     }
 
     if (advancedSession.status === 'completed') {
+      if (typeof sessionStorage !== 'undefined') {
+        sessionStorage.removeItem('sa.activeAssessmentSessionId');
+      }
       setIsNavigatingToResults(true);
       // Wait for state flush then navigate
       setTimeout(() => {
@@ -302,7 +344,7 @@ export function SessionPage() {
         setCurrentActivityState(engine.start(activities[nextActivityId]));
       }
     }
-  }, [session, activities, config, navigate, engine, sessionService, activeStudent]);
+  }, [session, activities, config, navigate, engine, sessionService, activeStudent, isEnglish]);
 
   if (isLoading) return <Page hideHeader><LoadingState message="பயிற்சி தயாராகிறது..." /></Page>;
   
