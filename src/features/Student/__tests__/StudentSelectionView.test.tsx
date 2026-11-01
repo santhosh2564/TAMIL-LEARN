@@ -62,7 +62,7 @@ describe('StudentSelectionView Component', () => {
     );
 
     await waitFor(() => {
-      expect(screen.getByText('Who is learning today?')).toBeInTheDocument();
+      expect(screen.getByText("Welcome! Let's Learn")).toBeInTheDocument();
       expect(screen.getByText('Primary School Alpha')).toBeInTheDocument();
       expect(screen.getByText('Kavin')).toBeInTheDocument();
       expect(screen.getByText('Malar')).toBeInTheDocument();
@@ -135,6 +135,43 @@ describe('StudentSelectionView Component', () => {
       expect(screen.getByTestId('session-resume-card')).toBeInTheDocument();
       expect(screen.getByText(/Question 4 of 5/i)).toBeInTheDocument();
       expect(screen.getByRole('button', { name: /தொடர்க \/ Continue/i })).toBeInTheDocument();
+    });
+  });
+
+  it('validates student name input and displays an error when student is not found', async () => {
+    localStorage.setItem('sara_school_id', 'sch-123');
+    const user = userEvent.setup();
+
+    vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL) => {
+      const url = typeof input === 'string' ? input : input.toString();
+      if (url.includes('/api/schools/sch-123/roster')) {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({
+            schoolName: 'Primary School Alpha',
+            students: [{ id: 'stu-1', name: 'Kavin', pinRequired: false }],
+          }),
+        } as Response);
+      }
+      return Promise.resolve({ ok: true, json: async () => ({}) } as Response);
+    });
+
+    render(
+      <MemoryRouter>
+        <StudentProvider>
+          <StudentSelectionView />
+        </StudentProvider>
+      </MemoryRouter>
+    );
+
+    const input = await screen.findByPlaceholderText(/Type your name/i);
+    await user.type(input, 'UnknownStudent');
+
+    const continueBtn = screen.getByRole('button', { name: /Continue \/ தொடர்க/i });
+    await user.click(continueBtn);
+
+    await waitFor(() => {
+      expect(screen.getByText(/Student "UnknownStudent" was not found/i)).toBeInTheDocument();
     });
   });
 });

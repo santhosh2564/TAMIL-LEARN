@@ -2,8 +2,8 @@ import { Navigate, Outlet } from 'react-router-dom';
 import { useStudent } from './useStudent';
 import { LoadingState } from '../components/ui/LoadingState';
 
-export const STUDENT_LOGIN_PATH = '/students';
-export const CLASS_CODE_PATH = '/students'; // backwards compat for any remaining imports
+export const STUDENT_LOGIN_PATH = '/';
+export const CLASS_CODE_PATH = '/'; // backwards compat for any remaining imports
 
 /**
  * Guards learning pages: they need a server student session (restored from

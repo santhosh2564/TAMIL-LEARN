@@ -32,11 +32,16 @@ export const routes: RouteObject[] = [
     children: [
       {
         index: true,
-        element: <HomePage />,
+        // Root route is the Student Welcome / Name Entry screen
+        element: <StudentSelectionPage />,
       },
       {
         path: 'students',
         element: <StudentSelectionPage />,
+      },
+      {
+        path: 'home',
+        element: <HomePage />,
       },
       {
         path: 'setup',

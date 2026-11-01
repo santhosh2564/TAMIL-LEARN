@@ -3,7 +3,16 @@ import { Page } from '../../components/ui/Page';
 import { Button } from '../../components/ui/Button';
 import { useStudent } from '../../student';
 import { useNavigate } from 'react-router-dom';
-import { Trash2, CheckCircle2, Users, Image as ImageIcon } from 'lucide-react';
+import {
+  Trash2,
+  CheckCircle2,
+  Users,
+  Image as ImageIcon,
+  Shield,
+  Monitor,
+  Info,
+  Lock,
+} from 'lucide-react';
 
 export function SettingsPage() {
   const navigate = useNavigate();
@@ -24,8 +33,50 @@ export function SettingsPage() {
       <div className="max-w-2xl mx-auto py-8 sm:py-12 space-y-10">
         <div>
           <h1 className="text-3xl font-display font-bold text-text mb-2">Settings (அமைப்புகள்)</h1>
-          <p className="text-text-muted">Manage your learning profiles and preferences.</p>
+          <p className="text-text-muted">Manage your learning profiles, device setup, and administrator access.</p>
         </div>
+
+        {/* Administrator Access Section */}
+        <section
+          data-testid="admin-access-section"
+          className="bg-gradient-to-br from-indigo-50/80 via-white to-purple-50/60 rounded-3xl p-6 sm:p-8 space-y-5 border-2 border-indigo-200/80 shadow-sm"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center shrink-0 shadow-md">
+              <Shield className="w-6 h-6" />
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2">
+                <h2 className="text-xl font-bold text-slate-900">Administrator Access</h2>
+                <span className="text-xs bg-indigo-100 text-indigo-700 font-bold px-2.5 py-0.5 rounded-full">
+                  Admin Only
+                </span>
+              </div>
+              <p className="text-sm font-tamil text-slate-600 mt-0.5">நிர்வாகி அணுகல்</p>
+              <p className="text-text-muted text-sm mt-2">
+                Sign in to manage schools, students, roster imports, and view complete assessment analytics and reports.
+              </p>
+            </div>
+          </div>
+
+          <div className="pt-2 flex flex-wrap gap-3">
+            <Button
+              variant="primary"
+              data-testid="admin-login-button"
+              onClick={() => navigate('/admin/login')}
+              className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-5 py-2.5 rounded-2xl shadow-sm"
+            >
+              <Lock className="w-4 h-4" /> Sign In as Administrator (நிர்வாகி உள்நுழைவு)
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() => navigate('/setup')}
+              className="flex items-center gap-2 font-medium px-4 py-2.5 rounded-2xl"
+            >
+              <Monitor className="w-4 h-4" /> Device Setup (கணினி அமைவு)
+            </Button>
+          </div>
+        </section>
 
         {/* Student Profile Section */}
         <section className="bg-surface-raised rounded-3xl p-6 sm:p-8 space-y-6 border border-surface-highlight">
@@ -40,7 +91,7 @@ export function SettingsPage() {
             </div>
             <Button
               variant="secondary"
-              onClick={() => navigate('/students')}
+              onClick={() => navigate('/')}
               className="flex items-center gap-2"
             >
               <Users size={18} /> Switch Student (மாணவர் மாற்றம்)
@@ -62,7 +113,6 @@ export function SettingsPage() {
               </div>
             </div>
           )}
-
         </section>
 
         {/* Progress Section */}
@@ -114,6 +164,22 @@ export function SettingsPage() {
             )}
           </section>
         )}
+
+        {/* Application Information */}
+        <section className="bg-surface-raised rounded-3xl p-6 sm:p-8 space-y-4 border border-surface-highlight">
+          <div className="flex items-start gap-3">
+            <Info className="w-5 h-5 text-text-muted shrink-0 mt-0.5" />
+            <div className="space-y-2">
+              <h2 className="text-lg font-bold text-text">Application Information (செயலி தகவல்)</h2>
+              <div className="text-sm text-text-muted space-y-1">
+                <p><span className="font-medium text-text">Platform:</span> TAMIL-LEARN (Early Literacy & Language Platform)</p>
+                <p><span className="font-medium text-text">Version:</span> 2.0 (Common Course Architecture)</p>
+                <p><span className="font-medium text-text">Subjects:</span> Tamil (தமிழ்) & English (ஆங்கிலம்)</p>
+                <p><span className="font-medium text-text">Environment:</span> Neon PostgreSQL Cloud Database with Shared Device Mode</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Credits & Attribution Section */}
         <section className="bg-surface-raised rounded-3xl p-6 sm:p-8 space-y-4 border border-surface-highlight">

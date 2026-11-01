@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useStudent } from '../../student';
 import { sessionSync, ActiveSessionDto } from '../../services/SessionSyncService';
-import { Sparkles, Check, Play, BookOpen, Building2, Lock, ArrowLeft } from 'lucide-react';
+import { Sparkles, Check, Play, BookOpen, Building2, Lock, ArrowLeft, Search, GraduationCap } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
 // Playful child-friendly color themes for student avatar badges
@@ -37,7 +37,7 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
   const navigate = useNavigate();
   const { selectStudent, activeStudent } = useStudent();
 
-  // Institution / Class state
+  // Institution / School state
   const [schoolId, setSchoolId] = useState<string | null>(null);
   const [schoolName, setSchoolName] = useState<string>('');
   const [schools, setSchools] = useState<SchoolItem[]>([]);
@@ -48,6 +48,9 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Name entry state
+  const [nameInput, setNameInput] = useState('');
 
   // PIN modal state
   const [pinStudent, setPinStudent] = useState<StudentItem | null>(null);
@@ -71,12 +74,23 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
       setSchoolId(storedClassId);
     }
 
-    // Also fetch available schools in case student wants to choose
+    // Always fetch available schools
     fetch('/api/public/schools')
       .then((res) => (res.ok ? res.json() : { schools: [] }))
       .then((data) => {
         const list = data.schools || [];
         setSchools(list);
+        if (!storedSchoolId && !storedClassId && list.length > 0) {
+          const defaultSchool = list[0];
+          setSchoolId(defaultSchool.id);
+          setSchoolName(defaultSchool.name || defaultSchool.school_name || '');
+          try {
+            localStorage.setItem('sara_school_id', defaultSchool.id);
+            if (defaultSchool.name) localStorage.setItem('sara_school_name', defaultSchool.name);
+          } catch {
+            // ignore
+          }
+        }
       })
       .catch(() => {});
   }, []);
@@ -103,7 +117,7 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
 
         if (!res.ok) {
           if (res.status === 404) {
-            setError('The school or classroom configured for this computer was not found or has been archived.');
+            setError('The school configured for this computer was not found or has been archived.');
           } else {
             setError('Unable to load student roster. Please check network connection.');
           }
@@ -176,7 +190,7 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
         setResumingStudentName(student.name);
         setIsSubmitting(false);
       } else {
-        // No active session: go straight to subject selection
+        // No active session: go straight to subject selection dashboard
         if (onSuccess) {
           onSuccess();
         } else {
@@ -209,8 +223,51 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
     executeSelect(pinStudent, pinInput.split('').slice(0, 3));
   };
 
-  // 1. Prompt to choose school or set up computer if no school selected
-  if (!isLoading && (!schoolId || isChoosingSchool)) {
+  // Name form submit: find exact or closest match in roster
+  const handleNameSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+
+    const query = nameInput.trim();
+    if (!query) {
+      setError('Please type your name or select from the list below.');
+      return;
+    }
+
+    const exactMatch = students.find(
+      (s) => s.name.trim().toLowerCase() === query.toLowerCase()
+    );
+
+    if (exactMatch) {
+      handleStudentClick(exactMatch);
+      return;
+    }
+
+    // Try prefix or substring match if only 1 student matches
+    const partialMatches = students.filter((s) =>
+      s.name.toLowerCase().includes(query.toLowerCase())
+    );
+
+    if (partialMatches.length === 1) {
+      handleStudentClick(partialMatches[0]);
+      return;
+    }
+
+    // Reject unknown students without creating silent records
+    setError(
+      `Student "${query}" was not found in ${schoolName || 'this school roster'}. Please check your spelling or choose your name from the list below.`
+    );
+  };
+
+  // Filter students by typed input if any
+  const filteredStudents = nameInput.trim()
+    ? students.filter((s) =>
+        s.name.toLowerCase().includes(nameInput.trim().toLowerCase())
+      )
+    : students;
+
+  // 1. Prompt to choose school or set up computer if user asked to switch or no schools exist
+  if (!isLoading && (isChoosingSchool || (!schoolId && schools.length === 0))) {
     return (
       <div className="w-full max-w-xl mx-auto bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-6 animate-in fade-in duration-200">
         <div className="text-center space-y-2">
@@ -344,23 +401,26 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
     );
   }
 
-  // 3. Regular "Who is Learning?" roster list
+  // 3. Regular Student Welcome / Name Entry screen
   return (
-    <div className="w-full max-w-xl mx-auto bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-6 animate-in fade-in duration-200">
+    <div className="w-full max-w-2xl mx-auto bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-6 animate-in fade-in duration-200">
+      {/* TAMIL-LEARN Branding Header */}
       <div className="text-center space-y-2">
-        <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary-100 text-primary-600 mb-1">
-          <Sparkles className="w-8 h-8" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary-100 text-primary-700 font-mono text-xs font-bold uppercase tracking-wider mb-1">
+          <GraduationCap className="w-4 h-4" />
+          <span>TAMIL-LEARN · கல்வி தளம்</span>
         </div>
+
         <h1 className="text-3xl sm:text-4xl font-display font-extrabold text-text">
-          Who is learning today?
+          Welcome! Let&apos;s Learn
         </h1>
-        <p className="text-sm sm:text-base text-text-muted">
-          இன்று கற்பவர் யார்? உங்கள் பெயரைத் தேர்ந்தெடுக்கவும்
+        <p className="text-sm sm:text-base text-primary-600 font-bold">
+          வணக்கம்! கற்கலாம் வாருங்கள்
         </p>
 
         {schoolName && (
-          <div className="flex items-center justify-center gap-2 pt-1">
-            <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary-700 bg-primary-50 border border-primary-200 px-3 py-1 rounded-full">
+          <div className="flex items-center justify-center gap-2 pt-2">
+            <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary-800 bg-primary-50 border border-primary-200 px-3 py-1 rounded-full shadow-xs">
               <Building2 className="w-3.5 h-3.5" />
               <span>{schoolName}</span>
             </span>
@@ -375,83 +435,168 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
         )}
       </div>
 
+      {/* Active Student Banner if already selected */}
+      {activeStudent && (
+        <div className="p-4 rounded-2xl bg-primary-50 border border-primary-200 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-primary-500 text-white font-bold flex items-center justify-center shadow-xs">
+              {activeStudent.name.charAt(0).toUpperCase()}
+            </div>
+            <div>
+              <div className="text-xs text-primary-700 font-semibold">Signed in as:</div>
+              <div className="text-base font-bold text-text">{activeStudent.name}</div>
+            </div>
+          </div>
+          <Button
+            size="normal"
+            variant="primary"
+            onClick={() => navigate('/subjects')}
+            className="text-xs font-bold py-2 px-4 shadow-sm"
+          >
+            Open Dashboard ▶
+          </Button>
+        </div>
+      )}
+
+      {/* Name Entry Form */}
+      <form onSubmit={handleNameSubmit} className="space-y-3 pt-2">
+        <label
+          htmlFor="student-name-input"
+          className="block text-xs font-bold text-text-muted uppercase tracking-wider text-left"
+        >
+          Enter Your Name / உங்கள் பெயர்
+        </label>
+        <div className="flex flex-col sm:flex-row gap-2">
+          <div className="relative flex-1">
+            <Search className="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-text-muted" />
+            <input
+              id="student-name-input"
+              type="text"
+              value={nameInput}
+              onChange={(e) => {
+                setNameInput(e.target.value);
+                setError(null);
+              }}
+              placeholder="Type your name / உங்கள் பெயரை உள்ளிடவும்"
+              className="w-full pl-10 pr-10 py-3.5 bg-surface border-2 border-surface-highlight focus:border-primary-500 rounded-2xl text-base text-text font-medium outline-hidden transition-all shadow-inner"
+              autoComplete="off"
+            />
+            {nameInput && (
+              <button
+                type="button"
+                onClick={() => setNameInput('')}
+                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-text-muted hover:text-text text-sm font-bold p-1 cursor-pointer"
+                aria-label="Clear name"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+          <Button
+            type="submit"
+            variant="primary"
+            size="large"
+            disabled={isSubmitting || !nameInput.trim()}
+            className="px-6 py-3.5 text-base font-bold rounded-2xl shrink-0 cursor-pointer shadow-md"
+          >
+            Continue / தொடர்க ▶
+          </Button>
+        </div>
+      </form>
+
+      {/* Validation Error Message */}
       {error && (
-        <div className="p-4 bg-danger-50 text-danger-700 rounded-2xl text-center text-sm font-semibold border border-danger-200">
+        <div
+          role="alert"
+          className="p-4 bg-danger-50 text-danger-700 rounded-2xl text-center text-sm font-semibold border border-danger-200 animate-in fade-in duration-150"
+        >
           {error}
         </div>
       )}
 
-      {isLoading ? (
-        <div className="py-12 text-center text-text-muted font-bold text-lg animate-pulse">
-          மாணவர் பட்டியல் ஏற்றப்படுகிறது... / Loading student list...
+      {/* Roster Selection Section */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between text-xs font-bold text-text-muted uppercase tracking-wider pt-2">
+          <span>Choose from roster / பட்டியலிலிருந்து தேர்வு செய்க:</span>
+          <span>{filteredStudents.length} {filteredStudents.length === 1 ? 'student' : 'students'}</span>
         </div>
-      ) : students.length === 0 ? (
-        <div className="text-center py-8 space-y-3">
-          <p className="text-text-muted font-medium">
-            இந்தப் பள்ளியில் மாணவர்கள் எவரும் சேர்க்கப்படவில்லை. (No students found in this school roster.)
-          </p>
-          <p className="text-xs text-text-muted">
-            ஆசிரியர்கள் நிர்வாகப் பக்கத்தில் மாணவர்களைச் சேர்க்கலாம். (Teachers can add students from the Admin Portal.)
-          </p>
-        </div>
-      ) : (
-        <div className="space-y-3 max-h-96 overflow-y-auto px-1 py-1">
-          {students.map((student, idx) => {
-            const isCurrent = activeStudent?.id === student.id;
-            const avatarColor = AVATAR_COLORS[idx % AVATAR_COLORS.length];
-            const initial = (student.name || '?').charAt(0).toUpperCase();
 
-            return (
-              <button
-                key={student.id}
-                type="button"
-                onClick={() => handleStudentClick(student)}
-                disabled={isSubmitting}
-                className={`w-full flex items-center justify-between p-4 sm:p-5 rounded-2xl border-2 transition-all duration-150 text-left cursor-pointer group focus-visible:outline-hidden focus-visible:ring-4 focus-visible:ring-primary-400 ${
-                  isCurrent
-                    ? 'border-primary-500 bg-primary-50/60 shadow-sm'
-                    : 'border-surface-highlight bg-white hover:border-primary-300 hover:bg-surface/50'
-                }`}
-                aria-label={`Select student ${student.name}`}
-              >
-                <div className="flex items-center gap-4">
-                  <div
-                    className={`w-12 h-12 rounded-xl flex items-center justify-center text-xl font-bold font-display shadow-sm ${avatarColor}`}
-                  >
-                    {initial}
-                  </div>
-                  <div>
-                    <div className="text-xl sm:text-2xl font-bold text-text group-hover:text-primary-600 transition-colors flex items-center gap-2">
-                      <span>{student.name}</span>
-                      {student.hasPin && (
-                        <span title="PIN Protected">
-                          <Lock className="w-4 h-4 text-amber-500" />
-                        </span>
+        {isLoading ? (
+          <div className="py-12 text-center text-text-muted font-bold text-lg animate-pulse">
+            மாணவர் பட்டியல் ஏற்றப்படுகிறது... / Loading student list...
+          </div>
+        ) : students.length === 0 ? (
+          <div className="text-center py-8 space-y-3 bg-surface rounded-2xl border border-surface-highlight p-6">
+            <p className="text-text-muted font-medium">
+              இந்தப் பள்ளியில் மாணவர்கள் எவரும் சேர்க்கப்படவில்லை. (No students found in this school roster.)
+            </p>
+            <p className="text-xs text-text-muted">
+              ஆசிரியர்கள் நிர்வாகப் பக்கத்தில் மாணவர்களைச் சேர்க்கலாம். (Teachers can add students from the Admin Portal.)
+            </p>
+          </div>
+        ) : filteredStudents.length === 0 ? (
+          <div className="text-center py-6 text-sm text-text-muted bg-surface rounded-2xl border border-surface-highlight">
+            No students found matching &quot;{nameInput}&quot;. Please check the spelling or select from the full list.
+          </div>
+        ) : (
+          <div className="space-y-2.5 max-h-80 overflow-y-auto px-1 py-1">
+            {filteredStudents.map((student, idx) => {
+              const isCurrent = activeStudent?.id === student.id;
+              const avatarColor = AVATAR_COLORS[idx % AVATAR_COLORS.length];
+              const initial = (student.name || '?').charAt(0).toUpperCase();
+
+              return (
+                <button
+                  key={student.id}
+                  type="button"
+                  onClick={() => handleStudentClick(student)}
+                  disabled={isSubmitting}
+                  className={`w-full flex items-center justify-between p-3.5 sm:p-4 rounded-2xl border-2 transition-all duration-150 text-left cursor-pointer group focus-visible:outline-hidden focus-visible:ring-4 focus-visible:ring-primary-400 ${
+                    isCurrent
+                      ? 'border-primary-500 bg-primary-50/60 shadow-xs'
+                      : 'border-surface-highlight bg-white hover:border-primary-300 hover:bg-surface/50'
+                  }`}
+                  aria-label={`Select student ${student.name}`}
+                >
+                  <div className="flex items-center gap-3.5">
+                    <div
+                      className={`w-11 h-11 rounded-xl flex items-center justify-center text-lg font-bold font-display shadow-xs ${avatarColor}`}
+                    >
+                      {initial}
+                    </div>
+                    <div>
+                      <div className="text-lg sm:text-xl font-bold text-text group-hover:text-primary-600 transition-colors flex items-center gap-2">
+                        <span>{student.name}</span>
+                        {student.hasPin && (
+                          <span title="PIN Protected">
+                            <Lock className="w-3.5 h-3.5 text-amber-500" />
+                          </span>
+                        )}
+                      </div>
+                      {student.rollNumber && (
+                        <div className="text-xs font-mono text-text-muted">
+                          Roll: {student.rollNumber}
+                        </div>
+                      )}
+                      {isCurrent && (
+                        <div className="text-xs font-semibold text-primary-600">
+                          தற்போதைய மாணவர் (Current Student)
+                        </div>
                       )}
                     </div>
-                    {student.rollNumber && (
-                      <div className="text-xs font-mono text-text-muted">
-                        Roll: {student.rollNumber}
-                      </div>
-                    )}
-                    {isCurrent && (
-                      <div className="text-xs font-semibold text-primary-600">
-                        தற்போதைய மாணவர் (Current Student)
-                      </div>
-                    )}
                   </div>
-                </div>
 
-                {isCurrent && (
-                  <div className="w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center">
-                    <Check className="w-5 h-5 stroke-[3]" />
-                  </div>
-                )}
-              </button>
-            );
-          })}
-        </div>
-      )}
+                  {isCurrent && (
+                    <div className="w-7 h-7 rounded-full bg-primary-500 text-white flex items-center justify-center">
+                      <Check className="w-4 h-4 stroke-[3]" />
+                    </div>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
 
       {/* PIN Verification Modal */}
       {pinStudent && (
@@ -507,13 +652,19 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
         </div>
       )}
 
-      {/* Subtle teacher link to change PC's school */}
-      <div className="pt-4 border-t border-surface-highlight text-center">
+      {/* Footer Info & Settings Hint */}
+      <div className="pt-4 border-t border-surface-highlight flex items-center justify-between text-xs text-text-muted">
         <Link
           to="/setup"
-          className="text-xs text-text-muted hover:text-primary-700 transition-colors underline font-medium"
+          className="hover:text-primary-700 transition-colors underline font-medium"
         >
-          Teacher: Change school for this computer (கணினி அமைப்பை மாற்று)
+          Teacher: Set up computer
+        </Link>
+        <Link
+          to="/settings"
+          className="hover:text-primary-700 transition-colors underline font-medium"
+        >
+          Settings & Admin Login
         </Link>
       </div>
     </div>

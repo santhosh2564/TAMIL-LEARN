@@ -14,10 +14,7 @@ import {
   AuthUser,
   LoginCredentials,
   AuthResult,
-  UserRole,
-  Permission,
 } from './types';
-import { can, hasRole } from './rules';
 
 // ── Server-side credential validator ─────────────────────────────────────────
 
@@ -53,8 +50,17 @@ export class AuthService {
       });
 
       if (res.status === 401) {
-        const data = (await res.json().catch(() => ({}))) as { error?: string };
-        return { success: false, error: data.error || 'Invalid username or password' };
+        const data = (await res.json().catch(() => ({}))) as Record<string, unknown>;
+        const rawError = data?.error;
+        let errorMsg = 'Invalid username or password';
+        if (typeof rawError === 'string') {
+          errorMsg = rawError;
+        } else if (rawError && typeof rawError === 'object' && 'message' in rawError) {
+          errorMsg = String((rawError as { message?: unknown }).message || errorMsg);
+        } else if (typeof data?.message === 'string') {
+          errorMsg = data.message;
+        }
+        return { success: false, error: errorMsg };
       }
 
       if (!res.ok) {
@@ -103,37 +109,15 @@ export class AuthService {
         credentials: 'same-origin',
       });
       if (!res.ok) return null;
-
       const data = (await res.json()) as { user: ServerSessionUser };
-      const user = toAuthUser(data.user);
-
+      if (!data?.user) return null;
       return {
         token: 'httponly-cookie',
-        user,
+        user: toAuthUser(data.user),
         expiresAt: new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString(),
       };
     } catch {
       return null;
     }
-  }
-
-  async getCurrentUser(): Promise<AuthUser | null> {
-    const session = await this.getSession();
-    return session?.user ?? null;
-  }
-
-  async isAuthenticated(): Promise<boolean> {
-    const session = await this.getSession();
-    return session !== null;
-  }
-
-  async hasRole(role: UserRole): Promise<boolean> {
-    const user = await this.getCurrentUser();
-    return hasRole(user, role);
-  }
-
-  async can(permission: Permission): Promise<boolean> {
-    const user = await this.getCurrentUser();
-    return can(user, permission);
   }
 }

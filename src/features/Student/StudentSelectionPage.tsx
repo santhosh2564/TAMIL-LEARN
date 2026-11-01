@@ -6,7 +6,7 @@ export function StudentSelectionPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const from = (location.state as { from?: string })?.from || '/classes/3/subjects';
+  const from = (location.state as { from?: string })?.from || '/subjects';
 
   const handleSuccess = () => {
     navigate(from, { replace: true });
