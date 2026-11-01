@@ -1,9 +1,10 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Calendar, AlertTriangle, PlayCircle, Target } from 'lucide-react';
 import { AdminProgressService } from '../../admin/AdminProgressService';
 import { StudentDetailedProgress } from '../../admin/types';
 import { CategoryMasteryTable } from './components/CategoryMasteryTable';
+import { ModuleProgressTable } from './components/ModuleProgressTable';
 import { QuestionHistoryTable } from './components/QuestionHistoryTable';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { Button } from '../../components/ui/Button';
@@ -65,8 +66,9 @@ export function AdminStudentDetailPage() {
     );
   }
 
-  const formattedLastActive = detail.lastActiveAt
-    ? new Date(detail.lastActiveAt).toLocaleDateString(undefined, {
+  const lastPractised = detail.lastPractisedAt || detail.lastActiveAt;
+  const formattedLastActive = lastPractised
+    ? new Date(lastPractised).toLocaleDateString(undefined, {
         month: 'short',
         day: 'numeric',
         year: 'numeric',
@@ -121,9 +123,17 @@ export function AdminStudentDetailPage() {
             </div>
           </div>
 
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-surface-raised border border-surface-highlight text-xs text-text-muted">
-            <Calendar className="w-4 h-4 text-primary-600" />
-            <span>Last Active: <strong className="text-text font-semibold">{formattedLastActive}</strong></span>
+          <div className="flex flex-wrap items-center gap-2">
+            {detail.resumePosition && (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-primary-50 border border-primary-200 text-xs text-primary-800 font-bold">
+                <PlayCircle className="w-4 h-4 text-primary-600" />
+                <span>Resume: {detail.resumePosition}</span>
+              </div>
+            )}
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-surface-raised border border-surface-highlight text-xs text-text-muted">
+              <Calendar className="w-4 h-4 text-primary-600" />
+              <span>Last Practised: <strong className="text-text font-semibold">{formattedLastActive}</strong></span>
+            </div>
           </div>
         </div>
       </div>
@@ -131,32 +141,20 @@ export function AdminStudentDetailPage() {
       {/* Student Overview Metrics */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
         <div className="bg-surface-raised border border-surface-highlight rounded-2xl p-4 shadow-sm text-center">
-          <div className="text-xs font-semibold text-text-muted">Overall Completion</div>
-          <div className="text-2xl sm:text-3xl font-display font-extrabold text-primary-600 mt-2">
-            {detail.summary.completionPercentage}%
+          <div className="text-xs font-semibold text-text-muted">Accuracy</div>
+          <div className="text-2xl sm:text-3xl font-display font-extrabold text-emerald-600 mt-2 flex items-center justify-center gap-1">
+            <Target className="w-5 h-5 text-emerald-500" />
+            <span>{detail.accuracy ?? detail.summary.accuracy ?? 0}%</span>
           </div>
-          <div className="w-full bg-surface-highlight rounded-full h-1.5 mt-3 overflow-hidden">
-            <div
-              className="bg-primary-600 h-1.5 rounded-full"
-              style={{ width: `${detail.summary.completionPercentage}%` }}
-            />
-          </div>
+          <span className="text-[11px] text-text-muted mt-2 block">Correct on first / all</span>
         </div>
 
         <div className="bg-surface-raised border border-surface-highlight rounded-2xl p-4 shadow-sm text-center">
-          <div className="text-xs font-semibold text-text-muted">Activities Done</div>
-          <div className="text-2xl sm:text-3xl font-display font-extrabold text-text mt-2">
-            {detail.summary.activitiesCompleted}
-          </div>
-          <span className="text-[11px] text-text-muted mt-2 block">Completed sessions</span>
-        </div>
-
-        <div className="bg-surface-raised border border-surface-highlight rounded-2xl p-4 shadow-sm text-center">
-          <div className="text-xs font-semibold text-text-muted">Questions Done</div>
+          <div className="text-xs font-semibold text-text-muted">Done (Answered Correct)</div>
           <div className="text-2xl sm:text-3xl font-display font-extrabold text-text mt-2">
             {detail.summary.questionsCompleted}
           </div>
-          <span className="text-[11px] text-text-muted mt-2 block">Answered correctly</span>
+          <span className="text-[11px] text-text-muted mt-2 block">Answered correctly ≥1 time</span>
         </div>
 
         <div className="bg-surface-raised border border-surface-highlight rounded-2xl p-4 shadow-sm text-center">
@@ -182,10 +180,26 @@ export function AdminStudentDetailPage() {
           </div>
           <span className="text-[11px] text-rose-700/80 mt-2 block">Total extra attempts</span>
         </div>
+
+        <div className="bg-surface-raised border border-surface-highlight rounded-2xl p-4 shadow-sm text-center">
+          <div className="text-xs font-semibold text-text-muted">Overall Completion</div>
+          <div className="text-2xl sm:text-3xl font-display font-extrabold text-primary-600 mt-2">
+            {detail.summary.completionPercentage}%
+          </div>
+          <div className="w-full bg-surface-highlight rounded-full h-1.5 mt-3 overflow-hidden">
+            <div
+              className="bg-primary-600 h-1.5 rounded-full"
+              style={{ width: `${detail.summary.completionPercentage}%` }}
+            />
+          </div>
+        </div>
       </div>
 
-      {/* Category Mastery Table */}
+      {/* Category Mastery Table (Done / Not Done / Accuracy) */}
       <CategoryMasteryTable categories={detail.categoryMastery} />
+
+      {/* Module Progress Table (Done / Not Done per module) */}
+      <ModuleProgressTable modules={detail.moduleProgress} />
 
       {/* Question & Attempt Log */}
       <QuestionHistoryTable questions={detail.questions} />

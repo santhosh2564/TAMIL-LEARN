@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronRight, ArrowUpDown, Filter } from 'lucide-react';
+import { Search, ChevronRight, ArrowUpDown, PlayCircle } from 'lucide-react';
 import { StudentProgressSummary } from '../../../admin/types';
-import { Button } from '../../../components/ui/Button';
 
 interface StudentTableProps {
   students: StudentProgressSummary[];
@@ -12,6 +11,7 @@ type SortField =
   | 'studentName'
   | 'activitiesCompleted'
   | 'questionsCompleted'
+  | 'accuracy'
   | 'firstAttemptCorrectCount'
   | 'questionsRetriedCount'
   | 'totalRetriesCount'
@@ -58,8 +58,8 @@ export function StudentTable({ students }: StudentTableProps) {
 
     // Sort
     result.sort((a, b) => {
-      let valA: string | number = a[sortField];
-      let valB: string | number = b[sortField];
+      let valA: string | number = a[sortField] ?? 0;
+      let valB: string | number = b[sortField] ?? 0;
 
       if (sortField === 'lastActiveAt') {
         valA = new Date(valA).getTime();
@@ -87,7 +87,7 @@ export function StudentTable({ students }: StudentTableProps) {
             Student Progress Roster
           </h2>
           <p className="text-sm text-text-muted mt-1">
-            Real-time learning analytics, accuracy rates, and retry counts across all registered students.
+            Real-time learning analytics, accuracy rates, resume positions, and retry counts across registered students.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export function StudentTable({ students }: StudentTableProps) {
           <button
             type="button"
             onClick={() => setFilterMode('all')}
-            className={`px-3 py-1.5 rounded-lg transition-colors ${
+            className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
               filterMode === 'all'
                 ? 'bg-primary-600 text-white shadow-sm'
                 : 'text-text-muted hover:text-text'
@@ -107,7 +107,7 @@ export function StudentTable({ students }: StudentTableProps) {
           <button
             type="button"
             onClick={() => setFilterMode('active')}
-            className={`px-3 py-1.5 rounded-lg transition-colors ${
+            className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
               filterMode === 'active'
                 ? 'bg-primary-600 text-white shadow-sm'
                 : 'text-text-muted hover:text-text'
@@ -118,7 +118,7 @@ export function StudentTable({ students }: StudentTableProps) {
           <button
             type="button"
             onClick={() => setFilterMode('retried')}
-            className={`px-3 py-1.5 rounded-lg transition-colors ${
+            className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
               filterMode === 'retried'
                 ? 'bg-primary-600 text-white shadow-sm'
                 : 'text-text-muted hover:text-text'
@@ -141,30 +141,10 @@ export function StudentTable({ students }: StudentTableProps) {
         />
       </div>
 
-      {/* Table */}
+      {/* Roster Table */}
       {filteredAndSortedStudents.length === 0 ? (
-        <div className="py-16 text-center space-y-3">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-surface text-text-muted">
-            <Filter className="w-6 h-6" />
-          </div>
-          <h3 className="text-lg font-bold text-text">No students match your filter</h3>
-          <p className="text-sm text-text-muted max-w-sm mx-auto">
-            {searchTerm
-              ? `No student profiles match "${searchTerm}". Try another search term.`
-              : 'No students have been recorded under this category yet.'}
-          </p>
-          {(searchTerm || filterMode !== 'all') && (
-            <Button
-              variant="secondary"
-              onClick={() => {
-                setSearchTerm('');
-                setFilterMode('all');
-              }}
-              className="text-xs py-1.5 px-3"
-            >
-              Clear filters
-            </Button>
-          )}
+        <div className="text-center py-12 text-text-muted">
+          No students match the current criteria.
         </div>
       ) : (
         <div className="overflow-x-auto rounded-2xl border border-surface-highlight bg-white">
@@ -181,20 +161,20 @@ export function StudentTable({ students }: StudentTableProps) {
                   </div>
                 </th>
                 <th
-                  onClick={() => handleSort('activitiesCompleted')}
-                  className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
-                >
-                  <div className="flex items-center justify-center gap-1">
-                    Activities Completed
-                    <ArrowUpDown className="w-3.5 h-3.5" />
-                  </div>
-                </th>
-                <th
                   onClick={() => handleSort('questionsCompleted')}
                   className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
                 >
                   <div className="flex items-center justify-center gap-1">
-                    Questions Completed
+                    Done (Correct)
+                    <ArrowUpDown className="w-3.5 h-3.5" />
+                  </div>
+                </th>
+                <th
+                  onClick={() => handleSort('accuracy')}
+                  className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
+                >
+                  <div className="flex items-center justify-center gap-1 text-primary-700">
+                    Accuracy
                     <ArrowUpDown className="w-3.5 h-3.5" />
                   </div>
                 </th>
@@ -203,16 +183,7 @@ export function StudentTable({ students }: StudentTableProps) {
                   className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
                 >
                   <div className="flex items-center justify-center gap-1 text-emerald-700">
-                    First-Attempt Correct
-                    <ArrowUpDown className="w-3.5 h-3.5" />
-                  </div>
-                </th>
-                <th
-                  onClick={() => handleSort('questionsRetriedCount')}
-                  className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
-                >
-                  <div className="flex items-center justify-center gap-1 text-amber-700">
-                    Questions Retried
+                    1st Try Correct
                     <ArrowUpDown className="w-3.5 h-3.5" />
                   </div>
                 </th>
@@ -221,25 +192,17 @@ export function StudentTable({ students }: StudentTableProps) {
                   className="py-3.5 px-3 text-center cursor-pointer hover:text-text select-none"
                 >
                   <div className="flex items-center justify-center gap-1 text-rose-700">
-                    Total Retries
+                    Retries
                     <ArrowUpDown className="w-3.5 h-3.5" />
                   </div>
                 </th>
-                <th
-                  onClick={() => handleSort('completionPercentage')}
-                  className="py-3.5 px-4 text-center cursor-pointer hover:text-text select-none"
-                >
-                  <div className="flex items-center justify-center gap-1">
-                    Completion %
-                    <ArrowUpDown className="w-3.5 h-3.5" />
-                  </div>
-                </th>
+                <th className="py-3.5 px-3 text-center">Resume Position</th>
                 <th
                   onClick={() => handleSort('lastActiveAt')}
                   className="py-3.5 px-4 text-right cursor-pointer hover:text-text select-none"
                 >
                   <div className="flex items-center justify-end gap-1">
-                    Last Active
+                    Last Practised
                     <ArrowUpDown className="w-3.5 h-3.5" />
                   </div>
                 </th>
@@ -248,8 +211,9 @@ export function StudentTable({ students }: StudentTableProps) {
             </thead>
             <tbody className="divide-y divide-surface-highlight">
               {filteredAndSortedStudents.map((student) => {
-                const formattedDate = student.lastActiveAt
-                  ? new Date(student.lastActiveAt).toLocaleDateString(undefined, {
+                const lastPractised = student.lastPractisedAt || student.lastActiveAt;
+                const formattedDate = lastPractised
+                  ? new Date(lastPractised).toLocaleDateString(undefined, {
                       month: 'short',
                       day: 'numeric',
                       hour: '2-digit',
@@ -278,30 +242,29 @@ export function StudentTable({ students }: StudentTableProps) {
                       </div>
                     </td>
                     <td className="py-4 px-3 text-center font-bold text-text">
-                      {student.activitiesCompleted}
+                      <span className="inline-flex px-2.5 py-0.5 rounded-full text-xs font-extrabold bg-blue-50 text-blue-700 border border-blue-200">
+                        {student.questionsCompleted}
+                      </span>
                     </td>
                     <td className="py-4 px-3 text-center font-bold text-text">
-                      {student.questionsCompleted}
+                      <span className={`inline-flex px-2 py-0.5 rounded-full text-xs font-bold ${
+                        student.accuracy >= 80
+                          ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                          : student.accuracy >= 50
+                          ? 'bg-amber-50 text-amber-700 border border-amber-200'
+                          : 'bg-surface text-text-muted'
+                      }`}>
+                        {student.accuracy}%
+                      </span>
                     </td>
                     <td className="py-4 px-3 text-center">
-                      <span className="inline-flex items-center justify-center px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                      <span className="inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
                         {student.firstAttemptCorrectCount}
                       </span>
                     </td>
                     <td className="py-4 px-3 text-center">
                       <span
-                        className={`inline-flex items-center justify-center px-2.5 py-1 rounded-full text-xs font-bold border ${
-                          student.questionsRetriedCount > 0
-                            ? 'bg-amber-50 text-amber-700 border-amber-200'
-                            : 'bg-surface text-text-muted border-surface-highlight'
-                        }`}
-                      >
-                        {student.questionsRetriedCount}
-                      </span>
-                    </td>
-                    <td className="py-4 px-3 text-center">
-                      <span
-                        className={`inline-flex items-center justify-center px-2.5 py-1 rounded-full text-xs font-bold border ${
+                        className={`inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold border ${
                           student.totalRetriesCount > 0
                             ? 'bg-rose-50 text-rose-700 border-rose-200'
                             : 'bg-surface text-text-muted border-surface-highlight'
@@ -310,18 +273,15 @@ export function StudentTable({ students }: StudentTableProps) {
                         {student.totalRetriesCount}
                       </span>
                     </td>
-                    <td className="py-4 px-4 text-center">
-                      <div className="flex items-center justify-center gap-2">
-                        <div className="w-16 bg-surface-highlight rounded-full h-2 overflow-hidden">
-                          <div
-                            className="bg-primary-600 h-2 rounded-full transition-all duration-300"
-                            style={{ width: `${student.completionPercentage}%` }}
-                          />
-                        </div>
-                        <span className="text-xs font-bold text-text min-w-[32px]">
-                          {student.completionPercentage}%
+                    <td className="py-4 px-3 text-center">
+                      {student.resumePosition ? (
+                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-primary-50 text-primary-700 border border-primary-200">
+                          <PlayCircle className="w-3.5 h-3.5" />
+                          <span>{student.resumePosition}</span>
                         </span>
-                      </div>
+                      ) : (
+                        <span className="text-xs text-text-muted">—</span>
+                      )}
                     </td>
                     <td className="py-4 px-4 text-right text-xs text-text-muted whitespace-nowrap">
                       {formattedDate}
@@ -331,7 +291,7 @@ export function StudentTable({ students }: StudentTableProps) {
                         type="button"
                         onClick={() => navigate(`/admin/students/${encodeURIComponent(student.studentId)}`)}
                         className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-primary-50 text-primary-700 font-bold text-xs hover:bg-primary-100 border border-primary-200 transition-colors cursor-pointer"
-                        aria-label={`View progress for ${student.studentName}`}
+                        aria-label={`Details for ${student.studentName}`}
                       >
                         <span>Details</span>
                         <ChevronRight className="w-3.5 h-3.5" />

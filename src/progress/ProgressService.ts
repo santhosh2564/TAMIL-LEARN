@@ -70,7 +70,6 @@ export class ProgressService {
     // 3. Persist student-scoped progress
     await this.repository.saveActivityProgress(progress);
     neonSync.syncAttempt(attempt).catch(() => {});
-    neonSync.syncProgress(progress).catch(() => {});
 
     return { progress, attempt };
   }
@@ -109,9 +108,6 @@ export class ProgressService {
     };
 
     await this.repository.saveActivityProgress(progress);
-    if (studentId) {
-      neonSync.syncProgress(progress).catch(() => {});
-    }
   }
 
   /**

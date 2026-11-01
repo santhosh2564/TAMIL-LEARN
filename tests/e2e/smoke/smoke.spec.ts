@@ -7,7 +7,7 @@ test.describe('Global Health & Smoke Verification', () => {
     const body = await res.json();
     expect(body.status).toBe('ok');
     expect(body.database).toBe('connected');
-    expect(body.provider).toContain('Neon');
+    expect(body.provider).toBeUndefined();
   });
 
   test('verifies application loads cleanly at root without page errors', async ({ page }) => {
@@ -16,9 +16,14 @@ test.describe('Global Health & Smoke Verification', () => {
     const failedRequests: string[] = [];
 
     page.on('pageerror', err => pageErrors.push(err.message));
+    // Expected on a fresh load, not errors: the "is an admin logged in?" probe answers 401,
+    // and the Vercel analytics script only exists when hosted on Vercel.
+    const expectedFailedResources = ['/api/admin/session', '/_vercel/insights/script.js'];
     page.on('console', msg => {
       if (msg.type() === 'error') {
-        consoleErrors.push(msg.text());
+        const resource = msg.location().url || '';
+        if (expectedFailedResources.some((r) => resource.endsWith(r))) return;
+        consoleErrors.push(`${msg.text()} ${resource}`);
       }
     });
     page.on('requestfailed', req => {

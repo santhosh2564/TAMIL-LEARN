@@ -17,8 +17,8 @@ test.describe('Phase D: English Visual Assets & Content Browser QA', () => {
     });
 
     page.on('requestfailed', (req) => {
-      // Ignore favicon or non-critical
-      if (!req.url().includes('favicon')) {
+      // Ignore favicon, and the Vercel analytics script (only served when hosted on Vercel)
+      if (!req.url().includes('favicon') && !req.url().includes('/_vercel/insights/')) {
         failedRequests.push(`${req.url()} (${req.failure()?.errorText})`);
       }
     });
@@ -92,7 +92,7 @@ test.describe('Phase D: English Visual Assets & Content Browser QA', () => {
     });
 
     page.on('requestfailed', (req) => {
-      if (!req.url().includes('favicon')) {
+      if (!req.url().includes('favicon') && !req.url().includes('/_vercel/insights/')) {
         failedRequests.push(`${req.url()} (${req.failure()?.errorText})`);
       }
     });

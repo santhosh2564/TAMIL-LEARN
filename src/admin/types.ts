@@ -5,6 +5,7 @@ export interface StudentProgressSummary {
   studentName: string;
   createdAt: string;
   lastActiveAt: string;
+  lastPractisedAt?: string | null;
   activitiesCompleted: number;
   totalQuestionsAttempted: number;
   questionsCompleted: number;
@@ -12,6 +13,8 @@ export interface StudentProgressSummary {
   questionsRetriedCount: number;
   totalRetriesCount: number;
   completionPercentage: number;
+  accuracy: number;
+  resumePosition?: string | null;
 }
 
 export interface AdminDashboardMetrics {
@@ -28,10 +31,23 @@ export interface StudentCategoryMastery {
   category: ActivityCategory;
   categoryTitle: string;
   totalAvailable: number;
-  completed: number;
+  completed: number; // Done = answered correctly at least once
+  notDone: number; // Not done
+  accuracy: number;
   firstAttemptCorrect: number;
   retried: number;
   totalRetries: number;
+  completionPercentage: number;
+}
+
+export interface StudentModuleProgress {
+  moduleId: number;
+  moduleTitle: string;
+  subject: 'tamil' | 'english';
+  totalAvailable: number;
+  completed: number; // Done = answered correctly at least once
+  notDone: number; // Not done
+  accuracy: number;
   completionPercentage: number;
 }
 
@@ -54,7 +70,11 @@ export interface StudentDetailedProgress {
   studentName: string;
   createdAt: string;
   lastActiveAt: string;
+  lastPractisedAt?: string | null;
+  accuracy: number;
+  resumePosition?: string | null;
   summary: StudentProgressSummary;
   categoryMastery: StudentCategoryMastery[];
+  moduleProgress: StudentModuleProgress[];
   questions: QuestionAttemptDetail[];
 }

@@ -4,6 +4,7 @@ import { AdminProgressService } from '../../admin/AdminProgressService';
 import { AdminDashboardMetrics, StudentProgressSummary } from '../../admin/types';
 import { SummaryCards } from './components/SummaryCards';
 import { StudentTable } from './components/StudentTable';
+import { ClassManagementSection } from './components/ClassManagementSection';
 import { LoadingState } from '../../components/ui/LoadingState';
 import { Button } from '../../components/ui/Button';
 
@@ -75,7 +76,6 @@ export function AdminDashboardPage() {
           onClick={loadDashboardData}
           disabled={isLoading}
           className="inline-flex items-center gap-2 text-sm py-2 px-4"
-          aria-label="Refresh dashboard data"
         >
           <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
           <span>Refresh Data</span>
@@ -84,6 +84,9 @@ export function AdminDashboardPage() {
 
       {/* Summary Cards */}
       {metrics && <SummaryCards metrics={metrics} />}
+
+      {/* Class & Student Card Management */}
+      <ClassManagementSection />
 
       {/* Student Table */}
       <StudentTable students={students} />

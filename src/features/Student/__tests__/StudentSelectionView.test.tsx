@@ -1,122 +1,139 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { MemoryRouter } from 'react-router-dom';
 import { StudentSelectionView } from '../StudentSelectionView';
 import { StudentProvider } from '../../../student';
 
 describe('StudentSelectionView Component', () => {
-  const store: Record<string, string> = {};
-
   beforeEach(() => {
-    Object.keys(store).forEach((k) => delete store[k]);
-    vi.stubGlobal('localStorage', {
-      getItem: (k: string) => store[k] ?? null,
-      setItem: (k: string, v: string) => {
-        store[k] = v;
-      },
-      removeItem: (k: string) => {
-        delete store[k];
-      },
-    });
+    localStorage.clear();
+    vi.restoreAllMocks();
   });
 
-  it('shows new student input when no students exist', async () => {
+  it('shows prompt to set up computer when no classId is stored in localStorage', async () => {
     render(
-      <StudentProvider>
-        <StudentSelectionView />
-      </StudentProvider>
+      <MemoryRouter>
+        <StudentProvider>
+          <StudentSelectionView />
+        </StudentProvider>
+      </MemoryRouter>
     );
 
     await waitFor(() => {
-      expect(screen.getByText("What's your name?")).toBeInTheDocument();
-      expect(screen.getByPlaceholderText('Enter your name')).toBeInTheDocument();
-      expect(screen.getByRole('button', { name: /Start Learning/i })).toBeInTheDocument();
+      expect(screen.getByRole('heading', { name: /Set up this computer/i })).toBeInTheDocument();
+      expect(screen.getByText(/This computer has not been set up with a class yet/i)).toBeInTheDocument();
     });
   });
 
-  it('allows creating a new student and sets them as active', async () => {
-    const user = userEvent.setup();
-    const handleSuccess = vi.fn();
+  it('loads and displays student roster when classId is configured', async () => {
+    localStorage.setItem('sara_class_id', 'class-123');
 
-    render(
-      <StudentProvider>
-        <StudentSelectionView onSuccess={handleSuccess} />
-      </StudentProvider>
-    );
-
-    const input = await screen.findByPlaceholderText('Enter your name');
-    await user.type(input, 'Arjun');
-    await user.click(screen.getByRole('button', { name: /Start Learning/i }));
-
-    await waitFor(() => {
-      expect(handleSuccess).toHaveBeenCalledTimes(1);
-    });
-  });
-
-  it('displays existing students and allows switching', async () => {
-    // Seed existing students
-    store['sa.students.v1'] = JSON.stringify({
-      version: 1,
-      updatedAt: new Date().toISOString(),
-      students: [
-        { id: 'id-arjun', name: 'Arjun', createdAt: new Date().toISOString(), lastActiveAt: new Date().toISOString() },
-        { id: 'id-priya', name: 'Priya', createdAt: new Date().toISOString(), lastActiveAt: new Date().toISOString() },
-      ],
+    vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL) => {
+      const url = typeof input === 'string' ? input : input.toString();
+      if (url.includes('/api/classes/class-123/roster')) {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({
+            class: { id: 'class-123', name: 'Class 3A', grade: 'Class 3' },
+            students: [
+              { id: 's-1', name: 'Kavin', avatar: 'avatar_1' },
+              { id: 's-2', name: 'Malar', avatar: 'avatar_2' },
+            ],
+          }),
+        } as Response);
+      }
+      if (url.includes('/api/student/session')) {
+        return Promise.resolve({
+          ok: false,
+          status: 401,
+          json: async () => ({ error: 'Unauthorized' }),
+        } as Response);
+      }
+      return Promise.reject(new Error(`Unhandled URL: ${url}`));
     });
 
-    const user = userEvent.setup();
-    const handleSuccess = vi.fn();
-
     render(
-      <StudentProvider>
-        <StudentSelectionView onSuccess={handleSuccess} />
-      </StudentProvider>
+      <MemoryRouter>
+        <StudentProvider>
+          <StudentSelectionView />
+        </StudentProvider>
+      </MemoryRouter>
     );
 
-    // Should show "Who is learning today?"
     await waitFor(() => {
       expect(screen.getByText('Who is learning today?')).toBeInTheDocument();
-      expect(screen.getByText('Arjun')).toBeInTheDocument();
-      expect(screen.getByText('Priya')).toBeInTheDocument();
-    });
-
-    // Select Priya
-    await user.click(screen.getByRole('button', { name: /Select student Priya/i }));
-
-    await waitFor(() => {
-      expect(handleSuccess).toHaveBeenCalledTimes(1);
+      expect(screen.getByText('Class 3A')).toBeInTheDocument();
+      expect(screen.getByText('Kavin')).toBeInTheDocument();
+      expect(screen.getByText('Malar')).toBeInTheDocument();
     });
   });
 
-  it('allows switching from student list to new student form', async () => {
-    store['sa.students.v1'] = JSON.stringify({
-      version: 1,
-      updatedAt: new Date().toISOString(),
-      students: [
-        { id: 'id-arjun', name: 'Arjun', createdAt: new Date().toISOString(), lastActiveAt: new Date().toISOString() },
-      ],
-    });
-
+  it('selects student on click and displays Continue card if an active session exists', async () => {
+    localStorage.setItem('sara_class_id', 'class-123');
     const user = userEvent.setup();
 
-    render(
-      <StudentProvider>
-        <StudentSelectionView />
-      </StudentProvider>
-    );
-
-    await waitFor(() => {
-      expect(screen.getByText('Arjun')).toBeInTheDocument();
+    vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL, init?: RequestInit) => {
+      const url = typeof input === 'string' ? input : input.toString();
+      if (url.includes('/api/classes/class-123/roster')) {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({
+            class: { id: 'class-123', name: 'Class 3A', grade: 'Class 3' },
+            students: [{ id: 's-1', name: 'Kavin', avatar: 'avatar_1' }],
+          }),
+        } as Response);
+      }
+      if (url.includes('/api/student/select') && init?.method === 'POST') {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({
+            success: true,
+            student: { id: 's-1', name: 'Kavin', avatar: 'avatar_1', classId: 'class-123', schoolId: 'sch-1' },
+          }),
+        } as Response);
+      }
+      if (url.includes('/api/students/s-1/sessions/active')) {
+        return Promise.resolve({
+          ok: true,
+          json: async () => ({
+            session: {
+              id: 'sess-active-1',
+              studentId: 's-1',
+              subject: 'tamil',
+              categoryOrModule: 'spelling-choice',
+              activityIds: ['q1', 'q2', 'q3', 'q4', 'q5'],
+              currentIndex: 3,
+              status: 'active',
+            },
+          }),
+        } as Response);
+      }
+      if (url.includes('/api/student/session')) {
+        return Promise.resolve({
+          ok: false,
+          status: 401,
+          json: async () => ({ error: 'Unauthorized' }),
+        } as Response);
+      }
+      return Promise.resolve({ ok: true, json: async () => ({}) } as Response);
     });
 
-    // Click "+ New Student"
-    await user.click(screen.getByRole('button', { name: /\+ New Student/i }));
+    render(
+      <MemoryRouter>
+        <StudentProvider>
+          <StudentSelectionView />
+        </StudentProvider>
+      </MemoryRouter>
+    );
 
-    expect(screen.getByText("What's your name?")).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Back/i })).toBeInTheDocument();
+    const studentBtn = await screen.findByRole('button', { name: /Select student Kavin/i });
+    await user.click(studentBtn);
 
-    // Click Back
-    await user.click(screen.getByRole('button', { name: /Back/i }));
-    expect(screen.getByText('Who is learning today?')).toBeInTheDocument();
+    await waitFor(() => {
+      expect(screen.getByTestId('session-resume-card')).toBeInTheDocument();
+      expect(screen.getByText(/Question 4 of 5/i)).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: /தொடர்க \/ Continue/i })).toBeInTheDocument();
+    });
   });
 });

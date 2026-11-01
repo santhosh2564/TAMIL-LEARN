@@ -11,7 +11,7 @@ export function CategoryMasteryTable({ categories }: CategoryMasteryTableProps) 
         <h3 className="text-lg sm:text-xl font-display font-bold text-text">
           Progress by Learning Category
         </h3>
-        <span className="text-xs text-text-muted font-medium">6 Educational Families</span>
+        <span className="text-xs text-text-muted font-medium">Educational Families</span>
       </div>
 
       <div className="overflow-x-auto rounded-2xl border border-surface-highlight bg-white">
@@ -19,10 +19,12 @@ export function CategoryMasteryTable({ categories }: CategoryMasteryTableProps) 
           <thead>
             <tr className="bg-surface border-b border-surface-highlight text-text-muted font-bold text-xs uppercase tracking-wider">
               <th className="py-3 px-4">Category</th>
-              <th className="py-3 px-4 text-center">Completed</th>
+              <th className="py-3 px-4 text-center">Done (Correct)</th>
+              <th className="py-3 px-4 text-center">Not Done</th>
               <th className="py-3 px-4 text-center">Total Available</th>
-              <th className="py-3 px-4 text-center">First-Attempt Correct</th>
-              <th className="py-3 px-4 text-center">Total Retries</th>
+              <th className="py-3 px-4 text-center">Accuracy %</th>
+              <th className="py-3 px-4 text-center">1st-Attempt Correct</th>
+              <th className="py-3 px-4 text-center">Retries</th>
               <th className="py-3 px-4 text-center">Completion %</th>
             </tr>
           </thead>
@@ -33,11 +35,17 @@ export function CategoryMasteryTable({ categories }: CategoryMasteryTableProps) 
                   <div>{cat.categoryTitle}</div>
                   <div className="text-[11px] text-text-muted font-mono">{cat.category}</div>
                 </td>
-                <td className="py-3.5 px-4 text-center font-bold text-text">
+                <td className="py-3.5 px-4 text-center font-bold text-emerald-700">
                   {cat.completed}
                 </td>
                 <td className="py-3.5 px-4 text-center text-text-muted">
+                  {cat.notDone ?? Math.max(0, cat.totalAvailable - cat.completed)}
+                </td>
+                <td className="py-3.5 px-4 text-center text-text-muted">
                   {cat.totalAvailable}
+                </td>
+                <td className="py-3.5 px-4 text-center font-bold text-primary-700">
+                  {cat.accuracy ?? 0}%
                 </td>
                 <td className="py-3.5 px-4 text-center">
                   <span className="inline-flex px-2 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">

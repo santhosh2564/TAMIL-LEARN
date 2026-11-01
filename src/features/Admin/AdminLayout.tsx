@@ -72,7 +72,6 @@ export function AdminLayout() {
               variant="secondary"
               onClick={handleLogout}
               className="inline-flex items-center gap-1.5 text-danger-600 hover:text-danger-700 hover:bg-danger-50 border border-danger-200 text-xs py-1.5 px-3"
-              aria-label="Log out of admin portal"
             >
               <LogOut className="w-4 h-4" />
               <span>Sign Out</span>
