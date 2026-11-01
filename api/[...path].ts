@@ -29,6 +29,14 @@ export default async function handler(
   req: IncomingMessage & { body?: unknown },
   res: ServerResponse
 ): Promise<void> {
-  await handleApiRequest(req, res);
+  // If Vercel stripped '/api' from req.url, restore it so apiHandler routes properly
+  if (req.url && !req.url.startsWith('/api')) {
+    req.url = '/api' + (req.url.startsWith('/') ? req.url : '/' + req.url);
+  }
+  const handled = await handleApiRequest(req, res);
+  if (!handled && !res.writableEnded) {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({ error: 'Endpoint not found' }));
+  }
 }
-

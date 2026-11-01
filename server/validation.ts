@@ -26,7 +26,12 @@ export async function parseBody<T>(
 
   if (req.body !== undefined) {
     // Vercel pre-parses the body
-    raw = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
+    try {
+      raw = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
+    } catch {
+      sendJson(res, 400, { error: 'Invalid JSON request body' });
+      return { ok: false };
+    }
   } else {
     raw = await readStream(req);
   }
