@@ -6,7 +6,8 @@ import {
   ActivityCategory,
   ActivityVariant,
   ActivityOption,
-  ContentManifest
+  TamilCurriculumManifest,
+  TamilModuleManifest
 } from '../src/types';
 import { extractSourceId } from '../src/engine/assets/sourceIdExtractor';
 import { ingestTamilImages } from './ingest-tamil-images';
@@ -14,9 +15,11 @@ import { ingestTamilImages } from './ingest-tamil-images';
 const require = createRequire(import.meta.url);
 const xlsx = require('xlsx');
 
-const WORKBOOK_FILE = fs.existsSync(path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx'))
-  ? path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx')
-  : path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx');
+const WORKBOOK_FILE = fs.existsSync(path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059_Allocated_40Days.xlsx'))
+  ? path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059_Allocated_40Days.xlsx')
+  : (fs.existsSync(path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx'))
+    ? path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx')
+    : path.resolve('Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx'));
 
 const OUT_DIR = path.resolve('src/content/class-3/tamil');
 const EXISTING_ACTIVITIES_FILE = path.join(OUT_DIR, 'activities.json');
@@ -43,6 +46,10 @@ interface RawRecord {
   'Position in Module'?: number;
   'Normalized Word'?: string;
   'Master Sequence'?: number;
+  'Day'?: string;
+  'Day Number'?: number;
+  'Position in Day'?: number;
+  'Activity Group'?: string;
   image?: {
     path?: string;
     sourcePageUrl?: string;
@@ -106,8 +113,15 @@ function parseLevel(levelStr?: string | null): number {
 
 function parseModuleNumber(modStr?: string | null): number {
   if (!modStr) return 1;
-  const m = modStr.match(/\d+/);
+  const m = String(modStr).match(/\d+/);
   return m ? parseInt(m[0], 10) : 1;
+}
+
+function parseDayNumber(dayVal?: string | number | null): number | undefined {
+  if (dayVal === undefined || dayVal === null) return undefined;
+  if (typeof dayVal === 'number') return dayVal;
+  const m = String(dayVal).match(/\d+/);
+  return m ? parseInt(m[0], 10) : undefined;
 }
 
 function splitDelimited(str?: string): string[] {
@@ -136,6 +150,7 @@ export function normalizeRecord(
   }
 
   const moduleNum = parseModuleNumber(rec['Module']);
+  const dayNum = parseDayNumber(rec['Day Number'] ?? rec['Day']);
   const levelNum = parseLevel(rec['Level']);
   const targetWord = rec['Target Word']?.trim() || '';
   const correctAnswer = rec['Correct Answer']?.trim() || targetWord;
@@ -231,6 +246,7 @@ export function normalizeRecord(
     subject: 'Tamil',
     language: 'ta-IN',
     module: moduleNum,
+    day: dayNum,
     level: levelNum,
     targetWord: targetWord,
     category,
@@ -239,13 +255,16 @@ export function normalizeRecord(
     correctAnswer,
     learningObjective: `${rawActivity} recognition and practice for ${targetWord}`,
     source: {
-      workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx',
+      workbook: 'Tamil_Fresh_Source_Word_List_FINAL_1059_Allocated_40Days.xlsx',
       questionId: (rec['Question ID'] || sourceId) as string,
       ftsId: (rec['FTS ID'] || (sourceId.startsWith('FTS') ? sourceId : undefined)) as string | undefined,
       originalActivity: rawActivity
     },
     metadata: {
       positionInModule: rec['Position in Module'],
+      positionInDay: rec['Position in Day'],
+      dayNumber: dayNum,
+      activityGroup: rec['Activity Group'] || category,
       masterSequence: rec['Master Sequence'],
       sourceBatch: rec['Source Batch'],
       sourceMeaningNotes: rec['Source Meaning / Notes'],
@@ -319,49 +338,58 @@ export function importTamilContent() {
   }
 
   const wb = xlsx.readFile(WORKBOOK_FILE);
+  const masterSheet = wb.Sheets['Master Allocation'];
+  if (!masterSheet) {
+    throw new Error(`Master Allocation sheet not found in workbook ${WORKBOOK_FILE}`);
+  }
+
+  const masterRows: RawRecord[] = xlsx.utils.sheet_to_json(masterSheet);
+  console.log(`Total rows read from Master Allocation: ${masterRows.length}`);
+
   const allActivities: Activity[] = [];
   const moduleActivitiesMap = new Map<number, Activity[]>();
 
-  for (let modNum = 1; modNum <= 8; modNum++) {
-    const sheetName = `Module ${modNum}`;
-    const ws = wb.Sheets[sheetName];
-    if (!ws) {
-      throw new Error(`Sheet ${sheetName} not found in workbook ${WORKBOOK_FILE}`);
-    }
-    const rows: RawRecord[] = xlsx.utils.sheet_to_json(ws);
-    const modActivities: Activity[] = [];
+  for (let pos = 0; pos < masterRows.length; pos++) {
+    const row = masterRows[pos];
+    const normalized = normalizeRecord(row, availableImageIds, assetManifest);
 
-    for (let pos = 0; pos < rows.length; pos++) {
-      const row = rows[pos];
-      const normalized = normalizeRecord(row, availableImageIds, assetManifest);
-      normalized.module = modNum;
-      normalized.metadata = {
-        ...normalized.metadata,
-        positionInModule: (row['Position in Module'] ?? (pos + 1)) as number,
-        masterSequence: (row['Master Sequence'] ?? (allActivities.length + 1)) as number,
-        sourceBatch: row['Source Batch'] as string | undefined,
-        sourceMeaningNotes: (row['Source Meaning / Notes'] ?? null) as string | number | null,
-        sourceReferenceContext: (row['Source Reference / Context'] ?? null) as string | null,
-        pictureSpecification: (row['Picture Specification'] ?? undefined) as string | undefined,
-        verificationFlag: (row['Verification Flag'] ?? null) as string | null
-      };
+    let finalActivity: Activity;
+    const sid = normalized.id.toUpperCase();
+    const existing = existingActivitiesMap.get(sid);
 
-      // Preserve existing verified distractor tokens / template overrides if compatible
-      const sid = normalized.id.toUpperCase();
-      const existing = existingActivitiesMap.get(sid);
-      if (existing) {
-        if (existing.template) normalized.template = existing.template;
-        if (existing.options && existing.options.length > 0 && normalized.category === existing.category) {
-          normalized.options = existing.options;
+    if (existing) {
+      // Preserve verified prompt, category, variant, options, template, and source overrides
+      finalActivity = {
+        ...existing,
+        module: normalized.module,
+        day: normalized.day,
+        metadata: {
+          ...existing.metadata,
+          positionInModule: normalized.metadata?.positionInModule ?? existing.metadata?.positionInModule,
+          positionInDay: normalized.metadata?.positionInDay ?? existing.metadata?.positionInDay,
+          dayNumber: normalized.metadata?.dayNumber ?? existing.metadata?.dayNumber,
+          activityGroup: normalized.metadata?.activityGroup ?? existing.metadata?.activityGroup,
+          masterSequence: normalized.metadata?.masterSequence ?? existing.metadata?.masterSequence
         }
-      }
-
-      modActivities.push(normalized);
-      allActivities.push(normalized);
+      };
+    } else {
+      finalActivity = normalized;
     }
 
-    moduleActivitiesMap.set(modNum, modActivities);
+    const modNum = finalActivity.module || 1;
+    if (!moduleActivitiesMap.has(modNum)) {
+      moduleActivitiesMap.set(modNum, []);
+    }
+    moduleActivitiesMap.get(modNum)!.push(finalActivity);
+    allActivities.push(finalActivity);
   }
+
+  // Sort allActivities by Master Sequence (1..1178) to preserve canonical order
+  allActivities.sort((a, b) => {
+    const seqA = Number(a.metadata?.masterSequence || 0);
+    const seqB = Number(b.metadata?.masterSequence || 0);
+    return seqA - seqB;
+  });
 
   console.log(`Total normalized Tamil activities: ${allActivities.length}`);
   const withImages = allActivities.filter(a => a.needsImage);
@@ -379,15 +407,110 @@ export function importTamilContent() {
     'utf8'
   );
 
+  // Build module & day summaries for manifest
+  const moduleSummaries: {
+    module: number;
+    title: string;
+    totalActivities: number;
+    days: {
+      day: number;
+      totalCount: number;
+      activityTypesCount?: number;
+      activityDistribution?: Record<string, number>;
+    }[];
+  }[] = [];
+
+  for (let modNum = 1; modNum <= 8; modNum++) {
+    const modActs = moduleActivitiesMap.get(modNum) || [];
+
+    // Sort module activities by day, then positionInDay
+    modActs.sort((a, b) => {
+      const dayA = a.day || 1;
+      const dayB = b.day || 1;
+      if (dayA !== dayB) return dayA - dayB;
+      const posA = Number(a.metadata?.positionInDay || 0);
+      const posB = Number(b.metadata?.positionInDay || 0);
+      return posA - posB;
+    });
+
+    const daysSummary: {
+      day: number;
+      totalCount: number;
+      activityTypesCount?: number;
+      activityDistribution?: Record<string, number>;
+    }[] = [];
+
+    for (let d = 1; d <= 5; d++) {
+      const dayActs = modActs.filter(a => a.day === d);
+      const actDist: Record<string, number> = {};
+      for (const a of dayActs) {
+        const cat = a.source?.originalActivity || a.category;
+        actDist[cat] = (actDist[cat] || 0) + 1;
+      }
+      daysSummary.push({
+        day: d,
+        totalCount: dayActs.length,
+        activityTypesCount: Object.keys(actDist).length,
+        activityDistribution: actDist
+      });
+    }
+
+    moduleSummaries.push({
+      module: modNum,
+      title: `தொகுதி ${modNum} (Module ${modNum})`,
+      totalActivities: modActs.length,
+      days: daysSummary
+    });
+
+    // Write per-module folder files
+    const modDir = path.join(OUT_DIR, `module-${modNum}`);
+    if (!fs.existsSync(modDir)) {
+      fs.mkdirSync(modDir, { recursive: true });
+    }
+
+    fs.writeFileSync(
+      path.join(modDir, 'activities.json'),
+      JSON.stringify(modActs, null, 2),
+      'utf8'
+    );
+
+    const modManifest: TamilModuleManifest = {
+      module: modNum,
+      title: `தொகுதி ${modNum} (Module ${modNum})`,
+      classLevel: 3,
+      subject: 'Tamil',
+      activityCount: modActs.length,
+      totalActivities: modActs.length,
+      days: daysSummary,
+      supportedCategories: [
+        'picture-recognition',
+        'word-completion',
+        'arrange-word',
+        'spelling-choice',
+        'context-choice',
+        'meaning-match'
+      ],
+      version: '2.1.0'
+    };
+
+    fs.writeFileSync(
+      path.join(modDir, 'manifest.json'),
+      JSON.stringify(modManifest, null, 2),
+      'utf8'
+    );
+  }
+
   // 2. Curriculum manifest
-  const manifest: ContentManifest = {
+  const manifest: TamilCurriculumManifest = {
     classLevel: 3,
     subject: 'Tamil',
     language: 'ta-IN',
-    version: '2.0.0',
-    sourceVersion: 'Tamil Fresh Source Word List Final 1059 (Tamil_Fresh_Source_Word_List_FINAL_1059.xlsx)',
+    version: '2.1.0',
+    sourceVersion: 'Tamil Fresh Source Word List Final 1059 Allocated 40 Days (Tamil_Fresh_Source_Word_List_FINAL_1059_Allocated_40Days.xlsx)',
     generatedDate: new Date().toISOString(),
     activityCount: allActivities.length,
+    totalActivities: allActivities.length,
+    moduleCount: 8,
     supportedCategories: [
       'picture-recognition',
       'word-completion',
@@ -395,7 +518,8 @@ export function importTamilContent() {
       'spelling-choice',
       'context-choice',
       'meaning-match'
-    ]
+    ],
+    modules: moduleSummaries
   };
 
   fs.writeFileSync(
@@ -403,29 +527,6 @@ export function importTamilContent() {
     JSON.stringify(manifest, null, 2),
     'utf8'
   );
-
-  // 3. Per-module folders
-  for (const [modNum, acts] of moduleActivitiesMap.entries()) {
-    const modDir = path.join(OUT_DIR, `module-${modNum}`);
-    if (!fs.existsSync(modDir)) {
-      fs.mkdirSync(modDir, { recursive: true });
-    }
-    fs.writeFileSync(
-      path.join(modDir, 'activities.json'),
-      JSON.stringify(acts, null, 2),
-      'utf8'
-    );
-    fs.writeFileSync(
-      path.join(modDir, 'manifest.json'),
-      JSON.stringify({
-        module: modNum,
-        classLevel: 3,
-        subject: 'Tamil',
-        activityCount: acts.length
-      }, null, 2),
-      'utf8'
-    );
-  }
 
   console.log('Tamil content successfully imported and written to:', OUT_DIR);
   return { allActivities, manifest, assetManifest };

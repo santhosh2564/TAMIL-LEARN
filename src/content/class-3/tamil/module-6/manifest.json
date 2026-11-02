@@ -1,6 +1,95 @@
 {
   "module": 6,
+  "title": "தொகுதி 6 (Module 6)",
   "classLevel": 3,
   "subject": "Tamil",
-  "activityCount": 147
+  "activityCount": 147,
+  "totalActivities": 147,
+  "days": [
+    {
+      "day": 1,
+      "totalCount": 30,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Arrange Tamil Units": 6,
+        "Picture → Arrange": 5,
+        "Correct Spelling": 5,
+        "English Meaning → Tamil Word": 4,
+        "Picture → Select": 4,
+        "Missing Letter": 3,
+        "Context → Select/Drag": 2,
+        "Context → Drag Word": 1
+      }
+    },
+    {
+      "day": 2,
+      "totalCount": 30,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Arrange Tamil Units": 6,
+        "Picture → Arrange": 5,
+        "Correct Spelling": 5,
+        "English Meaning → Tamil Word": 4,
+        "Picture → Select": 4,
+        "Missing Letter": 3,
+        "Context → Select/Drag": 2,
+        "Context → Correct Spelling": 1
+      }
+    },
+    {
+      "day": 3,
+      "totalCount": 29,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Arrange Tamil Units": 6,
+        "Picture → Arrange": 5,
+        "English Meaning → Tamil Word": 4,
+        "Correct Spelling": 4,
+        "Picture → Select": 4,
+        "Context → Select/Drag": 3,
+        "Missing Letter": 2,
+        "Context → Drag Word": 1
+      }
+    },
+    {
+      "day": 4,
+      "totalCount": 29,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Arrange Tamil Units": 5,
+        "Picture → Arrange": 5,
+        "English Meaning → Tamil Word": 5,
+        "Correct Spelling": 4,
+        "Picture → Select": 3,
+        "Missing Letter": 3,
+        "Context → Select/Drag": 3,
+        "Context → Drag Word": 1
+      }
+    },
+    {
+      "day": 5,
+      "totalCount": 29,
+      "activityTypesCount": 9,
+      "activityDistribution": {
+        "Arrange Tamil Units": 5,
+        "Picture → Arrange": 5,
+        "English Meaning → Tamil Word": 5,
+        "Correct Spelling": 4,
+        "Picture → Select": 4,
+        "Missing Letter": 2,
+        "Context → Select/Drag": 2,
+        "Context → Drag Word": 1,
+        "English Meaning → Arrange Tamil Word": 1
+      }
+    }
+  ],
+  "supportedCategories": [
+    "picture-recognition",
+    "word-completion",
+    "arrange-word",
+    "spelling-choice",
+    "context-choice",
+    "meaning-match"
+  ],
+  "version": "2.1.0"
 }

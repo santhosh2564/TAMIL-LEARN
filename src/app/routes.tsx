@@ -6,6 +6,8 @@ import { SubjectSelectionPage } from '../features/Navigation/SubjectSelectionPag
 import { LearningAreaPage } from '../features/Navigation/LearningAreaPage';
 import { EnglishLearningAreaPage } from '../features/Navigation/EnglishLearningAreaPage';
 import { EnglishModuleDetailPage } from '../features/Navigation/EnglishModuleDetailPage';
+import { TamilLearningAreaPage } from '../features/Navigation/TamilLearningAreaPage';
+import { TamilModuleDetailPage } from '../features/Navigation/TamilModuleDetailPage';
 import { SessionPage } from '../features/Session/SessionPage';
 import { SessionSetupPage } from '../features/Session/SessionSetupPage';
 import { ResultsPage } from '../features/Session/ResultsPage';
@@ -68,6 +70,14 @@ export const routes: RouteObject[] = [
             element: <EnglishModuleDetailPage />,
           },
           {
+            path: 'subjects/tamil',
+            element: <TamilLearningAreaPage />,
+          },
+          {
+            path: 'subjects/tamil/modules/:moduleId',
+            element: <TamilModuleDetailPage />,
+          },
+          {
             path: 'subjects/:subjectId',
             element: <LearningAreaPage />,
           },
@@ -92,6 +102,14 @@ export const routes: RouteObject[] = [
             element: <EnglishModuleDetailPage />,
           },
           {
+            path: 'classes/:classId/subjects/tamil',
+            element: <TamilLearningAreaPage />,
+          },
+          {
+            path: 'classes/:classId/subjects/tamil/modules/:moduleId',
+            element: <TamilModuleDetailPage />,
+          },
+          {
             path: 'classes/:classId/subjects/:subjectId',
             element: <LearningAreaPage />,
           },
@@ -110,12 +128,12 @@ export const routes: RouteObject[] = [
         ],
       },
       {
-        path: 'settings',
-        element: <SettingsPage />,
-      },
-      {
         path: 'credits',
         element: <CreditsPage />,
+      },
+      {
+        path: 'settings',
+        element: <SettingsPage />,
       },
       {
         path: 'admin/login',
@@ -131,19 +149,19 @@ export const routes: RouteObject[] = [
         children: [
           {
             index: true,
-            element: <Navigate to="/admin/dashboard" replace />,
+            element: <Navigate to="dashboard" replace />,
           },
           {
             path: 'dashboard',
             element: <AdminDashboardPage />,
           },
           {
-            path: 'schools',
-            element: <AdminSchoolsPage />,
+            path: 'reports',
+            element: <AdminReportsPage />,
           },
           {
-            path: 'classes',
-            element: <Navigate to="/admin/schools" replace />,
+            path: 'schools',
+            element: <AdminSchoolsPage />,
           },
           {
             path: 'students',
@@ -154,18 +172,14 @@ export const routes: RouteObject[] = [
             element: <AdminStudentDetailPage />,
           },
           {
-            path: 'reports',
-            element: <AdminReportsPage />,
-          },
-          {
-            path: 'setup',
+            path: 'setup-computer',
             element: <SetupComputerPage />,
           },
         ],
       },
       {
         path: '*',
-        element: <div className="p-8 text-center font-bold text-xl">404 - Not Found</div>,
+        element: <Navigate to="/" replace />,
       },
     ],
   },

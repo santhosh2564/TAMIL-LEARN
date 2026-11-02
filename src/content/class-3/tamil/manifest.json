@@ -2,10 +2,12 @@
   "classLevel": 3,
   "subject": "Tamil",
   "language": "ta-IN",
-  "version": "2.0.0",
-  "sourceVersion": "Tamil Fresh Source Word List Final 1059 (Tamil_Fresh_Source_Word_List_FINAL_1059 (1).xlsx)",
-  "generatedDate": "2026-10-25T07:06:25.400Z",
+  "version": "2.1.0",
+  "sourceVersion": "Tamil Fresh Source Word List Final 1059 Allocated 40 Days (Tamil_Fresh_Source_Word_List_FINAL_1059_Allocated_40Days.xlsx)",
+  "generatedDate": "2026-11-02T02:01:30.107Z",
   "activityCount": 1178,
+  "totalActivities": 1178,
+  "moduleCount": 8,
   "supportedCategories": [
     "picture-recognition",
     "word-completion",
@@ -13,5 +15,669 @@
     "spelling-choice",
     "context-choice",
     "meaning-match"
+  ],
+  "modules": [
+    {
+      "module": 1,
+      "title": "தொகுதி 1 (Module 1)",
+      "totalActivities": 148,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Correct Spelling": 7,
+            "English Meaning → Tamil Word": 5,
+            "Arrange Tamil Units": 5,
+            "Picture → Select": 4,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 7,
+          "activityDistribution": {
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 4,
+            "Picture → Select": 4,
+            "Picture → Arrange": 4,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 3
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 30,
+          "activityTypesCount": 7,
+          "activityDistribution": {
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 5,
+            "Picture → Select": 4,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 3
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 7,
+          "activityDistribution": {
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 5,
+            "Arrange Tamil Units": 5,
+            "Picture → Select": 4,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 3
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 5,
+            "Arrange Tamil Units": 5,
+            "Picture → Select": 4,
+            "Picture → Arrange": 4,
+            "Context → Select/Drag": 2,
+            "Missing Letter": 2,
+            "Drag & Drop Missing Unit": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "title": "தொகுதி 2 (Module 2)",
+      "totalActivities": 148,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Context → Select/Drag": 5,
+            "Picture → Select": 5,
+            "Arrange Tamil Units": 5,
+            "Correct Spelling": 4,
+            "Picture → Arrange": 3,
+            "Missing Letter": 1,
+            "Drag & Drop Missing Ending": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Context → Select/Drag": 6,
+            "Arrange Tamil Units": 5,
+            "Picture → Select": 4,
+            "Correct Spelling": 3,
+            "Picture → Arrange": 3,
+            "Missing Letter": 2,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Context → Select/Drag": 6,
+            "Picture → Select": 5,
+            "Arrange Tamil Units": 4,
+            "Correct Spelling": 3,
+            "Picture → Arrange": 3,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Context → Select/Drag": 5,
+            "Picture → Select": 5,
+            "Arrange Tamil Units": 5,
+            "Correct Spelling": 3,
+            "Picture → Arrange": 3,
+            "Missing Letter": 1,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Context → Select/Drag": 5,
+            "Picture → Select": 5,
+            "Arrange Tamil Units": 5,
+            "Correct Spelling": 3,
+            "Picture → Arrange": 3,
+            "Missing Letter": 1,
+            "Context → Drag Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "title": "தொகுதி 3 (Module 3)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Picture → Select": 7,
+            "English Meaning → Tamil Word": 6,
+            "Correct Spelling": 5,
+            "Context → Select/Drag": 3,
+            "Picture → Arrange": 3,
+            "Arrange Tamil Units": 3,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Picture → Select": 7,
+            "English Meaning → Tamil Word": 6,
+            "Correct Spelling": 4,
+            "Context → Select/Drag": 4,
+            "Picture → Arrange": 3,
+            "Arrange Tamil Units": 3,
+            "Missing Letter": 2,
+            "Picture → Correct Spelling": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Picture → Select": 7,
+            "English Meaning → Tamil Word": 5,
+            "Correct Spelling": 5,
+            "Context → Select/Drag": 3,
+            "Picture → Arrange": 3,
+            "Arrange Tamil Units": 2,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1,
+            "Drag & Drop Missing Unit": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Picture → Select": 6,
+            "English Meaning → Tamil Word": 6,
+            "Correct Spelling": 5,
+            "Context → Select/Drag": 3,
+            "Picture → Arrange": 3,
+            "Arrange Tamil Units": 2,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1,
+            "Picture → Correct Spelling": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Picture → Select": 6,
+            "English Meaning → Tamil Word": 6,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 4,
+            "Context → Select/Drag": 3,
+            "Arrange Tamil Units": 2,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "தொகுதி 4 (Module 4)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 5,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Arrange": 2,
+            "Context → Drag Word": 1,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 6,
+            "Picture → Select": 5,
+            "Correct Spelling": 4,
+            "Missing Letter": 3,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 2,
+            "Drag & Drop Missing Unit": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Arrange": 2,
+            "Context → Drag Word": 1,
+            "Context → Select": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 5,
+            "Correct Spelling": 5,
+            "Picture → Select": 4,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 2,
+            "Picture → Arrange": 2,
+            "Context → Drag Word": 1,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "English Meaning → Tamil Word": 6,
+            "Arrange Tamil Units": 5,
+            "Correct Spelling": 5,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Arrange": 2,
+            "Context → Drag Word": 1,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "title": "தொகுதி 5 (Module 5)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 9,
+            "Correct Spelling": 5,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 1,
+            "Drag & Drop Missing Unit": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 7,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Picture → Arrange": 3,
+            "Context → Select/Drag": 2
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 3,
+            "Missing Letter": 3,
+            "Picture → Arrange": 2,
+            "Context → Select/Drag": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 3,
+            "Picture → Arrange": 3,
+            "Missing Letter": 2,
+            "Context → Select/Drag": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 6,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 3,
+            "Missing Letter": 3,
+            "Picture → Arrange": 2,
+            "Context → Select/Drag": 2,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "title": "தொகுதி 6 (Module 6)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Picture → Arrange": 5,
+            "Correct Spelling": 5,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Picture → Arrange": 5,
+            "Correct Spelling": 5,
+            "English Meaning → Tamil Word": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Context → Correct Spelling": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 4,
+            "Correct Spelling": 4,
+            "Picture → Select": 4,
+            "Context → Select/Drag": 3,
+            "Missing Letter": 2,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 5,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 5,
+            "Correct Spelling": 4,
+            "Picture → Select": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 3,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Arrange Tamil Units": 5,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 5,
+            "Correct Spelling": 4,
+            "Picture → Select": 4,
+            "Missing Letter": 2,
+            "Context → Select/Drag": 2,
+            "Context → Drag Word": 1,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "title": "தொகுதி 7 (Module 7)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 6,
+            "Picture → Arrange": 5,
+            "Picture → Select": 4,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 1,
+            "Picture → Correct Spelling": 1,
+            "Picture → Missing Unit": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 6,
+            "Picture → Arrange": 5,
+            "Picture → Select": 4,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "English Meaning → Arrange Tamil Units": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 6,
+            "Picture → Arrange": 5,
+            "Picture → Select": 3,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Correct Spelling": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Correct Spelling": 6,
+            "Picture → Arrange": 5,
+            "Picture → Select": 4,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 1,
+            "Context → Drag Word": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 6,
+            "Picture → Arrange": 6,
+            "Correct Spelling": 5,
+            "Picture → Select": 3,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Context → Drag Word": 1
+          }
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "title": "தொகுதி 8 (Module 8)",
+      "totalActivities": 147,
+      "days": [
+        {
+          "day": 1,
+          "totalCount": 30,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Arrange Tamil Units": 9,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Select": 1,
+            "Context → Drag Word": 1,
+            "Drag & Drop Missing Unit": 1
+          }
+        },
+        {
+          "day": 2,
+          "totalCount": 30,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 9,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 4,
+            "English Meaning → Tamil Word": 4,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Select": 2,
+            "English Meaning → Arrange Tamil Word": 1
+          }
+        },
+        {
+          "day": 3,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 9,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 4,
+            "English Meaning → Tamil Word": 3,
+            "Missing Letter": 3,
+            "Context → Select/Drag": 2,
+            "Picture → Select": 2,
+            "English Meaning → Arrange Tamil Units": 1
+          }
+        },
+        {
+          "day": 4,
+          "totalCount": 29,
+          "activityTypesCount": 8,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 4,
+            "Missing Letter": 2,
+            "Context → Select/Drag": 2,
+            "Picture → Select": 2,
+            "Context → Correct Spelling": 1
+          }
+        },
+        {
+          "day": 5,
+          "totalCount": 29,
+          "activityTypesCount": 9,
+          "activityDistribution": {
+            "Arrange Tamil Units": 8,
+            "Correct Spelling": 5,
+            "Picture → Arrange": 5,
+            "English Meaning → Tamil Word": 4,
+            "Missing Letter": 2,
+            "Context → Select/Drag": 2,
+            "Picture → Select": 1,
+            "Context → Drag Word": 1,
+            "Picture → Context/Select": 1
+          }
+        }
+      ]
+    }
   ]
 }

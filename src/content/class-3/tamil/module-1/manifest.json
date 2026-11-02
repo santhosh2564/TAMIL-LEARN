@@ -1,6 +1,91 @@
 {
   "module": 1,
+  "title": "தொகுதி 1 (Module 1)",
   "classLevel": 3,
   "subject": "Tamil",
-  "activityCount": 148
+  "activityCount": 148,
+  "totalActivities": 148,
+  "days": [
+    {
+      "day": 1,
+      "totalCount": 30,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Correct Spelling": 7,
+        "English Meaning → Tamil Word": 5,
+        "Arrange Tamil Units": 5,
+        "Picture → Select": 4,
+        "Picture → Arrange": 3,
+        "Context → Select/Drag": 3,
+        "Missing Letter": 2,
+        "Context → Drag Word": 1
+      }
+    },
+    {
+      "day": 2,
+      "totalCount": 30,
+      "activityTypesCount": 7,
+      "activityDistribution": {
+        "Correct Spelling": 6,
+        "English Meaning → Tamil Word": 6,
+        "Arrange Tamil Units": 4,
+        "Picture → Select": 4,
+        "Picture → Arrange": 4,
+        "Context → Select/Drag": 3,
+        "Missing Letter": 3
+      }
+    },
+    {
+      "day": 3,
+      "totalCount": 30,
+      "activityTypesCount": 7,
+      "activityDistribution": {
+        "Correct Spelling": 6,
+        "English Meaning → Tamil Word": 6,
+        "Arrange Tamil Units": 5,
+        "Picture → Select": 4,
+        "Picture → Arrange": 3,
+        "Context → Select/Drag": 3,
+        "Missing Letter": 3
+      }
+    },
+    {
+      "day": 4,
+      "totalCount": 29,
+      "activityTypesCount": 7,
+      "activityDistribution": {
+        "Correct Spelling": 6,
+        "English Meaning → Tamil Word": 5,
+        "Arrange Tamil Units": 5,
+        "Picture → Select": 4,
+        "Picture → Arrange": 3,
+        "Context → Select/Drag": 3,
+        "Missing Letter": 3
+      }
+    },
+    {
+      "day": 5,
+      "totalCount": 29,
+      "activityTypesCount": 8,
+      "activityDistribution": {
+        "Correct Spelling": 6,
+        "English Meaning → Tamil Word": 5,
+        "Arrange Tamil Units": 5,
+        "Picture → Select": 4,
+        "Picture → Arrange": 4,
+        "Context → Select/Drag": 2,
+        "Missing Letter": 2,
+        "Drag & Drop Missing Unit": 1
+      }
+    }
+  ],
+  "supportedCategories": [
+    "picture-recognition",
+    "word-completion",
+    "arrange-word",
+    "spelling-choice",
+    "context-choice",
+    "meaning-match"
+  ],
+  "version": "2.1.0"
 }

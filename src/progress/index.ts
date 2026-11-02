@@ -4,3 +4,4 @@ export * from './LocalProgressRepository';
 export * from './ProgressService';
 export * from './EnglishProgressService';
 export * from './english/types';
+export * from './TamilProgressService';

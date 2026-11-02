@@ -143,6 +143,36 @@ export interface ContentManifest {
   supportedCategories: ActivityCategory[];
 }
 
+export interface TamilDayAllocation {
+  day: number;
+  totalCount: number;
+  activityTypesCount?: number;
+  activityDistribution?: Record<string, number>;
+}
+
+export interface TamilModuleManifest {
+  classLevel: number;
+  subject: string;
+  module: number;
+  title: string;
+  activityCount: number;
+  totalActivities?: number;
+  days: TamilDayAllocation[];
+  supportedCategories?: ActivityCategory[];
+  version?: string;
+}
+
+export interface TamilCurriculumManifest extends ContentManifest {
+  moduleCount: number;
+  totalActivities?: number;
+  modules: {
+    module: number;
+    title: string;
+    totalActivities: number;
+    days: TamilDayAllocation[];
+  }[];
+}
+
 export interface EnglishDayAllocation {
   day: number;
   newCount: number;

@@ -1,10 +1,20 @@
-import { Activity, ContentManifest, ActivityQuery, EnglishCurriculumManifest, EnglishModuleManifest } from '../types';
+import { Activity, ContentManifest, ActivityQuery, EnglishCurriculumManifest, EnglishModuleManifest, TamilCurriculumManifest, TamilModuleManifest } from '../types';
 
 export interface ContentRepository {
   /**
    * Retrieves the manifest for the content package, detailing versions and supported categories.
    */
   getManifest(): Promise<ContentManifest>;
+
+  /**
+   * Retrieves the curriculum manifest for Tamil Class 3.
+   */
+  getTamilCurriculumManifest(): Promise<TamilCurriculumManifest>;
+
+  /**
+   * Retrieves the module manifest for a specific Tamil module.
+   */
+  getTamilModuleManifest(moduleNumber: number): Promise<TamilModuleManifest | null>;
 
   /**
    * Retrieves the curriculum manifest for English Class 3.

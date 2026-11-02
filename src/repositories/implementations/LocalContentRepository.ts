@@ -1,5 +1,13 @@
 import { ContentRepository } from '../ContentRepository';
-import { Activity, ActivityQuery, ContentManifest, EnglishCurriculumManifest, EnglishModuleManifest } from '../../types';
+import {
+  Activity,
+  ActivityQuery,
+  ContentManifest,
+  EnglishCurriculumManifest,
+  EnglishModuleManifest,
+  TamilCurriculumManifest,
+  TamilModuleManifest
+} from '../../types';
 import { TamilContentLoader } from '../../content/class-3/tamil/TamilContentLoader';
 
 import englishCurriculumManifest from '../../content/class-3/english/manifest.json';
@@ -20,19 +28,42 @@ import m7Activities from '../../content/class-3/english/module-7/activities.json
 import m8Manifest from '../../content/class-3/english/module-8/manifest.json';
 import m8Activities from '../../content/class-3/english/module-8/activities.json';
 
+import tm1Manifest from '../../content/class-3/tamil/module-1/manifest.json';
+import tm2Manifest from '../../content/class-3/tamil/module-2/manifest.json';
+import tm3Manifest from '../../content/class-3/tamil/module-3/manifest.json';
+import tm4Manifest from '../../content/class-3/tamil/module-4/manifest.json';
+import tm5Manifest from '../../content/class-3/tamil/module-5/manifest.json';
+import tm6Manifest from '../../content/class-3/tamil/module-6/manifest.json';
+import tm7Manifest from '../../content/class-3/tamil/module-7/manifest.json';
+import tm8Manifest from '../../content/class-3/tamil/module-8/manifest.json';
+
 export class LocalContentRepository implements ContentRepository {
   private tamilActivities: Activity[];
   private englishActivities: Activity[];
   private activityIndex: Map<string, Activity>;
   private manifest: ContentManifest;
+  private tamilCurriculumManifest: TamilCurriculumManifest;
+  private tamilModuleManifests: Map<number, TamilModuleManifest>;
   private englishManifest: EnglishCurriculumManifest;
   private englishModuleManifests: Map<number, EnglishModuleManifest>;
 
   constructor() {
     const tamilLoader = new TamilContentLoader();
     this.manifest = tamilLoader.loadManifest();
+    this.tamilCurriculumManifest = (this.manifest as unknown) as TamilCurriculumManifest;
     this.tamilActivities = tamilLoader.loadActivities();
     this.englishManifest = englishCurriculumManifest as EnglishCurriculumManifest;
+
+    this.tamilModuleManifests = new Map([
+      [1, tm1Manifest as unknown as TamilModuleManifest],
+      [2, tm2Manifest as unknown as TamilModuleManifest],
+      [3, tm3Manifest as unknown as TamilModuleManifest],
+      [4, tm4Manifest as unknown as TamilModuleManifest],
+      [5, tm5Manifest as unknown as TamilModuleManifest],
+      [6, tm6Manifest as unknown as TamilModuleManifest],
+      [7, tm7Manifest as unknown as TamilModuleManifest],
+      [8, tm8Manifest as unknown as TamilModuleManifest],
+    ]);
 
     this.englishModuleManifests = new Map([
       [1, m1Manifest as EnglishModuleManifest],
@@ -84,12 +115,12 @@ export class LocalContentRepository implements ContentRepository {
       pool = this.tamilActivities;
     } else if (query.subject?.toLowerCase() === 'english') {
       pool = this.englishActivities;
-    } else if (query.subject?.toLowerCase() === 'all') {
-      pool = [...this.tamilActivities, ...this.englishActivities];
     } else if (query.subject?.toLowerCase() === 'tamil') {
       pool = this.tamilActivities;
-    } else if (query.day !== undefined) {
-      // English curriculum has day allocation
+    } else if (query.subject?.toLowerCase() === 'all') {
+      pool = [...this.tamilActivities, ...this.englishActivities];
+    } else if (query.day !== undefined && query.subject === undefined) {
+      // If day is queried without subject, retain existing behavior: default to English
       pool = this.englishActivities;
     } else {
       pool = this.tamilActivities;
@@ -111,6 +142,18 @@ export class LocalContentRepository implements ContentRepository {
 
   async getManifest(): Promise<ContentManifest> {
     return Promise.resolve(this.clone(this.manifest));
+  }
+
+  async getTamilCurriculumManifest(): Promise<TamilCurriculumManifest> {
+    return Promise.resolve(this.clone(this.tamilCurriculumManifest));
+  }
+
+  async getTamilModuleManifest(moduleNumber: number): Promise<TamilModuleManifest | null> {
+    const mod = this.tamilModuleManifests.get(moduleNumber);
+    if (!mod) {
+      return Promise.resolve(null);
+    }
+    return Promise.resolve(this.clone(mod));
   }
 
   async getEnglishCurriculumManifest(): Promise<EnglishCurriculumManifest> {

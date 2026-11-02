@@ -48,7 +48,16 @@ export class SessionActivitySelector {
     // For curriculum module / day sessions, preserve curriculum sequence (Position in Module / Day order).
     // For freeform practice or category drills (no module specified), shuffle for varied practice.
     const shouldShuffle = config.module === undefined && config.day === undefined;
-    const activities = shouldShuffle ? this.shuffle(loadedActivities) : [...loadedActivities];
+    let activities: Activity[];
+    if (shouldShuffle) {
+      activities = this.shuffle(loadedActivities);
+    } else {
+      activities = [...loadedActivities].sort((a, b) => {
+        const posA = Number(a.metadata?.positionInDay ?? a.metadata?.positionInModule ?? 0);
+        const posB = Number(b.metadata?.positionInDay ?? b.metadata?.positionInModule ?? 0);
+        return posA - posB;
+      });
+    }
 
     // Apply session size constraints
     if (config.size.mode === 'fixed') {
