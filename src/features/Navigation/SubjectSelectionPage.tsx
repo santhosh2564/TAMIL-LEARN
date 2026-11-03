@@ -9,8 +9,17 @@ import { Button } from '../../components/ui/Button';
 export function SubjectSelectionPage() {
   const { classId } = useParams<{ classId: string }>();
   const navigate = useNavigate();
-  const { activeStudent } = useStudent();
+  const { activeStudent, logout } = useStudent();
   const [activeSession, setActiveSession] = useState<ActiveSessionDto | null>(null);
+
+  const handleChangeLearner = async () => {
+    try {
+      await logout();
+    } catch {
+      // Ignore errors on logout
+    }
+    navigate('/');
+  };
 
   useEffect(() => {
     let isMounted = true;
@@ -49,7 +58,7 @@ export function SubjectSelectionPage() {
         <div className="flex items-center justify-between">
           <button
             type="button"
-            onClick={() => navigate('/')}
+            onClick={handleChangeLearner}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface-raised hover:bg-surface-highlight text-text-muted hover:text-text font-bold text-sm transition-all border border-surface-highlight shadow-xs cursor-pointer"
             aria-label="Back to Name Entry / பெயர் உள்ளீடுக்குத் திரும்பு"
           >
