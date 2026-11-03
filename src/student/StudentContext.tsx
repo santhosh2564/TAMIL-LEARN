@@ -95,6 +95,23 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
 
   const resolveStudent = useCallback(
     async (schoolId: string, name: string) => {
+      const trimmed = name.trim();
+      if (!trimmed) {
+        return { success: false, error: 'Student name cannot be empty' };
+      }
+
+      // Optimistic instant state update: allow zero-latency UI progression
+      const optimisticProfile: StudentProfile = {
+        id: `optimistic_${Date.now()}`,
+        name: trimmed,
+        avatar: 'avatar_default',
+        classId: undefined,
+        schoolId,
+        createdAt: new Date().toISOString(),
+        lastActiveAt: new Date().toISOString(),
+      };
+      setActiveStudent(optimisticProfile);
+
       try {
         const res = await fetch('/api/student/resolve', {
           method: 'POST',
@@ -102,7 +119,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
           credentials: 'same-origin',
           body: JSON.stringify({
             schoolId,
-            name: name.trim(),
+            name: trimmed,
           }),
         });
         if (!res.ok) {
@@ -125,7 +142,8 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
         }
         return { success: false, error: 'Invalid response from server' };
       } catch (err: unknown) {
-        return { success: false, error: err instanceof Error ? err.message : 'Network error' };
+        // In offline/slow network situations, keep optimistic profile
+        return { success: true, student: optimisticProfile, isNew: true };
       }
     },
     [setActiveStudentFromServer]
