@@ -8,6 +8,7 @@ export function useStudent(): StudentContextValue {
       activeStudent: null,
       activeStudentId: null,
       isLoading: false,
+      resolveStudent: async () => ({ success: false, error: 'StudentContext not found' }),
       selectStudent: async () => ({ success: false, error: 'StudentContext not found' }),
       clearActiveStudentProgress: async () => {},
       logout: async () => {},

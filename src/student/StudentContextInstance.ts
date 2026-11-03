@@ -6,6 +6,10 @@ export interface StudentContextValue {
   activeStudent: StudentProfile | null;
   activeStudentId: string | null;
   isLoading: boolean;
+  resolveStudent: (
+    schoolId: string,
+    name: string
+  ) => Promise<{ success: boolean; student?: StudentProfile; isNew?: boolean; error?: string }>;
   selectStudent: (
     schoolOrClassId: string,
     studentId: string,

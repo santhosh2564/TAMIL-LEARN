@@ -3,14 +3,23 @@ import { Page } from '../../components/ui/Page';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useStudent } from '../../student';
 import { sessionSync, ActiveSessionDto } from '../../services/SessionSyncService';
-import { BookOpen, Languages, Sparkles, Play, CheckCircle2 } from 'lucide-react';
+import { BookOpen, Languages, Sparkles, Play, CheckCircle2, ArrowLeft } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
 export function SubjectSelectionPage() {
   const { classId } = useParams<{ classId: string }>();
   const navigate = useNavigate();
-  const { activeStudent } = useStudent();
+  const { activeStudent, logout } = useStudent();
   const [activeSession, setActiveSession] = useState<ActiveSessionDto | null>(null);
+
+  const handleChangeLearner = async () => {
+    try {
+      await logout();
+    } catch {
+      // Ignore errors on logout
+    }
+    navigate('/');
+  };
 
   useEffect(() => {
     let isMounted = true;
@@ -44,7 +53,20 @@ export function SubjectSelectionPage() {
 
   return (
     <Page>
-      <div className="max-w-5xl mx-auto space-y-10 py-6 sm:py-10 animate-in fade-in duration-200">
+      <div className="max-w-5xl mx-auto space-y-8 py-6 sm:py-10 animate-in fade-in duration-200">
+        {/* Navigation & Welcome Header */}
+        <div className="flex items-center justify-between">
+          <button
+            type="button"
+            onClick={handleChangeLearner}
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface-raised hover:bg-surface-highlight text-text-muted hover:text-text font-bold text-sm transition-all border border-surface-highlight shadow-xs cursor-pointer"
+            aria-label="Back to Name Entry / பெயர் உள்ளீடுக்குத் திரும்பு"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>Change Learner / பெயர் மாற்று</span>
+          </button>
+        </div>
+
         {/* Welcome Student Greeting Banner */}
         <div className="text-center space-y-3">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-100 text-primary-700 font-semibold text-xs sm:text-sm shadow-xs">
@@ -56,7 +78,7 @@ export function SubjectSelectionPage() {
             வணக்கம், <span className="text-primary-600">{activeStudent?.name || 'மாணவர்'}</span>!
           </h1>
           <p className="text-base sm:text-xl text-text-muted max-w-2xl mx-auto">
-            இன்று நீங்கள் என்ன பயில விரும்புகிறீர்கள்? Choose a subject to start your learning journey.
+            இன்று நீங்கள் என்ன பயில விரும்புகிறீர்கள்? Choose a course to start your learning journey.
           </p>
         </div>
 
@@ -119,7 +141,7 @@ export function SubjectSelectionPage() {
                   தமிழ் (Tamil)
                 </h2>
                 <p className="text-text-muted text-sm sm:text-base mt-1">
-                  எழுத்துகள், சொல் உருவாக்கம், பட அறிதல், வாக்கிய அமைவு மற்றும் பொருள் பொருத்துதல் பயிற்சிகள்.
+                  8 தொகுதிகள், 40 கற்றல் நாட்கள், பட அறிதல், சொல் உருவாக்கம் மற்றும் பொருள் பொருத்துதல் பயிற்சிகள்.
                 </p>
               </div>
 

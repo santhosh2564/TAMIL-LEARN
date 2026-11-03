@@ -93,6 +93,44 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     offlineOutbox.flush(student.id).catch(() => {});
   }, []);
 
+  const resolveStudent = useCallback(
+    async (schoolId: string, name: string) => {
+      try {
+        const res = await fetch('/api/student/resolve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
+          body: JSON.stringify({
+            schoolId,
+            name: name.trim(),
+          }),
+        });
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          return { success: false, error: err.error || err.message || 'Failed to enter student name' };
+        }
+        const data = await res.json();
+        if (data?.student) {
+          const profile: StudentProfile = {
+            id: data.student.id,
+            name: data.student.name,
+            avatar: data.student.avatar || 'avatar_default',
+            classId: data.student.classId,
+            schoolId: data.student.schoolId,
+            createdAt: new Date().toISOString(),
+            lastActiveAt: new Date().toISOString(),
+          };
+          setActiveStudentFromServer(profile);
+          return { success: true, student: profile, isNew: data.isNew };
+        }
+        return { success: false, error: 'Invalid response from server' };
+      } catch (err: unknown) {
+        return { success: false, error: err instanceof Error ? err.message : 'Network error' };
+      }
+    },
+    [setActiveStudentFromServer]
+  );
+
   const selectStudent = useCallback(
     async (schoolOrClassId: string, studentId: string, pin?: string[]) => {
       try {
@@ -167,12 +205,13 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
       activeStudent,
       activeStudentId: activeStudent?.id ?? null,
       isLoading,
+      resolveStudent,
       selectStudent,
       clearActiveStudentProgress,
       logout,
       setActiveStudentFromServer,
     }),
-    [activeStudent, isLoading, selectStudent, clearActiveStudentProgress, logout, setActiveStudentFromServer]
+    [activeStudent, isLoading, resolveStudent, selectStudent, clearActiveStudentProgress, logout, setActiveStudentFromServer]
   );
 
   return <StudentContext.Provider value={value}>{children}</StudentContext.Provider>;
