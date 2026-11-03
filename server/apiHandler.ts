@@ -74,7 +74,7 @@ import {
   getSessionDetailReportFromDb,
   type StudentRow,
   type SessionRow,
-} from './db';
+} from './db.js';
 import {
   requireAdminSession,
   signAdminSession,
@@ -88,8 +88,8 @@ import {
   getStudentSession,
   requireStudentAccess,
   adminCanAccessStudent,
-} from './auth';
-import { verifyStudentPin, hashPin } from './studentPin';
+} from './auth.js';
+import { verifyStudentPin, hashPin } from './studentPin.js';
 import {
   sendJson,
   parseBody,
@@ -109,7 +109,7 @@ import {
   UpdateAssessmentSessionSchema,
   RecordQuestionAttemptSchema,
   ImportStudentsSchema,
-} from './validation';
+} from './validation.js';
 import bcrypt from 'bcryptjs';
 
 // ── Client IP Helper ──────────────────────────────────────────────────────────

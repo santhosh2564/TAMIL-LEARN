@@ -18,7 +18,7 @@ if (fs.existsSync(envPath)) {
   dotenv.config({ path: envPath });
 }
 
-import { handleApiRequest } from '../server/apiHandler';
+import { handleApiRequest } from '../server/apiHandler.js';
 
 export const config = {
   runtime: 'nodejs',

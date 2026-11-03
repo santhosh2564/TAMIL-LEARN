@@ -1,8 +1,8 @@
 import { neon, NeonQueryFunction } from '@neondatabase/serverless';
 import fs from 'fs';
 import path from 'path';
-import { generateClassCode } from './classCode';
-import { lookupActivityMetadata, allActivityMetadata } from './activityCatalog';
+import { generateClassCode } from './classCode.js';
+import { lookupActivityMetadata, allActivityMetadata } from './activityCatalog.js';
 import type {
   AdminDashboardMetrics,
   StudentProgressSummary,
