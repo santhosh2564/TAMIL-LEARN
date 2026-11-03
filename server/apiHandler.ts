@@ -74,7 +74,7 @@ import {
   getSessionDetailReportFromDb,
   type StudentRow,
   type SessionRow,
-} from './db';
+} from './db.js';
 import {
   requireAdminSession,
   signAdminSession,
@@ -88,8 +88,8 @@ import {
   getStudentSession,
   requireStudentAccess,
   adminCanAccessStudent,
-} from './auth';
-import { verifyStudentPin, hashPin } from './studentPin';
+} from './auth.js';
+import { verifyStudentPin, hashPin } from './studentPin.js';
 import {
   sendJson,
   parseBody,
@@ -109,7 +109,7 @@ import {
   UpdateAssessmentSessionSchema,
   RecordQuestionAttemptSchema,
   ImportStudentsSchema,
-} from './validation';
+} from './validation.js';
 import bcrypt from 'bcryptjs';
 
 // ── Client IP Helper ──────────────────────────────────────────────────────────
@@ -126,24 +126,28 @@ function getClientIp(req: IncomingMessage): string {
 
 // ── Startup validation ────────────────────────────────────────────────────────
 // Validate env vars eagerly so a misconfigured deployment fails loudly.
-function validateEnv(): void {
-  const dbUrl = process.env.DATABASE_URL || process.env.DATABASE_URL_UNPOOLED;
-  if (!dbUrl) {
-    throw new Error(
-      'DATABASE_URL env var is not set. ' +
-      'The server cannot start without a database connection string.'
-    );
-  }
-  const secret = process.env.SESSION_SECRET;
-  if (!secret || secret.length < 32) {
-    throw new Error(
-      'SESSION_SECRET env var is missing or shorter than 32 characters. ' +
-      'Generate one with: openssl rand -base64 48'
-    );
-  }
+export interface EnvValidationResult {
+  valid: boolean;
+  missingVars: string[];
 }
 
-let envValidated = false;
+export function validateEnvironment(): EnvValidationResult {
+  const missingVars: string[] = [];
+  const dbUrl = process.env.DATABASE_URL || process.env.DATABASE_URL_UNPOOLED;
+  if (!dbUrl) {
+    missingVars.push('DATABASE_URL or DATABASE_URL_UNPOOLED');
+  }
+  const secret = process.env.SESSION_SECRET;
+  if (!secret) {
+    missingVars.push('SESSION_SECRET');
+  } else if (secret.length < 32) {
+    missingVars.push('SESSION_SECRET (must be at least 32 characters)');
+  }
+  return {
+    valid: missingVars.length === 0,
+    missingVars,
+  };
+}
 
 // ── Main handler ──────────────────────────────────────────────────────────────
 export async function handleApiRequest(
@@ -153,12 +157,6 @@ export async function handleApiRequest(
   const url = req.url || '';
   if (!url.startsWith('/api')) {
     return false;
-  }
-
-  // Validate env once per process (throws on bad config)
-  if (!envValidated) {
-    validateEnv();
-    envValidated = true;
   }
 
   const [pathname] = url.split('?');
@@ -173,9 +171,41 @@ export async function handleApiRequest(
   try {
     // ── PUBLIC: GET /api/health ───────────────────────────────────────────────
     if (pathname === '/api/health' && req.method === 'GET') {
-      const sql = getDb();
-      await sql.query('SELECT 1;');
-      sendJson(res, 200, { status: 'ok', database: 'connected' });
+      const envCheck = validateEnvironment();
+      if (!envCheck.valid) {
+        console.error('[Health Check Error] Missing configuration:', envCheck.missingVars.join(', '));
+        sendJson(res, 503, {
+          status: 'error',
+          database: 'not_configured',
+          message: 'Required environment variables are not configured.',
+          missing: envCheck.missingVars,
+        });
+        return true;
+      }
+
+      try {
+        const sql = getDb();
+        await sql.query('SELECT 1;');
+        sendJson(res, 200, { status: 'ok', database: 'connected' });
+      } catch (dbErr: unknown) {
+        console.error('[Health Check Error] Database query failed:', dbErr);
+        sendJson(res, 503, {
+          status: 'error',
+          database: 'disconnected',
+          message: 'Database service is currently unreachable.',
+        });
+      }
+      return true;
+    }
+
+    // Validate environment for operational endpoints
+    const envStatus = validateEnvironment();
+    if (!envStatus.valid) {
+      console.error('[Configuration Error] Missing required environment variables:', envStatus.missingVars.join(', '));
+      sendJson(res, 500, {
+        error: 'Server configuration error',
+        message: 'The server is not properly configured. Please contact the administrator.',
+      });
       return true;
     }
 
@@ -848,6 +878,16 @@ export async function handleApiRequest(
     }
 
     // ── All routes below require a valid ADMIN session ────────────────────────
+    const isAdminRoute =
+      pathname.startsWith('/api/admin/') ||
+      pathname.startsWith('/api/students') ||
+      pathname.startsWith('/api/schools');
+
+    if (!isAdminRoute) {
+      sendJson(res, 404, { error: 'Not found' });
+      return true;
+    }
+
     const session = await requireAdminSession(req, res);
     if (!session) return true; // 401 already sent
 

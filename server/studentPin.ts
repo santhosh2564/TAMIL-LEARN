@@ -9,7 +9,7 @@
  */
 
 import bcrypt from 'bcryptjs';
-import { getDb } from './db';
+import { getDb } from './db.js';
 
 export function normalizePin(pin: string | string[] | number[]): string {
   if (Array.isArray(pin)) {

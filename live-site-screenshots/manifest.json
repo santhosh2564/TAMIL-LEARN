@@ -1,0 +1,234 @@
+[
+  {
+    "file": "001-home-no-student.png",
+    "url": "/"
+  },
+  {
+    "file": "002-student-name-entry.png",
+    "url": "/students"
+  },
+  {
+    "file": "003-subjects-no-student.png",
+    "url": "/classes/3/subjects"
+  },
+  {
+    "file": "004-settings-no-student.png",
+    "url": "/settings"
+  },
+  {
+    "file": "005-credits.png",
+    "url": "/credits"
+  },
+  {
+    "file": "006-admin-login.png",
+    "url": "/admin/login"
+  },
+  {
+    "file": "007-admin-login-empty-validation.png",
+    "url": "/admin/login"
+  },
+  {
+    "file": "008-not-found-404.png",
+    "url": "/this-page-does-not-exist"
+  },
+  {
+    "file": "009-subjects.png",
+    "url": "/classes/3/subjects"
+  },
+  {
+    "file": "010-home-with-student.png",
+    "url": "/"
+  },
+  {
+    "file": "011-student-switch-one-student.png",
+    "url": "/students"
+  },
+  {
+    "file": "012-tamil-learning-area.png",
+    "url": "/classes/3/subjects/tamil"
+  },
+  {
+    "file": "013-tamil-setup-mixed.png",
+    "url": "/session/3/tamil/setup"
+  },
+  {
+    "file": "014-tamil-mixed-activity-arrange-word-arrange.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "015-tamil-mixed-arrange-tiles-placed.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "016-tamil-mixed-feedback-correct.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "017-tamil-mixed-activity-meaning-match-translate-select.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "018-tamil-mixed-activity-picture-recognition-select.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "019-tamil-mixed-feedback-wrong.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "020-tamil-mixed-activity-spelling-choice-select.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "021-tamil-mixed-activity-context-choice-fill-blank.png",
+    "url": "/session/3/tamil/play?size=10"
+  },
+  {
+    "file": "022-tamil-setup-picture-recognition.png",
+    "url": "/session/3/tamil/setup?category=picture-recognition"
+  },
+  {
+    "file": "023-tamil-setup-word-completion.png",
+    "url": "/session/3/tamil/setup?category=word-completion"
+  },
+  {
+    "file": "024-tamil-word-completion-activity-word-completion-missing-unit.png",
+    "url": "/session/3/tamil/play?size=10&category=word-completion"
+  },
+  {
+    "file": "025-tamil-setup-arrange-word.png",
+    "url": "/session/3/tamil/setup?category=arrange-word"
+  },
+  {
+    "file": "026-tamil-setup-spelling-choice.png",
+    "url": "/session/3/tamil/setup?category=spelling-choice"
+  },
+  {
+    "file": "027-tamil-setup-context-choice.png",
+    "url": "/session/3/tamil/setup?category=context-choice"
+  },
+  {
+    "file": "028-tamil-setup-meaning-match.png",
+    "url": "/session/3/tamil/setup?category=meaning-match"
+  },
+  {
+    "file": "029-tamil-results.png",
+    "url": "/session/results"
+  },
+  {
+    "file": "030-english-modules.png",
+    "url": "/classes/3/subjects/english"
+  },
+  {
+    "file": "031-english-module-1.png",
+    "url": "/classes/3/subjects/english/modules/1"
+  },
+  {
+    "file": "032-english-m1-activity-spelling-choice-select.png",
+    "url": "/session/3/english/play?module=1&day=1&size=all"
+  },
+  {
+    "file": "033-english-m1-feedback-wrong.png",
+    "url": "/session/3/english/play?module=1&day=1&size=all"
+  },
+  {
+    "file": "034-english-m1-feedback-correct.png",
+    "url": "/session/3/english/play?module=1&day=1&size=all"
+  },
+  {
+    "file": "035-english-m1-activity-arrange-word-arrange.png",
+    "url": "/session/3/english/play?module=1&day=1&size=all"
+  },
+  {
+    "file": "036-english-m1-arrange-tiles-placed.png",
+    "url": "/session/3/english/play?module=1&day=1&size=all"
+  },
+  {
+    "file": "037-english-module-2.png",
+    "url": "/classes/3/subjects/english/modules/2"
+  },
+  {
+    "file": "038-english-m2-activity-word-completion-missing-unit.png",
+    "url": "/session/3/english/play?module=2&day=1&size=all"
+  },
+  {
+    "file": "039-english-module-3.png",
+    "url": "/classes/3/subjects/english/modules/3"
+  },
+  {
+    "file": "040-english-module-4.png",
+    "url": "/classes/3/subjects/english/modules/4"
+  },
+  {
+    "file": "041-english-m4-activity-meaning-match-word-entry.png",
+    "url": "/session/3/english/play?module=4&day=1&size=all"
+  },
+  {
+    "file": "042-english-module-5.png",
+    "url": "/classes/3/subjects/english/modules/5"
+  },
+  {
+    "file": "043-english-m5-activity-picture-recognition-word-entry.png",
+    "url": "/session/3/english/play?module=5&day=1&size=all"
+  },
+  {
+    "file": "044-english-m5-activity-picture-recognition-select.png",
+    "url": "/session/3/english/play?module=5&day=1&size=all"
+  },
+  {
+    "file": "045-english-module-6.png",
+    "url": "/classes/3/subjects/english/modules/6"
+  },
+  {
+    "file": "046-english-module-7.png",
+    "url": "/classes/3/subjects/english/modules/7"
+  },
+  {
+    "file": "047-english-module-8.png",
+    "url": "/classes/3/subjects/english/modules/8"
+  },
+  {
+    "file": "048-english-results-day.png",
+    "url": "/session/results"
+  },
+  {
+    "file": "049-english-results-last-day-of-module.png",
+    "url": "/session/results"
+  },
+  {
+    "file": "050-english-modules-with-progress.png",
+    "url": "/classes/3/subjects/english"
+  },
+  {
+    "file": "051-english-module-1-with-progress.png",
+    "url": "/classes/3/subjects/english/modules/1"
+  },
+  {
+    "file": "052-tamil-learning-area-with-progress.png",
+    "url": "/classes/3/subjects/tamil"
+  },
+  {
+    "file": "053-settings-with-student.png",
+    "url": "/settings"
+  },
+  {
+    "file": "054-settings-confirm-clear-progress.png",
+    "url": "/settings"
+  },
+  {
+    "file": "055-settings-confirm-remove-student.png",
+    "url": "/settings"
+  },
+  {
+    "file": "056-settings-confirm-clear-all.png",
+    "url": "/settings"
+  },
+  {
+    "file": "057-english-module-invalid.png",
+    "url": "/classes/3/subjects/english/modules/99"
+  },
+  {
+    "file": "058-results-no-session.png",
+    "url": "/session/results"
+  }
+]

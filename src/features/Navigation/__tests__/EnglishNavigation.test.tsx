@@ -19,7 +19,7 @@ describe('English Navigation and Curriculum Structure', () => {
         </MemoryRouter>
       );
 
-      const englishCards = screen.getAllByText('English');
+      const englishCards = screen.getAllByText(/^English/);
       expect(englishCards.length).toBeGreaterThan(0);
       // Should not have "Coming Soon" badge for Class 3 English
       const comingSoonBadges = screen.queryAllByText('Coming Soon');

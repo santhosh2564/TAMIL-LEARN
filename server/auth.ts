@@ -6,8 +6,8 @@
  */
 import { SignJWT, jwtVerify, type JWTPayload } from 'jose';
 import { IncomingMessage, ServerResponse } from 'http';
-import { sendJson } from './validation';
-import { getStudentSchoolId } from './db';
+import { sendJson } from './validation.js';
+import { getStudentSchoolId } from './db.js';
 
 // ── Startup secret validation ────────────────────────────────────────────────
 function getSessionSecret(): Uint8Array {
