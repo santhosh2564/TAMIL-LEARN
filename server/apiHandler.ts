@@ -767,10 +767,13 @@ export async function handleApiRequest(
       const caller = await requireStudentAccess(req, res, parsed.data.studentId);
       if (!caller) return true;
 
+      // Always bind studentId to the verified caller when called with a student session
+      const studentId = caller.type === 'student' ? caller.student.sub : parsed.data.studentId;
+
       try {
         const session = await createOrGetAssessmentSessionInDb({
           id: parsed.data.id,
-          studentId: parsed.data.studentId,
+          studentId,
           subjectId: parsed.data.subjectId,
           moduleId: parsed.data.moduleId,
           activityIds: parsed.data.activityIds,
@@ -867,11 +870,14 @@ export async function handleApiRequest(
       const caller = await requireStudentAccess(req, res, parsed.data.studentId);
       if (!caller) return true;
 
+      // Always bind studentId to the verified caller when called with a student session
+      const studentId = caller.type === 'student' ? caller.student.sub : parsed.data.studentId;
+
       try {
         const result = await recordQuestionAttemptInDb({
           id: parsed.data.id,
           sessionId: parsed.data.sessionId,
-          studentId: parsed.data.studentId,
+          studentId,
           subjectId: parsed.data.subjectId,
           moduleId: parsed.data.moduleId,
           activityId: parsed.data.activityId,

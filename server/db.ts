@@ -106,6 +106,7 @@ export async function runMigrations(customDb?: NeonQueryFunction<false, false>):
     { id: '002_attempts_backfill', file: path.resolve(process.cwd(), 'server', 'migrations', 'attempts_metadata_backfill.sql') },
     { id: '003_assessment_tracking', file: path.resolve(process.cwd(), 'server', 'migrations', '003_assessment_tracking.sql') },
     { id: '004_remove_classes', file: path.resolve(process.cwd(), 'server', 'migrations', '004_remove_classes.sql') },
+    { id: '005_student_unique_normalized_name', file: path.resolve(process.cwd(), 'server', 'migrations', '005_student_unique_normalized_name.sql') },
   ];
 
   for (const migration of migrations) {
