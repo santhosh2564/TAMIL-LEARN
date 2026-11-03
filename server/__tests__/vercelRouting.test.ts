@@ -1,7 +1,20 @@
 // @vitest-environment node
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import type { IncomingMessage, ServerResponse } from 'http';
+
+// The handler rejects requests with 500 unless DB and session config are present.
+// Unknown admins resolve to null so login reaches the 401 path without a database.
+vi.mock('../db', async (importOriginal) => ({
+  ...(await importOriginal<typeof import('../db')>()),
+  getAdminByUsername: vi.fn().mockResolvedValue(null),
+}));
+
 import handler, { reconstructRequestedUrl } from '../../api/index';
+
+beforeEach(() => {
+  process.env.SESSION_SECRET = 'test-secret-that-is-at-least-32-characters-long!!';
+  process.env.DATABASE_URL = 'postgresql://fake:fake@fake/fake';
+});
 
 // Helper to mock IncomingMessage
 function createMockRequest(url: string, method = 'GET', body?: unknown): IncomingMessage & { body?: unknown } {
