@@ -421,6 +421,109 @@ export async function getStudentById(studentId: string): Promise<StudentRow | nu
   return rows[0] ?? null;
 }
 
+/**
+ * Finds an active student in a specific school matching the normalized name (case-insensitive & trimmed).
+ */
+export async function findStudentByNameAndSchool(
+  name: string,
+  schoolId: string
+): Promise<StudentRow | null> {
+  const sql = getDb();
+  const normalized = name.trim().replace(/\s+/g, ' ');
+  if (!normalized) return null;
+
+  const rows = (await sql.query(
+    `SELECT * FROM students 
+     WHERE school_id = $1 
+       AND archived_at IS NULL 
+       AND LOWER(TRIM(name)) = LOWER($2)
+     ORDER BY created_at ASC 
+     LIMIT 1;`,
+    [schoolId, normalized]
+  )) as StudentRow[];
+
+  return rows[0] ?? null;
+}
+
+/**
+ * In-memory resolution queue / mutex map to serialize concurrent resolution calls
+ * for the same (schoolId, normalizedName) within the same node process.
+ */
+const resolutionLocks = new Map<string, Promise<{ student: StudentRow; isNew: boolean }>>();
+
+/**
+ * Resolves an existing student or automatically creates a new one by normalized name and school.
+ * Never creates duplicate records for repeated entries of the same name within the same school.
+ * Uses mutex promise serialization for in-flight requests plus PostgreSQL re-checks.
+ */
+export async function getOrCreateStudentByNameAndSchool(
+  name: string,
+  schoolId: string
+): Promise<{ student: StudentRow; isNew: boolean }> {
+  const normalized = name.trim().replace(/\s+/g, ' ');
+  if (!normalized) {
+    throw new Error('Student name cannot be empty');
+  }
+
+  const lockKey = `${schoolId}:${normalized.toLowerCase()}`;
+  const existingLock = resolutionLocks.get(lockKey);
+  if (existingLock) {
+    return existingLock.then((res) => ({ student: res.student, isNew: false }));
+  }
+
+  const resolutionPromise = (async () => {
+    const sql = getDb();
+
+    // 1. Check for existing student
+    const existing = await findStudentByNameAndSchool(normalized, schoolId);
+    if (existing) {
+      await sql.query('UPDATE students SET last_active_at = NOW() WHERE id = $1;', [existing.id]);
+      existing.last_active_at = new Date().toISOString();
+      return { student: existing, isNew: false };
+    }
+
+    // 2. Generate a new student record
+    const newId = `stud_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+    const avatar = 'avatar_default';
+    const rollNo = `R${Date.now().toString().slice(-4)}${Math.floor(Math.random() * 90 + 10)}`;
+
+    try {
+      const inserted = (await sql.query(
+        `INSERT INTO students (id, name, student_name, school_id, class_id, roll_no, roll_number, avatar, is_active, created_at, last_active_at)
+         VALUES ($1, $2, $2, $3, NULL, $4, $4, $5, TRUE, NOW(), NOW())
+         RETURNING *;`,
+        [newId, normalized, schoolId, rollNo, avatar]
+      )) as StudentRow[];
+
+      if (inserted[0]) {
+        return { student: inserted[0], isNew: true };
+      }
+    } catch (err: unknown) {
+      const fallback = await findStudentByNameAndSchool(normalized, schoolId);
+      if (fallback) {
+        await sql.query('UPDATE students SET last_active_at = NOW() WHERE id = $1;', [fallback.id]);
+        fallback.last_active_at = new Date().toISOString();
+        return { student: fallback, isNew: false };
+      }
+      throw err;
+    }
+
+    const rechecked = await findStudentByNameAndSchool(normalized, schoolId);
+    if (rechecked) {
+      return { student: rechecked, isNew: false };
+    }
+
+    throw new Error('Failed to resolve or create student');
+  })();
+
+  resolutionLocks.set(lockKey, resolutionPromise);
+  try {
+    return await resolutionPromise;
+  } finally {
+    resolutionLocks.delete(lockKey);
+  }
+}
+
 export async function unlockStudentPinInDb(studentId: string): Promise<void> {
   const sql = getDb();
   await sql.query(
@@ -1328,13 +1431,15 @@ export async function getSchoolsWithStatsFromDb(): Promise<SchoolWithStatsRow[]>
 
 export async function createSchoolInDb(params: {
   id?: string;
-  schoolName: string;
+  schoolName?: string;
+  name?: string;
   schoolCode?: string;
   address?: string;
   academicYear?: string;
 }): Promise<SchoolWithStatsRow> {
   const sql = getDb();
   const id = params.id || `sch_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
+  const schoolName = (params.schoolName || params.name || '').trim();
   const code = (params.schoolCode || id).toUpperCase().trim();
   const academicYear = params.academicYear || '2026-2027';
 
@@ -1342,7 +1447,7 @@ export async function createSchoolInDb(params: {
     `INSERT INTO schools (id, name, school_name, school_code, address, academic_year, is_active, created_at, updated_at)
      VALUES ($1, $2, $2, $3, $4, $5, TRUE, NOW(), NOW())
      RETURNING id, school_name, school_code, address, academic_year, is_active, created_at, updated_at;`,
-    [id, params.schoolName, code, params.address ?? null, academicYear]
+    [id, schoolName, code, params.address ?? null, academicYear]
   )) as Array<{
     id: string;
     school_name: string;

@@ -42,6 +42,7 @@ import {
   getStudentsForClassRoster,
   checkAndIncrementClassLookupRateLimit,
   getStudentById,
+  getOrCreateStudentByNameAndSchool,
   unlockStudentPinInDb,
   updateStudentPinInDb,
   getActiveSessionForStudentFromDb,
@@ -97,6 +98,7 @@ import {
   AttemptRecordSchema,
   StudentLoginSchema,
   StudentSelectSchema,
+  StudentResolveSchema,
   CreateClassSchema,
   CreateStudentSchema,
   UpdateStudentSchema,
@@ -338,6 +340,52 @@ export async function handleApiRequest(
         },
         students,
       });
+      return true;
+    }
+
+    // ── PUBLIC: POST /api/student/resolve ─────────────────────────────────────
+    // Automatic student resolution by normalized name and school.
+    // If student exists in the school with the same normalized name, resumes that learner.
+    // Otherwise, automatically provisions a new student record in Neon.
+    if (pathname === '/api/student/resolve' && req.method === 'POST') {
+      const parsed = await parseBody(req, res, StudentResolveSchema);
+      if (!parsed.ok) return true;
+
+      const { name, schoolId } = parsed.data;
+      const school = await getSchoolById(schoolId);
+      if (!school || school.archived_at !== null) {
+        sendJson(res, 404, { error: 'School not found or archived' });
+        return true;
+      }
+
+      try {
+        const { student, isNew } = await getOrCreateStudentByNameAndSchool(name, schoolId);
+
+        const token = await signStudentSession({
+          studentId: student.id,
+          schoolId: student.school_id,
+          classId: student.class_id || '',
+        });
+        setStudentCookie(res, token);
+
+        sendJson(res, 200, {
+          success: true,
+          isNew,
+          student: {
+            id: student.id,
+            name: student.name.trim(),
+            avatar: student.avatar,
+            classId: student.class_id,
+            schoolId: student.school_id,
+          },
+        });
+      } catch (err: unknown) {
+        console.error('[Student Resolve Error]:', err);
+        sendJson(res, 500, {
+          error: 'Failed to resolve student',
+          message: err instanceof Error ? err.message : 'Unknown error',
+        });
+      }
       return true;
     }
 

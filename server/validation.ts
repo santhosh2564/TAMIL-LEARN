@@ -99,6 +99,12 @@ export const StudentSelectSchema = z.object({
 });
 export type StudentSelectInput = z.infer<typeof StudentSelectSchema>;
 
+export const StudentResolveSchema = z.object({
+  name: z.string().trim().min(1, 'Student name is required').max(100),
+  schoolId: z.string().min(1, 'School ID is required'),
+});
+export type StudentResolveInput = z.infer<typeof StudentResolveSchema>;
+
 export const StudentLoginSchema = z.object({
   schoolId: z.string().optional(),
   schoolCode: z.string().optional(),
