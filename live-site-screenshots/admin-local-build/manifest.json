@@ -1,0 +1,38 @@
+[
+  {
+    "file": "local-01-admin-dashboard-empty.png",
+    "url": "/admin/dashboard"
+  },
+  {
+    "file": "local-02-admin-dashboard.png",
+    "url": "/admin/dashboard"
+  },
+  {
+    "file": "local-03-admin-dashboard-filter-active.png",
+    "url": "/admin/dashboard"
+  },
+  {
+    "file": "local-04-admin-dashboard-filter-with-retries.png",
+    "url": "/admin/dashboard"
+  },
+  {
+    "file": "local-05-admin-dashboard-no-matches.png",
+    "url": "/admin/dashboard"
+  },
+  {
+    "file": "local-06-admin-student-detail-c.png",
+    "url": "/admin/students/7b3d5c96-6b5d-482d-b975-a6aa41951939"
+  },
+  {
+    "file": "local-07-admin-student-detail-b.png",
+    "url": "/admin/students/da9e2f42-7756-4f45-acf0-2bc3e3b2a6e0"
+  },
+  {
+    "file": "local-08-admin-student-detail-a.png",
+    "url": "/admin/students/e84e8b0f-95f6-4047-b1b9-9519ea5fcdfb"
+  },
+  {
+    "file": "local-09-admin-student-not-found.png",
+    "url": "/admin/students/does-not-exist"
+  }
+]
