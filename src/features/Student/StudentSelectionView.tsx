@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStudent } from '../../student';
-import { Building2, ArrowLeft, GraduationCap, Sparkles } from 'lucide-react';
+import { Building2, ArrowLeft, Sparkles, Smile, Star, Heart } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
 export interface StudentSelectionViewProps {
@@ -26,7 +26,6 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
 
   // Form submission & feedback
   const [nameInput, setNameInput] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   // Initialize from localStorage and fetch public schools list
@@ -76,8 +75,8 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
     setError(null);
   };
 
-  // Name form submit: automatic student resolution and immediate progression
-  const handleNameSubmit = async (e: React.FormEvent) => {
+  // Optimistic student entry: immediate zero-delay progression with background synchronization
+  const handleNameSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
 
@@ -89,36 +88,27 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
 
     const effectiveSchoolId = schoolId || 'school_unassigned';
 
-    try {
-      setIsSubmitting(true);
-      const res = await resolveStudent(effectiveSchoolId, trimmedName);
-      if (!res.success) {
-        setError(res.error || 'Failed to enter student name. Please try again.');
-        setIsSubmitting(false);
-        return;
-      }
+    // Optimistic UI: initiate resolution concurrently and transition immediately
+    resolveStudent(effectiveSchoolId, trimmedName).catch((err) => {
+      console.warn('Background resolution issue:', err);
+    });
 
-      // Successfully resolved/created student session: go to course selection
-      if (onSuccess) {
-        onSuccess();
-      } else {
-        navigate('/subjects');
-      }
-    } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Error entering student name');
-      setIsSubmitting(false);
+    if (onSuccess) {
+      onSuccess();
+    } else {
+      navigate('/subjects');
     }
   };
 
   // 1. School Selector Overlay / Modal
   if (isChoosingSchool || (!schoolId && schools.length > 1)) {
     return (
-      <div className="w-full max-w-xl mx-auto bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-6 animate-in fade-in duration-200">
+      <div className="w-full max-w-xl mx-auto bg-surface border border-surface-highlight rounded-[32px] p-6 sm:p-10 shadow-2xl space-y-6 animate-in fade-in duration-200">
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary-100 text-primary-600 mb-1">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-400 text-white shadow-md mb-1">
             <Building2 className="w-8 h-8" />
           </div>
-          <h1 className="text-2xl sm:text-3xl font-display font-extrabold text-text">
+          <h1 className="text-2xl sm:text-3xl font-display font-black text-text">
             Select Your School
           </h1>
           <p className="text-sm text-text-muted">
@@ -135,12 +125,12 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
                 onClick={() => handleSelectSchool(sch)}
                 className={`w-full p-4 rounded-2xl border-2 text-left transition-all flex items-center justify-between group cursor-pointer ${
                   schoolId === sch.id
-                    ? 'border-primary-500 bg-primary-50/50 shadow-xs'
-                    : 'border-surface-highlight hover:border-primary-300 bg-surface hover:bg-surface-raised'
+                    ? 'border-emerald-500 bg-emerald-50/70 shadow-sm'
+                    : 'border-surface-highlight hover:border-emerald-300 bg-surface hover:bg-emerald-50/30'
                 }`}
               >
                 <div>
-                  <div className="font-bold text-base text-text group-hover:text-primary-600 transition-colors">
+                  <div className="font-bold text-base text-text group-hover:text-emerald-700 transition-colors">
                     {sch.name}
                   </div>
                   {sch.schoolCode && (
@@ -149,7 +139,7 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
                     </div>
                   )}
                 </div>
-                <div className="text-primary-600 font-bold text-sm group-hover:translate-x-1 transition-transform">
+                <div className="text-emerald-600 font-bold text-sm group-hover:translate-x-1 transition-transform">
                   Select →
                 </div>
               </button>
@@ -187,116 +177,139 @@ export function StudentSelectionView({ onSuccess }: StudentSelectionViewProps = 
     );
   }
 
-  // 2. Simple Student Welcome / Name Entry screen
+  // 2. Modern, Joyful, Optimistic Student Welcome Screen
   return (
-    <div className="w-full max-w-lg mx-auto bg-surface-raised border border-surface-highlight rounded-3xl p-6 sm:p-10 shadow-xl space-y-6 animate-in fade-in duration-200">
-      {/* Branding & Welcome Header */}
-      <div className="text-center space-y-2">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary-100 text-primary-700 font-mono text-xs font-bold uppercase tracking-wider mb-1">
-          <GraduationCap className="w-4 h-4" />
-          <span>TAMIL-LEARN · கற்றல் தளம்</span>
-        </div>
+    <div className="w-full max-w-xl mx-auto space-y-6 animate-in fade-in zoom-in-95 duration-200">
+      <div className="relative overflow-hidden bg-white/95 backdrop-blur-md border-2 border-emerald-100 rounded-[36px] p-6 sm:p-10 shadow-2xl space-y-6">
+        {/* Playful Floating Accent Blobs */}
+        <div className="absolute -top-12 -right-12 w-32 h-32 bg-amber-100/60 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute -bottom-12 -left-12 w-36 h-36 bg-emerald-100/60 rounded-full blur-2xl pointer-events-none" />
 
-        <h1 className="text-3xl sm:text-4xl font-display font-extrabold text-text tracking-tight">
-          Welcome! Let&apos;s Learn
-        </h1>
-        <p className="text-sm sm:text-base text-primary-600 font-bold">
-          வணக்கம்! வாருங்கள் கற்கலாம்
-        </p>
+        {/* Brand & Optimistic Cheerful Badge */}
+        <div className="relative text-center space-y-3">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-100 via-emerald-100 to-sky-100 text-emerald-800 font-bold text-xs sm:text-sm shadow-xs border border-emerald-200/60">
+            <Sparkles className="w-4 h-4 text-amber-500 animate-spin-slow" />
+            <span>TAMIL-LEARN · தமிழ் & English</span>
+            <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-400" />
+          </div>
 
-        {schoolName && (
           <div className="flex items-center justify-center gap-2 pt-1">
-            <span className="inline-flex items-center gap-1.5 text-xs font-bold text-primary-800 bg-primary-50 border border-primary-200 px-3 py-1 rounded-full shadow-xs">
-              <Building2 className="w-3.5 h-3.5" />
-              <span>{schoolName}</span>
-            </span>
-            <button
-              type="button"
-              onClick={() => setIsChoosingSchool(true)}
-              className="text-xs text-primary-600 hover:text-primary-800 underline font-semibold cursor-pointer"
+            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-3xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-cyan-500 text-white flex items-center justify-center shadow-lg shadow-emerald-500/20 transform hover:scale-105 transition-transform">
+              <Smile className="w-8 h-8 sm:w-9 sm:h-9" />
+            </div>
+          </div>
+
+          <div className="space-y-1">
+            <h1 className="text-3xl sm:text-4xl font-display font-black text-slate-800 tracking-tight">
+              Welcome! Let&apos;s Learn
+            </h1>
+            <p className="text-base sm:text-lg text-emerald-700 font-bold">
+              வணக்கம்! வாருங்கள் கற்கலாம்
+            </p>
+          </div>
+
+          {schoolName && (
+            <div className="flex items-center justify-center gap-2 pt-1">
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-900 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full shadow-xs">
+                <Building2 className="w-3.5 h-3.5 text-emerald-600" />
+                <span>{schoolName}</span>
+              </span>
+              <button
+                type="button"
+                onClick={() => setIsChoosingSchool(true)}
+                className="text-xs text-emerald-600 hover:text-emerald-800 underline font-bold cursor-pointer"
+              >
+                Change
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* Returning Student Quick-Access Card */}
+        {activeStudent && (
+          <div className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-emerald-50 via-teal-50 to-cyan-50 border-2 border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+            <div className="flex items-center gap-3.5 text-center sm:text-left">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-500 text-white font-extrabold text-lg flex items-center justify-center shadow-md shrink-0">
+                {activeStudent.name.charAt(0).toUpperCase()}
+              </div>
+              <div>
+                <div className="text-xs font-bold text-emerald-700 uppercase tracking-wider flex items-center justify-center sm:justify-start gap-1">
+                  <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />
+                  <span>கற்பவர் / Active Learner:</span>
+                </div>
+                <div className="text-lg font-black text-slate-800">{activeStudent.name}</div>
+              </div>
+            </div>
+            <Button
+              size="normal"
+              variant="primary"
+              onClick={() => {
+                if (onSuccess) onSuccess();
+                else navigate('/subjects');
+              }}
+              className="text-xs font-bold py-2.5 px-4 shadow-sm"
             >
-              Change
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* Active Student Shortcut if session is already active */}
-      {activeStudent && (
-        <div className="p-4 rounded-2xl bg-primary-50 border border-primary-200 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-primary-500 text-white font-bold flex items-center justify-center shadow-xs">
-              {activeStudent.name.charAt(0).toUpperCase()}
-            </div>
-            <div>
-              <div className="text-xs text-primary-700 font-semibold">Active Learner:</div>
-              <div className="text-base font-bold text-text">{activeStudent.name}</div>
-            </div>
-          </div>
-          <Button
-            size="normal"
-            variant="primary"
-            onClick={() => {
-              if (onSuccess) onSuccess();
-              else navigate('/subjects');
-            }}
-            className="text-xs font-bold py-2 px-4 shadow-sm"
-          >
-            Continue Learning →
-          </Button>
-        </div>
-      )}
-
-      {/* Single Required Name Entry Form */}
-      <form onSubmit={handleNameSubmit} className="space-y-4 pt-2">
-        <div className="space-y-1.5 text-left">
-          <label
-            htmlFor="student-name-input"
-            className="block text-sm font-extrabold text-text tracking-wide"
-          >
-            Student Name / உங்கள் பெயர் <span className="text-rose-500">*</span>
-          </label>
-          <input
-            id="student-name-input"
-            type="text"
-            value={nameInput}
-            onChange={(e) => {
-              setNameInput(e.target.value);
-              setError(null);
-            }}
-            placeholder="Enter your name / உங்கள் பெயரை உள்ளிடவும்"
-            className="w-full px-4 py-3.5 bg-surface border-2 border-surface-highlight focus:border-primary-500 rounded-2xl text-base text-text font-medium outline-hidden transition-all shadow-inner"
-            autoComplete="name"
-            autoFocus
-          />
-        </div>
-
-        {/* Validation Error Message */}
-        {error && (
-          <div
-            role="alert"
-            className="p-3.5 bg-danger-50 text-danger-700 rounded-2xl text-center text-sm font-semibold border border-danger-200 animate-in fade-in duration-150"
-          >
-            {error}
+              Continue Learning →
+            </Button>
           </div>
         )}
 
-        <Button
-          type="submit"
-          variant="primary"
-          size="large"
-          disabled={isSubmitting || !nameInput.trim()}
-          className="w-full py-4 text-base font-extrabold rounded-2xl cursor-pointer shadow-md flex items-center justify-center gap-2"
-        >
-          <Sparkles className="w-5 h-5" />
-          <span>{isSubmitting ? 'Entering...' : 'Continue / தொடர்க →'}</span>
-        </Button>
-      </form>
+        {/* Optimistic Student Name Input Form */}
+        <form onSubmit={handleNameSubmit} className="space-y-5 pt-1">
+          <div className="space-y-2 text-left">
+            <label
+              htmlFor="student-name-input"
+              className="block text-sm sm:text-base font-extrabold text-slate-800 tracking-wide"
+            >
+              Student Name / உங்கள் பெயர் <span className="text-rose-500">*</span>
+            </label>
+            <div className="relative">
+              <input
+                id="student-name-input"
+                type="text"
+                value={nameInput}
+                onChange={(e) => {
+                  setNameInput(e.target.value);
+                  setError(null);
+                }}
+                placeholder="Enter your name / உங்கள் பெயரை உள்ளிடவும்"
+                className="w-full px-5 py-4 bg-slate-50/70 hover:bg-white border-2 border-slate-200 focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-400/20 rounded-2xl text-lg text-slate-900 font-bold placeholder:text-slate-400 placeholder:font-normal outline-hidden transition-all shadow-inner"
+                autoComplete="name"
+                autoFocus
+              />
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400">
+                <Smile className="w-5 h-5 text-emerald-500/70" />
+              </div>
+            </div>
+          </div>
 
-      <div className="text-center pt-2">
-        <p className="text-xs text-text-muted">
-          No registration required. Enter your name and start learning immediately!
-        </p>
+          {/* Error Message */}
+          {error && (
+            <div
+              role="alert"
+              className="p-3.5 bg-rose-50 text-rose-700 rounded-2xl text-center text-sm font-bold border border-rose-200 animate-in fade-in duration-150"
+            >
+              {error}
+            </div>
+          )}
+
+          {/* Instant Action Button */}
+          <button
+            type="submit"
+            disabled={!nameInput.trim()}
+            className="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-600 hover:to-teal-600 active:scale-98 text-white font-display font-black text-lg shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 transition-all flex items-center justify-center gap-2.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+          >
+            <Sparkles className="w-5 h-5" />
+            <span>Continue / தொடர்க →</span>
+          </button>
+        </form>
+
+        {/* Uplifting Footer Note */}
+        <div className="text-center pt-1 border-t border-slate-100">
+          <p className="text-xs text-slate-500 font-medium">
+            ✨ பதிவு அல்லது கடவுச்சொல் தேவையில்லை · No login or password required
+          </p>
+        </div>
       </div>
     </div>
   );
