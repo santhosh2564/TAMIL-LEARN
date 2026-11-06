@@ -13,7 +13,7 @@
   "missingIdsCount": 0,
   "unicodeCorruptionsCount": 0,
   "evaluatorMismatchesCount": 0,
-  "xlsxRuntimeDependenciesCount": 0,
+  "xlsxRuntimeDependenciesCount": 2,
   "failedQuestionIds": [],
   "failedTamilWords": [],
   "brokenImagePaths": [],
